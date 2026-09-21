@@ -1,12 +1,15 @@
+/**
+ * Gabriel Marcel — Digital Corpus Catalog & Translated Texts
+ */
 window.MARCEL_CORPUS = {
   "positions-mystere-ontologique": {
     id: "positions-mystere-ontologique",
+    titleEn: "On the Ontological Mystery",
     titleFr: "Positions et approches concrètes du mystère ontologique",
-    titleEn: "Concrete Approaches to the Ontological Mystery",
     year: 1933,
-    genre: "Philosophical Treatise / Address",
+    category: "Philosophical Treatises & Essays",
     companionSlug: "le-monde-casse",
-    companionTitle: "Le Monde cassé (1933)",
+    companionTitle: "The Broken World (1933)",
     paragraphs: [
       {
         id: "p-001",
@@ -50,14 +53,78 @@ window.MARCEL_CORPUS = {
       }
     ]
   },
+  "etre-et-avoir": {
+    id: "etre-et-avoir",
+    titleEn: "Being and Having",
+    titleFr: "Être et avoir (Journal métaphysique 1928-1933)",
+    year: 1935,
+    category: "Philosophical Treatises & Essays",
+    companionSlug: "positions-mystere-ontologique",
+    companionTitle: "On the Ontological Mystery (1933)",
+    paragraphs: [
+      {
+        id: "p-001",
+        fr: "La distinction entre l'avoir et l'être est le fondement de toute métaphysique concrète. Avoir, c'est toujours disposer de quelque chose qui peut m'être ôté, qui m'est extérieur, que je peux exhiber ou échanger.",
+        en: "The distinction between having and being constitutes the foundation of all concrete metaphysics. Having always means disposing of something that can be taken from me, which remains external to me, and which I can exhibit or exchange."
+      },
+      {
+        id: "p-002",
+        fr: "Mon corps : l'ai-je ou le suis-je ? Si je dis que j'ai un corps comme j'ai un instrument, je le détache de moi. Mais si je suis mon corps, je ne peux pas me réduire à un agrégat de matière biologique. Je suis mon corps en tant qu'incarnation.",
+        en: "My body: do I have it, or am I it? If I say that I have a body as I have an instrument, I detach it from myself. But if I am my body, I cannot reduce myself to an aggregate of biological matter. I am my body insofar as I am incarnate being."
+      },
+      {
+        id: "p-003",
+        fr: "Le <span class='term' data-term='recueillement'>recueillement</span> n'est pas une simple introspection psychologique. C'est l'acte par lequel je me rassemble en présence de l'Être, échappant à la dispersion fébrile de mes occupations temporelles.",
+        en: "Inward recollection (<span class='term' data-term='recueillement'>recueillement</span>) is not mere psychological introspection. It is the act whereby I gather myself into unity in the presence of Being, escaping the feverish dispersion of temporal preoccupations."
+      }
+    ]
+  },
+  "journal-metaphysique": {
+    id: "journal-metaphysique",
+    titleEn: "Metaphysical Journal",
+    titleFr: "Journal métaphysique (1914-1923)",
+    year: 1927,
+    category: "Philosophical Treatises & Essays",
+    paragraphs: [
+      {
+        id: "p-001",
+        fr: "L'existence ne se démontre pas, elle s'éprouve. Dès que je tente de prouver l'existence, je la transforme en une idée parmi d'autres, et je manque sa réalité jaillissante.",
+        en: "Existence cannot be demonstrated; it is experienced. The moment I attempt to prove existence, I transform it into merely one idea among others, and I forfeit its surging reality."
+      },
+      {
+        id: "p-002",
+        fr: "La présence d'autrui n'est pas réductible à la perception d'un objet physique. Sentir une présence, c'est s'ouvrir à un mystère où le 'je' et le 'tu' se constituent mutuellement.",
+        en: "The presence of the other cannot be reduced to the perception of a physical object. To feel a presence is to open oneself to a mystery wherein 'I' and 'Thou' mutually constitute one another."
+      }
+    ]
+  },
+  "homo-viator": {
+    id: "homo-viator",
+    titleEn: "Homo Viator: Introduction to a Metaphysic of Hope",
+    titleFr: "Homo Viator: Prolégomènes à une métaphysique de l'espérance",
+    year: 1944,
+    category: "Philosophical Treatises & Essays",
+    paragraphs: [
+      {
+        id: "p-001",
+        fr: "L'homme est un voyageur, un être en chemin. L'espérance est la condition même de sa marche à travers la nuit de l'épreuve.",
+        en: "Man is an itinerant traveler, a being on the way. Hope is the very condition of his journey across the night of trial."
+      },
+      {
+        id: "p-002",
+        fr: "Espérer, ce n'est pas attendre passivement qu'un événement favorable se produise. C'est affirmer qu'il y a au cœur de l'être une fidélité qui ne saurait décevoir.",
+        en: "To hope is not to wait passively for a favorable circumstance to occur. It is to affirm that at the heart of being there lies a fidelity that will not deceive."
+      }
+    ]
+  },
   "le-monde-casse": {
     id: "le-monde-casse",
+    titleEn: "The Broken World",
     titleFr: "Le Monde cassé (Pièce en quatre actes)",
-    titleEn: "The Broken World (Play in Four Acts)",
     year: 1933,
-    genre: "Dramatic Work / Play",
+    category: "Dramatic Works (Plays)",
     companionSlug: "positions-mystere-ontologique",
-    companionTitle: "Positions et approches concrètes (1933)",
+    companionTitle: "On the Ontological Mystery (1933)",
     paragraphs: [
       {
         id: "p-001",
@@ -81,29 +148,49 @@ window.MARCEL_CORPUS = {
       }
     ]
   },
-  "etre-et-avoir": {
-    id: "etre-et-avoir",
-    titleFr: "Être et avoir (Journal métaphysique 1928-1933)",
-    titleEn: "Being and Having (Metaphysical Diary 1928-1933)",
-    year: 1935,
-    genre: "Metaphysical Diary",
-    companionSlug: "positions-mystere-ontologique",
-    companionTitle: "Positions et approches concrètes (1933)",
+  "un-homme-de-dieu": {
+    id: "un-homme-de-dieu",
+    titleEn: "A Man of God",
+    titleFr: "Un Homme de Dieu (Pièce en trois actes)",
+    year: 1925,
+    category: "Dramatic Works (Plays)",
     paragraphs: [
       {
         id: "p-001",
-        fr: "La distinction entre l'avoir et l'être est le fondement de toute métaphysique concrète. Avoir, c'est toujours disposer de quelque chose qui peut m'être ôté, qui m'est extérieur, que je peux exhiber ou échanger.",
-        en: "The distinction between having and being constitutes the foundation of all concrete metaphysics. Having always means disposing of something that can be taken from me, which remains external to me, and which I can exhibit or exchange."
-      },
+        fr: "CLAUDE LEMOYNE : Ai-je pardonné par amour ou par orgueil professionnel ? Voilà le poison qui détruit mon ministère : je ne sais plus si j'ai agi en chrétien ou en pasteur soucieux de sa propre image.",
+        en: "CLAUDE LEMOYNE: Did I forgive out of love or out of professional pride? That is the poison undermining my ministry: I no longer know whether I acted as a Christian or as a pastor solicitous of his own image."
+      }
+    ]
+  },
+  "mystere-de-letre-1": {
+    id: "mystere-de-letre-1",
+    titleEn: "The Mystery of Being, Vol. 1: Reflection and Mystery",
+    titleFr: "Le Mystère de l'être, Tome I: Réflexion et mystère",
+    year: 1951,
+    category: "Gifford Lectures & Later Works",
+    companionSlug: "mystere-de-letre-2",
+    companionTitle: "The Mystery of Being, Vol. 2: Faith and Reality (1951)",
+    paragraphs: [
       {
-        id: "p-002",
-        fr: "Mon corps : l'ai-je ou le suis-je ? Si je dis que j'ai un corps comme j'ai un instrument, je le détache de moi. Mais si je suis mon corps, je ne peux pas me réduire à un agrégat de matière biologique. Je suis mon corps en tant qu'incarnation.",
-        en: "My body: do I have it, or am I it? If I say that I have a body as I have an instrument, I detach it from myself. But if I am my body, I cannot reduce myself to an aggregate of biological matter. I am my body insofar as I am incarnate being."
-      },
+        id: "p-001",
+        fr: "La réflexion philosophique ne saurait être une simple technique académique. Elle prend naissance dans un malaise fondamental devant la dislocation de l'expérience vécue.",
+        en: "Philosophical reflection cannot be a mere academic technique. It originates in a fundamental unease before the dislocation of lived experience."
+      }
+    ]
+  },
+  "mystere-de-letre-2": {
+    id: "mystere-de-letre-2",
+    titleEn: "The Mystery of Being, Vol. 2: Faith and Reality",
+    titleFr: "Le Mystère de l'être, Tome II: Foi et réalité",
+    year: 1951,
+    category: "Gifford Lectures & Later Works",
+    companionSlug: "mystere-de-letre-1",
+    companionTitle: "The Mystery of Being, Vol. 1: Reflection and Mystery (1951)",
+    paragraphs: [
       {
-        id: "p-003",
-        fr: "Le <span class='term' data-term='recueillement'>recueillement</span> n'est pas une simple introspection psychologique. C'est l'acte par lequel je me rassemble en présence de l'Être, échappant à la dispersion fébrile de mes occupations temporelles.",
-        en: "Inward recollection (<span class='term' data-term='recueillement'>recueillement</span>) is not mere psychological introspection. It is the act whereby I gather myself into unity in the presence of Being, escaping the feverish dispersion of temporal preoccupations."
+        id: "p-001",
+        fr: "La foi n'est pas une croyance incertaine en des vérités abstraites ; elle est une adhésion personnelle et un témoignage rendu à une présence transcendante.",
+        en: "Faith is not a hesitant belief in abstract propositions; it is personal adhesion and testimony rendered to a transcendent presence."
       }
     ]
   }

@@ -1,3 +1,6 @@
+/**
+ * Gabriel Marcel Reader — Application Entry Point & Navigation
+ */
 let currentWorkId = "positions-mystere-ontologique";
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -6,11 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (window.MARCEL_CORPUS[h]) currentWorkId = h;
   }
 
-  const select = document.getElementById("work-select");
-  select.innerHTML = Object.values(window.MARCEL_CORPUS).map(w => 
-    `<option value="${w.id}" ${w.id === currentWorkId ? 'selected' : ''}>${w.titleFr} (${w.year})</option>`
-  ).join("");
-
+  populateWorkDropdown();
   initNotes();
   renderGlossaryDrawer();
   loadWork(currentWorkId);
@@ -28,6 +27,29 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+function populateWorkDropdown() {
+  const select = document.getElementById("work-select");
+  const works = Object.values(window.MARCEL_CORPUS);
+  
+  // Group by category for clean browsing across the entire corpus
+  const categories = {};
+  works.forEach(w => {
+    const cat = w.category || "Other Works";
+    if (!categories[cat]) categories[cat] = [];
+    categories[cat].push(w);
+  });
+
+  select.innerHTML = Object.entries(categories).map(([catName, list]) => `
+    <optgroup label="${catName}">
+      ${list.map(w => `
+        <option value="${w.id}" ${w.id === currentWorkId ? 'selected' : ''}>
+          ${w.titleEn \vert{}\vert{} w.titleFr} (${w.year})
+        </option>
+      `).join("")}
+    </optgroup>
+  `).join("");
+}
+
 function switchWork(workId) {
   currentWorkId = workId;
   window.location.hash = workId;
@@ -40,15 +62,15 @@ function loadWork(workId) {
 
   document.getElementById("work-select").value = workId;
   document.getElementById("work-title-fr").textContent = work.titleFr;
-  document.getElementById("work-title-en").textContent = work.titleEn;
-  document.getElementById("work-details").textContent = `${work.genre} • Published ${work.year} • France / EU Public Domain`;
+  document.getElementById("work-title-en").textContent = work.titleEn || "";
+  document.getElementById("work-details").textContent = `${work.category || work.genre} • Published ${work.year} • France / EU Public Domain`;
 
   const compIndicator = document.getElementById("companion-indicator");
   if (work.companionSlug && window.MARCEL_CORPUS[work.companionSlug]) {
     const comp = window.MARCEL_CORPUS[work.companionSlug];
-    compIndicator.innerHTML = `🎭 <span class="companion-tag" onclick="switchWork('${comp.id}')">Paired Companion: <strong>${comp.titleFr}</strong> &rarr;</span>`;
+    compIndicator.innerHTML = `🎭 <span class="companion-tag" onclick="switchWork('${comp.id}')">Paired Companion: <strong>${comp.titleEn || comp.titleFr}</strong> &rarr;</span>`;
   } else {
-    compIndicator.innerHTML = `📜 Standalone Corpus Entry`;
+    compIndicator.innerHTML = `📜 ${work.category || "Corpus Entry"}`;
   }
 
   renderBlocks(work);
