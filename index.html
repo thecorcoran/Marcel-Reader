@@ -49,6 +49,7 @@
             <option value="sepia">🕯️ Sepia</option>
             <option value="dark">🌙 Dark</option>
           </select>
+          <button class="btn" id="btn-cite-work" onclick="openCitationModal()" title="Cite &amp; Export Work (Chicago, MLA, APA, BibTeX, Markdown)" aria-label="Cite and Export Work">🎓 Cite</button>
         </div>
 
         <button class="btn" onclick="toggleNotebook()" title="Personal Notebook" aria-label="Personal Notebook">
@@ -91,6 +92,133 @@
       </div>
     </section>
 
+    <!-- Thematic Guided Reading Itineraries -->
+    <section class="itineraries-section" aria-label="Curated Thematic Reading Paths">
+      <div class="itineraries-header">
+        <span class="itineraries-pill">Curated Pathways</span>
+        <h2 class="itineraries-title">Thematic Reading Itineraries</h2>
+        <p class="itineraries-desc">Structured philosophical itineraries connecting Marcel’s foundational treatises, Gifford lectures, and theatrical companion plays.</p>
+      </div>
+
+      <div class="itineraries-grid">
+        <!-- Itinerary 1 -->
+        <div class="itinerary-card">
+          <div class="itinerary-badge">Diagnosis &amp; Awakening</div>
+          <h3 class="itinerary-name">The Broken World &amp; Technocratic Alienation</h3>
+          <p class="itinerary-text">Explore Marcel's famous diagnosis of the functionalized world (*le monde cassé*), the crisis of presence, and the awakening of metaphysical revolt.</p>
+          <div class="itinerary-steps">
+            <button class="itinerary-step" onclick="loadWork('le-monde-casse', 'act-1')">
+              <span class="step-num">1</span>
+              <span class="step-label"><em>Le Monde cassé</em> (Act I: The Functional Life)</span>
+            </button>
+            <button class="itinerary-step" onclick="loadWork('positions-mystere-ontologique', 'sec-1')">
+              <span class="step-num">2</span>
+              <span class="step-label"><em>On the Ontological Mystery</em> (Section I: The Ticket-Puncher)</span>
+            </button>
+            <button class="itinerary-step" onclick="loadWork('mystere-de-letre-1', 'lec-2')">
+              <span class="step-num">3</span>
+              <span class="step-label"><em>Mystery of Being Vol. 1</em> (Lecture 2: A Broken World)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Itinerary 2 -->
+        <div class="itinerary-card">
+          <div class="itinerary-badge">Epistemology &amp; Mystery</div>
+          <h3 class="itinerary-name">The Dialectic of Having vs. Being</h3>
+          <p class="itinerary-text">Investigate how possession turns into being possessed (*l'avoir*), and the recovery of authentic Being (*l'être*) through secondary reflection.</p>
+          <div class="itinerary-steps">
+            <button class="itinerary-step" onclick="loadWork('etre-et-avoir', 'part-1')">
+              <span class="step-num">1</span>
+              <span class="step-label"><em>Being and Having</em> (Part I: The Problem of the Body)</span>
+            </button>
+            <button class="itinerary-step" onclick="loadWork('positions-mystere-ontologique', 'sec-2')">
+              <span class="step-num">2</span>
+              <span class="step-label"><em>On the Ontological Mystery</em> (Section II: Having and Mystery)</span>
+            </button>
+            <button class="itinerary-step" onclick="loadWork('mystere-de-letre-1', 'lec-5')">
+              <span class="step-num">3</span>
+              <span class="step-label"><em>Mystery of Being Vol. 1</em> (Lecture 5: Secondary Reflection)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Itinerary 3 -->
+        <div class="itinerary-card">
+          <div class="itinerary-badge">Eschatology &amp; Love</div>
+          <h3 class="itinerary-name">Phenomenology of Hope &amp; Creative Fidelity</h3>
+          <p class="itinerary-text">Journey from the experience of captivity and trial into the triumph of hope (*l'espérance*), the creative vow, and love overcoming death.</p>
+          <div class="itinerary-steps">
+            <button class="itinerary-step" onclick="loadWork('homo-viator', 'ch-3')">
+              <span class="step-num">1</span>
+              <span class="step-label"><em>Homo Viator</em> (Chapter 3: Metaphysic of Hope)</span>
+            </button>
+            <button class="itinerary-step" onclick="loadWork('homo-viator', 'ch-2')">
+              <span class="step-num">2</span>
+              <span class="step-label"><em>Homo Viator</em> (Chapter 2: Value and Availability)</span>
+            </button>
+            <button class="itinerary-step" onclick="loadWork('mystere-de-letre-2', 'lec-8')">
+              <span class="step-num">3</span>
+              <span class="step-label"><em>Mystery of Being Vol. 2</em> (Lecture 8: Hope and Death)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Itinerary 4 -->
+        <div class="itinerary-card">
+          <div class="itinerary-badge">Communion &amp; Drama</div>
+          <h3 class="itinerary-name">Theater as Philosophical Laboratory</h3>
+          <p class="itinerary-text">Discover how Marcel used dramatic dialogue to stage existential dilemmas before formalizing them into philosophical essays.</p>
+          <div class="itinerary-steps">
+            <button class="itinerary-step" onclick="loadWork('le-monde-casse', 'act-4')">
+              <span class="step-num">1</span>
+              <span class="step-label"><em>Le Monde cassé</em> (Act IV: Inward Transfiguration)</span>
+            </button>
+            <button class="itinerary-step" onclick="loadWork('positions-mystere-ontologique', 'sec-5')">
+              <span class="step-num">2</span>
+              <span class="step-label"><em>On the Ontological Mystery</em> (Section V: Communion)</span>
+            </button>
+            <button class="itinerary-step" onclick="loadWork('homo-viator', 'ch-7')">
+              <span class="step-num">3</span>
+              <span class="step-label"><em>Homo Viator</em> (Chapter 7: Rilke, Witness to the Spiritual)</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Conceptual Knowledge Graph -->
+    <section class="conceptual-graph-section" id="conceptual-graph-section" aria-labelledby="graph-heading">
+      <div class="graph-section-header">
+        <h2 id="graph-heading" class="graph-title">🕸️ Interactive Conceptual Knowledge Graph</h2>
+        <p class="graph-subtitle">Navigate the interconnected web of Gabriel Marcel's 14 defining metaphysical concepts. Select any concept to explore its definition, connected motifs, and direct jump links to treatises and plays where it is lived.</p>
+      </div>
+      <div class="graph-filter-pills" id="graph-filter-pills" role="tablist" aria-label="Filter Concepts by Category">
+        <button class="graph-pill active" data-graph-filter="all" onclick="filterConceptGraph('all')">All Concepts (14)</button>
+        <button class="graph-pill" data-graph-filter="foundations" onclick="filterConceptGraph('foundations')">Ontological Foundations (5)</button>
+        <button class="graph-pill" data-graph-filter="relations" onclick="filterConceptGraph('relations')">Concrete Relations (5)</button>
+        <button class="graph-pill" data-graph-filter="mystery" onclick="filterConceptGraph('mystery')">Transcendence &amp; Mystery (4)</button>
+      </div>
+      <div class="concept-matrix-container" id="concept-matrix-container">
+        <!-- Rendered dynamically by js/app.js -->
+      </div>
+      <div class="concept-detail-drawer" id="concept-detail-drawer" style="display:none;" aria-live="polite">
+        <!-- Rendered dynamically on click by js/app.js -->
+      </div>
+    </section>
+
+    <!-- Chronological Intellectual Itinerary (1889–1973) -->
+    <section class="timeline-section" id="intellectual-timeline-section" aria-labelledby="timeline-heading">
+      <div class="timeline-header">
+        <span class="timeline-pill">Historical Chronology</span>
+        <h2 id="timeline-heading" class="timeline-title">🧭 The Intellectual Itinerary (1889–1973)</h2>
+        <p class="timeline-desc">Follow Gabriel Marcel’s philosophical odyssey across six defining historical epochs, from his wartime diary soundings to his final metaphysical dialogues with Paul Ricœur.</p>
+      </div>
+      <div class="timeline-grid" id="timeline-grid">
+        <!-- Rendered dynamically by js/app.js -->
+      </div>
+    </section>
+
     <!-- Catalog Toolbar -->
     <section class="catalog-toolbar" aria-label="Catalog Filters and Search">
       <div class="catalog-search-wrap">
@@ -99,7 +227,7 @@
       </div>
       <div class="catalog-filter-pills" id="catalog-filter-pills" role="tablist" aria-label="Filter Works by Category">
         <button class="filter-pill active" data-filter="all" onclick="setCatalogFilter('all')">All Works (42)</button>
-        <button class="filter-pill" data-filter="complete" onclick="setCatalogFilter('complete')">● Complete Only (5)</button>
+        <button class="filter-pill" data-filter="complete" onclick="setCatalogFilter('complete')">● Complete Only (16)</button>
         <button class="filter-pill" data-filter="Philosophical Treatises &amp; Essays" onclick="setCatalogFilter('Philosophical Treatises &amp; Essays')">Treatises (13)</button>
         <button class="filter-pill" data-filter="Lectures &amp; Addresses" onclick="setCatalogFilter('Lectures &amp; Addresses')">Lectures (3)</button>
         <button class="filter-pill" data-filter="Dramatic Works" onclick="setCatalogFilter('Dramatic Works')">Plays (21)</button>
@@ -170,6 +298,36 @@
         <div style="display:flex; gap:0.5rem;">
           <button class="btn" onclick="closeNoteModal()">Cancel</button>
           <button class="btn active" onclick="saveCurrentNote()">Save Note</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scholarly Citation & Research Export Modal -->
+  <div id="citation-modal-backdrop" class="modal-backdrop" onclick="handleCitationBackdropClick(event)" role="dialog" aria-modal="true" aria-labelledby="citation-modal-title" style="display:none;">
+    <div class="citation-modal" onclick="event.stopPropagation()">
+      <div class="citation-modal-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <span style="font-size:1.2rem;">🎓</span>
+          <h3 id="citation-modal-title">Scholarly Citation &amp; Research Export</h3>
+        </div>
+        <button class="btn" onclick="closeCitationModal()" style="border:none;" aria-label="Close Citation Modal">✕</button>
+      </div>
+      <div class="citation-modal-body">
+        <div id="citation-target-work" class="citation-target-work"></div>
+        <div class="citation-format-tabs" role="tablist" aria-label="Citation Format">
+          <button class="btn citation-tab-btn active" data-fmt="chicago" onclick="setCitationFormat('chicago')">Chicago (Notes &amp; Bib)</button>
+          <button class="btn citation-tab-btn" data-fmt="mla" onclick="setCitationFormat('mla')">MLA 9th</button>
+          <button class="btn citation-tab-btn" data-fmt="apa" onclick="setCitationFormat('apa')">APA 7th</button>
+          <button class="btn citation-tab-btn" data-fmt="bibtex" onclick="setCitationFormat('bibtex')">BibTeX</button>
+        </div>
+        <div class="citation-box-wrapper">
+          <pre id="citation-output-box" class="citation-output-box" tabindex="0"></pre>
+        </div>
+        <div class="citation-actions-bar">
+          <button class="btn active" id="btn-copy-citation" onclick="copyCitation()">📋 Copy Citation</button>
+          <button class="btn" id="btn-download-bib" onclick="downloadBibTeX()">💾 Download .bib</button>
+          <button class="btn" id="btn-download-md" onclick="downloadMarkdown()">📄 Export Bilingual .md</button>
         </div>
       </div>
     </div>

@@ -151,7 +151,7 @@ function renderSingleBlock(workId, paragraph, lang) {
   const num = blockId.replace("p-", "");
   return `
     <div class="block col-${lang}" id="${lang}-${blockId}" data-pair="${blockId}" data-work-id="${workId}" data-block-id="${blockId}" data-lang="${lang}">
-      <span class="block-id">#${num}</span>
+      <span class="block-id" onclick="event.stopPropagation(); if (typeof window.openCitationModal === 'function') window.openCitationModal('${workId}', '${blockId}');" title="Generate citation for § ${num}" role="button" tabindex="0">#${num}</span>
       <div class="block-text">${processed}</div>
     </div>
   `;

@@ -472,3 +472,253 @@
   to { transform: rotate(360deg); }
 }
 
+/* ====================================================
+   Scholarly Citation & Research Export Hub Modal
+   ==================================================== */
+.citation-modal {
+  background: var(--bg-surface);
+  color: var(--text-main);
+  width: 100%;
+  max-width: 640px;
+  border-radius: 8px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  font-family: var(--font-sans);
+}
+.citation-modal-header {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-card);
+}
+.citation-modal-header h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+}
+.citation-modal-body {
+  padding: 1.25rem;
+}
+.citation-target-work {
+  background: var(--bg-body);
+  border-left: 3px solid var(--accent);
+  padding: 0.65rem 0.9rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+.citation-target-work strong {
+  color: var(--text-main);
+}
+.citation-target-work .citation-meta-sub {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+.citation-format-tabs {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+.citation-tab-btn {
+  font-size: 0.82rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 5px;
+  background: var(--bg-body);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.citation-tab-btn:hover {
+  color: var(--text-main);
+  border-color: var(--accent);
+}
+.citation-tab-btn.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.citation-box-wrapper {
+  margin-bottom: 1.25rem;
+}
+.citation-output-box {
+  background: var(--bg-body);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.85rem;
+  font-family: monospace;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--text-main);
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 180px;
+  overflow-y: auto;
+  user-select: all;
+  margin: 0;
+}
+.citation-actions-bar {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.btn-block-cite {
+  font-size: 0.68rem;
+  padding: 0.1rem 0.35rem;
+  margin-left: 0.3rem;
+  border-radius: 3px;
+  background: var(--border-color);
+  color: var(--text-muted);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  opacity: 0.7;
+  transition: opacity 0.15s ease, background-color 0.15s ease;
+}
+.btn-block-cite:hover {
+  opacity: 1;
+  background: var(--accent);
+  color: #ffffff;
+}
+
+/* ====================================================
+   Chronological Intellectual Itinerary (1889–1973)
+   ==================================================== */
+.timeline-section {
+  margin: 3.5rem 0;
+  padding: 2.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+.timeline-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.timeline-pill {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.timeline-title {
+  font-family: var(--font-serif);
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+.timeline-desc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  max-width: 68ch;
+  margin: 0 auto;
+  line-height: 1.55;
+}
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+.epoch-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
+}
+.epoch-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+.epoch-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+.epoch-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+.epoch-dates {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.epoch-title {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.6rem;
+  line-height: 1.35;
+}
+.epoch-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+.epoch-milestones {
+  font-size: 0.8rem;
+  background: var(--bg-body);
+  border-left: 2px solid var(--accent);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0 4px 4px 0;
+  color: var(--text-main);
+  margin-bottom: 1.25rem;
+  line-height: 1.4;
+}
+.epoch-works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.epoch-work-btn {
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: var(--bg-body);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  padding: 0.35rem 0.65rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.epoch-work-btn:hover {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+
+

@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel Reader — Service Worker (PWA Offline Engine)
  */
-const CACHE_NAME = 'marcel-reader-v2';
+const CACHE_NAME = 'marcel-reader-v7';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
@@ -14,6 +14,17 @@ const PRECACHE_ASSETS = [
   './data/works/mystere-de-letre-1.js',
   './data/works/mystere-de-letre-2.js',
   './data/works/etre-et-avoir.js',
+  './data/works/homo-viator.js',
+  './data/works/du-refus-a-linvocation.js',
+  './data/works/un-homme-de-dieu.js',
+  './data/works/rome-nest-plus-dans-rome.js',
+  './data/works/le-dard.js',
+  './data/works/journal-metaphysique.js',
+  './data/works/les-hommes-contre-lhumain.js',
+  './data/works/la-dignite-humaine.js',
+  './data/works/lhomme-problematique.js',
+  './data/works/presence-et-immortalite.js',
+  './data/works/entretiens-paul-ricoeur.js',
   './js/reader.js',
   './js/notes.js',
   './js/search.js',

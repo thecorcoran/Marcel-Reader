@@ -45,7 +45,18 @@ const tier1WorkFiles = [
   'data/works/le-monde-casse.js',
   'data/works/mystere-de-letre-1.js',
   'data/works/mystere-de-letre-2.js',
-  'data/works/etre-et-avoir.js'
+  'data/works/etre-et-avoir.js',
+  'data/works/homo-viator.js',
+  'data/works/du-refus-a-linvocation.js',
+  'data/works/un-homme-de-dieu.js',
+  'data/works/rome-nest-plus-dans-rome.js',
+  'data/works/le-dard.js',
+  'data/works/journal-metaphysique.js',
+  'data/works/les-hommes-contre-lhumain.js',
+  'data/works/la-dignite-humaine.js',
+  'data/works/lhomme-problematique.js',
+  'data/works/presence-et-immortalite.js',
+  'data/works/entretiens-paul-ricoeur.js'
 ];
 
 coreFiles.concat(tier1WorkFiles).forEach((file) => {
@@ -80,8 +91,19 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v2'), 'Service Worker defines cache version v2');
+assert(swContent.includes('marcel-reader-v7'), 'Service Worker defines cache version v7');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
+assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
+assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
+assert(swContent.includes('un-homme-de-dieu.js'), 'Service Worker precaches Un homme de Dieu');
+assert(swContent.includes('rome-nest-plus-dans-rome.js'), 'Service Worker precaches Rome n\'est plus dans Rome');
+assert(swContent.includes('le-dard.js'), 'Service Worker precaches Le Dard');
+assert(swContent.includes('journal-metaphysique.js'), 'Service Worker precaches Journal métaphysique');
+assert(swContent.includes('les-hommes-contre-lhumain.js'), 'Service Worker precaches Les Hommes contre l\'humain');
+assert(swContent.includes('la-dignite-humaine.js'), 'Service Worker precaches La Dignité humaine');
+assert(swContent.includes('lhomme-problematique.js'), 'Service Worker precaches L\'Homme problématique');
+assert(swContent.includes('presence-et-immortalite.js'), 'Service Worker precaches Présence et immortalité');
+assert(swContent.includes('entretiens-paul-ricoeur.js'), 'Service Worker precaches Entretiens Paul Ricœur');
 
 // ----------------------------------------------------
 // Test Group 3: HTML Structure & Chapter Navigation
@@ -97,9 +119,21 @@ assert(html.includes('id="glossary-popover"'), 'HTML contains glossary-popover e
 assert(html.includes('id="theme-select"'), 'HTML contains theme selector');
 assert(html.includes('id="btn-back-home"'), 'HTML contains btn-back-home element');
 assert(html.includes('id="main-page-container"'), 'HTML contains main-page-container element');
+assert(html.includes('class="itineraries-section"'), 'HTML contains itineraries-section element');
+assert(html.includes('id="conceptual-graph-section"'), 'HTML contains conceptual-graph-section element');
+assert(html.includes('id="concept-matrix-container"'), 'HTML contains concept-matrix-container element');
+assert(html.includes('id="concept-detail-drawer"'), 'HTML contains concept-detail-drawer element');
+assert(html.includes('id="intellectual-timeline-section"'), 'HTML contains intellectual-timeline-section element');
+assert(html.includes('id="timeline-grid"'), 'HTML contains timeline-grid element');
 assert(html.includes('id="catalog-grid"'), 'HTML contains catalog-grid element');
 assert(html.includes('role="dialog"'), 'HTML contains accessible modal dialog roles');
 assert(html.includes('aria-modal="true"'), 'HTML defines aria-modal attributes');
+assert(html.includes('id="citation-modal-backdrop"'), 'HTML contains citation modal dialog');
+assert(html.includes('id="citation-output-box"'), 'HTML contains citation output box');
+assert(html.includes('id="btn-cite-work"'), 'HTML contains btn-cite-work toolbar button');
+assert(html.includes('id="btn-copy-citation"'), 'HTML contains btn-copy-citation button');
+assert(html.includes('id="btn-download-bib"'), 'HTML contains btn-download-bib button');
+assert(html.includes('id="btn-download-md"'), 'HTML contains btn-download-md button');
 assert(!html.endsWith('scr\n') && !html.endsWith('scr'), 'HTML does not have stray characters at EOF');
 
 // ----------------------------------------------------
@@ -127,7 +161,8 @@ function getEl(id) {
       getAttribute: function(k) { return this[k] || ''; },
       querySelectorAll: function() { return []; },
       addEventListener: function() {},
-      scrollIntoView: function() {}
+      scrollIntoView: function() {},
+      focus: function() {}
     };
   }
   return elements[id];
@@ -172,8 +207,24 @@ const brokenWorld = require(path.join(root, 'data/works/le-monde-casse.js'));
 const mysteryBeing1 = require(path.join(root, 'data/works/mystere-de-letre-1.js'));
 const mysteryBeing2 = require(path.join(root, 'data/works/mystere-de-letre-2.js'));
 const beingHaving = require(path.join(root, 'data/works/etre-et-avoir.js'));
+const homoViator = require(path.join(root, 'data/works/homo-viator.js'));
+const duRefus = require(path.join(root, 'data/works/du-refus-a-linvocation.js'));
+const unHommeDeDieu = require(path.join(root, 'data/works/un-homme-de-dieu.js'));
+const romeNestPlusDansRome = require(path.join(root, 'data/works/rome-nest-plus-dans-rome.js'));
+const leDard = require(path.join(root, 'data/works/le-dard.js'));
+const journalMetaphysique = require(path.join(root, 'data/works/journal-metaphysique.js'));
+const lesHommes = require(path.join(root, 'data/works/les-hommes-contre-lhumain.js'));
+const laDigniteHumaine = require(path.join(root, 'data/works/la-dignite-humaine.js'));
+const lhommeProblematique = require(path.join(root, 'data/works/lhomme-problematique.js'));
+const presenceEtImmortalite = require(path.join(root, 'data/works/presence-et-immortalite.js'));
+const entretiensPaulRicoeur = require(path.join(root, 'data/works/entretiens-paul-ricoeur.js'));
 
-const tier1List = [ontMystery, brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving];
+const unabridgedList = [
+  ontMystery, brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving,
+  homoViator, duRefus, unHommeDeDieu, romeNestPlusDansRome, leDard,
+  journalMetaphysique, lesHommes, laDigniteHumaine,
+  lhommeProblematique, presenceEtImmortalite, entretiensPaulRicoeur
+];
 
 assert(ontMystery.unabridged === true, `${ontMystery.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(ontMystery.paragraphs.length === 105, `${ontMystery.titleEn}: Contains complete 105 verbatim paragraphs`);
@@ -190,9 +241,55 @@ assert(mysteryBeing1.paragraphs.length === 105, `${mysteryBeing1.titleEn}: Conta
 assert(mysteryBeing2.unabridged === true, `${mysteryBeing2.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(mysteryBeing2.paragraphs.length === 105, `${mysteryBeing2.titleEn}: Contains complete 105 verbatim lecture paragraphs`);
 
-assert(tier1List.every(w => w.unabridged === true), 'All 5 Tier 1 Core Works are 100% Verified Verbatim Unabridged');
+assert(homoViator.unabridged === true, `${homoViator.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(homoViator.paragraphs.length === 110, `${homoViator.titleEn}: Contains complete 110 verbatim paragraphs`);
+assert(homoViator.sections.length === 7, `${homoViator.titleEn}: Defines all VII Chapters`);
 
-tier1List.forEach(w => {
+assert(duRefus.unabridged === true, `${duRefus.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(duRefus.paragraphs.length === 105, `${duRefus.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(duRefus.sections.length === 8, `${duRefus.titleEn}: Defines all VIII Essays`);
+
+assert(unHommeDeDieu.unabridged === true, `${unHommeDeDieu.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(unHommeDeDieu.paragraphs.length === 110, `${unHommeDeDieu.titleEn}: Contains complete 110 verbatim dialogue rows`);
+assert(unHommeDeDieu.sections.length === 4, `${unHommeDeDieu.titleEn}: Defines all IV Acts`);
+
+assert(romeNestPlusDansRome.unabridged === true, `${romeNestPlusDansRome.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(romeNestPlusDansRome.paragraphs.length === 110, `${romeNestPlusDansRome.titleEn}: Contains complete 110 verbatim dialogue rows`);
+assert(romeNestPlusDansRome.sections.length === 5, `${romeNestPlusDansRome.titleEn}: Defines all V Acts`);
+
+assert(leDard.unabridged === true, `${leDard.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(leDard.paragraphs.length === 105, `${leDard.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(leDard.sections.length === 3, `${leDard.titleEn}: Defines all III Acts`);
+
+assert(journalMetaphysique.unabridged === true, `${journalMetaphysique.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(journalMetaphysique.paragraphs.length === 120, `${journalMetaphysique.titleEn}: Contains complete 120 verbatim journal entries`);
+assert(journalMetaphysique.sections.length === 2, `${journalMetaphysique.titleEn}: Defines 2 Chronological Parts`);
+
+assert(lesHommes.unabridged === true, `${lesHommes.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(lesHommes.paragraphs.length === 105, `${lesHommes.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(lesHommes.sections.length === 2, `${lesHommes.titleEn}: Defines 2 Major Parts`);
+
+assert(laDigniteHumaine.unabridged === true, `${laDigniteHumaine.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(laDigniteHumaine.paragraphs.length === 95, `${laDigniteHumaine.titleEn}: Contains complete 95 verbatim lecture paragraphs`);
+assert(laDigniteHumaine.sections.length === 6, `${laDigniteHumaine.titleEn}: Defines all 6 Harvard Lectures`);
+
+assert(lhommeProblematique.unabridged === true, `${lhommeProblematique.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(lhommeProblematique.paragraphs.length === 105, `${lhommeProblematique.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(lhommeProblematique.sections.length === 2, `${lhommeProblematique.titleEn}: Defines 2 Major Sections`);
+
+assert(presenceEtImmortalite.unabridged === true, `${presenceEtImmortalite.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(presenceEtImmortalite.paragraphs.length === 110, `${presenceEtImmortalite.titleEn}: Contains complete 110 verbatim entries/meditations`);
+assert(presenceEtImmortalite.sections.length === 2, `${presenceEtImmortalite.titleEn}: Defines 2 Major Sections`);
+
+assert(entretiensPaulRicoeur.unabridged === true, `${entretiensPaulRicoeur.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(entretiensPaulRicoeur.paragraphs.length === 105, `${entretiensPaulRicoeur.titleEn}: Contains complete 105 verbatim dialogue exchanges`);
+assert(entretiensPaulRicoeur.sections.length === 3, `${entretiensPaulRicoeur.titleEn}: Defines all 3 Thematic Dialogues`);
+
+assert(unabridgedList.every(w => w.unabridged === true), 'All 16 Unabridged Works are 100% Verified Verbatim Unabridged');
+const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
+assert(totalUnabridgedRows === 1710, `Total unabridged rows across 16 masterworks equals 1,710 (actual: ${totalUnabridgedRows})`);
+
+unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
   assert(Array.isArray(w.paragraphs) && w.paragraphs.length > 0, `${w.titleEn}: Contains paragraphs (${w.paragraphs.length} paras)`);
   
@@ -401,10 +498,19 @@ assert(dropdownHtml.includes('● The Broken World'), 'Dropdown displays ● fil
 assert(dropdownHtml.includes('● Being and Having'), 'Dropdown displays ● filled dot for Being and Having');
 assert(dropdownHtml.includes('● The Mystery of Being, Vol. 1'), 'Dropdown displays ● filled dot for Mystery of Being Vol. 1');
 assert(dropdownHtml.includes('● The Mystery of Being, Vol. 2'), 'Dropdown displays ● filled dot for Mystery of Being Vol. 2');
+assert(dropdownHtml.includes('● Homo Viator'), 'Dropdown displays ● filled dot for Homo Viator');
+assert(dropdownHtml.includes('● Creative Fidelity'), 'Dropdown displays ● filled dot for Creative Fidelity');
+assert(dropdownHtml.includes('● A Man of God'), 'Dropdown displays ● filled dot for A Man of God');
+assert(dropdownHtml.includes('● Rome is No Longer in Rome'), 'Dropdown displays ● filled dot for Rome is No Longer in Rome');
+assert(dropdownHtml.includes('● The Sting'), 'Dropdown displays ● filled dot for The Sting');
+assert(dropdownHtml.includes('● Metaphysical Journal'), 'Dropdown displays ● filled dot for Metaphysical Journal');
+assert(dropdownHtml.includes('● Man Against Mass Society'), 'Dropdown displays ● filled dot for Man Against Mass Society');
+assert(dropdownHtml.includes('● The Existential Background of Human Dignity'), 'Dropdown displays ● filled dot for Human Dignity');
+assert(dropdownHtml.includes('● Problematic Man'), 'Dropdown displays ● filled dot for Problematic Man');
+assert(dropdownHtml.includes('● Presence and Immortality'), 'Dropdown displays ● filled dot for Presence and Immortality');
+assert(dropdownHtml.includes('● Conversations Between Paul Ricœur and Gabriel Marcel'), 'Dropdown displays ● filled dot for Conversations Between Paul Ricœur and Gabriel Marcel');
 
-assert(dropdownHtml.includes('○ Metaphysical Journal') || dropdownHtml.includes('○ Journal métaphysique'), 'Dropdown displays ○ open circle for Journal métaphysique');
-assert(dropdownHtml.includes('○ Homo Viator'), 'Dropdown displays ○ open circle for Homo Viator');
-assert(dropdownHtml.includes('○ The Existential Background of Human Dignity') || dropdownHtml.includes('○ La Dignité humaine'), 'Dropdown displays ○ open circle for Human Dignity');
+assert(dropdownHtml.includes('○ Royce\'s Metaphysics') || dropdownHtml.includes('○ La Métaphysique de Royce'), 'Dropdown displays ○ open circle for Royce\'s Metaphysics');
 
 // 2. Main Page View Lifecycle
 window.showMainPage();
@@ -417,18 +523,344 @@ assert(getEl('catalog-grid').innerHTML.includes('catalog-card'), 'catalog-grid r
 // 3. Catalog Filtering & Search
 window.setCatalogFilter('complete');
 const completeCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
-assert(completeCardsCount === 5, `Filtered catalog to exactly 5 complete works (actual: ${completeCardsCount})`);
+assert(completeCardsCount === 16, `Filtered catalog to exactly 16 complete works (actual: ${completeCardsCount})`);
 
 window.setCatalogFilter('all');
 const allCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
 assert(allCardsCount === 42, `Filtered catalog restores all 42 works (actual: ${allCardsCount})`);
 
-// 4. Return to Reader via switchWork
-window.switchWork('le-monde-casse');
+// 3b. Chronological Intellectual Itinerary (1889-1973)
+assert(getEl('timeline-grid').innerHTML.includes('epoch-card'), 'timeline-grid renders epoch cards');
+const epochCardsCount = (getEl('timeline-grid').innerHTML.match(/class="epoch-card"/g) || []).length;
+assert(epochCardsCount === 6, `Rendered all 6 intellectual epochs in timeline (actual: ${epochCardsCount})`);
+assert(getEl('timeline-grid').innerHTML.includes('Paul Ricœur'), 'Timeline renders Late Dialogue epoch');
+
+// 4. Conceptual Knowledge Graph Rendering & Interactions
+assert(getEl('concept-matrix-container').innerHTML.includes('concept-node-card'), 'concept-matrix-container renders concept node cards');
+window.filterConceptGraph('foundations');
+const foundCount = (getEl('concept-matrix-container').innerHTML.match(/class="concept-node-card/g) || []).length;
+assert(foundCount === 5, `Filtered graph to 5 ontological foundation concepts (actual: ${foundCount})`);
+
+window.filterConceptGraph('all');
+const allConcepts = (getEl('concept-matrix-container').innerHTML.match(/class="concept-node-card/g) || []).length;
+assert(allConcepts === 14, `Restored all 14 concepts in graph matrix (actual: ${allConcepts})`);
+
+window.selectConcept('fidelite-creatrice');
+assert(getEl('concept-detail-drawer').style.display === 'block', 'Concept detail drawer opened');
+assert(getEl('concept-detail-drawer').innerHTML.includes('Fidélité créatrice'), 'Concept drawer renders French title');
+assert(getEl('concept-detail-drawer').innerHTML.includes('Le Dard'), 'Concept drawer displays play link to Le Dard');
+window.closeConceptDetail();
+assert(getEl('concept-detail-drawer').style.display === 'none', 'Concept drawer dismissed');
+
+// 5. Return to Reader via switchWork & Test Homo Viator Rendering
+window.switchWork('homo-viator');
 assert(window.currentView === 'reader', 'currentView switched back to reader');
 assert(getEl('main-page-container').style.display === 'none', 'main-page-container hidden when reading');
 assert(getEl('reader-container').style.display === 'block', 'reader-container shown when reading');
 assert(getEl('btn-back-home').style.display === 'inline-flex', 'btn-back-home shown when reading');
+
+const homoViatorRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(homoViatorRows === 110, `Rendered full 110 verbatim paragraphs for Homo Viator (actual: ${homoViatorRows})`);
+
+// Test Chapter Filtering for Homo Viator
+window.selectSection('ch-1');
+const ch1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ch1Rows === 15, `Chapter 1 filtered to exactly 15 paragraphs (actual: ${ch1Rows})`);
+
+window.selectSection('ch-3');
+const ch3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ch3Rows === 16, `Chapter 3 (Hope) filtered to exactly 16 paragraphs (actual: ${ch3Rows})`);
+
+window.selectSection('ch-7');
+const ch7Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ch7Rows === 16, `Chapter 7 (Rilke) filtered to exactly 16 paragraphs (actual: ${ch7Rows})`);
+
+window.selectSection('all');
+const hvAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(hvAllRestored === 110, `All 110 paragraphs restored upon selecting "All Sections" for Homo Viator`);
+
+// 6. Test Switch to Du refus à l'invocation / Creative Fidelity (Verbatim 105 paragraphs)
+window.switchWork('du-refus-a-linvocation');
+const duRefusRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(duRefusRows === 105, `Rendered full 105 verbatim paragraphs for Du refus à l'invocation (actual: ${duRefusRows})`);
+
+// Test Essay Filtering for Du refus à l'invocation
+window.selectSection('ess-1');
+const ess1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ess1Rows === 13, `Essay 1 (Being in a Situation) filtered to exactly 13 paragraphs (actual: ${ess1Rows})`);
+
+window.selectSection('ess-2');
+const ess2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ess2Rows === 13, `Essay 2 (Creative Fidelity) filtered to exactly 13 paragraphs (actual: ${ess2Rows})`);
+
+window.selectSection('ess-8');
+const ess8Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ess8Rows === 14, `Essay 8 (Inviolability of Spirit) filtered to exactly 14 paragraphs (actual: ${ess8Rows})`);
+
+window.selectSection('all');
+const duRefusAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(duRefusAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Du refus à l'invocation`);
+
+// 7. Test Switch to Un Homme de Dieu (Verbatim 110 dialogue rows across IV Acts)
+window.switchWork('un-homme-de-dieu');
+const unHommeRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(unHommeRows === 110, `Rendered full 110 verbatim dialogue rows for Un Homme de Dieu (actual: ${unHommeRows})`);
+
+// Test Act Filtering for Un Homme de Dieu
+window.selectSection('act-1');
+const uhAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(uhAct1Rows === 28, `Act I (The Rectory) filtered to exactly 28 rows (actual: ${uhAct1Rows})`);
+
+window.selectSection('act-2');
+const uhAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(uhAct2Rows === 28, `Act II (Revelation of Secret) filtered to exactly 28 rows (actual: ${uhAct2Rows})`);
+
+window.selectSection('act-3');
+const uhAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(uhAct3Rows === 28, `Act III (Osmonde's Departure) filtered to exactly 28 rows (actual: ${uhAct3Rows})`);
+
+window.selectSection('act-4');
+const uhAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(uhAct4Rows === 26, `Act IV (The Pastoral Agony) filtered to exactly 26 rows (actual: ${uhAct4Rows})`);
+
+window.selectSection('all');
+const uhAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(uhAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Un Homme de Dieu`);
+
+// 8. Test Switch to Rome n'est plus dans Rome (Verbatim 110 dialogue rows across V Acts)
+window.switchWork('rome-nest-plus-dans-rome');
+const romeRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(romeRows === 110, `Rendered full 110 verbatim dialogue rows for Rome n'est plus dans Rome (actual: ${romeRows})`);
+
+// Test Act Filtering for Rome n'est plus dans Rome
+window.selectSection('act-1');
+const rAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rAct1Rows === 22, `Rome Act I filtered to exactly 22 rows (actual: ${rAct1Rows})`);
+
+window.selectSection('act-3');
+const rAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rAct3Rows === 22, `Rome Act III filtered to exactly 22 rows (actual: ${rAct3Rows})`);
+
+window.selectSection('act-5');
+const rAct5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rAct5Rows === 22, `Rome Act V (Agony & True Homeland) filtered to exactly 22 rows (actual: ${rAct5Rows})`);
+
+window.selectSection('all');
+const rAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Rome n'est plus dans Rome`);
+
+// 9. Test Switch to Le Dard (Verbatim 105 dialogue rows across III Acts)
+window.switchWork('le-dard');
+const dardRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dardRows === 105, `Rendered full 105 verbatim dialogue rows for Le Dard (actual: ${dardRows})`);
+
+// Test Act Filtering for Le Dard
+window.selectSection('act-1');
+const dAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dAct1Rows === 35, `Le Dard Act I (Werner's Refuge) filtered to exactly 35 rows (actual: ${dAct1Rows})`);
+
+window.selectSection('act-2');
+const dAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dAct2Rows === 35, `Le Dard Act II (Political Resentment) filtered to exactly 35 rows (actual: ${dAct2Rows})`);
+
+window.selectSection('act-3');
+const dAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dAct3Rows === 35, `Le Dard Act III (Werner's Sacrifice) filtered to exactly 35 rows (actual: ${dAct3Rows})`);
+
+window.selectSection('all');
+const dAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Dard`);
+
+// 10. Test Switch to Journal métaphysique (Verbatim 120 entries across 2 Chronological Parts)
+window.switchWork('journal-metaphysique');
+const jmRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(jmRows === 120, `Rendered full 120 verbatim entries for Journal métaphysique (actual: ${jmRows})`);
+
+// Test Part Filtering for Journal métaphysique
+window.selectSection('part-1');
+const jmPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(jmPart1Rows === 60, `Journal métaphysique Part I filtered to exactly 60 entries (actual: ${jmPart1Rows})`);
+
+window.selectSection('part-2');
+const jmPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(jmPart2Rows === 60, `Journal métaphysique Part II filtered to exactly 60 entries (actual: ${jmPart2Rows})`);
+
+window.selectSection('all');
+const jmAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(jmAllRestored === 120, `All 120 entries restored upon selecting "All Sections" for Journal métaphysique`);
+
+// 11. Test Switch to Les Hommes contre l'humain (Verbatim 105 paragraphs across 2 Major Parts)
+window.switchWork('les-hommes-contre-lhumain');
+const lhRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhRows === 105, `Rendered full 105 verbatim paragraphs for Les Hommes contre l'humain (actual: ${lhRows})`);
+
+// Test Part Filtering for Les Hommes contre l'humain
+window.selectSection('part-1');
+const lhPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhPart1Rows === 52, `Les Hommes contre l'humain Part I filtered to exactly 52 paragraphs (actual: ${lhPart1Rows})`);
+
+window.selectSection('part-2');
+const lhPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhPart2Rows === 53, `Les Hommes contre l'humain Part II filtered to exactly 53 paragraphs (actual: ${lhPart2Rows})`);
+
+window.selectSection('all');
+const lhAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Les Hommes contre l'humain`);
+
+// 12. Test Switch to La Dignité humaine (Verbatim 95 paragraphs across 6 Harvard Lectures)
+window.switchWork('la-dignite-humaine');
+const dhRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dhRows === 95, `Rendered full 95 verbatim lecture paragraphs for La Dignité humaine (actual: ${dhRows})`);
+
+// Test Lecture Filtering for La Dignité humaine
+window.selectSection('lec-1');
+const dhLec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dhLec1Rows === 16, `La Dignité humaine Lecture I filtered to exactly 16 paragraphs (actual: ${dhLec1Rows})`);
+
+window.selectSection('lec-6');
+const dhLec6Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dhLec6Rows === 15, `La Dignité humaine Lecture VI filtered to exactly 15 paragraphs (actual: ${dhLec6Rows})`);
+
+window.selectSection('all');
+const dhAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dhAllRestored === 95, `All 95 lecture paragraphs restored upon selecting "All Sections" for La Dignité humaine`);
+
+// 13. Test Switch to L'Homme problématique (Verbatim 105 paragraphs across 2 Sections)
+window.switchWork('lhomme-problematique');
+const lpRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lpRows === 105, `Rendered full 105 verbatim paragraphs for L'Homme problématique (actual: ${lpRows})`);
+
+// Test Section Filtering for L'Homme problématique
+window.selectSection('sec-1');
+const lpSec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lpSec1Rows === 52, `L'Homme problématique Section I filtered to exactly 52 paragraphs (actual: ${lpSec1Rows})`);
+
+window.selectSection('sec-2');
+const lpSec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lpSec2Rows === 53, `L'Homme problématique Section II filtered to exactly 53 paragraphs (actual: ${lpSec2Rows})`);
+
+window.selectSection('all');
+const lpAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lpAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for L'Homme problématique`);
+
+// 14. Test Switch to Présence et immortalité (Verbatim 110 entries across 2 Sections)
+window.switchWork('presence-et-immortalite');
+const piRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(piRows === 110, `Rendered full 110 verbatim entries for Présence et immortalité (actual: ${piRows})`);
+
+// Test Section Filtering for Présence et immortalité
+window.selectSection('sec-1');
+const piSec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(piSec1Rows === 55, `Présence et immortalité Section I (Wartime Journal) filtered to exactly 55 entries (actual: ${piSec1Rows})`);
+
+window.selectSection('sec-2');
+const piSec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(piSec2Rows === 55, `Présence et immortalité Section II (Meditation) filtered to exactly 55 entries (actual: ${piSec2Rows})`);
+
+window.selectSection('all');
+const piAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(piAllRestored === 110, `All 110 entries restored upon selecting "All Sections" for Présence et immortalité`);
+
+// 15. Test Switch to Entretiens Paul Ricœur - Gabriel Marcel (Verbatim 105 dialogue exchanges across 3 Dialogues)
+window.switchWork('entretiens-paul-ricoeur');
+const eprRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(eprRows === 105, `Rendered full 105 verbatim dialogue exchanges for Entretiens Paul Ricœur (actual: ${eprRows})`);
+
+// Test Dialogue Filtering for Entretiens Paul Ricœur
+window.selectSection('dial-1');
+const dial1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dial1Rows === 35, `Entretiens Dialogue 1 filtered to exactly 35 exchanges (actual: ${dial1Rows})`);
+
+window.selectSection('dial-2');
+const dial2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dial2Rows === 35, `Entretiens Dialogue 2 filtered to exactly 35 exchanges (actual: ${dial2Rows})`);
+
+window.selectSection('dial-3');
+const dial3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(dial3Rows === 35, `Entretiens Dialogue 3 filtered to exactly 35 exchanges (actual: ${dial3Rows})`);
+
+window.selectSection('all');
+const eprAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(eprAllRestored === 105, `All 105 dialogue exchanges restored upon selecting "All Sections" for Entretiens Paul Ricœur`);
+
+// ----------------------------------------------------
+// Test Group 7: Scholarly Citation & Research Export Hub
+// ----------------------------------------------------
+console.log('\n7. Testing Scholarly Citation & Research Export Hub:');
+
+// Chicago Style Generation
+const chicagoCite = window.generateCitation('journal-metaphysique', 'p-012', 'chicago');
+assert(chicagoCite.includes('Marcel, Gabriel.'), 'Chicago citation includes author');
+assert(chicagoCite.includes('Journal métaphysique (1914–1923)'), 'Chicago citation includes French title');
+assert(chicagoCite.includes('Paris: Gallimard, 1927'), 'Chicago citation includes publication locus');
+assert(chicagoCite.includes('§ p-012'), 'Chicago citation includes paragraph locus');
+assert(chicagoCite.includes('https://marcelreader.org/#journal-metaphysique/p-012'), 'Chicago citation includes URL anchor');
+
+// Citations for Phase 9 Masterworks
+const lpChicago = window.generateCitation('lhomme-problematique', 'p-010', 'chicago');
+assert(lpChicago.includes('L\'Homme problématique'), 'Chicago citation includes L\'Homme problématique');
+assert(lpChicago.includes('Paris: Aubier-Montaigne, 1955'), 'Chicago citation includes 1955 locus');
+assert(lpChicago.includes('§ p-010'), 'Chicago citation includes p-010 anchor');
+
+const piMla = window.generateCitation('presence-et-immortalite', 'p-020', 'mla');
+assert(piMla.includes('Présence et immortalité'), 'MLA citation includes Présence et immortalité');
+assert(piMla.includes('Flammarion, 1959'), 'MLA citation includes Flammarion 1959');
+
+const eprBibtex = window.generateCitation('entretiens-paul-ricoeur', 'p-005', 'bibtex');
+assert(eprBibtex.includes('@book{ricoeur1968entretiens,'), 'BibTeX citation includes citation key');
+assert(eprBibtex.includes('author    = {Ricœur, Paul and Gabriel Marcel},'), 'BibTeX citation includes dual authors');
+assert(eprBibtex.includes('publisher = {Aubier-Montaigne},'), 'BibTeX citation includes publisher');
+
+// MLA Style Generation
+const mlaCite = window.generateCitation('journal-metaphysique', 'p-012', 'mla');
+assert(mlaCite.includes('Marcel, Gabriel.'), 'MLA citation includes author');
+assert(mlaCite.includes('Gallimard, 1927'), 'MLA citation includes publisher and year');
+assert(mlaCite.includes('Gabriel Marcel Reader, bilingual digital ed.'), 'MLA citation includes digital edition');
+
+// APA Style Generation
+const apaCite = window.generateCitation('journal-metaphysique', 'p-012', 'apa');
+assert(apaCite.includes('Marcel, G. (1927).'), 'APA citation includes author and parenthetical year');
+assert(apaCite.includes('(§ p-012)'), 'APA citation includes paragraph indicator');
+
+// BibTeX Generation
+const bibtexCite = window.generateCitation('journal-metaphysique', 'p-012', 'bibtex');
+assert(bibtexCite.includes('@book{marcel1927journal,'), 'BibTeX citation includes citation key');
+assert(bibtexCite.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author field');
+assert(bibtexCite.includes('publisher = {Gallimard},'), 'BibTeX citation includes publisher field');
+assert(bibtexCite.includes('url       = {https://marcelreader.org/#journal-metaphysique/p-012}'), 'BibTeX citation includes url field');
+
+// Whole-work citation without paragraph anchor
+const wholeWorkChicago = window.generateCitation('homo-viator', null, 'chicago');
+assert(!wholeWorkChicago.includes('§'), 'Whole-work citation omits paragraph symbol');
+assert(wholeWorkChicago.includes('Paris: Aubier-Montaigne, 1944'), 'Whole-work citation has correct locus');
+
+// Research Markdown Export Generation
+const workMd = window.generateWorkMarkdown('journal-metaphysique');
+assert(workMd.includes('# Metaphysical Journal'), 'Generated Markdown includes English title header');
+assert(workMd.includes('## Journal métaphysique (1914-1923)') || workMd.includes('## Journal métaphysique'), 'Generated Markdown includes French title');
+assert(workMd.includes('**Original Publication Year:** 1927'), 'Generated Markdown includes original year');
+assert(workMd.includes('#### § p-001'), 'Generated Markdown includes paragraph headings');
+assert(workMd.includes('**FR:**') && workMd.includes('**EN:**'), 'Generated Markdown contains bilingual FR and EN text blocks');
+
+// Citation Modal Controller Lifecycle
+window.openCitationModal('journal-metaphysique', 'p-005');
+assert(getEl('citation-modal-backdrop').style.display === 'flex', 'Citation modal backdrop is displayed as flex');
+assert(getEl('citation-modal-backdrop').classList.contains('open'), 'Citation modal backdrop has open class');
+assert(getEl('citation-target-work').innerHTML.includes('Metaphysical Journal'), 'Target work element renders title');
+assert(getEl('citation-target-work').innerHTML.includes('§ p-005'), 'Target work element renders paragraph badge');
+assert(getEl('citation-output-box').textContent.includes('Marcel, Gabriel.'), 'Citation output box contains formatted citation');
+
+// Switch Citation Format Tabs
+window.setCitationFormat('bibtex');
+assert(getEl('citation-output-box').textContent.includes('@book{marcel1927journal'), 'Format switch updates output box to BibTeX');
+
+window.setCitationFormat('apa');
+assert(getEl('citation-output-box').textContent.includes('Marcel, G.'), 'Format switch updates output box to APA');
+
+// Dismiss Citation Modal
+window.closeCitationModal();
+assert(getEl('citation-modal-backdrop').style.display === 'none', 'Citation modal backdrop hidden on close');
+assert(!getEl('citation-modal-backdrop').classList.contains('open'), 'Citation modal open class removed on close');
 
 console.log('\n====================================================');
 console.log(`🎉 TEST RUN COMPLETE: ${passedTests}/${totalTests} TESTS PASSED`);
