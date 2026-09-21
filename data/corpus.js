@@ -34,13 +34,13 @@
       "category": "Philosophical Treatises & Essays",
       "companionSlug": "positions-mystere-ontologique",
       "companionTitle": "On the Ontological Mystery (1933)",
-      "unabridged": false,
-      "statusBadge": "Verbatim Ingestion Queued",
-      "unabridgedBadge": "Study Digest — Full Verbatim Ingestion Queued",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (105 Paras)",
       "sections": [
-        { "id": "part-1", "titleFr": "Première partie (1928-1929) : Le corps et l'avoir", "titleEn": "Part I (1928-1929): The Body and Having" },
-        { "id": "part-2", "titleFr": "Deuxième partie (1930-1931) : La foi et le témoignage", "titleEn": "Part II (1930-1931): Faith and Testimony" },
-        { "id": "part-3", "titleFr": "Troisième partie (1932-1933) : La fidélité créatrice", "titleEn": "Part III (1932-1933): Creative Fidelity" }
+        { "id": "part-1", "titleFr": "Première partie (1928-1929) : Le problème du corps, l'avoir et le recueillement", "titleEn": "Part I (1928-1929): The Problem of the Body, Having, and Inward Recollection" },
+        { "id": "part-2", "titleFr": "Deuxième partie (1930-1931) : La foi, le témoignage et la présence d'autrui", "titleEn": "Part II (1930-1931): Faith, Testimony, and the Presence of the Other" },
+        { "id": "part-3", "titleFr": "Troisième partie (1932-1933) : La fidélité créatrice et l'exigence ontologique", "titleEn": "Part III (1932-1933): Creative Fidelity and the Ontological Exigence" }
       ]
     },
     "journal-metaphysique": {
@@ -143,14 +143,14 @@
       "category": "Lectures & Addresses",
       "companionSlug": "mystere-de-letre-2",
       "companionTitle": "The Mystery of Being, Vol. 2: Faith and Reality (1951)",
-      "unabridged": false,
-      "statusBadge": "Verbatim Ingestion Queued",
-      "unabridgedBadge": "Study Digest — Full Verbatim Ingestion Queued",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (10 Lectures, 105 Paras)",
       "sections": [
         { "id": "lec-1", "titleFr": "Conférence I : Questions de méthode", "titleEn": "Lecture 1: Questions of Method" },
         { "id": "lec-2", "titleFr": "Conférence II : Un monde cassé", "titleEn": "Lecture 2: A Broken World" },
         { "id": "lec-3", "titleFr": "Conférence III : Le besoin de transcendance", "titleEn": "Lecture 3: The Need for Transcendence" },
-        { "id": "lec-4", "titleFr": "Conférence IV : La vérité comme valeur", "titleEn": "Lecture 4: Truth as a Value" },
+        { "id": "lec-4", "titleFr": "Conférence IV : La vérité comme valeur : le témoignage", "titleEn": "Lecture 4: Truth as a Value: Bearing Witness" },
         { "id": "lec-5", "titleFr": "Conférence V : Réflexion primaire et réflexion seconde", "titleEn": "Lecture 5: Primary and Secondary Reflection" },
         { "id": "lec-6", "titleFr": "Conférence VI : « Ma vie » et l'identité", "titleEn": "Lecture 6: \"My Life\" and Personal Identity" },
         { "id": "lec-7", "titleFr": "Conférence VII : L'être incarné", "titleEn": "Lecture 7: Incarnate Being" },
@@ -167,9 +167,9 @@
       "category": "Lectures & Addresses",
       "companionSlug": "mystere-de-letre-1",
       "companionTitle": "The Mystery of Being, Vol. 1: Reflection and Mystery (1951)",
-      "unabridged": false,
-      "statusBadge": "Verbatim Ingestion Queued",
-      "unabridgedBadge": "Study Digest — Full Verbatim Ingestion Queued",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (10 Lectures, 105 Paras)",
       "sections": [
         { "id": "lec-1", "titleFr": "Conférence I : La question de l'être", "titleEn": "Lecture 1: The Question of Being" },
         { "id": "lec-2", "titleFr": "Conférence II : Existence et être", "titleEn": "Lecture 2: Existence and Being" },
@@ -203,14 +203,14 @@
       "category": "Dramatic Works (Plays)",
       "companionSlug": "positions-mystere-ontologique",
       "companionTitle": "On the Ontological Mystery (1933)",
-      "unabridged": false,
-      "statusBadge": "Verbatim Ingestion Queued",
-      "unabridgedBadge": "Dramatic Digest — Full Verbatim Ingestion Queued",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (110 Paras)",
       "sections": [
-        { "id": "act-1", "titleFr": "Acte I : Le salon parisien et le vide spirituel", "titleEn": "Act I: The Parisian Salon and Spiritual Emptiness" },
-        { "id": "act-2", "titleFr": "Acte II : L'ombre de Jacques Cartier", "titleEn": "Act II: The Shadow of Jacques Cartier" },
-        { "id": "act-3", "titleFr": "Acte III : La crise conjugale", "titleEn": "Act III: The Marital Crisis" },
-        { "id": "act-4", "titleFr": "Acte IV : Le sacrifice et la réconciliation", "titleEn": "Act IV: The Sacrifice and Reconciliation" }
+        { "id": "act-1", "titleFr": "Acte I : Le salon parisien et le pressentiment du vide", "titleEn": "Act I: The Parisian Salon and the Premonition of the Void" },
+        { "id": "act-2", "titleFr": "Acte II : L'ombre de Jacques Cartier et le refus du faux-semblant", "titleEn": "Act II: The Shadow of Jacques Cartier and the Rejection of Pretense" },
+        { "id": "act-3", "titleFr": "Acte III : La crise conjugale et l'incompréhension des cœurs", "titleEn": "Act III: The Marital Crisis and the Incomprehension of Hearts" },
+        { "id": "act-4", "titleFr": "Acte IV : L'offrande, le sacrifice et la communion retrouvée", "titleEn": "Act IV: The Offering, the Sacrifice, and Communion Regained" }
       ]
     },
     "un-homme-de-dieu": { "id": "un-homme-de-dieu", "titleEn": "A Man of God", "titleFr": "Un Homme de Dieu (Pièce en trois actes)", "year": 1925, "category": "Dramatic Works (Plays)", "unabridged": false },

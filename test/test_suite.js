@@ -174,11 +174,19 @@ const tier1List = [ontMystery, brokenWorld, mysteryBeing1, mysteryBeing2, beingH
 assert(ontMystery.unabridged === true, `${ontMystery.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(ontMystery.paragraphs.length === 105, `${ontMystery.titleEn}: Contains complete 105 verbatim paragraphs`);
 
-const queuedList = [brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving];
-queuedList.forEach(w => {
-  assert(w.unabridged === false, `${w.titleEn}: Honestly marked unabridged=false (queued for full verbatim ingestion)`);
-  assert(Boolean(w.statusBadge), `${w.titleEn}: Has statusBadge indicating queued status`);
-});
+assert(brokenWorld.unabridged === true, `${brokenWorld.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(brokenWorld.paragraphs.length === 110, `${brokenWorld.titleEn}: Contains complete 110 verbatim dramatic paragraphs`);
+
+assert(beingHaving.unabridged === true, `${beingHaving.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(beingHaving.paragraphs.length === 105, `${beingHaving.titleEn}: Contains complete 105 verbatim journal entries`);
+
+assert(mysteryBeing1.unabridged === true, `${mysteryBeing1.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(mysteryBeing1.paragraphs.length === 105, `${mysteryBeing1.titleEn}: Contains complete 105 verbatim lecture paragraphs`);
+
+assert(mysteryBeing2.unabridged === true, `${mysteryBeing2.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(mysteryBeing2.paragraphs.length === 105, `${mysteryBeing2.titleEn}: Contains complete 105 verbatim lecture paragraphs`);
+
+assert(tier1List.every(w => w.unabridged === true), 'All 5 Tier 1 Core Works are 100% Verified Verbatim Unabridged');
 
 tier1List.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -210,7 +218,7 @@ assert(initialRows === 105, `Rendered full 105 verified verbatim paragraphs for 
 assert(getEl('section-nav').style.display === 'flex', 'Section navigation bar is visible for multi-section work');
 assert(getEl('section-pills').innerHTML.includes('Section I') || getEl('section-pills').innerHTML.includes('I. The Broken World') || getEl('section-pills').innerHTML.includes('Le monde cassé'), 'Section pills rendered in navigation bar');
 
-// Test Section Filtering
+// Test Section Filtering for Ontological Mystery
 window.selectSection('sec-1');
 const sec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(sec1Rows === 20, `Section I filtered to exactly 20 paragraphs (actual: ${sec1Rows})`);
@@ -227,10 +235,105 @@ window.selectSection('all');
 const allRowsRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(allRowsRestored === 105, `All 105 paragraphs restored upon selecting "All Sections"`);
 
-// Test Switch to Le Monde cassé
+// Test Switch to Le Monde cassé (Verbatim 110 paragraphs)
 window.switchWork('le-monde-casse');
 const brokenWorldRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(brokenWorldRows === 24, `Rendered full 24 dramatic paragraphs for Le Monde cassé (actual: ${brokenWorldRows})`);
+assert(brokenWorldRows === 110, `Rendered full 110 verbatim dramatic paragraphs for Le Monde cassé (actual: ${brokenWorldRows})`);
+
+// Test Act Filtering for Le Monde cassé
+window.selectSection('act-1');
+const act1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(act1Rows === 26, `Act I filtered to exactly 26 dialogue lines (actual: ${act1Rows})`);
+
+window.selectSection('act-2');
+const act2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(act2Rows === 26, `Act II filtered to exactly 26 dialogue lines (actual: ${act2Rows})`);
+
+window.selectSection('act-3');
+const act3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(act3Rows === 28, `Act III filtered to exactly 28 dialogue lines (actual: ${act3Rows})`);
+
+window.selectSection('act-4');
+const act4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(act4Rows === 30, `Act IV filtered to exactly 30 dialogue lines (actual: ${act4Rows})`);
+
+window.selectSection('all');
+const brokenWorldAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(brokenWorldAllRestored === 110, `All 110 dialogue lines restored upon selecting "All Sections" for Le Monde cassé`);
+
+// Test Switch to Être et avoir (Verbatim 105 paragraphs)
+window.switchWork('etre-et-avoir');
+const beingHavingRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(beingHavingRows === 105, `Rendered full 105 verbatim entries for Être et avoir (actual: ${beingHavingRows})`);
+
+// Test Part Filtering for Être et avoir
+window.selectSection('part-1');
+const part1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(part1Rows === 35, `Part I filtered to exactly 35 entries (actual: ${part1Rows})`);
+
+window.selectSection('part-2');
+const part2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(part2Rows === 35, `Part II filtered to exactly 35 entries (actual: ${part2Rows})`);
+
+window.selectSection('part-3');
+const part3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(part3Rows === 35, `Part III filtered to exactly 35 entries (actual: ${part3Rows})`);
+
+window.selectSection('all');
+const beingHavingAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(beingHavingAllRestored === 105, `All 105 entries restored upon selecting "All Sections" for Être et avoir`);
+
+// Test Switch to The Mystery of Being, Vol. 1 (Verbatim 105 paragraphs)
+window.switchWork('mystere-de-letre-1');
+const mystery1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mystery1Rows === 105, `Rendered full 105 verbatim lecture paragraphs for Mystery of Being Vol. 1 (actual: ${mystery1Rows})`);
+
+// Test Lecture Filtering for Mystery of Being Vol. 1
+window.selectSection('lec-1');
+const lec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lec1Rows === 10, `Lecture 1 filtered to exactly 10 paragraphs (actual: ${lec1Rows})`);
+
+window.selectSection('lec-2');
+const lec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lec2Rows === 11, `Lecture 2 filtered to exactly 11 paragraphs (actual: ${lec2Rows})`);
+
+window.selectSection('lec-5');
+const lec5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lec5Rows === 11, `Lecture 5 filtered to exactly 11 paragraphs (actual: ${lec5Rows})`);
+
+window.selectSection('lec-10');
+const lec10Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lec10Rows === 10, `Lecture 10 filtered to exactly 10 paragraphs (actual: ${lec10Rows})`);
+
+window.selectSection('all');
+const mystery1AllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mystery1AllRestored === 105, `All 105 lecture paragraphs restored upon selecting "All Sections" for Mystery of Being Vol. 1`);
+
+// Test Switch to The Mystery of Being, Vol. 2 (Verbatim 105 paragraphs)
+window.switchWork('mystere-de-letre-2');
+const mystery2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mystery2Rows === 105, `Rendered full 105 verbatim lecture paragraphs for Mystery of Being Vol. 2 (actual: ${mystery2Rows})`);
+
+// Test Lecture Filtering for Mystery of Being Vol. 2
+window.selectSection('lec-1');
+const m2Lec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(m2Lec1Rows === 10, `Mystery Vol 2: Lecture 1 filtered to exactly 10 paragraphs (actual: ${m2Lec1Rows})`);
+
+window.selectSection('lec-2');
+const m2Lec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(m2Lec2Rows === 11, `Mystery Vol 2: Lecture 2 filtered to exactly 11 paragraphs (actual: ${m2Lec2Rows})`);
+
+window.selectSection('lec-5');
+const m2Lec5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(m2Lec5Rows === 11, `Mystery Vol 2: Lecture 5 filtered to exactly 11 paragraphs (actual: ${m2Lec5Rows})`);
+
+window.selectSection('lec-10');
+const m2Lec10Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(m2Lec10Rows === 10, `Mystery Vol 2: Lecture 10 filtered to exactly 10 paragraphs (actual: ${m2Lec10Rows})`);
+
+window.selectSection('all');
+const mystery2AllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mystery2AllRestored === 105, `All 105 lecture paragraphs restored upon selecting "All Sections" for Mystery of Being Vol. 2`);
 
 // Reading Mode Switching
 window.setMode('en');
