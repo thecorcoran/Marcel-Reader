@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Marcel — Corpus Reader: Positions et approches concrètes</title>
+  <style>
+    :root {
+      --bg-body: #faf8f5;
+      --bg-surface: #ffffff;
+      --border-color: #e5e0d8;
+      --text-main: #2b2724;
+      --text-muted: #6b635b;
+      --accent: #8b2500;
+      --accent-soft: #fbf0ea;
+      --highlight: #fef3c7;
+      --font-serif: "Cardo", "EB Garamond", "Baskerville", Georgia, serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      font-family: var(--font-serif);
+      line-height: 1.75;
+      font-size: 1.1rem;
+    }
+
+    header {
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .titles h1 { font-size: 1.35rem; font-weight: 600; color: var(--text-main); }
+    .titles p { font-size: 0.95rem; font-style: italic; color: var(--text-muted); }
+
+    .controls { display: flex; gap: 0.5rem; align-items: center; }
+    .btn {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid var(--border-color);
+      background: var(--bg-surface);
+      color: var(--text-main);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn.active, .btn:hover {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .companion-banner {
+      background: var(--accent-soft);
+      border-bottom: 1px solid #f0d5c7;
+      padding: 0.6rem 2rem;
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      color: var(--accent);
+    }
+    .companion-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .companion-link {
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Layout modes */
+    .reader-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+    .reader-grid.mode-en .col-fr { display: none; }
+    .reader-grid.mode-en { grid-template-columns: 1fr; max-width: 750px; margin: 0 auto; }
+    .reader-grid.mode-fr .col-en { display: none; }
+    .reader-grid.mode-fr { grid-template-columns: 1fr; max-width: 750px; margin: 0 auto; }
+
+    .column-header {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .block {
+      margin-bottom: 1.75rem;
+      padding: 0.6rem 0.8rem;
+      border-radius: 6px;
+      position: relative;
+      transition: background-color 0.15s ease;
+    }
+    .block-id {
+      position: absolute;
+      left: -2rem;
+      top: 0.7rem;
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      user-select: none;
+    }
+    .block.highlighted {
+      background-color: var(--highlight);
+    }
+
+    /* Glossary term badges */
+    .term {
+      border-bottom: 1.5px dotted var(--accent);
+      color: var(--accent);
+      cursor: help;
+      position: relative;
+    }
+
+    /* Glossary Drawer */
+    .drawer {
+      position: fixed;
+      right: -420px;
+      top: 0;
+      width: 400px;
+      height: 100vh;
+      background: var(--bg-surface);
+      box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+      border-left: 1px solid var(--border-color);
+      transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+    }
+    .drawer.open { right: 0; }
+    .drawer-header {
+      padding: 1.25rem;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .drawer-title { font-family: var(--font-sans); font-size: 1.1rem; font-weight: 600; }
+    .drawer-content {
+      padding: 1.5rem;
+      overflow-y: auto;
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+    }
+    .glossary-card {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      background: var(--bg-body);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+    }
+    .glossary-term-fr { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: var(--accent); }
+    .glossary-term-en { font-style: italic; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .glossary-def { font-size: 0.88rem; line-height: 1.5; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="titles">
+        <h1>Positions et approches concrètes du mystère ontologique (1933)</h1>
+        <p>Concrete Approaches to the Ontological Mystery — Gabriel Marcel</p>
+      </div>
+      <div class="controls">
+        <button class="btn active" onclick="setMode('split')">Bilingual Parallel</button>
+        <button class="btn" onclick="setMode('en')">English Only</button>
+        <button class="btn" onclick="setMode('fr')">Français</button>
+        <button class="btn" style="margin-left: 0.5rem;" onclick="toggleDrawer()">Glossary 📖</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="companion-banner">
+    <div class="companion-inner">
+      <span>
+        🎭 <strong>Companion Play:</strong> Marcel composed this philosophical address as the explicit metaphysical counterpart to his play <em>Le Monde cassé</em> (1933).
+      </span>
+      <span class="companion-link" onclick="openCompanionInfo()">View Companion Context &rarr;</span>
+    </div>
+  </div>
+
+  <main class="container">
+    <div id="grid" class="reader-grid">
+      <!-- French Column -->
+      <section class="col-fr">
+        <div class="column-header">Original French (1933) — Public Domain</div>
+        
+        <div class="block" id="fr-p-001" data-pair="p-001">
+          <span class="block-id">#1</span>
+          Il n'est peut-être pas inutile d'insister sur la nécessité où l'on se trouve aujourd'hui, si l'on veut tenter une démarche philosophique authentique, de partir non point d'un système abstrait, mais d'une certaine expérience vécue.
+        </div>
+
+        <div class="block" id="fr-p-002" data-pair="p-002">
+          <span class="block-id">#2</span>
+          Le monde dans lequel nous vivons est un « <span class="term" onclick="showGlossary('monde-casse')">monde cassé</span> », un monde où l'<span class="term" onclick="showGlossary('exigence-ontologique')">exigence ontologique</span> semble étouffée par la prédominance de la fonction. L'homme contemporain tend à se définir lui-même uniquement par les fonctions qu'il remplit : fonction sociale, économique, administrative. Il se perçoit comme une montre dont les rouages doivent fonctionner sans accroc.
+        </div>
+
+        <div class="block" id="fr-p-003" data-pair="p-003">
+          <span class="block-id">#3</span>
+          Or, entre le <span class="term" onclick="showGlossary('probleme-mystere')">problème et le mystère</span>, il y a une différence essentielle de nature. Un problème est quelque chose que je rencontre, que je trouve entièrement devant moi, mais que je puis par conséquent cerner et réduire.
+        </div>
+
+        <div class="block" id="fr-p-004" data-pair="p-004">
+          <span class="block-id">#4</span>
+          Le mystère, au contraire, est quelque chose où je suis moi-même engagé, et qui ne peut par conséquent être pensé que comme une sphère où la distinction de l'en-moi et du devant-moi perd sa signification et sa valeur initiale.
+        </div>
+
+        <div class="block" id="fr-p-005" data-pair="p-005">
+          <span class="block-id">#5</span>
+          Tandis que la <span class="term" onclick="showGlossary('reflexion-seconde')">réflexion primaire</span> analyse et dissèque en séparant le sujet de son objet, la réflexion seconde est essentiellement récupératrice : elle reconquiert l'unité vivante de l'expérience et ouvre la voie à la <span class="term" onclick="showGlossary('disponibilite')">disponibilité</span> et à l'espérance.
+        </div>
+      </section>
+
+      <!-- English Column -->
+      <section class="col-en">
+        <div class="column-header">English Aligned Edition — Marcelian Philosophical Translation</div>
+        
+        <div class="block" id="en-p-001" data-pair="p-001">
+          <span class="block-id">#1</span>
+          It is perhaps not useless to emphasize the necessity under which one finds oneself today, if one intends to attempt an authentic philosophical endeavor, of departing not from an abstract system, but from a certain lived experience.
+        </div>
+
+        <div class="block" id="en-p-002" data-pair="p-002">
+          <span class="block-id">#2</span>
+          The world in which we live is a "<span class="term" onclick="showGlossary('monde-casse')">broken world</span>"—a world in which the <span class="term" onclick="showGlossary('exigence-ontologique')">ontological exigence</span> seems suffocated by the hegemony of function. Contemporary man tends to identify himself entirely with the functions he exercises: social, economic, administrative. He views himself like a watch whose gears must turn without friction.
+        </div>
+
+        <div class="block" id="en-p-003" data-pair="p-003">
+          <span class="block-id">#3</span>
+          Yet between a <span class="term" onclick="showGlossary('probleme-mystere')">problem and a mystery</span>, there exists an essential distinction of nature. A problem is something I encounter, which I find completely before me, but which I can consequently circumscribe, lay siege to, and reduce.
+        </div>
+
+        <div class="block" id="en-p-004" data-pair="p-004">
+          <span class="block-id">#4</span>
+          A mystery, by contrast, is something in which I am myself implicated and engaged, and which can consequently only be conceived as a sphere where the distinction between what is in-me and what is before-me loses its meaning and initial validity.
+        </div>
+
+        <div class="block" id="en-p-005" data-pair="p-005">
+          <span class="block-id">#5</span>
+          Whereas <span class="term" onclick="showGlossary('reflexion-seconde')">primary reflection</span> analyzes and dissects by sundering subject from object, secondary reflection is essentially recuperative: it reconquers the living unity of experience and opens the path to <span class="term" onclick="showGlossary('disponibilite')">spiritual availability (disponibilité)</span> and hope.
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Side Glossary Drawer -->
+  <aside id="drawer" class="drawer">
+    <div class="drawer-header">
+      <div class="drawer-title">Marcelian Nomenclature</div>
+      <button class="btn" onclick="toggleDrawer()">✕</button>
+    </div>
+    <div class="drawer-content">
+      <div class="glossary-card" id="card-disponibilite">
+        <div class="glossary-term-fr">Disponibilité</div>
+        <div class="glossary-term-en">Spiritual Availability / Inward Openness</div>
+        <div class="glossary-def">
+          The capacity of a person to be inwardly free, vulnerable, and attentive to others and reality. Opposed to <em>indisponibilité</em> (being burdened, preoccupied, or cluttered by possessions and ego).
+        </div>
+      </div>
+
+      <div class="glossary-card" id="card-exigence-ontologique">
+        <div class="glossary-term-fr">L'exigence ontologique</div>
+        <div class="glossary-term-en">Ontological Exigence / Need for Being</div>
+        <div class="glossary-def">
+          An existential appetite or profound inner hunger for genuine reality and transcendence that refuses to accept the functionalized life of modern society as complete.
+        </div>
+      </div>
+
+      <div class="glossary-card" id="card-monde-casse">
+        <div class="glossary-term-fr">Le monde cassé</div>
+        <div class="glossary-term-en">The Broken World</div>
+        <div class="glossary-def">
+          A world alienated by technical bureaucracy and functional reductionism, where mystery, presence, and genuine communion are crowded out by checklists and schedules.
+        </div>
+      </div>
+
+      <div class="glossary-card" id="card-probleme-mystere">
+        <div class="glossary-term-fr">Problème vs. Mystère</div>
+        <div class="glossary-term-en">Problem vs. Mystery</div>
+        <div class="glossary-def">
+          A problem sits entirely in front of me (*devant-moi*) and can be solved impersonally. A mystery envelops me (*en-moi*); I cannot stand outside it because my own being is part of the question (e.g., love, evil, hope).
+        </div>
+      </div>
+
+      <div class="glossary-card" id="card-reflexion-seconde">
+        <div class="glossary-term-fr">Réflexion primaire vs. seconde</div>
+        <div class="glossary-term-en">Primary vs. Secondary Reflection</div>
+        <div class="glossary-def">
+          Primary reflection isolates and divides data analytically. Secondary reflection recuperates lived wholeness, rediscovering mystery and presence behind the abstraction.
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <script>
+    // Layout switcher
+    function setMode(mode) {
+      const grid = document.getElementById('grid');
+      const buttons = document.querySelectorAll('.controls .btn');
+      buttons.forEach(b => b.classList.remove('active'));
+
+      if (mode === 'split') {
+        grid.className = 'reader-grid';
+        buttons[0].classList.add('active');
+      } else if (mode === 'en') {
+        grid.className = 'reader-grid mode-en';
+        buttons[1].classList.add('active');
+      } else if (mode === 'fr') {
+        grid.className = 'reader-grid mode-fr';
+        buttons[2].classList.add('active');
+      }
+    }
+
+    // Bidirectional paragraph hover
+    document.querySelectorAll('.block').forEach(el => {
+      const pair = el.getAttribute('data-pair');
+      el.addEventListener('mouseenter', () => {
+        document.querySelectorAll(`[data-pair="${pair}"]`).forEach(p => p.classList.add('highlighted'));
+      });
+      el.addEventListener('mouseleave', () => {
+        document.querySelectorAll(`[data-pair="${pair}"]`).forEach(p => p.classList.remove('highlighted'));
+      });
+    });
+
+    // Glossary Drawer controls
+    function toggleDrawer() {
+      document.getElementById('drawer').classList.toggle('open');
+    }
+
+    function showGlossary(key) {
+      const drawer = document.getElementById('drawer');
+      drawer.classList.add('open');
+      const card = document.getElementById(`card-${key}`);
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        card.style.outline = '2px solid var(--accent)';
+        setTimeout(() => { card.style.outline = 'none'; }, 2000);
+      }
+    }
+
+    function openCompanionInfo() {
+      alert("In the complete corpus, this banner cross-navigates directly to the companion play 'Le Monde cassé' (1933) with aligned scenes highlighting where Christiane expresses the existential crisis analyzed in this essay.");
+    }
+  </script>
+</body>
+</html>
