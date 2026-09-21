@@ -447,6 +447,10 @@
   border-radius: 3px;
   margin-left: 0.5rem;
 }
+.unabridged-badge.queued {
+  background: #b45309;
+  color: #ffffff;
+}
 
 /* Loading State for Dynamic Works */
 .loading-work-box {

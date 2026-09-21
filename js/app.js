@@ -220,7 +220,9 @@ function loadWork(workId, sectionId = "all") {
   const titleEn = document.getElementById("work-title-en");
   const details = document.getElementById("work-details");
 
-  const badgeHtml = work.unabridged ? ` <span class="unabridged-badge">✓ Unabridged Edition</span>` : "";
+  const badgeHtml = work.unabridged 
+    ? ` <span class="unabridged-badge">✓ Verified Verbatim Unabridged</span>`
+    : (work.statusBadge ? ` <span class="unabridged-badge queued">⏳ ${escapeHtmlSafe(work.statusBadge)}</span>` : "");
   if (titleFr) titleFr.innerHTML = `${escapeHtmlSafe(work.titleFr)}${badgeHtml}`;
   if (titleEn) titleEn.textContent = work.titleEn || "";
   if (details) details.textContent = `${work.category || "Corpus Entry"} • Published ${work.year} • France / EU Public Domain`;
@@ -251,18 +253,22 @@ function loadWork(workId, sectionId = "all") {
     return;
   }
 
-  // If work is unabridged and has a dedicated file in data/works/:
-  if (work.unabridged) {
+  // If work has a dedicated file in data/works/:
+  const dedicatedWorkIds = ['positions-mystere-ontologique', 'etre-et-avoir', 'mystere-de-letre-1', 'mystere-de-letre-2', 'le-monde-casse'];
+  if (dedicatedWorkIds.includes(workId) || work.unabridged) {
     const container = document.getElementById("reader-blocks");
     const colHeader = document.getElementById("reader-columns-header");
     const sectionNav = document.getElementById("section-nav");
     if (colHeader) colHeader.style.display = "none";
     if (sectionNav) sectionNav.style.display = "none";
     if (container) {
+      const loadMsg = work.unabridged
+        ? `Loading verified verbatim unabridged edition for <strong>${escapeHtmlSafe(work.titleEn || work.titleFr)}</strong>...`
+        : `Loading edition for <strong>${escapeHtmlSafe(work.titleEn || work.titleFr)}</strong>...`;
       container.innerHTML = `
         <div class="loading-work-box">
           <div class="loading-work-spinner"></div>
-          <div>Loading complete unabridged edition for <strong>${escapeHtmlSafe(work.titleEn || work.titleFr)}</strong>...</div>
+          <div>${loadMsg}</div>
         </div>
       `;
     }

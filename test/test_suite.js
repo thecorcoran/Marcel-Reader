@@ -171,10 +171,18 @@ const beingHaving = require(path.join(root, 'data/works/etre-et-avoir.js'));
 
 const tier1List = [ontMystery, brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving];
 
+assert(ontMystery.unabridged === true, `${ontMystery.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(ontMystery.paragraphs.length === 105, `${ontMystery.titleEn}: Contains complete 105 verbatim paragraphs`);
+
+const queuedList = [brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving];
+queuedList.forEach(w => {
+  assert(w.unabridged === false, `${w.titleEn}: Honestly marked unabridged=false (queued for full verbatim ingestion)`);
+  assert(Boolean(w.statusBadge), `${w.titleEn}: Has statusBadge indicating queued status`);
+});
+
 tier1List.forEach(w => {
-  assert(w.unabridged === true, `${w.titleEn}: Marked as 100% unabridged`);
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
-  assert(Array.isArray(w.paragraphs) && w.paragraphs.length > 0, `${w.titleEn}: Contains unabridged paragraphs (${w.paragraphs.length} paras)`);
+  assert(Array.isArray(w.paragraphs) && w.paragraphs.length > 0, `${w.titleEn}: Contains paragraphs (${w.paragraphs.length} paras)`);
   
   // Verify strict paragraph symmetry & non-empty content
   let frEnBalanced = true;
@@ -198,22 +206,26 @@ require(path.join(root, 'js/app.js'));
 // Test initial load of Ontological Mystery
 window.loadWork('positions-mystere-ontologique');
 const initialRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(initialRows === 24, `Rendered full 24 unabridged paragraphs for Ontological Mystery (actual: ${initialRows})`);
+assert(initialRows === 105, `Rendered full 105 verified verbatim paragraphs for Ontological Mystery (actual: ${initialRows})`);
 assert(getEl('section-nav').style.display === 'flex', 'Section navigation bar is visible for multi-section work');
-assert(getEl('section-pills').innerHTML.includes('Section I') || getEl('section-pills').innerHTML.includes('I. The Broken World'), 'Section pills rendered in navigation bar');
+assert(getEl('section-pills').innerHTML.includes('Section I') || getEl('section-pills').innerHTML.includes('I. The Broken World') || getEl('section-pills').innerHTML.includes('Le monde cassé'), 'Section pills rendered in navigation bar');
 
 // Test Section Filtering
 window.selectSection('sec-1');
 const sec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(sec1Rows === 5, `Section I filtered to exactly 5 paragraphs (actual: ${sec1Rows})`);
+assert(sec1Rows === 20, `Section I filtered to exactly 20 paragraphs (actual: ${sec1Rows})`);
 
 window.selectSection('sec-2');
 const sec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(sec2Rows === 5, `Section II filtered to exactly 5 paragraphs (actual: ${sec2Rows})`);
+assert(sec2Rows === 20, `Section II filtered to exactly 20 paragraphs (actual: ${sec2Rows})`);
+
+window.selectSection('sec-5');
+const sec5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(sec5Rows === 25, `Section V filtered to exactly 25 paragraphs (actual: ${sec5Rows})`);
 
 window.selectSection('all');
 const allRowsRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(allRowsRestored === 24, `All 24 paragraphs restored upon selecting "All Sections"`);
+assert(allRowsRestored === 105, `All 105 paragraphs restored upon selecting "All Sections"`);
 
 // Test Switch to Le Monde cassé
 window.switchWork('le-monde-casse');

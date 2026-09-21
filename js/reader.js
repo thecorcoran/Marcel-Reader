@@ -79,9 +79,12 @@ function renderSectionNav(work, targetSectionId) {
     const displayedCount = (currentSectionId === "all")
       ? work.paragraphs.length
       : work.paragraphs.filter(p => p.sectionId === currentSectionId).length;
+    const statusText = work.unabridged
+      ? `<span style="color:#047857; font-weight:600;">✓ Verified Verbatim Unabridged</span>`
+      : `<span style="color:#b45309; font-weight:600;">⏳ Study Digest (${work.paragraphs.length} paras) — Full Ingestion Queued</span>`;
     progressContainer.innerHTML = `
       <span>Showing <strong>${displayedCount}</strong> of <strong>${work.paragraphs.length}</strong> parallel paragraphs</span>
-      <span style="color:#047857; font-weight:600;">✓ 100% Unabridged Text</span>
+      ${statusText}
     `;
   }
 }

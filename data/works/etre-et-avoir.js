@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel — Être et avoir (Journal métaphysique 1928-1933) (1935)
- * Full Unabridged Bilingual Edition
- * Complete Metaphysical Diary across 3 Chronological Divisions with Aligned Paragraphs and Glossary Terms
+ * Study Digest / Key Passages (Full Verbatim Ingestion Queued)
+ * Chronological Divisions with Aligned Paragraphs and Glossary Terms
  */
 (function() {
   const WORK_DATA = {
@@ -12,7 +12,8 @@
     "category": "Philosophical Treatises & Essays",
     "companionSlug": "positions-mystere-ontologique",
     "companionTitle": "On the Ontological Mystery (1933)",
-    "unabridged": true,
+    "unabridged": false,
+    "statusBadge": "Verbatim Ingestion Queued",
     "sections": [
       {
         "id": "part-1",

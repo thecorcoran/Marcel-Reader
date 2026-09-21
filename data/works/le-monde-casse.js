@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel — Le Monde cassé (1933)
- * Full Unabridged Bilingual Edition
- * Complete Four-Act Dramatic Play with Aligned Dialogue and Philosophical Glossary Terms
+ * Dramatic Digest / Four-Act Key Scenes (Full Verbatim Ingestion Queued)
+ * Four-Act Dramatic Play with Aligned Dialogue and Philosophical Glossary Terms
  */
 (function() {
   const WORK_DATA = {
@@ -12,7 +12,8 @@
     "category": "Dramatic Works (Plays)",
     "companionSlug": "positions-mystere-ontologique",
     "companionTitle": "On the Ontological Mystery (1933)",
-    "unabridged": true,
+    "unabridged": false,
+    "statusBadge": "Dramatic Digest — Full Verbatim Ingestion Queued",
     "sections": [
       {
         "id": "act-1",

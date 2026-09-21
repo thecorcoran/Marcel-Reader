@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel — Le Mystère de l'être, Tome I: Réflexion et mystère (1951)
- * Full Unabridged Bilingual Edition (Gifford Lectures, Aberdeen)
- * Complete 10 Lectures with Aligned Paragraphs and Philosophical Glossary Terms
+ * Study Digest / Key Passages (Full Verbatim Ingestion Queued)
+ * 10 Lectures with Aligned Paragraphs and Philosophical Glossary Terms
  */
 (function() {
   const WORK_DATA = {
@@ -12,7 +12,8 @@
     "category": "Lectures & Addresses",
     "companionSlug": "mystere-de-letre-2",
     "companionTitle": "The Mystery of Being, Vol. 2: Faith and Reality (1951)",
-    "unabridged": true,
+    "unabridged": false,
+    "statusBadge": "Verbatim Ingestion Queued",
     "sections": [
       { "id": "lec-1", "titleFr": "Conférence I : Questions de méthode", "titleEn": "Lecture 1: Questions of Method" },
       { "id": "lec-2", "titleFr": "Conférence II : Un monde cassé", "titleEn": "Lecture 2: A Broken World" },
