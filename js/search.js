@@ -45,8 +45,9 @@ function executeGlobalSearch() {
   const results = [];
 
   Object.values(window.MARCEL_CORPUS).forEach(work => {
+    if (!work.paragraphs) return; // Skip works not yet loaded in memory
     work.paragraphs.forEach(p => {
-      if (currentSearchFilter === "all" || currentSearchFilter === "fr") {
+      // (rest of search matching logic unchanged)"fr") {
         const normFr = normalizeStr(p.fr);
         if (normFr.includes(normQuery)) {
           results.push({

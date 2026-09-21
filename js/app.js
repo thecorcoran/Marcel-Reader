@@ -1,12 +1,12 @@
 /**
- * Gabriel Marcel Reader — Application Entry Point & Navigation
+ * Gabriel Marcel Reader — Application Controller & Dynamic Lazy Loader
  */
 let currentWorkId = "positions-mystere-ontologique";
 
 window.addEventListener("DOMContentLoaded", () => {
   if (window.location.hash) {
     const h = window.location.hash.substring(1);
-    if (window.MARCEL_CORPUS[h]) currentWorkId = h;
+    if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[h]) currentWorkId = h;
   }
 
   populateWorkDropdown();
@@ -30,8 +30,7 @@ window.addEventListener("DOMContentLoaded", () => {
 function populateWorkDropdown() {
   const select = document.getElementById("work-select");
   const works = Object.values(window.MARCEL_CORPUS);
-  
-  // Group by category for clean browsing across the entire corpus
+
   const categories = {};
   works.forEach(w => {
     const cat = w.category || "Other Works";
@@ -63,7 +62,7 @@ function loadWork(workId) {
   document.getElementById("work-select").value = workId;
   document.getElementById("work-title-fr").textContent = work.titleFr;
   document.getElementById("work-title-en").textContent = work.titleEn || "";
-  document.getElementById("work-details").textContent = `${work.category || work.genre} • Published ${work.year} • France / EU Public Domain`;
+  document.getElementById("work-details").textContent = `${work.category || "Corpus Entry"} • Published ${work.year} • France / EU Public Domain`;
 
   const compIndicator = document.getElementById("companion-indicator");
   if (work.companionSlug && window.MARCEL_CORPUS[work.companionSlug]) {
@@ -73,7 +72,50 @@ function loadWork(workId) {
     compIndicator.innerHTML = `📜 ${work.category || "Corpus Entry"}`;
   }
 
-  renderBlocks(work);
+  // 1. If paragraphs are already cached in memory, render immediately
+  if (work.paragraphs && work.paragraphs.length > 0) {
+    renderBlocks(work);
+    return;
+  }
+
+  // 2. If work has a text file, lazy-load it dynamically
+  if (work.hasText) {
+    document.getElementById("blocks-fr").innerHTML = `<div style="padding:4rem 1rem; color:var(--text-muted); text-align:center; font-family:var(--font-sans);">Loading French text...</div>`;
+    document.getElementById("blocks-en").innerHTML = `<div style="padding:4rem 1rem; color:var(--text-muted); text-align:center; font-family:var(--font-sans);">Loading translation...</div>`;
+
+    const script = document.createElement("script");
+    script.src = `data/works/${workId}.js`;
+    script.onload = () => {
+      if (work.paragraphs && work.paragraphs.length > 0) {
+        renderBlocks(work);
+      } else {
+        renderIngestionNotice(work);
+      }
+    };
+    script.onerror = () => {
+      renderIngestionNotice(work);
+    };
+    document.head.appendChild(script);
+  } else {
+    renderIngestionNotice(work);
+  }
+}
+
+function renderIngestionNotice(work) {
+  const notice = `
+    <div style="padding:3.5rem 1.5rem; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; text-align:center; max-width:650px; margin:2rem auto; font-family:var(--font-sans);">
+      <div style="font-size:2rem; margin-bottom:0.5rem;">📖</div>
+      <h4 style="font-size:1.15rem; color:var(--accent); margin-bottom:0.75rem;">Text Scheduled for Ingestion</h4>
+      <p style="font-size:0.95rem; color:var(--text-muted); line-height:1.6; margin-bottom:1.25rem;">
+        <strong>${escapeHtml(work.titleEn || work.titleFr)}</strong> (${work.year}) is cataloged in the master index. Its French public domain scan is currently queued for OCR segmentation and Marcelian translation alignment.
+      </p>
+      <span style="font-size:0.78rem; background:#f4efe9; color:#6b635b; padding:0.35rem 0.9rem; border-radius:999px; border:1px solid #ded6c8; font-weight:500;">
+        Pipeline Status: Scheduled Ingestion
+      </span>
+    </div>
+  `;
+  document.getElementById("blocks-fr").innerHTML = notice;
+  document.getElementById("blocks-en").innerHTML = notice;
 }
 
 function renderGlossaryDrawer() {
