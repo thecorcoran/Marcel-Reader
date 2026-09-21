@@ -1,4 +1,12 @@
+/**
+ * Gabriel Marcel Reader — Text Rendering & Layout Engine
+ */
 let currentMode = "split";
+
+function escapeHtmlSafe(str) {
+  if (!str) return "";
+  return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
 
 function applyHighlightToHtml(html, searchText, hlId, noteText) {
   if (!searchText) return html;
@@ -10,7 +18,7 @@ function applyHighlightToHtml(html, searchText, hlId, noteText) {
   for (let i = 0; i < parts.length; i++) {
     if (!parts[i].startsWith('<') && !replaced) {
       if (termRegex.test(parts[i])) {
-        const noteBadge = noteText ? `<span class="note-indicator" title="${escapeHtml(noteText)}">📝</span>` : '';
+        const noteBadge = noteText ? `<span class="note-indicator" title="${escapeHtmlSafe(noteText)}">📝</span>` : '';
         parts[i] = parts[i].replace(termRegex, `<mark class="user-hl" data-hl-id="${hlId}">$&${noteBadge}</mark>`);
         replaced = true;
       }
@@ -22,6 +30,25 @@ function applyHighlightToHtml(html, searchText, hlId, noteText) {
 function renderBlocks(work) {
   const colFr = document.getElementById("blocks-fr");
   const colEn = document.getElementById("blocks-en");
+  if (!colFr || !colEn) return;
+
+  if (!work || !work.paragraphs || work.paragraphs.length === 0) {
+    const notice = `
+      <div style="padding:3.5rem 1.5rem; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; text-align:center; max-width:650px; margin:2rem auto; font-family:var(--font-sans);">
+        <div style="font-size:2rem; margin-bottom:0.5rem;">📖</div>
+        <h4 style="font-size:1.15rem; color:var(--accent); margin-bottom:0.75rem;">Text Scheduled for Ingestion</h4>
+        <p style="font-size:0.95rem; color:var(--text-muted); line-height:1.6; margin-bottom:1.25rem;">
+          <strong>${escapeHtmlSafe(work ? (work.titleEn || work.titleFr) : "This work")}</strong> is cataloged in the master index. Its French public domain scan is currently queued for OCR segmentation and translation alignment.
+        </p>
+        <span style="font-size:0.78rem; background:#f4efe9; color:#6b635b; padding:0.35rem 0.9rem; border-radius:999px; border:1px solid #ded6c8; font-weight:500;">
+          Pipeline Status: Scheduled Ingestion
+        </span>
+      </div>
+    `;
+    colFr.innerHTML = notice;
+    colEn.innerHTML = notice;
+    return;
+  }
 
   colFr.innerHTML = work.paragraphs.map(p => renderSingleBlock(work.id, p, 'fr')).join("");
   colEn.innerHTML = work.paragraphs.map(p => renderSingleBlock(work.id, p, 'en')).join("");
@@ -32,9 +59,10 @@ function renderBlocks(work) {
 
 function renderSingleBlock(workId, paragraph, lang) {
   const blockId = paragraph.id;
-  let processed = paragraph[lang];
+  let processed = paragraph[lang] || "";
 
-  const blockHls = highlights.filter(h => h.workId === workId && h.blockId === blockId && h.lang === lang);
+  const userHighlights = window.highlights || [];
+  const blockHls = userHighlights.filter(h => h.workId === workId && h.blockId === blockId && h.lang === lang);
   blockHls.forEach(hl => {
     processed = applyHighlightToHtml(processed, hl.text, hl.id, hl.note);
   });
@@ -63,7 +91,9 @@ function setupPairHover() {
     hlEl.addEventListener("click", (e) => {
       e.stopPropagation();
       const hlId = hlEl.getAttribute("data-hl-id");
-      openExistingNoteModal(hlId);
+      if (typeof window.openExistingNoteModal === "function") {
+        window.openExistingNoteModal(hlId);
+      }
     });
   });
 }
@@ -73,7 +103,9 @@ function setupTermClicks() {
     t.addEventListener("click", (e) => {
       e.stopPropagation();
       const termKey = t.getAttribute("data-term");
-      showGlossaryTerm(termKey);
+      if (typeof window.showGlossaryTerm === "function") {
+        window.showGlossaryTerm(termKey);
+      }
     });
   });
 }
@@ -81,6 +113,8 @@ function setupTermClicks() {
 function setMode(mode) {
   currentMode = mode;
   const grid = document.getElementById("reader-grid");
+  if (!grid) return;
+  
   ["split", "en", "fr"].forEach(m => {
     const btn = document.getElementById(`btn-mode-${m}`);
     if (btn) {
@@ -93,3 +127,7 @@ function setMode(mode) {
   else if (mode === "en") grid.className = "reader-grid mode-en";
   else if (mode === "fr") grid.className = "reader-grid mode-fr";
 }
+
+// Global window exposures
+window.renderBlocks = renderBlocks;
+window.setMode = setMode;

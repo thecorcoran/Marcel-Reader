@@ -1,15 +1,38 @@
+/**
+ * Gabriel Marcel Reader — Bilingual Full-Text Search Engine
+ */
 let currentSearchFilter = "all";
 
+function normalizeQuery(str) {
+  if (!str) return "";
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function stripTags(html) {
+  if (!html) return "";
+  return html.replace(/<[^>]+>/g, "");
+}
+
+function escapeSearchHtml(str) {
+  if (!str) return "";
+  return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
 function openSearchModal() {
-  document.getElementById("search-modal-backdrop").classList.add("open");
+  const modal = document.getElementById("search-modal-backdrop");
+  if (!modal) return;
+  modal.classList.add("open");
   const input = document.getElementById("global-search-input");
-  input.focus();
-  input.select();
+  if (input) {
+    input.focus();
+    input.select();
+  }
   executeGlobalSearch();
 }
 
 function closeSearchModal() {
-  document.getElementById("search-modal-backdrop").classList.remove("open");
+  const modal = document.getElementById("search-modal-backdrop");
+  if (modal) modal.classList.remove("open");
 }
 
 function handleSearchBackdropClick(e) {
@@ -29,8 +52,10 @@ function setSearchFilter(filter) {
 }
 
 function executeGlobalSearch() {
-  const query = document.getElementById("global-search-input").value.trim();
+  const input = document.getElementById("global-search-input");
+  const query = (input ? input.value : "").trim();
   const resultsContainer = document.getElementById("search-results-list");
+  if (!resultsContainer) return;
 
   if (!query || query.length < 2) {
     resultsContainer.innerHTML = `
@@ -41,48 +66,51 @@ function executeGlobalSearch() {
     return;
   }
 
-  const normQuery = normalizeStr(query);
+  const normQuery = normalizeQuery(query);
   const results = [];
 
-  Object.values(window.MARCEL_CORPUS).forEach(work => {
-    if (!work.paragraphs) return; // Skip works not yet loaded in memory
-    work.paragraphs.forEach(p => {
-      // (rest of search matching logic unchanged)"fr") {
-        const normFr = normalizeStr(p.fr);
-        if (normFr.includes(normQuery)) {
-          results.push({
-            workId: work.id,
-            workTitle: work.titleFr,
-            year: work.year,
-            blockId: p.id,
-            lang: "fr",
-            rawText: stripHtml(p.fr),
-            matchQuery: query
-          });
-        }
-      }
+  if (window.MARCEL_CORPUS) {
+    Object.values(window.MARCEL_CORPUS).forEach(work => {
+      if (!work || !work.paragraphs) return;
 
-      if (currentSearchFilter === "all" || currentSearchFilter === "en") {
-        const normEn = normalizeStr(p.en);
-        if (normEn.includes(normQuery)) {
-          results.push({
-            workId: work.id,
-            workTitle: work.titleEn || work.titleFr,
-            year: work.year,
-            blockId: p.id,
-            lang: "en",
-            rawText: stripHtml(p.en),
-            matchQuery: query
-          });
+      work.paragraphs.forEach(p => {
+        if (currentSearchFilter === "all" || currentSearchFilter === "fr") {
+          const normFr = normalizeQuery(p.fr);
+          if (normFr.includes(normQuery)) {
+            results.push({
+              workId: work.id,
+              workTitle: work.titleEn || work.titleFr,
+              year: work.year,
+              blockId: p.id,
+              lang: "fr",
+              rawText: stripTags(p.fr),
+              matchQuery: query
+            });
+          }
         }
-      }
+
+        if (currentSearchFilter === "all" || currentSearchFilter === "en") {
+          const normEn = normalizeQuery(p.en);
+          if (normEn.includes(normQuery)) {
+            results.push({
+              workId: work.id,
+              workTitle: work.titleEn || work.titleFr,
+              year: work.year,
+              blockId: p.id,
+              lang: "en",
+              rawText: stripTags(p.en),
+              matchQuery: query
+            });
+          }
+        }
+      });
     });
-  });
+  }
 
   if (results.length === 0) {
     resultsContainer.innerHTML = `
       <div style="padding:2.5rem; text-align:center; color:var(--text-muted); font-size:0.9rem;">
-        No matches found for "<strong>${escapeHtml(query)}</strong>".
+        No matches found for "<strong>${escapeSearchHtml(query)}</strong>".
       </div>
     `;
     return;
@@ -106,11 +134,21 @@ function executeGlobalSearch() {
 
 function selectSearchResult(workId, blockId, lang) {
   closeSearchModal();
-  jumpToPassage(workId, blockId, lang);
+  if (typeof window.jumpToPassage === "function") {
+    window.jumpToPassage(workId, blockId, lang);
+  }
 }
 
 function highlightSnippet(text, query) {
   const safeQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
   const regex = new RegExp(`(${safeQuery})`, 'gi');
-  return escapeHtml(text).replace(regex, '<mark>$1</mark>');
+  return escapeSearchHtml(text).replace(regex, '<mark>$1</mark>');
 }
+
+// Global window exposures
+window.openSearchModal = openSearchModal;
+window.closeSearchModal = closeSearchModal;
+window.handleSearchBackdropClick = handleSearchBackdropClick;
+window.setSearchFilter = setSearchFilter;
+window.executeGlobalSearch = executeGlobalSearch;
+window.selectSearchResult = selectSearchResult;

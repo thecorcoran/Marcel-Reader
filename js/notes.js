@@ -1,16 +1,16 @@
-let highlights = [];
+/**
+ * Gabriel Marcel Reader — Instapaper-Style Highlights & Notes Engine
+ */
+window.highlights = [];
 let selectedTagFilter = null;
 let activeModalHlId = null;
 let pendingSelectionData = null;
 let currentModalTags = [];
 
-const selToolbar = document.getElementById("selection-toolbar");
-const noteModal = document.getElementById("note-modal-backdrop");
-
 function initNotes() {
   try {
     const stored = localStorage.getItem("marcel_reader_highlights");
-    if (stored) highlights = JSON.parse(stored);
+    if (stored) window.highlights = JSON.parse(stored);
   } catch(e) {}
   updateNotesCount();
 
@@ -20,17 +20,20 @@ function initNotes() {
 
 function saveHighlights() {
   try {
-    localStorage.setItem("marcel_reader_highlights", JSON.stringify(highlights));
+    localStorage.setItem("marcel_reader_highlights", JSON.stringify(window.highlights));
   } catch(e) {}
   updateNotesCount();
 }
 
 function updateNotesCount() {
   const badge = document.getElementById("notes-badge");
-  if (badge) badge.textContent = highlights.length;
+  if (badge) badge.textContent = (window.highlights || []).length;
 }
 
 function handleTextSelection(e) {
+  const selToolbar = document.getElementById("selection-toolbar");
+  if (!selToolbar) return;
+
   if (e.target.closest("#selection-toolbar") || e.target.closest(".modal-backdrop") || e.target.closest(".drawer")) {
     return;
   }
@@ -86,11 +89,14 @@ function applyHighlightFromSelection(openNoteImmediately) {
     createdAt: new Date().toISOString()
   };
 
-  highlights.push(newHl);
+  window.highlights.push(newHl);
   saveHighlights();
-  renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[currentWorkId]) {
+    renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  }
 
-  selToolbar.style.display = "none";
+  const selToolbar = document.getElementById("selection-toolbar");
+  if (selToolbar) selToolbar.style.display = "none";
   window.getSelection().removeAllRanges();
 
   if (openNoteImmediately) {
@@ -101,22 +107,24 @@ function applyHighlightFromSelection(openNoteImmediately) {
 }
 
 function openExistingNoteModal(hlId) {
-  const hl = highlights.find(h => h.id === hlId);
+  const hl = (window.highlights || []).find(h => h.id === hlId);
   if (!hl) return;
 
   activeModalHlId = hlId;
   currentModalTags = [...(hl.tags || [])];
 
+  const modal = document.getElementById("note-modal-backdrop");
   document.getElementById("modal-quote").textContent = `"${hl.text}"`;
   document.getElementById("modal-note-text").value = hl.note || "";
   renderModalTags();
 
-  noteModal.classList.add("open");
+  if (modal) modal.classList.add("open");
   document.getElementById("modal-note-text").focus();
 }
 
 function renderModalTags() {
   const container = document.getElementById("modal-tag-chips");
+  if (!container) return;
   container.innerHTML = currentModalTags.map(tag => `
     <span class="tag-chip">
       #${tag}
@@ -144,14 +152,16 @@ function removeModalTag(tag) {
 }
 
 function saveCurrentNote() {
-  const hl = highlights.find(h => h.id === activeModalHlId);
+  const hl = (window.highlights || []).find(h => h.id === activeModalHlId);
   if (!hl) return;
 
   hl.note = document.getElementById("modal-note-text").value.trim();
   hl.tags = [...currentModalTags];
 
   saveHighlights();
-  renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[currentWorkId]) {
+    renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  }
   closeNoteModal();
   showToast("Note Saved");
 
@@ -162,9 +172,11 @@ function saveCurrentNote() {
 
 function deleteCurrentHighlight() {
   if (!confirm("Remove this highlight and note?")) return;
-  highlights = highlights.filter(h => h.id !== activeModalHlId);
+  window.highlights = (window.highlights || []).filter(h => h.id !== activeModalHlId);
   saveHighlights();
-  renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[currentWorkId]) {
+    renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  }
   closeNoteModal();
   showToast("Highlight Removed");
 
@@ -174,12 +186,14 @@ function deleteCurrentHighlight() {
 }
 
 function closeNoteModal() {
-  noteModal.classList.remove("open");
+  const modal = document.getElementById("note-modal-backdrop");
+  if (modal) modal.classList.remove("open");
   activeModalHlId = null;
 }
 
 function toggleNotebook() {
   const drawer = document.getElementById("notebook-drawer");
+  if (!drawer) return;
   const wasOpen = drawer.classList.contains("open");
   closeDrawers();
   if (!wasOpen) {
@@ -189,12 +203,14 @@ function toggleNotebook() {
 }
 
 function renderNotebook() {
-  const searchVal = (document.getElementById("notebook-search-input").value || "").toLowerCase();
+  const searchInput = document.getElementById("notebook-search-input");
+  const searchVal = (searchInput ? searchInput.value : "").toLowerCase();
   const container = document.getElementById("notebook-cards-container");
   const tagListEl = document.getElementById("notebook-tags-filter");
+  if (!container || !tagListEl) return;
 
   const allTags = new Set();
-  highlights.forEach(h => (h.tags || []).forEach(t => allTags.add(t)));
+  (window.highlights || []).forEach(h => (h.tags || []).forEach(t => allTags.add(t)));
 
   tagListEl.innerHTML = `
     <span class="tag-filter-pill ${selectedTagFilter === null ? 'active' : ''}" onclick="setNotebookTagFilter(null)">All</span>
@@ -203,7 +219,7 @@ function renderNotebook() {
     `).join("")}
   `;
 
-  const filtered = highlights.filter(h => {
+  const filtered = (window.highlights || []).filter(h => {
     const matchesTag = selectedTagFilter === null || (h.tags && h.tags.includes(selectedTagFilter));
     const matchesSearch = !searchVal || 
       h.text.toLowerCase().includes(searchVal) || 
@@ -215,23 +231,23 @@ function renderNotebook() {
   if (filtered.length === 0) {
     container.innerHTML = `
       <div style="padding: 2.5rem 1rem; text-align: center; color: var(--text-muted); font-size: 0.95rem;">
-        ${highlights.length === 0 ? "No highlights or notes yet.<br><br>Select any passage in the text to create your first highlight." : "No notes matching current filters."}
+        ${(window.highlights || []).length === 0 ? "No highlights or notes yet.<br><br>Select any passage in the text to create your first highlight." : "No notes matching current filters."}
       </div>
     `;
     return;
   }
 
   container.innerHTML = filtered.map(h => {
-    const work = window.MARCEL_CORPUS[h.workId] || { titleFr: h.workId };
+    const work = (window.MARCEL_CORPUS && window.MARCEL_CORPUS[h.workId]) ? window.MARCEL_CORPUS[h.workId] : { titleEn: h.workId, titleFr: h.workId };
     const num = h.blockId.replace("p-", "");
     return `
       <div class="note-card">
         <div class="note-card-meta">
-          <span>${work.titleFr} (#${num})</span>
+          <span>${work.titleEn || work.titleFr} (#${num})</span>
           <span style="text-transform:uppercase; font-size:0.7rem; background:#eae5db; padding:1px 4px; border-radius:3px; color:#5a5044;">${h.lang}</span>
         </div>
-        <div class="note-card-quote">"${escapeHtml(h.text)}"</div>
-        ${h.note ? `<div class="note-card-text">${escapeHtml(h.note)}</div>` : ''}
+        <div class="note-card-quote">"${escapeHtmlSafe(h.text)}"</div>
+        ${h.note ? `<div class="note-card-text">${escapeHtmlSafe(h.note)}</div>` : ''}
         ${h.tags && h.tags.length > 0 ? `
           <div class="note-card-tags">
             ${h.tags.map(t => `<span class="tag-chip" style="font-size:0.72rem; padding:1px 5px;">#${t}</span>`).join("")}
@@ -268,7 +284,7 @@ function jumpToPassage(workId, blockId, lang) {
 }
 
 function exportNotesMarkdown() {
-  if (highlights.length === 0) {
+  if ((window.highlights || []).length === 0) {
     alert("No highlights or notes to export.");
     return;
   }
@@ -276,9 +292,9 @@ function exportNotesMarkdown() {
   let md = `# Gabriel Marcel — Reader Highlights & Notes\n\n`;
   md += `*Exported on ${new Date().toLocaleDateString()} from Gabriel Marcel Digital Corpus*\n\n---\n\n`;
 
-  highlights.forEach((h, idx) => {
-    const work = window.MARCEL_CORPUS[h.workId] || { titleFr: h.workId };
-    md += `### ${idx + 1}. ${work.titleFr} (${h.blockId}, ${h.lang.toUpperCase()})\n\n`;
+  (window.highlights || []).forEach((h, idx) => {
+    const work = (window.MARCEL_CORPUS && window.MARCEL_CORPUS[h.workId]) ? window.MARCEL_CORPUS[h.workId] : { titleEn: h.workId, titleFr: h.workId };
+    md += `### ${idx + 1}. ${work.titleEn || work.titleFr} (${h.blockId}, ${h.lang.toUpperCase()})\n\n`;
     md += `> "${h.text}"\n\n`;
     if (h.note) md += `**Note:** ${h.note}\n\n`;
     if (h.tags && h.tags.length > 0) md += `**Tags:** ${h.tags.map(t => `#${t}`).join(" ")}\n\n`;
@@ -294,3 +310,18 @@ function exportNotesMarkdown() {
   URL.revokeObjectURL(url);
   showToast("Exported to Markdown");
 }
+
+// Global window exposures
+window.initNotes = initNotes;
+window.applyHighlightFromSelection = applyHighlightFromSelection;
+window.openExistingNoteModal = openExistingNoteModal;
+window.saveCurrentNote = saveCurrentNote;
+window.deleteCurrentHighlight = deleteCurrentHighlight;
+window.closeNoteModal = closeNoteModal;
+window.toggleNotebook = toggleNotebook;
+window.renderNotebook = renderNotebook;
+window.setNotebookTagFilter = setNotebookTagFilter;
+window.jumpToPassage = jumpToPassage;
+window.exportNotesMarkdown = exportNotesMarkdown;
+window.handleTagInput = handleTagInput;
+window.removeModalTag = removeModalTag;
