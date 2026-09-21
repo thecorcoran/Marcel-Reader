@@ -268,10 +268,10 @@ function setNotebookTagFilter(tag) {
 }
 
 function jumpToPassage(workId, blockId, lang) {
-  if (currentWorkId !== workId) {
-    switchWork(workId);
+  if (window.currentWorkId !== workId) {
+    window.switchWork(workId);
   }
-  closeDrawers();
+  window.closeDrawers();
 
   setTimeout(() => {
     const target = document.getElementById(`${lang}-${blockId}`) || document.getElementById(`en-${blockId}`) || document.getElementById(`fr-${blockId}`);

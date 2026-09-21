@@ -1,18 +1,18 @@
 /**
  * Gabriel Marcel Reader — Application Controller & Routing
  */
-let currentWorkId = "positions-mystere-ontologique";
+window.currentWorkId = "positions-mystere-ontologique";
 
 function initApp() {
   if (window.location.hash) {
     const h = window.location.hash.substring(1);
-    if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[h]) currentWorkId = h;
+    if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[h]) window.currentWorkId = h;
   }
 
   populateWorkDropdown();
   if (typeof window.initNotes === "function") window.initNotes();
   renderGlossaryDrawer();
-  loadWork(currentWorkId);
+  loadWork(window.currentWorkId);
 
   document.addEventListener("keydown", (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
@@ -27,7 +27,7 @@ function initApp() {
   });
 }
 
-// Ensure execution whether DOM is still loading or already parsed
+// Guarantees execution whether DOM is still loading or already parsed
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", initApp);
 } else {
@@ -49,7 +49,7 @@ function populateWorkDropdown() {
   select.innerHTML = Object.entries(categories).map(([catName, list]) => `
     <optgroup label="${catName}">
       ${list.map(w => `
-        <option value="${w.id}" ${w.id === currentWorkId ? 'selected' : ''}>
+        <option value="${w.id}" ${w.id === window.currentWorkId ? 'selected' : ''}>
           ${w.titleEn \vert{}\vert{} w.titleFr} (${w.year})
         </option>
       `).join("")}
@@ -58,7 +58,7 @@ function populateWorkDropdown() {
 }
 
 function switchWork(workId) {
-  currentWorkId = workId;
+  window.currentWorkId = workId;
   window.location.hash = workId;
   loadWork(workId);
 }
@@ -83,7 +83,7 @@ function loadWork(workId) {
   if (compIndicator) {
     if (work.companionSlug && window.MARCEL_CORPUS[work.companionSlug]) {
       const comp = window.MARCEL_CORPUS[work.companionSlug];
-      compIndicator.innerHTML = `🎭 <span class="companion-tag" onclick="switchWork('${comp.id}')">Paired Companion: <strong>${comp.titleEn || comp.titleFr}</strong> &rarr;</span>`;
+      compIndicator.innerHTML = `🎭 <span class="companion-tag" onclick="window.switchWork('${comp.id}')">Paired Companion: <strong>${comp.titleEn || comp.titleFr}</strong> &rarr;</span>`;
     } else {
       compIndicator.innerHTML = `📜 ${work.category || "Corpus Entry"}`;
     }
@@ -146,7 +146,7 @@ function showToast(msg) {
   setTimeout(() => toast.classList.remove("show"), 2200);
 }
 
-// Global window exposures
+// Global window bindings
 window.switchWork = switchWork;
 window.loadWork = loadWork;
 window.toggleGlossary = toggleGlossary;
