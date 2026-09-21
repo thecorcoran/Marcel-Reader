@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gabriel Marcel — Open Multilingual Digital Corpus</title>
   
+  <meta name="theme-color" content="#8b2500">
+  <link rel="manifest" href="manifest.json">
+  
   <!-- Typography & Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,21 +28,31 @@
       </div>
 
       <div class="top-actions">
-        <button class="btn" onclick="openSearchModal()" title="Search Entire Corpus (Ctrl+K)">
+        <button class="btn" onclick="openSearchModal()" title="Search Entire Corpus (Ctrl+K)" aria-label="Search Entire Corpus">
           🔍 Search
         </button>
 
-        <div style="display: flex; gap: 0.25rem;">
+        <div class="btn-group mode-toggle-group" role="group" aria-label="Reading Mode">
           <button class="btn active" id="btn-mode-split" onclick="setMode('split')">Split</button>
           <button class="btn" id="btn-mode-en" onclick="setMode('en')">English</button>
           <button class="btn" id="btn-mode-fr" onclick="setMode('fr')">Français</button>
         </div>
 
-        <button class="btn" onclick="toggleNotebook()" title="Personal Notebook">
+        <div class="btn-group reader-prefs-group" role="group" aria-label="Reading Preferences">
+          <button class="btn btn-icon" onclick="adjustFontSize(-1)" title="Decrease font size" aria-label="Decrease font size">A−</button>
+          <button class="btn btn-icon" onclick="adjustFontSize(1)" title="Increase font size" aria-label="Increase font size">A+</button>
+          <select id="theme-select" class="theme-select" onchange="setTheme(this.value)" title="Reading Theme" aria-label="Reading Theme">
+            <option value="light">📜 Paper</option>
+            <option value="sepia">🕯️ Sepia</option>
+            <option value="dark">🌙 Dark</option>
+          </select>
+        </div>
+
+        <button class="btn" onclick="toggleNotebook()" title="Personal Notebook" aria-label="Personal Notebook">
           📝 Notes <span id="notes-badge" class="btn-badge">0</span>
         </button>
 
-        <button class="btn" onclick="toggleGlossary()" title="Marcelian Philosophical Glossary">
+        <button class="btn" onclick="toggleGlossary()" title="Marcelian Philosophical Glossary" aria-label="Philosophical Glossary">
           📖 Glossary
         </button>
       </div>
@@ -61,22 +74,19 @@
       <h3 id="work-title-en"></h3>
     </div>
 
-    <div id="reader-grid" class="reader-grid">
-      <section class="col-fr">
-        <div class="column-header">
+    <div id="reader-grid" class="reader-grid mode-split">
+      <div class="reader-columns-header" id="reader-columns-header">
+        <div class="column-header col-header-fr">
           <span>Texte Français (Domaine Public)</span>
-          <span>FR</span>
+          <span class="lang-pill">FR</span>
         </div>
-        <div id="blocks-fr"></div>
-      </section>
-
-      <section class="col-en">
-        <div class="column-header">
+        <div class="column-header col-header-en">
           <span>Marcelian Translation Edition</span>
-          <span>EN</span>
+          <span class="lang-pill">EN</span>
         </div>
-        <div id="blocks-en"></div>
-      </section>
+      </div>
+
+      <div id="reader-blocks" class="reader-blocks"></div>
     </div>
   </main>
 
@@ -87,11 +97,11 @@
   </div>
 
   <!-- Note Editor Modal -->
-  <div id="note-modal-backdrop" class="modal-backdrop">
+  <div id="note-modal-backdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="note-modal-title">
     <div class="note-modal">
       <div class="note-modal-header">
-        <h3>Highlight & Note</h3>
-        <button class="btn" onclick="closeNoteModal()" style="border:none;">✕</button>
+        <h3 id="note-modal-title">Highlight & Note</h3>
+        <button class="btn" onclick="closeNoteModal()" style="border:none;" aria-label="Close Note Modal">✕</button>
       </div>
       <div class="note-modal-body">
         <div id="modal-quote" class="highlight-quote"></div>
@@ -113,12 +123,12 @@
   </div>
 
   <!-- Personal Notebook Drawer -->
-  <aside id="notebook-drawer" class="drawer">
+  <aside id="notebook-drawer" class="drawer" role="region" aria-label="Personal Notebook">
     <div class="drawer-header">
       <div class="drawer-title">Personal Notebook</div>
       <div style="display:flex; gap:0.5rem; align-items:center;">
         <button class="btn" style="font-size:0.75rem;" onclick="exportNotesMarkdown()">Export .md</button>
-        <button class="btn" onclick="toggleNotebook()" style="border:none;">✕</button>
+        <button class="btn" onclick="toggleNotebook()" style="border:none;" aria-label="Close Notebook">✕</button>
       </div>
     </div>
     <div class="drawer-body">
@@ -130,24 +140,24 @@
   </aside>
 
   <!-- Philosophical Glossary Drawer -->
-  <aside id="glossary-drawer" class="drawer">
+  <aside id="glossary-drawer" class="drawer" role="region" aria-label="Philosophical Glossary">
     <div class="drawer-header">
       <div class="drawer-title">Marcelian Philosophical Glossary</div>
-      <button class="btn" onclick="toggleGlossary()" style="border:none;">✕</button>
+      <button class="btn" onclick="toggleGlossary()" style="border:none;" aria-label="Close Glossary">✕</button>
     </div>
     <div class="drawer-body" id="glossary-cards-container"></div>
   </aside>
 
   <!-- Global Bilingual Search Modal -->
-  <div id="search-modal-backdrop" class="search-modal-backdrop" onclick="handleSearchBackdropClick(event)">
+  <div id="search-modal-backdrop" class="search-modal-backdrop" onclick="handleSearchBackdropClick(event)" role="dialog" aria-modal="true" aria-label="Global Bilingual Search">
     <div class="search-dialog" onclick="event.stopPropagation()">
       <div class="search-input-box">
         <span style="margin-right:0.75rem;">🔍</span>
-        <input type="text" id="global-search-input" placeholder="Search entire Marcel corpus (French & English)..." oninput="executeGlobalSearch()">
+        <input type="text" id="global-search-input" placeholder="Search entire Marcel corpus (works, glossary, passages)..." oninput="handleSearchInput()">
         <button class="btn" onclick="closeSearchModal()" style="border:none;">Esc</button>
       </div>
       <div class="search-filters">
-        <span style="color:var(--text-muted); align-self:center;">Language:</span>
+        <span style="color:var(--text-muted); align-self:center;">Scope:</span>
         <button class="btn active" id="search-filter-all" onclick="setSearchFilter('all')">All</button>
         <button class="btn" id="search-filter-en" onclick="setSearchFilter('en')">English</button>
         <button class="btn" id="search-filter-fr" onclick="setSearchFilter('fr')">Français</button>
@@ -155,6 +165,9 @@
       <div id="search-results-list" class="search-results"></div>
     </div>
   </div>
+
+  <!-- Inline Philosophical Glossary Popover -->
+  <div id="glossary-popover" class="glossary-popover" role="tooltip" aria-hidden="true"></div>
 
   <div id="toast"></div>
 
@@ -168,4 +181,4 @@
   <script src="js/search.js"></script>
   <script src="js/app.js"></script>
 </body>
-</html>scr
+</html>

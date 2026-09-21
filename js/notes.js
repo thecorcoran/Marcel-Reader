@@ -91,8 +91,8 @@ function applyHighlightFromSelection(openNoteImmediately) {
 
   window.highlights.push(newHl);
   saveHighlights();
-  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[currentWorkId]) {
-    renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[window.currentWorkId]) {
+    renderBlocks(window.MARCEL_CORPUS[window.currentWorkId]);
   }
 
   const selToolbar = document.getElementById("selection-toolbar");
@@ -159,8 +159,8 @@ function saveCurrentNote() {
   hl.tags = [...currentModalTags];
 
   saveHighlights();
-  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[currentWorkId]) {
-    renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[window.currentWorkId]) {
+    renderBlocks(window.MARCEL_CORPUS[window.currentWorkId]);
   }
   closeNoteModal();
   showToast("Note Saved");
@@ -174,8 +174,8 @@ function deleteCurrentHighlight() {
   if (!confirm("Remove this highlight and note?")) return;
   window.highlights = (window.highlights || []).filter(h => h.id !== activeModalHlId);
   saveHighlights();
-  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[currentWorkId]) {
-    renderBlocks(window.MARCEL_CORPUS[currentWorkId]);
+  if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[window.currentWorkId]) {
+    renderBlocks(window.MARCEL_CORPUS[window.currentWorkId]);
   }
   closeNoteModal();
   showToast("Highlight Removed");

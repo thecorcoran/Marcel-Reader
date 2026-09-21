@@ -1,0 +1,12 @@
+{
+  "name": "marcel-reader",
+  "version": "1.0.0",
+  "description": "Open Multilingual Digital Corpus and Parallel Reader for Gabriel Marcel",
+  "scripts": {
+    "test": "node test/test_suite.js",
+    "lint": "node -c js/app.js js/reader.js js/search.js js/notes.js data/corpus.js data/glossary.js sw.js test/test_suite.js"
+  },
+  "author": "Gabriel Marcel Open Digital Corpus",
+  "license": "CC-BY-4.0"
+}
+

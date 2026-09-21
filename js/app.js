@@ -3,7 +3,122 @@
  */
 window.currentWorkId = "positions-mystere-ontologique";
 
+// Typography & Font Sizing Controller
+const FONT_SIZES = [
+  { label: "Small", size: "0.98rem" },
+  { label: "Normal", size: "1.12rem" },
+  { label: "Large", size: "1.25rem" },
+  { label: "Extra Large", size: "1.4rem" }
+];
+let currentFontSizeIndex = 1; // Default: Normal (1.12rem)
+
+function initFontSize() {
+  try {
+    const saved = localStorage.getItem("marcel_reader_fontsize_idx");
+    if (saved !== null) {
+      const idx = parseInt(saved, 10);
+      if (!isNaN(idx) && idx >= 0 && idx < FONT_SIZES.length) {
+        currentFontSizeIndex = idx;
+      }
+    }
+  } catch (e) {}
+  applyFontSize();
+}
+
+function adjustFontSize(delta) {
+  const newIdx = currentFontSizeIndex + delta;
+  if (newIdx < 0 || newIdx >= FONT_SIZES.length) return;
+  currentFontSizeIndex = newIdx;
+  try {
+    localStorage.setItem("marcel_reader_fontsize_idx", currentFontSizeIndex);
+  } catch (e) {}
+  applyFontSize();
+  showToast(`Font size: ${FONT_SIZES[currentFontSizeIndex].label}`);
+}
+
+function applyFontSize() {
+  const sizeObj = FONT_SIZES[currentFontSizeIndex];
+  if (sizeObj && document.documentElement) {
+    document.documentElement.style.setProperty("--reader-font-size", sizeObj.size);
+  }
+}
+
+// Reading Themes Controller (Paper, Sepia, Dark)
+function initTheme() {
+  let theme = "light";
+  try {
+    const saved = localStorage.getItem("marcel_reader_theme");
+    if (saved && ["light", "sepia", "dark"].includes(saved)) {
+      theme = saved;
+    }
+  } catch (e) {}
+  setTheme(theme, false);
+}
+
+function setTheme(theme, announce = true) {
+  if (document.documentElement) {
+    document.documentElement.setAttribute("data-theme", theme);
+  }
+  try {
+    localStorage.setItem("marcel_reader_theme", theme);
+  } catch (e) {}
+  const select = document.getElementById("theme-select");
+  if (select && select.value !== theme) select.value = theme;
+  if (announce) {
+    const labels = { light: "Paper Theme", sepia: "Sepia Theme", dark: "Dark Theme" };
+    showToast(labels[theme] || "Theme Updated");
+  }
+}
+
+// Service Worker Registration for PWA Offline Functionality
+function initServiceWorker() {
+  if (typeof navigator !== "undefined" && 'serviceWorker' in navigator && window.location && (window.location.protocol === 'http:' || window.location.protocol === 'https:')) {
+    navigator.serviceWorker.register('./sw.js')
+      .then((reg) => console.log('Marcel Reader ServiceWorker registered:', reg.scope))
+      .catch((err) => console.warn('ServiceWorker registration skipped:', err));
+  }
+}
+
+// Accessible Focus Trapping for Modals
+function trapFocusInModal(modalEl, e) {
+  if (e.key !== 'Tab') return;
+  const focusables = modalEl.querySelectorAll('button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])');
+  if (!focusables || focusables.length === 0) return;
+
+  const firstEl = focusables[0];
+  const lastEl = focusables[focusables.length - 1];
+
+  if (e.shiftKey) {
+    if (document.activeElement === firstEl) {
+      lastEl.focus();
+      e.preventDefault();
+    }
+  } else {
+    if (document.activeElement === lastEl) {
+      firstEl.focus();
+      e.preventDefault();
+    }
+  }
+}
+
+function setupModalFocusTraps() {
+  const searchModal = document.getElementById("search-modal-backdrop");
+  const noteModal = document.getElementById("note-modal-backdrop");
+
+  if (searchModal) {
+    searchModal.addEventListener("keydown", (e) => trapFocusInModal(searchModal, e));
+  }
+  if (noteModal) {
+    noteModal.addEventListener("keydown", (e) => trapFocusInModal(noteModal, e));
+  }
+}
+
 function initApp() {
+  initTheme();
+  initFontSize();
+  initServiceWorker();
+  setupModalFocusTraps();
+
   if (window.location.hash) {
     const h = window.location.hash.substring(1);
     if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[h]) window.currentWorkId = h;
@@ -50,7 +165,7 @@ function populateWorkDropdown() {
     <optgroup label="${catName}">
       ${list.map(w => `
         <option value="${w.id}" ${w.id === window.currentWorkId ? 'selected' : ''}>
-          ${w.titleEn \vert{}\vert{} w.titleFr} (${w.year})
+          ${w.titleEn || w.titleFr} (${w.year})
         </option>
       `).join("")}
     </optgroup>
@@ -136,6 +251,7 @@ function closeDrawers() {
   if (nb) nb.classList.remove("open");
   if (gl) gl.classList.remove("open");
   if (tb) tb.style.display = "none";
+  if (typeof window.hideGlossaryPopover === "function") window.hideGlossaryPopover();
 }
 
 function showToast(msg) {
@@ -153,3 +269,5 @@ window.toggleGlossary = toggleGlossary;
 window.showGlossaryTerm = showGlossaryTerm;
 window.closeDrawers = closeDrawers;
 window.showToast = showToast;
+window.setTheme = setTheme;
+window.adjustFontSize = adjustFontSize;

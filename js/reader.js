@@ -28,33 +28,43 @@ function applyHighlightToHtml(html, searchText, hlId, noteText) {
 }
 
 function renderBlocks(work) {
-  const colFr = document.getElementById("blocks-fr");
-  const colEn = document.getElementById("blocks-en");
-  if (!colFr || !colEn) return;
+  const container = document.getElementById("reader-blocks");
+  const colHeader = document.getElementById("reader-columns-header");
+  if (!container) return;
 
   if (!work || !work.paragraphs || work.paragraphs.length === 0) {
+    if (colHeader) colHeader.style.display = "none";
     const notice = `
-      <div style="padding:3.5rem 1.5rem; background:var(--bg-surface); border:1px solid var(--border-color); border-radius:8px; text-align:center; max-width:650px; margin:2rem auto; font-family:var(--font-sans);">
+      <div class="scheduled-notice">
         <div style="font-size:2rem; margin-bottom:0.5rem;">📖</div>
         <h4 style="font-size:1.15rem; color:var(--accent); margin-bottom:0.75rem;">Text Scheduled for Ingestion</h4>
         <p style="font-size:0.95rem; color:var(--text-muted); line-height:1.6; margin-bottom:1.25rem;">
           <strong>${escapeHtmlSafe(work ? (work.titleEn || work.titleFr) : "This work")}</strong> is cataloged in the master index. Its French public domain scan is currently queued for OCR segmentation and translation alignment.
         </p>
-        <span style="font-size:0.78rem; background:#f4efe9; color:#6b635b; padding:0.35rem 0.9rem; border-radius:999px; border:1px solid #ded6c8; font-weight:500;">
+        <span class="pipeline-badge">
           Pipeline Status: Scheduled Ingestion
         </span>
       </div>
     `;
-    colFr.innerHTML = notice;
-    colEn.innerHTML = notice;
+    container.innerHTML = notice;
     return;
   }
 
-  colFr.innerHTML = work.paragraphs.map(p => renderSingleBlock(work.id, p, 'fr')).join("");
-  colEn.innerHTML = work.paragraphs.map(p => renderSingleBlock(work.id, p, 'en')).join("");
+  if (colHeader) colHeader.style.display = "";
+  container.innerHTML = work.paragraphs.map(p => renderParagraphPair(work.id, p)).join("");
 
   setupPairHover();
   setupTermClicks();
+}
+
+function renderParagraphPair(workId, paragraph) {
+  const blockId = paragraph.id;
+  return `
+    <div class="paragraph-pair-row" id="row-${blockId}" data-pair="${blockId}">
+      ${renderSingleBlock(workId, paragraph, 'fr')}
+      ${renderSingleBlock(workId, paragraph, 'en')}
+    </div>
+  `;
 }
 
 function renderSingleBlock(workId, paragraph, lang) {
@@ -69,22 +79,17 @@ function renderSingleBlock(workId, paragraph, lang) {
 
   const num = blockId.replace("p-", "");
   return `
-    <div class="block" id="${lang}-${blockId}" data-pair="${blockId}" data-work-id="${workId}" data-block-id="${blockId}" data-lang="${lang}">
+    <div class="block col-${lang}" id="${lang}-${blockId}" data-pair="${blockId}" data-work-id="${workId}" data-block-id="${blockId}" data-lang="${lang}">
       <span class="block-id">#${num}</span>
-      ${processed}
+      <div class="block-text">${processed}</div>
     </div>
   `;
 }
 
 function setupPairHover() {
-  document.querySelectorAll(".block").forEach(b => {
-    const pair = b.getAttribute("data-pair");
-    b.addEventListener("mouseenter", () => {
-      document.querySelectorAll(`[data-pair="${pair}"]`).forEach(el => el.classList.add("pair-hover"));
-    });
-    b.addEventListener("mouseleave", () => {
-      document.querySelectorAll(`[data-pair="${pair}"]`).forEach(el => el.classList.remove("pair-hover"));
-    });
+  document.querySelectorAll(".paragraph-pair-row").forEach(row => {
+    row.addEventListener("mouseenter", () => row.classList.add("pair-hover"));
+    row.addEventListener("mouseleave", () => row.classList.remove("pair-hover"));
   });
 
   document.querySelectorAll(".user-hl").forEach(hlEl => {
@@ -98,16 +103,107 @@ function setupPairHover() {
   });
 }
 
+let activePopoverTerm = null;
+let popoverHideTimer = null;
+
 function setupTermClicks() {
+  const popover = document.getElementById("glossary-popover");
+
   document.querySelectorAll(".term").forEach(t => {
+    const termKey = t.getAttribute("data-term");
+
+    // Hover preview
+    t.addEventListener("mouseenter", () => {
+      clearTimeout(popoverHideTimer);
+      showGlossaryPopover(termKey, t);
+    });
+
+    t.addEventListener("mouseleave", () => {
+      popoverHideTimer = setTimeout(hideGlossaryPopover, 300);
+    });
+
+    // Click/tap preview
     t.addEventListener("click", (e) => {
       e.stopPropagation();
-      const termKey = t.getAttribute("data-term");
-      if (typeof window.showGlossaryTerm === "function") {
-        window.showGlossaryTerm(termKey);
-      }
+      clearTimeout(popoverHideTimer);
+      showGlossaryPopover(termKey, t);
     });
   });
+
+  if (popover) {
+    popover.addEventListener("mouseenter", () => {
+      clearTimeout(popoverHideTimer);
+    });
+    popover.addEventListener("mouseleave", () => {
+      popoverHideTimer = setTimeout(hideGlossaryPopover, 300);
+    });
+  }
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".term") && !e.target.closest("#glossary-popover")) {
+      hideGlossaryPopover();
+    }
+  });
+}
+
+function showGlossaryPopover(termKey, anchorEl) {
+  const popover = document.getElementById("glossary-popover");
+  if (!popover || !window.MARCEL_GLOSSARY || !window.MARCEL_GLOSSARY[termKey]) return;
+
+  const item = window.MARCEL_GLOSSARY[termKey];
+  activePopoverTerm = termKey;
+
+  popover.innerHTML = `
+    <div class="popover-header">
+      <div class="popover-term-fr">${escapeHtmlSafe(item.fr)}</div>
+      <div class="popover-term-en">${escapeHtmlSafe(item.en)}</div>
+    </div>
+    <div class="popover-body">
+      ${escapeHtmlSafe(item.def)}
+    </div>
+    <div class="popover-footer">
+      <button class="popover-btn" onclick="openFullGlossaryFromPopover('${termKey}')">
+        📖 Open in Glossary Drawer &rarr;
+      </button>
+    </div>
+  `;
+
+  const rect = anchorEl.getBoundingClientRect();
+  const popoverWidth = 320;
+  const winWidth = window.innerWidth || 1024;
+  const winHeight = window.innerHeight || 768;
+
+  let left = rect.left + (rect.width / 2) - (popoverWidth / 2);
+  if (left < 16) left = 16;
+  if (left + popoverWidth > winWidth - 16) {
+    left = winWidth - popoverWidth - 16;
+  }
+
+  let top = rect.bottom + (window.scrollY || 0) + 8;
+  if (rect.bottom + 220 > winHeight && rect.top > 220) {
+    top = rect.top + (window.scrollY || 0) - 190;
+  }
+
+  popover.style.left = `${left}px`;
+  popover.style.top = `${top}px`;
+  popover.classList.add("visible");
+  popover.setAttribute("aria-hidden", "false");
+}
+
+function hideGlossaryPopover() {
+  const popover = document.getElementById("glossary-popover");
+  if (popover) {
+    popover.classList.remove("visible");
+    popover.setAttribute("aria-hidden", "true");
+  }
+  activePopoverTerm = null;
+}
+
+function openFullGlossaryFromPopover(termKey) {
+  hideGlossaryPopover();
+  if (typeof window.showGlossaryTerm === "function") {
+    window.showGlossaryTerm(termKey);
+  }
 }
 
 function setMode(mode) {
@@ -123,11 +219,12 @@ function setMode(mode) {
     }
   });
 
-  if (mode === "split") grid.className = "reader-grid";
-  else if (mode === "en") grid.className = "reader-grid mode-en";
-  else if (mode === "fr") grid.className = "reader-grid mode-fr";
+  grid.className = `reader-grid mode-${mode}`;
 }
 
 // Global window exposures
 window.renderBlocks = renderBlocks;
 window.setMode = setMode;
+window.showGlossaryPopover = showGlossaryPopover;
+window.hideGlossaryPopover = hideGlossaryPopover;
+window.openFullGlossaryFromPopover = openFullGlossaryFromPopover;
