@@ -367,3 +367,104 @@
     right: -100vw;
   }
 }
+
+/* Chapter & Section Sub-Navigation Bar */
+.section-nav {
+  margin: 0.75rem 0 1.25rem;
+  padding: 0.6rem 0.85rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.section-nav-inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.section-pills-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-right: 0.25rem;
+}
+.section-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.section-pill {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  padding: 0.28rem 0.65rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-body);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.section-pill:hover {
+  background: var(--accent-soft);
+  color: var(--text-main);
+  border-color: var(--accent);
+}
+.section-pill.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.section-progress {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px dashed var(--border-color);
+  padding-top: 0.4rem;
+}
+
+/* Unabridged Badge */
+.unabridged-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: #047857;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-left: 0.5rem;
+}
+
+/* Loading State for Dynamic Works */
+.loading-work-box {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+.loading-work-spinner {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid var(--border-color);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 0.75rem;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+

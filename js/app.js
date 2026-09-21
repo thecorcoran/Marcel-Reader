@@ -172,13 +172,43 @@ function populateWorkDropdown() {
   `).join("");
 }
 
+function escapeHtmlSafe(str) {
+  if (!str) return "";
+  return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+function loadWorkScript(workId, callback) {
+  if (window.MARCEL_WORKS && window.MARCEL_WORKS[workId]) {
+    callback(window.MARCEL_WORKS[workId]);
+    return;
+  }
+
+  const existing = document.querySelector(`script[data-work-script="${workId}"]`);
+  if (existing) {
+    existing.addEventListener('load', () => callback(window.MARCEL_WORKS ? window.MARCEL_WORKS[workId] : null));
+    return;
+  }
+
+  const script = document.createElement("script");
+  script.src = `data/works/${workId}.js`;
+  script.setAttribute("data-work-script", workId);
+  script.onload = () => {
+    callback(window.MARCEL_WORKS ? window.MARCEL_WORKS[workId] : null);
+  };
+  script.onerror = () => {
+    console.warn(`Could not load data/works/${workId}.js`);
+    callback(null);
+  };
+  document.head.appendChild(script);
+}
+
 function switchWork(workId) {
   window.currentWorkId = workId;
   window.location.hash = workId;
   loadWork(workId);
 }
 
-function loadWork(workId) {
+function loadWork(workId, sectionId = "all") {
   if (!window.MARCEL_CORPUS) return;
   const work = window.MARCEL_CORPUS[workId];
   if (!work) return;
@@ -190,7 +220,8 @@ function loadWork(workId) {
   const titleEn = document.getElementById("work-title-en");
   const details = document.getElementById("work-details");
 
-  if (titleFr) titleFr.textContent = work.titleFr;
+  const badgeHtml = work.unabridged ? ` <span class="unabridged-badge">✓ Unabridged Edition</span>` : "";
+  if (titleFr) titleFr.innerHTML = `${escapeHtmlSafe(work.titleFr)}${badgeHtml}`;
   if (titleEn) titleEn.textContent = work.titleEn || "";
   if (details) details.textContent = `${work.category || "Corpus Entry"} • Published ${work.year} • France / EU Public Domain`;
 
@@ -204,8 +235,48 @@ function loadWork(workId) {
     }
   }
 
+  // If work payload is already in memory:
+  if (window.MARCEL_WORKS && window.MARCEL_WORKS[workId]) {
+    if (typeof window.renderBlocks === "function") {
+      window.renderBlocks(window.MARCEL_WORKS[workId], sectionId);
+    }
+    return;
+  }
+
+  // If work has paragraphs directly in MARCEL_CORPUS:
+  if (work.paragraphs && work.paragraphs.length > 0) {
+    if (typeof window.renderBlocks === "function") {
+      window.renderBlocks(work, sectionId);
+    }
+    return;
+  }
+
+  // If work is unabridged and has a dedicated file in data/works/:
+  if (work.unabridged) {
+    const container = document.getElementById("reader-blocks");
+    const colHeader = document.getElementById("reader-columns-header");
+    const sectionNav = document.getElementById("section-nav");
+    if (colHeader) colHeader.style.display = "none";
+    if (sectionNav) sectionNav.style.display = "none";
+    if (container) {
+      container.innerHTML = `
+        <div class="loading-work-box">
+          <div class="loading-work-spinner"></div>
+          <div>Loading complete unabridged edition for <strong>${escapeHtmlSafe(work.titleEn || work.titleFr)}</strong>...</div>
+        </div>
+      `;
+    }
+
+    loadWorkScript(workId, (loadedData) => {
+      if (typeof window.renderBlocks === "function") {
+        window.renderBlocks(loadedData || work, sectionId);
+      }
+    });
+    return;
+  }
+
   if (typeof window.renderBlocks === "function") {
-    window.renderBlocks(work);
+    window.renderBlocks(work, sectionId);
   }
 }
 

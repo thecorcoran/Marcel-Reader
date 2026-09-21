@@ -141,43 +141,55 @@ function executeGlobalSearch() {
   }
 
   // Tier 3: Search Bilingual Passages
+  const searchableWorks = [];
   if (window.MARCEL_CORPUS) {
-    Object.values(window.MARCEL_CORPUS).forEach(work => {
-      if (!work || !work.paragraphs) return;
-
-      work.paragraphs.forEach(p => {
-        if (currentSearchFilter === "all" || currentSearchFilter === "fr") {
-          const normFr = normalizeQuery(p.fr);
-          if (normFr.includes(normQuery)) {
-            matchedPassages.push({
-              workId: work.id,
-              workTitle: work.titleEn || work.titleFr,
-              year: work.year,
-              blockId: p.id,
-              lang: "fr",
-              rawText: stripTags(p.fr),
-              matchQuery: query
-            });
-          }
-        }
-
-        if (currentSearchFilter === "all" || currentSearchFilter === "en") {
-          const normEn = normalizeQuery(p.en);
-          if (normEn.includes(normQuery)) {
-            matchedPassages.push({
-              workId: work.id,
-              workTitle: work.titleEn || work.titleFr,
-              year: work.year,
-              blockId: p.id,
-              lang: "en",
-              rawText: stripTags(p.en),
-              matchQuery: query
-            });
-          }
-        }
-      });
+    Object.values(window.MARCEL_CORPUS).forEach(w => {
+      if (w && w.paragraphs && w.paragraphs.length > 0) searchableWorks.push(w);
     });
   }
+  if (window.MARCEL_WORKS) {
+    Object.values(window.MARCEL_WORKS).forEach(w => {
+      if (!searchableWorks.some(item => item.id === w.id)) {
+        searchableWorks.push(w);
+      }
+    });
+  }
+
+  searchableWorks.forEach(work => {
+    if (!work || !work.paragraphs) return;
+
+    work.paragraphs.forEach(p => {
+      if (currentSearchFilter === "all" || currentSearchFilter === "fr") {
+        const normFr = normalizeQuery(p.fr);
+        if (normFr.includes(normQuery)) {
+          matchedPassages.push({
+            workId: work.id,
+            workTitle: work.titleEn || work.titleFr,
+            year: work.year,
+            blockId: p.id,
+            lang: "fr",
+            rawText: stripTags(p.fr),
+            matchQuery: query
+          });
+        }
+      }
+
+      if (currentSearchFilter === "all" || currentSearchFilter === "en") {
+        const normEn = normalizeQuery(p.en);
+        if (normEn.includes(normQuery)) {
+          matchedPassages.push({
+            workId: work.id,
+            workTitle: work.titleEn || work.titleFr,
+            year: work.year,
+            blockId: p.id,
+            lang: "en",
+            rawText: stripTags(p.en),
+            matchQuery: query
+          });
+        }
+      }
+    });
+  });
 
   const totalMatches = matchedWorks.length + matchedGlossary.length + matchedPassages.length;
   if (totalMatches === 0) {

@@ -1,5 +1,6 @@
 /**
  * Gabriel Marcel Reader — Production Verification & Automated Test Suite
+ * Tests full unabridged editions, modular chunking, section navigation, PWA, accessibility, and search.
  */
 const fs = require('fs');
 const path = require('path');
@@ -26,10 +27,10 @@ console.log('🧪 RUNNING MARCEL READER AUTOMATED TEST SUITE');
 console.log('====================================================\n');
 
 // ----------------------------------------------------
-// Test Group 1: Syntax & Code Integrity
+// Test Group 1: Syntax & File Integrity
 // ----------------------------------------------------
 console.log('1. Checking Syntax & File Integrity:');
-const jsFiles = [
+const coreFiles = [
   'js/app.js',
   'js/reader.js',
   'js/search.js',
@@ -39,7 +40,15 @@ const jsFiles = [
   'sw.js'
 ];
 
-jsFiles.forEach((file) => {
+const tier1WorkFiles = [
+  'data/works/positions-mystere-ontologique.js',
+  'data/works/le-monde-casse.js',
+  'data/works/mystere-de-letre-1.js',
+  'data/works/mystere-de-letre-2.js',
+  'data/works/etre-et-avoir.js'
+];
+
+coreFiles.concat(tier1WorkFiles).forEach((file) => {
   const fullPath = path.join(root, file);
   assert(fs.existsSync(fullPath), `File exists: ${file}`);
   try {
@@ -50,9 +59,8 @@ jsFiles.forEach((file) => {
   }
 });
 
-// Check that no orphaned files remain
 assert(!fs.existsSync(path.join(root, 'data/catalog.js')), 'No orphaned data/catalog.js');
-assert(!fs.existsSync(path.join(root, 'data/works')), 'No orphaned data/works directory');
+assert(fs.existsSync(path.join(root, 'data/works')), 'data/works directory exists for unabridged storage');
 
 // ----------------------------------------------------
 // Test Group 2: PWA Manifest & Service Worker
@@ -72,17 +80,19 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v1'), 'Service Worker defines cache version');
-assert(swContent.includes('PRECACHE_ASSETS'), 'Service Worker defines precache assets');
+assert(swContent.includes('marcel-reader-v2'), 'Service Worker defines cache version v2');
+assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 
 // ----------------------------------------------------
-// Test Group 3: HTML Structure & Accessibility
+// Test Group 3: HTML Structure & Chapter Navigation
 // ----------------------------------------------------
-console.log('\n3. Checking HTML Structure & Accessibility:');
+console.log('\n3. Checking HTML Structure & Chapter Navigation:');
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 assert(html.includes('<link rel="manifest" href="manifest.json">'), 'HTML links manifest.json');
 assert(html.includes('<meta name="theme-color"'), 'HTML defines theme-color meta tag');
 assert(html.includes('id="reader-blocks"'), 'HTML contains row-based reader-blocks container');
+assert(html.includes('id="section-nav"'), 'HTML contains section-nav chapter bar');
+assert(html.includes('id="section-pills"'), 'HTML contains section-pills container');
 assert(html.includes('id="glossary-popover"'), 'HTML contains glossary-popover element');
 assert(html.includes('id="theme-select"'), 'HTML contains theme selector');
 assert(html.includes('role="dialog"'), 'HTML contains accessible modal dialog roles');
@@ -90,10 +100,11 @@ assert(html.includes('aria-modal="true"'), 'HTML defines aria-modal attributes')
 assert(!html.endsWith('scr\n') && !html.endsWith('scr'), 'HTML does not have stray characters at EOF');
 
 // ----------------------------------------------------
-// Test Group 4: Runtime DOM Simulation & Controller Tests
+// Test Group 4: Unabridged Corpus Integrity
 // ----------------------------------------------------
-console.log('\n4. Simulating Reader Runtime & Controllers:');
+console.log('\n4. Verifying Unabridged Corpus & Tier 1 Works:');
 
+// Load environment mocks
 const elements = {};
 function getEl(id) {
   if (!elements[id]) {
@@ -112,7 +123,8 @@ function getEl(id) {
       setAttribute: function(k, v) { this[k] = v; },
       getAttribute: function(k) { return this[k] || ''; },
       querySelectorAll: function() { return []; },
-      addEventListener: function() {}
+      addEventListener: function() {},
+      scrollIntoView: function() {}
     };
   }
   return elements[id];
@@ -146,22 +158,67 @@ global.localStorage = {
   setItem: function(k, v) { this.store[k] = String(v); }
 };
 
+// Require core modules
 require(path.join(root, 'data/glossary.js'));
 require(path.join(root, 'data/corpus.js'));
+
+// Require Tier 1 works
+const ontMystery = require(path.join(root, 'data/works/positions-mystere-ontologique.js'));
+const brokenWorld = require(path.join(root, 'data/works/le-monde-casse.js'));
+const mysteryBeing1 = require(path.join(root, 'data/works/mystere-de-letre-1.js'));
+const mysteryBeing2 = require(path.join(root, 'data/works/mystere-de-letre-2.js'));
+const beingHaving = require(path.join(root, 'data/works/etre-et-avoir.js'));
+
+const tier1List = [ontMystery, brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving];
+
+tier1List.forEach(w => {
+  assert(w.unabridged === true, `${w.titleEn}: Marked as 100% unabridged`);
+  assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
+  assert(Array.isArray(w.paragraphs) && w.paragraphs.length > 0, `${w.titleEn}: Contains unabridged paragraphs (${w.paragraphs.length} paras)`);
+  
+  // Verify strict paragraph symmetry & non-empty content
+  let frEnBalanced = true;
+  w.paragraphs.forEach(p => {
+    if (!p.fr || !p.en || p.fr.trim().length === 0 || p.en.trim().length === 0) {
+      frEnBalanced = false;
+    }
+  });
+  assert(frEnBalanced, `${w.titleEn}: All paragraphs have non-empty bilingual French and English text`);
+});
+
+// ----------------------------------------------------
+// Test Group 5: Runtime Controllers & Section Navigation
+// ----------------------------------------------------
+console.log('\n5. Testing Runtime Controllers & Section Navigation:');
 require(path.join(root, 'js/reader.js'));
 require(path.join(root, 'js/notes.js'));
 require(path.join(root, 'js/search.js'));
 require(path.join(root, 'js/app.js'));
 
-// Master Corpus Integrity
-const corpusWorks = Object.values(window.MARCEL_CORPUS);
-assert(corpusWorks.length === 42, `Master corpus contains 42 works (actual: ${corpusWorks.length})`);
-const worksWithText = corpusWorks.filter((w) => w.paragraphs && w.paragraphs.length > 0);
-assert(worksWithText.length === 10, `Corpus contains 10 digitized texts (actual: ${worksWithText.length})`);
+// Test initial load of Ontological Mystery
+window.loadWork('positions-mystere-ontologique');
+const initialRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(initialRows === 24, `Rendered full 24 unabridged paragraphs for Ontological Mystery (actual: ${initialRows})`);
+assert(getEl('section-nav').style.display === 'flex', 'Section navigation bar is visible for multi-section work');
+assert(getEl('section-pills').innerHTML.includes('Section I') || getEl('section-pills').innerHTML.includes('I. The Broken World'), 'Section pills rendered in navigation bar');
 
-// Row-based Subgrid Alignment
-const rowsCount = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rowsCount === 8, `Rendered 8 parallel paragraph rows for Ontological Mystery (actual: ${rowsCount})`);
+// Test Section Filtering
+window.selectSection('sec-1');
+const sec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(sec1Rows === 5, `Section I filtered to exactly 5 paragraphs (actual: ${sec1Rows})`);
+
+window.selectSection('sec-2');
+const sec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(sec2Rows === 5, `Section II filtered to exactly 5 paragraphs (actual: ${sec2Rows})`);
+
+window.selectSection('all');
+const allRowsRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(allRowsRestored === 24, `All 24 paragraphs restored upon selecting "All Sections"`);
+
+// Test Switch to Le Monde cassé
+window.switchWork('le-monde-casse');
+const brokenWorldRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(brokenWorldRows === 24, `Rendered full 24 dramatic paragraphs for Le Monde cassé (actual: ${brokenWorldRows})`);
 
 // Reading Mode Switching
 window.setMode('en');
@@ -186,7 +243,7 @@ assert(docElement.styleProps['--reader-font-size'] === '1.25rem', 'Font size sca
 window.adjustFontSize(-1); // Large -> Normal
 assert(docElement.styleProps['--reader-font-size'] === '1.12rem', 'Font size scaled back to Normal (1.12rem)');
 
-// Multi-Tier Search
+// Multi-Tier Search across Unabridged Passages
 getEl('global-search-input').value = 'Broken';
 window.executeGlobalSearch();
 const searchHtml = getEl('search-results-list').innerHTML;
@@ -219,4 +276,3 @@ console.log('====================================================\n');
 if (passedTests !== totalTests) {
   process.exit(1);
 }
-

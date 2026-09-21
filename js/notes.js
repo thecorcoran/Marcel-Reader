@@ -273,6 +273,17 @@ function jumpToPassage(workId, blockId, lang) {
   }
   window.closeDrawers();
 
+  // Ensure section containing the target paragraph is visible
+  if (typeof window.selectSection === "function") {
+    const activeData = (window.MARCEL_WORKS && window.MARCEL_WORKS[workId]) || (window.MARCEL_CORPUS && window.MARCEL_CORPUS[workId]);
+    if (activeData && activeData.paragraphs) {
+      const p = activeData.paragraphs.find(item => item.id === blockId);
+      if (p && p.sectionId && window.currentSectionId !== p.sectionId && window.currentSectionId !== "all") {
+        window.selectSection(p.sectionId);
+      }
+    }
+  }
+
   setTimeout(() => {
     const target = document.getElementById(`${lang}-${blockId}`) || document.getElementById(`en-${blockId}`) || document.getElementById(`fr-${blockId}`);
     if (target) {
@@ -280,7 +291,7 @@ function jumpToPassage(workId, blockId, lang) {
       target.classList.add("flash-target");
       setTimeout(() => target.classList.remove("flash-target"), 2600);
     }
-  }, 150);
+  }, 220);
 }
 
 function exportNotesMarkdown() {

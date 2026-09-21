@@ -27,13 +27,75 @@ function applyHighlightToHtml(html, searchText, hlId, noteText) {
   return parts.join('');
 }
 
-function renderBlocks(work) {
+let currentActiveWork = null;
+let currentSectionId = "all";
+
+function selectSection(sectionId) {
+  currentSectionId = sectionId;
+  if (currentActiveWork) {
+    renderBlocks(currentActiveWork, sectionId);
+    const container = document.getElementById("reader-blocks");
+    if (container) container.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
+function renderSectionNav(work, targetSectionId) {
+  const sectionNav = document.getElementById("section-nav");
+  const pillsContainer = document.getElementById("section-pills");
+  const progressContainer = document.getElementById("section-progress");
+
+  if (!sectionNav || !pillsContainer) return;
+
+  if (!work.sections || work.sections.length <= 1) {
+    sectionNav.style.display = "none";
+    return;
+  }
+
+  sectionNav.style.display = "flex";
+  if (targetSectionId !== null && targetSectionId !== undefined) {
+    currentSectionId = targetSectionId;
+  }
+
+  const allActive = currentSectionId === "all" ? "active" : "";
+  let pillsHtml = `
+    <button class="section-pill ${allActive}" onclick="window.selectSection('all')">
+      All Sections (${work.paragraphs.length})
+    </button>
+  `;
+
+  work.sections.forEach(sec => {
+    const isActive = currentSectionId === sec.id ? "active" : "";
+    const secCount = work.paragraphs.filter(p => p.sectionId === sec.id).length;
+    pillsHtml += `
+      <button class="section-pill ${isActive}" onclick="window.selectSection('${sec.id}')">
+        ${escapeHtmlSafe(sec.titleEn || sec.titleFr)} (${secCount})
+      </button>
+    `;
+  });
+
+  pillsContainer.innerHTML = pillsHtml;
+
+  if (progressContainer) {
+    const displayedCount = (currentSectionId === "all")
+      ? work.paragraphs.length
+      : work.paragraphs.filter(p => p.sectionId === currentSectionId).length;
+    progressContainer.innerHTML = `
+      <span>Showing <strong>${displayedCount}</strong> of <strong>${work.paragraphs.length}</strong> parallel paragraphs</span>
+      <span style="color:#047857; font-weight:600;">✓ 100% Unabridged Text</span>
+    `;
+  }
+}
+
+function renderBlocks(work, targetSectionId = null) {
+  currentActiveWork = work;
   const container = document.getElementById("reader-blocks");
   const colHeader = document.getElementById("reader-columns-header");
+  const sectionNav = document.getElementById("section-nav");
   if (!container) return;
 
   if (!work || !work.paragraphs || work.paragraphs.length === 0) {
     if (colHeader) colHeader.style.display = "none";
+    if (sectionNav) sectionNav.style.display = "none";
     const notice = `
       <div class="scheduled-notice">
         <div style="font-size:2rem; margin-bottom:0.5rem;">📖</div>
@@ -50,8 +112,14 @@ function renderBlocks(work) {
     return;
   }
 
+  renderSectionNav(work, targetSectionId);
+
+  const displayParagraphs = (currentSectionId && currentSectionId !== "all")
+    ? work.paragraphs.filter(p => p.sectionId === currentSectionId)
+    : work.paragraphs;
+
   if (colHeader) colHeader.style.display = "";
-  container.innerHTML = work.paragraphs.map(p => renderParagraphPair(work.id, p)).join("");
+  container.innerHTML = displayParagraphs.map(p => renderParagraphPair(work.id, p)).join("");
 
   setupPairHover();
   setupTermClicks();
@@ -225,6 +293,7 @@ function setMode(mode) {
 // Global window exposures
 window.renderBlocks = renderBlocks;
 window.setMode = setMode;
+window.selectSection = selectSection;
 window.showGlossaryPopover = showGlossaryPopover;
 window.hideGlossaryPopover = hideGlossaryPopover;
 window.openFullGlossaryFromPopover = openFullGlossaryFromPopover;
