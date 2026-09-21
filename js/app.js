@@ -2,6 +2,9 @@
  * Gabriel Marcel Reader — Application Controller & Routing
  */
 window.currentWorkId = "positions-mystere-ontologique";
+window.currentView = "reader";
+let currentCatalogFilter = "all";
+let currentCatalogQuery = "";
 
 // Typography & Font Sizing Controller
 const FONT_SIZES = [
@@ -119,15 +122,26 @@ function initApp() {
   initServiceWorker();
   setupModalFocusTraps();
 
-  if (window.location.hash) {
-    const h = window.location.hash.substring(1);
-    if (window.MARCEL_CORPUS && window.MARCEL_CORPUS[h]) window.currentWorkId = h;
-  }
-
   populateWorkDropdown();
   if (typeof window.initNotes === "function") window.initNotes();
   renderGlossaryDrawer();
-  loadWork(window.currentWorkId);
+
+  function routeByHash() {
+    const rawHash = (window.location && window.location.hash) ? window.location.hash.replace(/^#/, '') : '';
+    if (rawHash && rawHash !== 'home' && rawHash !== 'catalog' && window.MARCEL_CORPUS && window.MARCEL_CORPUS[rawHash]) {
+      loadWork(rawHash);
+    } else {
+      showMainPage();
+    }
+  }
+
+  routeByHash();
+
+  if (typeof window.addEventListener === 'function') {
+    window.addEventListener('hashchange', () => {
+      routeByHash();
+    });
+  }
 
   document.addEventListener("keydown", (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
@@ -161,15 +175,156 @@ function populateWorkDropdown() {
     categories[cat].push(w);
   });
 
-  select.innerHTML = Object.entries(categories).map(([catName, list]) => `
+  const isHome = (window.currentView === 'home');
+  let optionsHtml = `<option value="" disabled ${isHome ? 'selected' : ''}>-- Select a Work --</option>`;
+
+  optionsHtml += Object.entries(categories).map(([catName, list]) => `
     <optgroup label="${catName}">
-      ${list.map(w => `
-        <option value="${w.id}" ${w.id === window.currentWorkId ? 'selected' : ''}>
-          ${w.titleEn || w.titleFr} (${w.year})
+      ${list.map(w => {
+        const dot = w.unabridged ? '●' : '○';
+        const isSelected = (!isHome && w.id === window.currentWorkId);
+        return `
+        <option value="${w.id}" ${isSelected ? 'selected' : ''}>
+          ${dot} ${escapeHtmlSafe(w.titleEn || w.titleFr)} (${w.year})
         </option>
-      `).join("")}
+      `;}).join("")}
     </optgroup>
   `).join("");
+
+  select.innerHTML = optionsHtml;
+}
+
+function showMainPage() {
+  window.currentView = 'home';
+  if (window.location) window.location.hash = 'home';
+
+  const mainPage = document.getElementById("main-page-container");
+  const readerContainer = document.getElementById("reader-container") || document.querySelector(".reader-container");
+  const metaBar = document.getElementById("meta-bar") || document.querySelector(".meta-bar");
+  const sectionNav = document.getElementById("section-nav");
+  const btnBack = document.getElementById("btn-back-home");
+  const modeGroup = document.querySelector(".mode-toggle-group");
+  const prefsGroup = document.querySelector(".reader-prefs-group");
+  const select = document.getElementById("work-select");
+
+  if (mainPage) mainPage.style.display = "block";
+  if (readerContainer) readerContainer.style.display = "none";
+  if (metaBar) metaBar.style.display = "none";
+  if (sectionNav) sectionNav.style.display = "none";
+  if (btnBack) btnBack.style.display = "none";
+  if (modeGroup) modeGroup.style.display = "none";
+  if (prefsGroup) prefsGroup.style.display = "none";
+  if (select) select.value = "";
+
+  renderMainCatalog(currentCatalogFilter, currentCatalogQuery);
+  if (typeof window.scrollTo === "function") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+}
+
+function setCatalogFilter(filter) {
+  currentCatalogFilter = filter;
+  const pills = document.querySelectorAll('#catalog-filter-pills .filter-pill');
+  if (pills && pills.forEach) {
+    pills.forEach(btn => {
+      if (btn.getAttribute('data-filter') === filter) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
+  renderMainCatalog(currentCatalogFilter, currentCatalogQuery);
+}
+
+function handleCatalogSearch() {
+  const input = document.getElementById('catalog-search-input');
+  currentCatalogQuery = input ? input.value.trim().toLowerCase() : '';
+  renderMainCatalog(currentCatalogFilter, currentCatalogQuery);
+}
+
+function renderMainCatalog(filter = 'all', query = '') {
+  const container = document.getElementById('catalog-grid');
+  if (!container || !window.MARCEL_CORPUS) return;
+
+  const works = Object.values(window.MARCEL_CORPUS);
+  const filtered = works.filter(w => {
+    // Filter by category or completeness
+    if (filter === 'complete' && !w.unabridged) return false;
+    if (filter !== 'all' && filter !== 'complete' && w.category !== filter) return false;
+
+    // Search query filter
+    if (query) {
+      const q = query.toLowerCase();
+      const matchEn = (w.titleEn || '').toLowerCase().includes(q);
+      const matchFr = (w.titleFr || '').toLowerCase().includes(q);
+      const matchYear = String(w.year).includes(q);
+      const matchCat = (w.category || '').toLowerCase().includes(q);
+      if (!matchEn && !matchFr && !matchYear && !matchCat) return false;
+    }
+    return true;
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="catalog-empty-box">
+        <p>No works found matching your filter.</p>
+        <button class="btn" onclick="setCatalogFilter('all'); const inp = document.getElementById('catalog-search-input'); if (inp) { inp.value=''; handleCatalogSearch(); }">Reset Filters</button>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = filtered.map(w => {
+    const isUnabridged = Boolean(w.unabridged);
+    const dot = isUnabridged ? '●' : '○';
+    const dotClass = isUnabridged ? 'dot-complete' : 'dot-incomplete';
+    const badgeHtml = isUnabridged
+      ? `<span class="catalog-card-badge badge-complete">✓ Verified Verbatim Unabridged</span>`
+      : `<span class="catalog-card-badge badge-queued">⏳ Study Digest — Full Ingestion Queued</span>`;
+
+    let scaleInfo = '';
+    if (isUnabridged) {
+      if (w.id === 'positions-mystere-ontologique') scaleInfo = '105 Aligned Paragraphs • V Sections';
+      else if (w.id === 'le-monde-casse') scaleInfo = '110 Dialogue Rows • IV Dramatic Acts';
+      else if (w.id === 'etre-et-avoir') scaleInfo = '105 Journal Entries • 3 Chronological Parts';
+      else if (w.id === 'mystere-de-letre-1') scaleInfo = '105 Aligned Paragraphs • 10 Gifford Lectures';
+      else if (w.id === 'mystere-de-letre-2') scaleInfo = '105 Aligned Paragraphs • 10 Gifford Lectures';
+      else scaleInfo = '100% Verbatim Bilingual Edition';
+    } else {
+      scaleInfo = 'Bilingual Digest & Terminology Index';
+    }
+
+    const companionHtml = (w.companionSlug && window.MARCEL_CORPUS[w.companionSlug])
+      ? `<div class="catalog-card-companion" onclick="event.stopPropagation(); switchWork('${w.companionSlug}')">
+           🎭 Companion: <strong>${escapeHtmlSafe(window.MARCEL_CORPUS[w.companionSlug].titleEn || window.MARCEL_CORPUS[w.companionSlug].titleFr)}</strong>
+         </div>`
+      : '';
+
+    return `
+      <article class="catalog-card ${isUnabridged ? 'is-complete' : ''}" onclick="switchWork('${w.id}')" tabindex="0" role="button" aria-label="Read ${escapeHtmlSafe(w.titleEn || w.titleFr)}">
+        <div class="catalog-card-header">
+          <span class="catalog-dot ${dotClass}" title="${isUnabridged ? 'Complete Verbatim Edition' : 'Study Digest'}">${dot}</span>
+          <span class="catalog-card-category">${escapeHtmlSafe(w.category || 'Work')}</span>
+          <span class="catalog-card-year">${w.year}</span>
+        </div>
+        <div class="catalog-card-body">
+          <h3 class="catalog-card-title-en">${escapeHtmlSafe(w.titleEn || w.titleFr)}</h3>
+          <h4 class="catalog-card-title-fr">${escapeHtmlSafe(w.titleFr)}</h4>
+          <div class="catalog-card-meta">
+            ${badgeHtml}
+            <div class="catalog-card-scale">${scaleInfo}</div>
+          </div>
+          ${companionHtml}
+        </div>
+        <div class="catalog-card-footer">
+          <button class="btn btn-read-card" onclick="event.stopPropagation(); switchWork('${w.id}')">
+            ${isUnabridged ? 'Read Full Work &rarr;' : 'Read Study Digest &rarr;'}
+          </button>
+        </div>
+      </article>
+    `;
+  }).join('');
 }
 
 function escapeHtmlSafe(str) {
@@ -212,6 +367,23 @@ function loadWork(workId, sectionId = "all") {
   if (!window.MARCEL_CORPUS) return;
   const work = window.MARCEL_CORPUS[workId];
   if (!work) return;
+
+  window.currentView = 'reader';
+  window.currentWorkId = workId;
+
+  const mainPage = document.getElementById("main-page-container");
+  const readerContainer = document.getElementById("reader-container") || document.querySelector(".reader-container");
+  const metaBar = document.getElementById("meta-bar") || document.querySelector(".meta-bar");
+  const btnBack = document.getElementById("btn-back-home");
+  const modeGroup = document.querySelector(".mode-toggle-group");
+  const prefsGroup = document.querySelector(".reader-prefs-group");
+
+  if (mainPage) mainPage.style.display = "none";
+  if (readerContainer) readerContainer.style.display = "block";
+  if (metaBar) metaBar.style.display = "block";
+  if (btnBack) btnBack.style.display = "inline-flex";
+  if (modeGroup) modeGroup.style.display = "inline-flex";
+  if (prefsGroup) prefsGroup.style.display = "inline-flex";
 
   const select = document.getElementById("work-select");
   if (select) select.value = workId;
@@ -342,6 +514,11 @@ function showToast(msg) {
 // Global window bindings
 window.switchWork = switchWork;
 window.loadWork = loadWork;
+window.showMainPage = showMainPage;
+window.setCatalogFilter = setCatalogFilter;
+window.handleCatalogSearch = handleCatalogSearch;
+window.renderMainCatalog = renderMainCatalog;
+window.populateWorkDropdown = populateWorkDropdown;
 window.toggleGlossary = toggleGlossary;
 window.showGlossaryTerm = showGlossaryTerm;
 window.closeDrawers = closeDrawers;

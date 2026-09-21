@@ -23,8 +23,11 @@
   <header>
     <div class="header-inner">
       <div class="site-brand">
-        <span class="brand-title">Gabriel Marcel</span>
-        <select id="work-select" class="work-select" onchange="switchWork(this.value)"></select>
+        <button id="btn-back-home" class="btn btn-back" onclick="showMainPage()" title="Return to Main Page" aria-label="Return to Main Page" style="display:none;">
+          ← Main Page
+        </button>
+        <span class="brand-title" onclick="showMainPage()" style="cursor:pointer;" title="Return to Main Page">Gabriel Marcel</span>
+        <select id="work-select" class="work-select" onchange="switchWork(this.value)" aria-label="Select Work from Corpus"></select>
       </div>
 
       <div class="top-actions">
@@ -60,15 +63,56 @@
   </header>
 
   <!-- Work Context & Companion Metadata -->
-  <div class="meta-bar">
+  <div class="meta-bar" id="meta-bar">
     <div class="meta-inner">
       <div id="companion-indicator"></div>
       <div id="work-details" class="text-muted"></div>
     </div>
   </div>
 
+  <!-- Main Landing & Catalog View -->
+  <div id="main-page-container" class="main-page-container" style="display:none;">
+    <section class="hero-section">
+      <div class="hero-badge">Open Multilingual Digital Corpus • France / EU Public Domain</div>
+      <h1 class="hero-title">Gabriel Marcel</h1>
+      <div class="hero-subtitle">1889 – 1973 • Philosopher of Communion, Presence, &amp; Ontological Mystery</div>
+      <p class="hero-description">
+        An open-access bilingual digital edition of the philosophical treatises, Gifford lectures, metaphysical diaries, and dramatic works of Gabriel Marcel. Featuring synchronized French source texts with English translations, interactive terminology, and cross-referenced theatrical companion plays.
+      </p>
+      <div class="corpus-legend">
+        <div class="legend-item">
+          <span class="legend-dot dot-complete">●</span>
+          <span><strong>Complete Verbatim Edition:</strong> 100% unabridged, fully aligned French source &amp; English translation.</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot dot-incomplete">○</span>
+          <span><strong>Study Digest:</strong> Bilingual reference edition (full verbatim ingestion queued).</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog Toolbar -->
+    <section class="catalog-toolbar" aria-label="Catalog Filters and Search">
+      <div class="catalog-search-wrap">
+        <span class="catalog-search-icon">🔍</span>
+        <input type="text" id="catalog-search-input" class="catalog-search-input" placeholder="Search works by title, year, or keyword..." oninput="handleCatalogSearch()">
+      </div>
+      <div class="catalog-filter-pills" id="catalog-filter-pills" role="tablist" aria-label="Filter Works by Category">
+        <button class="filter-pill active" data-filter="all" onclick="setCatalogFilter('all')">All Works (42)</button>
+        <button class="filter-pill" data-filter="complete" onclick="setCatalogFilter('complete')">● Complete Only (5)</button>
+        <button class="filter-pill" data-filter="Philosophical Treatises &amp; Essays" onclick="setCatalogFilter('Philosophical Treatises &amp; Essays')">Treatises (13)</button>
+        <button class="filter-pill" data-filter="Lectures &amp; Addresses" onclick="setCatalogFilter('Lectures &amp; Addresses')">Lectures (3)</button>
+        <button class="filter-pill" data-filter="Dramatic Works" onclick="setCatalogFilter('Dramatic Works')">Plays (21)</button>
+        <button class="filter-pill" data-filter="Critical Writings &amp; Interviews" onclick="setCatalogFilter('Critical Writings &amp; Interviews')">Critical / Dialogues (5)</button>
+      </div>
+    </section>
+
+    <!-- Catalog Grid -->
+    <section id="catalog-grid" class="catalog-grid" aria-label="Works Corpus Catalog"></section>
+  </div>
+
   <!-- Reader Body -->
-  <main class="reader-container">
+  <main class="reader-container" id="reader-container">
     <div class="work-header">
       <h2 id="work-title-fr"></h2>
       <h3 id="work-title-en"></h3>

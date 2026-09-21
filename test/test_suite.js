@@ -95,6 +95,9 @@ assert(html.includes('id="section-nav"'), 'HTML contains section-nav chapter bar
 assert(html.includes('id="section-pills"'), 'HTML contains section-pills container');
 assert(html.includes('id="glossary-popover"'), 'HTML contains glossary-popover element');
 assert(html.includes('id="theme-select"'), 'HTML contains theme selector');
+assert(html.includes('id="btn-back-home"'), 'HTML contains btn-back-home element');
+assert(html.includes('id="main-page-container"'), 'HTML contains main-page-container element');
+assert(html.includes('id="catalog-grid"'), 'HTML contains catalog-grid element');
 assert(html.includes('role="dialog"'), 'HTML contains accessible modal dialog roles');
 assert(html.includes('aria-modal="true"'), 'HTML defines aria-modal attributes');
 assert(!html.endsWith('scr\n') && !html.endsWith('scr'), 'HTML does not have stray characters at EOF');
@@ -150,6 +153,7 @@ global.document = {
   documentElement: docElement,
   addEventListener: () => {},
   getElementById: getEl,
+  querySelector: (sel) => getEl(sel.replace(/^[.#]/, '')),
   querySelectorAll: () => []
 };
 global.localStorage = {
@@ -383,6 +387,48 @@ assert(popoverEl.innerHTML.includes('Disponibilité'), 'Popover renders French t
 assert(popoverEl.innerHTML.includes('Spiritual Availability'), 'Popover renders English translation');
 window.hideGlossaryPopover();
 assert(!popoverEl.classList.contains('visible'), 'Glossary popover dismissed on hide');
+
+// ----------------------------------------------------
+// Test Group 6: Works Dropdown Status Dots & Main Page Navigation
+// ----------------------------------------------------
+console.log('\n6. Testing Works Dropdown Status Dots & Main Page Navigation:');
+
+// 1. Dropdown Status Dots Verification
+window.populateWorkDropdown();
+const dropdownHtml = getEl('work-select').innerHTML;
+assert(dropdownHtml.includes('● On the Ontological Mystery'), 'Dropdown displays ● filled dot for On the Ontological Mystery');
+assert(dropdownHtml.includes('● The Broken World'), 'Dropdown displays ● filled dot for The Broken World');
+assert(dropdownHtml.includes('● Being and Having'), 'Dropdown displays ● filled dot for Being and Having');
+assert(dropdownHtml.includes('● The Mystery of Being, Vol. 1'), 'Dropdown displays ● filled dot for Mystery of Being Vol. 1');
+assert(dropdownHtml.includes('● The Mystery of Being, Vol. 2'), 'Dropdown displays ● filled dot for Mystery of Being Vol. 2');
+
+assert(dropdownHtml.includes('○ Metaphysical Journal') || dropdownHtml.includes('○ Journal métaphysique'), 'Dropdown displays ○ open circle for Journal métaphysique');
+assert(dropdownHtml.includes('○ Homo Viator'), 'Dropdown displays ○ open circle for Homo Viator');
+assert(dropdownHtml.includes('○ The Existential Background of Human Dignity') || dropdownHtml.includes('○ La Dignité humaine'), 'Dropdown displays ○ open circle for Human Dignity');
+
+// 2. Main Page View Lifecycle
+window.showMainPage();
+assert(window.currentView === 'home', 'currentView switched to home');
+assert(getEl('main-page-container').style.display === 'block', 'main-page-container displayed as block');
+assert(getEl('reader-container').style.display === 'none', 'reader-container hidden on main page');
+assert(getEl('btn-back-home').style.display === 'none', 'btn-back-home hidden on main page');
+assert(getEl('catalog-grid').innerHTML.includes('catalog-card'), 'catalog-grid rendered work cards');
+
+// 3. Catalog Filtering & Search
+window.setCatalogFilter('complete');
+const completeCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
+assert(completeCardsCount === 5, `Filtered catalog to exactly 5 complete works (actual: ${completeCardsCount})`);
+
+window.setCatalogFilter('all');
+const allCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
+assert(allCardsCount === 42, `Filtered catalog restores all 42 works (actual: ${allCardsCount})`);
+
+// 4. Return to Reader via switchWork
+window.switchWork('le-monde-casse');
+assert(window.currentView === 'reader', 'currentView switched back to reader');
+assert(getEl('main-page-container').style.display === 'none', 'main-page-container hidden when reading');
+assert(getEl('reader-container').style.display === 'block', 'reader-container shown when reading');
+assert(getEl('btn-back-home').style.display === 'inline-flex', 'btn-back-home shown when reading');
 
 console.log('\n====================================================');
 console.log(`🎉 TEST RUN COMPLETE: ${passedTests}/${totalTests} TESTS PASSED`);
