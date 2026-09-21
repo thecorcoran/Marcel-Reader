@@ -3,106 +3,179 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gabriel Marcel — Corpus Reader: Positions et approches concrètes</title>
+  <title>Gabriel Marcel — Open Multilingual Digital Corpus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg-body: #faf8f5;
       --bg-surface: #ffffff;
       --border-color: #e5e0d8;
+      --border-dark: #d5cebf;
       --text-main: #2b2724;
       --text-muted: #6b635b;
       --accent: #8b2500;
       --accent-soft: #fbf0ea;
       --highlight: #fef3c7;
-      --font-serif: "Cardo", "EB Garamond", "Baskerville", Georgia, serif;
-      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --user-hl-bg: #fff0a6;
+      --user-hl-border: #eab308;
+      --tag-bg: #f3efe9;
+      --tag-text: #5a5044;
+      --font-serif: "Cardo", "EB Garamond", Baskerville, Georgia, serif;
+      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
       background-color: var(--bg-body);
       color: var(--text-main);
       font-family: var(--font-serif);
-      line-height: 1.75;
-      font-size: 1.1rem;
+      line-height: 1.8;
+      font-size: 1.12rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
+    /* Header */
     header {
       background: var(--bg-surface);
       border-bottom: 1px solid var(--border-color);
-      padding: 1rem 2rem;
       position: sticky;
       top: 0;
-      z-index: 50;
+      z-index: 40;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
     }
     .header-inner {
-      max-width: 1200px;
+      max-width: 1300px;
       margin: 0 auto;
+      padding: 0.75rem 1.5rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
       gap: 1rem;
     }
-    .titles h1 { font-size: 1.35rem; font-weight: 600; color: var(--text-main); }
-    .titles p { font-size: 0.95rem; font-style: italic; color: var(--text-muted); }
+    .site-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .brand-title {
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+    .work-select {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.4rem 2.2rem 0.4rem 0.8rem;
+      border: 1px solid var(--border-dark);
+      background: var(--bg-surface);
+      color: var(--text-main);
+      border-radius: 6px;
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b635b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+    }
+    .work-select:focus { outline: none; border-color: var(--accent); }
 
-    .controls { display: flex; gap: 0.5rem; align-items: center; }
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
     .btn {
       font-family: var(--font-sans);
       font-size: 0.85rem;
+      font-weight: 500;
       padding: 0.4rem 0.8rem;
-      border: 1px solid var(--border-color);
+      border: 1px solid var(--border-dark);
       background: var(--bg-surface);
       color: var(--text-main);
-      border-radius: 4px;
+      border-radius: 6px;
       cursor: pointer;
-      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: all 0.15s ease;
+      white-space: nowrap;
     }
-    .btn.active, .btn:hover {
+    .btn:hover { background: #f4efe9; border-color: #b8ad9a; }
+    .btn.active { background: var(--accent); color: #ffffff; border-color: var(--accent); }
+    .btn-badge {
       background: var(--accent);
       color: #fff;
-      border-color: var(--accent);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 999px;
+      font-weight: 600;
+      margin-left: 0.25rem;
     }
+    .btn.active .btn-badge { background: #fff; color: var(--accent); }
 
-    .companion-banner {
-      background: var(--accent-soft);
-      border-bottom: 1px solid #f0d5c7;
-      padding: 0.6rem 2rem;
+    /* Metadata Bar */
+    .meta-bar {
+      background: #fdfbf8;
+      border-bottom: 1px solid var(--border-color);
+      padding: 0.6rem 1.5rem;
       font-family: var(--font-sans);
-      font-size: 0.9rem;
-      color: var(--accent);
+      font-size: 0.85rem;
+      color: var(--text-muted);
     }
-    .companion-inner {
-      max-width: 1200px;
+    .meta-inner {
+      max-width: 1300px;
       margin: 0 auto;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+      gap: 0.75rem;
     }
-    .companion-link {
-      font-weight: 600;
+    .companion-tag {
+      background: var(--accent-soft);
       color: var(--accent);
-      text-decoration: underline;
+      border: 1px solid #f0d5c7;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-weight: 500;
       cursor: pointer;
     }
+    .companion-tag:hover { background: #f6e0d3; }
 
-    .container {
-      max-width: 1200px;
+    /* Reader Grid */
+    .reader-container {
+      max-width: 1300px;
       margin: 2rem auto;
-      padding: 0 1.5rem;
+      padding: 0 1.5rem 6rem;
+      flex: 1;
+      width: 100%;
     }
+    .work-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .work-header h2 { font-size: 1.8rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem; }
+    .work-header h3 { font-size: 1.2rem; font-style: italic; color: var(--text-muted); font-weight: 400; }
 
-    /* Layout modes */
     .reader-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 2.5rem;
+      gap: 3rem;
+      align-items: start;
     }
     .reader-grid.mode-en .col-fr { display: none; }
-    .reader-grid.mode-en { grid-template-columns: 1fr; max-width: 750px; margin: 0 auto; }
+    .reader-grid.mode-en { grid-template-columns: 1fr; max-width: 780px; margin: 0 auto; }
     .reader-grid.mode-fr .col-en { display: none; }
-    .reader-grid.mode-fr { grid-template-columns: 1fr; max-width: 750px; margin: 0 auto; }
+    .reader-grid.mode-fr { grid-template-columns: 1fr; max-width: 780px; margin: 0 auto; }
 
     .column-header {
       font-family: var(--font-sans);
@@ -113,48 +186,185 @@
       border-bottom: 1px solid var(--border-color);
       padding-bottom: 0.5rem;
       margin-bottom: 1.5rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
     }
 
     .block {
-      margin-bottom: 1.75rem;
-      padding: 0.6rem 0.8rem;
+      margin-bottom: 2rem;
+      padding: 0.75rem 1rem;
       border-radius: 6px;
       position: relative;
       transition: background-color 0.15s ease;
+      border: 1px solid transparent;
     }
     .block-id {
       position: absolute;
-      left: -2rem;
-      top: 0.7rem;
+      left: -2.2rem;
+      top: 0.85rem;
       font-family: var(--font-sans);
       font-size: 0.75rem;
-      color: var(--text-muted);
+      color: #a89f91;
       user-select: none;
+      font-weight: 500;
     }
-    .block.highlighted {
-      background-color: var(--highlight);
+    .block.pair-hover {
+      background-color: #faf0e6;
+      border-color: #eedccb;
+    }
+    .block.flash-target {
+      animation: targetFlash 2.5s ease-out;
+    }
+    @keyframes targetFlash {
+      0% { background-color: #fed7aa; border-color: #f97316; }
+      100% { background-color: transparent; border-color: transparent; }
     }
 
-    /* Glossary term badges */
     .term {
       border-bottom: 1.5px dotted var(--accent);
       color: var(--accent);
-      cursor: help;
-      position: relative;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .term:hover { background-color: var(--accent-soft); }
+
+    /* Highlights */
+    .user-hl {
+      background-color: var(--user-hl-bg);
+      border-bottom: 1.5px solid var(--user-hl-border);
+      border-radius: 2px;
+      cursor: pointer;
+      padding: 0 1px;
+    }
+    .user-hl:hover { background-color: #fde047; }
+    .note-indicator {
+      font-size: 0.75rem;
+      vertical-align: super;
+      margin-left: 2px;
+      cursor: pointer;
+      opacity: 0.85;
     }
 
-    /* Glossary Drawer */
+    /* Floating Toolbar */
+    #selection-toolbar {
+      position: absolute;
+      display: none;
+      z-index: 100;
+      background: #1f1d1b;
+      color: #ffffff;
+      border-radius: 6px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      padding: 0.35rem 0.5rem;
+      font-family: var(--font-sans);
+      font-size: 0.82rem;
+      gap: 0.35rem;
+      transform: translate(-50%, -100%);
+      margin-top: -8px;
+    }
+    #selection-toolbar button {
+      background: transparent;
+      border: none;
+      color: #f3efe9;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    #selection-toolbar button:hover { background: #3b3632; color: #ffffff; }
+
+    /* Modals & Drawers */
+    .modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(2px);
+      z-index: 150;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .modal-backdrop.open { display: flex; }
+    .note-modal {
+      background: var(--bg-surface);
+      width: 100%;
+      max-width: 520px;
+      border-radius: 8px;
+      box-shadow: 0 16px 36px rgba(0,0,0,0.18);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      font-family: var(--font-sans);
+    }
+    .note-modal-header {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .note-modal-header h3 { font-size: 1rem; font-weight: 600; }
+    .note-modal-body { padding: 1.25rem; }
+    .highlight-quote {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 0.95rem;
+      border-left: 3px solid var(--user-hl-border);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+      color: var(--text-muted);
+      max-height: 120px;
+      overflow-y: auto;
+    }
+    .note-textarea {
+      width: 100%;
+      height: 110px;
+      border: 1px solid var(--border-dark);
+      border-radius: 6px;
+      padding: 0.75rem;
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    .note-textarea:focus { outline: none; border-color: var(--accent); }
+    .tags-section { margin-bottom: 1.25rem; }
+    .tags-label { font-size: 0.8rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.4rem; }
+    .tag-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.5rem; }
+    .tag-chip {
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      font-size: 0.8rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      border: 1px solid #ded6c8;
+    }
+    .tag-chip-remove { cursor: pointer; font-weight: bold; opacity: 0.6; }
+    .tag-chip-remove:hover { opacity: 1; }
+    .tag-input { font-size: 0.85rem; padding: 0.35rem 0.6rem; border: 1px solid var(--border-dark); border-radius: 4px; width: 100%; }
+    .note-modal-footer {
+      padding: 0.85rem 1.25rem;
+      background: #faf8f5;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Drawers */
     .drawer {
       position: fixed;
-      right: -420px;
+      right: -460px;
       top: 0;
-      width: 400px;
+      width: 440px;
+      max-width: 90vw;
       height: 100vh;
       background: var(--bg-surface);
-      box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+      box-shadow: -6px 0 24px rgba(0,0,0,0.12);
       border-left: 1px solid var(--border-color);
       transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-      z-index: 100;
+      z-index: 120;
       display: flex;
       flex-direction: column;
     }
@@ -165,213 +375,996 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      background: #fdfbf8;
     }
-    .drawer-title { font-family: var(--font-sans); font-size: 1.1rem; font-weight: 600; }
-    .drawer-content {
-      padding: 1.5rem;
-      overflow-y: auto;
-      font-family: var(--font-sans);
-      font-size: 0.95rem;
-    }
-    .glossary-card {
-      margin-bottom: 1.5rem;
-      padding: 1rem;
+    .drawer-title { font-family: var(--font-sans); font-size: 1.05rem; font-weight: 700; }
+    .drawer-body { padding: 1.25rem; overflow-y: auto; flex: 1; font-family: var(--font-sans); }
+    .notebook-search { width: 100%; padding: 0.5rem 0.75rem; border: 1px solid var(--border-dark); border-radius: 6px; font-size: 0.9rem; margin-bottom: 1rem; }
+    .tag-filter-list { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 1.25rem; }
+    .tag-filter-pill { font-size: 0.75rem; padding: 0.2rem 0.55rem; border-radius: 999px; background: var(--tag-bg); color: var(--tag-text); border: 1px solid #ded6c8; cursor: pointer; }
+    .tag-filter-pill.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    .note-card {
       background: var(--bg-body);
       border: 1px solid var(--border-color);
       border-radius: 6px;
+      padding: 1rem;
+      margin-bottom: 1rem;
     }
-    .glossary-term-fr { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: var(--accent); }
-    .glossary-term-en { font-style: italic; color: var(--text-muted); margin-bottom: 0.5rem; }
-    .glossary-def { font-size: 0.88rem; line-height: 1.5; }
+    .note-card-meta { font-size: 0.75rem; font-weight: 600; color: var(--accent); display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
+    .note-card-quote { font-family: var(--font-serif); font-style: italic; font-size: 0.92rem; border-left: 2px solid var(--user-hl-border); padding-left: 0.5rem; margin-bottom: 0.6rem; }
+    .note-card-text { font-size: 0.88rem; margin-bottom: 0.6rem; background: #fff; padding: 0.5rem 0.75rem; border-radius: 4px; border: 1px solid #eae5db; }
+    .note-card-actions { display: flex; justify-content: flex-end; gap: 0.5rem; }
+
+    /* Search Modal */
+    .search-modal-backdrop {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.45);
+      backdrop-filter: blur(3px);
+      z-index: 200;
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 4rem 1rem 1rem;
+    }
+    .search-modal-backdrop.open { display: flex; }
+    .search-dialog {
+      background: var(--bg-surface);
+      width: 100%;
+      max-width: 680px;
+      border-radius: 10px;
+      box-shadow: 0 20px 48px rgba(0,0,0,0.22);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      font-family: var(--font-sans);
+    }
+    .search-input-box {
+      display: flex;
+      align-items: center;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border-color);
+      background: #fdfbf8;
+    }
+    .search-input-box input { flex: 1; border: none; background: transparent; font-size: 1.15rem; outline: none; }
+    .search-filters { display: flex; gap: 0.5rem; padding: 0.6rem 1.25rem; border-bottom: 1px solid var(--border-color); background: #faf8f5; font-size: 0.82rem; }
+    .search-results { max-height: 480px; overflow-y: auto; }
+    .search-result-item { padding: 0.85rem 1.25rem; border-bottom: 1px solid #f4efe9; cursor: pointer; }
+    .search-result-item:hover { background: #f8f4ee; }
+    .search-result-header { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--accent); font-weight: 600; margin-bottom: 0.35rem; }
+    .search-result-snippet { font-family: var(--font-serif); font-size: 0.95rem; line-height: 1.5; }
+    .search-result-snippet mark { background-color: #fed7aa; color: #7c2d12; padding: 0 2px; }
+
+    /* Glossary Cards */
+    .glossary-card { margin-bottom: 1.5rem; padding: 1rem; background: var(--bg-body); border: 1px solid var(--border-color); border-radius: 6px; }
+    .glossary-term-fr { font-family: var(--font-serif); font-size: 1.15rem; font-weight: 700; color: var(--accent); }
+    .glossary-term-en { font-style: italic; color: var(--text-muted); margin-bottom: 0.5rem; font-size: 0.95rem; }
+    .glossary-def { font-size: 0.88rem; line-height: 1.6; }
+
+    /* Toast */
+    #toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #1f1d1b;
+      color: #fff;
+      padding: 0.6rem 1.25rem;
+      border-radius: 999px;
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      transition: transform 0.3s ease;
+      z-index: 300;
+      pointer-events: none;
+    }
+    #toast.show { transform: translateX(-50%) translateY(0); }
   </style>
 </head>
 <body>
 
   <header>
     <div class="header-inner">
-      <div class="titles">
-        <h1>Positions et approches concrètes du mystère ontologique (1933)</h1>
-        <p>Concrete Approaches to the Ontological Mystery — Gabriel Marcel</p>
+      <div class="site-brand">
+        <span class="brand-title">Gabriel Marcel</span>
+        <select id="work-select" class="work-select" onchange="switchWork(this.value)"></select>
       </div>
-      <div class="controls">
-        <button class="btn active" onclick="setMode('split')">Bilingual Parallel</button>
-        <button class="btn" onclick="setMode('en')">English Only</button>
-        <button class="btn" onclick="setMode('fr')">Français</button>
-        <button class="btn" style="margin-left: 0.5rem;" onclick="toggleDrawer()">Glossary 📖</button>
+
+      <div class="top-actions">
+        <button class="btn" onclick="openSearchModal()" title="Search Entire Corpus (Ctrl+K)">
+          🔍 Search
+        </button>
+
+        <div style="display: flex; gap: 0.25rem;">
+          <button class="btn active" id="btn-mode-split" onclick="setMode('split')">Split</button>
+          <button class="btn" id="btn-mode-en" onclick="setMode('en')">English</button>
+          <button class="btn" id="btn-mode-fr" onclick="setMode('fr')">Français</button>
+        </div>
+
+        <button class="btn" onclick="toggleNotebook()" title="Personal Notebook">
+          📝 Notes <span id="notes-badge" class="btn-badge">0</span>
+        </button>
+
+        <button class="btn" onclick="toggleGlossary()" title="Marcelian Philosophical Glossary">
+          📖 Glossary
+        </button>
       </div>
     </div>
   </header>
 
-  <div class="companion-banner">
-    <div class="companion-inner">
-      <span>
-        🎭 <strong>Companion Play:</strong> Marcel composed this philosophical address as the explicit metaphysical counterpart to his play <em>Le Monde cassé</em> (1933).
-      </span>
-      <span class="companion-link" onclick="openCompanionInfo()">View Companion Context &rarr;</span>
+  <div class="meta-bar">
+    <div class="meta-inner">
+      <div id="companion-indicator"></div>
+      <div id="work-details" class="text-muted"></div>
     </div>
   </div>
 
-  <main class="container">
-    <div id="grid" class="reader-grid">
-      <!-- French Column -->
+  <main class="reader-container">
+    <div class="work-header">
+      <h2 id="work-title-fr"></h2>
+      <h3 id="work-title-en"></h3>
+    </div>
+
+    <div id="reader-grid" class="reader-grid">
       <section class="col-fr">
-        <div class="column-header">Original French (1933) — Public Domain</div>
-        
-        <div class="block" id="fr-p-001" data-pair="p-001">
-          <span class="block-id">#1</span>
-          Il n'est peut-être pas inutile d'insister sur la nécessité où l'on se trouve aujourd'hui, si l'on veut tenter une démarche philosophique authentique, de partir non point d'un système abstrait, mais d'une certaine expérience vécue.
+        <div class="column-header">
+          <span>Texte Français (Domaine Public)</span>
+          <span>FR</span>
         </div>
-
-        <div class="block" id="fr-p-002" data-pair="p-002">
-          <span class="block-id">#2</span>
-          Le monde dans lequel nous vivons est un « <span class="term" onclick="showGlossary('monde-casse')">monde cassé</span> », un monde où l'<span class="term" onclick="showGlossary('exigence-ontologique')">exigence ontologique</span> semble étouffée par la prédominance de la fonction. L'homme contemporain tend à se définir lui-même uniquement par les fonctions qu'il remplit : fonction sociale, économique, administrative. Il se perçoit comme une montre dont les rouages doivent fonctionner sans accroc.
-        </div>
-
-        <div class="block" id="fr-p-003" data-pair="p-003">
-          <span class="block-id">#3</span>
-          Or, entre le <span class="term" onclick="showGlossary('probleme-mystere')">problème et le mystère</span>, il y a une différence essentielle de nature. Un problème est quelque chose que je rencontre, que je trouve entièrement devant moi, mais que je puis par conséquent cerner et réduire.
-        </div>
-
-        <div class="block" id="fr-p-004" data-pair="p-004">
-          <span class="block-id">#4</span>
-          Le mystère, au contraire, est quelque chose où je suis moi-même engagé, et qui ne peut par conséquent être pensé que comme une sphère où la distinction de l'en-moi et du devant-moi perd sa signification et sa valeur initiale.
-        </div>
-
-        <div class="block" id="fr-p-005" data-pair="p-005">
-          <span class="block-id">#5</span>
-          Tandis que la <span class="term" onclick="showGlossary('reflexion-seconde')">réflexion primaire</span> analyse et dissèque en séparant le sujet de son objet, la réflexion seconde est essentiellement récupératrice : elle reconquiert l'unité vivante de l'expérience et ouvre la voie à la <span class="term" onclick="showGlossary('disponibilite')">disponibilité</span> et à l'espérance.
-        </div>
+        <div id="blocks-fr"></div>
       </section>
 
-      <!-- English Column -->
       <section class="col-en">
-        <div class="column-header">English Aligned Edition — Marcelian Philosophical Translation</div>
-        
-        <div class="block" id="en-p-001" data-pair="p-001">
-          <span class="block-id">#1</span>
-          It is perhaps not useless to emphasize the necessity under which one finds oneself today, if one intends to attempt an authentic philosophical endeavor, of departing not from an abstract system, but from a certain lived experience.
+        <div class="column-header">
+          <span>Marcelian Translation Edition</span>
+          <span>EN</span>
         </div>
-
-        <div class="block" id="en-p-002" data-pair="p-002">
-          <span class="block-id">#2</span>
-          The world in which we live is a "<span class="term" onclick="showGlossary('monde-casse')">broken world</span>"—a world in which the <span class="term" onclick="showGlossary('exigence-ontologique')">ontological exigence</span> seems suffocated by the hegemony of function. Contemporary man tends to identify himself entirely with the functions he exercises: social, economic, administrative. He views himself like a watch whose gears must turn without friction.
-        </div>
-
-        <div class="block" id="en-p-003" data-pair="p-003">
-          <span class="block-id">#3</span>
-          Yet between a <span class="term" onclick="showGlossary('probleme-mystere')">problem and a mystery</span>, there exists an essential distinction of nature. A problem is something I encounter, which I find completely before me, but which I can consequently circumscribe, lay siege to, and reduce.
-        </div>
-
-        <div class="block" id="en-p-004" data-pair="p-004">
-          <span class="block-id">#4</span>
-          A mystery, by contrast, is something in which I am myself implicated and engaged, and which can consequently only be conceived as a sphere where the distinction between what is in-me and what is before-me loses its meaning and initial validity.
-        </div>
-
-        <div class="block" id="en-p-005" data-pair="p-005">
-          <span class="block-id">#5</span>
-          Whereas <span class="term" onclick="showGlossary('reflexion-seconde')">primary reflection</span> analyzes and dissects by sundering subject from object, secondary reflection is essentially recuperative: it reconquers the living unity of experience and opens the path to <span class="term" onclick="showGlossary('disponibilite')">spiritual availability (disponibilité)</span> and hope.
-        </div>
+        <div id="blocks-en"></div>
       </section>
     </div>
   </main>
 
-  <!-- Side Glossary Drawer -->
-  <aside id="drawer" class="drawer">
-    <div class="drawer-header">
-      <div class="drawer-title">Marcelian Nomenclature</div>
-      <button class="btn" onclick="toggleDrawer()">✕</button>
+  <!-- Instapaper Toolbar -->
+  <div id="selection-toolbar">
+    <button onclick="applyHighlightFromSelection(false)">🖊️ Highlight</button>
+    <button onclick="applyHighlightFromSelection(true)">💬 Add Note</button>
+  </div>
+
+  <!-- Note Modal -->
+  <div id="note-modal-backdrop" class="modal-backdrop">
+    <div class="note-modal">
+      <div class="note-modal-header">
+        <h3>Highlight & Note</h3>
+        <button class="btn" onclick="closeNoteModal()" style="border:none;">✕</button>
+      </div>
+      <div class="note-modal-body">
+        <div id="modal-quote" class="highlight-quote"></div>
+        <textarea id="modal-note-text" class="note-textarea" placeholder="Add an analytical observation, cross-reference, or reflection..."></textarea>
+        <div class="tags-section">
+          <div class="tags-label">Tags</div>
+          <div id="modal-tag-chips" class="tag-chips"></div>
+          <input type="text" id="modal-tag-input" class="tag-input" placeholder="Add tag and press Enter (e.g. #mystery, #disponibilite)..." onkeydown="handleTagInput(event)">
+        </div>
+      </div>
+      <div class="note-modal-footer">
+        <button class="btn" style="color:#dc2626; border-color:#fca5a5;" onclick="deleteCurrentHighlight()">Delete</button>
+        <div style="display:flex; gap:0.5rem;">
+          <button class="btn" onclick="closeNoteModal()">Cancel</button>
+          <button class="btn active" onclick="saveCurrentNote()">Save Note</button>
+        </div>
+      </div>
     </div>
-    <div class="drawer-content">
-      <div class="glossary-card" id="card-disponibilite">
-        <div class="glossary-term-fr">Disponibilité</div>
-        <div class="glossary-term-en">Spiritual Availability / Inward Openness</div>
-        <div class="glossary-def">
-          The capacity of a person to be inwardly free, vulnerable, and attentive to others and reality. Opposed to <em>indisponibilité</em> (being burdened, preoccupied, or cluttered by possessions and ego).
-        </div>
-      </div>
+  </div>
 
-      <div class="glossary-card" id="card-exigence-ontologique">
-        <div class="glossary-term-fr">L'exigence ontologique</div>
-        <div class="glossary-term-en">Ontological Exigence / Need for Being</div>
-        <div class="glossary-def">
-          An existential appetite or profound inner hunger for genuine reality and transcendence that refuses to accept the functionalized life of modern society as complete.
-        </div>
+  <!-- Notebook Drawer -->
+  <aside id="notebook-drawer" class="drawer">
+    <div class="drawer-header">
+      <div class="drawer-title">Personal Notebook</div>
+      <div style="display:flex; gap:0.5rem; align-items:center;">
+        <button class="btn" style="font-size:0.75rem;" onclick="exportNotesMarkdown()">Export .md</button>
+        <button class="btn" onclick="toggleNotebook()" style="border:none;">✕</button>
       </div>
-
-      <div class="glossary-card" id="card-monde-casse">
-        <div class="glossary-term-fr">Le monde cassé</div>
-        <div class="glossary-term-en">The Broken World</div>
-        <div class="glossary-def">
-          A world alienated by technical bureaucracy and functional reductionism, where mystery, presence, and genuine communion are crowded out by checklists and schedules.
-        </div>
-      </div>
-
-      <div class="glossary-card" id="card-probleme-mystere">
-        <div class="glossary-term-fr">Problème vs. Mystère</div>
-        <div class="glossary-term-en">Problem vs. Mystery</div>
-        <div class="glossary-def">
-          A problem sits entirely in front of me (*devant-moi*) and can be solved impersonally. A mystery envelops me (*en-moi*); I cannot stand outside it because my own being is part of the question (e.g., love, evil, hope).
-        </div>
-      </div>
-
-      <div class="glossary-card" id="card-reflexion-seconde">
-        <div class="glossary-term-fr">Réflexion primaire vs. seconde</div>
-        <div class="glossary-term-en">Primary vs. Secondary Reflection</div>
-        <div class="glossary-def">
-          Primary reflection isolates and divides data analytically. Secondary reflection recuperates lived wholeness, rediscovering mystery and presence behind the abstraction.
-        </div>
-      </div>
+    </div>
+    <div class="drawer-body">
+      <input type="text" id="notebook-search-input" class="notebook-search" placeholder="Search highlights, notes, tags..." oninput="renderNotebook()">
+      <div class="tags-label">Filter by Tag:</div>
+      <div id="notebook-tags-filter" class="tag-filter-list"></div>
+      <div id="notebook-cards-container"></div>
     </div>
   </aside>
 
-  <script>
-    // Layout switcher
-    function setMode(mode) {
-      const grid = document.getElementById('grid');
-      const buttons = document.querySelectorAll('.controls .btn');
-      buttons.forEach(b => b.classList.remove('active'));
+  <!-- Glossary Drawer -->
+  <aside id="glossary-drawer" class="drawer">
+    <div class="drawer-header">
+      <div class="drawer-title">Marcelian Philosophical Glossary</div>
+      <button class="btn" onclick="toggleGlossary()" style="border:none;">✕</button>
+    </div>
+    <div class="drawer-body" id="glossary-cards-container"></div>
+  </aside>
 
-      if (mode === 'split') {
-        grid.className = 'reader-grid';
-        buttons[0].classList.add('active');
-      } else if (mode === 'en') {
-        grid.className = 'reader-grid mode-en';
-        buttons[1].classList.add('active');
-      } else if (mode === 'fr') {
-        grid.className = 'reader-grid mode-fr';
-        buttons[2].classList.add('active');
+  <!-- Search Modal -->
+  <div id="search-modal-backdrop" class="search-modal-backdrop" onclick="handleSearchBackdropClick(event)">
+    <div class="search-dialog" onclick="event.stopPropagation()">
+      <div class="search-input-box">
+        <span style="margin-right:0.75rem;">🔍</span>
+        <input type="text" id="global-search-input" placeholder="Search entire Marcel corpus (French & English)..." oninput="executeGlobalSearch()">
+        <button class="btn" onclick="closeSearchModal()" style="border:none;">Esc</button>
+      </div>
+      <div class="search-filters">
+        <span style="color:var(--text-muted); align-self:center;">Language:</span>
+        <button class="btn active" id="search-filter-all" onclick="setSearchFilter('all')">All</button>
+        <button class="btn" id="search-filter-en" onclick="setSearchFilter('en')">English</button>
+        <button class="btn" id="search-filter-fr" onclick="setSearchFilter('fr')">Français</button>
+      </div>
+      <div id="search-results-list" class="search-results"></div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+
+  <script>
+    const CORPUS = {
+      "positions-mystere-ontologique": {
+        id: "positions-mystere-ontologique",
+        titleFr: "Positions et approches concrètes du mystère ontologique",
+        titleEn: "Concrete Approaches to the Ontological Mystery",
+        year: 1933,
+        genre: "Philosophical Treatise / Address",
+        companionSlug: "le-monde-casse",
+        companionTitle: "Le Monde cassé (1933)",
+        paragraphs: [
+          {
+            id: "p-001",
+            fr: "Il n'est peut-être pas inutile d'insister sur la nécessité où l'on se trouve aujourd'hui, si l'on veut tenter une démarche philosophique authentique, de partir non point d'un système abstrait, mais d'une certaine expérience vécue.",
+            en: "It is perhaps not useless to emphasize the necessity under which one finds oneself today, if one intends to attempt an authentic philosophical endeavor, of departing not from an abstract system, but from a certain lived experience."
+          },
+          {
+            id: "p-002",
+            fr: "Le monde dans lequel nous vivons est un « <span class='term' data-term='monde-casse'>monde cassé</span> », un monde où l'<span class='term' data-term='exigence-ontologique'>exigence ontologique</span> semble étouffée par la prédominance de la fonction. L'homme contemporain tend à se définir lui-même uniquement par les fonctions qu'il remplit : fonction sociale, économique, administrative. Il se perçoit comme une montre dont les rouages doivent fonctionner sans accroc.",
+            en: "The world in which we live is a \"<span class='term' data-term='monde-casse'>broken world</span>\"—a world in which the <span class='term' data-term='exigence-ontologique'>ontological exigence</span> seems suffocated by the hegemony of function. Contemporary man tends to identify himself entirely with the functions he exercises: social, economic, administrative. He views himself like a watch whose gears must turn without friction."
+          },
+          {
+            id: "p-003",
+            fr: "Or, entre le <span class='term' data-term='probleme-mystere'>problème et le mystère</span>, il y a une différence essentielle de nature. Un problème est quelque chose que je rencontre, que je trouve entièrement devant moi, mais que je puis par conséquent cerner et réduire.",
+            en: "Yet between a <span class='term' data-term='probleme-mystere'>problem and a mystery</span>, there exists an essential distinction of nature. A problem is something I encounter, which I find completely before me, but which I can consequently circumscribe, lay siege to, and reduce."
+          },
+          {
+            id: "p-004",
+            fr: "Le mystère, au contraire, est quelque chose où je suis moi-même engagé, et qui ne peut par conséquent être pensé que comme une sphère où la distinction de l'en-moi et du devant-moi perd sa signification et sa valeur initiale.",
+            en: "A mystery, by contrast, is something in which I am myself implicated and engaged, and which can consequently only be conceived as a sphere where the distinction between what is in-me and what is before-me loses its meaning and initial validity."
+          },
+          {
+            id: "p-005",
+            fr: "Tandis que la <span class='term' data-term='reflexion-seconde'>réflexion primaire</span> analyse et dissèque en séparant le sujet de son objet, la réflexion seconde est essentiellement récupératrice : elle reconquiert l'unité vivante de l'expérience et ouvre la voie à la <span class='term' data-term='disponibilite'>disponibilité</span> et à l'espérance.",
+            en: "Whereas <span class='term' data-term='reflexion-seconde'>primary reflection</span> analyzes and dissects by sundering subject from object, secondary reflection is essentially recuperative: it reconquers the living unity of experience and opens the path to <span class='term' data-term='disponibilite'>spiritual availability (disponibilité)</span> and hope."
+          },
+          {
+            id: "p-006",
+            fr: "L'indisponibilité est inséparable d'une certaine forme d'encombrement intérieur. L'être indisponible est encombré de soi, de ses biens, de ses prétentions ou de ses inquiétudes. Il ne peut pas accueillir l'autre parce qu'il n'y a plus de place en lui.",
+            en: "Spiritual opacity (indisponibilité) is inseparable from a certain form of internal encumbrance. The spiritually unavailable person is cluttered with oneself, with one's possessions, claims, or anxieties. Such a person cannot welcome the other because there is no room left within."
+          },
+          {
+            id: "p-007",
+            fr: "L'espérance ne se confond nullement avec le simple optimisme. L'optimiste calcule des probabilités extérieures, tandis que l'espérance est un élan prophétique de l'âme qui affirme que l'amour et la communion triompheront par-delà la rupture apparente.",
+            en: "Hope is by no means to be confused with mere optimism. The optimist calculates external probabilities, whereas hope is a prophetic propulsion of the soul affirming that love and communion will triumph beyond apparent rupture."
+          },
+          {
+            id: "p-008",
+            fr: "La <span class='term' data-term='fidelite-creatrice'>fidélité créatrice</span> consiste à maintenir une présence active et une foi vivante malgré l'épreuve du temps et de l'absence. Elle n'est pas constance figée ou entêtement abstrait, mais une perpétuelle réinvention de soi sous le regard de l'autre.",
+            en: "Creative fidelity (<span class='term' data-term='fidelite-creatrice'>fidélité créatrice</span>) consists in sustaining an active presence and living faith despite the crucible of time and absence. It is not rigid constancy or abstract stubbornness, but a perpetual reinvention of oneself in the light of the other."
+          }
+        ]
+      },
+      "le-monde-casse": {
+        id: "le-monde-casse",
+        titleFr: "Le Monde cassé (Pièce en quatre actes)",
+        titleEn: "The Broken World (Play in Four Acts)",
+        year: 1933,
+        genre: "Dramatic Work / Play",
+        companionSlug: "positions-mystere-ontologique",
+        companionTitle: "Positions et approches concrètes (1933)",
+        paragraphs: [
+          {
+            id: "p-001",
+            fr: "CHRISTIANE (Acte I, Scène 4) : Ne sens-tu pas que nous vivons dans un monde où le ressort est brisé ? Tout fonctionne encore en apparence, on dîne, on cause, on va au spectacle, mais le cœur n'y est plus. Le monde est cassé, Laurent.",
+            en: "CHRISTIANE (Act I, Scene 4): Don't you feel that we are living in a world whose mainspring is broken? Everything still appears to function on the surface—people dine, converse, attend shows—but the heart is no longer in it. The world is broken, Laurent."
+          },
+          {
+            id: "p-002",
+            fr: "LAURENT : Tu exagères toujours nos malaises. C'est une question de nerf ou d'ennui mondain. Tu devrais voir un médecin ou changer d'occupations.",
+            en: "LAURENT: You always exaggerate our unease. It's simply a matter of nerves or worldly boredom. You ought to see a physician or change your pastimes."
+          },
+          {
+            id: "p-003",
+            fr: "CHRISTIANE : Un médecin ? Comme si le vide de l'âme se soignait par des ordonnances ! Ce n'est pas mon corps qui défaille, c'est l'air même que nous respirons qui est devenu irrespirable pour quiconque cherche une vérité authentique.",
+            en: "CHRISTIANE: A physician? As if the void of the soul could be remedied with prescriptions! It is not my body that is faltering; it is the very air we breathe that has become unbreathable for anyone searching for authentic truth."
+          },
+          {
+            id: "p-004",
+            fr: "CHRISTIANE (Acte IV, Scène 8) : J'ai cru longtemps que posséder l'admiration des autres comblerait ma solitude. Mais ce que l'on possède finit par nous posséder et nous vider de toute présence. Ce n'est que dans le renoncement et l'offrande que le monde se répare.",
+            en: "CHRISTIANE (Act IV, Scene 8): For a long time I believed that possessing the admiration of others would satisfy my solitude. But what one possesses ends by possessing us and draining us of all presence. It is only in self-renunciation and self-offering that the world begins to heal."
+          }
+        ]
+      },
+      "etre-et-avoir": {
+        id: "etre-et-avoir",
+        titleFr: "Être et avoir (Journal métaphysique 1928-1933)",
+        titleEn: "Being and Having (Metaphysical Diary 1928-1933)",
+        year: 1935,
+        genre: "Metaphysical Diary",
+        companionSlug: "positions-mystere-ontologique",
+        companionTitle: "Positions et approches concrètes (1933)",
+        paragraphs: [
+          {
+            id: "p-001",
+            fr: "La distinction entre l'avoir et l'être est le fondement de toute métaphysique concrète. Avoir, c'est toujours disposer de quelque chose qui peut m'être ôté, qui m'est extérieur, que je peux exhiber ou échanger.",
+            en: "The distinction between having and being constitutes the foundation of all concrete metaphysics. Having always means disposing of something that can be taken from me, which remains external to me, and which I can exhibit or exchange."
+          },
+          {
+            id: "p-002",
+            fr: "Mon corps : l'ai-je ou le suis-je ? Si je dis que j'ai un corps comme j'ai un instrument, je le détache de moi. Mais si je suis mon corps, je ne peux pas me réduire à un agrégat de matière biologique. Je suis mon corps en tant qu'incarnation.",
+            en: "My body: do I have it, or am I it? If I say that I have a body as I have an instrument, I detach it from myself. But if I am my body, I cannot reduce myself to an aggregate of biological matter. I am my body insofar as I am incarnate being."
+          },
+          {
+            id: "p-003",
+            fr: "Le <span class='term' data-term='recueillement'>recueillement</span> n'est pas une simple introspection psychologique. C'est l'acte par lequel je me rassemble en présence de l'Être, échappant à la dispersion fébrile de mes occupations temporelles.",
+            en: "Inward recollection (<span class='term' data-term='recueillement'>recueillement</span>) is not mere psychological introspection. It is the act whereby I gather myself into unity in the presence of Being, escaping the feverish dispersion of temporal preoccupations."
+          }
+        ]
       }
+    };
+
+    const GLOSSARY = {
+      "disponibilite": {
+        fr: "Disponibilité",
+        en: "Spiritual Availability / Inward Openness",
+        def: "The capacity of a person to be inwardly free, vulnerable, and attentive to others and reality. Opposed to indisponibilité (being burdened, preoccupied, or cluttered by possessions, claims, and ego)."
+      },
+      "exigence-ontologique": {
+        fr: "L'exigence ontologique",
+        en: "Ontological Exigence / Need for Being",
+        def: "An existential appetite or profound inner hunger for genuine reality and transcendence that refuses to accept the functionalized life of modern society as complete."
+      },
+      "monde-casse": {
+        fr: "Le monde cassé",
+        en: "The Broken World",
+        def: "A world alienated by technical bureaucracy and functional reductionism, where mystery, presence, and genuine communion are crowded out by checklists and schedules."
+      },
+      "probleme-mystere": {
+        fr: "Problème vs. Mystère",
+        en: "Problem vs. Mystery",
+        def: "A problem sits entirely in front of me (devant-moi) and can be solved impersonally. A mystery envelops me (en-moi); I cannot stand outside it because my own being is part of the question."
+      },
+      "reflexion-seconde": {
+        fr: "Réflexion primaire vs. seconde",
+        en: "Primary vs. Secondary Reflection",
+        def: "Primary reflection isolates and divides data analytically. Secondary reflection recuperates lived wholeness, rediscovering mystery and presence behind the abstraction."
+      },
+      "fidelite-creatrice": {
+        fr: "Fidélité créatrice",
+        en: "Creative Fidelity",
+        def: "Not rigid stubbornness or adherence to a static vow, but an active, renewed presence and faith across the trials of time and absence."
+      },
+      "recueillement": {
+        fr: "Recueillement",
+        en: "Inward Recollection / Gathering",
+        def: "The inward cessation of external agitation and dispersion, allowing the soul to gather itself together in silence before Being."
+      }
+    };
+
+    let currentWorkId = "positions-mystere-ontologique";
+    let currentMode = "split";
+    let currentSearchFilter = "all";
+    let selectedTagFilter = null;
+    let highlights = [];
+
+    try {
+      const stored = localStorage.getItem("marcel_reader_highlights");
+      if (stored) highlights = JSON.parse(stored);
+    } catch(e) {}
+
+    let activeModalHlId = null;
+    let pendingSelectionData = null;
+
+    function saveHighlights() {
+      try {
+        localStorage.setItem("marcel_reader_highlights", JSON.stringify(highlights));
+      } catch(e) {}
+      updateNotesCount();
     }
 
-    // Bidirectional paragraph hover
-    document.querySelectorAll('.block').forEach(el => {
-      const pair = el.getAttribute('data-pair');
-      el.addEventListener('mouseenter', () => {
-        document.querySelectorAll(`[data-pair="${pair}"]`).forEach(p => p.classList.add('highlighted'));
+    function updateNotesCount() {
+      const badge = document.getElementById("notes-badge");
+      if (badge) badge.textContent = highlights.length;
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      if (window.location.hash) {
+        const h = window.location.hash.substring(1);
+        if (CORPUS[h]) currentWorkId = h;
+      }
+
+      const select = document.getElementById("work-select");
+      select.innerHTML = Object.values(CORPUS).map(w => 
+        `<option value="${w.id}" ${w.id === currentWorkId ? 'selected' : ''}>${w.titleFr} (${w.year})</option>`
+      ).join("");
+
+      renderGlossaryDrawer();
+      loadWork(currentWorkId);
+
+      document.addEventListener("keydown", (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+          e.preventDefault();
+          openSearchModal();
+        }
+        if (e.key === 'Escape') {
+          closeSearchModal();
+          closeNoteModal();
+          closeDrawers();
+        }
       });
-      el.addEventListener('mouseleave', () => {
-        document.querySelectorAll(`[data-pair="${pair}"]`).forEach(p => p.classList.remove('highlighted'));
-      });
+
+      document.addEventListener("mouseup", handleTextSelection);
+      document.addEventListener("touchend", handleTextSelection);
+      updateNotesCount();
     });
 
-    // Glossary Drawer controls
-    function toggleDrawer() {
-      document.getElementById('drawer').classList.toggle('open');
+    function switchWork(workId) {
+      currentWorkId = workId;
+      window.location.hash = workId;
+      loadWork(workId);
     }
 
-    function showGlossary(key) {
-      const drawer = document.getElementById('drawer');
-      drawer.classList.add('open');
-      const card = document.getElementById(`card-${key}`);
-      if (card) {
-        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        card.style.outline = '2px solid var(--accent)';
-        setTimeout(() => { card.style.outline = 'none'; }, 2000);
+    function loadWork(workId) {
+      const work = CORPUS[workId];
+      if (!work) return;
+
+      document.getElementById("work-select").value = workId;
+      document.getElementById("work-title-fr").textContent = work.titleFr;
+      document.getElementById("work-title-en").textContent = work.titleEn;
+      document.getElementById("work-details").textContent = `${work.genre} • Published ${work.year} • France / EU Public Domain`;
+
+      const compIndicator = document.getElementById("companion-indicator");
+      if (work.companionSlug && CORPUS[work.companionSlug]) {
+        const comp = CORPUS[work.companionSlug];
+        compIndicator.innerHTML = `🎭 <span class="companion-tag" onclick="switchWork('${comp.id}')">Paired Companion: <strong>${comp.titleFr}</strong> &rarr;</span>`;
+      } else {
+        compIndicator.innerHTML = `📜 Standalone Corpus Entry`;
+      }
+
+      renderBlocks(work);
+    }
+
+    function applyHighlightToHtml(html, searchText, hlId, noteText) {
+      if (!searchText) return html;
+      const safeText = searchText.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const termRegex = new RegExp(safeText, 'i');
+      
+      const parts = html.split(/(<[^>]+>)/g);
+      let replaced = false;
+      for (let i = 0; i < parts.length; i++) {
+        if (!parts[i].startsWith('<') && !replaced) {
+          if (termRegex.test(parts[i])) {
+            const noteBadge = noteText ? `<span class="note-indicator" title="${escapeHtml(noteText)}">📝</span>` : '';
+            parts[i] = parts[i].replace(termRegex, `<mark class="user-hl" data-hl-id="${hlId}">$&${noteBadge}</mark>`);
+            replaced = true;
+          }
+        }
+      }
+      return parts.join('');
+    }
+
+    function renderBlocks(work) {
+      const colFr = document.getElementById("blocks-fr");
+      const colEn = document.getElementById("blocks-en");
+
+      colFr.innerHTML = work.paragraphs.map(p => renderSingleBlock(work.id, p, 'fr')).join("");
+      colEn.innerHTML = work.paragraphs.map(p => renderSingleBlock(work.id, p, 'en')).join("");
+
+      setupPairHover();
+      setupTermClicks();
+    }
+
+    function renderSingleBlock(workId, paragraph, lang) {
+      const blockId = paragraph.id;
+      let processed = paragraph[lang];
+
+      const blockHls = highlights.filter(h => h.workId === workId && h.blockId === blockId && h.lang === lang);
+      blockHls.forEach(hl => {
+        processed = applyHighlightToHtml(processed, hl.text, hl.id, hl.note);
+      });
+
+      const num = blockId.replace("p-", "");
+      return `
+        <div class="block" id="${lang}-${blockId}" data-pair="${blockId}" data-work-id="${workId}" data-block-id="${blockId}" data-lang="${lang}">
+          <span class="block-id">#${num}</span>
+          ${processed}
+        </div>
+      `;
+    }
+
+    function setupPairHover() {
+      document.querySelectorAll(".block").forEach(b => {
+        const pair = b.getAttribute("data-pair");
+        b.addEventListener("mouseenter", () => {
+          document.querySelectorAll(`[data-pair="${pair}"]`).forEach(el => el.classList.add("pair-hover"));
+        });
+        b.addEventListener("mouseleave", () => {
+          document.querySelectorAll(`[data-pair="${pair}"]`).forEach(el => el.classList.remove("pair-hover"));
+        });
+      });
+
+      document.querySelectorAll(".user-hl").forEach(hlEl => {
+        hlEl.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const hlId = hlEl.getAttribute("data-hl-id");
+          openExistingNoteModal(hlId);
+        });
+      });
+    }
+
+    function setupTermClicks() {
+      document.querySelectorAll(".term").forEach(t => {
+        t.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const termKey = t.getAttribute("data-term");
+          showGlossaryTerm(termKey);
+        });
+      });
+    }
+
+    const selToolbar = document.getElementById("selection-toolbar");
+
+    function handleTextSelection(e) {
+      if (e.target.closest("#selection-toolbar") || e.target.closest(".modal-backdrop") || e.target.closest(".drawer")) {
+        return;
+      }
+
+      setTimeout(() => {
+        const selection = window.getSelection();
+        if (!selection || selection.isCollapsed || !selection.toString().trim()) {
+          selToolbar.style.display = "none";
+          pendingSelectionData = null;
+          return;
+        }
+
+        const selectedText = selection.toString().trim();
+        if (selectedText.length < 2) {
+          selToolbar.style.display = "none";
+          return;
+        }
+
+        const anchorNode = selection.anchorNode;
+        const blockEl = anchorNode ? anchorNode.parentElement.closest(".block") : null;
+        if (!blockEl) {
+          selToolbar.style.display = "none";
+          return;
+        }
+
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+
+        pendingSelectionData = {
+          workId: blockEl.getAttribute("data-work-id"),
+          blockId: blockEl.getAttribute("data-block-id"),
+          lang: blockEl.getAttribute("data-lang"),
+          text: selectedText
+        };
+
+        selToolbar.style.top = `${rect.top + window.scrollY}px`;
+        selToolbar.style.left = `${rect.left + rect.width / 2 + window.scrollX}px`;
+        selToolbar.style.display = "flex";
+      }, 20);
+    }
+
+    function applyHighlightFromSelection(openNoteImmediately) {
+      if (!pendingSelectionData) return;
+
+      const newHl = {
+        id: "hl_" + Date.now() + "_" + Math.random().toString(36).substr(2, 5),
+        workId: pendingSelectionData.workId,
+        blockId: pendingSelectionData.blockId,
+        lang: pendingSelectionData.lang,
+        text: pendingSelectionData.text,
+        note: "",
+        tags: [],
+        createdAt: new Date().toISOString()
+      };
+
+      highlights.push(newHl);
+      saveHighlights();
+      renderBlocks(CORPUS[currentWorkId]);
+
+      selToolbar.style.display = "none";
+      window.getSelection().removeAllRanges();
+
+      if (openNoteImmediately) {
+        openExistingNoteModal(newHl.id);
+      } else {
+        showToast("Passage Highlighted");
       }
     }
 
-    function openCompanionInfo() {
-      alert("In the complete corpus, this banner cross-navigates directly to the companion play 'Le Monde cassé' (1933) with aligned scenes highlighting where Christiane expresses the existential crisis analyzed in this essay.");
+    const noteModal = document.getElementById("note-modal-backdrop");
+    let currentModalTags = [];
+
+    function openExistingNoteModal(hlId) {
+      const hl = highlights.find(h => h.id === hlId);
+      if (!hl) return;
+
+      activeModalHlId = hlId;
+      currentModalTags = [...(hl.tags || [])];
+
+      document.getElementById("modal-quote").textContent = `"${hl.text}"`;
+      document.getElementById("modal-note-text").value = hl.note || "";
+      renderModalTags();
+
+      noteModal.classList.add("open");
+      document.getElementById("modal-note-text").focus();
+    }
+
+    function renderModalTags() {
+      const container = document.getElementById("modal-tag-chips");
+      container.innerHTML = currentModalTags.map(tag => `
+        <span class="tag-chip">
+          #${tag}
+          <span class="tag-chip-remove" onclick="removeModalTag('${tag}')">×</span>
+        </span>
+      `).join("");
+    }
+
+    function handleTagInput(e) {
+      if (e.key === "Enter" || e.key === ",") {
+        e.preventDefault();
+        const input = document.getElementById("modal-tag-input");
+        let val = input.value.trim().replace(/^#/, "").toLowerCase();
+        if (val && !currentModalTags.includes(val)) {
+          currentModalTags.push(val);
+          renderModalTags();
+        }
+        input.value = "";
+      }
+    }
+
+    function removeModalTag(tag) {
+      currentModalTags = currentModalTags.filter(t => t !== tag);
+      renderModalTags();
+    }
+
+    function saveCurrentNote() {
+      const hl = highlights.find(h => h.id === activeModalHlId);
+      if (!hl) return;
+
+      hl.note = document.getElementById("modal-note-text").value.trim();
+      hl.tags = [...currentModalTags];
+
+      saveHighlights();
+      renderBlocks(CORPUS[currentWorkId]);
+      closeNoteModal();
+      showToast("Note Saved");
+
+      if (document.getElementById("notebook-drawer").classList.contains("open")) {
+        renderNotebook();
+      }
+    }
+
+    function deleteCurrentHighlight() {
+      if (!confirm("Remove this highlight and note?")) return;
+      highlights = highlights.filter(h => h.id !== activeModalHlId);
+      saveHighlights();
+      renderBlocks(CORPUS[currentWorkId]);
+      closeNoteModal();
+      showToast("Highlight Removed");
+
+      if (document.getElementById("notebook-drawer").classList.contains("open")) {
+        renderNotebook();
+      }
+    }
+
+    function closeNoteModal() {
+      noteModal.classList.remove("open");
+      activeModalHlId = null;
+    }
+
+    function toggleNotebook() {
+      const drawer = document.getElementById("notebook-drawer");
+      const wasOpen = drawer.classList.contains("open");
+      closeDrawers();
+      if (!wasOpen) {
+        drawer.classList.add("open");
+        renderNotebook();
+      }
+    }
+
+    function renderNotebook() {
+      const searchVal = (document.getElementById("notebook-search-input").value || "").toLowerCase();
+      const container = document.getElementById("notebook-cards-container");
+      const tagListEl = document.getElementById("notebook-tags-filter");
+
+      const allTags = new Set();
+      highlights.forEach(h => (h.tags || []).forEach(t => allTags.add(t)));
+
+      tagListEl.innerHTML = `
+        <span class="tag-filter-pill ${selectedTagFilter === null ? 'active' : ''}" onclick="setNotebookTagFilter(null)">All</span>
+        ${Array.from(allTags).map(t => `
+          <span class="tag-filter-pill ${selectedTagFilter === t ? 'active' : ''}" onclick="setNotebookTagFilter('${t}')">#${t}</span>
+        `).join("")}
+      `;
+
+      const filtered = highlights.filter(h => {
+        const matchesTag = selectedTagFilter === null || (h.tags && h.tags.includes(selectedTagFilter));
+        const matchesSearch = !searchVal || 
+          h.text.toLowerCase().includes(searchVal) || 
+          (h.note && h.note.toLowerCase().includes(searchVal)) ||
+          (h.tags && h.tags.some(t => t.toLowerCase().includes(searchVal)));
+        return matchesTag && matchesSearch;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="padding: 2.5rem 1rem; text-align: center; color: var(--text-muted); font-size: 0.95rem;">
+            ${highlights.length === 0 ? "No highlights or notes yet.<br><br>Select any passage in the text to create your first highlight." : "No notes matching current filters."}
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered.map(h => {
+        const work = CORPUS[h.workId] || { titleFr: h.workId };
+        const num = h.blockId.replace("p-", "");
+        return `
+          <div class="note-card">
+            <div class="note-card-meta">
+              <span>${work.titleFr} (#${num})</span>
+              <span style="text-transform:uppercase; font-size:0.7rem; background:#eae5db; padding:1px 4px; border-radius:3px; color:#5a5044;">${h.lang}</span>
+            </div>
+            <div class="note-card-quote">"${escapeHtml(h.text)}"</div>
+            ${h.note ? `<div class="note-card-text">${escapeHtml(h.note)}</div>` : ''}
+            ${h.tags && h.tags.length > 0 ? `
+              <div class="note-card-tags">
+                ${h.tags.map(t => `<span class="tag-chip" style="font-size:0.72rem; padding:1px 5px;">#${t}</span>`).join("")}
+              </div>
+            ` : ''}
+            <div class="note-card-actions">
+              <button class="btn" style="font-size:0.75rem; padding:0.25rem 0.6rem;" onclick="jumpToPassage('${h.workId}', '${h.blockId}', '${h.lang}')">Jump &rarr;</button>
+              <button class="btn" style="font-size:0.75rem; padding:0.25rem 0.6rem;" onclick="openExistingNoteModal('${h.id}')">Edit</button>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function setNotebookTagFilter(tag) {
+      selectedTagFilter = tag;
+      renderNotebook();
+    }
+
+    function jumpToPassage(workId, blockId, lang) {
+      if (currentWorkId !== workId) {
+        switchWork(workId);
+      }
+      closeDrawers();
+
+      setTimeout(() => {
+        const target = document.getElementById(`${lang}-${blockId}`) || document.getElementById(`en-${blockId}`) || document.getElementById(`fr-${blockId}`);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "center" });
+          target.classList.add("flash-target");
+          setTimeout(() => target.classList.remove("flash-target"), 2600);
+        }
+      }, 150);
+    }
+
+    function exportNotesMarkdown() {
+      if (highlights.length === 0) {
+        alert("No highlights or notes to export.");
+        return;
+      }
+
+      let md = `# Gabriel Marcel — Reader Highlights & Notes\n\n`;
+      md += `*Exported on ${new Date().toLocaleDateString()} from Gabriel Marcel Digital Corpus*\n\n---\n\n`;
+
+      highlights.forEach((h, idx) => {
+        const work = CORPUS[h.workId] || { titleFr: h.workId };
+        md += `### ${idx + 1}. ${work.titleFr} (${h.blockId}, ${h.lang.toUpperCase()})\n\n`;
+        md += `> "${h.text}"\n\n`;
+        if (h.note) md += `**Note:** ${h.note}\n\n`;
+        if (h.tags && h.tags.length > 0) md += `**Tags:** ${h.tags.map(t => `#${t}`).join(" ")}\n\n`;
+        md += `---\n\n`;
+      });
+
+      const blob = new Blob([md], { type: "text/markdown;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `marcel-notes-${Date.now()}.md`;
+      a.click();
+      URL.revokeObjectURL(url);
+      showToast("Exported to Markdown");
+    }
+
+    function openSearchModal() {
+      document.getElementById("search-modal-backdrop").classList.add("open");
+      const input = document.getElementById("global-search-input");
+      input.focus();
+      input.select();
+      executeGlobalSearch();
+    }
+
+    function closeSearchModal() {
+      document.getElementById("search-modal-backdrop").classList.remove("open");
+    }
+
+    function handleSearchBackdropClick(e) {
+      if (e.target.id === "search-modal-backdrop") closeSearchModal();
+    }
+
+    function setSearchFilter(filter) {
+      currentSearchFilter = filter;
+      ["all", "en", "fr"].forEach(f => {
+        const btn = document.getElementById(`search-filter-${f}`);
+        if (btn) {
+          if (f === filter) btn.classList.add("active");
+          else btn.classList.remove("active");
+        }
+      });
+      executeGlobalSearch();
+    }
+
+    function executeGlobalSearch() {
+      const query = document.getElementById("global-search-input").value.trim();
+      const resultsContainer = document.getElementById("search-results-list");
+
+      if (!query || query.length < 2) {
+        resultsContainer.innerHTML = `
+          <div style="padding:2.5rem; text-align:center; color:var(--text-muted); font-size:0.9rem;">
+            Type at least 2 characters to search across all works in French and English.
+          </div>
+        `;
+        return;
+      }
+
+      const normQuery = normalizeStr(query);
+      const results = [];
+
+      Object.values(CORPUS).forEach(work => {
+        work.paragraphs.forEach(p => {
+          if (currentSearchFilter === "all" || currentSearchFilter === "fr") {
+            const normFr = normalizeStr(p.fr);
+            if (normFr.includes(normQuery)) {
+              results.push({
+                workId: work.id,
+                workTitle: work.titleFr,
+                year: work.year,
+                blockId: p.id,
+                lang: "fr",
+                rawText: stripHtml(p.fr),
+                matchQuery: query
+              });
+            }
+          }
+
+          if (currentSearchFilter === "all" || currentSearchFilter === "en") {
+            const normEn = normalizeStr(p.en);
+            if (normEn.includes(normQuery)) {
+              results.push({
+                workId: work.id,
+                workTitle: work.titleEn || work.titleFr,
+                year: work.year,
+                blockId: p.id,
+                lang: "en",
+                rawText: stripHtml(p.en),
+                matchQuery: query
+              });
+            }
+          }
+        });
+      });
+
+      if (results.length === 0) {
+        resultsContainer.innerHTML = `
+          <div style="padding:2.5rem; text-align:center; color:var(--text-muted); font-size:0.9rem;">
+            No matches found for "<strong>${escapeHtml(query)}</strong>".
+          </div>
+        `;
+        return;
+      }
+
+      resultsContainer.innerHTML = results.map(r => {
+        const highlightedSnippet = highlightSnippet(r.rawText, r.matchQuery);
+        return `
+          <div class="search-result-item" onclick="selectSearchResult('${r.workId}', '${r.blockId}', '${r.lang}')">
+            <div class="search-result-header">
+              <span>${r.workTitle} (${r.year}) • #${r.blockId.replace("p-", "")}</span>
+              <span style="background:#eae5db; color:#5a5044; padding:1px 5px; border-radius:3px; font-size:0.7rem; text-transform:uppercase;">${r.lang}</span>
+            </div>
+            <div class="search-result-snippet">
+              "${highlightedSnippet}"
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function selectSearchResult(workId, blockId, lang) {
+      closeSearchModal();
+      jumpToPassage(workId, blockId, lang);
+    }
+
+    function highlightSnippet(text, query) {
+      const safeQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const regex = new RegExp(`(${safeQuery})`, 'gi');
+      return escapeHtml(text).replace(regex, '<mark>$1</mark>');
+    }
+
+    function renderGlossaryDrawer() {
+      const container = document.getElementById("glossary-cards-container");
+      container.innerHTML = Object.entries(GLOSSARY).map(([key, item]) => `
+        <div class="glossary-card" id="card-${key}">
+          <div class="glossary-term-fr">${item.fr}</div>
+          <div class="glossary-term-en">${item.en}</div>
+          <div class="glossary-def">${item.def}</div>
+        </div>
+      `).join("");
+    }
+
+    function toggleGlossary() {
+      const drawer = document.getElementById("glossary-drawer");
+      const wasOpen = drawer.classList.contains("open");
+      closeDrawers();
+      if (!wasOpen) drawer.classList.add("open");
+    }
+
+    function showGlossaryTerm(termKey) {
+      closeDrawers();
+      const drawer = document.getElementById("glossary-drawer");
+      drawer.classList.add("open");
+      const card = document.getElementById(`card-${termKey}`);
+      if (card) {
+        card.scrollIntoView({ behavior: "smooth", block: "center" });
+        card.style.outline = "2px solid var(--accent)";
+        setTimeout(() => { card.style.outline = "none"; }, 2500);
+      }
+    }
+
+    function setMode(mode) {
+      currentMode = mode;
+      const grid = document.getElementById("reader-grid");
+      ["split", "en", "fr"].forEach(m => {
+        const btn = document.getElementById(`btn-mode-${m}`);
+        if (m === mode) btn.classList.add("active");
+        else btn.classList.remove("active");
+      });
+
+      if (mode === "split") grid.className = "reader-grid";
+      else if (mode === "en") grid.className = "reader-grid mode-en";
+      else if (mode === "fr") grid.className = "reader-grid mode-fr";
+    }
+
+    function closeDrawers() {
+      document.getElementById("notebook-drawer").classList.remove("open");
+      document.getElementById("glossary-drawer").classList.remove("open");
+      selToolbar.style.display = "none";
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById("toast");
+      toast.textContent = msg;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2200);
+    }
+
+    function normalizeStr(str) {
+      return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
+
+    function escapeHtml(str) {
+      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
+    function stripHtml(html) {
+      const tmp = document.createElement("DIV");
+      tmp.innerHTML = html;
+      return tmp.textContent || tmp.innerText || "";
     }
   </script>
 </body>
