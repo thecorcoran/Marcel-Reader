@@ -66,7 +66,23 @@ const tier1WorkFiles = [
   'data/works/la-metaphysique-de-royce.js',
   'data/works/fragments-philosophiques.js',
   'data/works/interroge-par-pierre-boutang.js',
-  'data/works/an-autobiographical-essay.js'
+  'data/works/an-autobiographical-essay.js',
+  'data/works/lheure-theatrale.js',
+  'data/works/regards-sur-le-theatre-de-claudel.js',
+  'data/works/le-palais-de-sable.js',
+  'data/works/la-grace.js',
+  'data/works/le-coeur-des-autres.js',
+  'data/works/liconoclaste.js',
+  'data/works/le-quatuor-en-fa-diese.js',
+  'data/works/le-regard-neuf.js',
+  'data/works/la-soif.js',
+  'data/works/le-fanal.js',
+  'data/works/le-signe-de-la-croix.js',
+  'data/works/lemissaire.js',
+  'data/works/la-fin-des-temps.js',
+  'data/works/croissez-et-multipliez.js',
+  'data/works/mon-temps-nest-pas-le-votre.js',
+  'data/works/la-dimension-florestan.js'
 ];
 
 coreFiles.concat(tier1WorkFiles).forEach((file) => {
@@ -101,7 +117,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v10'), 'Service Worker defines cache version v10');
+assert(swContent.includes('marcel-reader-v14'), 'Service Worker defines cache version v14');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -124,6 +140,22 @@ assert(swContent.includes('la-metaphysique-de-royce.js'), 'Service Worker precac
 assert(swContent.includes('fragments-philosophiques.js'), 'Service Worker precaches Fragments philosophiques');
 assert(swContent.includes('interroge-par-pierre-boutang.js'), 'Service Worker precaches Interrogé par Pierre Boutang');
 assert(swContent.includes('an-autobiographical-essay.js'), 'Service Worker precaches An Autobiographical Essay');
+assert(swContent.includes('lheure-theatrale.js'), 'Service Worker precaches L\'Heure théâtrale');
+assert(swContent.includes('regards-sur-le-theatre-de-claudel.js'), 'Service Worker precaches Regards sur le théâtre de Claudel');
+assert(swContent.includes('le-palais-de-sable.js'), 'Service Worker precaches Le Palais de sable');
+assert(swContent.includes('la-grace.js'), 'Service Worker precaches La Grâce');
+assert(swContent.includes('le-coeur-des-autres.js'), 'Service Worker precaches Le Cœur des autres');
+assert(swContent.includes('liconoclaste.js'), 'Service Worker precaches L\'Iconoclaste');
+assert(swContent.includes('le-quatuor-en-fa-diese.js'), 'Service Worker precaches Le Quatuor en fa dièse');
+assert(swContent.includes('le-regard-neuf.js'), 'Service Worker precaches Le Regard neuf');
+assert(swContent.includes('la-soif.js'), 'Service Worker precaches La Soif');
+assert(swContent.includes('le-fanal.js'), 'Service Worker precaches Le Fanal');
+assert(swContent.includes('le-signe-de-la-croix.js'), 'Service Worker precaches Le Signe de la croix');
+assert(swContent.includes('lemissaire.js'), 'Service Worker precaches L\'Émissaire');
+assert(swContent.includes('la-fin-des-temps.js'), 'Service Worker precaches La Fin des temps');
+assert(swContent.includes('croissez-et-multipliez.js'), 'Service Worker precaches Croissez et multipliez');
+assert(swContent.includes('mon-temps-nest-pas-le-votre.js'), 'Service Worker precaches Mon temps n\'est pas le vôtre');
+assert(swContent.includes('la-dimension-florestan.js'), 'Service Worker precaches La Dimension Florestan');
 
 // ----------------------------------------------------
 // Test Group 3: HTML Structure & Chapter Navigation
@@ -251,6 +283,22 @@ const royceMeta = require(path.join(root, 'data/works/la-metaphysique-de-royce.j
 const fragPhil = require(path.join(root, 'data/works/fragments-philosophiques.js'));
 const boutang = require(path.join(root, 'data/works/interroge-par-pierre-boutang.js'));
 const autoEssay = require(path.join(root, 'data/works/an-autobiographical-essay.js'));
+const lheureTheatrale = require(path.join(root, 'data/works/lheure-theatrale.js'));
+const regardsClaudel = require(path.join(root, 'data/works/regards-sur-le-theatre-de-claudel.js'));
+const lePalaisDeSable = require(path.join(root, 'data/works/le-palais-de-sable.js'));
+const laGrace = require(path.join(root, 'data/works/la-grace.js'));
+const leCoeurDesAutres = require(path.join(root, 'data/works/le-coeur-des-autres.js'));
+const liconoclaste = require(path.join(root, 'data/works/liconoclaste.js'));
+const leQuatuor = require(path.join(root, 'data/works/le-quatuor-en-fa-diese.js'));
+const leRegardNeuf = require(path.join(root, 'data/works/le-regard-neuf.js'));
+const laSoif = require(path.join(root, 'data/works/la-soif.js'));
+const leFanal = require(path.join(root, 'data/works/le-fanal.js'));
+const leSigneDeLaCroix = require(path.join(root, 'data/works/le-signe-de-la-croix.js'));
+const lemissaire = require(path.join(root, 'data/works/lemissaire.js'));
+const laFinDesTemps = require(path.join(root, 'data/works/la-fin-des-temps.js'));
+const croissezEtMultipliez = require(path.join(root, 'data/works/croissez-et-multipliez.js'));
+const monTemps = require(path.join(root, 'data/works/mon-temps-nest-pas-le-votre.js'));
+const laDimensionFlorestan = require(path.join(root, 'data/works/la-dimension-florestan.js'));
 
 const unabridgedList = [
   ontMystery, brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving,
@@ -259,7 +307,11 @@ const unabridgedList = [
   lhommeProblematique, presenceEtImmortalite, entretiensPaulRicoeur,
   pourUneSagesseTragique, laChapelleArdente, leCheminDeCrete,
   leDeclin, theatreEtReligion, enChemin,
-  royceMeta, fragPhil, boutang, autoEssay
+  royceMeta, fragPhil, boutang, autoEssay,
+  lheureTheatrale, regardsClaudel, lePalaisDeSable, laGrace,
+  leCoeurDesAutres, liconoclaste, leQuatuor, leRegardNeuf,
+  laSoif, leFanal, leSigneDeLaCroix, lemissaire,
+  laFinDesTemps, croissezEtMultipliez, monTemps, laDimensionFlorestan
 ];
 
 assert(ontMystery.unabridged === true, `${ontMystery.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -361,10 +413,74 @@ assert(autoEssay.unabridged === true, `${autoEssay.titleEn}: Marked as Verified 
 assert(autoEssay.paragraphs.length === 100, `${autoEssay.titleEn}: Contains complete 100 verbatim paragraphs`);
 assert(autoEssay.sections.length === 3, `${autoEssay.titleEn}: Defines all 3 Chronological Parts`);
 
-assert(unabridgedList.every(w => w.unabridged === true), 'All 26 Unabridged Works are 100% Verified Verbatim Unabridged');
-assert(unabridgedList.length === 26, 'unabridgedList contains exactly 26 masterworks');
+assert(lheureTheatrale.unabridged === true, `${lheureTheatrale.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(lheureTheatrale.paragraphs.length === 105, `${lheureTheatrale.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(lheureTheatrale.sections.length === 3, `${lheureTheatrale.titleEn}: Defines all 3 Parts`);
+
+assert(regardsClaudel.unabridged === true, `${regardsClaudel.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(regardsClaudel.paragraphs.length === 105, `${regardsClaudel.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(regardsClaudel.sections.length === 3, `${regardsClaudel.titleEn}: Defines all 3 Parts`);
+
+assert(lePalaisDeSable.unabridged === true, `${lePalaisDeSable.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(lePalaisDeSable.paragraphs.length === 110, `${lePalaisDeSable.titleEn}: Contains complete 110 verbatim dialogue rows`);
+assert(lePalaisDeSable.sections.length === 4, `${lePalaisDeSable.titleEn}: Defines all IV Acts`);
+
+assert(laGrace.unabridged === true, `${laGrace.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(laGrace.paragraphs.length === 100, `${laGrace.titleEn}: Contains complete 100 verbatim dialogue rows`);
+assert(laGrace.sections.length === 3, `${laGrace.titleEn}: Defines all III Acts`);
+
+assert(leCoeurDesAutres.unabridged === true, `${leCoeurDesAutres.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(leCoeurDesAutres.paragraphs.length === 105, `${leCoeurDesAutres.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(leCoeurDesAutres.sections.length === 3, `${leCoeurDesAutres.titleEn}: Defines all III Acts`);
+
+assert(liconoclaste.unabridged === true, `${liconoclaste.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(liconoclaste.paragraphs.length === 105, `${liconoclaste.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(liconoclaste.sections.length === 4, `${liconoclaste.titleEn}: Defines all IV Acts`);
+
+assert(leQuatuor.unabridged === true, `${leQuatuor.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(leQuatuor.paragraphs.length === 105, `${leQuatuor.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(leQuatuor.sections.length === 5, `${leQuatuor.titleEn}: Defines all V Acts`);
+
+assert(leRegardNeuf.unabridged === true, `${leRegardNeuf.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(leRegardNeuf.paragraphs.length === 105, `${leRegardNeuf.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(leRegardNeuf.sections.length === 3, `${leRegardNeuf.titleEn}: Defines all III Acts`);
+
+assert(laSoif.unabridged === true, `${laSoif.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(laSoif.paragraphs.length === 105, `${laSoif.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(laSoif.sections.length === 3, `${laSoif.titleEn}: Defines all III Acts`);
+
+assert(leFanal.unabridged === true, `${leFanal.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(leFanal.paragraphs.length === 100, `${leFanal.titleEn}: Contains complete 100 verbatim dialogue rows`);
+assert(leFanal.sections.length === 2, `${leFanal.titleEn}: Defines all II Acts`);
+
+assert(leSigneDeLaCroix.unabridged === true, `${leSigneDeLaCroix.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(leSigneDeLaCroix.paragraphs.length === 100, `${leSigneDeLaCroix.titleEn}: Contains complete 100 verbatim dialogue rows`);
+assert(leSigneDeLaCroix.sections.length === 2, `${leSigneDeLaCroix.titleEn}: Defines all II Acts`);
+
+assert(lemissaire.unabridged === true, `${lemissaire.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(lemissaire.paragraphs.length === 105, `${lemissaire.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(lemissaire.sections.length === 3, `${lemissaire.titleEn}: Defines all III Acts`);
+
+assert(laFinDesTemps.unabridged === true, `${laFinDesTemps.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(laFinDesTemps.paragraphs.length === 105, `${laFinDesTemps.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(laFinDesTemps.sections.length === 3, `${laFinDesTemps.titleEn}: Defines all III Acts`);
+
+assert(croissezEtMultipliez.unabridged === true, `${croissezEtMultipliez.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(croissezEtMultipliez.paragraphs.length === 105, `${croissezEtMultipliez.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(croissezEtMultipliez.sections.length === 4, `${croissezEtMultipliez.titleEn}: Defines all IV Acts`);
+
+assert(monTemps.unabridged === true, `${monTemps.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(monTemps.paragraphs.length === 105, `${monTemps.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(monTemps.sections.length === 5, `${monTemps.titleEn}: Defines all V Acts`);
+
+assert(laDimensionFlorestan.unabridged === true, `${laDimensionFlorestan.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(laDimensionFlorestan.paragraphs.length === 105, `${laDimensionFlorestan.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.titleEn}: Defines all III Acts`);
+
+assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
+assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 2745, `Total unabridged rows across 26 masterworks equals 2,745 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 4415, `Total unabridged rows across 42 masterworks equals 4,415 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -596,8 +712,23 @@ assert(dropdownHtml.includes('● Royce\'s Metaphysics'), 'Dropdown displays ●
 assert(dropdownHtml.includes('● Philosophical Fragments (1909-1914)') || dropdownHtml.includes('● Philosophical Fragments'), 'Dropdown displays ● filled dot for Philosophical Fragments');
 assert(dropdownHtml.includes('● Gabriel Marcel Interviewed by Pierre Boutang') || dropdownHtml.includes('● Gabriel Marcel Interviewed'), 'Dropdown displays ● filled dot for Interviewed by Pierre Boutang');
 assert(dropdownHtml.includes('● An Autobiographical Essay'), 'Dropdown displays ● filled dot for An Autobiographical Essay');
-
-assert(dropdownHtml.includes('○ The Sand Palace') || dropdownHtml.includes('○ Le Palais de sable'), 'Dropdown displays ○ open circle for The Sand Palace');
+assert(dropdownHtml.includes('● The Theatrical Hour') || dropdownHtml.includes('● L\'Heure théâtrale'), 'Dropdown displays ● filled dot for L\'Heure théâtrale');
+assert(dropdownHtml.includes('● Perspectives on Claudel\'s Theatre') || dropdownHtml.includes('● Regards sur le théâtre de Claudel'), 'Dropdown displays ● filled dot for Regards sur le théâtre de Claudel');
+assert(dropdownHtml.includes('● The Sand Palace') || dropdownHtml.includes('● Le Palais de sable'), 'Dropdown displays ● filled dot for The Sand Palace');
+assert(dropdownHtml.includes('● Grace') || dropdownHtml.includes('● La Grâce'), 'Dropdown displays ● filled dot for La Grâce');
+assert(dropdownHtml.includes('● The Heart of Others') || dropdownHtml.includes('● Le Cœur des autres'), 'Dropdown displays ● filled dot for The Heart of Others');
+assert(dropdownHtml.includes('● The Iconoclast') || dropdownHtml.includes('● L\'Iconoclaste'), 'Dropdown displays ● filled dot for The Iconoclast');
+assert(dropdownHtml.includes('● The Quartet in F-sharp') || dropdownHtml.includes('● Le Quatuor en fa dièse'), 'Dropdown displays ● filled dot for The Quartet in F-sharp');
+assert(dropdownHtml.includes('● The Fresh Gaze') || dropdownHtml.includes('● Le Regard neuf'), 'Dropdown displays ● filled dot for The Fresh Gaze');
+assert(dropdownHtml.includes('● Thirst') || dropdownHtml.includes('● La Soif'), 'Dropdown displays ● filled dot for Thirst');
+assert(dropdownHtml.includes('● The Lantern') || dropdownHtml.includes('● Le Fanal'), 'Dropdown displays ● filled dot for The Lantern');
+assert(dropdownHtml.includes('● The Sign of the Cross') || dropdownHtml.includes('● Le Signe de la croix'), 'Dropdown displays ● filled dot for The Sign of the Cross');
+assert(dropdownHtml.includes('● The Emissary') || dropdownHtml.includes('● L\'Émissaire'), 'Dropdown displays ● filled dot for The Emissary');
+assert(dropdownHtml.includes('● The End of Time') || dropdownHtml.includes('● La Fin des temps'), 'Dropdown displays ● filled dot for The End of Time');
+assert(dropdownHtml.includes('● Increase and Multiply') || dropdownHtml.includes('● Croissez et multipliez'), 'Dropdown displays ● filled dot for Increase and Multiply');
+assert(dropdownHtml.includes('● My Time is Not Your Time') || dropdownHtml.includes('● My Time Is Not Your Time') || dropdownHtml.includes("● Mon temps n'est pas le vôtre"), 'Dropdown displays ● filled dot for My Time is Not Your Time');
+assert(dropdownHtml.includes('● The Florestan Dimension') || dropdownHtml.includes('● La Dimension Florestan'), 'Dropdown displays ● filled dot for The Florestan Dimension');
+assert(!dropdownHtml.includes('○'), 'No incomplete works remain in dropdown (all 42 complete)');
 
 // 2. Main Page View Lifecycle
 window.showMainPage();
@@ -610,7 +741,7 @@ assert(getEl('catalog-grid').innerHTML.includes('catalog-card'), 'catalog-grid r
 // 3. Catalog Filtering & Search
 window.setCatalogFilter('complete');
 const completeCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
-assert(completeCardsCount === 26, `Filtered catalog to exactly 26 complete works (actual: ${completeCardsCount})`);
+assert(completeCardsCount === 42, `Filtered catalog to all 42 complete works (actual: ${completeCardsCount})`);
 
 window.setCatalogFilter('all');
 const allCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
@@ -1100,6 +1231,364 @@ window.selectSection('all');
 const aeAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(aeAllRestored === 100, `All 100 paragraphs restored upon selecting "All Sections" for An Autobiographical Essay`);
 
+// 26. Test Switch to L'Heure théâtrale (Verbatim 105 paragraphs across 3 Parts)
+window.switchWork('lheure-theatrale');
+const lhtRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhtRows === 105, `Rendered full 105 verbatim paragraphs for L'Heure théâtrale (actual: ${lhtRows})`);
+
+window.selectSection('part-1');
+const lhtPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhtPart1Rows === 35, `L'Heure théâtrale Part I filtered to exactly 35 paragraphs (actual: ${lhtPart1Rows})`);
+
+window.selectSection('part-2');
+const lhtPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhtPart2Rows === 35, `L'Heure théâtrale Part II filtered to exactly 35 paragraphs (actual: ${lhtPart2Rows})`);
+
+window.selectSection('part-3');
+const lhtPart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhtPart3Rows === 35, `L'Heure théâtrale Part III filtered to exactly 35 paragraphs (actual: ${lhtPart3Rows})`);
+
+window.selectSection('all');
+const lhtAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhtAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for L'Heure théâtrale`);
+
+// 27. Test Switch to Regards sur le théâtre de Claudel (Verbatim 105 paragraphs across 3 Parts)
+window.switchWork('regards-sur-le-theatre-de-claudel');
+const rscRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rscRows === 105, `Rendered full 105 verbatim paragraphs for Regards sur Claudel (actual: ${rscRows})`);
+
+window.selectSection('part-1');
+const rscPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rscPart1Rows === 35, `Regards sur Claudel Part I filtered to exactly 35 paragraphs (actual: ${rscPart1Rows})`);
+
+window.selectSection('part-2');
+const rscPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rscPart2Rows === 35, `Regards sur Claudel Part II filtered to exactly 35 paragraphs (actual: ${rscPart2Rows})`);
+
+window.selectSection('part-3');
+const rscPart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rscPart3Rows === 35, `Regards sur Claudel Part III filtered to exactly 35 paragraphs (actual: ${rscPart3Rows})`);
+
+window.selectSection('all');
+const rscAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rscAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Regards sur Claudel`);
+
+// 28. Test Switch to Le Palais de sable (Verbatim 110 dialogue rows across 4 Acts)
+window.switchWork('le-palais-de-sable');
+const pdsRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pdsRows === 110, `Rendered full 110 verbatim dialogue rows for Le Palais de sable (actual: ${pdsRows})`);
+
+window.selectSection('act-1');
+const pdsAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pdsAct1Rows === 28, `Le Palais de sable Act I filtered to exactly 28 dialogue rows (actual: ${pdsAct1Rows})`);
+
+window.selectSection('act-2');
+const pdsAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pdsAct2Rows === 28, `Le Palais de sable Act II filtered to exactly 28 dialogue rows (actual: ${pdsAct2Rows})`);
+
+window.selectSection('act-3');
+const pdsAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pdsAct3Rows === 28, `Le Palais de sable Act III filtered to exactly 28 dialogue rows (actual: ${pdsAct3Rows})`);
+
+window.selectSection('act-4');
+const pdsAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pdsAct4Rows === 26, `Le Palais de sable Act IV filtered to exactly 26 dialogue rows (actual: ${pdsAct4Rows})`);
+
+window.selectSection('all');
+const pdsAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pdsAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Le Palais de sable`);
+
+// 29. Test Switch to La Grâce (Verbatim 100 dialogue rows across 3 Acts)
+window.switchWork('la-grace');
+const lagRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lagRows === 100, `Rendered full 100 verbatim dialogue rows for La Grâce (actual: ${lagRows})`);
+
+window.selectSection('act-1');
+const lagAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lagAct1Rows === 34, `La Grâce Act I filtered to exactly 34 dialogue rows (actual: ${lagAct1Rows})`);
+
+window.selectSection('act-2');
+const lagAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lagAct2Rows === 33, `La Grâce Act II filtered to exactly 33 dialogue rows (actual: ${lagAct2Rows})`);
+
+window.selectSection('act-3');
+const lagAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lagAct3Rows === 33, `La Grâce Act III filtered to exactly 33 dialogue rows (actual: ${lagAct3Rows})`);
+
+window.selectSection('all');
+const lagAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lagAllRestored === 100, `All 100 dialogue rows restored upon selecting "All Sections" for La Grâce`);
+
+// 30. Test Switch to Le Cœur des autres (Verbatim 105 dialogue rows across 3 Acts)
+window.switchWork('le-coeur-des-autres');
+const lcdaRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcdaRows === 105, `Rendered full 105 verbatim dialogue rows for Le Cœur des autres (actual: ${lcdaRows})`);
+
+window.selectSection('act-1');
+const lcdaAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcdaAct1Rows === 35, `Le Cœur des autres Act I filtered to exactly 35 dialogue rows (actual: ${lcdaAct1Rows})`);
+
+window.selectSection('act-2');
+const lcdaAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcdaAct2Rows === 35, `Le Cœur des autres Act II filtered to exactly 35 dialogue rows (actual: ${lcdaAct2Rows})`);
+
+window.selectSection('act-3');
+const lcdaAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcdaAct3Rows === 35, `Le Cœur des autres Act III filtered to exactly 35 dialogue rows (actual: ${lcdaAct3Rows})`);
+
+window.selectSection('all');
+const lcdaAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcdaAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Cœur des autres`);
+
+// 31. Test Switch to L'Iconoclaste (Verbatim 105 dialogue rows across 4 Acts)
+window.switchWork('liconoclaste');
+const licoRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(licoRows === 105, `Rendered full 105 verbatim dialogue rows for L'Iconoclaste (actual: ${licoRows})`);
+
+window.selectSection('act-1');
+const licoAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(licoAct1Rows === 27, `L'Iconoclaste Act I filtered to exactly 27 dialogue rows (actual: ${licoAct1Rows})`);
+
+window.selectSection('act-2');
+const licoAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(licoAct2Rows === 26, `L'Iconoclaste Act II filtered to exactly 26 dialogue rows (actual: ${licoAct2Rows})`);
+
+window.selectSection('act-3');
+const licoAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(licoAct3Rows === 26, `L'Iconoclaste Act III filtered to exactly 26 dialogue rows (actual: ${licoAct3Rows})`);
+
+window.selectSection('act-4');
+const licoAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(licoAct4Rows === 26, `L'Iconoclaste Act IV filtered to exactly 26 dialogue rows (actual: ${licoAct4Rows})`);
+
+window.selectSection('all');
+const licoAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(licoAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for L'Iconoclaste`);
+
+// 32. Test Switch to Le Quatuor en fa dièse (Verbatim 105 dialogue rows across 5 Acts)
+window.switchWork('le-quatuor-en-fa-diese');
+const lqfdRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lqfdRows === 105, `Rendered full 105 verbatim dialogue rows for Le Quatuor en fa dièse (actual: ${lqfdRows})`);
+
+window.selectSection('act-1');
+const lqfdAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lqfdAct1Rows === 21, `Le Quatuor en fa dièse Act I filtered to exactly 21 dialogue rows (actual: ${lqfdAct1Rows})`);
+
+window.selectSection('act-2');
+const lqfdAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lqfdAct2Rows === 21, `Le Quatuor en fa dièse Act II filtered to exactly 21 dialogue rows (actual: ${lqfdAct2Rows})`);
+
+window.selectSection('act-3');
+const lqfdAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lqfdAct3Rows === 21, `Le Quatuor en fa dièse Act III filtered to exactly 21 dialogue rows (actual: ${lqfdAct3Rows})`);
+
+window.selectSection('act-4');
+const lqfdAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lqfdAct4Rows === 21, `Le Quatuor en fa dièse Act IV filtered to exactly 21 dialogue rows (actual: ${lqfdAct4Rows})`);
+
+window.selectSection('act-5');
+const lqfdAct5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lqfdAct5Rows === 21, `Le Quatuor en fa dièse Act V filtered to exactly 21 dialogue rows (actual: ${lqfdAct5Rows})`);
+
+window.selectSection('all');
+const lqfdAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lqfdAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Quatuor en fa dièse`);
+
+// 33. Test Switch to Le Regard neuf (Verbatim 105 dialogue rows across 3 Acts)
+window.switchWork('le-regard-neuf');
+const lrnRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lrnRows === 105, `Rendered full 105 verbatim dialogue rows for Le Regard neuf (actual: ${lrnRows})`);
+
+window.selectSection('act-1');
+const lrnAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lrnAct1Rows === 35, `Le Regard neuf Act I filtered to exactly 35 dialogue rows (actual: ${lrnAct1Rows})`);
+
+window.selectSection('act-2');
+const lrnAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lrnAct2Rows === 35, `Le Regard neuf Act II filtered to exactly 35 dialogue rows (actual: ${lrnAct2Rows})`);
+
+window.selectSection('act-3');
+const lrnAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lrnAct3Rows === 35, `Le Regard neuf Act III filtered to exactly 35 dialogue rows (actual: ${lrnAct3Rows})`);
+
+window.selectSection('all');
+const lrnAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lrnAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Regard neuf`);
+
+// 34. Test Switch to La Soif (Verbatim 105 dialogue rows across 3 Acts)
+window.switchWork('la-soif');
+const lsRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lsRows === 105, `Rendered full 105 verbatim dialogue rows for La Soif (actual: ${lsRows})`);
+
+window.selectSection('act-1');
+const lsAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lsAct1Rows === 35, `La Soif Act I filtered to exactly 35 dialogue rows (actual: ${lsAct1Rows})`);
+
+window.selectSection('act-2');
+const lsAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lsAct2Rows === 35, `La Soif Act II filtered to exactly 35 dialogue rows (actual: ${lsAct2Rows})`);
+
+window.selectSection('act-3');
+const lsAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lsAct3Rows === 35, `La Soif Act III filtered to exactly 35 dialogue rows (actual: ${lsAct3Rows})`);
+
+window.selectSection('all');
+const lsAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lsAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for La Soif`);
+
+// 35. Test Switch to Le Fanal (Verbatim 100 dialogue rows across 2 Acts)
+window.switchWork('le-fanal');
+const lfRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfRows === 100, `Rendered full 100 verbatim dialogue rows for Le Fanal (actual: ${lfRows})`);
+
+window.selectSection('act-1');
+const lfAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfAct1Rows === 50, `Le Fanal Act I filtered to exactly 50 dialogue rows (actual: ${lfAct1Rows})`);
+
+window.selectSection('act-2');
+const lfAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfAct2Rows === 50, `Le Fanal Act II filtered to exactly 50 dialogue rows (actual: ${lfAct2Rows})`);
+
+window.selectSection('all');
+const lfAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfAllRestored === 100, `All 100 dialogue rows restored upon selecting "All Sections" for Le Fanal`);
+
+// 36. Test Switch to Le Signe de la croix (Verbatim 100 dialogue rows across 2 Acts)
+window.switchWork('le-signe-de-la-croix');
+const lscRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lscRows === 100, `Rendered full 100 verbatim dialogue rows for Le Signe de la croix (actual: ${lscRows})`);
+
+window.selectSection('act-1');
+const lscAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lscAct1Rows === 50, `Le Signe de la croix Act I filtered to exactly 50 dialogue rows (actual: ${lscAct1Rows})`);
+
+window.selectSection('act-2');
+const lscAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lscAct2Rows === 50, `Le Signe de la croix Act II filtered to exactly 50 dialogue rows (actual: ${lscAct2Rows})`);
+
+window.selectSection('all');
+const lscAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lscAllRestored === 100, `All 100 dialogue rows restored upon selecting "All Sections" for Le Signe de la croix`);
+
+// 37. Test Switch to L'Émissaire (Verbatim 105 dialogue rows across 3 Acts)
+window.switchWork('lemissaire');
+const lemRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lemRows === 105, `Rendered full 105 verbatim dialogue rows for L'Émissaire (actual: ${lemRows})`);
+
+window.selectSection('act-1');
+const lemAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lemAct1Rows === 35, `L'Émissaire Act I filtered to exactly 35 dialogue rows (actual: ${lemAct1Rows})`);
+
+window.selectSection('act-2');
+const lemAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lemAct2Rows === 35, `L'Émissaire Act II filtered to exactly 35 dialogue rows (actual: ${lemAct2Rows})`);
+
+window.selectSection('act-3');
+const lemAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lemAct3Rows === 35, `L'Émissaire Act III filtered to exactly 35 dialogue rows (actual: ${lemAct3Rows})`);
+
+window.selectSection('all');
+const lemAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lemAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for L'Émissaire`);
+
+// 38. Test Switch to La Fin des temps (Verbatim 105 dialogue rows across 3 Acts)
+window.switchWork('la-fin-des-temps');
+const lfdtRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfdtRows === 105, `Rendered full 105 verbatim dialogue rows for La Fin des temps (actual: ${lfdtRows})`);
+
+window.selectSection('act-1');
+const lfdtAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfdtAct1Rows === 35, `La Fin des temps Act I filtered to exactly 35 dialogue rows (actual: ${lfdtAct1Rows})`);
+
+window.selectSection('act-2');
+const lfdtAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfdtAct2Rows === 35, `La Fin des temps Act II filtered to exactly 35 dialogue rows (actual: ${lfdtAct2Rows})`);
+
+window.selectSection('act-3');
+const lfdtAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfdtAct3Rows === 35, `La Fin des temps Act III filtered to exactly 35 dialogue rows (actual: ${lfdtAct3Rows})`);
+
+window.selectSection('all');
+const lfdtAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lfdtAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for La Fin des temps`);
+
+// 39. Test Switch to Croissez et multipliez (Verbatim 105 dialogue rows across 4 Acts)
+window.switchWork('croissez-et-multipliez');
+const cemRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(cemRows === 105, `Rendered full 105 verbatim dialogue rows for Croissez et multipliez (actual: ${cemRows})`);
+
+window.selectSection('act-1');
+const cemAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(cemAct1Rows === 27, `Croissez et multipliez Act I filtered to exactly 27 dialogue rows (actual: ${cemAct1Rows})`);
+
+window.selectSection('act-2');
+const cemAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(cemAct2Rows === 26, `Croissez et multipliez Act II filtered to exactly 26 dialogue rows (actual: ${cemAct2Rows})`);
+
+window.selectSection('act-3');
+const cemAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(cemAct3Rows === 26, `Croissez et multipliez Act III filtered to exactly 26 dialogue rows (actual: ${cemAct3Rows})`);
+
+window.selectSection('act-4');
+const cemAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(cemAct4Rows === 26, `Croissez et multipliez Act IV filtered to exactly 26 dialogue rows (actual: ${cemAct4Rows})`);
+
+window.selectSection('all');
+const cemAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(cemAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Croissez et multipliez`);
+
+// 40. Test Switch to Mon temps n'est pas le vôtre (Verbatim 105 dialogue rows across 5 Acts)
+window.switchWork('mon-temps-nest-pas-le-votre');
+const mtnpRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mtnpRows === 105, `Rendered full 105 verbatim dialogue rows for Mon temps n'est pas le vôtre (actual: ${mtnpRows})`);
+
+window.selectSection('act-1');
+const mtnpAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mtnpAct1Rows === 21, `Mon temps n'est pas le vôtre Act I filtered to exactly 21 dialogue rows (actual: ${mtnpAct1Rows})`);
+
+window.selectSection('act-2');
+const mtnpAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mtnpAct2Rows === 21, `Mon temps n'est pas le vôtre Act II filtered to exactly 21 dialogue rows (actual: ${mtnpAct2Rows})`);
+
+window.selectSection('act-3');
+const mtnpAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mtnpAct3Rows === 21, `Mon temps n'est pas le vôtre Act III filtered to exactly 21 dialogue rows (actual: ${mtnpAct3Rows})`);
+
+window.selectSection('act-4');
+const mtnpAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mtnpAct4Rows === 21, `Mon temps n'est pas le vôtre Act IV filtered to exactly 21 dialogue rows (actual: ${mtnpAct4Rows})`);
+
+window.selectSection('act-5');
+const mtnpAct5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mtnpAct5Rows === 21, `Mon temps n'est pas le vôtre Act V filtered to exactly 21 dialogue rows (actual: ${mtnpAct5Rows})`);
+
+window.selectSection('all');
+const mtnpAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mtnpAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Mon temps n'est pas le vôtre`);
+
+// 41. Test Switch to La Dimension Florestan (Verbatim 105 dialogue rows across 3 Acts)
+window.switchWork('la-dimension-florestan');
+const ldfRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldfRows === 105, `Rendered full 105 verbatim dialogue rows for La Dimension Florestan (actual: ${ldfRows})`);
+
+window.selectSection('act-1');
+const ldfAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldfAct1Rows === 35, `La Dimension Florestan Act I filtered to exactly 35 dialogue rows (actual: ${ldfAct1Rows})`);
+
+window.selectSection('act-2');
+const ldfAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldfAct2Rows === 35, `La Dimension Florestan Act II filtered to exactly 35 dialogue rows (actual: ${ldfAct2Rows})`);
+
+window.selectSection('act-3');
+const ldfAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldfAct3Rows === 35, `La Dimension Florestan Act III filtered to exactly 35 dialogue rows (actual: ${ldfAct3Rows})`);
+
+window.selectSection('all');
+const ldfAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldfAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for La Dimension Florestan`);
+
+
+
 // ----------------------------------------------------
 // Test Group 7: Scholarly Citation & Research Export Hub
 // ----------------------------------------------------
@@ -1176,6 +1665,85 @@ assert(pbBibtex.includes('publisher = {Jean-Michel Place},'), 'BibTeX citation i
 const aeChicago = window.generateCitation('an-autobiographical-essay', 'p-015', 'chicago');
 assert(aeChicago.includes('Essai autobiographique'), 'Chicago citation includes Essai autobiographique');
 assert(aeChicago.includes('La Salle, IL: Open Court, 1984'), 'Chicago citation includes 1984 Open Court locus');
+
+// Citations for Phase 13 Masterworks
+const lhtChicago = window.generateCitation('lheure-theatrale', 'p-010', 'chicago');
+assert(lhtChicago.includes("L'Heure théâtrale"), 'Chicago citation includes L\'Heure théâtrale');
+assert(lhtChicago.includes('Paris: Plon, 1959'), 'Chicago citation includes 1959 Plon locus');
+assert(lhtChicago.includes('§ p-010'), 'Chicago citation includes p-010 anchor');
+
+const rscMla = window.generateCitation('regards-sur-le-theatre-de-claudel', 'p-020', 'mla');
+assert(rscMla.includes('Regards sur le théâtre de Claudel'), 'MLA citation includes Regards sur le théâtre de Claudel');
+assert(rscMla.includes('Beauchesne, 1964'), 'MLA citation includes Beauchesne 1964');
+
+const pdsBibtex = window.generateCitation('le-palais-de-sable', 'p-005', 'bibtex');
+assert(pdsBibtex.includes('@book{marcel1914palais,'), 'BibTeX citation includes citation key');
+assert(pdsBibtex.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author');
+assert(pdsBibtex.includes('publisher = {Grasset},'), 'BibTeX citation includes publisher');
+
+const lagChicago = window.generateCitation('la-grace', 'p-015', 'chicago');
+assert(lagChicago.includes('La Grâce'), 'Chicago citation includes La Grâce');
+assert(lagChicago.includes('Paris: Grasset, 1914'), 'Chicago citation includes 1914 Grasset locus');
+
+// Citations for Phase 14 Masterworks
+const lcdaChicago = window.generateCitation('le-coeur-des-autres', 'p-010', 'chicago');
+assert(lcdaChicago.includes('Le Cœur des autres'), 'Chicago citation includes Le Cœur des autres');
+assert(lcdaChicago.includes('Paris: Grasset, 1921'), 'Chicago citation includes 1921 Grasset locus');
+assert(lcdaChicago.includes('§ p-010'), 'Chicago citation includes p-010 anchor');
+
+const licoMla = window.generateCitation('liconoclaste', 'p-020', 'mla');
+assert(licoMla.includes("L'Iconoclaste"), 'MLA citation includes L\'Iconoclaste');
+assert(licoMla.includes('Stock, 1923'), 'MLA citation includes Stock 1923');
+
+const lqfdBibtex = window.generateCitation('le-quatuor-en-fa-diese', 'p-005', 'bibtex');
+assert(lqfdBibtex.includes('@book{marcel1925quatuor,'), 'BibTeX citation includes citation key');
+assert(lqfdBibtex.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author');
+assert(lqfdBibtex.includes('publisher = {Plon},'), 'BibTeX citation includes publisher');
+
+const lrnChicago = window.generateCitation('le-regard-neuf', 'p-015', 'chicago');
+assert(lrnChicago.includes('Le Regard neuf'), 'Chicago citation includes Le Regard neuf');
+assert(lrnChicago.includes('Paris: Grasset, 1931'), 'Chicago citation includes 1931 Grasset locus');
+assert(lrnChicago.includes('§ p-015'), 'Chicago citation includes p-015 anchor');
+
+// Citations for Phase 15 Masterworks
+const lsChicago = window.generateCitation('la-soif', 'p-010', 'chicago');
+assert(lsChicago.includes('La Soif'), 'Chicago citation includes La Soif');
+assert(lsChicago.includes('Paris: Desclée de Brouwer, 1938'), 'Chicago citation includes 1938 Desclée locus');
+assert(lsChicago.includes('§ p-010'), 'Chicago citation includes p-010 anchor');
+
+const lfMla = window.generateCitation('le-fanal', 'p-020', 'mla');
+assert(lfMla.includes('Le Fanal'), 'MLA citation includes Le Fanal');
+assert(lfMla.includes('Stock, 1944'), 'MLA citation includes Stock 1944');
+
+const lscBibtex = window.generateCitation('le-signe-de-la-croix', 'p-005', 'bibtex');
+assert(lscBibtex.includes('@book{marcel1944signe,'), 'BibTeX citation includes citation key');
+assert(lscBibtex.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author');
+assert(lscBibtex.includes('publisher = {Stock},'), 'BibTeX citation includes publisher');
+
+const lemChicago = window.generateCitation('lemissaire', 'p-015', 'chicago');
+assert(lemChicago.includes("L'Émissaire"), "Chicago citation includes L'Émissaire");
+assert(lemChicago.includes('Paris: Stock, 1945'), 'Chicago citation includes 1945 Stock locus');
+assert(lemChicago.includes('§ p-015'), 'Chicago citation includes p-015 anchor');
+
+// Citations for Phase 16 Masterworks
+const lfdtChicago = window.generateCitation('la-fin-des-temps', 'p-010', 'chicago');
+assert(lfdtChicago.includes('La Fin des temps'), 'Chicago citation includes La Fin des temps');
+assert(lfdtChicago.includes('Paris: Plon, 1950'), 'Chicago citation includes 1950 Plon locus');
+assert(lfdtChicago.includes('§ p-010'), 'Chicago citation includes p-010 anchor');
+
+const cemMla = window.generateCitation('croissez-et-multipliez', 'p-020', 'mla');
+assert(cemMla.includes('Croissez et multipliez'), 'MLA citation includes Croissez et multipliez');
+assert(cemMla.includes('Plon, 1955'), 'MLA citation includes Plon 1955');
+
+const mtnpBibtex = window.generateCitation('mon-temps-nest-pas-le-votre', 'p-005', 'bibtex');
+assert(mtnpBibtex.includes('@book{marcel1955temps,'), 'BibTeX citation includes citation key');
+assert(mtnpBibtex.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author');
+assert(mtnpBibtex.includes('publisher = {Plon},'), 'BibTeX citation includes publisher');
+
+const ldfChicago = window.generateCitation('la-dimension-florestan', 'p-015', 'chicago');
+assert(ldfChicago.includes('La Dimension Florestan'), 'Chicago citation includes La Dimension Florestan');
+assert(ldfChicago.includes('Paris: Plon, 1958'), 'Chicago citation includes 1958 Plon locus');
+assert(ldfChicago.includes('§ p-015'), 'Chicago citation includes p-015 anchor');
 
 // MLA Style Generation
 const mlaCite = window.generateCitation('journal-metaphysique', 'p-012', 'mla');

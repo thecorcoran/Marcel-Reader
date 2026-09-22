@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel Reader — Service Worker (PWA Offline Engine)
  */
-const CACHE_NAME = 'marcel-reader-v10';
+const CACHE_NAME = 'marcel-reader-v14';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
@@ -35,6 +35,22 @@ const PRECACHE_ASSETS = [
   './data/works/fragments-philosophiques.js',
   './data/works/interroge-par-pierre-boutang.js',
   './data/works/an-autobiographical-essay.js',
+  './data/works/lheure-theatrale.js',
+  './data/works/regards-sur-le-theatre-de-claudel.js',
+  './data/works/le-palais-de-sable.js',
+  './data/works/la-grace.js',
+  './data/works/le-coeur-des-autres.js',
+  './data/works/liconoclaste.js',
+  './data/works/le-quatuor-en-fa-diese.js',
+  './data/works/le-regard-neuf.js',
+  './data/works/la-soif.js',
+  './data/works/le-fanal.js',
+  './data/works/le-signe-de-la-croix.js',
+  './data/works/lemissaire.js',
+  './data/works/la-fin-des-temps.js',
+  './data/works/croissez-et-multipliez.js',
+  './data/works/mon-temps-nest-pas-le-votre.js',
+  './data/works/la-dimension-florestan.js',
   './js/reader.js',
   './js/notes.js',
   './js/search.js',

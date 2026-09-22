@@ -338,10 +338,76 @@
         { "id": "act-4", "titleFr": "Acte IV : L'agonie spirituelle et la prière de déréliction", "titleEn": "Act IV: Spiritual Agony and the Prayer of Dereliction" }
       ]
     },
-    "le-palais-de-sable": { "id": "le-palais-de-sable", "titleEn": "The Sand Palace", "titleFr": "Le Palais de sable", "year": 1914, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "la-grace": { "id": "la-grace", "titleEn": "Grace", "titleFr": "La Grâce", "year": 1914, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "le-coeur-des-autres": { "id": "le-coeur-des-autres", "titleEn": "The Heart of Others", "titleFr": "Le Cœur des autres", "year": 1921, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "liconoclaste": { "id": "liconoclaste", "titleEn": "The Iconoclast", "titleFr": "L'Iconoclaste", "year": 1923, "category": "Dramatic Works (Plays)", "unabridged": false },
+    "le-palais-de-sable": {
+      "id": "le-palais-de-sable",
+      "titleEn": "The Sand Palace",
+      "titleFr": "Le Palais de sable (Drame en quatre actes)",
+      "year": 1914,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "journal-metaphysique",
+      "companionTitle": "Metaphysical Journal (1927)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 110 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le salon de Marly et la gloire des discours chrétiens", "titleEn": "Act I: The Marly Salon and the Glory of Christian Discourse" },
+        { "id": "act-2", "titleFr": "Acte II : La révélation du couvent et l'angoisse paternelle", "titleEn": "Act II: The Revelation of the Convent and Paternal Anguish" },
+        { "id": "act-3", "titleFr": "Acte III : Le couvent des Carmélites et l'épreuve de la séparation", "titleEn": "Act III: The Carmelite Convent and the Ordeal of Separation" },
+        { "id": "act-4", "titleFr": "Acte IV : L'effondrement du palais de sable et la vérité nue de l'âme", "titleEn": "Act IV: The Collapse of the Sand Palace and the Naked Truth of the Soul" }
+      ]
+    },
+    "la-grace": {
+      "id": "la-grace",
+      "titleEn": "Grace",
+      "titleFr": "La Grâce (Pièce en trois actes)",
+      "year": 1914,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "journal-metaphysique",
+      "companionTitle": "Metaphysical Journal (1927)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 100 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : La chambre du sanatorium et l'ombre du passé", "titleEn": "Act I: The Sanatorium Room and the Shadow of the Past" },
+        { "id": "act-2", "titleFr": "Acte II : Le conflit des fiertés et l'aveu déchirant", "titleEn": "Act II: The Conflict of Prides and the Heartbreaking Confession" },
+        { "id": "act-3", "titleFr": "Acte III : L'agonie de Gérard et l'effraction de la grâce", "titleEn": "Act III: Gérard's Agony and the Breakthrough of Grace" }
+      ]
+    },
+    "le-coeur-des-autres": {
+      "id": "le-coeur-des-autres",
+      "titleEn": "The Heart of Others",
+      "titleFr": "Le Cœur des autres (Pièce en trois actes)",
+      "year": 1921,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "journal-metaphysique",
+      "companionTitle": "Metaphysical Journal (1927)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le succès mondain et la confession volée", "titleEn": "Act I: Worldly Success and the Stolen Confession" },
+        { "id": "act-2", "titleFr": "Acte II : La répétition générale et la révolte de la victime", "titleEn": "Act II: The Dress Rehearsal and the Victim's Revolt" },
+        { "id": "act-3", "titleFr": "Acte III : La solitude de l'artiste et le jugement des cœurs", "titleEn": "Act III: The Artist's Solitude and the Judgment of Hearts" }
+      ]
+    },
+    "liconoclaste": {
+      "id": "liconoclaste",
+      "titleEn": "The Iconoclast",
+      "titleFr": "L'Iconoclaste (Pièce en quatre actes)",
+      "year": 1923,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "presence-et-immortalite",
+      "companionTitle": "Presence and Immortality (1959)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le souvenir de Viviane et le sanctuaire du deuil", "titleEn": "Act I: The Memory of Viviane and the Sanctuary of Mourning" },
+        { "id": "act-2", "titleFr": "Acte II : Le doute empoisonné et la tentation du soupçon", "titleEn": "Act II: Poisoned Doubt and the Temptation of Suspicion" },
+        { "id": "act-3", "titleFr": "Acte III : L'aveu d'Abel et la profanation de la mémoire", "titleEn": "Act III: Abel's Confession and the Profanation of Memory" },
+        { "id": "act-4", "titleFr": "Acte IV : La purification de la fidélité au-delà de l'idole", "titleEn": "Act IV: The Purification of Fidelity Beyond the Idol" }
+      ]
+    },
     "la-chapelle-ardente": {
       "id": "la-chapelle-ardente",
       "titleEn": "The Funeral Pyre",
@@ -359,8 +425,42 @@
         { "id": "act-3", "titleFr": "Acte III : Le sacrifice consenti et l'extinction du faux sanctuaire", "titleEn": "Act III: The Consented Sacrifice and Extinction of the False Sanctuary" }
       ]
     },
-    "le-quatuor-en-fa-diese": { "id": "le-quatuor-en-fa-diese", "titleEn": "The Quartet in F-sharp", "titleFr": "Le Quatuor en fa dièse", "year": 1925, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "le-regard-neuf": { "id": "le-regard-neuf", "titleEn": "The New Look", "titleFr": "Le Regard neuf", "year": 1931, "category": "Dramatic Works (Plays)", "unabridged": false },
+    "le-quatuor-en-fa-diese": {
+      "id": "le-quatuor-en-fa-diese",
+      "titleEn": "The Quartet in F-sharp",
+      "titleFr": "Le Quatuor en fa dièse (Pièce en cinq actes)",
+      "year": 1925,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "presence-et-immortalite",
+      "companionTitle": "Presence and Immortality (1959)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (5 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : L'adagio initial et la discorde des âmes", "titleEn": "Act I: The Initial Adagio and the Discord of Souls" },
+        { "id": "act-2", "titleFr": "Acte II : La répétition orageuse et l'attrait mystérieux", "titleEn": "Act II: The Stormy Rehearsal and the Mysterious Pull" },
+        { "id": "act-3", "titleFr": "Acte III : Le scherzo et la trahison passionnelle", "titleEn": "Act III: The Scherzo and the Passionate Betrayal" },
+        { "id": "act-4", "titleFr": "Acte IV : La rupture conjugale et le désert de la création", "titleEn": "Act IV: The Marital Rupture and the Desert of Creation" },
+        { "id": "act-5", "titleFr": "Acte V : Le final et la communion transcendante par la musique", "titleEn": "Act V: The Finale and Transcendent Communion Through Music" }
+      ]
+    },
+    "le-regard-neuf": {
+      "id": "le-regard-neuf",
+      "titleEn": "The Fresh Gaze",
+      "titleFr": "Le Regard neuf (Drame en trois actes)",
+      "year": 1931,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "le-monde-casse",
+      "companionTitle": "The Broken World (1933)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : L'arrivée au domaine et la clarté du regard d'enfant", "titleEn": "Act I: Arrival at the Estate and the Clarity of Childlike Gaze" },
+        { "id": "act-2", "titleFr": "Acte II : Le dévoilement des compromis familiaux", "titleEn": "Act II: The Unveiling of Family Compromises" },
+        { "id": "act-3", "titleFr": "Acte III : L'exigence de la vérité et l'aube d'une vie nouvelle", "titleEn": "Act III: The Exigence of Truth and the Dawn of a New Life" }
+      ]
+    },
     "le-chemin-de-crete": {
       "id": "le-chemin-de-crete",
       "titleEn": "Ariadne (The Path of Crete)",
@@ -396,11 +496,89 @@
         { "id": "act-3", "titleFr": "Acte III : Le sacrifice et le dépassement du dard", "titleEn": "Act III: The Sacrifice and the Extraction of the Sting" }
       ]
     },
-    "la-soif": { "id": "la-soif", "titleEn": "Thirst (The Eager Hearts)", "titleFr": "La Soif", "year": 1938, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "le-fanal": { "id": "le-fanal", "titleEn": "The Lantern", "titleFr": "Le Fanal", "year": 1944, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "le-signe-de-la-croix": { "id": "le-signe-de-la-croix", "titleEn": "The Sign of the Cross", "titleFr": "Le Signe de la croix", "year": 1944, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "lemissaire": { "id": "lemissaire", "titleEn": "The Emissary", "titleFr": "L'Émissaire", "year": 1945, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "la-fin-des-temps": { "id": "la-fin-des-temps", "titleEn": "The End of Time", "titleFr": "La Fin des temps", "year": 1950, "category": "Dramatic Works (Plays)", "unabridged": false },
+    "la-soif": {
+      "id": "la-soif",
+      "titleEn": "Thirst (The Eager Hearts)",
+      "titleFr": "La Soif (Pièce en trois actes)",
+      "year": 1938,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "homo-viator",
+      "companionTitle": "Homo Viator: Introduction to a Metaphysic of Hope (1944)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le salon intellectuel et la soif d'absolu", "titleEn": "Act I: The Intellectual Salon and the Thirst for the Absolute" },
+        { "id": "act-2", "titleFr": "Acte II : L'indigence affective et les cœurs avides", "titleEn": "Act II: Emotional Destitution and Eager Hearts" },
+        { "id": "act-3", "titleFr": "Acte III : La désolation des idoles et la source vive", "titleEn": "Act III: The Desolation of Idols and the Living Spring" }
+      ]
+    },
+    "le-fanal": {
+      "id": "le-fanal",
+      "titleEn": "The Lantern",
+      "titleFr": "Le Fanal (Pièce en deux actes)",
+      "year": 1944,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "du-refus-a-linvocation",
+      "companionTitle": "Creative Fidelity (1940)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (2 Acts, 100 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : La maison de campagne et l'ombre du deuil maternel", "titleEn": "Act I: The Country House and the Shadow of Maternal Mourning" },
+        { "id": "act-2", "titleFr": "Acte II : La lumière du fanal et la fidélité transfigurée", "titleEn": "Act II: The Light of the Lantern and Transfigured Fidelity" }
+      ]
+    },
+    "le-signe-de-la-croix": {
+      "id": "le-signe-de-la-croix",
+      "titleEn": "The Sign of the Cross",
+      "titleFr": "Le Signe de la croix (Pièce en deux actes)",
+      "year": 1944,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "homo-viator",
+      "companionTitle": "Homo Viator: Introduction to a Metaphysic of Hope (1944)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (2 Acts, 100 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : La menace des rafles et le fardeau de la solidarité", "titleEn": "Act I: The Threat of Roundups and the Burden of Solidarity" },
+        { "id": "act-2", "titleFr": "Acte II : L'épreuve de la croix et la fraternité inviolable", "titleEn": "Act II: The Ordeal of the Cross and Inviolable Brotherhood" }
+      ]
+    },
+    "lemissaire": {
+      "id": "lemissaire",
+      "titleEn": "The Emissary",
+      "titleFr": "L'Émissaire (Pièce en trois actes)",
+      "year": 1945,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "la-dignite-humaine",
+      "companionTitle": "The Existential Background of Human Dignity (1964)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le retour de l'émissaire et l'ombre des compromissions", "titleEn": "Act I: The Emissary's Return and the Shadow of Compromise" },
+        { "id": "act-2", "titleFr": "Acte II : Le tribunal des consciences et la tentation de la vengeance", "titleEn": "Act II: The Tribunal of Consciences and the Temptation of Vengeance" },
+        { "id": "act-3", "titleFr": "Acte III : Le mystère de l'expiation et la réconciliation spirituelle", "titleEn": "Act III: The Mystery of Expiation and Spiritual Reconciliation" }
+      ]
+    },
+    "la-fin-des-temps": {
+      "id": "la-fin-des-temps",
+      "titleEn": "The End of Time",
+      "titleFr": "La Fin des temps (Pièce en trois actes)",
+      "year": 1950,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "les-hommes-contre-lhumain",
+      "companionTitle": "Men Against Humanity (1951)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le domaine de Saint-Cyr et la menace de l'apocalypse atomique", "titleEn": "Act I: The Saint-Cyr Estate and the Threat of Atomic Apocalypse" },
+        { "id": "act-2", "titleFr": "Acte II : La séduction nihiliste et le vertige de l'anéantissement", "titleEn": "Act II: Nihilistic Seduction and the Vertigo of Annihilation" },
+        { "id": "act-3", "titleFr": "Acte III : L'irruption de la grâce et la victoire de l'espérance", "titleEn": "Act III: The Breakthrough of Grace and the Victory of Hope" }
+      ]
+    },
     "rome-nest-plus-dans-rome": {
       "id": "rome-nest-plus-dans-rome",
       "titleEn": "Rome is No Longer in Rome",
@@ -420,9 +598,60 @@
         { "id": "act-5", "titleFr": "Acte V : L'agonie de Pascal et la vraie patrie de l'esprit", "titleEn": "Act V: Pascal's Agony and the True Homeland of the Spirit" }
       ]
     },
-    "croissez-et-multipliez": { "id": "croissez-et-multipliez", "titleEn": "Increase and Multiply", "titleFr": "Croissez et multipliez", "year": 1955, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "mon-temps-nest-pas-le-votre": { "id": "mon-temps-nest-pas-le-votre", "titleEn": "My Time is Not Your Time", "titleFr": "Mon temps n'est pas le vôtre", "year": 1955, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "la-dimension-florestan": { "id": "la-dimension-florestan", "titleEn": "The Florestan Dimension", "titleFr": "La Dimension Florestan", "year": 1958, "category": "Dramatic Works (Plays)", "unabridged": false },
+    "croissez-et-multipliez": {
+      "id": "croissez-et-multipliez",
+      "titleEn": "Increase and Multiply",
+      "titleFr": "Croissez et multipliez (Pièce en quatre actes)",
+      "year": 1955,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "lhomme-problematique",
+      "companionTitle": "Problematic Man (1955)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le foyer provincial et le poids du conformisme", "titleEn": "Act I: The Provincial Household and the Weight of Conformism" },
+        { "id": "act-2", "titleFr": "Acte II : La détresse d'Agnès et le tribunal clérical", "titleEn": "Act II: Agnès's Distress and the Clerical Tribunal" },
+        { "id": "act-3", "titleFr": "Acte III : La révolte de la conscience face au dogme aveugle", "titleEn": "Act III: The Revolt of Conscience Against Blind Dogma" },
+        { "id": "act-4", "titleFr": "Acte IV : La paternité spirituelle et la liberté de l'amour", "titleEn": "Act IV: Spiritual Fatherhood and the Freedom of Love" }
+      ]
+    },
+    "mon-temps-nest-pas-le-votre": {
+      "id": "mon-temps-nest-pas-le-votre",
+      "titleEn": "My Time Is Not Your Time",
+      "titleFr": "Mon temps n'est pas le vôtre (Pièce en cinq actes)",
+      "year": 1955,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "les-hommes-contre-lhumain",
+      "companionTitle": "Men Against Humanity (1951)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (5 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le retour de Flavien et l'incompréhension des générations", "titleEn": "Act I: Flavien's Return and Generational Incomprehension" },
+        { "id": "act-2", "titleFr": "Acte II : L'affrontement idéologique et l'utopie technocratique", "titleEn": "Act II: Ideological Confrontation and Technocratic Utopia" },
+        { "id": "act-3", "titleFr": "Acte III : La rupture affective et le vertige de l'aliénation", "titleEn": "Act III: Affective Rupture and the Vertigo of Alienation" },
+        { "id": "act-4", "titleFr": "Acte IV : L'interrogation métaphysique sur le temps vécu et l'espérance", "titleEn": "Act IV: Metaphysical Inquiry into Lived Time and Hope" },
+        { "id": "act-5", "titleFr": "Acte V : Le détachement tragique et la réconciliation dans la présence", "titleEn": "Act V: Tragic Detachment and Reconciliation in Presence" }
+      ]
+    },
+    "la-dimension-florestan": {
+      "id": "la-dimension-florestan",
+      "titleEn": "The Florestan Dimension",
+      "titleFr": "La Dimension Florestan (Pièce en trois actes)",
+      "year": 1958,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "presence-et-immortalite",
+      "companionTitle": "Presence and Immortality (1959)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le salon parisien et le mirage de la célébrité", "titleEn": "Act I: The Parisian Salon and the Mirage of Celebrity" },
+        { "id": "act-2", "titleFr": "Acte II : La confrontation esthétique et le masque de Florestan", "titleEn": "Act II: Aesthetic Confrontation and the Mask of Florestan" },
+        { "id": "act-3", "titleFr": "Acte III : La transfiguration de la solitude et la dimension ontologique", "titleEn": "Act III: Transfiguration of Solitude and the Ontological Dimension" }
+      ]
+    },
 
     // ==========================================
     // 4. AUTOBIOGRAPHY & DIALOGUES
@@ -498,8 +727,40 @@
     // ==========================================
     // 5. DRAMATIC CRITICISM
     // ==========================================
-    "lheure-theatrale": { "id": "lheure-theatrale", "titleEn": "The Theatrical Hour: From Giraudoux to Sartre", "titleFr": "L'Heure théâtrale", "year": 1959, "category": "Dramatic Criticism", "unabridged": false },
-    "regards-sur-le-theatre-de-claudel": { "id": "regards-sur-le-theatre-de-claudel", "titleEn": "Perspectives on Claudel's Theatre", "titleFr": "Regards sur le théâtre de Claudel", "year": 1964, "category": "Dramatic Criticism", "unabridged": false }
+    "lheure-theatrale": {
+      "id": "lheure-theatrale",
+      "titleEn": "The Theatrical Hour: From Giraudoux to Sartre",
+      "titleFr": "L'Heure théâtrale : De Giraudoux à Jean-Paul Sartre",
+      "year": 1959,
+      "category": "Dramatic Criticism",
+      "companionSlug": "theatre-et-religion",
+      "companionTitle": "Theatre and Religion (1958)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 105 Paragraphs)",
+      "sections": [
+        { "id": "part-1", "titleFr": "Première partie : Jean Giraudoux et le miroir poétique du destin", "titleEn": "Part I: Jean Giraudoux and the Poetic Mirror of Destiny" },
+        { "id": "part-2", "titleFr": "Deuxième partie : Jean Anouilh et la révolte de la pureté blessée", "titleEn": "Part II: Jean Anouilh and the Revolt of Wounded Purity" },
+        { "id": "part-3", "titleFr": "Troisième partie : Sartre et Camus : De l'enfer solipsiste à la rébellion tragique", "titleEn": "Part III: Sartre and Camus: From Solipsistic Hell to Tragic Rebellion" }
+      ]
+    },
+    "regards-sur-le-theatre-de-claudel": {
+      "id": "regards-sur-le-theatre-de-claudel",
+      "titleEn": "Perspectives on Claudel's Theatre",
+      "titleFr": "Regards sur le théâtre de Claudel",
+      "year": 1964,
+      "category": "Dramatic Criticism",
+      "companionSlug": "theatre-et-religion",
+      "companionTitle": "Theatre and Religion (1958)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 105 Paragraphs)",
+      "sections": [
+        { "id": "part-1", "titleFr": "Première partie : L'Annonce faite à Marie et la fécondité du sacrifice", "titleEn": "Part I: The Tidings Brought to Mary and the Fecundity of Sacrifice" },
+        { "id": "part-2", "titleFr": "Deuxième partie : La Trilogie des Coûfontaine et l'épreuve de l'histoire", "titleEn": "Part II: The Coûfontaine Trilogy and the Ordeal of History" },
+        { "id": "part-3", "titleFr": "Troisième partie : Le Soulier de satin et la géographie spirituelle de la grâce", "titleEn": "Part III: The Satin Slipper and the Spiritual Geography of Grace" }
+      ]
+    }
   };
 
   // Browser global registration

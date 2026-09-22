@@ -1077,6 +1077,22 @@ function renderMainCatalog(filter = 'all', query = '') {
       else if (w.id === 'fragments-philosophiques') scaleInfo = '100 Aligned Paragraphs • 3 Sections';
       else if (w.id === 'interroge-par-pierre-boutang') scaleInfo = '105 Dialogue Exchanges • 3 Dialogues';
       else if (w.id === 'an-autobiographical-essay') scaleInfo = '100 Aligned Paragraphs • 3 Parts';
+      else if (w.id === 'lheure-theatrale') scaleInfo = '105 Aligned Paragraphs • 3 Parts';
+      else if (w.id === 'regards-sur-le-theatre-de-claudel') scaleInfo = '105 Aligned Paragraphs • 3 Parts';
+      else if (w.id === 'le-palais-de-sable') scaleInfo = '110 Dialogue Rows • IV Dramatic Acts';
+      else if (w.id === 'la-grace') scaleInfo = '100 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'le-coeur-des-autres') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'liconoclaste') scaleInfo = '105 Dialogue Rows • IV Dramatic Acts';
+      else if (w.id === 'le-quatuor-en-fa-diese') scaleInfo = '105 Dialogue Rows • V Dramatic Acts';
+      else if (w.id === 'le-regard-neuf') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'la-soif') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'le-fanal') scaleInfo = '100 Dialogue Rows • II Dramatic Acts';
+      else if (w.id === 'le-signe-de-la-croix') scaleInfo = '100 Dialogue Rows • II Dramatic Acts';
+      else if (w.id === 'lemissaire') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'la-fin-des-temps') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'croissez-et-multipliez') scaleInfo = '105 Dialogue Rows • IV Dramatic Acts';
+      else if (w.id === 'mon-temps-nest-pas-le-votre') scaleInfo = '105 Dialogue Rows • V Dramatic Acts';
+      else if (w.id === 'la-dimension-florestan') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
       else scaleInfo = '100% Verbatim Bilingual Edition';
     } else {
       scaleInfo = 'Bilingual Digest & Terminology Index';
@@ -1221,7 +1237,11 @@ function loadWork(workId, sectionId = "all") {
     'lhomme-problematique', 'presence-et-immortalite', 'entretiens-paul-ricoeur',
     'pour-une-sagesse-tragique', 'la-chapelle-ardente', 'le-chemin-de-crete',
     'le-declin-de-la-sagesse', 'theatre-et-religion', 'en-chemin-vers-quel-eveil',
-    'la-metaphysique-de-royce', 'fragments-philosophiques', 'interroge-par-pierre-boutang', 'an-autobiographical-essay'
+    'la-metaphysique-de-royce', 'fragments-philosophiques', 'interroge-par-pierre-boutang', 'an-autobiographical-essay',
+    'lheure-theatrale', 'regards-sur-le-theatre-de-claudel', 'le-palais-de-sable', 'la-grace',
+    'le-coeur-des-autres', 'liconoclaste', 'le-quatuor-en-fa-diese', 'le-regard-neuf',
+    'la-soif', 'le-fanal', 'le-signe-de-la-croix', 'lemissaire',
+    'la-fin-des-temps', 'croissez-et-multipliez', 'mon-temps-nest-pas-le-votre', 'la-dimension-florestan'
   ];
   if (dedicatedWorkIds.includes(workId) || work.unabridged) {
     const container = document.getElementById("reader-blocks");
@@ -1717,6 +1737,182 @@ const CITATION_METADATA = {
     city: "La Salle, IL",
     publisher: "Open Court",
     bibtexKey: "marcel1984essay"
+  },
+  "lheure-theatrale": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "L'Heure théâtrale : De Giraudoux à Jean-Paul Sartre",
+    titleEn: "The Theatrical Hour: From Giraudoux to Sartre",
+    year: 1959,
+    city: "Paris",
+    publisher: "Plon",
+    bibtexKey: "marcel1959heure"
+  },
+  "regards-sur-le-theatre-de-claudel": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Regards sur le théâtre de Claudel",
+    titleEn: "Perspectives on Claudel's Theatre",
+    year: 1964,
+    city: "Paris",
+    publisher: "Beauchesne",
+    bibtexKey: "marcel1964claudel"
+  },
+  "le-palais-de-sable": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Le Palais de sable (Drame en quatre actes)",
+    titleEn: "The Sand Palace",
+    year: 1914,
+    city: "Paris",
+    publisher: "Grasset",
+    bibtexKey: "marcel1914palais"
+  },
+  "la-grace": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "La Grâce (Pièce en trois actes)",
+    titleEn: "Grace",
+    year: 1914,
+    city: "Paris",
+    publisher: "Grasset",
+    bibtexKey: "marcel1914grace"
+  },
+  "le-coeur-des-autres": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Le Cœur des autres (Pièce en trois actes)",
+    titleEn: "The Heart of Others",
+    year: 1921,
+    city: "Paris",
+    publisher: "Grasset",
+    bibtexKey: "marcel1921coeur"
+  },
+  "liconoclaste": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "L'Iconoclaste (Pièce en quatre actes)",
+    titleEn: "The Iconoclast",
+    year: 1923,
+    city: "Paris",
+    publisher: "Stock",
+    bibtexKey: "marcel1923iconoclaste"
+  },
+  "le-quatuor-en-fa-diese": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Le Quatuor en fa dièse (Pièce en cinq actes)",
+    titleEn: "The Quartet in F-sharp",
+    year: 1925,
+    city: "Paris",
+    publisher: "Plon",
+    bibtexKey: "marcel1925quatuor"
+  },
+  "le-regard-neuf": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Le Regard neuf (Drame en trois actes)",
+    titleEn: "The Fresh Gaze",
+    year: 1931,
+    city: "Paris",
+    publisher: "Grasset",
+    bibtexKey: "marcel1931regard"
+  },
+  "la-soif": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "La Soif (Pièce en trois actes)",
+    titleEn: "Thirst (The Eager Hearts)",
+    year: 1938,
+    city: "Paris",
+    publisher: "Desclée de Brouwer",
+    bibtexKey: "marcel1938soif"
+  },
+  "le-fanal": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Le Fanal (Pièce en deux actes)",
+    titleEn: "The Lantern",
+    year: 1944,
+    city: "Paris",
+    publisher: "Stock",
+    bibtexKey: "marcel1944fanal"
+  },
+  "le-signe-de-la-croix": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Le Signe de la croix (Pièce en deux actes)",
+    titleEn: "The Sign of the Cross",
+    year: 1944,
+    city: "Paris",
+    publisher: "Stock",
+    bibtexKey: "marcel1944signe"
+  },
+  "lemissaire": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "L'Émissaire (Pièce en trois actes)",
+    titleEn: "The Emissary",
+    year: 1945,
+    city: "Paris",
+    publisher: "Stock",
+    bibtexKey: "marcel1945emissaire"
+  },
+  "la-fin-des-temps": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "La Fin des temps (Pièce en trois actes)",
+    titleEn: "The End of Time",
+    year: 1950,
+    city: "Paris",
+    publisher: "Plon",
+    bibtexKey: "marcel1950temps"
+  },
+  "croissez-et-multipliez": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Croissez et multipliez (Pièce en quatre actes)",
+    titleEn: "Increase and Multiply",
+    year: 1955,
+    city: "Paris",
+    publisher: "Plon",
+    bibtexKey: "marcel1955croissez"
+  },
+  "mon-temps-nest-pas-le-votre": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Mon temps n'est pas le vôtre (Pièce en cinq actes)",
+    titleEn: "My Time Is Not Your Time",
+    year: 1955,
+    city: "Paris",
+    publisher: "Plon",
+    bibtexKey: "marcel1955temps"
+  },
+  "la-dimension-florestan": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "La Dimension Florestan (Pièce en trois actes)",
+    titleEn: "The Florestan Dimension",
+    year: 1958,
+    city: "Paris",
+    publisher: "Plon",
+    bibtexKey: "marcel1958florestan"
   }
 };
 
