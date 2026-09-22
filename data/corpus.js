@@ -56,10 +56,12 @@
       "companionTitle": "Being and Having (1935)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (2 Parts, 120 Entries)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Sections, 1,001 Paras, 110k Words)",
       "sections": [
-        { "id": "part-1", "titleFr": "Première partie (1914) : Premières soundings métaphysiques — Existence et sensation", "titleEn": "Part I (1914): Early Metaphysical Soundings — Existence and Sensation" },
-        { "id": "part-2", "titleFr": "Deuxième partie (1915-1923) : L'épreuve de la guerre, la présence et le salut", "titleEn": "Part II (1915-1923): The Ordeal of War, Presence, and Salvation" }
+        { "id": "intro", "titleFr": "Introduction de l'auteur (1927)", "titleEn": "Author's Introduction (1927)" },
+        { "id": "part-1", "titleFr": "Première partie (1914) : Existence et sensation", "titleEn": "Part I (1914): Existence and Sensation" },
+        { "id": "part-2", "titleFr": "Deuxième partie (1915-1923) : Présence, fidélité et intersubjectivité", "titleEn": "Part II (1915-1923): Presence, Fidelity, and Intersubjectivity" },
+        { "id": "appendix", "titleFr": "Appendice (1925) : L'Existence et l'Objectivité", "titleEn": "Appendix (1925): Existence and Objectivity" }
       ]
     },
     "du-refus-a-linvocation": {
@@ -111,10 +113,23 @@
       "companionTitle": "Rome is No Longer in Rome (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (2 Parts, 105 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (15 Sections, 342 Paras, 79k Words)",
       "sections": [
-        { "id": "part-1", "titleFr": "Première partie : Le monde brisé et la dégradation de l'esprit", "titleEn": "Part I: The Shattered World and the Degradation of the Spirit" },
-        { "id": "part-2", "titleFr": "Deuxième partie : Les voies de la réintégration et l'homme de la vérité", "titleEn": "Part II: The Paths of Reintegration and the Man of Truth" }
+        { "id": "foreword", "titleFr": "Préface de Donald MacKinnon", "titleEn": "Foreword by Donald MacKinnon" },
+        { "id": "preface", "titleFr": "Préface : L'universel contre les masses", "titleEn": "Preface: The Universal Against the Masses" },
+        { "id": "part-1-ch-1", "titleFr": "Première partie, Ch. I : Qu'est-ce qu'un homme libre ?", "titleEn": "Part I, Chapter I: What is a Free Man?" },
+        { "id": "part-1-ch-2", "titleFr": "Première partie, Ch. II : Les libertés perdues", "titleEn": "Part I, Chapter II: Lost Liberties" },
+        { "id": "part-1-ch-3", "titleFr": "Première partie, Ch. III : Les techniques d'avilissement", "titleEn": "Part I, Chapter III: Techniques of Degradation" },
+        { "id": "part-1-ch-4", "titleFr": "Première partie, Ch. IV : Progrès technique et péché", "titleEn": "Part I, Chapter IV: Technical Progress and Sin" },
+        { "id": "part-2-ch-1", "titleFr": "Deuxième partie, Ch. I : Le philosophe devant le monde contemporain", "titleEn": "Part II, Chapter I: The Philosopher & the Contemporary World" },
+        { "id": "part-2-ch-2", "titleFr": "Deuxième partie, Ch. II : La conscience fanatisée", "titleEn": "Part II, Chapter II: The Fanaticized Consciousness" },
+        { "id": "part-2-ch-3", "titleFr": "Deuxième partie, Ch. III : L'esprit d'abstraction, facteur de guerre", "titleEn": "Part II, Chapter III: The Spirit of Abstraction, as a Factor Making for War" },
+        { "id": "part-2-ch-4", "titleFr": "Deuxième partie, Ch. IV : La crise des valeurs dans le monde contemporain", "titleEn": "Part II, Chapter IV: The Crisis of Values in the Contemporary World" },
+        { "id": "part-2-ch-5", "titleFr": "Deuxième partie, Ch. V : Dégradation de l'idée de service et dépersonnalisation", "titleEn": "Part II, Chapter V: The Degradation of the Idea of Service" },
+        { "id": "part-3-ch-1", "titleFr": "Troisième partie, Ch. I : Pessimisme et conscience eschatologique", "titleEn": "Part III, Chapter I: Pessimism and the Eschatological Consciousness" },
+        { "id": "part-3-ch-2", "titleFr": "Troisième partie, Ch. II : L'homme contre l'histoire", "titleEn": "Part III, Chapter II: Man Against History" },
+        { "id": "part-3-ch-3", "titleFr": "Troisième partie, Ch. III : La réintégration de l'honneur", "titleEn": "Part III, Chapter III: The Reintegration of Honour" },
+        { "id": "conclusion", "titleFr": "Conclusion : L'universel contre les masses (II)", "titleEn": "Conclusion: The Universal Against the Masses (II)" }
       ]
     },
     "la-metaphysique-de-royce": {
@@ -160,10 +175,13 @@
       "category": "Philosophical Treatises & Essays",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (2 Sections, 105 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (5 Sections, 270 Paras, 40k Words)",
       "sections": [
-        { "id": "sec-1", "titleFr": "Première partie : La situation de l'homme et l'inquiétude contemporaine", "titleEn": "Part I: The Human Situation and Contemporary Disquiet" },
-        { "id": "sec-2", "titleFr": "Deuxième partie : Du désespoir à la plénitude de l'être", "titleEn": "Part II: From Despair to the Fullness of Being" }
+        { "id": "sec-1", "titleFr": "Première partie : L'homme problématique (Aliénation et miroir intérieur)", "titleEn": "Part I: The Problematic Man (Alienation and the Inner Mirror)" },
+        { "id": "sec-2", "titleFr": "Deuxième partie : Phénoménologie de l'inquiétude (Inquiétude, Anxiété, Angoisse)", "titleEn": "Part II: Phenomenology of Uneasiness (Uneasiness, Anxiety, Anguish)" },
+        { "id": "sec-3", "titleFr": "Deuxième partie : L'itinéraire spirituel (De saint Augustin et Pascal à Kierkegaard)", "titleEn": "Part II: The Spiritual Itinerary (From Saint Augustine and Pascal to Kierkegaard)" },
+        { "id": "sec-4", "titleFr": "Deuxième partie : Le défi contemporain (Nietzsche, Heidegger, Sartre)", "titleEn": "Part II: The Contemporary Challenge (Nietzsche, Heidegger, Sartre)" },
+        { "id": "sec-5", "titleFr": "Deuxième partie : L'épreuve du présent et le dépassement (Gide, Le monde d'aujourd'hui, Conclusion)", "titleEn": "Part II: The Ordeal of the Present and Transcendence (Gide, The World Today, Conclusion)" }
       ]
     },
     "theatre-et-religion": {
@@ -292,14 +310,17 @@
       "category": "Lectures & Addresses",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (6 Lectures, 95 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (9 Lectures, 490 Paras, 60k Words)",
       "sections": [
-        { "id": "lec-1", "titleFr": "Conférence I : La participation et le drame de l'âme", "titleEn": "Lecture I: Participation and the Drama of the Soul" },
-        { "id": "lec-2", "titleFr": "Conférence II : Le monde cassé et le péril technocratique", "titleEn": "Lecture II: The Broken World and the Technocratic Peril" },
-        { "id": "lec-3", "titleFr": "Conférence III : Être et avoir revisités", "titleEn": "Lecture III: Being and Having Revisited" },
-        { "id": "lec-4", "titleFr": "Conférence IV : L'intersubjectivité et le mystère de la famille", "titleEn": "Lecture IV: Intersubjectivity and the Mystery of the Family" },
-        { "id": "lec-5", "titleFr": "Conférence V : Fidélité créatrice et espérance", "titleEn": "Lecture V: Creative Fidelity and Hope" },
-        { "id": "lec-6", "titleFr": "Conférence VI : Les assises existentielles de la dignité humaine", "titleEn": "Lecture VI: The Existential Foundations of Human Dignity" }
+        { "id": "lec-1", "titleFr": "Conférence I : Points de départ", "titleEn": "Lecture 1: Introduction (Points of Departure)" },
+        { "id": "lec-2", "titleFr": "Conférence II : Participation", "titleEn": "Lecture 2: Participation" },
+        { "id": "lec-3", "titleFr": "Conférence III : Existence", "titleEn": "Lecture 3: Existence" },
+        { "id": "lec-4", "titleFr": "Conférence IV : Fidélité", "titleEn": "Lecture 4: Fidelity" },
+        { "id": "lec-5", "titleFr": "Conférence V : Mystère ontologique", "titleEn": "Lecture 5: The Ontological Mystery" },
+        { "id": "lec-6", "titleFr": "Conférence VI : Le moi et l'ambiguïté", "titleEn": "Lecture 6: The Self and Ambiguity" },
+        { "id": "lec-7", "titleFr": "Conférence VII : Dignité humaine", "titleEn": "Lecture 7: Human Dignity" },
+        { "id": "lec-8", "titleFr": "Conférence VIII : Fraternité et liberté", "titleEn": "Lecture 8: Mortality, Hope, and Freedom" },
+        { "id": "lec-9", "titleFr": "Conférence IX : L'intégrité menacée", "titleEn": "Lecture 9: The Threat to Integrity" }
       ]
     },
 
@@ -387,11 +408,11 @@
       "companionTitle": "Metaphysical Journal (1927)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 979 Rows, 18.7k Words)",
       "sections": [
-        { "id": "act-1", "titleFr": "Acte I : Le succès mondain et la confession volée", "titleEn": "Act I: Worldly Success and the Stolen Confession" },
+        { "id": "act-1", "titleFr": "Acte I : Le succès de l'auteur et la confession volée", "titleEn": "Act I: The Author's Success and the Stolen Confession" },
         { "id": "act-2", "titleFr": "Acte II : La répétition générale et la révolte de la victime", "titleEn": "Act II: The Dress Rehearsal and the Victim's Revolt" },
-        { "id": "act-3", "titleFr": "Acte III : La solitude de l'artiste et le jugement des cœurs", "titleEn": "Act III: The Artist's Solitude and the Judgment of Hearts" }
+        { "id": "act-3", "titleFr": "Acte III : Le désenchantement et la tragédie de l'intimité", "titleEn": "Act III: Disenchantment and the Tragedy of Intimacy" }
       ]
     },
     "liconoclaste": {

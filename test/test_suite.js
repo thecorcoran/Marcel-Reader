@@ -117,7 +117,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v15'), 'Service Worker defines cache version v15');
+assert(swContent.includes('marcel-reader-v17'), 'Service Worker defines cache version v17');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -352,20 +352,20 @@ assert(leDard.paragraphs.length === 105, `${leDard.titleEn}: Contains complete 1
 assert(leDard.sections.length === 3, `${leDard.titleEn}: Defines all III Acts`);
 
 assert(journalMetaphysique.unabridged === true, `${journalMetaphysique.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(journalMetaphysique.paragraphs.length === 120, `${journalMetaphysique.titleEn}: Contains complete 120 verbatim journal entries`);
-assert(journalMetaphysique.sections.length === 2, `${journalMetaphysique.titleEn}: Defines 2 Chronological Parts`);
+assert(journalMetaphysique.paragraphs.length === 1001, `${journalMetaphysique.titleEn}: Contains complete 1,001 verbatim journal entries`);
+assert(journalMetaphysique.sections.length === 4, `${journalMetaphysique.titleEn}: Defines 4 Chronological Sections`);
 
 assert(lesHommes.unabridged === true, `${lesHommes.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(lesHommes.paragraphs.length === 105, `${lesHommes.titleEn}: Contains complete 105 verbatim paragraphs`);
-assert(lesHommes.sections.length === 2, `${lesHommes.titleEn}: Defines 2 Major Parts`);
+assert(lesHommes.paragraphs.length === 342, `${lesHommes.titleEn}: Contains complete 342 verbatim paragraphs`);
+assert(lesHommes.sections.length === 15, `${lesHommes.titleEn}: Defines all 15 authentic sections`);
 
 assert(laDigniteHumaine.unabridged === true, `${laDigniteHumaine.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(laDigniteHumaine.paragraphs.length === 95, `${laDigniteHumaine.titleEn}: Contains complete 95 verbatim lecture paragraphs`);
-assert(laDigniteHumaine.sections.length === 6, `${laDigniteHumaine.titleEn}: Defines all 6 Harvard Lectures`);
+assert(laDigniteHumaine.paragraphs.length === 490, `${laDigniteHumaine.titleEn}: Contains complete 490 verbatim lecture paragraphs`);
+assert(laDigniteHumaine.sections.length === 9, `${laDigniteHumaine.titleEn}: Defines all 9 Harvard Lectures`);
 
 assert(lhommeProblematique.unabridged === true, `${lhommeProblematique.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(lhommeProblematique.paragraphs.length === 105, `${lhommeProblematique.titleEn}: Contains complete 105 verbatim paragraphs`);
-assert(lhommeProblematique.sections.length === 2, `${lhommeProblematique.titleEn}: Defines 2 Major Sections`);
+assert(lhommeProblematique.paragraphs.length === 270, `${lhommeProblematique.titleEn}: Contains complete 270 verbatim paragraphs`);
+assert(lhommeProblematique.sections.length === 5, `${lhommeProblematique.titleEn}: Defines 5 Major Sections`);
 
 assert(presenceEtImmortalite.unabridged === true, `${presenceEtImmortalite.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(presenceEtImmortalite.paragraphs.length === 110, `${presenceEtImmortalite.titleEn}: Contains complete 110 verbatim entries/meditations`);
@@ -432,7 +432,7 @@ assert(laGrace.paragraphs.length === 100, `${laGrace.titleEn}: Contains complete
 assert(laGrace.sections.length === 3, `${laGrace.titleEn}: Defines all III Acts`);
 
 assert(leCoeurDesAutres.unabridged === true, `${leCoeurDesAutres.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(leCoeurDesAutres.paragraphs.length === 105, `${leCoeurDesAutres.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(leCoeurDesAutres.paragraphs.length === 979, `${leCoeurDesAutres.titleEn}: Contains complete 979 verbatim dialogue rows`);
 assert(leCoeurDesAutres.sections.length === 3, `${leCoeurDesAutres.titleEn}: Defines all III Acts`);
 
 assert(liconoclaste.unabridged === true, `${liconoclaste.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -482,7 +482,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 5364, `Total unabridged rows across 42 masterworks equals 5,364 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 7916, `Total unabridged rows across 42 masterworks equals 7,916 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -910,77 +910,69 @@ window.selectSection('all');
 const dAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(dAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Dard`);
 
-// 10. Test Switch to Journal métaphysique (Verbatim 120 entries across 2 Chronological Parts)
+// 10. Test Switch to Journal métaphysique (Unabridged 1001 entries across 4 Sections)
 window.switchWork('journal-metaphysique');
 const jmRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(jmRows === 120, `Rendered full 120 verbatim entries for Journal métaphysique (actual: ${jmRows})`);
+assert(jmRows === 4, `Smart default renders Chapter 1 (4 entries) for Journal métaphysique (actual: ${jmRows})`);
 
 // Test Part Filtering for Journal métaphysique
 window.selectSection('part-1');
 const jmPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(jmPart1Rows === 60, `Journal métaphysique Part I filtered to exactly 60 entries (actual: ${jmPart1Rows})`);
+assert(jmPart1Rows === 291, `Journal métaphysique Part I filtered to exactly 291 entries (actual: ${jmPart1Rows})`);
 
 window.selectSection('part-2');
 const jmPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(jmPart2Rows === 60, `Journal métaphysique Part II filtered to exactly 60 entries (actual: ${jmPart2Rows})`);
+assert(jmPart2Rows === 562, `Journal métaphysique Part II filtered to exactly 562 entries (actual: ${jmPart2Rows})`);
 
 window.selectSection('all');
 const jmAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(jmAllRestored === 120, `All 120 entries restored upon selecting "All Sections" for Journal métaphysique`);
+assert(jmAllRestored === 1001, `All 1001 entries restored upon selecting "All Sections" for Journal métaphysique`);
 
-// 11. Test Switch to Les Hommes contre l'humain (Verbatim 105 paragraphs across 2 Major Parts)
+// 11. Test Switch to Les Hommes contre l'humain (Unabridged 342 paragraphs across 15 Sections)
 window.switchWork('les-hommes-contre-lhumain');
 const lhRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhRows === 105, `Rendered full 105 verbatim paragraphs for Les Hommes contre l'humain (actual: ${lhRows})`);
+assert(lhRows === 8, `Smart default renders Section 1 (Foreword: 8 paragraphs) for Les Hommes contre l'humain (actual: ${lhRows})`);
 
-// Test Part Filtering for Les Hommes contre l'humain
-window.selectSection('part-1');
-const lhPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhPart1Rows === 52, `Les Hommes contre l'humain Part I filtered to exactly 52 paragraphs (actual: ${lhPart1Rows})`);
+// Test Section Filtering for Les Hommes contre l'humain
+window.selectSection('preface');
+const lhPrefRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhPrefRows === 12, `Les Hommes contre l'humain Preface filtered to exactly 12 paragraphs (actual: ${lhPrefRows})`);
 
-window.selectSection('part-2');
-const lhPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhPart2Rows === 53, `Les Hommes contre l'humain Part II filtered to exactly 53 paragraphs (actual: ${lhPart2Rows})`);
+window.selectSection('part-1-ch-3');
+const lhDegradRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lhDegradRows === 45, `Techniques of Degradation filtered to exactly 45 paragraphs (actual: ${lhDegradRows})`);
 
 window.selectSection('all');
 const lhAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Les Hommes contre l'humain`);
+assert(lhAllRestored === 342, `All 342 paragraphs restored upon selecting "All Sections" for Les Hommes contre l'humain`);
 
-// 12. Test Switch to La Dignité humaine (Verbatim 95 paragraphs across 6 Harvard Lectures)
+// 12. Test Switch to La Dignité humaine (Unabridged 490 paragraphs across 9 Harvard Lectures)
 window.switchWork('la-dignite-humaine');
 const dhRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dhRows === 95, `Rendered full 95 verbatim lecture paragraphs for La Dignité humaine (actual: ${dhRows})`);
+assert(dhRows === 49, `Smart default renders Chapter 1 (49 paragraphs) for La Dignité humaine (actual: ${dhRows})`);
 
 // Test Lecture Filtering for La Dignité humaine
-window.selectSection('lec-1');
-const dhLec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dhLec1Rows === 16, `La Dignité humaine Lecture I filtered to exactly 16 paragraphs (actual: ${dhLec1Rows})`);
-
 window.selectSection('lec-6');
 const dhLec6Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dhLec6Rows === 15, `La Dignité humaine Lecture VI filtered to exactly 15 paragraphs (actual: ${dhLec6Rows})`);
+assert(dhLec6Rows === 57, `La Dignité humaine Lecture VI filtered to exactly 57 paragraphs (actual: ${dhLec6Rows})`);
 
 window.selectSection('all');
 const dhAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dhAllRestored === 95, `All 95 lecture paragraphs restored upon selecting "All Sections" for La Dignité humaine`);
+assert(dhAllRestored === 490, `All 490 lecture paragraphs restored upon selecting "All Sections" for La Dignité humaine`);
 
-// 13. Test Switch to L'Homme problématique (Verbatim 105 paragraphs across 2 Sections)
+// 13. Test Switch to L'Homme problématique (Unabridged 270 paragraphs across 5 Sections)
 window.switchWork('lhomme-problematique');
 const lpRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lpRows === 105, `Rendered full 105 verbatim paragraphs for L'Homme problématique (actual: ${lpRows})`);
+assert(lpRows === 102, `Smart default renders Part I (102 paragraphs) for L'Homme problématique (actual: ${lpRows})`);
 
 // Test Section Filtering for L'Homme problématique
-window.selectSection('sec-1');
-const lpSec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lpSec1Rows === 52, `L'Homme problématique Section I filtered to exactly 52 paragraphs (actual: ${lpSec1Rows})`);
-
 window.selectSection('sec-2');
 const lpSec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lpSec2Rows === 53, `L'Homme problématique Section II filtered to exactly 53 paragraphs (actual: ${lpSec2Rows})`);
+assert(lpSec2Rows === 42, `L'Homme problématique Section II filtered to exactly 42 paragraphs (actual: ${lpSec2Rows})`);
 
 window.selectSection('all');
 const lpAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lpAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for L'Homme problématique`);
+assert(lpAllRestored === 270, `All 270 paragraphs restored upon selecting "All Sections" for L'Homme problématique`);
 
 // 14. Test Switch to Présence et immortalité (Verbatim 110 entries across 2 Sections)
 window.switchWork('presence-et-immortalite');
@@ -1335,26 +1327,22 @@ window.selectSection('all');
 const lagAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(lagAllRestored === 100, `All 100 dialogue rows restored upon selecting "All Sections" for La Grâce`);
 
-// 30. Test Switch to Le Cœur des autres (Verbatim 105 dialogue rows across 3 Acts)
+// 30. Test Switch to Le Cœur des autres (Unabridged 979 dialogue rows across 3 Acts)
 window.switchWork('le-coeur-des-autres');
 const lcdaRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcdaRows === 105, `Rendered full 105 verbatim dialogue rows for Le Cœur des autres (actual: ${lcdaRows})`);
-
-window.selectSection('act-1');
-const lcdaAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcdaAct1Rows === 35, `Le Cœur des autres Act I filtered to exactly 35 dialogue rows (actual: ${lcdaAct1Rows})`);
+assert(lcdaRows === 320, `Smart default renders Act I (320 dialogue rows) for Le Cœur des autres (actual: ${lcdaRows})`);
 
 window.selectSection('act-2');
 const lcdaAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcdaAct2Rows === 35, `Le Cœur des autres Act II filtered to exactly 35 dialogue rows (actual: ${lcdaAct2Rows})`);
+assert(lcdaAct2Rows === 322, `Le Cœur des autres Act II filtered to exactly 322 dialogue rows (actual: ${lcdaAct2Rows})`);
 
 window.selectSection('act-3');
 const lcdaAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcdaAct3Rows === 35, `Le Cœur des autres Act III filtered to exactly 35 dialogue rows (actual: ${lcdaAct3Rows})`);
+assert(lcdaAct3Rows === 337, `Le Cœur des autres Act III filtered to exactly 337 dialogue rows (actual: ${lcdaAct3Rows})`);
 
 window.selectSection('all');
 const lcdaAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcdaAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Cœur des autres`);
+assert(lcdaAllRestored === 979, `All 979 dialogue rows restored upon selecting "All Sections" for Le Cœur des autres`);
 
 // 31. Test Switch to L'Iconoclaste (Verbatim 105 dialogue rows across 4 Acts)
 window.switchWork('liconoclaste');
