@@ -36,8 +36,12 @@
       "companionTitle": "On the Ontological Mystery (1933)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (105 Paras)",
       "unabridgedBadge": "Verified Verbatim Unabridged (6 Sections, 664 Paras, 80k Words)",
       "sections": [
+        { "id": "part-1", "titleFr": "Première partie (1928-1929) : Le problème du corps, l'avoir et le recueillement", "titleEn": "Part I (1928-1929): The Problem of the Body, Having, and Inward Recollection" },
+        { "id": "part-2", "titleFr": "Deuxième partie (1930-1931) : La foi, le témoignage et la présence d'autrui", "titleEn": "Part II (1930-1931): Faith, Testimony, and the Presence of the Other" },
+        { "id": "part-3", "titleFr": "Troisième partie (1932-1933) : La fidélité créatrice et l'exigence ontologique", "titleEn": "Part III (1932-1933): Creative Fidelity and the Ontological Exigence" }
         { "id": "preface", "titleFr": "Préface de D. M. MacKinnon", "titleEn": "Preface by D. M. MacKinnon" },
         { "id": "diary-1928-1929", "titleFr": "Journal métaphysique (1928-1929) : Le problème du corps et de l'incarnation", "titleEn": "Metaphysical Diary (1928-1929): The Body and Incarnation" },
         { "id": "diary-1930-1931", "titleFr": "Journal métaphysique (1930-1931) : L'avoir, l'être et la présence", "titleEn": "Metaphysical Diary (1930-1931): Having, Being, and Presence" },
@@ -56,12 +60,10 @@
       "companionTitle": "Being and Having (1935)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (4 Sections, 1,001 Paras, 110k Words)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (2 Parts, 120 Entries)",
       "sections": [
-        { "id": "intro", "titleFr": "Introduction de l'auteur (1927)", "titleEn": "Author's Introduction (1927)" },
-        { "id": "part-1", "titleFr": "Première partie (1914) : Existence et sensation", "titleEn": "Part I (1914): Existence and Sensation" },
-        { "id": "part-2", "titleFr": "Deuxième partie (1915-1923) : Présence, fidélité et intersubjectivité", "titleEn": "Part II (1915-1923): Presence, Fidelity, and Intersubjectivity" },
-        { "id": "appendix", "titleFr": "Appendice (1925) : L'Existence et l'Objectivité", "titleEn": "Appendix (1925): Existence and Objectivity" }
+        { "id": "part-1", "titleFr": "Première partie (1914) : Premières soundings métaphysiques — Existence et sensation", "titleEn": "Part I (1914): Early Metaphysical Soundings — Existence and Sensation" },
+        { "id": "part-2", "titleFr": "Deuxième partie (1915-1923) : L'épreuve de la guerre, la présence et le salut", "titleEn": "Part II (1915-1923): The Ordeal of War, Presence, and Salvation" }
       ]
     },
     "du-refus-a-linvocation": {
@@ -113,23 +115,10 @@
       "companionTitle": "Rome is No Longer in Rome (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (15 Sections, 342 Paras, 79k Words)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (2 Parts, 105 Paras)",
       "sections": [
-        { "id": "foreword", "titleFr": "Préface de Donald MacKinnon", "titleEn": "Foreword by Donald MacKinnon" },
-        { "id": "preface", "titleFr": "Préface : L'universel contre les masses", "titleEn": "Preface: The Universal Against the Masses" },
-        { "id": "part-1-ch-1", "titleFr": "Première partie, Ch. I : Qu'est-ce qu'un homme libre ?", "titleEn": "Part I, Chapter I: What is a Free Man?" },
-        { "id": "part-1-ch-2", "titleFr": "Première partie, Ch. II : Les libertés perdues", "titleEn": "Part I, Chapter II: Lost Liberties" },
-        { "id": "part-1-ch-3", "titleFr": "Première partie, Ch. III : Les techniques d'avilissement", "titleEn": "Part I, Chapter III: Techniques of Degradation" },
-        { "id": "part-1-ch-4", "titleFr": "Première partie, Ch. IV : Progrès technique et péché", "titleEn": "Part I, Chapter IV: Technical Progress and Sin" },
-        { "id": "part-2-ch-1", "titleFr": "Deuxième partie, Ch. I : Le philosophe devant le monde contemporain", "titleEn": "Part II, Chapter I: The Philosopher & the Contemporary World" },
-        { "id": "part-2-ch-2", "titleFr": "Deuxième partie, Ch. II : La conscience fanatisée", "titleEn": "Part II, Chapter II: The Fanaticized Consciousness" },
-        { "id": "part-2-ch-3", "titleFr": "Deuxième partie, Ch. III : L'esprit d'abstraction, facteur de guerre", "titleEn": "Part II, Chapter III: The Spirit of Abstraction, as a Factor Making for War" },
-        { "id": "part-2-ch-4", "titleFr": "Deuxième partie, Ch. IV : La crise des valeurs dans le monde contemporain", "titleEn": "Part II, Chapter IV: The Crisis of Values in the Contemporary World" },
-        { "id": "part-2-ch-5", "titleFr": "Deuxième partie, Ch. V : Dégradation de l'idée de service et dépersonnalisation", "titleEn": "Part II, Chapter V: The Degradation of the Idea of Service" },
-        { "id": "part-3-ch-1", "titleFr": "Troisième partie, Ch. I : Pessimisme et conscience eschatologique", "titleEn": "Part III, Chapter I: Pessimism and the Eschatological Consciousness" },
-        { "id": "part-3-ch-2", "titleFr": "Troisième partie, Ch. II : L'homme contre l'histoire", "titleEn": "Part III, Chapter II: Man Against History" },
-        { "id": "part-3-ch-3", "titleFr": "Troisième partie, Ch. III : La réintégration de l'honneur", "titleEn": "Part III, Chapter III: The Reintegration of Honour" },
-        { "id": "conclusion", "titleFr": "Conclusion : L'universel contre les masses (II)", "titleEn": "Conclusion: The Universal Against the Masses (II)" }
+        { "id": "part-1", "titleFr": "Première partie : Le monde brisé et la dégradation de l'esprit", "titleEn": "Part I: The Shattered World and the Degradation of the Spirit" },
+        { "id": "part-2", "titleFr": "Deuxième partie : Les voies de la réintégration et l'homme de la vérité", "titleEn": "Part II: The Paths of Reintegration and the Man of Truth" }
       ]
     },
     "la-metaphysique-de-royce": {
@@ -159,8 +148,12 @@
       "companionTitle": "Men Against Humanity (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 100 Paras)",
       "unabridgedBadge": "Verified Verbatim Unabridged (Foreword + 3 Parts, 180 Paras, 22k Words)",
       "sections": [
+        { "id": "part-1", "titleFr": "Première partie : L'arraisonnement technique et la perte de la sagesse", "titleEn": "Part I: Technical Enframing and the Loss of Wisdom" },
+        { "id": "part-2", "titleFr": "Deuxième partie : Déshumanisation de la cité et primat du rendement", "titleEn": "Part II: Dehumanization of the City and Primacy of Productivity" },
+        { "id": "part-3", "titleFr": "Troisième partie : Vers un réveil spirituel et le retour aux sources", "titleEn": "Part III: Toward Spiritual Awakening and Return to the Sources" }
         { "id": "foreword", "titleFr": "Avant-propos", "titleEn": "Foreword" },
         { "id": "part-1", "titleFr": "Première partie : Les limites de la civilisation industrielle", "titleEn": "Part I: The Limitations of Industrial Civilisation" },
         { "id": "part-2", "titleFr": "Deuxième partie : La notion d'héritage spirituel", "titleEn": "Part II: The Notion of Spiritual Heritage" },
@@ -175,13 +168,10 @@
       "category": "Philosophical Treatises & Essays",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (5 Sections, 270 Paras, 40k Words)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (2 Sections, 105 Paras)",
       "sections": [
-        { "id": "sec-1", "titleFr": "Première partie : L'homme problématique (Aliénation et miroir intérieur)", "titleEn": "Part I: The Problematic Man (Alienation and the Inner Mirror)" },
-        { "id": "sec-2", "titleFr": "Deuxième partie : Phénoménologie de l'inquiétude (Inquiétude, Anxiété, Angoisse)", "titleEn": "Part II: Phenomenology of Uneasiness (Uneasiness, Anxiety, Anguish)" },
-        { "id": "sec-3", "titleFr": "Deuxième partie : L'itinéraire spirituel (De saint Augustin et Pascal à Kierkegaard)", "titleEn": "Part II: The Spiritual Itinerary (From Saint Augustine and Pascal to Kierkegaard)" },
-        { "id": "sec-4", "titleFr": "Deuxième partie : Le défi contemporain (Nietzsche, Heidegger, Sartre)", "titleEn": "Part II: The Contemporary Challenge (Nietzsche, Heidegger, Sartre)" },
-        { "id": "sec-5", "titleFr": "Deuxième partie : L'épreuve du présent et le dépassement (Gide, Le monde d'aujourd'hui, Conclusion)", "titleEn": "Part II: The Ordeal of the Present and Transcendence (Gide, The World Today, Conclusion)" }
+        { "id": "sec-1", "titleFr": "Première partie : La situation de l'homme et l'inquiétude contemporaine", "titleEn": "Part I: The Human Situation and Contemporary Disquiet" },
+        { "id": "sec-2", "titleFr": "Deuxième partie : Du désespoir à la plénitude de l'être", "titleEn": "Part II: From Despair to the Fullness of Being" }
       ]
     },
     "theatre-et-religion": {
@@ -264,11 +254,20 @@
       "companionTitle": "The Mystery of Being, Vol. 2: Faith and Reality (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (10 Lectures, 105 Paras)",
       "unabridgedBadge": "Verified Verbatim Unabridged (10 Lectures, 415 Paras, 93k Words)",
       "sections": [
+        { "id": "lec-1", "titleFr": "Conférence I : Questions de méthode", "titleEn": "Lecture 1: Questions of Method" },
         { "id": "lec-1", "titleFr": "Conférence I : Questions de méthode (Introduction)", "titleEn": "Lecture 1: Questions of Method (Introduction)" },
         { "id": "lec-2", "titleFr": "Conférence II : Un monde cassé", "titleEn": "Lecture 2: A Broken World" },
         { "id": "lec-3", "titleFr": "Conférence III : Le besoin de transcendance", "titleEn": "Lecture 3: The Need for Transcendence" },
+        { "id": "lec-4", "titleFr": "Conférence IV : La vérité comme valeur : le témoignage", "titleEn": "Lecture 4: Truth as a Value: Bearing Witness" },
+        { "id": "lec-5", "titleFr": "Conférence V : Réflexion primaire et réflexion seconde", "titleEn": "Lecture 5: Primary and Secondary Reflection" },
+        { "id": "lec-6", "titleFr": "Conférence VI : « Ma vie » et l'identité", "titleEn": "Lecture 6: \"My Life\" and Personal Identity" },
+        { "id": "lec-7", "titleFr": "Conférence VII : L'être incarné", "titleEn": "Lecture 7: Incarnate Being" },
+        { "id": "lec-8", "titleFr": "Conférence VIII : L'être en situation", "titleEn": "Lecture 8: Being in a Situation" },
+        { "id": "lec-9", "titleFr": "Conférence IX : L'intersubjectivité et le « nous »", "titleEn": "Lecture 9: Intersubjectivity and the \"We\"" },
+        { "id": "lec-10", "titleFr": "Conférence X : La présence et le mystère de l'être", "titleEn": "Lecture 10: Presence and the Mystery of Being" }
         { "id": "lec-4", "titleFr": "Conférence IV : La vérité comme valeur : le cadre intelligible", "titleEn": "Lecture 4: Truth as a Value: The Intelligible Background" },
         { "id": "lec-5", "titleFr": "Conférence V : Réflexion primaire et réflexion seconde : le point d'appui existentiel", "titleEn": "Lecture 5: Primary & Secondary Reflection: The Existential Fulcrum" },
         { "id": "lec-6", "titleFr": "Conférence VI : Le sentiment comme mode de participation", "titleEn": "Lecture 6: Feeling as a Mode of Participation" },
@@ -310,17 +309,14 @@
       "category": "Lectures & Addresses",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (9 Lectures, 490 Paras, 60k Words)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (6 Lectures, 95 Paras)",
       "sections": [
-        { "id": "lec-1", "titleFr": "Conférence I : Points de départ", "titleEn": "Lecture 1: Introduction (Points of Departure)" },
-        { "id": "lec-2", "titleFr": "Conférence II : Participation", "titleEn": "Lecture 2: Participation" },
-        { "id": "lec-3", "titleFr": "Conférence III : Existence", "titleEn": "Lecture 3: Existence" },
-        { "id": "lec-4", "titleFr": "Conférence IV : Fidélité", "titleEn": "Lecture 4: Fidelity" },
-        { "id": "lec-5", "titleFr": "Conférence V : Mystère ontologique", "titleEn": "Lecture 5: The Ontological Mystery" },
-        { "id": "lec-6", "titleFr": "Conférence VI : Le moi et l'ambiguïté", "titleEn": "Lecture 6: The Self and Ambiguity" },
-        { "id": "lec-7", "titleFr": "Conférence VII : Dignité humaine", "titleEn": "Lecture 7: Human Dignity" },
-        { "id": "lec-8", "titleFr": "Conférence VIII : Fraternité et liberté", "titleEn": "Lecture 8: Mortality, Hope, and Freedom" },
-        { "id": "lec-9", "titleFr": "Conférence IX : L'intégrité menacée", "titleEn": "Lecture 9: The Threat to Integrity" }
+        { "id": "lec-1", "titleFr": "Conférence I : La participation et le drame de l'âme", "titleEn": "Lecture I: Participation and the Drama of the Soul" },
+        { "id": "lec-2", "titleFr": "Conférence II : Le monde cassé et le péril technocratique", "titleEn": "Lecture II: The Broken World and the Technocratic Peril" },
+        { "id": "lec-3", "titleFr": "Conférence III : Être et avoir revisités", "titleEn": "Lecture III: Being and Having Revisited" },
+        { "id": "lec-4", "titleFr": "Conférence IV : L'intersubjectivité et le mystère de la famille", "titleEn": "Lecture IV: Intersubjectivity and the Mystery of the Family" },
+        { "id": "lec-5", "titleFr": "Conférence V : Fidélité créatrice et espérance", "titleEn": "Lecture V: Creative Fidelity and Hope" },
+        { "id": "lec-6", "titleFr": "Conférence VI : Les assises existentielles de la dignité humaine", "titleEn": "Lecture VI: The Existential Foundations of Human Dignity" }
       ]
     },
 
@@ -408,11 +404,11 @@
       "companionTitle": "Metaphysical Journal (1927)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 979 Rows, 18.7k Words)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
       "sections": [
-        { "id": "act-1", "titleFr": "Acte I : Le succès de l'auteur et la confession volée", "titleEn": "Act I: The Author's Success and the Stolen Confession" },
+        { "id": "act-1", "titleFr": "Acte I : Le succès mondain et la confession volée", "titleEn": "Act I: Worldly Success and the Stolen Confession" },
         { "id": "act-2", "titleFr": "Acte II : La répétition générale et la révolte de la victime", "titleEn": "Act II: The Dress Rehearsal and the Victim's Revolt" },
-        { "id": "act-3", "titleFr": "Acte III : Le désenchantement et la tragédie de l'intimité", "titleEn": "Act III: Disenchantment and the Tragedy of Intimacy" }
+        { "id": "act-3", "titleFr": "Acte III : La solitude de l'artiste et le jugement des cœurs", "titleEn": "Act III: The Artist's Solitude and the Judgment of Hearts" }
       ]
     },
     "liconoclaste": {

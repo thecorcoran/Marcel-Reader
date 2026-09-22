@@ -332,8 +332,8 @@ assert(mysteryBeing2.unabridged === true, `${mysteryBeing2.titleEn}: Marked as V
 assert(mysteryBeing2.paragraphs.length === 105, `${mysteryBeing2.titleEn}: Contains complete 105 verbatim lecture paragraphs`);
 
 assert(homoViator.unabridged === true, `${homoViator.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(homoViator.paragraphs.length === 110, `${homoViator.titleEn}: Contains complete 110 verbatim paragraphs`);
-assert(homoViator.sections.length === 7, `${homoViator.titleEn}: Defines all VII Chapters`);
+assert(homoViator.paragraphs.length === 556, `${homoViator.titleEn}: Contains complete 556 verbatim paragraphs`);
+assert(homoViator.sections.length === 11, `${homoViator.titleEn}: Defines all 11 Sections / Chapters`);
 
 assert(duRefus.unabridged === true, `${duRefus.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(duRefus.paragraphs.length === 105, `${duRefus.titleEn}: Contains complete 105 verbatim paragraphs`);
@@ -482,7 +482,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 7916, `Total unabridged rows across 42 masterworks equals 7,916 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 8362, `Total unabridged rows across 42 masterworks equals 8,362 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -799,24 +799,24 @@ assert(getEl('reader-container').style.display === 'block', 'reader-container sh
 assert(getEl('btn-back-home').style.display === 'inline-flex', 'btn-back-home shown when reading');
 
 const homoViatorRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(homoViatorRows === 110, `Rendered full 110 verbatim paragraphs for Homo Viator (actual: ${homoViatorRows})`);
+assert(homoViatorRows === 4, `Rendered smart default section (prologue: 4 paragraphs) for Homo Viator (actual: ${homoViatorRows})`);
 
 // Test Chapter Filtering for Homo Viator
 window.selectSection('ch-1');
 const ch1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ch1Rows === 15, `Chapter 1 filtered to exactly 15 paragraphs (actual: ${ch1Rows})`);
+assert(ch1Rows === 23, `Chapter 1 filtered to exactly 23 paragraphs (actual: ${ch1Rows})`);
 
-window.selectSection('ch-3');
-const ch3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ch3Rows === 16, `Chapter 3 (Hope) filtered to exactly 16 paragraphs (actual: ${ch3Rows})`);
+window.selectSection('ch-2');
+const ch2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ch2Rows === 91, `Chapter 2 (Hope) filtered to exactly 91 paragraphs (actual: ${ch2Rows})`);
 
-window.selectSection('ch-7');
-const ch7Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ch7Rows === 16, `Chapter 7 (Rilke) filtered to exactly 16 paragraphs (actual: ${ch7Rows})`);
+window.selectSection('ch-10');
+const ch10Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ch10Rows === 216, `Chapter 10 (Rilke) filtered to exactly 216 paragraphs (actual: ${ch10Rows})`);
 
 window.selectSection('all');
 const hvAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(hvAllRestored === 110, `All 110 paragraphs restored upon selecting "All Sections" for Homo Viator`);
+assert(hvAllRestored === 556, `All 556 paragraphs restored upon selecting "All Sections" for Homo Viator`);
 
 // 6. Test Switch to Du refus à l'invocation / Creative Fidelity (Verbatim 105 paragraphs)
 window.switchWork('du-refus-a-linvocation');
