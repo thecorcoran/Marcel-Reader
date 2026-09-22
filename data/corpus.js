@@ -182,7 +182,15 @@
       "titleFr": "Pour une sagesse tragique et son au-delà",
       "year": 1968,
       "category": "Philosophical Treatises & Essays",
-      "unabridged": false
+      "companionSlug": "entretiens-paul-ricoeur",
+      "companionTitle": "Conversations Between Paul Ricœur and Gabriel Marcel (1968)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (2 Parts, 105 Paras)",
+      "sections": [
+        { "id": "sec-1", "titleFr": "Première partie : Le tragique contemporain et l'exigence sacrale", "titleEn": "Part I: Contemporary Tragedy and the Sacral Exigence" },
+        { "id": "sec-2", "titleFr": "Deuxième partie : La transcendance, la grâce et le salut", "titleEn": "Part II: Transcendence, Grace, and Salvation" }
+      ]
     },
 
     // ==========================================
@@ -298,10 +306,43 @@
     "la-grace": { "id": "la-grace", "titleEn": "Grace", "titleFr": "La Grâce", "year": 1914, "category": "Dramatic Works (Plays)", "unabridged": false },
     "le-coeur-des-autres": { "id": "le-coeur-des-autres", "titleEn": "The Heart of Others", "titleFr": "Le Cœur des autres", "year": 1921, "category": "Dramatic Works (Plays)", "unabridged": false },
     "liconoclaste": { "id": "liconoclaste", "titleEn": "The Iconoclast", "titleFr": "L'Iconoclaste", "year": 1923, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "la-chapelle-ardente": { "id": "la-chapelle-ardente", "titleEn": "The Funeral Pyre", "titleFr": "La Chapelle ardente", "year": 1925, "category": "Dramatic Works (Plays)", "unabridged": false },
+    "la-chapelle-ardente": {
+      "id": "la-chapelle-ardente",
+      "titleEn": "The Funeral Pyre",
+      "titleFr": "La Chapelle ardente (Pièce en trois actes)",
+      "year": 1925,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "presence-et-immortalite",
+      "companionTitle": "Presence and Immortality (1959)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : La chambre du souvenir et le culte d'Octave", "titleEn": "Act I: The Chamber of Memory and the Cult of Octave" },
+        { "id": "act-2", "titleFr": "Acte II : La possession tyrannique d'Aline et le doute de Mireille", "titleEn": "Act II: The Tyrannical Possession of Aline and Mireille's Doubt" },
+        { "id": "act-3", "titleFr": "Acte III : Le sacrifice consenti et l'extinction du faux sanctuaire", "titleEn": "Act III: The Consented Sacrifice and Extinction of the False Sanctuary" }
+      ]
+    },
     "le-quatuor-en-fa-diese": { "id": "le-quatuor-en-fa-diese", "titleEn": "The Quartet in F-sharp", "titleFr": "Le Quatuor en fa dièse", "year": 1925, "category": "Dramatic Works (Plays)", "unabridged": false },
     "le-regard-neuf": { "id": "le-regard-neuf", "titleEn": "The New Look", "titleFr": "Le Regard neuf", "year": 1931, "category": "Dramatic Works (Plays)", "unabridged": false },
-    "le-chemin-de-crete": { "id": "le-chemin-de-crete", "titleEn": "Ariadne (The Path of Crete)", "titleFr": "Le Chemin de Crète", "year": 1936, "category": "Dramatic Works (Plays)", "unabridged": false },
+    "le-chemin-de-crete": {
+      "id": "le-chemin-de-crete",
+      "titleEn": "Ariadne (The Path of Crete)",
+      "titleFr": "Le Chemin de Crète (Pièce en quatre actes)",
+      "year": 1936,
+      "category": "Dramatic Works (Plays)",
+      "companionSlug": "du-refus-a-linvocation",
+      "companionTitle": "Creative Fidelity (1940)",
+      "unabridged": true,
+      "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 110 Rows)",
+      "sections": [
+        { "id": "act-1", "titleFr": "Acte I : Le chalet suisse et les fils entremêlés d'Ariane", "titleEn": "Act I: The Swiss Chalet and the Interwoven Threads of Ariadne" },
+        { "id": "act-2", "titleFr": "Acte II : La séduction spirituelle et la démission de Jérôme", "titleEn": "Act II: Spiritual Seduction and Jérôme's Abdication" },
+        { "id": "act-3", "titleFr": "Acte III : La confrontation avec Violette et le masque de la générosité", "titleEn": "Act III: The Confrontation with Violette and the Mask of Generosity" },
+        { "id": "act-4", "titleFr": "Acte IV : Le sommet du chemin de crête et la clairvoyance tragique", "titleEn": "Act IV: The Summit of the Crest Path and Tragic Clairvoyance" }
+      ]
+    },
     "le-dard": {
       "id": "le-dard",
       "titleEn": "The Sting",

@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel Reader — Service Worker (PWA Offline Engine)
  */
-const CACHE_NAME = 'marcel-reader-v7';
+const CACHE_NAME = 'marcel-reader-v8';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
@@ -25,6 +25,9 @@ const PRECACHE_ASSETS = [
   './data/works/lhomme-problematique.js',
   './data/works/presence-et-immortalite.js',
   './data/works/entretiens-paul-ricoeur.js',
+  './data/works/pour-une-sagesse-tragique.js',
+  './data/works/la-chapelle-ardente.js',
+  './data/works/le-chemin-de-crete.js',
   './js/reader.js',
   './js/notes.js',
   './js/search.js',

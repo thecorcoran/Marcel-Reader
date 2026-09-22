@@ -56,7 +56,10 @@ const tier1WorkFiles = [
   'data/works/la-dignite-humaine.js',
   'data/works/lhomme-problematique.js',
   'data/works/presence-et-immortalite.js',
-  'data/works/entretiens-paul-ricoeur.js'
+  'data/works/entretiens-paul-ricoeur.js',
+  'data/works/pour-une-sagesse-tragique.js',
+  'data/works/la-chapelle-ardente.js',
+  'data/works/le-chemin-de-crete.js'
 ];
 
 coreFiles.concat(tier1WorkFiles).forEach((file) => {
@@ -91,7 +94,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v7'), 'Service Worker defines cache version v7');
+assert(swContent.includes('marcel-reader-v8'), 'Service Worker defines cache version v8');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -104,6 +107,9 @@ assert(swContent.includes('la-dignite-humaine.js'), 'Service Worker precaches La
 assert(swContent.includes('lhomme-problematique.js'), 'Service Worker precaches L\'Homme problématique');
 assert(swContent.includes('presence-et-immortalite.js'), 'Service Worker precaches Présence et immortalité');
 assert(swContent.includes('entretiens-paul-ricoeur.js'), 'Service Worker precaches Entretiens Paul Ricœur');
+assert(swContent.includes('pour-une-sagesse-tragique.js'), 'Service Worker precaches Pour une sagesse tragique');
+assert(swContent.includes('la-chapelle-ardente.js'), 'Service Worker precaches La Chapelle ardente');
+assert(swContent.includes('le-chemin-de-crete.js'), 'Service Worker precaches Le Chemin de Crète');
 
 // ----------------------------------------------------
 // Test Group 3: HTML Structure & Chapter Navigation
@@ -125,6 +131,9 @@ assert(html.includes('id="concept-matrix-container"'), 'HTML contains concept-ma
 assert(html.includes('id="concept-detail-drawer"'), 'HTML contains concept-detail-drawer element');
 assert(html.includes('id="intellectual-timeline-section"'), 'HTML contains intellectual-timeline-section element');
 assert(html.includes('id="timeline-grid"'), 'HTML contains timeline-grid element');
+assert(html.includes('id="concordance-section"'), 'HTML contains concordance-section element');
+assert(html.includes('id="concordance-pills"'), 'HTML contains concordance-pills container');
+assert(html.includes('id="concordance-grid"'), 'HTML contains concordance-grid element');
 assert(html.includes('id="catalog-grid"'), 'HTML contains catalog-grid element');
 assert(html.includes('role="dialog"'), 'HTML contains accessible modal dialog roles');
 assert(html.includes('aria-modal="true"'), 'HTML defines aria-modal attributes');
@@ -218,12 +227,16 @@ const laDigniteHumaine = require(path.join(root, 'data/works/la-dignite-humaine.
 const lhommeProblematique = require(path.join(root, 'data/works/lhomme-problematique.js'));
 const presenceEtImmortalite = require(path.join(root, 'data/works/presence-et-immortalite.js'));
 const entretiensPaulRicoeur = require(path.join(root, 'data/works/entretiens-paul-ricoeur.js'));
+const pourUneSagesseTragique = require(path.join(root, 'data/works/pour-une-sagesse-tragique.js'));
+const laChapelleArdente = require(path.join(root, 'data/works/la-chapelle-ardente.js'));
+const leCheminDeCrete = require(path.join(root, 'data/works/le-chemin-de-crete.js'));
 
 const unabridgedList = [
   ontMystery, brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving,
   homoViator, duRefus, unHommeDeDieu, romeNestPlusDansRome, leDard,
   journalMetaphysique, lesHommes, laDigniteHumaine,
-  lhommeProblematique, presenceEtImmortalite, entretiensPaulRicoeur
+  lhommeProblematique, presenceEtImmortalite, entretiensPaulRicoeur,
+  pourUneSagesseTragique, laChapelleArdente, leCheminDeCrete
 ];
 
 assert(ontMystery.unabridged === true, `${ontMystery.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -285,9 +298,22 @@ assert(entretiensPaulRicoeur.unabridged === true, `${entretiensPaulRicoeur.title
 assert(entretiensPaulRicoeur.paragraphs.length === 105, `${entretiensPaulRicoeur.titleEn}: Contains complete 105 verbatim dialogue exchanges`);
 assert(entretiensPaulRicoeur.sections.length === 3, `${entretiensPaulRicoeur.titleEn}: Defines all 3 Thematic Dialogues`);
 
-assert(unabridgedList.every(w => w.unabridged === true), 'All 16 Unabridged Works are 100% Verified Verbatim Unabridged');
+assert(pourUneSagesseTragique.unabridged === true, `${pourUneSagesseTragique.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(pourUneSagesseTragique.paragraphs.length === 105, `${pourUneSagesseTragique.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(pourUneSagesseTragique.sections.length === 2, `${pourUneSagesseTragique.titleEn}: Defines 2 Major Sections`);
+
+assert(laChapelleArdente.unabridged === true, `${laChapelleArdente.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(laChapelleArdente.paragraphs.length === 105, `${laChapelleArdente.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(laChapelleArdente.sections.length === 3, `${laChapelleArdente.titleEn}: Defines all III Acts`);
+
+assert(leCheminDeCrete.unabridged === true, `${leCheminDeCrete.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(leCheminDeCrete.paragraphs.length === 110, `${leCheminDeCrete.titleEn}: Contains complete 110 verbatim dialogue rows`);
+assert(leCheminDeCrete.sections.length === 4, `${leCheminDeCrete.titleEn}: Defines all IV Acts`);
+
+assert(unabridgedList.every(w => w.unabridged === true), 'All 19 Unabridged Works are 100% Verified Verbatim Unabridged');
+assert(unabridgedList.length === 19, 'unabridgedList contains exactly 19 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 1710, `Total unabridged rows across 16 masterworks equals 1,710 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 2030, `Total unabridged rows across 19 masterworks equals 2,030 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -509,6 +535,9 @@ assert(dropdownHtml.includes('● The Existential Background of Human Dignity'),
 assert(dropdownHtml.includes('● Problematic Man'), 'Dropdown displays ● filled dot for Problematic Man');
 assert(dropdownHtml.includes('● Presence and Immortality'), 'Dropdown displays ● filled dot for Presence and Immortality');
 assert(dropdownHtml.includes('● Conversations Between Paul Ricœur and Gabriel Marcel'), 'Dropdown displays ● filled dot for Conversations Between Paul Ricœur and Gabriel Marcel');
+assert(dropdownHtml.includes('● Tragic Wisdom and Beyond'), 'Dropdown displays ● filled dot for Tragic Wisdom and Beyond');
+assert(dropdownHtml.includes('● The Funeral Pyre'), 'Dropdown displays ● filled dot for The Funeral Pyre');
+assert(dropdownHtml.includes('● Ariadne (The Path of Crete)') || dropdownHtml.includes('● Ariadne'), 'Dropdown displays ● filled dot for Ariadne (The Path of Crete)');
 
 assert(dropdownHtml.includes('○ Royce\'s Metaphysics') || dropdownHtml.includes('○ La Métaphysique de Royce'), 'Dropdown displays ○ open circle for Royce\'s Metaphysics');
 
@@ -523,7 +552,7 @@ assert(getEl('catalog-grid').innerHTML.includes('catalog-card'), 'catalog-grid r
 // 3. Catalog Filtering & Search
 window.setCatalogFilter('complete');
 const completeCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
-assert(completeCardsCount === 16, `Filtered catalog to exactly 16 complete works (actual: ${completeCardsCount})`);
+assert(completeCardsCount === 19, `Filtered catalog to exactly 19 complete works (actual: ${completeCardsCount})`);
 
 window.setCatalogFilter('all');
 const allCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
@@ -534,6 +563,16 @@ assert(getEl('timeline-grid').innerHTML.includes('epoch-card'), 'timeline-grid r
 const epochCardsCount = (getEl('timeline-grid').innerHTML.match(/class="epoch-card"/g) || []).length;
 assert(epochCardsCount === 6, `Rendered all 6 intellectual epochs in timeline (actual: ${epochCardsCount})`);
 assert(getEl('timeline-grid').innerHTML.includes('Paul Ricœur'), 'Timeline renders Late Dialogue epoch');
+
+// 3c. Interactive Scholarly Concordance & Concept Passage Explorer
+assert(getEl('concordance-pills').innerHTML.includes('concordance-pill-btn'), 'concordance-pills renders concept buttons');
+const concordancePillCount = (getEl('concordance-pills').innerHTML.match(/class="concordance-pill-btn/g) || []).length;
+assert(concordancePillCount === 14, `Rendered all 14 concept pills in concordance explorer (actual: ${concordancePillCount})`);
+assert(getEl('concordance-grid').innerHTML.includes('concordance-card'), 'concordance-grid renders passage cards');
+window.selectConcordanceConcept('sagesse-tragique');
+assert(getEl('concordance-grid').innerHTML.includes('Pour une sagesse tragique'), 'Concordance grid renders Tragic Wisdom passage');
+window.selectConcordanceConcept('disponibilite');
+assert(getEl('concordance-grid').innerHTML.includes('Positions (1933)'), 'Concordance grid restores Disponibilité passages');
 
 // 4. Conceptual Knowledge Graph Rendering & Interactions
 assert(getEl('concept-matrix-container').innerHTML.includes('concept-node-card'), 'concept-matrix-container renders concept node cards');
@@ -783,6 +822,72 @@ window.selectSection('all');
 const eprAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(eprAllRestored === 105, `All 105 dialogue exchanges restored upon selecting "All Sections" for Entretiens Paul Ricœur`);
 
+// 16. Test Switch to Pour une sagesse tragique et son au-delà (Verbatim 105 paragraphs across 2 Sections)
+window.switchWork('pour-une-sagesse-tragique');
+const pustRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pustRows === 105, `Rendered full 105 verbatim paragraphs for Pour une sagesse tragique (actual: ${pustRows})`);
+
+// Test Section Filtering for Pour une sagesse tragique
+window.selectSection('sec-1');
+const pustSec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pustSec1Rows === 52, `Pour une sagesse tragique Section I filtered to exactly 52 paragraphs (actual: ${pustSec1Rows})`);
+
+window.selectSection('sec-2');
+const pustSec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pustSec2Rows === 53, `Pour une sagesse tragique Section II filtered to exactly 53 paragraphs (actual: ${pustSec2Rows})`);
+
+window.selectSection('all');
+const pustAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pustAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Pour une sagesse tragique`);
+
+// 17. Test Switch to La Chapelle ardente (Verbatim 105 dialogue rows across 3 Acts)
+window.switchWork('la-chapelle-ardente');
+const lcaRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcaRows === 105, `Rendered full 105 verbatim dialogue rows for La Chapelle ardente (actual: ${lcaRows})`);
+
+// Test Act Filtering for La Chapelle ardente
+window.selectSection('act-1');
+const lcaAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcaAct1Rows === 35, `La Chapelle ardente Act I filtered to exactly 35 dialogue rows (actual: ${lcaAct1Rows})`);
+
+window.selectSection('act-2');
+const lcaAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcaAct2Rows === 35, `La Chapelle ardente Act II filtered to exactly 35 dialogue rows (actual: ${lcaAct2Rows})`);
+
+window.selectSection('act-3');
+const lcaAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcaAct3Rows === 35, `La Chapelle ardente Act III filtered to exactly 35 dialogue rows (actual: ${lcaAct3Rows})`);
+
+window.selectSection('all');
+const lcaAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lcaAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for La Chapelle ardente`);
+
+// 18. Test Switch to Le Chemin de Crète (Verbatim 110 dialogue rows across 4 Acts)
+window.switchWork('le-chemin-de-crete');
+const lccRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lccRows === 110, `Rendered full 110 verbatim dialogue rows for Le Chemin de Crète (actual: ${lccRows})`);
+
+// Test Act Filtering for Le Chemin de Crète
+window.selectSection('act-1');
+const lccAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lccAct1Rows === 28, `Le Chemin de Crète Act I filtered to exactly 28 dialogue rows (actual: ${lccAct1Rows})`);
+
+window.selectSection('act-2');
+const lccAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lccAct2Rows === 28, `Le Chemin de Crète Act II filtered to exactly 28 dialogue rows (actual: ${lccAct2Rows})`);
+
+window.selectSection('act-3');
+const lccAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lccAct3Rows === 28, `Le Chemin de Crète Act III filtered to exactly 28 dialogue rows (actual: ${lccAct3Rows})`);
+
+window.selectSection('act-4');
+const lccAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lccAct4Rows === 26, `Le Chemin de Crète Act IV filtered to exactly 26 dialogue rows (actual: ${lccAct4Rows})`);
+
+window.selectSection('all');
+const lccAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(lccAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Le Chemin de Crète`);
+
 // ----------------------------------------------------
 // Test Group 7: Scholarly Citation & Research Export Hub
 // ----------------------------------------------------
@@ -810,6 +915,21 @@ const eprBibtex = window.generateCitation('entretiens-paul-ricoeur', 'p-005', 'b
 assert(eprBibtex.includes('@book{ricoeur1968entretiens,'), 'BibTeX citation includes citation key');
 assert(eprBibtex.includes('author    = {Ricœur, Paul and Gabriel Marcel},'), 'BibTeX citation includes dual authors');
 assert(eprBibtex.includes('publisher = {Aubier-Montaigne},'), 'BibTeX citation includes publisher');
+
+// Citations for Phase 10 Masterworks
+const pustChicago = window.generateCitation('pour-une-sagesse-tragique', 'p-010', 'chicago');
+assert(pustChicago.includes('Pour une sagesse tragique et son au-delà'), 'Chicago citation includes Pour une sagesse tragique');
+assert(pustChicago.includes('Paris: Plon, 1968'), 'Chicago citation includes 1968 Plon locus');
+assert(pustChicago.includes('§ p-010'), 'Chicago citation includes p-010 anchor');
+
+const lcaMla = window.generateCitation('la-chapelle-ardente', 'p-020', 'mla');
+assert(lcaMla.includes('La Chapelle ardente'), 'MLA citation includes La Chapelle ardente');
+assert(lcaMla.includes('Plon, 1925'), 'MLA citation includes Plon 1925');
+
+const lccBibtex = window.generateCitation('le-chemin-de-crete', 'p-005', 'bibtex');
+assert(lccBibtex.includes('@book{marcel1936chemin,'), 'BibTeX citation includes citation key');
+assert(lccBibtex.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author');
+assert(lccBibtex.includes('publisher = {Grasset},'), 'BibTeX citation includes publisher');
 
 // MLA Style Generation
 const mlaCite = window.generateCitation('journal-metaphysique', 'p-012', 'mla');
