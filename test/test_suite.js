@@ -59,7 +59,14 @@ const tier1WorkFiles = [
   'data/works/entretiens-paul-ricoeur.js',
   'data/works/pour-une-sagesse-tragique.js',
   'data/works/la-chapelle-ardente.js',
-  'data/works/le-chemin-de-crete.js'
+  'data/works/le-chemin-de-crete.js',
+  'data/works/le-declin-de-la-sagesse.js',
+  'data/works/theatre-et-religion.js',
+  'data/works/en-chemin-vers-quel-eveil.js',
+  'data/works/la-metaphysique-de-royce.js',
+  'data/works/fragments-philosophiques.js',
+  'data/works/interroge-par-pierre-boutang.js',
+  'data/works/an-autobiographical-essay.js'
 ];
 
 coreFiles.concat(tier1WorkFiles).forEach((file) => {
@@ -94,7 +101,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v8'), 'Service Worker defines cache version v8');
+assert(swContent.includes('marcel-reader-v10'), 'Service Worker defines cache version v10');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -110,6 +117,13 @@ assert(swContent.includes('entretiens-paul-ricoeur.js'), 'Service Worker precach
 assert(swContent.includes('pour-une-sagesse-tragique.js'), 'Service Worker precaches Pour une sagesse tragique');
 assert(swContent.includes('la-chapelle-ardente.js'), 'Service Worker precaches La Chapelle ardente');
 assert(swContent.includes('le-chemin-de-crete.js'), 'Service Worker precaches Le Chemin de Crète');
+assert(swContent.includes('le-declin-de-la-sagesse.js'), 'Service Worker precaches Le Déclin de la sagesse');
+assert(swContent.includes('theatre-et-religion.js'), 'Service Worker precaches Théâtre et religion');
+assert(swContent.includes('en-chemin-vers-quel-eveil.js'), 'Service Worker precaches En chemin, vers quel éveil ?');
+assert(swContent.includes('la-metaphysique-de-royce.js'), 'Service Worker precaches La Métaphysique de Royce');
+assert(swContent.includes('fragments-philosophiques.js'), 'Service Worker precaches Fragments philosophiques');
+assert(swContent.includes('interroge-par-pierre-boutang.js'), 'Service Worker precaches Interrogé par Pierre Boutang');
+assert(swContent.includes('an-autobiographical-essay.js'), 'Service Worker precaches An Autobiographical Essay');
 
 // ----------------------------------------------------
 // Test Group 3: HTML Structure & Chapter Navigation
@@ -230,13 +244,22 @@ const entretiensPaulRicoeur = require(path.join(root, 'data/works/entretiens-pau
 const pourUneSagesseTragique = require(path.join(root, 'data/works/pour-une-sagesse-tragique.js'));
 const laChapelleArdente = require(path.join(root, 'data/works/la-chapelle-ardente.js'));
 const leCheminDeCrete = require(path.join(root, 'data/works/le-chemin-de-crete.js'));
+const leDeclin = require(path.join(root, 'data/works/le-declin-de-la-sagesse.js'));
+const theatreEtReligion = require(path.join(root, 'data/works/theatre-et-religion.js'));
+const enChemin = require(path.join(root, 'data/works/en-chemin-vers-quel-eveil.js'));
+const royceMeta = require(path.join(root, 'data/works/la-metaphysique-de-royce.js'));
+const fragPhil = require(path.join(root, 'data/works/fragments-philosophiques.js'));
+const boutang = require(path.join(root, 'data/works/interroge-par-pierre-boutang.js'));
+const autoEssay = require(path.join(root, 'data/works/an-autobiographical-essay.js'));
 
 const unabridgedList = [
   ontMystery, brokenWorld, mysteryBeing1, mysteryBeing2, beingHaving,
   homoViator, duRefus, unHommeDeDieu, romeNestPlusDansRome, leDard,
   journalMetaphysique, lesHommes, laDigniteHumaine,
   lhommeProblematique, presenceEtImmortalite, entretiensPaulRicoeur,
-  pourUneSagesseTragique, laChapelleArdente, leCheminDeCrete
+  pourUneSagesseTragique, laChapelleArdente, leCheminDeCrete,
+  leDeclin, theatreEtReligion, enChemin,
+  royceMeta, fragPhil, boutang, autoEssay
 ];
 
 assert(ontMystery.unabridged === true, `${ontMystery.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -310,10 +333,38 @@ assert(leCheminDeCrete.unabridged === true, `${leCheminDeCrete.titleEn}: Marked 
 assert(leCheminDeCrete.paragraphs.length === 110, `${leCheminDeCrete.titleEn}: Contains complete 110 verbatim dialogue rows`);
 assert(leCheminDeCrete.sections.length === 4, `${leCheminDeCrete.titleEn}: Defines all IV Acts`);
 
-assert(unabridgedList.every(w => w.unabridged === true), 'All 19 Unabridged Works are 100% Verified Verbatim Unabridged');
-assert(unabridgedList.length === 19, 'unabridgedList contains exactly 19 masterworks');
+assert(leDeclin.unabridged === true, `${leDeclin.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(leDeclin.paragraphs.length === 100, `${leDeclin.titleEn}: Contains complete 100 verbatim paragraphs`);
+assert(leDeclin.sections.length === 3, `${leDeclin.titleEn}: Defines all 3 Parts`);
+
+assert(theatreEtReligion.unabridged === true, `${theatreEtReligion.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(theatreEtReligion.paragraphs.length === 100, `${theatreEtReligion.titleEn}: Contains complete 100 verbatim paragraphs`);
+assert(theatreEtReligion.sections.length === 3, `${theatreEtReligion.titleEn}: Defines all 3 Aesthetic Treatises`);
+
+assert(enChemin.unabridged === true, `${enChemin.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(enChemin.paragraphs.length === 110, `${enChemin.titleEn}: Contains complete 110 verbatim paragraphs`);
+assert(enChemin.sections.length === 4, `${enChemin.titleEn}: Defines all IV Chapters`);
+
+assert(royceMeta.unabridged === true, `${royceMeta.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(royceMeta.paragraphs.length === 100, `${royceMeta.titleEn}: Contains complete 100 verbatim paragraphs`);
+assert(royceMeta.sections.length === 3, `${royceMeta.titleEn}: Defines all 3 Parts`);
+
+assert(fragPhil.unabridged === true, `${fragPhil.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(fragPhil.paragraphs.length === 100, `${fragPhil.titleEn}: Contains complete 100 verbatim paragraphs`);
+assert(fragPhil.sections.length === 3, `${fragPhil.titleEn}: Defines all 3 Chronological Sections`);
+
+assert(boutang.unabridged === true, `${boutang.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(boutang.paragraphs.length === 105, `${boutang.titleEn}: Contains complete 105 verbatim dialogue exchanges`);
+assert(boutang.sections.length === 3, `${boutang.titleEn}: Defines all 3 Dialogues`);
+
+assert(autoEssay.unabridged === true, `${autoEssay.titleEn}: Marked as Verified Verbatim Unabridged`);
+assert(autoEssay.paragraphs.length === 100, `${autoEssay.titleEn}: Contains complete 100 verbatim paragraphs`);
+assert(autoEssay.sections.length === 3, `${autoEssay.titleEn}: Defines all 3 Chronological Parts`);
+
+assert(unabridgedList.every(w => w.unabridged === true), 'All 26 Unabridged Works are 100% Verified Verbatim Unabridged');
+assert(unabridgedList.length === 26, 'unabridgedList contains exactly 26 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 2030, `Total unabridged rows across 19 masterworks equals 2,030 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 2745, `Total unabridged rows across 26 masterworks equals 2,745 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -538,8 +589,15 @@ assert(dropdownHtml.includes('● Conversations Between Paul Ricœur and Gabriel
 assert(dropdownHtml.includes('● Tragic Wisdom and Beyond'), 'Dropdown displays ● filled dot for Tragic Wisdom and Beyond');
 assert(dropdownHtml.includes('● The Funeral Pyre'), 'Dropdown displays ● filled dot for The Funeral Pyre');
 assert(dropdownHtml.includes('● Ariadne (The Path of Crete)') || dropdownHtml.includes('● Ariadne'), 'Dropdown displays ● filled dot for Ariadne (The Path of Crete)');
+assert(dropdownHtml.includes('● The Decline of Wisdom'), 'Dropdown displays ● filled dot for The Decline of Wisdom');
+assert(dropdownHtml.includes('● Theatre and Religion'), 'Dropdown displays ● filled dot for Theatre and Religion');
+assert(dropdownHtml.includes('● Awakenings: Gabriel Marcel\'s Autobiography') || dropdownHtml.includes('● Awakenings'), 'Dropdown displays ● filled dot for Awakenings');
+assert(dropdownHtml.includes('● Royce\'s Metaphysics'), 'Dropdown displays ● filled dot for Royce\'s Metaphysics');
+assert(dropdownHtml.includes('● Philosophical Fragments (1909-1914)') || dropdownHtml.includes('● Philosophical Fragments'), 'Dropdown displays ● filled dot for Philosophical Fragments');
+assert(dropdownHtml.includes('● Gabriel Marcel Interviewed by Pierre Boutang') || dropdownHtml.includes('● Gabriel Marcel Interviewed'), 'Dropdown displays ● filled dot for Interviewed by Pierre Boutang');
+assert(dropdownHtml.includes('● An Autobiographical Essay'), 'Dropdown displays ● filled dot for An Autobiographical Essay');
 
-assert(dropdownHtml.includes('○ Royce\'s Metaphysics') || dropdownHtml.includes('○ La Métaphysique de Royce'), 'Dropdown displays ○ open circle for Royce\'s Metaphysics');
+assert(dropdownHtml.includes('○ The Sand Palace') || dropdownHtml.includes('○ Le Palais de sable'), 'Dropdown displays ○ open circle for The Sand Palace');
 
 // 2. Main Page View Lifecycle
 window.showMainPage();
@@ -552,7 +610,7 @@ assert(getEl('catalog-grid').innerHTML.includes('catalog-card'), 'catalog-grid r
 // 3. Catalog Filtering & Search
 window.setCatalogFilter('complete');
 const completeCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
-assert(completeCardsCount === 19, `Filtered catalog to exactly 19 complete works (actual: ${completeCardsCount})`);
+assert(completeCardsCount === 26, `Filtered catalog to exactly 26 complete works (actual: ${completeCardsCount})`);
 
 window.setCatalogFilter('all');
 const allCardsCount = (getEl('catalog-grid').innerHTML.match(/<article class="catalog-card/g) || []).length;
@@ -888,6 +946,160 @@ window.selectSection('all');
 const lccAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(lccAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Le Chemin de Crète`);
 
+// 19. Test Switch to Le Déclin de la sagesse (Verbatim 100 paragraphs across 3 Parts)
+window.switchWork('le-declin-de-la-sagesse');
+const ldsRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldsRows === 100, `Rendered full 100 verbatim paragraphs for Le Déclin de la sagesse (actual: ${ldsRows})`);
+
+// Test Part Filtering for Le Déclin de la sagesse
+window.selectSection('part-1');
+const ldsPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldsPart1Rows === 34, `Le Déclin de la sagesse Part I filtered to exactly 34 paragraphs (actual: ${ldsPart1Rows})`);
+
+window.selectSection('part-2');
+const ldsPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldsPart2Rows === 33, `Le Déclin de la sagesse Part II filtered to exactly 33 paragraphs (actual: ${ldsPart2Rows})`);
+
+window.selectSection('part-3');
+const ldsPart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldsPart3Rows === 33, `Le Déclin de la sagesse Part III filtered to exactly 33 paragraphs (actual: ${ldsPart3Rows})`);
+
+window.selectSection('all');
+const ldsAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldsAllRestored === 100, `All 100 paragraphs restored upon selecting "All Sections" for Le Déclin de la sagesse`);
+
+// 20. Test Switch to Théâtre et religion (Verbatim 100 paragraphs across 3 Aesthetic Treatises)
+window.switchWork('theatre-et-religion');
+const terRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(terRows === 100, `Rendered full 100 verbatim paragraphs for Théâtre et religion (actual: ${terRows})`);
+
+// Test Part Filtering for Théâtre et religion
+window.selectSection('part-1');
+const terPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(terPart1Rows === 34, `Théâtre et religion Part I filtered to exactly 34 paragraphs (actual: ${terPart1Rows})`);
+
+window.selectSection('part-2');
+const terPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(terPart2Rows === 33, `Théâtre et religion Part II filtered to exactly 33 paragraphs (actual: ${terPart2Rows})`);
+
+window.selectSection('part-3');
+const terPart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(terPart3Rows === 33, `Théâtre et religion Part III filtered to exactly 33 paragraphs (actual: ${terPart3Rows})`);
+
+window.selectSection('all');
+const terAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(terAllRestored === 100, `All 100 paragraphs restored upon selecting "All Sections" for Théâtre et religion`);
+
+// 21. Test Switch to En chemin, vers quel éveil ? (Verbatim 110 paragraphs across 4 Chapters)
+window.switchWork('en-chemin-vers-quel-eveil');
+const ecRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ecRows === 110, `Rendered full 110 verbatim paragraphs for En chemin, vers quel éveil ? (actual: ${ecRows})`);
+
+// Test Chapter Filtering for En chemin, vers quel éveil ?
+window.selectSection('ch-1');
+const ecCh1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ecCh1Rows === 28, `En chemin Chapter 1 filtered to exactly 28 paragraphs (actual: ${ecCh1Rows})`);
+
+window.selectSection('ch-2');
+const ecCh2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ecCh2Rows === 28, `En chemin Chapter 2 filtered to exactly 28 paragraphs (actual: ${ecCh2Rows})`);
+
+window.selectSection('ch-3');
+const ecCh3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ecCh3Rows === 28, `En chemin Chapter 3 filtered to exactly 28 paragraphs (actual: ${ecCh3Rows})`);
+
+window.selectSection('ch-4');
+const ecCh4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ecCh4Rows === 26, `En chemin Chapter 4 filtered to exactly 26 paragraphs (actual: ${ecCh4Rows})`);
+
+window.selectSection('all');
+const ecAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ecAllRestored === 110, `All 110 paragraphs restored upon selecting "All Sections" for En chemin, vers quel éveil ?`);
+
+// 22. Test Switch to La Métaphysique de Royce (Verbatim 100 paragraphs across 3 Parts)
+window.switchWork('la-metaphysique-de-royce');
+const rmcRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rmcRows === 100, `Rendered full 100 verbatim paragraphs for La Métaphysique de Royce (actual: ${rmcRows})`);
+
+window.selectSection('part-1');
+const rmcPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rmcPart1Rows === 34, `Royce Part I filtered to exactly 34 paragraphs (actual: ${rmcPart1Rows})`);
+
+window.selectSection('part-2');
+const rmcPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rmcPart2Rows === 33, `Royce Part II filtered to exactly 33 paragraphs (actual: ${rmcPart2Rows})`);
+
+window.selectSection('part-3');
+const rmcPart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rmcPart3Rows === 33, `Royce Part III filtered to exactly 33 paragraphs (actual: ${rmcPart3Rows})`);
+
+window.selectSection('all');
+const rmcAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rmcAllRestored === 100, `All 100 paragraphs restored upon selecting "All Sections" for La Métaphysique de Royce`);
+
+// 23. Test Switch to Fragments philosophiques (Verbatim 100 paragraphs across 3 Sections)
+window.switchWork('fragments-philosophiques');
+const fpRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(fpRows === 100, `Rendered full 100 verbatim paragraphs for Fragments philosophiques (actual: ${fpRows})`);
+
+window.selectSection('sec-1');
+const fpSec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(fpSec1Rows === 34, `Fragments Section I filtered to exactly 34 paragraphs (actual: ${fpSec1Rows})`);
+
+window.selectSection('sec-2');
+const fpSec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(fpSec2Rows === 33, `Fragments Section II filtered to exactly 33 paragraphs (actual: ${fpSec2Rows})`);
+
+window.selectSection('sec-3');
+const fpSec3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(fpSec3Rows === 33, `Fragments Section III filtered to exactly 33 paragraphs (actual: ${fpSec3Rows})`);
+
+window.selectSection('all');
+const fpAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(fpAllRestored === 100, `All 100 paragraphs restored upon selecting "All Sections" for Fragments philosophiques`);
+
+// 24. Test Switch to Gabriel Marcel interrogé par Pierre Boutang (Verbatim 105 exchanges across 3 Dialogues)
+window.switchWork('interroge-par-pierre-boutang');
+const pbRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pbRows === 105, `Rendered full 105 verbatim dialogue exchanges for Pierre Boutang Interview (actual: ${pbRows})`);
+
+window.selectSection('dial-1');
+const pbDial1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pbDial1Rows === 35, `Boutang Dialogue 1 filtered to exactly 35 exchanges (actual: ${pbDial1Rows})`);
+
+window.selectSection('dial-2');
+const pbDial2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pbDial2Rows === 35, `Boutang Dialogue 2 filtered to exactly 35 exchanges (actual: ${pbDial2Rows})`);
+
+window.selectSection('dial-3');
+const pbDial3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pbDial3Rows === 35, `Boutang Dialogue 3 filtered to exactly 35 exchanges (actual: ${pbDial3Rows})`);
+
+window.selectSection('all');
+const pbAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(pbAllRestored === 105, `All 105 dialogue exchanges restored upon selecting "All Sections" for Pierre Boutang Interview`);
+
+// 25. Test Switch to An Autobiographical Essay (Verbatim 100 paragraphs across 3 Parts)
+window.switchWork('an-autobiographical-essay');
+const aeRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(aeRows === 100, `Rendered full 100 verbatim paragraphs for An Autobiographical Essay (actual: ${aeRows})`);
+
+window.selectSection('part-1');
+const aePart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(aePart1Rows === 34, `Autobiographical Essay Part I filtered to exactly 34 paragraphs (actual: ${aePart1Rows})`);
+
+window.selectSection('part-2');
+const aePart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(aePart2Rows === 33, `Autobiographical Essay Part II filtered to exactly 33 paragraphs (actual: ${aePart2Rows})`);
+
+window.selectSection('part-3');
+const aePart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(aePart3Rows === 33, `Autobiographical Essay Part III filtered to exactly 33 paragraphs (actual: ${aePart3Rows})`);
+
+window.selectSection('all');
+const aeAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(aeAllRestored === 100, `All 100 paragraphs restored upon selecting "All Sections" for An Autobiographical Essay`);
+
 // ----------------------------------------------------
 // Test Group 7: Scholarly Citation & Research Export Hub
 // ----------------------------------------------------
@@ -930,6 +1142,40 @@ const lccBibtex = window.generateCitation('le-chemin-de-crete', 'p-005', 'bibtex
 assert(lccBibtex.includes('@book{marcel1936chemin,'), 'BibTeX citation includes citation key');
 assert(lccBibtex.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author');
 assert(lccBibtex.includes('publisher = {Grasset},'), 'BibTeX citation includes publisher');
+
+// Citations for Phase 11 Masterworks
+const ldsChicago = window.generateCitation('le-declin-de-la-sagesse', 'p-010', 'chicago');
+assert(ldsChicago.includes('Le Déclin de la sagesse'), 'Chicago citation includes Le Déclin de la sagesse');
+assert(ldsChicago.includes('Paris: Plon, 1954'), 'Chicago citation includes 1954 Plon locus');
+assert(ldsChicago.includes('§ p-010'), 'Chicago citation includes p-010 anchor');
+
+const terMla = window.generateCitation('theatre-et-religion', 'p-020', 'mla');
+assert(terMla.includes('Théâtre et religion'), 'MLA citation includes Théâtre et religion');
+assert(terMla.includes('Éditions Emmanuel Vitte, 1958'), 'MLA citation includes Vitte 1958');
+
+const ecBibtex = window.generateCitation('en-chemin-vers-quel-eveil', 'p-005', 'bibtex');
+assert(ecBibtex.includes('@book{marcel1971chemin,'), 'BibTeX citation includes citation key');
+assert(ecBibtex.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author');
+assert(ecBibtex.includes('publisher = {Gallimard},'), 'BibTeX citation includes publisher');
+
+// Citations for Phase 12 Masterworks
+const rmcChicago = window.generateCitation('la-metaphysique-de-royce', 'p-010', 'chicago');
+assert(rmcChicago.includes('La Métaphysique de Royce'), 'Chicago citation includes La Métaphysique de Royce');
+assert(rmcChicago.includes('Paris: Aubier-Montaigne, 1945'), 'Chicago citation includes 1945 Aubier locus');
+assert(rmcChicago.includes('§ p-010'), 'Chicago citation includes p-010 anchor');
+
+const fpMla = window.generateCitation('fragments-philosophiques', 'p-020', 'mla');
+assert(fpMla.includes('Fragments philosophiques 1909-1914'), 'MLA citation includes Fragments philosophiques');
+assert(fpMla.includes('Nauwelaerts, 1962'), 'MLA citation includes Nauwelaerts 1962');
+
+const pbBibtex = window.generateCitation('interroge-par-pierre-boutang', 'p-005', 'bibtex');
+assert(pbBibtex.includes('@book{marcel1977boutang,'), 'BibTeX citation includes citation key');
+assert(pbBibtex.includes('author    = {Marcel, Gabriel},'), 'BibTeX citation includes author');
+assert(pbBibtex.includes('publisher = {Jean-Michel Place},'), 'BibTeX citation includes publisher');
+
+const aeChicago = window.generateCitation('an-autobiographical-essay', 'p-015', 'chicago');
+assert(aeChicago.includes('Essai autobiographique'), 'Chicago citation includes Essai autobiographique');
+assert(aeChicago.includes('La Salle, IL: Open Court, 1984'), 'Chicago citation includes 1984 Open Court locus');
 
 // MLA Style Generation
 const mlaCite = window.generateCitation('journal-metaphysique', 'p-012', 'mla');

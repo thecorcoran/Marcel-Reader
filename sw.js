@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel Reader — Service Worker (PWA Offline Engine)
  */
-const CACHE_NAME = 'marcel-reader-v8';
+const CACHE_NAME = 'marcel-reader-v10';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
@@ -28,6 +28,13 @@ const PRECACHE_ASSETS = [
   './data/works/pour-une-sagesse-tragique.js',
   './data/works/la-chapelle-ardente.js',
   './data/works/le-chemin-de-crete.js',
+  './data/works/le-declin-de-la-sagesse.js',
+  './data/works/theatre-et-religion.js',
+  './data/works/en-chemin-vers-quel-eveil.js',
+  './data/works/la-metaphysique-de-royce.js',
+  './data/works/fragments-philosophiques.js',
+  './data/works/interroge-par-pierre-boutang.js',
+  './data/works/an-autobiographical-essay.js',
   './js/reader.js',
   './js/notes.js',
   './js/search.js',

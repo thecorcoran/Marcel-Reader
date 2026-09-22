@@ -1070,6 +1070,13 @@ function renderMainCatalog(filter = 'all', query = '') {
       else if (w.id === 'pour-une-sagesse-tragique') scaleInfo = '105 Aligned Paragraphs • 2 Major Parts';
       else if (w.id === 'la-chapelle-ardente') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
       else if (w.id === 'le-chemin-de-crete') scaleInfo = '110 Dialogue Rows • IV Dramatic Acts';
+      else if (w.id === 'le-declin-de-la-sagesse') scaleInfo = '100 Aligned Paragraphs • 3 Parts';
+      else if (w.id === 'theatre-et-religion') scaleInfo = '100 Aligned Paragraphs • 3 Aesthetic Treatises';
+      else if (w.id === 'en-chemin-vers-quel-eveil') scaleInfo = '110 Aligned Paragraphs • IV Chapters';
+      else if (w.id === 'la-metaphysique-de-royce') scaleInfo = '100 Aligned Paragraphs • 3 Parts';
+      else if (w.id === 'fragments-philosophiques') scaleInfo = '100 Aligned Paragraphs • 3 Sections';
+      else if (w.id === 'interroge-par-pierre-boutang') scaleInfo = '105 Dialogue Exchanges • 3 Dialogues';
+      else if (w.id === 'an-autobiographical-essay') scaleInfo = '100 Aligned Paragraphs • 3 Parts';
       else scaleInfo = '100% Verbatim Bilingual Edition';
     } else {
       scaleInfo = 'Bilingual Digest & Terminology Index';
@@ -1212,7 +1219,9 @@ function loadWork(workId, sectionId = "all") {
     'un-homme-de-dieu', 'rome-nest-plus-dans-rome', 'le-dard',
     'journal-metaphysique', 'les-hommes-contre-lhumain', 'la-dignite-humaine',
     'lhomme-problematique', 'presence-et-immortalite', 'entretiens-paul-ricoeur',
-    'pour-une-sagesse-tragique', 'la-chapelle-ardente', 'le-chemin-de-crete'
+    'pour-une-sagesse-tragique', 'la-chapelle-ardente', 'le-chemin-de-crete',
+    'le-declin-de-la-sagesse', 'theatre-et-religion', 'en-chemin-vers-quel-eveil',
+    'la-metaphysique-de-royce', 'fragments-philosophiques', 'interroge-par-pierre-boutang', 'an-autobiographical-essay'
   ];
   if (dedicatedWorkIds.includes(workId) || work.unabridged) {
     const container = document.getElementById("reader-blocks");
@@ -1631,6 +1640,83 @@ const CITATION_METADATA = {
     city: "Paris",
     publisher: "Grasset",
     bibtexKey: "marcel1936chemin"
+  },
+  "le-declin-de-la-sagesse": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Le Déclin de la sagesse",
+    titleEn: "The Decline of Wisdom",
+    year: 1954,
+    city: "Paris",
+    publisher: "Plon",
+    bibtexKey: "marcel1954declin"
+  },
+  "theatre-et-religion": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Théâtre et religion",
+    titleEn: "Theatre and Religion",
+    year: 1958,
+    city: "Lyon",
+    publisher: "Éditions Emmanuel Vitte",
+    bibtexKey: "marcel1958theatre"
+  },
+  "en-chemin-vers-quel-eveil": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "En chemin, vers quel éveil ?",
+    titleEn: "Awakenings: Gabriel Marcel's Autobiography",
+    year: 1971,
+    city: "Paris",
+    publisher: "Gallimard",
+    bibtexKey: "marcel1971chemin"
+  },
+  "la-metaphysique-de-royce": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "La Métaphysique de Royce",
+    titleEn: "Royce's Metaphysics",
+    year: 1945,
+    city: "Paris",
+    publisher: "Aubier-Montaigne",
+    bibtexKey: "marcel1945royce"
+  },
+  "fragments-philosophiques": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Fragments philosophiques 1909-1914",
+    titleEn: "Philosophical Fragments (1909-1914)",
+    year: 1962,
+    city: "Louvain",
+    publisher: "Nauwelaerts",
+    bibtexKey: "marcel1962fragments"
+  },
+  "interroge-par-pierre-boutang": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Gabriel Marcel interrogé par Pierre Boutang",
+    titleEn: "Gabriel Marcel Interviewed by Pierre Boutang",
+    year: 1977,
+    city: "Paris",
+    publisher: "Jean-Michel Place",
+    bibtexKey: "marcel1977boutang"
+  },
+  "an-autobiographical-essay": {
+    chicagoAuthor: "Marcel, Gabriel",
+    mlaAuthor: "Marcel, Gabriel",
+    apaAuthor: "Marcel, G.",
+    titleFr: "Essai autobiographique",
+    titleEn: "An Autobiographical Essay",
+    year: 1984,
+    city: "La Salle, IL",
+    publisher: "Open Court",
+    bibtexKey: "marcel1984essay"
   }
 };
 
