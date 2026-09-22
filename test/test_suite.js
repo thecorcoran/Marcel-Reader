@@ -117,7 +117,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v14'), 'Service Worker defines cache version v14');
+assert(swContent.includes('marcel-reader-v15'), 'Service Worker defines cache version v15');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -321,10 +321,12 @@ assert(brokenWorld.unabridged === true, `${brokenWorld.titleEn}: Marked as Verif
 assert(brokenWorld.paragraphs.length === 110, `${brokenWorld.titleEn}: Contains complete 110 verbatim dramatic paragraphs`);
 
 assert(beingHaving.unabridged === true, `${beingHaving.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(beingHaving.paragraphs.length === 105, `${beingHaving.titleEn}: Contains complete 105 verbatim journal entries`);
+assert(beingHaving.paragraphs.length === 664, `${beingHaving.titleEn}: Contains complete 664 unabridged paragraphs`);
+assert(beingHaving.sections.length === 6, `${beingHaving.titleEn}: Defines all 6 Sections`);
 
 assert(mysteryBeing1.unabridged === true, `${mysteryBeing1.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(mysteryBeing1.paragraphs.length === 105, `${mysteryBeing1.titleEn}: Contains complete 105 verbatim lecture paragraphs`);
+assert(mysteryBeing1.paragraphs.length === 415, `${mysteryBeing1.titleEn}: Contains complete 415 unabridged lecture paragraphs`);
+assert(mysteryBeing1.sections.length === 10, `${mysteryBeing1.titleEn}: Defines all 10 Lectures`);
 
 assert(mysteryBeing2.unabridged === true, `${mysteryBeing2.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(mysteryBeing2.paragraphs.length === 105, `${mysteryBeing2.titleEn}: Contains complete 105 verbatim lecture paragraphs`);
@@ -386,8 +388,8 @@ assert(leCheminDeCrete.paragraphs.length === 110, `${leCheminDeCrete.titleEn}: C
 assert(leCheminDeCrete.sections.length === 4, `${leCheminDeCrete.titleEn}: Defines all IV Acts`);
 
 assert(leDeclin.unabridged === true, `${leDeclin.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(leDeclin.paragraphs.length === 100, `${leDeclin.titleEn}: Contains complete 100 verbatim paragraphs`);
-assert(leDeclin.sections.length === 3, `${leDeclin.titleEn}: Defines all 3 Parts`);
+assert(leDeclin.paragraphs.length === 180, `${leDeclin.titleEn}: Contains complete 180 verbatim paragraphs`);
+assert(leDeclin.sections.length === 4, `${leDeclin.titleEn}: Defines Foreword and all 3 Parts`);
 
 assert(theatreEtReligion.unabridged === true, `${theatreEtReligion.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(theatreEtReligion.paragraphs.length === 100, `${theatreEtReligion.titleEn}: Contains complete 100 verbatim paragraphs`);
@@ -480,7 +482,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 4415, `Total unabridged rows across 42 masterworks equals 4,415 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 5364, `Total unabridged rows across 42 masterworks equals 5,364 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -555,53 +557,62 @@ window.selectSection('all');
 const brokenWorldAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(brokenWorldAllRestored === 110, `All 110 dialogue lines restored upon selecting "All Sections" for Le Monde cassé`);
 
-// Test Switch to Être et avoir (Verbatim 105 paragraphs)
+// Test Switch to Être et avoir (Unabridged 664 paragraphs across 6 Sections)
 window.switchWork('etre-et-avoir');
-const beingHavingRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(beingHavingRows === 105, `Rendered full 105 verbatim entries for Être et avoir (actual: ${beingHavingRows})`);
-
-// Test Part Filtering for Être et avoir
-window.selectSection('part-1');
-const part1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(part1Rows === 35, `Part I filtered to exactly 35 entries (actual: ${part1Rows})`);
-
-window.selectSection('part-2');
-const part2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(part2Rows === 35, `Part II filtered to exactly 35 entries (actual: ${part2Rows})`);
-
-window.selectSection('part-3');
-const part3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(part3Rows === 35, `Part III filtered to exactly 35 entries (actual: ${part3Rows})`);
+// By default, multi-section unabridged works (>200 paras) open at section 1 (preface)
+const beingHavingInitialRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(beingHavingInitialRows === 10, `Initial chapter view defaults to Section 1 (Preface: 10 entries, actual: ${beingHavingInitialRows})`);
 
 window.selectSection('all');
-const beingHavingAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(beingHavingAllRestored === 105, `All 105 entries restored upon selecting "All Sections" for Être et avoir`);
+const beingHavingAllRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(beingHavingAllRows === 664, `All 664 unabridged paragraphs rendered for Être et avoir (actual: ${beingHavingAllRows})`);
 
-// Test Switch to The Mystery of Being, Vol. 1 (Verbatim 105 paragraphs)
+// Test Section Filtering for Être et avoir
+window.selectSection('diary-1928-1929');
+const diary1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(diary1Rows === 163, `Diary 1928-1929 filtered to exactly 163 entries (actual: ${diary1Rows})`);
+
+window.selectSection('diary-1930-1931');
+const diary2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(diary2Rows === 202, `Diary 1930-1931 filtered to exactly 202 entries (actual: ${diary2Rows})`);
+
+window.selectSection('diary-1932-1933');
+const diary3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(diary3Rows === 107, `Diary 1932-1933 filtered to exactly 107 entries (actual: ${diary3Rows})`);
+
+window.selectSection('phenomenology-of-having');
+const phenomRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(phenomRows === 63, `Phenomenology of Having filtered to exactly 63 entries (actual: ${phenomRows})`);
+
+window.selectSection('faith-and-reality');
+const faithRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(faithRows === 119, `Faith and Reality filtered to exactly 119 entries (actual: ${faithRows})`);
+
+// Test Switch to The Mystery of Being, Vol. 1 (Unabridged 415 paragraphs across 10 Lectures)
 window.switchWork('mystere-de-letre-1');
-const mystery1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mystery1Rows === 105, `Rendered full 105 verbatim lecture paragraphs for Mystery of Being Vol. 1 (actual: ${mystery1Rows})`);
+const mystery1InitialRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mystery1InitialRows === 36, `Initial chapter view defaults to Lecture 1 (36 paras, actual: ${mystery1InitialRows})`);
+
+window.selectSection('all');
+const mystery1AllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(mystery1AllRestored === 415, `All 415 unabridged lecture paragraphs restored upon selecting "All Sections" for Mystery of Being Vol. 1 (actual: ${mystery1AllRestored})`);
 
 // Test Lecture Filtering for Mystery of Being Vol. 1
 window.selectSection('lec-1');
 const lec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lec1Rows === 10, `Lecture 1 filtered to exactly 10 paragraphs (actual: ${lec1Rows})`);
+assert(lec1Rows === 36, `Lecture 1 filtered to exactly 36 paragraphs (actual: ${lec1Rows})`);
 
 window.selectSection('lec-2');
 const lec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lec2Rows === 11, `Lecture 2 filtered to exactly 11 paragraphs (actual: ${lec2Rows})`);
+assert(lec2Rows === 32, `Lecture 2 filtered to exactly 32 paragraphs (actual: ${lec2Rows})`);
 
 window.selectSection('lec-5');
 const lec5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lec5Rows === 11, `Lecture 5 filtered to exactly 11 paragraphs (actual: ${lec5Rows})`);
+assert(lec5Rows === 56, `Lecture 5 filtered to exactly 56 paragraphs (actual: ${lec5Rows})`);
 
 window.selectSection('lec-10');
 const lec10Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lec10Rows === 10, `Lecture 10 filtered to exactly 10 paragraphs (actual: ${lec10Rows})`);
-
-window.selectSection('all');
-const mystery1AllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mystery1AllRestored === 105, `All 105 lecture paragraphs restored upon selecting "All Sections" for Mystery of Being Vol. 1`);
+assert(lec10Rows === 56, `Lecture 10 filtered to exactly 56 paragraphs (actual: ${lec10Rows})`);
 
 // Test Switch to The Mystery of Being, Vol. 2 (Verbatim 105 paragraphs)
 window.switchWork('mystere-de-letre-2');
@@ -1077,27 +1088,32 @@ window.selectSection('all');
 const lccAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(lccAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Le Chemin de Crète`);
 
-// 19. Test Switch to Le Déclin de la sagesse (Verbatim 100 paragraphs across 3 Parts)
+// 19. Test Switch to Le Déclin de la sagesse (Unabridged 180 paragraphs across Foreword and 3 Parts)
 window.switchWork('le-declin-de-la-sagesse');
+window.selectSection('all');
 const ldsRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldsRows === 100, `Rendered full 100 verbatim paragraphs for Le Déclin de la sagesse (actual: ${ldsRows})`);
+assert(ldsRows === 180, `Rendered full 180 unabridged paragraphs for Le Déclin de la sagesse (actual: ${ldsRows})`);
 
 // Test Part Filtering for Le Déclin de la sagesse
+window.selectSection('foreword');
+const ldsForewordRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(ldsForewordRows === 5, `Le Déclin de la sagesse Foreword filtered to exactly 5 paragraphs (actual: ${ldsForewordRows})`);
+
 window.selectSection('part-1');
 const ldsPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldsPart1Rows === 34, `Le Déclin de la sagesse Part I filtered to exactly 34 paragraphs (actual: ${ldsPart1Rows})`);
+assert(ldsPart1Rows === 81, `Le Déclin de la sagesse Part I filtered to exactly 81 paragraphs (actual: ${ldsPart1Rows})`);
 
 window.selectSection('part-2');
 const ldsPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldsPart2Rows === 33, `Le Déclin de la sagesse Part II filtered to exactly 33 paragraphs (actual: ${ldsPart2Rows})`);
+assert(ldsPart2Rows === 47, `Le Déclin de la sagesse Part II filtered to exactly 47 paragraphs (actual: ${ldsPart2Rows})`);
 
 window.selectSection('part-3');
 const ldsPart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldsPart3Rows === 33, `Le Déclin de la sagesse Part III filtered to exactly 33 paragraphs (actual: ${ldsPart3Rows})`);
+assert(ldsPart3Rows === 47, `Le Déclin de la sagesse Part III filtered to exactly 47 paragraphs (actual: ${ldsPart3Rows})`);
 
 window.selectSection('all');
 const ldsAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldsAllRestored === 100, `All 100 paragraphs restored upon selecting "All Sections" for Le Déclin de la sagesse`);
+assert(ldsAllRestored === 180, `All 180 paragraphs restored upon selecting "All Sections" for Le Déclin de la sagesse`);
 
 // 20. Test Switch to Théâtre et religion (Verbatim 100 paragraphs across 3 Aesthetic Treatises)
 window.switchWork('theatre-et-religion');

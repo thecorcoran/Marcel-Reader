@@ -36,11 +36,14 @@
       "companionTitle": "On the Ontological Mystery (1933)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (105 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (6 Sections, 664 Paras, 80k Words)",
       "sections": [
-        { "id": "part-1", "titleFr": "Première partie (1928-1929) : Le problème du corps, l'avoir et le recueillement", "titleEn": "Part I (1928-1929): The Problem of the Body, Having, and Inward Recollection" },
-        { "id": "part-2", "titleFr": "Deuxième partie (1930-1931) : La foi, le témoignage et la présence d'autrui", "titleEn": "Part II (1930-1931): Faith, Testimony, and the Presence of the Other" },
-        { "id": "part-3", "titleFr": "Troisième partie (1932-1933) : La fidélité créatrice et l'exigence ontologique", "titleEn": "Part III (1932-1933): Creative Fidelity and the Ontological Exigence" }
+        { "id": "preface", "titleFr": "Préface de D. M. MacKinnon", "titleEn": "Preface by D. M. MacKinnon" },
+        { "id": "diary-1928-1929", "titleFr": "Journal métaphysique (1928-1929) : Le problème du corps et de l'incarnation", "titleEn": "Metaphysical Diary (1928-1929): The Body and Incarnation" },
+        { "id": "diary-1930-1931", "titleFr": "Journal métaphysique (1930-1931) : L'avoir, l'être et la présence", "titleEn": "Metaphysical Diary (1930-1931): Having, Being, and Presence" },
+        { "id": "diary-1932-1933", "titleFr": "Journal métaphysique (1932-1933) : La fidélité et l'exigence ontologique", "titleEn": "Metaphysical Diary (1932-1933): Fidelity and the Ontological Exigence" },
+        { "id": "phenomenology-of-having", "titleFr": "Esquisse d'une phénoménologie de l'avoir", "titleEn": "Outlines of a Phenomenology of Having" },
+        { "id": "faith-and-reality", "titleFr": "Foi et Réalité : Trois essais philosophiques", "titleEn": "Faith and Reality: Three Philosophical Essays" }
       ]
     },
     "journal-metaphysique": {
@@ -141,11 +144,12 @@
       "companionTitle": "Men Against Humanity (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 100 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (Foreword + 3 Parts, 180 Paras, 22k Words)",
       "sections": [
-        { "id": "part-1", "titleFr": "Première partie : L'arraisonnement technique et la perte de la sagesse", "titleEn": "Part I: Technical Enframing and the Loss of Wisdom" },
-        { "id": "part-2", "titleFr": "Deuxième partie : Déshumanisation de la cité et primat du rendement", "titleEn": "Part II: Dehumanization of the City and Primacy of Productivity" },
-        { "id": "part-3", "titleFr": "Troisième partie : Vers un réveil spirituel et le retour aux sources", "titleEn": "Part III: Toward Spiritual Awakening and Return to the Sources" }
+        { "id": "foreword", "titleFr": "Avant-propos", "titleEn": "Foreword" },
+        { "id": "part-1", "titleFr": "Première partie : Les limites de la civilisation industrielle", "titleEn": "Part I: The Limitations of Industrial Civilisation" },
+        { "id": "part-2", "titleFr": "Deuxième partie : La notion d'héritage spirituel", "titleEn": "Part II: The Notion of Spiritual Heritage" },
+        { "id": "part-3", "titleFr": "Troisième partie : La dislocation de la notion de sagesse", "titleEn": "Part III: The Breaking Up of the Notion of Wisdom" }
       ]
     },
     "lhomme-problematique": {
@@ -242,18 +246,18 @@
       "companionTitle": "The Mystery of Being, Vol. 2: Faith and Reality (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (10 Lectures, 105 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (10 Lectures, 415 Paras, 93k Words)",
       "sections": [
-        { "id": "lec-1", "titleFr": "Conférence I : Questions de méthode", "titleEn": "Lecture 1: Questions of Method" },
+        { "id": "lec-1", "titleFr": "Conférence I : Questions de méthode (Introduction)", "titleEn": "Lecture 1: Questions of Method (Introduction)" },
         { "id": "lec-2", "titleFr": "Conférence II : Un monde cassé", "titleEn": "Lecture 2: A Broken World" },
         { "id": "lec-3", "titleFr": "Conférence III : Le besoin de transcendance", "titleEn": "Lecture 3: The Need for Transcendence" },
-        { "id": "lec-4", "titleFr": "Conférence IV : La vérité comme valeur : le témoignage", "titleEn": "Lecture 4: Truth as a Value: Bearing Witness" },
-        { "id": "lec-5", "titleFr": "Conférence V : Réflexion primaire et réflexion seconde", "titleEn": "Lecture 5: Primary and Secondary Reflection" },
-        { "id": "lec-6", "titleFr": "Conférence VI : « Ma vie » et l'identité", "titleEn": "Lecture 6: \"My Life\" and Personal Identity" },
-        { "id": "lec-7", "titleFr": "Conférence VII : L'être incarné", "titleEn": "Lecture 7: Incarnate Being" },
-        { "id": "lec-8", "titleFr": "Conférence VIII : L'être en situation", "titleEn": "Lecture 8: Being in a Situation" },
-        { "id": "lec-9", "titleFr": "Conférence IX : L'intersubjectivité et le « nous »", "titleEn": "Lecture 9: Intersubjectivity and the \"We\"" },
-        { "id": "lec-10", "titleFr": "Conférence X : La présence et le mystère de l'être", "titleEn": "Lecture 10: Presence and the Mystery of Being" }
+        { "id": "lec-4", "titleFr": "Conférence IV : La vérité comme valeur : le cadre intelligible", "titleEn": "Lecture 4: Truth as a Value: The Intelligible Background" },
+        { "id": "lec-5", "titleFr": "Conférence V : Réflexion primaire et réflexion seconde : le point d'appui existentiel", "titleEn": "Lecture 5: Primary & Secondary Reflection: The Existential Fulcrum" },
+        { "id": "lec-6", "titleFr": "Conférence VI : Le sentiment comme mode de participation", "titleEn": "Lecture 6: Feeling as a Mode of Participation" },
+        { "id": "lec-7", "titleFr": "Conférence VII : L'être en situation", "titleEn": "Lecture 7: Being in a Situation" },
+        { "id": "lec-8", "titleFr": "Conférence VIII : « Ma vie » et l'identité", "titleEn": "Lecture 8: \"My Life\" and Personal Identity" },
+        { "id": "lec-9", "titleFr": "Conférence IX : L'intersubjectivité et la profondeur", "titleEn": "Lecture 9: Togetherness: Identity and Depth" },
+        { "id": "lec-10", "titleFr": "Conférence X : La présence comme mystère", "titleEn": "Lecture 10: Presence as a Mystery" }
       ]
     },
     "mystere-de-letre-2": {

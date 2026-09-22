@@ -32,6 +32,7 @@ let currentSectionId = "all";
 
 function selectSection(sectionId) {
   currentSectionId = sectionId;
+  window.currentSectionId = sectionId;
   if (currentActiveWork) {
     renderBlocks(currentActiveWork, sectionId);
     const container = document.getElementById("reader-blocks");
@@ -52,9 +53,16 @@ function renderSectionNav(work, targetSectionId) {
   }
 
   sectionNav.style.display = "flex";
-  if (targetSectionId !== null && targetSectionId !== undefined) {
+  if (targetSectionId !== null && targetSectionId !== undefined && targetSectionId !== "auto") {
     currentSectionId = targetSectionId;
+  } else if (targetSectionId === "auto" || !currentSectionId || !work.sections.some(s => s.id === currentSectionId)) {
+    if (work.paragraphs && work.paragraphs.length > 200) {
+      currentSectionId = work.sections[0].id;
+    } else {
+      currentSectionId = "all";
+    }
   }
+  window.currentSectionId = currentSectionId;
 
   const allActive = currentSectionId === "all" ? "active" : "";
   let pillsHtml = `
@@ -122,7 +130,31 @@ function renderBlocks(work, targetSectionId = null) {
     : work.paragraphs;
 
   if (colHeader) colHeader.style.display = "";
-  container.innerHTML = displayParagraphs.map(p => renderParagraphPair(work.id, p)).join("");
+  
+  let html = displayParagraphs.map(p => renderParagraphPair(work.id, p)).join("");
+
+  // Chapter Pagination Footer
+  if (work.sections && work.sections.length > 1) {
+    const secIdx = work.sections.findIndex(s => s.id === currentSectionId);
+    const prevSec = secIdx > 0 ? work.sections[secIdx - 1] : null;
+    const nextSec = (secIdx >= 0 && secIdx < work.sections.length - 1) ? work.sections[secIdx + 1] : null;
+
+    html += `
+      <div class="reader-section-pagination">
+        ${prevSec 
+          ? `<button class="sec-nav-btn prev" onclick="window.selectSection('${prevSec.id}')">← ${escapeHtmlSafe(prevSec.titleEn || prevSec.titleFr)}</button>` 
+          : '<span></span>'}
+        <button class="sec-nav-btn all" onclick="window.selectSection('all')">
+          ${currentSectionId === 'all' ? 'Showing All Sections' : 'View All Sections'} (${work.paragraphs.length})
+        </button>
+        ${nextSec 
+          ? `<button class="sec-nav-btn next" onclick="window.selectSection('${nextSec.id}')">${escapeHtmlSafe(nextSec.titleEn || nextSec.titleFr)} →</button>` 
+          : '<span></span>'}
+      </div>
+    `;
+  }
+
+  container.innerHTML = html;
 
   setupPairHover();
   setupTermClicks();

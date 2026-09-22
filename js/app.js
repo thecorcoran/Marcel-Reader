@@ -1166,7 +1166,7 @@ function switchWork(workId) {
   loadWork(workId);
 }
 
-function loadWork(workId, sectionId = "all") {
+function loadWork(workId, sectionId = "auto") {
   if (!window.MARCEL_CORPUS) return;
   const work = window.MARCEL_CORPUS[workId];
   if (!work) return;
