@@ -500,7 +500,7 @@
       "companionTitle": "Creative Fidelity (1940)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 110 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 1,050 Rows, 50k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le chalet suisse et les fils entremêlés d'Ariane", "titleEn": "Act I: The Swiss Chalet and the Interwoven Threads of Ariadne" },
         { "id": "act-2", "titleFr": "Acte II : La séduction spirituelle et la démission de Jérôme", "titleEn": "Act II: Spiritual Seduction and Jérôme's Abdication" },

@@ -384,7 +384,7 @@ assert(laChapelleArdente.paragraphs.length === 1036, `${laChapelleArdente.titleE
 assert(laChapelleArdente.sections.length === 3, `${laChapelleArdente.titleEn}: Defines all III Acts`);
 
 assert(leCheminDeCrete.unabridged === true, `${leCheminDeCrete.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(leCheminDeCrete.paragraphs.length === 110, `${leCheminDeCrete.titleEn}: Contains complete 110 verbatim dialogue rows`);
+assert(leCheminDeCrete.paragraphs.length === 1050, `${leCheminDeCrete.titleEn}: Contains complete 1,050 verbatim dialogue rows`);
 assert(leCheminDeCrete.sections.length === 4, `${leCheminDeCrete.titleEn}: Defines all IV Acts`);
 
 assert(leDeclin.unabridged === true, `${leDeclin.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -482,7 +482,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 12605, `Total unabridged rows across 42 masterworks equals 12,605 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 13545, `Total unabridged rows across 42 masterworks equals 13,545 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1054,31 +1054,31 @@ window.selectSection('all');
 const lcaAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(lcaAllRestored === 1036, `All 1,036 dialogue rows restored upon selecting "All Sections" for La Chapelle ardente`);
 
-// 18. Test Switch to Le Chemin de Crète (Verbatim 110 dialogue rows across 4 Acts)
+// 18. Test Switch to Le Chemin de Crète (Verbatim 1,050 dialogue rows across 4 Acts)
 window.switchWork('le-chemin-de-crete');
 const lccRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lccRows === 110, `Rendered full 110 verbatim dialogue rows for Le Chemin de Crète (actual: ${lccRows})`);
+assert(lccRows === 260, `Smart default renders Act I (260 dialogue rows) for Le Chemin de Crète (actual: ${lccRows})`);
 
 // Test Act Filtering for Le Chemin de Crète
 window.selectSection('act-1');
 const lccAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lccAct1Rows === 28, `Le Chemin de Crète Act I filtered to exactly 28 dialogue rows (actual: ${lccAct1Rows})`);
+assert(lccAct1Rows === 260, `Le Chemin de Crète Act I filtered to exactly 260 dialogue rows (actual: ${lccAct1Rows})`);
 
 window.selectSection('act-2');
 const lccAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lccAct2Rows === 28, `Le Chemin de Crète Act II filtered to exactly 28 dialogue rows (actual: ${lccAct2Rows})`);
+assert(lccAct2Rows === 260, `Le Chemin de Crète Act II filtered to exactly 260 dialogue rows (actual: ${lccAct2Rows})`);
 
 window.selectSection('act-3');
 const lccAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lccAct3Rows === 28, `Le Chemin de Crète Act III filtered to exactly 28 dialogue rows (actual: ${lccAct3Rows})`);
+assert(lccAct3Rows === 260, `Le Chemin de Crète Act III filtered to exactly 260 dialogue rows (actual: ${lccAct3Rows})`);
 
 window.selectSection('act-4');
 const lccAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lccAct4Rows === 26, `Le Chemin de Crète Act IV filtered to exactly 26 dialogue rows (actual: ${lccAct4Rows})`);
+assert(lccAct4Rows === 270, `Le Chemin de Crète Act IV filtered to exactly 270 dialogue rows (actual: ${lccAct4Rows})`);
 
 window.selectSection('all');
 const lccAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lccAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Le Chemin de Crète`);
+assert(lccAllRestored === 1050, `All 1,050 dialogue rows restored upon selecting "All Sections" for Le Chemin de Crète`);
 
 // 19. Test Switch to Le Déclin de la sagesse (Unabridged 180 paragraphs across Foreword and 3 Parts)
 window.switchWork('le-declin-de-la-sagesse');
