@@ -17,13 +17,13 @@
       "companionTitle": "The Broken World (1933)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (105 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (5 Sections, 125 Paras, 25k Words)",
       "sections": [
         { "id": "sec-1", "titleFr": "I. Le monde cassé et la vie fonctionnalisée", "titleEn": "I. The Broken World and the Functionalized Life" },
-        { "id": "sec-2", "titleFr": "II. L'exigence ontologique : problème et mystère", "titleEn": "II. The Ontological Exigence: Problem and Mystery" },
-        { "id": "sec-3", "titleFr": "III. Réflexion primaire et réflexion seconde", "titleEn": "III. Primary and Secondary Reflection" },
-        { "id": "sec-4", "titleFr": "IV. L'indisponibilité et le recueillement", "titleEn": "IV. Spiritual Opacity and Inward Recollection" },
-        { "id": "sec-5", "titleFr": "V. L'espérance et la fidélité créatrice", "titleEn": "V. Hope and Creative Fidelity" }
+        { "id": "sec-2", "titleFr": "II. L'exigence ontologique : distinction du problème et du mystère", "titleEn": "II. The Ontological Exigence: Distinction Between Problem and Mystery" },
+        { "id": "sec-3", "titleFr": "III. Réflexion primaire et réflexion seconde : l'incarnation", "titleEn": "III. Primary and Secondary Reflection: Incarnation and Recollection" },
+        { "id": "sec-4", "titleFr": "IV. L'espérance, le désespoir et l'ordre métaproblématique", "titleEn": "IV. Hope, Despair, and the Metaproblematic Order" },
+        { "id": "sec-5", "titleFr": "V. La fidélité créatrice et l'inviolabilité de l'esprit", "titleEn": "V. Creative Fidelity and the Inviolability of the Spirit" }
       ]
     },
     "etre-et-avoir": {

@@ -315,7 +315,7 @@ const unabridgedList = [
 ];
 
 assert(ontMystery.unabridged === true, `${ontMystery.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(ontMystery.paragraphs.length === 105, `${ontMystery.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(ontMystery.paragraphs.length === 125, `${ontMystery.titleEn}: Contains complete 125 verbatim paragraphs`);
 
 assert(brokenWorld.unabridged === true, `${brokenWorld.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(brokenWorld.paragraphs.length === 110, `${brokenWorld.titleEn}: Contains complete 110 verbatim dramatic paragraphs`);
@@ -510,18 +510,18 @@ require(path.join(root, 'js/app.js'));
 // Test initial load of Ontological Mystery
 window.loadWork('positions-mystere-ontologique');
 const initialRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(initialRows === 105, `Rendered full 105 verified verbatim paragraphs for Ontological Mystery (actual: ${initialRows})`);
+assert(initialRows === 125, `Rendered full 125 verified verbatim paragraphs for Ontological Mystery (actual: ${initialRows})`);
 assert(getEl('section-nav').style.display === 'flex', 'Section navigation bar is visible for multi-section work');
 assert(getEl('section-pills').innerHTML.includes('Section I') || getEl('section-pills').innerHTML.includes('I. The Broken World') || getEl('section-pills').innerHTML.includes('Le monde cassé'), 'Section pills rendered in navigation bar');
 
 // Test Section Filtering for Ontological Mystery
 window.selectSection('sec-1');
 const sec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(sec1Rows === 20, `Section I filtered to exactly 20 paragraphs (actual: ${sec1Rows})`);
+assert(sec1Rows === 25, `Section I filtered to exactly 25 paragraphs (actual: ${sec1Rows})`);
 
 window.selectSection('sec-2');
 const sec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(sec2Rows === 20, `Section II filtered to exactly 20 paragraphs (actual: ${sec2Rows})`);
+assert(sec2Rows === 25, `Section II filtered to exactly 25 paragraphs (actual: ${sec2Rows})`);
 
 window.selectSection('sec-5');
 const sec5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
@@ -529,7 +529,7 @@ assert(sec5Rows === 25, `Section V filtered to exactly 25 paragraphs (actual: ${
 
 window.selectSection('all');
 const allRowsRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(allRowsRestored === 105, `All 105 paragraphs restored upon selecting "All Sections"`);
+assert(allRowsRestored === 125, `All 125 paragraphs restored upon selecting "All Sections"`);
 
 // Test Switch to Le Monde cassé (Verbatim 110 paragraphs)
 window.switchWork('le-monde-casse');
