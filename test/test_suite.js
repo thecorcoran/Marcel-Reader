@@ -117,7 +117,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v17'), 'Service Worker defines cache version v17');
+assert(swContent.includes('marcel-reader-v18'), 'Service Worker defines cache version v18');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
