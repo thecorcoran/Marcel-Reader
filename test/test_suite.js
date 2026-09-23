@@ -189,6 +189,10 @@ assert(html.includes('id="btn-cite-work"'), 'HTML contains btn-cite-work toolbar
 assert(html.includes('id="btn-copy-citation"'), 'HTML contains btn-copy-citation button');
 assert(html.includes('id="btn-download-bib"'), 'HTML contains btn-download-bib button');
 assert(html.includes('id="btn-download-md"'), 'HTML contains btn-download-md button');
+assert(html.includes('id="last-updated-badge"'), 'HTML contains last-updated-badge element');
+assert(html.includes('id="last-updated-date"'), 'HTML contains last-updated-date element');
+assert(html.includes('id="site-footer"'), 'HTML contains site-footer element');
+assert(html.includes('id="reader-edition-meta"'), 'HTML contains reader-edition-meta element');
 assert(!html.endsWith('scr\n') && !html.endsWith('scr'), 'HTML does not have stray characters at EOF');
 
 // ----------------------------------------------------
@@ -1799,6 +1803,30 @@ assert(getEl('citation-output-box').textContent.includes('Marcel, G.'), 'Format 
 window.closeCitationModal();
 assert(getEl('citation-modal-backdrop').style.display === 'none', 'Citation modal backdrop hidden on close');
 assert(!getEl('citation-modal-backdrop').classList.contains('open'), 'Citation modal open class removed on close');
+
+// ----------------------------------------------------
+// Test Group 9: Corpus Metadata & Last Updated Feature
+// ----------------------------------------------------
+console.log('\n9. Verifying Corpus Metadata & Last Updated Feature:');
+const corpusModule = require(path.join(root, 'data/corpus.js'));
+const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
+
+assert(!!meta, 'Corpus metadata is defined and exported');
+assert(meta.lastUpdated === '2026-09-23', 'Corpus metadata lastUpdated is 2026-09-23');
+assert(meta.version === 'Wave 11', 'Corpus metadata version is Wave 11');
+assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
+assert(meta.unabridgedWorks === 15, 'Corpus metadata reports 15 unabridged flagship works');
+assert(meta.foundationalWorks === 27, 'Corpus metadata reports 27 foundational study editions');
+assert(meta.totalUnabridgedRows === 13545, 'Corpus metadata reports 13,545 unabridged rows');
+
+// Verify Last Updated DOM elements populated by app controller
+if (typeof window.initLastUpdatedDisplay === 'function') {
+  window.initLastUpdatedDisplay();
+}
+assert(getEl('last-updated-date').textContent.includes('September 23, 2026'), 'Hero last-updated-date populated with formatted date');
+assert(getEl('last-updated-version').textContent === 'Wave 11', 'Hero last-updated-version populated with Wave 11');
+assert(getEl('footer-updated-date').textContent.includes('September 23, 2026'), 'Footer last-updated-date populated with formatted date');
+assert(getEl('reader-updated-date').textContent.includes('September 23, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
 console.log('\n====================================================');
 console.log(`🎉 TEST RUN COMPLETE: ${passedTests}/${totalTests} TESTS PASSED`);

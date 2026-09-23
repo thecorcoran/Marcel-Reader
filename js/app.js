@@ -878,11 +878,37 @@ function renderConcordanceSection(activeKey = 'disponibilite') {
   }).join('');
 }
 
+function initLastUpdatedDisplay() {
+  const meta = (window.MARCEL_CORPUS_METADATA) || (window.MARCEL_CORPUS && window.MARCEL_CORPUS.metadata) || {
+    lastUpdated: "2026-09-23",
+    lastUpdatedFormatted: "September 23, 2026",
+    version: "Wave 11"
+  };
+
+  const heroDate = document.getElementById("last-updated-date");
+  if (heroDate && meta.lastUpdatedFormatted) heroDate.textContent = meta.lastUpdatedFormatted;
+
+  const heroVer = document.getElementById("last-updated-version");
+  if (heroVer && meta.version) heroVer.textContent = meta.version;
+
+  const footerDate = document.getElementById("footer-updated-date");
+  if (footerDate && meta.lastUpdatedFormatted) footerDate.textContent = meta.lastUpdatedFormatted;
+
+  const footerWave = document.getElementById("footer-updated-wave");
+  if (footerWave && meta.version) footerWave.textContent = meta.version;
+
+  const readerDate = document.getElementById("reader-updated-date");
+  if (readerDate && meta.lastUpdatedFormatted) {
+    readerDate.textContent = `${meta.lastUpdatedFormatted} (${meta.version || 'Latest'})`;
+  }
+}
+
 function initApp() {
   initTheme();
   initFontSize();
   initServiceWorker();
   setupModalFocusTraps();
+  initLastUpdatedDisplay();
 
   populateWorkDropdown();
   if (typeof window.initNotes === "function") window.initNotes();
@@ -983,6 +1009,7 @@ function showMainPage() {
   renderIntellectualTimeline();
   renderConcordanceSection(selectedConcordanceConcept);
   renderMainCatalog(currentCatalogFilter, currentCatalogQuery);
+  initLastUpdatedDisplay();
   if (typeof window.scrollTo === "function") {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }

@@ -792,13 +792,34 @@
     }
   };
 
+  const CORPUS_METADATA = {
+    lastUpdated: "2026-09-23",
+    lastUpdatedFormatted: "September 23, 2026",
+    version: "Wave 11",
+    totalWorks: 42,
+    unabridgedWorks: 15,
+    foundationalWorks: 27,
+    totalUnabridgedRows: 13545,
+    totalCorpusRows: 16365,
+    totalWordsEstimate: "1,550,000+"
+  };
+
+  Object.defineProperty(CORPUS_DATA, "metadata", {
+    value: CORPUS_METADATA,
+    enumerable: false,
+    configurable: true,
+    writable: true
+  });
+
   // Browser global registration
   if (typeof window !== "undefined") {
     window.MARCEL_CORPUS = CORPUS_DATA;
+    window.MARCEL_CORPUS_METADATA = CORPUS_METADATA;
   }
 
   // Node.js module export
   if (typeof module !== "undefined" && module.exports) {
     module.exports = CORPUS_DATA;
+    module.exports.metadata = CORPUS_METADATA;
   }
 })();
