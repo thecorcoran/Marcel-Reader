@@ -447,7 +447,7 @@
       "companionTitle": "Presence and Immortality (1959)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 1,036 Rows, 16.4k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : La chambre du souvenir et le culte d'Octave", "titleEn": "Act I: The Chamber of Memory and the Cult of Octave" },
         { "id": "act-2", "titleFr": "Acte II : La possession tyrannique d'Aline et le doute de Mireille", "titleEn": "Act II: The Tyrannical Possession of Aline and Mireille's Doubt" },

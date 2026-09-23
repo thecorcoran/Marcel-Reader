@@ -380,7 +380,7 @@ assert(pourUneSagesseTragique.paragraphs.length === 105, `${pourUneSagesseTragiq
 assert(pourUneSagesseTragique.sections.length === 2, `${pourUneSagesseTragique.titleEn}: Defines 2 Major Sections`);
 
 assert(laChapelleArdente.unabridged === true, `${laChapelleArdente.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(laChapelleArdente.paragraphs.length === 105, `${laChapelleArdente.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(laChapelleArdente.paragraphs.length === 1036, `${laChapelleArdente.titleEn}: Contains complete 1,036 verbatim dialogue rows`);
 assert(laChapelleArdente.sections.length === 3, `${laChapelleArdente.titleEn}: Defines all III Acts`);
 
 assert(leCheminDeCrete.unabridged === true, `${leCheminDeCrete.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -482,7 +482,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 8362, `Total unabridged rows across 42 masterworks equals 8,362 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 9293, `Total unabridged rows across 42 masterworks equals 9,293 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1032,27 +1032,27 @@ window.selectSection('all');
 const pustAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(pustAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Pour une sagesse tragique`);
 
-// 17. Test Switch to La Chapelle ardente (Verbatim 105 dialogue rows across 3 Acts)
+// 17. Test Switch to La Chapelle ardente (Verbatim 1,036 dialogue rows across 3 Acts)
 window.switchWork('la-chapelle-ardente');
 const lcaRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcaRows === 105, `Rendered full 105 verbatim dialogue rows for La Chapelle ardente (actual: ${lcaRows})`);
+assert(lcaRows === 316, `Smart default renders Act I (316 dialogue rows) for La Chapelle ardente (actual: ${lcaRows})`);
 
 // Test Act Filtering for La Chapelle ardente
 window.selectSection('act-1');
 const lcaAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcaAct1Rows === 35, `La Chapelle ardente Act I filtered to exactly 35 dialogue rows (actual: ${lcaAct1Rows})`);
+assert(lcaAct1Rows === 316, `La Chapelle ardente Act I filtered to exactly 316 dialogue rows (actual: ${lcaAct1Rows})`);
 
 window.selectSection('act-2');
 const lcaAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcaAct2Rows === 35, `La Chapelle ardente Act II filtered to exactly 35 dialogue rows (actual: ${lcaAct2Rows})`);
+assert(lcaAct2Rows === 394, `La Chapelle ardente Act II filtered to exactly 394 dialogue rows (actual: ${lcaAct2Rows})`);
 
 window.selectSection('act-3');
 const lcaAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcaAct3Rows === 35, `La Chapelle ardente Act III filtered to exactly 35 dialogue rows (actual: ${lcaAct3Rows})`);
+assert(lcaAct3Rows === 326, `La Chapelle ardente Act III filtered to exactly 326 dialogue rows (actual: ${lcaAct3Rows})`);
 
 window.selectSection('all');
 const lcaAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lcaAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for La Chapelle ardente`);
+assert(lcaAllRestored === 1036, `All 1,036 dialogue rows restored upon selecting "All Sections" for La Chapelle ardente`);
 
 // 18. Test Switch to Le Chemin de Crète (Verbatim 110 dialogue rows across 4 Acts)
 window.switchWork('le-chemin-de-crete');
