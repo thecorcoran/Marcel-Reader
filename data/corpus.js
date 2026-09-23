@@ -518,11 +518,11 @@
       "companionTitle": "Creative Fidelity (1940)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 1,177 Rows, 20k Words)",
       "sections": [
-        { "id": "act-1", "titleFr": "Acte I : Le pavillon de banlieue et le refuge de Werner Schnee", "titleEn": "Act I: The Suburban Villa and Werner Schnee's Refuge" },
-        { "id": "act-2", "titleFr": "Acte II : L'aigreur politique et le ressentiment idéologique", "titleEn": "Act II: Political Rancor and Ideological Resentment" },
-        { "id": "act-3", "titleFr": "Acte III : Le sacrifice et le dépassement du dard", "titleEn": "Act III: The Sacrifice and the Extraction of the Sting" }
+        { "id": "act-1", "titleFr": "Acte I : Le refuge de banlieue et le ressentiment d'Eustache", "titleEn": "Act I: The Suburban Refuge and Eustache's Resentment" },
+        { "id": "act-2", "titleFr": "Acte II : La musique, la politique et la trahison intime", "titleEn": "Act II: Music, Politics, and Intimate Betrayal" },
+        { "id": "act-3", "titleFr": "Acte III : Le sacrifice de Werner et le viatique des vivants", "titleEn": "Act III: Werner's Sacrifice and the Viaticum of the Living" }
       ]
     },
     "la-soif": {

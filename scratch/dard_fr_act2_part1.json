@@ -1,0 +1,1367 @@
+[
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[ACTE II]",
+    "id": "p-0505",
+    "fr": "[ACTE II]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "Même décor. Quelques semaines plus tard.",
+    "id": "p-0506",
+    "fr": "Même décor. Quelques semaines plus tard."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE I]",
+    "id": "p-0507",
+    "fr": "[SCÈNE I]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE, BÉATRICE, WERNER, GISELA.",
+    "text": "(Gisela est au piano; Werner s'apprête à chanter.)",
+    "id": "p-0508",
+    "fr": "EUSTACHE, BÉATRICE, WERNER, GISELA. : (Gisela est au piano; Werner s'apprête à chanter.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Celle-là, je suis sûr que vous ne la connaissez pas. C'est une toute petite... personne ne la chante jamais. C'est une chanson du livre de Suleika, de Gœthe. (A Gisela.) Also ganz leise, bitte, Gisela. (Il chante.) Wenn ich dein gedenke Fragt mich gleich der Schenke : Herr, warum so still? Da von deinen Lehren Immer weiter hören Saki gerne will. Wenn ich mich vergesse Unter der Zypresse, Hält er nichts davon; Und im stillen Kreise Bin ich doch so weise, Klug wie Salomon (1). (1) Hugo WOLF. Gœthe-Lieder, IV, p. 40-41.",
+    "id": "p-0509",
+    "fr": "WERNER : Celle-là, je suis sûr que vous ne la connaissez pas. C'est une toute petite... personne ne la chante jamais. C'est une chanson du livre de Suleika, de Gœthe. (A Gisela.) Also ganz leise, bitte, Gisela. (Il chante.) Wenn ich dein gedenke Fragt mich gleich der Schenke : Herr, warum so still? Da von deinen Lehren Immer weiter hören Saki gerne will. Wenn ich mich vergesse Unter der Zypresse, Hält er nichts davon; Und im stillen Kreise Bin ich doch so weise, Klug wie Salomon (1). (1) Hugo WOLF. Gœthe-Lieder, IV, p. 40-41."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "C'est exquis... et cette inflexion... l'arrivée ici sur l'accord de si bémol...",
+    "id": "p-0510",
+    "fr": "BÉATRICE : C'est exquis... et cette inflexion... l'arrivée ici sur l'accord de si bémol..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, content.",
+    "text": "N'est-ce pas? je suis content que vous avez remarqué.",
+    "id": "p-0511",
+    "fr": "WERNER, content. : N'est-ce pas? je suis content que vous avez remarqué."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "Mais pourquoi tu ne chantes pas plutôt du Strauss?",
+    "id": "p-0512",
+    "fr": "GISELA : Mais pourquoi tu ne chantes pas plutôt du Strauss?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je n'aime pas.",
+    "id": "p-0513",
+    "fr": "WERNER : Je n'aime pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, à Eustache.",
+    "text": "Qu'est-ce que tu en dis, Eustache?",
+    "id": "p-0514",
+    "fr": "BÉATRICE, à Eustache. : Qu'est-ce que tu en dis, Eustache?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE, sèchement.",
+    "text": "Ça me paraît agréable.",
+    "id": "p-0515",
+    "fr": "EUSTACHE, sèchement. : Ça me paraît agréable."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Mais comment, agréable? Il y a une forme là dedans, un style; c'est pourtant l'essentiel.",
+    "id": "p-0516",
+    "fr": "WERNER : Mais comment, agréable? Il y a une forme là dedans, un style; c'est pourtant l'essentiel."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Si tu veux mon opinion, je trouve ça morbide.",
+    "id": "p-0517",
+    "fr": "EUSTACHE : Si tu veux mon opinion, je trouve ça morbide."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Comment morbide? qu'est-ce que c'est?",
+    "id": "p-0518",
+    "fr": "WERNER : Comment morbide? qu'est-ce que c'est?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE, s'échauffant.",
+    "text": "Au temps où nous sommes, on ne peut plus se passionner pour ces petits raffinements.",
+    "id": "p-0519",
+    "fr": "EUSTACHE, s'échauffant. : Au temps où nous sommes, on ne peut plus se passionner pour ces petits raffinements."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, avec simplicité.",
+    "text": "Je ne comprends pas.",
+    "id": "p-0520",
+    "fr": "WERNER, avec simplicité. : Je ne comprends pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Il nous faut une musique qui s'adresse aux foules.",
+    "id": "p-0521",
+    "fr": "EUSTACHE : Il nous faut une musique qui s'adresse aux foules."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Il te faut des trombones et des tubas...",
+    "id": "p-0522",
+    "fr": "WERNER : Il te faut des trombones et des tubas..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Cette musique-là s'adresse aux oisifs, c'est un superflu. L'art tel que je le conçois doit être nécessaire.",
+    "id": "p-0523",
+    "fr": "EUSTACHE : Cette musique-là s'adresse aux oisifs, c'est un superflu. L'art tel que je le conçois doit être nécessaire."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, à Béatrice en riant.",
+    "text": "C'est si drôle ce qu'il dit.",
+    "id": "p-0524",
+    "fr": "WERNER, à Béatrice en riant. : C'est si drôle ce qu'il dit."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE, piqué.",
+    "text": "Je ne vois pas.",
+    "id": "p-0525",
+    "fr": "EUSTACHE, piqué. : Je ne vois pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Mozart, par exemple, qu'est-ce que tu penses de Mozart?",
+    "id": "p-0526",
+    "fr": "WERNER : Mozart, par exemple, qu'est-ce que tu penses de Mozart?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Ne revenons pas sur ce vieux sujet de discussion. Je reconnais qu'il y a probablement là quelque chose qui m'échappe...",
+    "id": "p-0527",
+    "fr": "EUSTACHE : Ne revenons pas sur ce vieux sujet de discussion. Je reconnais qu'il y a probablement là quelque chose qui m'échappe..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Tu en es quand même un peu fier. (Il rit aux éclats.)",
+    "id": "p-0528",
+    "fr": "WERNER : Tu en es quand même un peu fier. (Il rit aux éclats.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Je préfère parler de ce que j'aime et de ce que je suis sûr d'apprécier.",
+    "id": "p-0529",
+    "fr": "EUSTACHE : Je préfère parler de ce que j'aime et de ce que je suis sûr d'apprécier."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Peut-être même là tu te trompes.",
+    "id": "p-0530",
+    "fr": "WERNER : Peut-être même là tu te trompes."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "Werner!...",
+    "id": "p-0531",
+    "fr": "GISELA : Werner!..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Beethoven...",
+    "id": "p-0532",
+    "fr": "EUSTACHE : Beethoven..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je l'attendais. Mais je crains qu'il y a ici une confusion. Tu pardonnes à Beethoven...",
+    "id": "p-0533",
+    "fr": "WERNER : Je l'attendais. Mais je crains qu'il y a ici une confusion. Tu pardonnes à Beethoven..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE, irrité.",
+    "text": "Je l'admire.",
+    "id": "p-0534",
+    "fr": "EUSTACHE, irrité. : Je l'admire."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "A cause de l'idéologie. (Il prononce « guie ».) Ça n'a rien à voir avec la musique. Absolument rien. Tu crois que la musique doit donner des belles pensées. Mais ce n'est pas vrai. Tu crois aussi qu'elle est un instrument pour... comment vous dites? zur Befreiung.",
+    "id": "p-0535",
+    "fr": "WERNER : A cause de l'idéologie. (Il prononce « guie ».) Ça n'a rien à voir avec la musique. Absolument rien. Tu crois que la musique doit donner des belles pensées. Mais ce n'est pas vrai. Tu crois aussi qu'elle est un instrument pour... comment vous dites? zur Befreiung."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "L'émancipation.",
+    "id": "p-0536",
+    "fr": "BÉATRICE : L'émancipation."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Elle n'est pas un instrument; elle a sa valeur par soi-même, une valeur plus grande que toutes les idées. Je ne peux pas expliquer, mais je suis sûr.",
+    "id": "p-0537",
+    "fr": "WERNER : Elle n'est pas un instrument; elle a sa valeur par soi-même, une valeur plus grande que toutes les idées. Je ne peux pas expliquer, mais je suis sûr."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Au fond, tu es un adepte de l'art pour l'art. Mais ça, c'est du passé. Si l'art n'est pas intégré à la vie collective...",
+    "id": "p-0538",
+    "fr": "EUSTACHE : Au fond, tu es un adepte de l'art pour l'art. Mais ça, c'est du passé. Si l'art n'est pas intégré à la vie collective..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Qu'est-ce que ça signifie? tu veux enchaîner l'art, le mettre au service de l'État, peut-être. Tu parles comme un hitlérien, pas autrement.",
+    "id": "p-0539",
+    "fr": "WERNER : Qu'est-ce que ça signifie? tu veux enchaîner l'art, le mettre au service de l'État, peut-être. Tu parles comme un hitlérien, pas autrement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Jamais de la vie. Mais ton individualisme me répugne, parce qu'il fermera toujours les yeux sur l'injustice, et qu'il s'en nourrit.",
+    "id": "p-0540",
+    "fr": "EUSTACHE : Jamais de la vie. Mais ton individualisme me répugne, parce qu'il fermera toujours les yeux sur l'injustice, et qu'il s'en nourrit."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Tu parles toujours des injustices.",
+    "id": "p-0541",
+    "fr": "WERNER : Tu parles toujours des injustices."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Eh bien?",
+    "id": "p-0542",
+    "fr": "EUSTACHE : Eh bien?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Qu'est-ce que tu fais contre les injustices? Tu vas à des réunions; tu cries : à bas le capitalisme! à bas le fascisme! et Dieu sait quoi encore.",
+    "id": "p-0543",
+    "fr": "WERNER : Qu'est-ce que tu fais contre les injustices? Tu vas à des réunions; tu cries : à bas le capitalisme! à bas le fascisme! et Dieu sait quoi encore."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, vivement.",
+    "text": "Vous n'êtes pas équitable, Werner; Eustache ne demande qu'à se sacrifier pour la bonne cause.",
+    "id": "p-0544",
+    "fr": "BÉATRICE, vivement. : Vous n'êtes pas équitable, Werner; Eustache ne demande qu'à se sacrifier pour la bonne cause."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Qu'est-ce que c'est la bonne cause?",
+    "id": "p-0545",
+    "fr": "WERNER : Qu'est-ce que c'est la bonne cause?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Vous savez très bien qu'il sera au premier rang de ceux qui lutteront pour la liberté le jour où elle sera menacée.",
+    "id": "p-0546",
+    "fr": "BÉATRICE : Vous savez très bien qu'il sera au premier rang de ceux qui lutteront pour la liberté le jour où elle sera menacée."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Mais en attendant? (Riant.) Je crois presque qu'il aimerait être à ma place. Mais il ne peut quand même pas se faire chasser pour le plaisir d'être persécuté.",
+    "id": "p-0547",
+    "fr": "WERNER : Mais en attendant? (Riant.) Je crois presque qu'il aimerait être à ma place. Mais il ne peut quand même pas se faire chasser pour le plaisir d'être persécuté."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "Quel plaisir?",
+    "id": "p-0548",
+    "fr": "GISELA : Quel plaisir?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Quelquefois je pense que vous... comment on peut dire? que vous inventez des menaces contre vous qui n'existent pas, simplement pour avoir le droit de dire : je suis en danger, je me bats, je me défends.",
+    "id": "p-0549",
+    "fr": "WERNER : Quelquefois je pense que vous... comment on peut dire? que vous inventez des menaces contre vous qui n'existent pas, simplement pour avoir le droit de dire : je suis en danger, je me bats, je me défends."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Vous autres vous ne pouvez rien comprendre à notre situation.",
+    "id": "p-0550",
+    "fr": "EUSTACHE : Vous autres vous ne pouvez rien comprendre à notre situation."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Naturellement c'est possible. Les partis en France c'est difficile...",
+    "id": "p-0551",
+    "fr": "WERNER : Naturellement c'est possible. Les partis en France c'est difficile..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "S'il te plaît de croire que l'iniquité sociale n'existe pas...",
+    "id": "p-0552",
+    "fr": "EUSTACHE : S'il te plaît de croire que l'iniquité sociale n'existe pas..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Elle a toujours existé. Probablement elle existera toujours. Mozart et Schubert étaient des pauvres diables; quelquefois ils ne savaient pas s'ils auraient à manger. Ils ne disaient quand même pas : je dois faire de la musique révolutionnaire.",
+    "id": "p-0553",
+    "fr": "WERNER : Elle a toujours existé. Probablement elle existera toujours. Mozart et Schubert étaient des pauvres diables; quelquefois ils ne savaient pas s'ils auraient à manger. Ils ne disaient quand même pas : je dois faire de la musique révolutionnaire."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "La conscience s'est développée depuis ce temps-là.",
+    "id": "p-0554",
+    "fr": "EUSTACHE : La conscience s'est développée depuis ce temps-là."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Quelle conscience?",
+    "id": "p-0555",
+    "fr": "WERNER : Quelle conscience?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Il y a des abus que nous ne supportons plus.",
+    "id": "p-0556",
+    "fr": "EUSTACHE : Il y a des abus que nous ne supportons plus."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Pour nous-mêmes ou pour les autres?",
+    "id": "p-0557",
+    "fr": "WERNER : Pour nous-mêmes ou pour les autres?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Pour les autres. Si ce n'est pas un progrès...",
+    "id": "p-0558",
+    "fr": "EUSTACHE : Pour les autres. Si ce n'est pas un progrès..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je ne sais pas. C'est problématique. Il y a toujours eu des gens qui ne permettaient pas que leurs voisins mouraient de faim.",
+    "id": "p-0559",
+    "fr": "WERNER : Je ne sais pas. C'est problématique. Il y a toujours eu des gens qui ne permettaient pas que leurs voisins mouraient de faim."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "C'est la charité individuelle, ça. C'est du passé.",
+    "id": "p-0560",
+    "fr": "EUSTACHE : C'est la charité individuelle, ça. C'est du passé."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Oui, je sais bien, tu crois dans l'assistance publique. Moi je pense seulement que c'est un bureau pour généraliser la mauvaise humeur. Il y a des gens qui disent : si personne n'est satisfait, tout le monde sera un peu content, parce qu'on se dira : je ne suis pas bien, mais mon voisin il n'est pas bien non plus. Moi je dis : il n'y aura plus de malheur peut-être, mais il n'y aura pas de joie non plus. Tout le monde sera de mauvaise humeur. Mais c'est le pire qui peut exister! Avec de la souffrance on peut encore faire de la musique; pas avec de la mauvaise humeur.",
+    "id": "p-0561",
+    "fr": "WERNER : Oui, je sais bien, tu crois dans l'assistance publique. Moi je pense seulement que c'est un bureau pour généraliser la mauvaise humeur. Il y a des gens qui disent : si personne n'est satisfait, tout le monde sera un peu content, parce qu'on se dira : je ne suis pas bien, mais mon voisin il n'est pas bien non plus. Moi je dis : il n'y aura plus de malheur peut-être, mais il n'y aura pas de joie non plus. Tout le monde sera de mauvaise humeur. Mais c'est le pire qui peut exister! Avec de la souffrance on peut encore faire de la musique; pas avec de la mauvaise humeur."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "La musique! c'est très secondaire après tout.",
+    "id": "p-0562",
+    "fr": "EUSTACHE : La musique! c'est très secondaire après tout."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Non, Eustache, ce n'est pas secondaire. Si la musique diminue, si la musique devient plus pauvre, alors la vie aussi diminue, elle devient mesquine. Sans la musique on ne vit plus, on vivote... est-ce qu'on dit ça en français?",
+    "id": "p-0563",
+    "fr": "WERNER : Non, Eustache, ce n'est pas secondaire. Si la musique diminue, si la musique devient plus pauvre, alors la vie aussi diminue, elle devient mesquine. Sans la musique on ne vit plus, on vivote... est-ce qu'on dit ça en français?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Tu vois tout en musicien. C'est une déformation professionnelle.",
+    "id": "p-0564",
+    "fr": "EUSTACHE : Tu vois tout en musicien. C'est une déformation professionnelle."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Possible. (Un silence.) Vous voulez que je chante encore quelque chose?",
+    "id": "p-0565",
+    "fr": "WERNER : Possible. (Un silence.) Vous voulez que je chante encore quelque chose?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Malheureusement il faut que j'aille corriger mes copies. A tout à l'heure. (Il sort.)",
+    "id": "p-0566",
+    "fr": "EUSTACHE : Malheureusement il faut que j'aille corriger mes copies. A tout à l'heure. (Il sort.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE II]",
+    "id": "p-0567",
+    "fr": "[SCÈNE II]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "Il est fâché, on dirait. Tu ne fais pas attention à ce que tu dis. C'est impoli.",
+    "id": "p-0568",
+    "fr": "GISELA : Il est fâché, on dirait. Tu ne fais pas attention à ce que tu dis. C'est impoli."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "La politesse, c'est avec les gens qu'on ne connaît pas. Avec un ami on doit seulement dire ce qu'on pense... C'est trop important.",
+    "id": "p-0569",
+    "fr": "WERNER : La politesse, c'est avec les gens qu'on ne connaît pas. Avec un ami on doit seulement dire ce qu'on pense... C'est trop important."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "Il ne faut quand même pas faire de la peine.",
+    "id": "p-0570",
+    "fr": "GISELA : Il ne faut quand même pas faire de la peine."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "La musique, c'est tout ce qui reste...",
+    "id": "p-0571",
+    "fr": "WERNER : La musique, c'est tout ce qui reste..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "C'est triste pour nous, ce que vous dites là.",
+    "id": "p-0572",
+    "fr": "BÉATRICE : C'est triste pour nous, ce que vous dites là."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je veux dire seulement : la musique, c'est une chose très grande; la politique, c'est une autre chose beau- coup moins grande, je pense; c'est mon opinion en tous cas. Mais ça ne peut pas se mélanger. Mon pauvre cher Rudolf il était musicien, il était aussi communiste : il n'était pas un musicien communiste. Un musicien communiste, das ist Unsinn, weiter nichts.",
+    "id": "p-0573",
+    "fr": "WERNER : Je veux dire seulement : la musique, c'est une chose très grande; la politique, c'est une autre chose beau- coup moins grande, je pense; c'est mon opinion en tous cas. Mais ça ne peut pas se mélanger. Mon pauvre cher Rudolf il était musicien, il était aussi communiste : il n'était pas un musicien communiste. Un musicien communiste, das ist Unsinn, weiter nichts."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "Ça ne m'intéresse pas. Si la politique n'a pas d'importance, pourquoi nous ne sommes pas restés en Allemagne? Tu bavardes tellement.",
+    "id": "p-0574",
+    "fr": "GISELA : Ça ne m'intéresse pas. Si la politique n'a pas d'importance, pourquoi nous ne sommes pas restés en Allemagne? Tu bavardes tellement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Ce n'est pas à cause de la politique que je me suis en allé.",
+    "id": "p-0575",
+    "fr": "WERNER : Ce n'est pas à cause de la politique que je me suis en allé."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "Alors pourquoi? toujours Rudolf. Et il est mort. Ça ne valait pas la peine. On ne peut quand même pas perdre son existence pour un qui est sous la terre.",
+    "id": "p-0576",
+    "fr": "GISELA : Alors pourquoi? toujours Rudolf. Et il est mort. Ça ne valait pas la peine. On ne peut quand même pas perdre son existence pour un qui est sous la terre."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je te prie, Gisela!...",
+    "id": "p-0577",
+    "fr": "WERNER : Je te prie, Gisela!..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "C'est trop absurde. (A Béatrice.) Je suis sûre que vous êtes d'accord.",
+    "id": "p-0578",
+    "fr": "GISELA : C'est trop absurde. (A Béatrice.) Je suis sûre que vous êtes d'accord."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Je ne peux pas me permettre d'avoir un avis; c'est trop grave. Mais je comprends votre mari.",
+    "id": "p-0579",
+    "fr": "BÉATRICE : Je ne peux pas me permettre d'avoir un avis; c'est trop grave. Mais je comprends votre mari."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA",
+    "text": "Eh bien! moi je ne comprends pas. (Elle se lève.) Je vais à Paris maintenant pour acheter cette robe.",
+    "id": "p-0580",
+    "fr": "GISELA : Eh bien! moi je ne comprends pas. (Elle se lève.) Je vais à Paris maintenant pour acheter cette robe."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Quelle robe?",
+    "id": "p-0581",
+    "fr": "WERNER : Quelle robe?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA, impatientée.",
+    "text": "Je te l'ai dit.",
+    "id": "p-0582",
+    "fr": "GISELA, impatientée. : Je te l'ai dit."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, riant.",
+    "text": "Avec quel argent tu la paieras?",
+    "id": "p-0583",
+    "fr": "WERNER, riant. : Avec quel argent tu la paieras?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "GISELA, agacée.",
+    "text": "J'ai encore quelque chose de côté.",
+    "id": "p-0584",
+    "fr": "GISELA, agacée. : J'ai encore quelque chose de côté."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Tant mieux pour toi. (Gisela sort.)",
+    "id": "p-0585",
+    "fr": "WERNER : Tant mieux pour toi. (Gisela sort.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE III]",
+    "id": "p-0586",
+    "fr": "[SCÈNE III]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, BÉATRICE.",
+    "text": "(Werner fume; il a les yeux fixés sur la porte par où Gisela vient de sortir; il hoche la tête en souriant.)",
+    "id": "p-0587",
+    "fr": "WERNER, BÉATRICE. : (Werner fume; il a les yeux fixés sur la porte par où Gisela vient de sortir; il hoche la tête en souriant.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, à mi-voix.",
+    "text": "Werner, j'ai peur que vous ne vous rendiez pas tout à fait compte... (Werner tourne la tête vers elle et la regarde d'un air interrogateur.) Eustache n'est pas heureux; et... comment dire?... il a besoin que les autres le comprennent. Quelquefois, sans le vouloir, j'en suis sûre, vous avez l'air de chercher à le mettre en contradiction avec lui-même, avec ses idées... Mais oui; il a l'impression que vous vous dites : « De quoi se plaint-il? il a une situation assurée, une vie tranquille, pas désagréable du tout... »",
+    "id": "p-0588",
+    "fr": "BÉATRICE, à mi-voix. : Werner, j'ai peur que vous ne vous rendiez pas tout à fait compte... (Werner tourne la tête vers elle et la regarde d'un air interrogateur.) Eustache n'est pas heureux; et... comment dire?... il a besoin que les autres le comprennent. Quelquefois, sans le vouloir, j'en suis sûre, vous avez l'air de chercher à le mettre en contradiction avec lui-même, avec ses idées... Mais oui; il a l'impression que vous vous dites : « De quoi se plaint-il? il a une situation assurée, une vie tranquille, pas désagréable du tout... »"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "C'est vrai, pourtant...",
+    "id": "p-0589",
+    "fr": "WERNER : C'est vrai, pourtant..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "« Pourquoi est-ce qu'il veut tout bouleverser? » Il sent que vous pensez cela, et laissez-moi vous dire que c'est injuste et dangereux. Il y a dans le caractère d'Eustache un trait qui me paraît très noble et que même certains de ses camarades n'ont pas tou- jours su apprécier à sa valeur... Une pensée qui, je crois, ne l'a jamais quitté.",
+    "id": "p-0590",
+    "fr": "BÉATRICE : « Pourquoi est-ce qu'il veut tout bouleverser? » Il sent que vous pensez cela, et laissez-moi vous dire que c'est injuste et dangereux. Il y a dans le caractère d'Eustache un trait qui me paraît très noble et que même certains de ses camarades n'ont pas tou- jours su apprécier à sa valeur... Une pensée qui, je crois, ne l'a jamais quitté."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Quelle pensée?",
+    "id": "p-0591",
+    "fr": "WERNER : Quelle pensée?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "« Ce n'est pas parce que personnellement j'ai eu de la chance, parce que j'ai bénéficié de certaines circonstances favorables que je cesserai de songer à ceux qui n'ont pas eu la même chance, les mêmes facilités. Au contraire. J'y songerai davantage, toujours davantage. Plus j'aurai réussi et plus je cultiverai en moi l'indignation. » Pourquoi riez-vous, Werner?",
+    "id": "p-0592",
+    "fr": "BÉATRICE : « Ce n'est pas parce que personnellement j'ai eu de la chance, parce que j'ai bénéficié de certaines circonstances favorables que je cesserai de songer à ceux qui n'ont pas eu la même chance, les mêmes facilités. Au contraire. J'y songerai davantage, toujours davantage. Plus j'aurai réussi et plus je cultiverai en moi l'indignation. » Pourquoi riez-vous, Werner?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "C'est si drôle de cultiver l'indignation comme un légume... une plante piquante en tous cas. Si on sent l'indignation on n'a pas besoin de la cultiver, et si on ne la sent pas...",
+    "id": "p-0593",
+    "fr": "WERNER : C'est si drôle de cultiver l'indignation comme un légume... une plante piquante en tous cas. Si on sent l'indignation on n'a pas besoin de la cultiver, et si on ne la sent pas..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Eustache est une nature extrêmement scrupuleuse. Il lui semble qu'un certain confort, une certaine facilité risquent d'endormir la conscience.",
+    "id": "p-0594",
+    "fr": "BÉATRICE : Eustache est une nature extrêmement scrupuleuse. Il lui semble qu'un certain confort, une certaine facilité risquent d'endormir la conscience."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "La conscience...",
+    "id": "p-0595",
+    "fr": "WERNER : La conscience..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, timidement.",
+    "text": "Das Gewissen...",
+    "id": "p-0596",
+    "fr": "BÉATRICE, timidement. : Das Gewissen..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Vous n'avez pas besoin de traduire. Je comprends très bien. Mais ce n'est peut-être pas si important qu'il le croit.",
+    "id": "p-0597",
+    "fr": "WERNER : Vous n'avez pas besoin de traduire. Je comprends très bien. Mais ce n'est peut-être pas si important qu'il le croit."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, surprise.",
+    "text": "C'est vous qui dites cela?",
+    "id": "p-0598",
+    "fr": "BÉATRICE, surprise. : C'est vous qui dites cela?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Vous dites la conscience. Mais j'appelle plutôt ça la peur.",
+    "id": "p-0599",
+    "fr": "WERNER : Vous dites la conscience. Mais j'appelle plutôt ça la peur."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, vivement.",
+    "text": "Vous savez très bien qu'Eustache est courageux.",
+    "id": "p-0600",
+    "fr": "BÉATRICE, vivement. : Vous savez très bien qu'Eustache est courageux."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je suis d'accord. Mais ce mot n'a pas seulement une signification.",
+    "id": "p-0601",
+    "fr": "WERNER : Je suis d'accord. Mais ce mot n'a pas seulement une signification."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Qu'entendez-vous par là?",
+    "id": "p-0602",
+    "fr": "BÉATRICE : Qu'entendez-vous par là?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "On peut être brave devant la pauvreté, devant le danger, devant la mort, mais pas devant le jugement.",
+    "id": "p-0603",
+    "fr": "WERNER : On peut être brave devant la pauvreté, devant le danger, devant la mort, mais pas devant le jugement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Quel jugement, Werner?",
+    "id": "p-0604",
+    "fr": "BÉATRICE : Quel jugement, Werner?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "C'est difficile de répondre. Je crois que c'est un mélange. Peut-être l'idée que lui se fait du jugement des autres personnes. Mais cette idée vient de lui. Il croit qu'il se moque de l'opinion des gens, et il pense aussi qu'il n'a rien à se reprocher. Mais c'est comme si... en optique il existe un tel phenomène. Je ne sais pas le nom en français.",
+    "id": "p-0605",
+    "fr": "WERNER : C'est difficile de répondre. Je crois que c'est un mélange. Peut-être l'idée que lui se fait du jugement des autres personnes. Mais cette idée vient de lui. Il croit qu'il se moque de l'opinion des gens, et il pense aussi qu'il n'a rien à se reprocher. Mais c'est comme si... en optique il existe un tel phenomène. Je ne sais pas le nom en français."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Une interférence?",
+    "id": "p-0606",
+    "fr": "BÉATRICE : Une interférence?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Probablement. Je ne connais pas ce mot... Je trouve qu'Eustache a énormément changé. En Allemagne dans le temps... naturellement il n'était pas gai, mais beaucoup plus calme. Il mangeait beaucoup, il buvait beaucoup, nous faisions de grandes promenades dans la campagne... C'est si drôle de voir comme il est maintenant.",
+    "id": "p-0607",
+    "fr": "WERNER : Probablement. Je ne connais pas ce mot... Je trouve qu'Eustache a énormément changé. En Allemagne dans le temps... naturellement il n'était pas gai, mais beaucoup plus calme. Il mangeait beaucoup, il buvait beaucoup, nous faisions de grandes promenades dans la campagne... C'est si drôle de voir comme il est maintenant."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Pour moi, en tous cas, c'est excessivement douloureux.",
+    "id": "p-0608",
+    "fr": "BÉATRICE : Pour moi, en tous cas, c'est excessivement douloureux."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, ému.",
+    "text": "Mais vous n'avez pas de responsabilité là dedans...",
+    "id": "p-0609",
+    "fr": "WERNER, ému. : Mais vous n'avez pas de responsabilité là dedans..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Nous n'avons pas d'enfants... Pour moi vous pouvez deviner... Mais si je n'ai pas même été capable de le rendre heureux, ou du moins de lui donner un peu de sérénité...",
+    "id": "p-0610",
+    "fr": "BÉATRICE : Nous n'avons pas d'enfants... Pour moi vous pouvez deviner... Mais si je n'ai pas même été capable de le rendre heureux, ou du moins de lui donner un peu de sérénité..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, avec feu.",
+    "text": "Mais ce n'est pas votre faute... (Béatrice hoche la tête; il est visible qu'elle se tait pour ne pas fondre en larmes.) Gisela a raison, je ne pense pas assez à ce que je dis... je suis maladroit. Quand j'étais un enfant, ma mère ne me permettait pas de toucher les objets fragiles; je les cassais chaque fois sans le vouloir. Vous voyez, je n'ai pas changé... Qu'est-ce que je dois faire? Naturellement peut-être je me trompe. Il faut dire aussi qu'il travaille tellement. Tous ces devoirs à corriger, ces articles qu'il écrit régulièrement dans le Nouveau Monde... je suppose qu'il est fatigué...",
+    "id": "p-0611",
+    "fr": "WERNER, avec feu. : Mais ce n'est pas votre faute... (Béatrice hoche la tête; il est visible qu'elle se tait pour ne pas fondre en larmes.) Gisela a raison, je ne pense pas assez à ce que je dis... je suis maladroit. Quand j'étais un enfant, ma mère ne me permettait pas de toucher les objets fragiles; je les cassais chaque fois sans le vouloir. Vous voyez, je n'ai pas changé... Qu'est-ce que je dois faire? Naturellement peut-être je me trompe. Il faut dire aussi qu'il travaille tellement. Tous ces devoirs à corriger, ces articles qu'il écrit régulièrement dans le Nouveau Monde... je suppose qu'il est fatigué..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Si vous vous doutiez de tout ce que j'ai espéré quand nous nous sommes mariés! Vous pouvez bien supposer que la situation était assez difficile. Mes parents n'ont pas fait d'opposition; mon père a des idées très larges, ma mère s'est... résignée. Mais nous n'appartenions pas du tout au même milieu. Je n'ai pas besoin d'insister. Au fond ça n'a d'ailleurs aucune importance. Mais dans les débuts j'ai eu à y mettre beaucoup du mien. J'étais si sûre que tout finirait par s'arranger. Mais à présent... je n'en suis plus aussi convaincue.",
+    "id": "p-0612",
+    "fr": "BÉATRICE : Si vous vous doutiez de tout ce que j'ai espéré quand nous nous sommes mariés! Vous pouvez bien supposer que la situation était assez difficile. Mes parents n'ont pas fait d'opposition; mon père a des idées très larges, ma mère s'est... résignée. Mais nous n'appartenions pas du tout au même milieu. Je n'ai pas besoin d'insister. Au fond ça n'a d'ailleurs aucune importance. Mais dans les débuts j'ai eu à y mettre beaucoup du mien. J'étais si sûre que tout finirait par s'arranger. Mais à présent... je n'en suis plus aussi convaincue."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, sans sincérité.",
+    "text": "Vous vous faites des idées. Il n'y a pas de drame là dedans.",
+    "id": "p-0613",
+    "fr": "WERNER, sans sincérité. : Vous vous faites des idées. Il n'y a pas de drame là dedans."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "J'ai souvent remarqué que dans la vie ce qu'il y a de plus affreux ne mène jamais au drame. Le pire, c'est ce qui ne débouche nulle part. Je ne sais pas, c'est comme ces rues qui se perdent dans des terrains vagues, au bord des grandes villes. Il me semble quelquefois que nos vies sont pareilles à ces avenues à peine construites, où personne ne passe, et qui portent le nom d'on ne sait quel conseiller municipal...",
+    "id": "p-0614",
+    "fr": "BÉATRICE : J'ai souvent remarqué que dans la vie ce qu'il y a de plus affreux ne mène jamais au drame. Le pire, c'est ce qui ne débouche nulle part. Je ne sais pas, c'est comme ces rues qui se perdent dans des terrains vagues, au bord des grandes villes. Il me semble quelquefois que nos vies sont pareilles à ces avenues à peine construites, où personne ne passe, et qui portent le nom d'on ne sait quel conseiller municipal..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, souriant.",
+    "text": "Vous ne me faites pas penser à un conseiller municipal.",
+    "id": "p-0615",
+    "fr": "WERNER, souriant. : Vous ne me faites pas penser à un conseiller municipal."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Au fond si j'avais été moins égoïste... non, je ne devrais pas le dire.",
+    "id": "p-0616",
+    "fr": "BÉATRICE : Au fond si j'avais été moins égoïste... non, je ne devrais pas le dire."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Vous n'êtes pas égoïste. Vous ne pensez qu'à Eustache.",
+    "id": "p-0617",
+    "fr": "WERNER : Vous n'êtes pas égoïste. Vous ne pensez qu'à Eustache."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Peut-être pas comme il faudrait, puisque vous voyez bien que je ne l'aide pas.",
+    "id": "p-0618",
+    "fr": "BÉATRICE : Peut-être pas comme il faudrait, puisque vous voyez bien que je ne l'aide pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "C'est clair qu'il ne peut pas se passer de vous.",
+    "id": "p-0619",
+    "fr": "WERNER : C'est clair qu'il ne peut pas se passer de vous."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Je suis quelquefois hantée par une idée tout à fait pénible, Werner. Je me demande si je n'incarne pas pour Eustache quelque chose qu'il voudrait oublier; oui, dont il aurait besoin de détourner son esprit. Ce succès justement, ce succès dérisoire qui l'aigrit comme un échec. Je ne m'explique pas que j'aie pu vous confier cette impression que je m'avoue difficilement à moi-même.",
+    "id": "p-0620",
+    "fr": "BÉATRICE : Je suis quelquefois hantée par une idée tout à fait pénible, Werner. Je me demande si je n'incarne pas pour Eustache quelque chose qu'il voudrait oublier; oui, dont il aurait besoin de détourner son esprit. Ce succès justement, ce succès dérisoire qui l'aigrit comme un échec. Je ne m'explique pas que j'aie pu vous confier cette impression que je m'avoue difficilement à moi-même."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je crois que c'est parce que je suis étranger.",
+    "id": "p-0621",
+    "fr": "WERNER : Je crois que c'est parce que je suis étranger."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, après un silence.",
+    "text": "Vous avez raison. A une amie française — des amis hommes je n'en ai pas — il m'aurait été impossible de dire ce que vous venez d'entendre. Mais pourquoi?",
+    "id": "p-0622",
+    "fr": "BÉATRICE, après un silence. : Vous avez raison. A une amie française — des amis hommes je n'en ai pas — il m'aurait été impossible de dire ce que vous venez d'entendre. Mais pourquoi?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je ne peux pas l'expliquer. Mais c'est évident. (Un silence.)",
+    "id": "p-0623",
+    "fr": "WERNER : Je ne peux pas l'expliquer. Mais c'est évident. (Un silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Et pourtant je n'en avais pas le droit. Et à présent c'est comme si...",
+    "id": "p-0624",
+    "fr": "BÉATRICE : Et pourtant je n'en avais pas le droit. Et à présent c'est comme si..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE IV]",
+    "id": "p-0625",
+    "fr": "[SCÈNE IV]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, EUSTACHE.",
+    "id": "p-0626",
+    "fr": "LES MÊMES, EUSTACHE."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Mais que diable! vous êtes donc sourds tous les deux? Le téléphone sonne depuis un quart d'heure. (Il décroche l'appareil.) Naturellement, plus rien.",
+    "id": "p-0627",
+    "fr": "EUSTACHE : Mais que diable! vous êtes donc sourds tous les deux? Le téléphone sonne depuis un quart d'heure. (Il décroche l'appareil.) Naturellement, plus rien."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Je t'assure, la sonnerie n'est pas assez forte.",
+    "id": "p-0628",
+    "fr": "BÉATRICE : Je t'assure, la sonnerie n'est pas assez forte."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Quelle plaisanterie! Je l'entends de mon bureau.",
+    "id": "p-0629",
+    "fr": "EUSTACHE : Quelle plaisanterie! Je l'entends de mon bureau."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Il est probable qu'on va rappeler dans une seconde.",
+    "id": "p-0630",
+    "fr": "BÉATRICE : Il est probable qu'on va rappeler dans une seconde."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Je me demande ce que vous pouviez bien vous dire de si passionnant... Hein?",
+    "id": "p-0631",
+    "fr": "EUSTACHE : Je me demande ce que vous pouviez bien vous dire de si passionnant... Hein?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Il me serait bien impossible de te le répéter...",
+    "id": "p-0632",
+    "fr": "BÉATRICE : Il me serait bien impossible de te le répéter..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Pourquoi?",
+    "id": "p-0633",
+    "fr": "EUSTACHE : Pourquoi?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Et vous, Werner?",
+    "id": "p-0634",
+    "fr": "BÉATRICE : Et vous, Werner?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Nous parlions... de l'Allemagne.",
+    "id": "p-0635",
+    "fr": "WERNER : Nous parlions... de l'Allemagne."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Ah oui?",
+    "id": "p-0636",
+    "fr": "EUSTACHE : Ah oui?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Ta femme me questionnait. (Sonnerie du téléphone.)",
+    "id": "p-0637",
+    "fr": "WERNER : Ta femme me questionnait. (Sonnerie du téléphone.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE, à l'appareil.",
+    "text": "Allo! Oui, c'est ici. Comment? le cabinet du ministre? c'est bien; j'attends à l'appareil.",
+    "id": "p-0638",
+    "fr": "EUSTACHE, à l'appareil. : Allo! Oui, c'est ici. Comment? le cabinet du ministre? c'est bien; j'attends à l'appareil."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, à mi-voix, à Werner.",
+    "text": "Ce n'est pas bien. Il ne faut pas recommencer.",
+    "id": "p-0639",
+    "fr": "BÉATRICE, à mi-voix, à Werner. : Ce n'est pas bien. Il ne faut pas recommencer."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Ah! non, écoute, je t'en prie... Allo! C'est M. Soreau lui-même qui est à l'appareil... Comment dites-vous?... Non, c'est la première nouvelle... Je vous affirme que je n'ai fait aucune démarche dans ce sens... Certainement... en principe... Je suis très touché... Je vous remercie. Bonjour, monsieur. (Il raccroche.)",
+    "id": "p-0640",
+    "fr": "EUSTACHE : Ah! non, écoute, je t'en prie... Allo! C'est M. Soreau lui-même qui est à l'appareil... Comment dites-vous?... Non, c'est la première nouvelle... Je vous affirme que je n'ai fait aucune démarche dans ce sens... Certainement... en principe... Je suis très touché... Je vous remercie. Bonjour, monsieur. (Il raccroche.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Qu'est-ce que c'est?",
+    "id": "p-0641",
+    "fr": "BÉATRICE : Qu'est-ce que c'est?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Il est question de me nommer à la place de Fayet à Henri-IV.",
+    "id": "p-0642",
+    "fr": "EUSTACHE : Il est question de me nommer à la place de Fayet à Henri-IV."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE, contente.",
+    "text": "Ah?",
+    "id": "p-0643",
+    "fr": "BÉATRICE, contente. : Ah?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Ce n'est pas encore fait; on me demande de ne pas en parler. Mais il paraît que j'ai les plus grandes chances.",
+    "id": "p-0644",
+    "fr": "EUSTACHE : Ce n'est pas encore fait; on me demande de ne pas en parler. Mais il paraît que j'ai les plus grandes chances."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Quelle bonne nouvelle!",
+    "id": "p-0645",
+    "fr": "BÉATRICE : Quelle bonne nouvelle!"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je te félicite.",
+    "id": "p-0646",
+    "fr": "WERNER : Je te félicite."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE, amèrement.",
+    "text": "Le bâton de maréchal.",
+    "id": "p-0647",
+    "fr": "EUSTACHE, amèrement. : Le bâton de maréchal."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Tu m'as toujours dit que c'était à tes yeux le plus beau poste de l'enseignement secondaire.",
+    "id": "p-0648",
+    "fr": "BÉATRICE : Tu m'as toujours dit que c'était à tes yeux le plus beau poste de l'enseignement secondaire."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Justement.",
+    "id": "p-0649",
+    "fr": "EUSTACHE : Justement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Et puis c'est là que tu as fait tes études.",
+    "id": "p-0650",
+    "fr": "BÉATRICE : Et puis c'est là que tu as fait tes études."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Ça s'appelle boucler la boucle. Seulement... il n'est pas encore dit que j'accepterai.",
+    "id": "p-0651",
+    "fr": "EUSTACHE : Ça s'appelle boucler la boucle. Seulement... il n'est pas encore dit que j'accepterai."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Comment?",
+    "id": "p-0652",
+    "fr": "BÉATRICE : Comment?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Et il est même assez probable que je n'accepterai pas.",
+    "id": "p-0653",
+    "fr": "EUSTACHE : Et il est même assez probable que je n'accepterai pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Sous quel prétexte?",
+    "id": "p-0654",
+    "fr": "BÉATRICE : Sous quel prétexte?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Pas besoin de prétexte.",
+    "id": "p-0655",
+    "fr": "EUSTACHE : Pas besoin de prétexte."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Pour quelle raison alors?",
+    "id": "p-0656",
+    "fr": "BÉATRICE : Pour quelle raison alors?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "D'abord je voudrais bien savoir qui est intervenu en ma faveur.",
+    "id": "p-0657",
+    "fr": "EUSTACHE : D'abord je voudrais bien savoir qui est intervenu en ma faveur."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "BÉATRICE",
+    "text": "Il n'y a sans doute eu besoin d'aucune démarche. Tes titres suffisaient.",
+    "id": "p-0658",
+    "fr": "BÉATRICE : Il n'y a sans doute eu besoin d'aucune démarche. Tes titres suffisaient."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Laisse-moi rire.",
+    "id": "p-0659",
+    "fr": "EUSTACHE : Laisse-moi rire."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "En tout cas qu'est-ce que ça peut te faire? c'est la preuve que tu as de bons amis.",
+    "id": "p-0660",
+    "fr": "WERNER : En tout cas qu'est-ce que ça peut te faire? c'est la preuve que tu as de bons amis."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Je n'ai même que ça. Seulement, vois-tu, un type qui n'a même pas trouvé le moyen de se faire détester un peu solidement, c'est un jean-foutre. (Un silence. Béatrice sort après avoir fait un signe de tête à Werner.)",
+    "id": "p-0661",
+    "fr": "EUSTACHE : Je n'ai même que ça. Seulement, vois-tu, un type qui n'a même pas trouvé le moyen de se faire détester un peu solidement, c'est un jean-foutre. (Un silence. Béatrice sort après avoir fait un signe de tête à Werner.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE V]",
+    "id": "p-0662",
+    "fr": "[SCÈNE V]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "J'ai réfléchi à ce que tu disais tout à l'heure : ça n'a pas le sens commun. Je ne peux pas admettre que tu prennes ton parti avec cette facilité des injustices monstrueuses qui s'étalent partout.",
+    "id": "p-0663",
+    "fr": "EUSTACHE : J'ai réfléchi à ce que tu disais tout à l'heure : ça n'a pas le sens commun. Je ne peux pas admettre que tu prennes ton parti avec cette facilité des injustices monstrueuses qui s'étalent partout."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Qu'est-ce que ça peut faire que je prenne mon parti ou non?",
+    "id": "p-0664",
+    "fr": "WERNER : Qu'est-ce que ça peut faire que je prenne mon parti ou non?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "L'art, la joie, la beauté, est-ce que je sais? on verra tout ça plus tard. Il faut d'abord que les gens mangent. Tu n'as pas l'air de te douter...",
+    "id": "p-0665",
+    "fr": "EUSTACHE : L'art, la joie, la beauté, est-ce que je sais? on verra tout ça plus tard. Il faut d'abord que les gens mangent. Tu n'as pas l'air de te douter..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Permets-moi de te dire, c'est quand même un peu drôle; je suis assez bien placé pour savoir qu'il n'y a pas de justice.",
+    "id": "p-0666",
+    "fr": "WERNER : Permets-moi de te dire, c'est quand même un peu drôle; je suis assez bien placé pour savoir qu'il n'y a pas de justice."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Tu n'as pas, je trouve, l'attitude que ta situation comporterait.",
+    "id": "p-0667",
+    "fr": "EUSTACHE : Tu n'as pas, je trouve, l'attitude que ta situation comporterait."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Explique.",
+    "id": "p-0668",
+    "fr": "WERNER : Explique."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Je ne sens pas en toi de révolte.",
+    "id": "p-0669",
+    "fr": "EUSTACHE : Je ne sens pas en toi de révolte."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "C'est-à-dire qu'il faudrait prononcer certains mots rituels, je suppose. Mes pensées devraient mettre un uniforme : l'uniforme du proscrit? Mais je déteste les uniformes, même celui-là. Il faut avant tout rester un homme.",
+    "id": "p-0670",
+    "fr": "WERNER : C'est-à-dire qu'il faudrait prononcer certains mots rituels, je suppose. Mes pensées devraient mettre un uniforme : l'uniforme du proscrit? Mais je déteste les uniformes, même celui-là. Il faut avant tout rester un homme."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Un homme! un homme! un mot dont on dirait que tu te gargarises... A propos de Rudolf...",
+    "id": "p-0671",
+    "fr": "EUSTACHE : Un homme! un homme! un mot dont on dirait que tu te gargarises... A propos de Rudolf..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je préfère ne pas parler de Rudolf en ce moment.",
+    "id": "p-0672",
+    "fr": "WERNER : Je préfère ne pas parler de Rudolf en ce moment."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Pourquoi? (Geste évasif de Werner.) Il avait une doctrine; il servait une cause, il avait adhéré...",
+    "id": "p-0673",
+    "fr": "EUSTACHE : Pourquoi? (Geste évasif de Werner.) Il avait une doctrine; il servait une cause, il avait adhéré..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "C'est un mot qui me fait peur.",
+    "id": "p-0674",
+    "fr": "WERNER : C'est un mot qui me fait peur."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "On prétend que les Français sont individualistes...",
+    "id": "p-0675",
+    "fr": "EUSTACHE : On prétend que les Français sont individualistes..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je ne sais pas si c'est encore vrai.",
+    "id": "p-0676",
+    "fr": "WERNER : Je ne sais pas si c'est encore vrai."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Je n'en ai jamais vu aucun qui le soit au degré où tu l'es.",
+    "id": "p-0677",
+    "fr": "EUSTACHE : Je n'en ai jamais vu aucun qui le soit au degré où tu l'es."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "C'est toujours facile de coller une étiquette.",
+    "id": "p-0678",
+    "fr": "WERNER : C'est toujours facile de coller une étiquette."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Que tu en aies eu conscience ou non, le fait de quitter l'Allemagne t'a classé. Tu as pris position. Il faut tout de même se conformer à la logique de ses actes.",
+    "id": "p-0679",
+    "fr": "EUSTACHE : Que tu en aies eu conscience ou non, le fait de quitter l'Allemagne t'a classé. Tu as pris position. Il faut tout de même se conformer à la logique de ses actes."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Quelle logique?",
+    "id": "p-0680",
+    "fr": "WERNER : Quelle logique?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Tu sembles refuser de prendre contact avec les réfugiés qui sont à Paris; c'est comme s'ils ne t'inspiraient pas confiance.",
+    "id": "p-0681",
+    "fr": "EUSTACHE : Tu sembles refuser de prendre contact avec les réfugiés qui sont à Paris; c'est comme s'ils ne t'inspiraient pas confiance."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "C'est une question de personnalité: Du reste en général je ne les connais pas.",
+    "id": "p-0682",
+    "fr": "WERNER : C'est une question de personnalité: Du reste en général je ne les connais pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "C'est comme si tu faisais bande à part. Que diable! la solidarité, ça existe.",
+    "id": "p-0683",
+    "fr": "EUSTACHE : C'est comme si tu faisais bande à part. Que diable! la solidarité, ça existe."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Tu as raison, je me méfie.",
+    "id": "p-0684",
+    "fr": "WERNER : Tu as raison, je me méfie."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Ce n'est pas un sentiment dont tu aies lieu d'être fier, crois-moi.",
+    "id": "p-0685",
+    "fr": "EUSTACHE : Ce n'est pas un sentiment dont tu aies lieu d'être fier, crois-moi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Tu es drôle, Eustache! Tu te fâches comme si c'était une affaire personnelle.",
+    "id": "p-0686",
+    "fr": "WERNER : Tu es drôle, Eustache! Tu te fâches comme si c'était une affaire personnelle."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Je ne me fâche pas. Je demande à comprendre. Je déteste l'équivoque. C'est comme si tu ne pouvais pas te décider à couper les ponts avec les gens de là-bas.",
+    "id": "p-0687",
+    "fr": "EUSTACHE : Je ne me fâche pas. Je demande à comprendre. Je déteste l'équivoque. C'est comme si tu ne pouvais pas te décider à couper les ponts avec les gens de là-bas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Tu te trompes.",
+    "id": "p-0688",
+    "fr": "WERNER : Tu te trompes."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Prouve-le-moi.",
+    "id": "p-0689",
+    "fr": "EUSTACHE : Prouve-le-moi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Je les ai coupés, pas plus tard qu'hier soir. Il y a un type qui m'avait écrit, un nommé Wetzinger que j'ai connu autrefois à Berlin. Une espèce d'impresario. Il était aussi journaliste. Je lui ai donné rendez-vous dans un café. Je croyais bien que c'était un salaud. Aujourd'hui, je le sais.",
+    "id": "p-0690",
+    "fr": "WERNER : Je les ai coupés, pas plus tard qu'hier soir. Il y a un type qui m'avait écrit, un nommé Wetzinger que j'ai connu autrefois à Berlin. Une espèce d'impresario. Il était aussi journaliste. Je lui ai donné rendez-vous dans un café. Je croyais bien que c'était un salaud. Aujourd'hui, je le sais."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Qu'est-ce qu'il te voulait?",
+    "id": "p-0691",
+    "fr": "EUSTACHE : Qu'est-ce qu'il te voulait?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Tu comprends, c'était un émissaire. Rien autre. Il a commencé par dire des bagatelles. Et puis il a montré son jeu. Il m'a dit que j'étais un idiot de rester ici; que si je faisais certaines promesses écrites, je pourrais rentrer demain en Allemagne, qu'on ne m'embêterait pas à cause de Rudolf. Il savait tout sur moi et aussi sur Gisela. Je ne comprends même pas comment ces gens-là sont tellement renseignés. Du reste je m'en fiche. Je l'ai envoyé promener lui et ses propositions.",
+    "id": "p-0692",
+    "fr": "WERNER : Tu comprends, c'était un émissaire. Rien autre. Il a commencé par dire des bagatelles. Et puis il a montré son jeu. Il m'a dit que j'étais un idiot de rester ici; que si je faisais certaines promesses écrites, je pourrais rentrer demain en Allemagne, qu'on ne m'embêterait pas à cause de Rudolf. Il savait tout sur moi et aussi sur Gisela. Je ne comprends même pas comment ces gens-là sont tellement renseignés. Du reste je m'en fiche. Je l'ai envoyé promener lui et ses propositions."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Il t'a fait des offres précises?",
+    "id": "p-0693",
+    "fr": "EUSTACHE : Il t'a fait des offres précises?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Et comment! Il me garantissait que je serais engagé dans un théâtre, peut-être à Magdebourg ou à Dessau, ou comme ça. Et je sais que ce n'était pas seulement des mots.",
+    "id": "p-0694",
+    "fr": "WERNER : Et comment! Il me garantissait que je serais engagé dans un théâtre, peut-être à Magdebourg ou à Dessau, ou comme ça. Et je sais que ce n'était pas seulement des mots."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Comment a-t-il pris ton refus?",
+    "id": "p-0695",
+    "fr": "EUSTACHE : Comment a-t-il pris ton refus?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER",
+    "text": "Il a dit que j'étais un crétin; que je paierais ma sottise; que j'étais un traître, et tout ça...",
+    "id": "p-0696",
+    "fr": "WERNER : Il a dit que j'étais un crétin; que je paierais ma sottise; que j'étais un traître, et tout ça..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Tu as raconté cette conversation à ta femme?",
+    "id": "p-0697",
+    "fr": "EUSTACHE : Tu as raconté cette conversation à ta femme?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "WERNER, catégoriquement.",
+    "text": "Absolument pas. Elle ne saura jamais rien. Je te prie de ne faire aucune allusion devant elle à ce que je t'ai raconté.",
+    "id": "p-0698",
+    "fr": "WERNER, catégoriquement. : Absolument pas. Elle ne saura jamais rien. Je te prie de ne faire aucune allusion devant elle à ce que je t'ai raconté."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EUSTACHE",
+    "text": "Elle te désapprouverait?",
+    "id": "p-0699",
+    "fr": "EUSTACHE : Elle te désapprouverait?"
+  }
+]

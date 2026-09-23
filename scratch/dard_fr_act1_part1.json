@@ -1,0 +1,1766 @@
+[
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[ACTE I]",
+    "id": "p-0001",
+    "fr": "[ACTE I]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "La scène représente une pièce claire donnant par un bow-window sur un jardin de banlieue. C'est une sorte de living-room assez spacieux, meublé avec goût, sans aucun souci des modes décoratives du jour. A gauche, contre le mur, un piano droit. Contre le mur du fond, une table-bureau.",
+    "id": "p-0002",
+    "fr": "La scène représente une pièce claire donnant par un bow-window sur un jardin de banlieue. C'est une sorte de living-room assez spacieux, meublé avec goût, sans aucun souci des modes décoratives du jour. A gauche, contre le mur, un piano droit. Contre le mur du fond, une table-bureau."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE I]",
+    "id": "p-0003",
+    "fr": "[SCÈNE I]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, à Mme Soreau.",
+    "text": "Encore un peu de cherry-brandy? (Mouvement d'Eustache.)",
+    "id": "p-0004",
+    "fr": "BÉATRICE, à Mme Soreau. : Encore un peu de cherry-brandy? (Mouvement d'Eustache.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Ah ! bien, je ne dis pas non. Une fois n'est pas coutume. Ce n'est toujours pas ça qui me fera mal, n'est-ce pas, Eustache?",
+    "id": "p-0005",
+    "fr": "MADAME SOREAU : Ah ! bien, je ne dis pas non. Une fois n'est pas coutume. Ce n'est toujours pas ça qui me fera mal, n'est-ce pas, Eustache?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, sèchement.",
+    "text": "Espérons-le.",
+    "id": "p-0006",
+    "fr": "EUSTACHE, sèchement. : Espérons-le."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Par exemple, ce soir, je ne dînerai pas. Ou alors un peu de potage, et de la compote. Après un bon déjeuner comme celui que vous m'avez offert... Seulement Adrien et Titine, ils ne seront pas contents; oh ! je les connais. Mais ils diront ce qu'ils voudront. Ça m'est égal.",
+    "id": "p-0007",
+    "fr": "MADAME SOREAU : Par exemple, ce soir, je ne dînerai pas. Ou alors un peu de potage, et de la compote. Après un bon déjeuner comme celui que vous m'avez offert... Seulement Adrien et Titine, ils ne seront pas contents; oh ! je les connais. Mais ils diront ce qu'ils voudront. Ça m'est égal."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Si par hasard vous aviez un régime, je regrette...",
+    "id": "p-0008",
+    "fr": "BÉATRICE : Si par hasard vous aviez un régime, je regrette..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Moi, un régime? mais pas du tout... J'ai toujours eu bon estomac. (A Eustache.) Ce n'est pas comme ton pauvre papa... encore dans le temps... je vous parle d'il y a dix, quinze ans, c'était une bonne fourchette, comme on dit. Surtout le civet de lièvre... Une fois par mois je lui faisais un civet de lièvre ; il se régalait... (Elle s'essuie les yeux; à Gertrude, qui est plongée dans la lecture du journal.) Vous avez lu sur le Parisien... à ce qu'il paraît qu'on serait sur la piste de l'assassin.",
+    "id": "p-0009",
+    "fr": "MADAME SOREAU : Moi, un régime? mais pas du tout... J'ai toujours eu bon estomac. (A Eustache.) Ce n'est pas comme ton pauvre papa... encore dans le temps... je vous parle d'il y a dix, quinze ans, c'était une bonne fourchette, comme on dit. Surtout le civet de lièvre... Une fois par mois je lui faisais un civet de lièvre ; il se régalait... (Elle s'essuie les yeux; à Gertrude, qui est plongée dans la lecture du journal.) Vous avez lu sur le Parisien... à ce qu'il paraît qu'on serait sur la piste de l'assassin."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Quel assassin?",
+    "id": "p-0010",
+    "fr": "GERTRUDE : Quel assassin?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU, avec indignation.",
+    "text": "Le crime d'Argenteuil.",
+    "id": "p-0011",
+    "fr": "MADAME SOREAU, avec indignation. : Le crime d'Argenteuil."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE, très sèchement.",
+    "text": "Je ne lis pas les faits divers.",
+    "id": "p-0012",
+    "fr": "GERTRUDE, très sèchement. : Je ne lis pas les faits divers."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Ah bien! vous n'êtes pas curieuse. Je ne suis pas comme vous. J'aime bien savoir ce qui se passe. La bonne, elle m'apporte le journal avec mon café au lait, sur les huit heures, huit heures un quart. On me soigne bien. La seule chose, c'est que cette grande cour est un peu triste. (A Eustache.) Ton frère, il m'aurait bien donné la chambre sur le devant, mais c'est Titine qui n'a pas voulu. Oh bien! je comprends ça. Il faut se mettre à sa place. A la fin finale, j'aime mieux qu'elle soit pour mon petit-fils. Quoique Titine elle n'a pas l'air bien pressée d'avoir un petit bébé. (A Béatrice). Je dis ça, mais je l'aime bien quand même. De vous deux, je ne sais vraiment pas laquelle que je préfère. Peut-être bien que c'est vous qui avez le meilleur caractère. Mais Titine est bien gentille. Je lui dis tu, maintenant ; c'est Adrien qui a voulu.",
+    "id": "p-0013",
+    "fr": "MADAME SOREAU : Ah bien! vous n'êtes pas curieuse. Je ne suis pas comme vous. J'aime bien savoir ce qui se passe. La bonne, elle m'apporte le journal avec mon café au lait, sur les huit heures, huit heures un quart. On me soigne bien. La seule chose, c'est que cette grande cour est un peu triste. (A Eustache.) Ton frère, il m'aurait bien donné la chambre sur le devant, mais c'est Titine qui n'a pas voulu. Oh bien! je comprends ça. Il faut se mettre à sa place. A la fin finale, j'aime mieux qu'elle soit pour mon petit-fils. Quoique Titine elle n'a pas l'air bien pressée d'avoir un petit bébé. (A Béatrice). Je dis ça, mais je l'aime bien quand même. De vous deux, je ne sais vraiment pas laquelle que je préfère. Peut-être bien que c'est vous qui avez le meilleur caractère. Mais Titine est bien gentille. Je lui dis tu, maintenant ; c'est Adrien qui a voulu."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Mais, il va sans dire...",
+    "id": "p-0014",
+    "fr": "BÉATRICE : Mais, il va sans dire..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Comment? Oh! non, non, non... vous j'oserais pas, c'est pas pareil. Titine, par le fait, elle pourrait être ma fille.",
+    "id": "p-0015",
+    "fr": "MADAME SOREAU : Comment? Oh! non, non, non... vous j'oserais pas, c'est pas pareil. Titine, par le fait, elle pourrait être ma fille."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Tout de même...",
+    "id": "p-0016",
+    "fr": "EUSTACHE : Tout de même..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU, blessée.",
+    "text": "Ses parents, c'étaient des gens comme nous.",
+    "id": "p-0017",
+    "fr": "MADAME SOREAU, blessée. : Ses parents, c'étaient des gens comme nous."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Mais, maman...",
+    "id": "p-0018",
+    "fr": "EUSTACHE : Mais, maman..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "M. Jacquet, il tenait un débit dans la rue des Boulets.",
+    "id": "p-0019",
+    "fr": "MADAME SOREAU : M. Jacquet, il tenait un débit dans la rue des Boulets."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je n'ai jamais voulu dire...",
+    "id": "p-0020",
+    "fr": "EUSTACHE : Je n'ai jamais voulu dire..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Tu vois bien. Eustache, quelle heure qu'il est?",
+    "id": "p-0021",
+    "fr": "MADAME SOREAU : Tu vois bien. Eustache, quelle heure qu'il est?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Deux heures et demie.",
+    "id": "p-0022",
+    "fr": "EUSTACHE : Deux heures et demie."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "L'auto devrait déjà être arrivée... Tu es sûr qu'elle n'est pas devant la porte, Eustache?",
+    "id": "p-0023",
+    "fr": "MADAME SOREAU : L'auto devrait déjà être arrivée... Tu es sûr qu'elle n'est pas devant la porte, Eustache?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, impatienté.",
+    "text": "Nous l'aurions entendue.",
+    "id": "p-0024",
+    "fr": "EUSTACHE, impatienté. : Nous l'aurions entendue."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "J'ai promis de ne pas faire attendre Anatole... (A Béatrice.) Vous devriez aussi avoir une auto. C'est tellement agréable... je ne dis pas une grande, comme Adrien, mais une petite six chevaux. Je suis sûre que si vous demandiez à votre papa de vous en faire cadeau, il ne dirait pas non.",
+    "id": "p-0025",
+    "fr": "MADAME SOREAU : J'ai promis de ne pas faire attendre Anatole... (A Béatrice.) Vous devriez aussi avoir une auto. C'est tellement agréable... je ne dis pas une grande, comme Adrien, mais une petite six chevaux. Je suis sûre que si vous demandiez à votre papa de vous en faire cadeau, il ne dirait pas non."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il n'en est pas question.",
+    "id": "p-0026",
+    "fr": "EUSTACHE : Il n'en est pas question."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Pourquoi ça, Eustache? C'est ta femme qui conduirait. Le dimanche, c'est agréable d'aller se promener à la campagne.",
+    "id": "p-0027",
+    "fr": "MADAME SOREAU : Pourquoi ça, Eustache? C'est ta femme qui conduirait. Le dimanche, c'est agréable d'aller se promener à la campagne."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Le dimanche est le seul jour où nous puissions travailler.",
+    "id": "p-0028",
+    "fr": "EUSTACHE : Le dimanche est le seul jour où nous puissions travailler."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Comment ça, travailler? tu travailles toute la semaine, avec tes classes et tout...",
+    "id": "p-0029",
+    "fr": "MADAME SOREAU : Comment ça, travailler? tu travailles toute la semaine, avec tes classes et tout..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est le métier ; je n'appelle pas ça du travail.",
+    "id": "p-0030",
+    "fr": "EUSTACHE : C'est le métier ; je n'appelle pas ça du travail."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU, à Béatrice.",
+    "text": "Vous comprenez ce qu'il a dans l'idée?",
+    "id": "p-0031",
+    "fr": "MADAME SOREAU, à Béatrice. : Vous comprenez ce qu'il a dans l'idée?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, souriant.",
+    "text": "Mais oui, très bien...",
+    "id": "p-0032",
+    "fr": "BÉATRICE, souriant. : Mais oui, très bien..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "C'est drôle... Faut pourtant bien se donner un peu de bon temps. Je le trouve pâlot. Vous êtes cependant au bon air. Tu ne te couches pas trop tard, au moins.",
+    "id": "p-0033",
+    "fr": "MADAME SOREAU : C'est drôle... Faut pourtant bien se donner un peu de bon temps. Je le trouve pâlot. Vous êtes cependant au bon air. Tu ne te couches pas trop tard, au moins."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Jamais avant une heure du matin.",
+    "id": "p-0034",
+    "fr": "EUSTACHE : Jamais avant une heure du matin."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Si c'est possible ! mais qu'est-ce que tu peux bien faire toute la soirée? (A Gertrude.) Vous comprenez ça, vous, madame Heuzard?",
+    "id": "p-0035",
+    "fr": "MADAME SOREAU : Si c'est possible ! mais qu'est-ce que tu peux bien faire toute la soirée? (A Gertrude.) Vous comprenez ça, vous, madame Heuzard?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Je ne dors jamais plus de cinq heures.",
+    "id": "p-0036",
+    "fr": "GERTRUDE : Je ne dors jamais plus de cinq heures."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "C'est très mauvais pour la santé. (A Eustache.) Ton pauvre papa était toujours au lit à dix heures... C'est pour ça qu'il a toujours gardé son bon teint frais... (A Béatrice.) Vous devriez l'empêcher.",
+    "id": "p-0037",
+    "fr": "MADAME SOREAU : C'est très mauvais pour la santé. (A Eustache.) Ton pauvre papa était toujours au lit à dix heures... C'est pour ça qu'il a toujours gardé son bon teint frais... (A Béatrice.) Vous devriez l'empêcher."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Béatrice est comme moi.",
+    "id": "p-0038",
+    "fr": "EUSTACHE : Béatrice est comme moi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU, joignant les mains.",
+    "text": "Une jeune femme comme ça ! Quelle heure est-il, Eustache?",
+    "id": "p-0039",
+    "fr": "MADAME SOREAU, joignant les mains. : Une jeune femme comme ça ! Quelle heure est-il, Eustache?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Écoute, maman, ce n'est pas la peine de me demander l'heure toutes les cinq minutes.",
+    "id": "p-0040",
+    "fr": "EUSTACHE : Écoute, maman, ce n'est pas la peine de me demander l'heure toutes les cinq minutes."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "C'est rapport à Anatole, tu comprends. Je voudrais pas qu'il attende... (Baissant la voix.) A ce qu'il paraît qu'il était prince, dans le temps ; c'est malheureux quand même.",
+    "id": "p-0041",
+    "fr": "MADAME SOREAU : C'est rapport à Anatole, tu comprends. Je voudrais pas qu'il attende... (Baissant la voix.) A ce qu'il paraît qu'il était prince, dans le temps ; c'est malheureux quand même."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Qui est-ce?",
+    "id": "p-0042",
+    "fr": "GERTRUDE : Qui est-ce?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Le chauffeur de mon frère.",
+    "id": "p-0043",
+    "fr": "EUSTACHE : Le chauffeur de mon frère."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Votre frère a un chauffeur?",
+    "id": "p-0044",
+    "fr": "GERTRUDE : Votre frère a un chauffeur?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Mais oui, madame Heuzard, il ne pourrait pas s'en passer.",
+    "id": "p-0045",
+    "fr": "MADAME SOREAU : Mais oui, madame Heuzard, il ne pourrait pas s'en passer."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE, dédaigneusement.",
+    "text": "Félicitations.",
+    "id": "p-0046",
+    "fr": "GERTRUDE, dédaigneusement. : Félicitations."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU, avec satisfaction.",
+    "text": "Il me mènera chez tante Berthe, tout à l'heure.",
+    "id": "p-0047",
+    "fr": "MADAME SOREAU, avec satisfaction. : Il me mènera chez tante Berthe, tout à l'heure."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Qui ça? Adrien?",
+    "id": "p-0048",
+    "fr": "EUSTACHE : Qui ça? Adrien?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Tu penses qu'Adrien a du temps à perdre pour aller voir une vieille bonne femme... J'irai avec la voiture, c'est Adrien qui l'a proposé. Il a toujours des bonnes idées. Qu'est-ce qu'elle dira, tante Berthe, quand elle verra la Hotchkiss...",
+    "id": "p-0049",
+    "fr": "MADAME SOREAU : Tu penses qu'Adrien a du temps à perdre pour aller voir une vieille bonne femme... J'irai avec la voiture, c'est Adrien qui l'a proposé. Il a toujours des bonnes idées. Qu'est-ce qu'elle dira, tante Berthe, quand elle verra la Hotchkiss..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je croyais qu'elle était aveugle.",
+    "id": "p-0050",
+    "fr": "BÉATRICE : Je croyais qu'elle était aveugle."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "C'est une façon de parler. (Un silence.)",
+    "id": "p-0051",
+    "fr": "MADAME SOREAU : C'est une façon de parler. (Un silence.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Tu pourras lui annoncer notre visite ; n'est-ce pas, Béatrice?",
+    "id": "p-0052",
+    "fr": "EUSTACHE : Tu pourras lui annoncer notre visite ; n'est-ce pas, Béatrice?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Paraîtrait que Sulpice, il vient encore de perdre sa place... Toujours ses idées impossibles ; il monte la tête aux camarades ; le patron n'aime pas ça, c'est forcé. Adrien dit que c'est un vrai bolchevique. C'est malheureux quand même. La pauvre Berthe elle n'a pas de chance. Ses deux fils, l'un qu'est mort tuberculeux, l'autre qui tourne bolchevique.",
+    "id": "p-0053",
+    "fr": "MADAME SOREAU : Paraîtrait que Sulpice, il vient encore de perdre sa place... Toujours ses idées impossibles ; il monte la tête aux camarades ; le patron n'aime pas ça, c'est forcé. Adrien dit que c'est un vrai bolchevique. C'est malheureux quand même. La pauvre Berthe elle n'a pas de chance. Ses deux fils, l'un qu'est mort tuberculeux, l'autre qui tourne bolchevique."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Est-ce que tu te doutes que moi aussi je suis un bolchevique?",
+    "id": "p-0054",
+    "fr": "EUSTACHE : Est-ce que tu te doutes que moi aussi je suis un bolchevique?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU, indignée.",
+    "text": "Veux-tu te taire?... Toi, d'abord, tu as une situation, et une belle. Tes opinions ne regardent personne.",
+    "id": "p-0055",
+    "fr": "MADAME SOREAU, indignée. : Veux-tu te taire?... Toi, d'abord, tu as une situation, et une belle. Tes opinions ne regardent personne."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Maman, est-ce que tu te rends compte de ce que tu dis?",
+    "id": "p-0056",
+    "fr": "EUSTACHE : Maman, est-ce que tu te rends compte de ce que tu dis?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Je voulais même te demander... si tu ne pourrais pas un petit peu laver la tête à ton cousin... toi, il t'écouterait...",
+    "id": "p-0057",
+    "fr": "MADAME SOREAU : Je voulais même te demander... si tu ne pourrais pas un petit peu laver la tête à ton cousin... toi, il t'écouterait..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, avec âpreté.",
+    "text": "Adrien me paraît tout désigné.",
+    "id": "p-0058",
+    "fr": "EUSTACHE, avec âpreté. : Adrien me paraît tout désigné."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Adrien n'a pas le temps. (On entend une corne d'auto.) Ah ! cette fois, c'est la voiture. (Elle se lève précipitamment.)",
+    "id": "p-0059",
+    "fr": "MADAME SOREAU : Adrien n'a pas le temps. (On entend une corne d'auto.) Ah ! cette fois, c'est la voiture. (Elle se lève précipitamment.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, exaspéré.",
+    "text": "Maman, ne cours pas !",
+    "id": "p-0060",
+    "fr": "EUSTACHE, exaspéré. : Maman, ne cours pas !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je vais vous aider à vous habiller.",
+    "id": "p-0061",
+    "fr": "BÉATRICE : Je vais vous aider à vous habiller."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Oh ! je me tire bien d'affaire toute seule. (Elle sort avec Béatrice.)",
+    "id": "p-0062",
+    "fr": "MADAME SOREAU : Oh ! je me tire bien d'affaire toute seule. (Elle sort avec Béatrice.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE II]",
+    "id": "p-0063",
+    "fr": "[SCÈNE II]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Dans quoi est-ce qu'il fait, votre frère?",
+    "id": "p-0064",
+    "fr": "GERTRUDE : Dans quoi est-ce qu'il fait, votre frère?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Métallurgie.",
+    "id": "p-0065",
+    "fr": "EUSTACHE : Métallurgie."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Ah ! je comprends... Vous le voyez souvent?",
+    "id": "p-0066",
+    "fr": "GERTRUDE : Ah ! je comprends... Vous le voyez souvent?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Le moins possible. (Un silence.)",
+    "id": "p-0067",
+    "fr": "EUSTACHE : Le moins possible. (Un silence.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "En somme...",
+    "id": "p-0068",
+    "fr": "GERTRUDE : En somme..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Eh bien?",
+    "id": "p-0069",
+    "fr": "EUSTACHE : Eh bien?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Vous avez tous les deux brillamment réussi... Tiens, je me mets à parler en vers. Ça doit être l'atmosphère qui veut ça.",
+    "id": "p-0070",
+    "fr": "GERTRUDE : Vous avez tous les deux brillamment réussi... Tiens, je me mets à parler en vers. Ça doit être l'atmosphère qui veut ça."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je ne comprends pas.",
+    "id": "p-0071",
+    "fr": "EUSTACHE : Je ne comprends pas."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Je ne suis pas habituée à frayer avec les grands de ce monde... Un ancien chef de cabinet, c'est très impressionnant, vous savez.",
+    "id": "p-0072",
+    "fr": "GERTRUDE : Je ne suis pas habituée à frayer avec les grands de ce monde... Un ancien chef de cabinet, c'est très impressionnant, vous savez."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Ça a duré deux mois.",
+    "id": "p-0073",
+    "fr": "EUSTACHE : Ça a duré deux mois."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Bourbillon n'a pas dit son dernier mot ; il reviendra, vous aussi. Hein?",
+    "id": "p-0074",
+    "fr": "GERTRUDE : Bourbillon n'a pas dit son dernier mot ; il reviendra, vous aussi. Hein?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est possible.",
+    "id": "p-0075",
+    "fr": "EUSTACHE : C'est possible."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE, sardonique.",
+    "text": "Il faut bien l'espérer.",
+    "id": "p-0076",
+    "fr": "GERTRUDE, sardonique. : Il faut bien l'espérer."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Vous avez l'air de me prendre pour un arriviste, Gertrude.",
+    "id": "p-0077",
+    "fr": "EUSTACHE : Vous avez l'air de me prendre pour un arriviste, Gertrude."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Comment?",
+    "id": "p-0078",
+    "fr": "GERTRUDE : Comment?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, sourdement.",
+    "text": "C'est injuste.",
+    "id": "p-0079",
+    "fr": "EUSTACHE, sourdement. : C'est injuste."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Ce n'est pas de votre faute si tout vous réussit.",
+    "id": "p-0080",
+    "fr": "GERTRUDE : Ce n'est pas de votre faute si tout vous réussit."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Tout, excepté l'essentiel.",
+    "id": "p-0081",
+    "fr": "EUSTACHE : Tout, excepté l'essentiel."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Je voudrais bien savoir ce que vous appelez l'essentiel, par exemple.",
+    "id": "p-0082",
+    "fr": "GERTRUDE : Je voudrais bien savoir ce que vous appelez l'essentiel, par exemple."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU, rentrant.",
+    "text": "Au revoir, madame Heuzard. Eustache, tu ne viens pas serrer la main à Anatole?",
+    "id": "p-0083",
+    "fr": "MADAME SOREAU, rentrant. : Au revoir, madame Heuzard. Eustache, tu ne viens pas serrer la main à Anatole?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je suis en pantoufles.",
+    "id": "p-0084",
+    "fr": "EUSTACHE : Je suis en pantoufles."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU, avec excitation.",
+    "text": "J'ai oublié de te dire... Adrien s'est mis Croix de Feu. Le colonel lui a serré la main l'autre dimanche. Adrien dit : c'est un grand Français... Viens donc. Qu'est-ce que ça peut faire ! que tu soyes en pantoufles?... Il paraît qu'Anatole, il avait des propriétés dans le temps... grand comme un département.",
+    "id": "p-0085",
+    "fr": "MADAME SOREAU, avec excitation. : J'ai oublié de te dire... Adrien s'est mis Croix de Feu. Le colonel lui a serré la main l'autre dimanche. Adrien dit : c'est un grand Français... Viens donc. Qu'est-ce que ça peut faire ! que tu soyes en pantoufles?... Il paraît qu'Anatole, il avait des propriétés dans le temps... grand comme un département."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Justement. Il m'intimide.",
+    "id": "p-0086",
+    "fr": "EUSTACHE : Justement. Il m'intimide."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Faut pas être fier, tu sais. Eustache, pense à ton père. (Elle sort, puis rentre aussitôt.) N'oublie pas de souhaiter le bonjour de ma part à la petite dame allemande quand elle sera descendue de faire sa sieste... J'aime pas beaucoup les Boches, mais celle-là a une figure qui me revient. Tout de même, faut avoir l'œil, parce qu'ils sont en dessous, ces gens-là... Son mari, comment qu'il est?",
+    "id": "p-0087",
+    "fr": "MADAME SOREAU : Faut pas être fier, tu sais. Eustache, pense à ton père. (Elle sort, puis rentre aussitôt.) N'oublie pas de souhaiter le bonjour de ma part à la petite dame allemande quand elle sera descendue de faire sa sieste... J'aime pas beaucoup les Boches, mais celle-là a une figure qui me revient. Tout de même, faut avoir l'œil, parce qu'ils sont en dessous, ces gens-là... Son mari, comment qu'il est?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Eustache l'aime beaucoup, n'est-ce pas?",
+    "id": "p-0088",
+    "fr": "BÉATRICE : Eustache l'aime beaucoup, n'est-ce pas?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, sèchement.",
+    "text": "Pourquoi me le demander? tu le sais parfaitement.",
+    "id": "p-0089",
+    "fr": "EUSTACHE, sèchement. : Pourquoi me le demander? tu le sais parfaitement."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME SOREAU",
+    "text": "Au revoir. (Elle sort; un instant après on entend le bruit de l'auto qui démarre.)",
+    "id": "p-0090",
+    "fr": "MADAME SOREAU : Au revoir. (Elle sort; un instant après on entend le bruit de l'auto qui démarre.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Moi elle ne m'a pas plu du tout, cette petite bonne femme. Et puis qu'est-ce que c'est que cette façon d'aller dormir après déjeuner?",
+    "id": "p-0091",
+    "fr": "GERTRUDE : Moi elle ne m'a pas plu du tout, cette petite bonne femme. Et puis qu'est-ce que c'est que cette façon d'aller dormir après déjeuner?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Affaire d'habitude. Quand j'étais lecteur à Marbourg j'en faisais autant. Qu'est-ce que vous avez à me regarder, Gertrude?",
+    "id": "p-0092",
+    "fr": "EUSTACHE : Affaire d'habitude. Quand j'étais lecteur à Marbourg j'en faisais autant. Qu'est-ce que vous avez à me regarder, Gertrude?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Je me demandais... Depuis combien de temps est-elle chez vous?",
+    "id": "p-0093",
+    "fr": "GERTRUDE : Je me demandais... Depuis combien de temps est-elle chez vous?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Depuis quatre jours. Je vous ai dit que Werner a été voir en Suisse son ami Rudolf Schönthal qui est malade. Nous avons proposé à sa femme de venir habiter chez nous pendant ce temps-là.",
+    "id": "p-0094",
+    "fr": "EUSTACHE : Depuis quatre jours. Je vous ai dit que Werner a été voir en Suisse son ami Rudolf Schönthal qui est malade. Nous avons proposé à sa femme de venir habiter chez nous pendant ce temps-là."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE, à Béatrice qui rentre à ce moment.",
+    "text": "Et vous, qu'est-ce que vous pensez de cette petite personne?",
+    "id": "p-0095",
+    "fr": "GERTRUDE, à Béatrice qui rentre à ce moment. : Et vous, qu'est-ce que vous pensez de cette petite personne?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Quelle personne?",
+    "id": "p-0096",
+    "fr": "BÉATRICE : Quelle personne?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Gisela.",
+    "id": "p-0097",
+    "fr": "EUSTACHE : Gisela."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, simplement.",
+    "text": "Ah ! mais je ne la connais pas.",
+    "id": "p-0098",
+    "fr": "BÉATRICE, simplement. : Ah ! mais je ne la connais pas."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Vous avez bien une impression.",
+    "id": "p-0099",
+    "fr": "GERTRUDE : Vous avez bien une impression."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, hésitant.",
+    "text": "Non, je ne peux pas dire.",
+    "id": "p-0100",
+    "fr": "BÉATRICE, hésitant. : Non, je ne peux pas dire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Eh bien ! moi, à votre place, je me méfierais.",
+    "id": "p-0101",
+    "fr": "GERTRUDE : Eh bien ! moi, à votre place, je me méfierais."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je voudrais bien savoir pourquoi.",
+    "id": "p-0102",
+    "fr": "EUSTACHE : Je voudrais bien savoir pourquoi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "D'abord elle parle trop.",
+    "id": "p-0103",
+    "fr": "GERTRUDE : D'abord elle parle trop."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je me demande si ce n'est pas une forme de timidité. (Gertrude rit.) Moi, ça m'arrive, vous savez.",
+    "id": "p-0104",
+    "fr": "BÉATRICE : Je me demande si ce n'est pas une forme de timidité. (Gertrude rit.) Moi, ça m'arrive, vous savez."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Vous êtes timide?",
+    "id": "p-0105",
+    "fr": "GERTRUDE : Vous êtes timide?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Terriblement. Tenez, il n'y a pas longtemps que vous ne m'intimidez plus.",
+    "id": "p-0106",
+    "fr": "BÉATRICE : Terriblement. Tenez, il n'y a pas longtemps que vous ne m'intimidez plus."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Je suis impressionnée.",
+    "id": "p-0107",
+    "fr": "GERTRUDE : Je suis impressionnée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Presque tous les anciens camarades d'Eustache me font cet effet.",
+    "id": "p-0108",
+    "fr": "BÉATRICE : Presque tous les anciens camarades d'Eustache me font cet effet."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Ça n'a pas le sens commun.",
+    "id": "p-0109",
+    "fr": "EUSTACHE : Ça n'a pas le sens commun."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je ne peux pas m'empêcher de me demander ce qu'ils pensent de moi. Ce n'est pas ma faute. Ça m'est très désagréable.",
+    "id": "p-0110",
+    "fr": "BÉATRICE : Je ne peux pas m'empêcher de me demander ce qu'ils pensent de moi. Ce n'est pas ma faute. Ça m'est très désagréable."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "J'aurais cru plutôt le contraire. Ce sont eux qui doivent avoir peur de vous déplaire.",
+    "id": "p-0111",
+    "fr": "GERTRUDE : J'aurais cru plutôt le contraire. Ce sont eux qui doivent avoir peur de vous déplaire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Pourquoi?",
+    "id": "p-0112",
+    "fr": "BÉATRICE : Pourquoi?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Parce que tout dépend de vous.",
+    "id": "p-0113",
+    "fr": "GERTRUDE : Parce que tout dépend de vous."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je ne comprends pas.",
+    "id": "p-0114",
+    "fr": "BÉATRICE : Je ne comprends pas."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "S'ils vous déplaisent...",
+    "id": "p-0115",
+    "fr": "GERTRUDE : S'ils vous déplaisent..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Pourquoi est-ce qu'ils me déplairaient puisqu'ils sont les amis d'Eustache?",
+    "id": "p-0116",
+    "fr": "BÉATRICE : Pourquoi est-ce qu'ils me déplairaient puisqu'ils sont les amis d'Eustache?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "La belle raison !",
+    "id": "p-0117",
+    "fr": "GERTRUDE : La belle raison !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Et puis c'est très rare que les gens me déplaisent.",
+    "id": "p-0118",
+    "fr": "BÉATRICE : Et puis c'est très rare que les gens me déplaisent."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE, à Eustache.",
+    "text": "Votre femme est en or... D'ailleurs il suffit de la voir, et même de l'entendre. La première fois que nous nous sommes parlé, c'était au téléphone...",
+    "id": "p-0119",
+    "fr": "GERTRUDE, à Eustache. : Votre femme est en or... D'ailleurs il suffit de la voir, et même de l'entendre. La première fois que nous nous sommes parlé, c'était au téléphone..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Ah? c'est possible.",
+    "id": "p-0120",
+    "fr": "BÉATRICE : Ah? c'est possible."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "J'ai pensé tout de suite : avec une voix pareille...",
+    "id": "p-0121",
+    "fr": "GERTRUDE : J'ai pensé tout de suite : avec une voix pareille..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Allons donc !",
+    "id": "p-0122",
+    "fr": "EUSTACHE : Allons donc !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Ça ne trompe pas.",
+    "id": "p-0123",
+    "fr": "GERTRUDE : Ça ne trompe pas."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Assez parlé de moi, non?",
+    "id": "p-0124",
+    "fr": "BÉATRICE : Assez parlé de moi, non?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Et le mari alors, de quoi a-t-il l'air? C'est un chanteur, ou quoi?",
+    "id": "p-0125",
+    "fr": "GERTRUDE : Et le mari alors, de quoi a-t-il l'air? C'est un chanteur, ou quoi?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Oui. De concert, plutôt que de théâtre. Eustache dit qu'il ressemble à Novalis.",
+    "id": "p-0126",
+    "fr": "BÉATRICE : Oui. De concert, plutôt que de théâtre. Eustache dit qu'il ressemble à Novalis."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Ce n'est pas encore ça qui me renseignera. Novalis, pour moi, vous savez...",
+    "id": "p-0127",
+    "fr": "GERTRUDE : Ce n'est pas encore ça qui me renseignera. Novalis, pour moi, vous savez..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Très blond, très romantique, tout ce qu'il y a de plus gentil.",
+    "id": "p-0128",
+    "fr": "BÉATRICE : Très blond, très romantique, tout ce qu'il y a de plus gentil."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Gentil !",
+    "id": "p-0129",
+    "fr": "EUSTACHE : Gentil !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Eh bien?",
+    "id": "p-0130",
+    "fr": "BÉATRICE : Eh bien?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est un mot qui m'exaspère.",
+    "id": "p-0131",
+    "fr": "EUSTACHE : C'est un mot qui m'exaspère."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Il a quitté l'Allemagne parce qu'il ne pouvait faire autrement... ou quoi?",
+    "id": "p-0132",
+    "fr": "GERTRUDE : Il a quitté l'Allemagne parce qu'il ne pouvait faire autrement... ou quoi?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Mais non, justement, c'est ça qui est très beau.",
+    "id": "p-0133",
+    "fr": "BÉATRICE : Mais non, justement, c'est ça qui est très beau."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Lui est aryen cent pour cent, mais son accompagnateur, ce Schönthal justement, est juif et par-dessus le marché communiste...",
+    "id": "p-0134",
+    "fr": "EUSTACHE : Lui est aryen cent pour cent, mais son accompagnateur, ce Schönthal justement, est juif et par-dessus le marché communiste..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Ah oui?",
+    "id": "p-0135",
+    "fr": "GERTRUDE : Ah oui?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il a été incarcéré et terriblement amoché.",
+    "id": "p-0136",
+    "fr": "EUSTACHE : Il a été incarcéré et terriblement amoché."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Et nous croyons comprendre que c'est Werner Schnee qui a réussi à le faire évader.",
+    "id": "p-0137",
+    "fr": "BÉATRICE : Et nous croyons comprendre que c'est Werner Schnee qui a réussi à le faire évader."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Oui, mais enfin nous ne le savons pas exactement...",
+    "id": "p-0138",
+    "fr": "EUSTACHE : Oui, mais enfin nous ne le savons pas exactement..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "C'est toi-même...",
+    "id": "p-0139",
+    "fr": "BÉATRICE : C'est toi-même..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Ce n'est pas une histoire à colporter.",
+    "id": "p-0140",
+    "fr": "EUSTACHE : Ce n'est pas une histoire à colporter."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Et lui-même, votre Schnee, il est communiste?",
+    "id": "p-0141",
+    "fr": "GERTRUDE : Et lui-même, votre Schnee, il est communiste?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Pas du tout. Il ne s'est jamais occupé de politique.",
+    "id": "p-0142",
+    "fr": "BÉATRICE : Pas du tout. Il ne s'est jamais occupé de politique."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je suis tranquille, il y viendra.",
+    "id": "p-0143",
+    "fr": "EUSTACHE : Je suis tranquille, il y viendra."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Ce n'est pas sûr. C'est un artiste. Il chante merveilleusement. Il me paraît surtout très, très enfant...",
+    "id": "p-0144",
+    "fr": "BÉATRICE : Ce n'est pas sûr. C'est un artiste. Il chante merveilleusement. Il me paraît surtout très, très enfant..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Je ne comprends toujours pas pourquoi il a quitté l'Allemagne.",
+    "id": "p-0145",
+    "fr": "GERTRUDE : Je ne comprends toujours pas pourquoi il a quitté l'Allemagne."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Tout simplement pour ne pas se désolidariser de Rudolf Schönthal.",
+    "id": "p-0146",
+    "fr": "EUSTACHE : Tout simplement pour ne pas se désolidariser de Rudolf Schönthal."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Quelle drôle d'idée !",
+    "id": "p-0147",
+    "fr": "GERTRUDE : Quelle drôle d'idée !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Moi je trouve ça très beau. La fidélité en amitié...",
+    "id": "p-0148",
+    "fr": "BÉATRICE : Moi je trouve ça très beau. La fidélité en amitié..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Si on peut s'offrir ce luxe...",
+    "id": "p-0149",
+    "fr": "GERTRUDE : Si on peut s'offrir ce luxe..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Comment?",
+    "id": "p-0150",
+    "fr": "BÉATRICE : Comment?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Il a de l'argent, ce monsieur?",
+    "id": "p-0151",
+    "fr": "GERTRUDE : Il a de l'argent, ce monsieur?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Très peu. Et c'est lui qui paye le séjour de Rudolf à Davos.",
+    "id": "p-0152",
+    "fr": "EUSTACHE : Très peu. Et c'est lui qui paye le séjour de Rudolf à Davos."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Dites donc... une amitié qui va loin.",
+    "id": "p-0153",
+    "fr": "GERTRUDE : Dites donc... une amitié qui va loin."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Pas plus loin que n'irait la mienne pour Werner...",
+    "id": "p-0154",
+    "fr": "EUSTACHE : Pas plus loin que n'irait la mienne pour Werner..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Vous voilà prévenue.",
+    "id": "p-0155",
+    "fr": "GERTRUDE : Vous voilà prévenue."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "En quoi ça regarde-t-il Béatrice?",
+    "id": "p-0156",
+    "fr": "EUSTACHE : En quoi ça regarde-t-il Béatrice?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Et la petite dame Gisela, qu'est-ce qu'elle dit de cette amitié?",
+    "id": "p-0157",
+    "fr": "GERTRUDE : Et la petite dame Gisela, qu'est-ce qu'elle dit de cette amitié?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Gertrude, j'aime autant vous dire tout de suite que je déteste ces sous-entendus. Werner est pour moi plus qu'un ami : un camarade. Je ne devrais pas avoir besoin de vous expliquer ce que ça veut dire.",
+    "id": "p-0158",
+    "fr": "EUSTACHE : Gertrude, j'aime autant vous dire tout de suite que je déteste ces sous-entendus. Werner est pour moi plus qu'un ami : un camarade. Je ne devrais pas avoir besoin de vous expliquer ce que ça veut dire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Vous avez vidé des bocks et mangé de la choucroute ensemble dans les brasseries de Marbourg... Vous avez chanté à deux voix au clair de lune dans la forêt.",
+    "id": "p-0159",
+    "fr": "GERTRUDE : Vous avez vidé des bocks et mangé de la choucroute ensemble dans les brasseries de Marbourg... Vous avez chanté à deux voix au clair de lune dans la forêt."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Et alors?",
+    "id": "p-0160",
+    "fr": "EUSTACHE : Et alors?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Ce n'est pas encore tout ça qui fait qu'on est des camarades... et vous le savez très bien.",
+    "id": "p-0161",
+    "fr": "GERTRUDE : Ce n'est pas encore tout ça qui fait qu'on est des camarades... et vous le savez très bien."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je vous dis qu'il y viendra.",
+    "id": "p-0162",
+    "fr": "EUSTACHE : Je vous dis qu'il y viendra."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "En tous cas, la petite dame n'y viendra pas ; ça, je peux vous le garantir. (Elle s'est levée.)",
+    "id": "p-0163",
+    "fr": "GERTRUDE : En tous cas, la petite dame n'y viendra pas ; ça, je peux vous le garantir. (Elle s'est levée.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Vous m'aviez écrit que vous auriez quelque chose à me demander?...",
+    "id": "p-0164",
+    "fr": "EUSTACHE : Vous m'aviez écrit que vous auriez quelque chose à me demander?..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Oui, mais j'ai réfléchi. Je préfère m'abstenir.",
+    "id": "p-0165",
+    "fr": "GERTRUDE : Oui, mais j'ai réfléchi. Je préfère m'abstenir."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Pourquoi?",
+    "id": "p-0166",
+    "fr": "EUSTACHE : Pourquoi?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Je constate que nous sommes trop loin l'un de l'autre... Oh ! je m'en doutais.",
+    "id": "p-0167",
+    "fr": "GERTRUDE : Je constate que nous sommes trop loin l'un de l'autre... Oh ! je m'en doutais."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, avec douceur.",
+    "text": "Si Eustache peut vous rendre le moindre service, je sais qu'il en sera très heureux.",
+    "id": "p-0168",
+    "fr": "BÉATRICE, avec douceur. : Si Eustache peut vous rendre le moindre service, je sais qu'il en sera très heureux."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Je n'aime pas beaucoup qu'on me rende service.",
+    "id": "p-0169",
+    "fr": "GERTRUDE : Je n'aime pas beaucoup qu'on me rende service."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, d'une voix altérée.",
+    "text": "Je n'ai pas voulu vous froisser.",
+    "id": "p-0170",
+    "fr": "BÉATRICE, d'une voix altérée. : Je n'ai pas voulu vous froisser."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est au sujet de votre réintégration, bien entendu?",
+    "id": "p-0171",
+    "fr": "EUSTACHE : C'est au sujet de votre réintégration, bien entendu?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Oui.",
+    "id": "p-0172",
+    "fr": "GERTRUDE : Oui."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Où en êtes-vous?",
+    "id": "p-0173",
+    "fr": "EUSTACHE : Où en êtes-vous?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "On m'a promis que j'aurais un poste à la rentrée.",
+    "id": "p-0174",
+    "fr": "GERTRUDE : On m'a promis que j'aurais un poste à la rentrée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Qui, on?",
+    "id": "p-0175",
+    "fr": "EUSTACHE : Qui, on?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Mon inspecteur primaire. Mais je crois que c'est un tartufe... Et vous savez, si je dois rester encore quelques mois chez mon cher frère et ma chère belle-sœur, je crois que je deviendrai enragée.",
+    "id": "p-0176",
+    "fr": "GERTRUDE : Mon inspecteur primaire. Mais je crois que c'est un tartufe... Et vous savez, si je dois rester encore quelques mois chez mon cher frère et ma chère belle-sœur, je crois que je deviendrai enragée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Mais le syndicat vous soutient?",
+    "id": "p-0177",
+    "fr": "EUSTACHE : Mais le syndicat vous soutient?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Tout ce qu'il y a de plus. Mais rue de Grenelle, il souffle un vent de réaction... je ne vous dis que ça !",
+    "id": "p-0178",
+    "fr": "GERTRUDE : Tout ce qu'il y a de plus. Mais rue de Grenelle, il souffle un vent de réaction... je ne vous dis que ça !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Qu'est-ce que je pourrais faire?",
+    "id": "p-0179",
+    "fr": "EUSTACHE : Qu'est-ce que je pourrais faire?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Mais papa est en très bons termes avec le ministre !...",
+    "id": "p-0180",
+    "fr": "BÉATRICE : Mais papa est en très bons termes avec le ministre !..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je vois d'ici ton père faisant une démarche en faveur de Gertrude ! Tu n'as pas l'air de te douter que c'est un nationaliste à tous crins et qu'elle a été révoquée...",
+    "id": "p-0181",
+    "fr": "EUSTACHE : Je vois d'ici ton père faisant une démarche en faveur de Gertrude ! Tu n'as pas l'air de te douter que c'est un nationaliste à tous crins et qu'elle a été révoquée..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Suspendue.",
+    "id": "p-0182",
+    "fr": "GERTRUDE : Suspendue."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Sous prétexte qu'elle traînait la patrie dans la boue.",
+    "id": "p-0183",
+    "fr": "EUSTACHE : Sous prétexte qu'elle traînait la patrie dans la boue."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Mais je croyais que maintenant le mot d'ordre de Moscou...",
+    "id": "p-0184",
+    "fr": "BÉATRICE : Mais je croyais que maintenant le mot d'ordre de Moscou..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Nous ne recevons pas de mot d'ordre, pas plus de Moscou que d'ailleurs... Je vous assure. Eustache, ne gaspillez pas votre poudre pour moi. Ne vous croyez donc pas obligé de me donner un coup d'épaule... Je vois bien ce que vous vous dites, allez... le passé, la rue Sévéro, les meetings... Il vaut mieux faire une croix sur tout ça, allez... Simplifions, simplifions. Dire que je ne vous ai même pas félicité pour votre ruban... (A Béatrice.) Il ne m'en a pas voulu, au moins?... Mais vous ne me le direz pas : avec une voix pareille... Au revoir. Merci pour la pintade et la glace moka. Je n'ai rien dit, mais j'ai apprécié, vous savez. Et pour le Château-Margaux 1922.",
+    "id": "p-0185",
+    "fr": "GERTRUDE : Nous ne recevons pas de mot d'ordre, pas plus de Moscou que d'ailleurs... Je vous assure. Eustache, ne gaspillez pas votre poudre pour moi. Ne vous croyez donc pas obligé de me donner un coup d'épaule... Je vois bien ce que vous vous dites, allez... le passé, la rue Sévéro, les meetings... Il vaut mieux faire une croix sur tout ça, allez... Simplifions, simplifions. Dire que je ne vous ai même pas félicité pour votre ruban... (A Béatrice.) Il ne m'en a pas voulu, au moins?... Mais vous ne me le direz pas : avec une voix pareille... Au revoir. Merci pour la pintade et la glace moka. Je n'ai rien dit, mais j'ai apprécié, vous savez. Et pour le Château-Margaux 1922."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, d'une voix blanche.",
+    "text": "Eustache vous reconduira jusqu'à la gare.",
+    "id": "p-0186",
+    "fr": "BÉATRICE, d'une voix blanche. : Eustache vous reconduira jusqu'à la gare."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GERTRUDE",
+    "text": "Jusqu'à la porte du jardin. Pas deux mètres plus loin. (Elle sort vivement, suivie d'Eustache.)",
+    "id": "p-0187",
+    "fr": "GERTRUDE : Jusqu'à la porte du jardin. Pas deux mètres plus loin. (Elle sort vivement, suivie d'Eustache.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE III]",
+    "id": "p-0188",
+    "fr": "[SCÈNE III]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, puis EUSTACHE.",
+    "text": "(Béatrice s'assied, prend un livre, cherche à s'absorber dans sa lecture, n'y arrive pas, se lève, va à la fenêtre, regarde, pousse un soupir, se rassied; Eustache rentre à ce moment.)",
+    "id": "p-0189",
+    "fr": "BÉATRICE, puis EUSTACHE. : (Béatrice s'assied, prend un livre, cherche à s'absorber dans sa lecture, n'y arrive pas, se lève, va à la fenêtre, regarde, pousse un soupir, se rassied; Eustache rentre à ce moment.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, à Eustache",
+    "text": "Tu pourras faire quelque chose pour elle?",
+    "id": "p-0190",
+    "fr": "BÉATRICE, à Eustache : Tu pourras faire quelque chose pour elle?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je n'en sais rien. En tous cas il n'est pas question de faire appel aux bons offices de ton père.",
+    "id": "p-0191",
+    "fr": "EUSTACHE : Je n'en sais rien. En tous cas il n'est pas question de faire appel aux bons offices de ton père."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Papa est toujours si complaisant quand je lui demande quelque chose.",
+    "id": "p-0192",
+    "fr": "BÉATRICE : Papa est toujours si complaisant quand je lui demande quelque chose."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il ne s'agit pas ici d'accorder une faveur, mais de réparer une injustice.",
+    "id": "p-0193",
+    "fr": "EUSTACHE : Il ne s'agit pas ici d'accorder une faveur, mais de réparer une injustice."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Oui.",
+    "id": "p-0194",
+    "fr": "BÉATRICE : Oui."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Tu n'as pas l'air d'en être convaincue.",
+    "id": "p-0195",
+    "fr": "EUSTACHE : Tu n'as pas l'air d'en être convaincue."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je crois ce que tu me dis. Moi, je ne sais pas, tu comprends...",
+    "id": "p-0196",
+    "fr": "BÉATRICE : Je crois ce que tu me dis. Moi, je ne sais pas, tu comprends..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il serait du reste beaucoup plus franc de reconnaître que Gertrude t'est antipathique.",
+    "id": "p-0197",
+    "fr": "EUSTACHE : Il serait du reste beaucoup plus franc de reconnaître que Gertrude t'est antipathique."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Mais d'abord... ça n'a pas d'intérêt. Je suis sûre qu'elle a beaucoup de mérite.",
+    "id": "p-0198",
+    "fr": "BÉATRICE : Mais d'abord... ça n'a pas d'intérêt. Je suis sûre qu'elle a beaucoup de mérite."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Tu le concèdes?",
+    "id": "p-0199",
+    "fr": "EUSTACHE : Tu le concèdes?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je tâche d'être juste.",
+    "id": "p-0200",
+    "fr": "BÉATRICE : Je tâche d'être juste."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il vaudrait mieux être sincère.",
+    "id": "p-0201",
+    "fr": "EUSTACHE : Il vaudrait mieux être sincère."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Tu es drôle, Eustache ; c'est comme si tu mourais d'envie de te disputer avec moi. Mais ça ne me dit rien.",
+    "id": "p-0202",
+    "fr": "BÉATRICE : Tu es drôle, Eustache ; c'est comme si tu mourais d'envie de te disputer avec moi. Mais ça ne me dit rien."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Personne ne pourra t'accuser d'être trop combative.",
+    "id": "p-0203",
+    "fr": "EUSTACHE : Personne ne pourra t'accuser d'être trop combative."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Tu l'es pour deux, mon chéri.",
+    "id": "p-0204",
+    "fr": "BÉATRICE : Tu l'es pour deux, mon chéri."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est un reproche?",
+    "id": "p-0205",
+    "fr": "EUSTACHE : C'est un reproche?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Pas du tout. En somme, je trouve ça très beau.",
+    "id": "p-0206",
+    "fr": "BÉATRICE : Pas du tout. En somme, je trouve ça très beau."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "En somme?",
+    "id": "p-0207",
+    "fr": "EUSTACHE : En somme?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "J'aimerais seulement qu'en présence de mes parents et de Maxime, tu fasses un petit effort pour te contenir... A quoi ça sert-il de leur faire de la peine?",
+    "id": "p-0208",
+    "fr": "BÉATRICE : J'aimerais seulement qu'en présence de mes parents et de Maxime, tu fasses un petit effort pour te contenir... A quoi ça sert-il de leur faire de la peine?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est vrai, ils viennent ici tout à l'heure... Au fond, peut-on savoir pourquoi tu ne les a pas invités à déjeuner?",
+    "id": "p-0209",
+    "fr": "EUSTACHE : C'est vrai, ils viennent ici tout à l'heure... Au fond, peut-on savoir pourquoi tu ne les a pas invités à déjeuner?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, étonnée.",
+    "text": "Mais il me semble qu'il n'en avait jamais été question.",
+    "id": "p-0210",
+    "fr": "BÉATRICE, étonnée. : Mais il me semble qu'il n'en avait jamais été question."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Pourquoi?",
+    "id": "p-0211",
+    "fr": "EUSTACHE : Pourquoi?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "D'abord nous aurions été trop nombreux ; songe donc, avec Gisela, Gertrude...",
+    "id": "p-0212",
+    "fr": "BÉATRICE : D'abord nous aurions été trop nombreux ; songe donc, avec Gisela, Gertrude..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Et avec ma mère.",
+    "id": "p-0213",
+    "fr": "EUSTACHE : Et avec ma mère."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Oui.",
+    "id": "p-0214",
+    "fr": "BÉATRICE : Oui."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Est-ce qu'il ne serait pas plus franc de reconnaître que tu n'avais aucune envie de faire déjeuner tes parents avec elle? ce n'est pas la première fois que je le remarque. Tu n'en disconviens pas.",
+    "id": "p-0215",
+    "fr": "EUSTACHE : Est-ce qu'il ne serait pas plus franc de reconnaître que tu n'avais aucune envie de faire déjeuner tes parents avec elle? ce n'est pas la première fois que je le remarque. Tu n'en disconviens pas."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Comme tu voudras.",
+    "id": "p-0216",
+    "fr": "BÉATRICE : Comme tu voudras."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il ne s'agit pas de moi.",
+    "id": "p-0217",
+    "fr": "EUSTACHE : Il ne s'agit pas de moi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Oh ! si, Eustache ; il ne s'agit même que de toi.",
+    "id": "p-0218",
+    "fr": "BÉATRICE : Oh ! si, Eustache ; il ne s'agit même que de toi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Qu'est-ce que ça veut dire?",
+    "id": "p-0219",
+    "fr": "EUSTACHE : Qu'est-ce que ça veut dire?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Quand ta mère est là, tu es d'une nervosité... si tu te voyais !",
+    "id": "p-0220",
+    "fr": "BÉATRICE : Quand ta mère est là, tu es d'une nervosité... si tu te voyais !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Uniquement parce que je devine tout ce que tu penses.",
+    "id": "p-0221",
+    "fr": "EUSTACHE : Uniquement parce que je devine tout ce que tu penses."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je ne pense rien du tout. Je suis contente de voir ta mère satisfaite. Pauvre femme ! elle a eu une vie si dure. Il est bien juste qu'à présent...",
+    "id": "p-0222",
+    "fr": "BÉATRICE : Je ne pense rien du tout. Je suis contente de voir ta mère satisfaite. Pauvre femme ! elle a eu une vie si dure. Il est bien juste qu'à présent..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Elle ne s'est jamais plainte, que je sache?",
+    "id": "p-0223",
+    "fr": "EUSTACHE : Elle ne s'est jamais plainte, que je sache?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Non, mais très souvent, il lui échappe un mot, une allusion...",
+    "id": "p-0224",
+    "fr": "BÉATRICE : Non, mais très souvent, il lui échappe un mot, une allusion..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Pourquoi lui as-tu offert un second verre de liqueur?",
+    "id": "p-0225",
+    "fr": "EUSTACHE : Pourquoi lui as-tu offert un second verre de liqueur?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Mais je voyais qu'elle en avait envie, Eustache, écoute...",
+    "id": "p-0226",
+    "fr": "BÉATRICE : Mais je voyais qu'elle en avait envie, Eustache, écoute..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est certainement mauvais pour elle. Quand elle est partie, elle avait le sang à la tête... Tu crois lui témoigner des égards, je suppose ; mais moi, tu me blesses...",
+    "id": "p-0227",
+    "fr": "EUSTACHE : C'est certainement mauvais pour elle. Quand elle est partie, elle avait le sang à la tête... Tu crois lui témoigner des égards, je suppose ; mais moi, tu me blesses..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je ne sais vraiment pas ce qu'il faut faire.",
+    "id": "p-0228",
+    "fr": "BÉATRICE : Je ne sais vraiment pas ce qu'il faut faire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Et je te demanderai aussi de ne pas pousser ces soupirs de victime.",
+    "id": "p-0229",
+    "fr": "EUSTACHE : Et je te demanderai aussi de ne pas pousser ces soupirs de victime."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "La vérité, c'est que la visite de Gertrude...",
+    "id": "p-0230",
+    "fr": "BÉATRICE : La vérité, c'est que la visite de Gertrude..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Eh bien?",
+    "id": "p-0231",
+    "fr": "EUSTACHE : Eh bien?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Non, rien... Tu as connu son mari?",
+    "id": "p-0232",
+    "fr": "BÉATRICE : Non, rien... Tu as connu son mari?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Très peu.",
+    "id": "p-0233",
+    "fr": "EUSTACHE : Très peu."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "C'était aussi un militant?",
+    "id": "p-0234",
+    "fr": "BÉATRICE : C'était aussi un militant?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Sans ça elle ne l'aurait pas épousé.",
+    "id": "p-0235",
+    "fr": "EUSTACHE : Sans ça elle ne l'aurait pas épousé."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Naturellement.",
+    "id": "p-0236",
+    "fr": "BÉATRICE : Naturellement."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "On peut dire ce qu'on veut contre Gertrude, mais c'est quelqu'un qui a su mettre ses actes d'accord avec sa pensée.",
+    "id": "p-0237",
+    "fr": "EUSTACHE : On peut dire ce qu'on veut contre Gertrude, mais c'est quelqu'un qui a su mettre ses actes d'accord avec sa pensée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Contre qui dis-tu ça, Eustache?",
+    "id": "p-0238",
+    "fr": "BÉATRICE : Contre qui dis-tu ça, Eustache?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Contre personne. Quelle drôle de question !... Et au fond c'est peut-être la seule chose tout à fait importante.",
+    "id": "p-0239",
+    "fr": "EUSTACHE : Contre personne. Quelle drôle de question !... Et au fond c'est peut-être la seule chose tout à fait importante."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "On peut en dire autant de toi, mon chéri.",
+    "id": "p-0240",
+    "fr": "BÉATRICE : On peut en dire autant de toi, mon chéri."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je te remercie de ce certificat. Tu es malheureusement beaucoup trop prévenue en ma faveur pour que ton opinion tire à conséquence.",
+    "id": "p-0241",
+    "fr": "EUSTACHE : Je te remercie de ce certificat. Tu es malheureusement beaucoup trop prévenue en ma faveur pour que ton opinion tire à conséquence."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je ne comprends pas ce que tu peux avoir à te reprocher.",
+    "id": "p-0242",
+    "fr": "BÉATRICE : Je ne comprends pas ce que tu peux avoir à te reprocher."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il n'est pas question de ça. Mais il suffit quelquefois de considérer sa propre vie à travers les yeux d'un autre...",
+    "id": "p-0243",
+    "fr": "EUSTACHE : Il n'est pas question de ça. Mais il suffit quelquefois de considérer sa propre vie à travers les yeux d'un autre..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "L'autre, je suppose que c'est Gertrude?",
+    "id": "p-0244",
+    "fr": "BÉATRICE : L'autre, je suppose que c'est Gertrude?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, avec véhémence.",
+    "text": "Gertrude, c'est mon passé, c'est tout ce que je voulais être. (Béatrice rit.) Pourquoi ris-tu?",
+    "id": "p-0245",
+    "fr": "EUSTACHE, avec véhémence. : Gertrude, c'est mon passé, c'est tout ce que je voulais être. (Béatrice rit.) Pourquoi ris-tu?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Tu n'as tout de même jamais eu le désir de ressembler à Gertrude.",
+    "id": "p-0246",
+    "fr": "BÉATRICE : Tu n'as tout de même jamais eu le désir de ressembler à Gertrude."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est comme si j'avais mesuré à l'instant l'écart entre ce que j'avais l'ambition d'être et ce que je suis devenu.",
+    "id": "p-0247",
+    "fr": "EUSTACHE : C'est comme si j'avais mesuré à l'instant l'écart entre ce que j'avais l'ambition d'être et ce que je suis devenu."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Quelle ambition? je ne sais pas ce qu'il te faut.",
+    "id": "p-0248",
+    "fr": "BÉATRICE : Quelle ambition? je ne sais pas ce qu'il te faut."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il ne s'agit pas de succès, et moins encore d'argent. On dirait vraiment à t'entendre que j'ai seulement misé sur la réussite extérieure.",
+    "id": "p-0249",
+    "fr": "EUSTACHE : Il ne s'agit pas de succès, et moins encore d'argent. On dirait vraiment à t'entendre que j'ai seulement misé sur la réussite extérieure."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je n'ai rien dit de pareil...",
+    "id": "p-0250",
+    "fr": "BÉATRICE : Je n'ai rien dit de pareil..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Tu pourrais te dispenser de me rappeler perpétuellement que j'ai eu de la chance.",
+    "id": "p-0251",
+    "fr": "EUSTACHE : Tu pourrais te dispenser de me rappeler perpétuellement que j'ai eu de la chance."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Moi je te?... Mais d'abord, tu n'as eu que ce que tu méritais.",
+    "id": "p-0252",
+    "fr": "BÉATRICE : Moi je te?... Mais d'abord, tu n'as eu que ce que tu méritais."
+  }
+]

@@ -1,0 +1,1766 @@
+[
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Béatrice ! en quoi ai-je plus de mérite que Dérieux ou que Varignon qui crèvent de faim avec leurs femmes et leurs gosses? J'ai eu de la chance... une chance imméritée, insultante... Pourquoi hoches-tu la tête?",
+    "id": "p-0253",
+    "fr": "EUSTACHE : Béatrice ! en quoi ai-je plus de mérite que Dérieux ou que Varignon qui crèvent de faim avec leurs femmes et leurs gosses? J'ai eu de la chance... une chance imméritée, insultante... Pourquoi hoches-tu la tête?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je crois seulement que si tu t'imagines voir plus clair dans notre existence en la regardant à travers ce qu'en pense cette femme...",
+    "id": "p-0254",
+    "fr": "BÉATRICE : Je crois seulement que si tu t'imagines voir plus clair dans notre existence en la regardant à travers ce qu'en pense cette femme..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Cette femme !... tu vois...",
+    "id": "p-0255",
+    "fr": "EUSTACHE : Cette femme !... tu vois..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Tu te trompes certainement. Bien entendu je peux être injuste, mais elle me fait l'effet d'une envieuse.",
+    "id": "p-0256",
+    "fr": "BÉATRICE : Tu te trompes certainement. Bien entendu je peux être injuste, mais elle me fait l'effet d'une envieuse."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Quelle erreur ! elle ne m'envie pas, elle me plaint...",
+    "id": "p-0257",
+    "fr": "EUSTACHE : Quelle erreur ! elle ne m'envie pas, elle me plaint..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Par exemple !",
+    "id": "p-0258",
+    "fr": "BÉATRICE : Par exemple !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Elle me croit embourgeoisé, avili... Tu peux rire.",
+    "id": "p-0259",
+    "fr": "EUSTACHE : Elle me croit embourgeoisé, avili... Tu peux rire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je ne ris pas, tu as de la peine.",
+    "id": "p-0260",
+    "fr": "BÉATRICE : Je ne ris pas, tu as de la peine."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Ça m'est intolérable.",
+    "id": "p-0261",
+    "fr": "EUSTACHE : Ça m'est intolérable."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, tristement.",
+    "text": "Je le vois bien.",
+    "id": "p-0262",
+    "fr": "BÉATRICE, tristement. : Je le vois bien."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Et il est probable qu'elle a raison... Du reste, même si elle était envieuse, comme tu dis, ce ne serait qu'une rançon de sa malchance.",
+    "id": "p-0263",
+    "fr": "EUSTACHE : Et il est probable qu'elle a raison... Du reste, même si elle était envieuse, comme tu dis, ce ne serait qu'une rançon de sa malchance."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Oui, mais avoue que dans ces conditions, son opinion perdrait toute valeur.",
+    "id": "p-0264",
+    "fr": "BÉATRICE : Oui, mais avoue que dans ces conditions, son opinion perdrait toute valeur."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Comment expliques-tu alors que son mépris m'atteigne à un point aussi sensible?",
+    "id": "p-0265",
+    "fr": "EUSTACHE : Comment expliques-tu alors que son mépris m'atteigne à un point aussi sensible?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Son mépris! c'est trop fort! quelle qualité cette pécore a-t-elle pour te juger? Tu peux bien dire tout ce que tu voudras; si on l'a renvoyée, je suis sûre qu'on avait de bonnes raisons.",
+    "id": "p-0266",
+    "fr": "BÉATRICE : Son mépris! c'est trop fort! quelle qualité cette pécore a-t-elle pour te juger? Tu peux bien dire tout ce que tu voudras; si on l'a renvoyée, je suis sûre qu'on avait de bonnes raisons."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Béatrice! est-ce que l'on congédie un fonctionnaire comme un domestique?",
+    "id": "p-0267",
+    "fr": "EUSTACHE : Béatrice! est-ce que l'on congédie un fonctionnaire comme un domestique?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "En réalité, quand j'y réfléchis... est-ce qu'elle n'aurait pas été un peu amoureuse de toi, cette Gertrude, dans le temps?",
+    "id": "p-0268",
+    "fr": "BÉATRICE : En réalité, quand j'y réfléchis... est-ce qu'elle n'aurait pas été un peu amoureuse de toi, cette Gertrude, dans le temps?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Mais je n'en sais rien. En voilà une façon de raisonner! toujours voir du roman partout, des complications sentimentales...",
+    "id": "p-0269",
+    "fr": "EUSTACHE : Mais je n'en sais rien. En voilà une façon de raisonner! toujours voir du roman partout, des complications sentimentales..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Tu sais, c'est très important dans la vie.",
+    "id": "p-0270",
+    "fr": "BÉATRICE : Tu sais, c'est très important dans la vie."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Beaucoup moins qu'on ne le dit. Ce sont les romanciers bourgeois qui ont cette obsession.",
+    "id": "p-0271",
+    "fr": "EUSTACHE : Beaucoup moins qu'on ne le dit. Ce sont les romanciers bourgeois qui ont cette obsession."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Eustache!",
+    "id": "p-0272",
+    "fr": "BÉATRICE : Eustache!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Comme ils sont payés — à la lettre — pour ne jamais poser les vraies questions, les seules qui comptent, celles qui dérangeraient les habitudes de leurs lecteurs, ils remplissent leurs bouquins avec ces niaiseries... Pourquoi me regardes-tu de cette façon-là?",
+    "id": "p-0273",
+    "fr": "EUSTACHE : Comme ils sont payés — à la lettre — pour ne jamais poser les vraies questions, les seules qui comptent, celles qui dérangeraient les habitudes de leurs lecteurs, ils remplissent leurs bouquins avec ces niaiseries... Pourquoi me regardes-tu de cette façon-là?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, avec émotion.",
+    "text": "Tu es encore si jeune, si enfant!",
+    "id": "p-0274",
+    "fr": "BÉATRICE, avec émotion. : Tu es encore si jeune, si enfant!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Avec ça! (On entend une corne d'auto.) Ce sont tes parents.",
+    "id": "p-0275",
+    "fr": "EUSTACHE : Avec ça! (On entend une corne d'auto.) Ce sont tes parents."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Tu viens?",
+    "id": "p-0276",
+    "fr": "BÉATRICE : Tu viens?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Nous n'avons pas besoin de nous précipiter tous les deux. (Béatrice est sortie; Eustache est resté sur le seuil; on entend des éclats de voix; Eustache fronce les sourcils.) Ces effusions familiales...",
+    "id": "p-0277",
+    "fr": "EUSTACHE : Nous n'avons pas besoin de nous précipiter tous les deux. (Béatrice est sortie; Eustache est resté sur le seuil; on entend des éclats de voix; Eustache fronce les sourcils.) Ces effusions familiales..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE IV]",
+    "id": "p-0278",
+    "fr": "[SCÈNE IV]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, DURAND-FRESNEL, MADAME DURAND-FRESNEL, MAXIME.",
+    "id": "p-0279",
+    "fr": "LES MÊMES, DURAND-FRESNEL, MADAME DURAND-FRESNEL, MAXIME."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Je t'en prie, Bichette... Bonjour, Eustache; com-",
+    "id": "p-0280",
+    "fr": "MADAME DURAND-FRESNEL : Je t'en prie, Bichette... Bonjour, Eustache; com-"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "ment allez-vous?... Dis à ton frère d'être plus prudent, il conduit comme un fou; moi, on ne veut pas m'écouter.",
+    "id": "p-0281",
+    "fr": "MADAME DURAND-FRESNEL : ment allez-vous?... Dis à ton frère d'être plus prudent, il conduit comme un fou; moi, on ne veut pas m'écouter."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, à Eustache.",
+    "text": "Comment allez-vous, mon ami?",
+    "id": "p-0282",
+    "fr": "DURAND-FRESNEL, à Eustache. : Comment allez-vous, mon ami?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME, tendant la main à Eustache.",
+    "text": "Ça va toujours?",
+    "id": "p-0283",
+    "fr": "MAXIME, tendant la main à Eustache. : Ça va toujours?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Merci.",
+    "id": "p-0284",
+    "fr": "EUSTACHE : Merci."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "En venant, nous sommes justement passés prendre des nouvelles de cette pauvre Mme Obernai...",
+    "id": "p-0285",
+    "fr": "MADAME DURAND-FRESNEL : En venant, nous sommes justement passés prendre des nouvelles de cette pauvre Mme Obernai..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, à Eustache.",
+    "text": "Vous avez vu les journaux?",
+    "id": "p-0286",
+    "fr": "DURAND-FRESNEL, à Eustache. : Vous avez vu les journaux?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Non.",
+    "id": "p-0287",
+    "fr": "EUSTACHE : Non."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "La décision de la Commission exécutive?...",
+    "id": "p-0288",
+    "fr": "DURAND-FRESNEL : La décision de la Commission exécutive?..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Eh bien?",
+    "id": "p-0289",
+    "fr": "EUSTACHE : Eh bien?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Pratiquement, c'est un vote de méfiance envers le gouvernement; la démission est inévitable.",
+    "id": "p-0290",
+    "fr": "DURAND-FRESNEL : Pratiquement, c'est un vote de méfiance envers le gouvernement; la démission est inévitable."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Qu'est-ce que vous en dites?",
+    "id": "p-0291",
+    "fr": "EUSTACHE : Qu'est-ce que vous en dites?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Bichette, je suis absolument sûre de te l'avoir dit; je te l'ai même téléphoné. Suis mon exemple, aie un carnet; une petite note est si vite prise... Je suis tout à fait ennuyée que tu n'aies pas demandé de nouvelles. Gustave!",
+    "id": "p-0292",
+    "fr": "MADAME DURAND-FRESNEL : Bichette, je suis absolument sûre de te l'avoir dit; je te l'ai même téléphoné. Suis mon exemple, aie un carnet; une petite note est si vite prise... Je suis tout à fait ennuyée que tu n'aies pas demandé de nouvelles. Gustave!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Vous comprenez bien qu'il y a du pour et du contre. Si je me place au point de vue de la discipline du parti...",
+    "id": "p-0293",
+    "fr": "DURAND-FRESNEL : Vous comprenez bien qu'il y a du pour et du contre. Si je me place au point de vue de la discipline du parti..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je vous avoue que je m'en f... de la discipline du parti.",
+    "id": "p-0294",
+    "fr": "EUSTACHE : Je vous avoue que je m'en f... de la discipline du parti."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Ah! non, Eustache, permettez.",
+    "id": "p-0295",
+    "fr": "DURAND-FRESNEL : Ah! non, Eustache, permettez."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Gustave!",
+    "id": "p-0296",
+    "fr": "MADAME DURAND-FRESNEL : Gustave!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "D'abord ce n'est pas mon parti.",
+    "id": "p-0297",
+    "fr": "EUSTACHE : D'abord ce n'est pas mon parti."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Béatrice n'a pas pensé à prendre de nouvelles de Mme Obernai...",
+    "id": "p-0298",
+    "fr": "MADAME DURAND-FRESNEL : Béatrice n'a pas pensé à prendre de nouvelles de Mme Obernai..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Si vous commencez déjà à ruer dans les brancards...",
+    "id": "p-0299",
+    "fr": "DURAND-FRESNEL : Si vous commencez déjà à ruer dans les brancards..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Comment?",
+    "id": "p-0300",
+    "fr": "EUSTACHE : Comment?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Gustave, est-ce que tu m'as entendue?",
+    "id": "p-0301",
+    "fr": "MADAME DURAND-FRESNEL : Gustave, est-ce que tu m'as entendue?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Écoute, maman, c'est bien inutile de t'égosiller. Ils sont dans la politique.",
+    "id": "p-0302",
+    "fr": "MAXIME : Écoute, maman, c'est bien inutile de t'égosiller. Ils sont dans la politique."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Toujours la politique... Écoute-moi, ma petite enfant, je n'ai pas de conseil à te donner, mais je sais qu'à ta place, j'enverrais, je ne sais pas, moi... un cyclamen ou un petit azalée.",
+    "id": "p-0303",
+    "fr": "MADAME DURAND-FRESNEL : Toujours la politique... Écoute-moi, ma petite enfant, je n'ai pas de conseil à te donner, mais je sais qu'à ta place, j'enverrais, je ne sais pas, moi... un cyclamen ou un petit azalée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, conciliante.",
+    "text": "Nous verrons.",
+    "id": "p-0304",
+    "fr": "BÉATRICE, conciliante. : Nous verrons."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "J'ai déjà cru remarquer... ton mari et toi, vous vous croyez trop facilement dispensés de tenir compte de",
+    "id": "p-0305",
+    "fr": "MADAME DURAND-FRESNEL : J'ai déjà cru remarquer... ton mari et toi, vous vous croyez trop facilement dispensés de tenir compte de"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "certaines obligations qui ont leur importance. Gustave!",
+    "id": "p-0306",
+    "fr": "MADAME DURAND-FRESNEL : certaines obligations qui ont leur importance. Gustave!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Vous devriez comprendre qu'avec les dangers de réaction qui se précisent de tous les côtés, si vous n'y mettez pas un peu du vôtre...",
+    "id": "p-0307",
+    "fr": "DURAND-FRESNEL : Vous devriez comprendre qu'avec les dangers de réaction qui se précisent de tous les côtés, si vous n'y mettez pas un peu du vôtre..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "De qui parlez-vous?",
+    "id": "p-0308",
+    "fr": "EUSTACHE : De qui parlez-vous?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Des socialistes, nom d'un chien! Laissez-moi vous le dire nettement: votre attitude est inadmissible.",
+    "id": "p-0309",
+    "fr": "DURAND-FRESNEL : Des socialistes, nom d'un chien! Laissez-moi vous le dire nettement: votre attitude est inadmissible."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je ne comprends pas.",
+    "id": "p-0310",
+    "fr": "EUSTACHE : Je ne comprends pas."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Si vous aviez derrière vous trente ans de défense républicaine...",
+    "id": "p-0311",
+    "fr": "DURAND-FRESNEL : Si vous aviez derrière vous trente ans de défense républicaine..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je suis bien forcé de constater qu'à l'abri de ces grands mots, vous avez laissé se perpétuer les pires abus.",
+    "id": "p-0312",
+    "fr": "EUSTACHE : Je suis bien forcé de constater qu'à l'abri de ces grands mots, vous avez laissé se perpétuer les pires abus."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Quels abus?",
+    "id": "p-0313",
+    "fr": "DURAND-FRESNEL : Quels abus?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Et que votre parti n'a jamais cessé de pactiser avec les puissances d'argent.",
+    "id": "p-0314",
+    "fr": "EUSTACHE : Et que votre parti n'a jamais cessé de pactiser avec les puissances d'argent."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, hurlant.",
+    "text": "Quels abus?",
+    "id": "p-0315",
+    "fr": "DURAND-FRESNEL, hurlant. : Quels abus?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Gustave, je t'en prie! N'es-tu pas d'avis comme moi que Béatrice devrait envoyer un cyclamen ou une azalée à Mme Obernai? Veuille réfléchir avant de répondre.",
+    "id": "p-0316",
+    "fr": "MADAME DURAND-FRESNEL : Gustave, je t'en prie! N'es-tu pas d'avis comme moi que Béatrice devrait envoyer un cyclamen ou une azalée à Mme Obernai? Veuille réfléchir avant de répondre."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Je m'y oppose, moi, c'est bien simple. Obernai est un des pires gredins de ce temps...",
+    "id": "p-0317",
+    "fr": "EUSTACHE : Je m'y oppose, moi, c'est bien simple. Obernai est un des pires gredins de ce temps..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Comment?",
+    "id": "p-0318",
+    "fr": "DURAND-FRESNEL : Comment?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il émarge aux fonds secrets.",
+    "id": "p-0319",
+    "fr": "EUSTACHE : Il émarge aux fonds secrets."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Et après?... Vous oubliez d'ailleurs que parmi mes collègues du Sénat il est de ceux qui vous ont appuyé le plus chaleureusement au moment de votre décoration.",
+    "id": "p-0320",
+    "fr": "DURAND-FRESNEL : Et après?... Vous oubliez d'ailleurs que parmi mes collègues du Sénat il est de ceux qui vous ont appuyé le plus chaleureusement au moment de votre décoration."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Eustache! vous ne la portez plus.",
+    "id": "p-0321",
+    "fr": "MADAME DURAND-FRESNEL : Eustache! vous ne la portez plus."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Non.",
+    "id": "p-0322",
+    "fr": "EUSTACHE : Non."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Mais c'est insensé. Gustave!",
+    "id": "p-0323",
+    "fr": "MADAME DURAND-FRESNEL : Mais c'est insensé. Gustave!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Vous savez parfaitement que sans l'insistance de Béatrice je l'aurais refusée.",
+    "id": "p-0324",
+    "fr": "EUSTACHE : Vous savez parfaitement que sans l'insistance de Béatrice je l'aurais refusée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "C'est la première nouvelle.",
+    "id": "p-0325",
+    "fr": "DURAND-FRESNEL : C'est la première nouvelle."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Mais je reconnais que c'eût été encore attacher trop d'importance à ce hochet.",
+    "id": "p-0326",
+    "fr": "EUSTACHE : Mais je reconnais que c'eût été encore attacher trop d'importance à ce hochet."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Mon ami, est-ce que vous vous rendez compte qu'un adversaire de la République ne parlerait pas autrement?",
+    "id": "p-0327",
+    "fr": "DURAND-FRESNEL : Mon ami, est-ce que vous vous rendez compte qu'un adversaire de la République ne parlerait pas autrement?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "De quelle république?",
+    "id": "p-0328",
+    "fr": "EUSTACHE : De quelle république?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Toi je te vois venir, avec tes soviets... assez, assez... moi, d'abord, les gens de Moscou me dégoûtent depuis qu'ils sont devenus militaristes.",
+    "id": "p-0329",
+    "fr": "MAXIME : Toi je te vois venir, avec tes soviets... assez, assez... moi, d'abord, les gens de Moscou me dégoûtent depuis qu'ils sont devenus militaristes."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Tu ne tiens pas compte du péril allemand.",
+    "id": "p-0330",
+    "fr": "DURAND-FRESNEL : Tu ne tiens pas compte du péril allemand."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Qu'on nous fiche la paix avec le péril allemand! Il n'y a qu'à leur rendre leurs colonies, et puis s'il leur faut un bout d'Ukraine ou de Lithuanie, je ne sais quoi, eh! bien, qu'ils y aillent... ce n'est pas moi qui m'y opposerai... La paix, la paix.",
+    "id": "p-0331",
+    "fr": "MAXIME : Qu'on nous fiche la paix avec le péril allemand! Il n'y a qu'à leur rendre leurs colonies, et puis s'il leur faut un bout d'Ukraine ou de Lithuanie, je ne sais quoi, eh! bien, qu'ils y aillent... ce n'est pas moi qui m'y opposerai... La paix, la paix."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Mon enfant, tu parles de ces choses avec une légèreté... Je lisais hier soir dans le Temps... Il y a des principes sur lesquels on ne peut pas transiger.",
+    "id": "p-0332",
+    "fr": "DURAND-FRESNEL : Mon enfant, tu parles de ces choses avec une légèreté... Je lisais hier soir dans le Temps... Il y a des principes sur lesquels on ne peut pas transiger."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Non alors, les principes, laisse-moi rire...",
+    "id": "p-0333",
+    "fr": "MAXIME : Non alors, les principes, laisse-moi rire..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, à Eustache.",
+    "text": "Je me demande quelquefois s'il n'y a pas une lacune dans leur éducation... Ces jeunes gens me paraissent d'un cynisme... Nous, à leur âge, je me rappelle... Je sais bien que nous avons fait nos premières armes à l'ombre de l'affaire Dreyfus... Hein? Mais vous, mon ami, vous qui êtes d'une génération intermédiaire et somme toute plus rapprochée de celle de mon fils, vous êtes un idéaliste, vous aussi...",
+    "id": "p-0334",
+    "fr": "DURAND-FRESNEL, à Eustache. : Je me demande quelquefois s'il n'y a pas une lacune dans leur éducation... Ces jeunes gens me paraissent d'un cynisme... Nous, à leur âge, je me rappelle... Je sais bien que nous avons fait nos premières armes à l'ombre de l'affaire Dreyfus... Hein? Mais vous, mon ami, vous qui êtes d'une génération intermédiaire et somme toute plus rapprochée de celle de mon fils, vous êtes un idéaliste, vous aussi..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Pardon. Matérialiste intégral.",
+    "id": "p-0335",
+    "fr": "EUSTACHE : Pardon. Matérialiste intégral."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Oui... si vous voulez... d'accord; mais en somme ça revient au même.",
+    "id": "p-0336",
+    "fr": "DURAND-FRESNEL : Oui... si vous voulez... d'accord; mais en somme ça revient au même."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Nous ne parlons pas la même langue. Quand je dénonce les abus de la société actuelle, vous ne comprenez même pas de quoi il s'agit.",
+    "id": "p-0337",
+    "fr": "EUSTACHE : Nous ne parlons pas la même langue. Quand je dénonce les abus de la société actuelle, vous ne comprenez même pas de quoi il s'agit."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Permettez, permettez. J'ai toujours été à l'avant-garde de ceux qui réclamaient pour le peuple l'instruction, le bien-être...",
+    "id": "p-0338",
+    "fr": "DURAND-FRESNEL : Permettez, permettez. J'ai toujours été à l'avant-garde de ceux qui réclamaient pour le peuple l'instruction, le bien-être..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Pas question de réformes. La société actuelle n'est pas réformable. Vous êtes un conservateur honteux, pas autre chose.",
+    "id": "p-0339",
+    "fr": "EUSTACHE : Pas question de réformes. La société actuelle n'est pas réformable. Vous êtes un conservateur honteux, pas autre chose."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, à Béatrice.",
+    "text": "Je ne conçois pas que tu me laisses insulter par ton mari.",
+    "id": "p-0340",
+    "fr": "DURAND-FRESNEL, à Béatrice. : Je ne conçois pas que tu me laisses insulter par ton mari."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Mais je ne sais pas, tu comprends, papa; Eustache a peut-être raison.",
+    "id": "p-0341",
+    "fr": "BÉATRICE : Mais je ne sais pas, tu comprends, papa; Eustache a peut-être raison."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Vous m'avez aliéné le cœur de mon enfant.",
+    "id": "p-0342",
+    "fr": "DURAND-FRESNEL : Vous m'avez aliéné le cœur de mon enfant."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Mais non, papa, tu es très gentil.",
+    "id": "p-0343",
+    "fr": "BÉATRICE : Mais non, papa, tu es très gentil."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "La question n'est pas là.",
+    "id": "p-0344",
+    "fr": "DURAND-FRESNEL : La question n'est pas là."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL, à Maxime.",
+    "text": "Maxime, va donc chercher le cake (elle prononce kèk) dans la voiture.",
+    "id": "p-0345",
+    "fr": "MADAME DURAND-FRESNEL, à Maxime. : Maxime, va donc chercher le cake (elle prononce kèk) dans la voiture."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je vais aller faire le thé.",
+    "id": "p-0346",
+    "fr": "BÉATRICE : Je vais aller faire le thé."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL, bouleversée.",
+    "text": "Tu es sans bonne?",
+    "id": "p-0347",
+    "fr": "MADAME DURAND-FRESNEL, bouleversée. : Tu es sans bonne?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "C'est dimanche. Raymonde est sortie.",
+    "id": "p-0348",
+    "fr": "BÉATRICE : C'est dimanche. Raymonde est sortie."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Moi je spécifie toujours que ma femme de chambre ne sortira pas les dimanches de réception. Je donne",
+    "id": "p-0349",
+    "fr": "MADAME DURAND-FRESNEL : Moi je spécifie toujours que ma femme de chambre ne sortira pas les dimanches de réception. Je donne"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "un après-midi de sortie dans la semaine pour remplacer. Je me suis renseignée. Toutes mes amies font de même. Autrement on perd toute autorité. Ta petite bonne ne me paraît déjà pas si bien stylée.",
+    "id": "p-0350",
+    "fr": "MADAME DURAND-FRESNEL : un après-midi de sortie dans la semaine pour remplacer. Je me suis renseignée. Toutes mes amies font de même. Autrement on perd toute autorité. Ta petite bonne ne me paraît déjà pas si bien stylée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Stylée! voilà. Stylée!...",
+    "id": "p-0351",
+    "fr": "EUSTACHE : Stylée! voilà. Stylée!..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Mais voulez-vous vous taire, mon ami, un homme n'entend rien à ces choses.",
+    "id": "p-0352",
+    "fr": "MADAME DURAND-FRESNEL : Mais voulez-vous vous taire, mon ami, un homme n'entend rien à ces choses."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Le régime des privilèges. Une mentalité d'avant 89!",
+    "id": "p-0353",
+    "fr": "EUSTACHE : Le régime des privilèges. Une mentalité d'avant 89!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE V]",
+    "id": "p-0354",
+    "fr": "[SCÈNE V]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, GISELA.",
+    "id": "p-0355",
+    "fr": "LES MÊMES, GISELA."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA, qui entre en se frottant les yeux, comme une personne mal réveillée.",
+    "text": "Ah! j'ai si bien dormi.",
+    "id": "p-0356",
+    "fr": "GISELA, qui entre en se frottant les yeux, comme une personne mal réveillée. : Ah! j'ai si bien dormi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Laissez-moi vous présenter à mes parents. (A Mme Durand-Fresnel.) Maman, je t'ai parlé de notre amie madame Schnee.",
+    "id": "p-0357",
+    "fr": "BÉATRICE : Laissez-moi vous présenter à mes parents. (A Mme Durand-Fresnel.) Maman, je t'ai parlé de notre amie madame Schnee."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Mais certainement. (Cérémonieusement.) Bonjour, madame. (Les deux hommes s'inclinent.)",
+    "id": "p-0358",
+    "fr": "MADAME DURAND-FRESNEL : Mais certainement. (Cérémonieusement.) Bonjour, madame. (Les deux hommes s'inclinent.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "J'avais tellement sommeil. Je crois que c'est quelque chose dans l'air.",
+    "id": "p-0359",
+    "fr": "GISELA : J'avais tellement sommeil. Je crois que c'est quelque chose dans l'air."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "On prétend toujours que le climat de Paris fait dormir.",
+    "id": "p-0360",
+    "fr": "BÉATRICE : On prétend toujours que le climat de Paris fait dormir."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Du reste, j'aime dormir. Déjà en Allemagne...",
+    "id": "p-0361",
+    "fr": "GISELA : Du reste, j'aime dormir. Déjà en Allemagne..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je vais aller faire le thé.",
+    "id": "p-0362",
+    "fr": "BÉATRICE : Je vais aller faire le thé."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA, suppliante.",
+    "text": "Vous permettez que je viens vous aider? (Plus bas, mais encore trop haut.) Je suis intimidée.",
+    "id": "p-0363",
+    "fr": "GISELA, suppliante. : Vous permettez que je viens vous aider? (Plus bas, mais encore trop haut.) Je suis intimidée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Comme vous voudrez, Gisela. A tout à l'heure. (Elle sort avec Gisela.)",
+    "id": "p-0364",
+    "fr": "BÉATRICE : Comme vous voudrez, Gisela. A tout à l'heure. (Elle sort avec Gisela.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VI]",
+    "id": "p-0365",
+    "fr": "[SCÈNE VI]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, baissant la voix.",
+    "text": "Dites-moi, Eustache, vous avez pris vos renseignements?",
+    "id": "p-0366",
+    "fr": "DURAND-FRESNEL, baissant la voix. : Dites-moi, Eustache, vous avez pris vos renseignements?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Comment?",
+    "id": "p-0367",
+    "fr": "EUSTACHE : Comment?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Je vous rappelle qu'il faut faire attention. Dieu sait que je suis heureux de voir mon pays persévérer dans ses traditions d'hospitalité...",
+    "id": "p-0368",
+    "fr": "DURAND-FRESNEL : Je vous rappelle qu'il faut faire attention. Dieu sait que je suis heureux de voir mon pays persévérer dans ses traditions d'hospitalité..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "On te dispense du développement.",
+    "id": "p-0369",
+    "fr": "MAXIME : On te dispense du développement."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Mais j'apprends de source sûre (Maxime rit.)...Eh! bien, quoi?... qu'à la faveur de cette vague d'émigration qui vient déferler chez nous, beaucoup, disons le mot, d'indésirables, ont trouvé moyen de s'introduire ici.",
+    "id": "p-0370",
+    "fr": "DURAND-FRESNEL : Mais j'apprends de source sûre (Maxime rit.)...Eh! bien, quoi?... qu'à la faveur de cette vague d'émigration qui vient déferler chez nous, beaucoup, disons le mot, d'indésirables, ont trouvé moyen de s'introduire ici."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, très sèchement.",
+    "text": "Je connais Schnee depuis dix ans...",
+    "id": "p-0371",
+    "fr": "EUSTACHE, très sèchement. : Je connais Schnee depuis dix ans..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Vous n'êtes pas sans savoir que malheureusement certains de ceux dont les convictions républicaines semblaient les mieux assises ont cédé aux mirages de la dictature...",
+    "id": "p-0372",
+    "fr": "DURAND-FRESNEL : Vous n'êtes pas sans savoir que malheureusement certains de ceux dont les convictions républicaines semblaient les mieux assises ont cédé aux mirages de la dictature..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Qu'est-ce que tu as, papa? tu n'es pas malade? Ton langage est si fleuri... et tu as le sang à la tête.",
+    "id": "p-0373",
+    "fr": "MAXIME : Qu'est-ce que tu as, papa? tu n'es pas malade? Ton langage est si fleuri... et tu as le sang à la tête."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Maxime, tu es insupportable...",
+    "id": "p-0374",
+    "fr": "MADAME DURAND-FRESNEL : Maxime, tu es insupportable..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Il nous serait pénible à tous de penser que vous recevez sous votre toit un hitlérien camouflé.",
+    "id": "p-0375",
+    "fr": "DURAND-FRESNEL : Il nous serait pénible à tous de penser que vous recevez sous votre toit un hitlérien camouflé."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, se contenant difficilement.",
+    "text": "Werner n'est pas plus hitlérien que moi.",
+    "id": "p-0376",
+    "fr": "EUSTACHE, se contenant difficilement. : Werner n'est pas plus hitlérien que moi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Bon, bon, je ne demande qu'à vous croire.",
+    "id": "p-0377",
+    "fr": "DURAND-FRESNEL : Bon, bon, je ne demande qu'à vous croire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Quand se décidera-t-on à fermer nos frontières à toute cette racaille? Vous verrez que tous ces juifs finiront par s'infiltrer partout.",
+    "id": "p-0378",
+    "fr": "MAXIME : Quand se décidera-t-on à fermer nos frontières à toute cette racaille? Vous verrez que tous ces juifs finiront par s'infiltrer partout."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Werner n'est pas juif.",
+    "id": "p-0379",
+    "fr": "EUSTACHE : Werner n'est pas juif."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Alors qu'est-ce qu'il vient foutre ici, bon sang!",
+    "id": "p-0380",
+    "fr": "MAXIME : Alors qu'est-ce qu'il vient foutre ici, bon sang!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Il est parti de son plein gré.",
+    "id": "p-0381",
+    "fr": "EUSTACHE : Il est parti de son plein gré."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Nous n'avons pas à tenir compte de ces fantaisies.",
+    "id": "p-0382",
+    "fr": "MAXIME : Nous n'avons pas à tenir compte de ces fantaisies."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Est-ce que tu sais de quoi tu parles? Tout le monde n'est pas d'humeur à lécher les bottes d'Hitler.",
+    "id": "p-0383",
+    "fr": "EUSTACHE : Est-ce que tu sais de quoi tu parles? Tout le monde n'est pas d'humeur à lécher les bottes d'Hitler."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Entre les bottes d'Hitler et celles de Staline, où est la différence? non, mais je te le demande? (Eustache est sorti en tapant la porte.) Il devient tout à fait dingo, votre gendre.",
+    "id": "p-0384",
+    "fr": "MAXIME : Entre les bottes d'Hitler et celles de Staline, où est la différence? non, mais je te le demande? (Eustache est sorti en tapant la porte.) Il devient tout à fait dingo, votre gendre."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Ces discussions me cassent la tête.",
+    "id": "p-0385",
+    "fr": "MADAME DURAND-FRESNEL : Ces discussions me cassent la tête."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Papa ne dit rien; il a peur de se compromettre.",
+    "id": "p-0386",
+    "fr": "MAXIME : Papa ne dit rien; il a peur de se compromettre."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, après un temps.",
+    "text": "Je vous admire; vous tranchez, vous tranchez... sans aucun élément d'appréciation. La situation de ces réfugiés politiques est infiniment digne de pitié. D'autre part il faut prendre en considération l'intérêt de nos chômeurs. Si la France est tenue dans une certaine mesure (ricanement de Maxime) de demeurer la terre d'asile qui accueille sans distinction tous les défenseurs de la liberté, on ne peut pas non plus lui demander de négliger ses intérêts légitimes...",
+    "id": "p-0387",
+    "fr": "DURAND-FRESNEL, après un temps. : Je vous admire; vous tranchez, vous tranchez... sans aucun élément d'appréciation. La situation de ces réfugiés politiques est infiniment digne de pitié. D'autre part il faut prendre en considération l'intérêt de nos chômeurs. Si la France est tenue dans une certaine mesure (ricanement de Maxime) de demeurer la terre d'asile qui accueille sans distinction tous les défenseurs de la liberté, on ne peut pas non plus lui demander de négliger ses intérêts légitimes..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Alors? alors? la conclusion?",
+    "id": "p-0388",
+    "fr": "MAXIME : Alors? alors? la conclusion?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Maxime, tu interromps ton père. Ce sont de drôles de procédés.",
+    "id": "p-0389",
+    "fr": "MADAME DURAND-FRESNEL : Maxime, tu interromps ton père. Ce sont de drôles de procédés."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, avec satisfaction.",
+    "text": "Les données du problème sont singulièrement complexes.",
+    "id": "p-0390",
+    "fr": "DURAND-FRESNEL, avec satisfaction. : Les données du problème sont singulièrement complexes."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, rentrant en coup de vent, brandissant une photographie.",
+    "text": "Regarde un peu ça!",
+    "id": "p-0391",
+    "fr": "EUSTACHE, rentrant en coup de vent, brandissant une photographie. : Regarde un peu ça!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Qu'est-ce que c'est que ce macchabée?",
+    "id": "p-0392",
+    "fr": "MAXIME : Qu'est-ce que c'est que ce macchabée?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "C'est Rudolf Schönthal à son arrivée d'Allemagne.",
+    "id": "p-0393",
+    "fr": "EUSTACHE : C'est Rudolf Schönthal à son arrivée d'Allemagne."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Et puis après?",
+    "id": "p-0394",
+    "fr": "MAXIME : Et puis après?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "On l'a roué de coups, on l'a piétiné.",
+    "id": "p-0395",
+    "fr": "EUSTACHE : On l'a roué de coups, on l'a piétiné."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Je ne veux pas entendre ces horreurs, elles me font trop d'impression.",
+    "id": "p-0396",
+    "fr": "MADAME DURAND-FRESNEL : Je ne veux pas entendre ces horreurs, elles me font trop d'impression."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Avec ça que tes amis de la Tchéka n'en ont pas autant à leur actif. Quand avez-vous tenu des meetings pour protester contre les atrocités bolcheviques? Vous avez deux poids et deux mesures, vous autres... Oh! et puis moi, j'en ai marre. Que tous ces gens-là se dévorent donc entre eux. C'est pas nos oignons.",
+    "id": "p-0397",
+    "fr": "MAXIME : Avec ça que tes amis de la Tchéka n'en ont pas autant à leur actif. Quand avez-vous tenu des meetings pour protester contre les atrocités bolcheviques? Vous avez deux poids et deux mesures, vous autres... Oh! et puis moi, j'en ai marre. Que tous ces gens-là se dévorent donc entre eux. C'est pas nos oignons."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Une attitude comme la tienne justifie ceux qui veulent nous asservir. Quand un pays est tombé à ce degré de veulerie et de bassesse, il est mûr pour l'esclavage.",
+    "id": "p-0398",
+    "fr": "EUSTACHE : Une attitude comme la tienne justifie ceux qui veulent nous asservir. Quand un pays est tombé à ce degré de veulerie et de bassesse, il est mûr pour l'esclavage."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Voilà qui est excessif, mon ami; je suis loin de m'associer aux appréciations trop simplistes de Maxime; entre Moscou et Berlin, croyez-le bien, je sais faire la différence. Il n'en est pas moins vrai...",
+    "id": "p-0399",
+    "fr": "DURAND-FRESNEL : Voilà qui est excessif, mon ami; je suis loin de m'associer aux appréciations trop simplistes de Maxime; entre Moscou et Berlin, croyez-le bien, je sais faire la différence. Il n'en est pas moins vrai..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME, lui hurlant dans la figure.",
+    "text": "Quoi? quoi? quoi? (Durand-Fresnel se rejette en arrière en se couvrant le visage des deux mains.)",
+    "id": "p-0400",
+    "fr": "MAXIME, lui hurlant dans la figure. : Quoi? quoi? quoi? (Durand-Fresnel se rejette en arrière en se couvrant le visage des deux mains.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VII]",
+    "id": "p-0401",
+    "fr": "[SCÈNE VII]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, BÉATRICE, GISELA.",
+    "id": "p-0402",
+    "fr": "LES MÊMES, BÉATRICE, GISELA."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "(Elles introduisent une petite table roulante portant une théière, un sucrier, etc., et des gâteaux.)",
+    "id": "p-0403",
+    "fr": "(Elles introduisent une petite table roulante portant une théière, un sucrier, etc., et des gâteaux.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Là, si vous voulez bien, nous allons mettre la servante ici devant la fenêtre. (Pendant la scène qui suit, Gisela l'aidera à servir le thé.)",
+    "id": "p-0404",
+    "fr": "BÉATRICE : Là, si vous voulez bien, nous allons mettre la servante ici devant la fenêtre. (Pendant la scène qui suit, Gisela l'aidera à servir le thé.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Maxime, je t'avais dit d'aller chercher le kèk. Merci, Bichette, tu sais que je ne goûte plus. Le docteur Pausanias me l'a interdit.",
+    "id": "p-0405",
+    "fr": "MADAME DURAND-FRESNEL : Maxime, je t'avais dit d'aller chercher le kèk. Merci, Bichette, tu sais que je ne goûte plus. Le docteur Pausanias me l'a interdit."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Comment dites-vous?",
+    "id": "p-0406",
+    "fr": "EUSTACHE : Comment dites-vous?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "C'est mon Grec; j'en suis enchantée. En dix jours j'ai perdu quinze cents grammes. Tu devrais bien dire à papa d'essayer son traitement.",
+    "id": "p-0407",
+    "fr": "MADAME DURAND-FRESNEL : C'est mon Grec; j'en suis enchantée. En dix jours j'ai perdu quinze cents grammes. Tu devrais bien dire à papa d'essayer son traitement."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Avec mon travail, je ne peux pas m'offrir une cure d'amaigrissement. J'irai à Brides l'été prochain s'il le faut.",
+    "id": "p-0408",
+    "fr": "DURAND-FRESNEL : Avec mon travail, je ne peux pas m'offrir une cure d'amaigrissement. J'irai à Brides l'été prochain s'il le faut."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL, à Béatrice, à mi-voix.",
+    "text": "Tu ne trouves pas que ton père est un peu bedonnant, Bichette? N'est-ce pas? ça me fait une telle peine...",
+    "id": "p-0409",
+    "fr": "MADAME DURAND-FRESNEL, à Béatrice, à mi-voix. : Tu ne trouves pas que ton père est un peu bedonnant, Bichette? N'est-ce pas? ça me fait une telle peine..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, aigrement.",
+    "text": "Quoi?",
+    "id": "p-0410",
+    "fr": "DURAND-FRESNEL, aigrement. : Quoi?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Par contre Eustache est maigrichon. Es-tu sûre qu'il assimile bien?",
+    "id": "p-0411",
+    "fr": "MADAME DURAND-FRESNEL : Par contre Eustache est maigrichon. Es-tu sûre qu'il assimile bien?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je ne sais pas, maman.",
+    "id": "p-0412",
+    "fr": "BÉATRICE : Je ne sais pas, maman."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Tu devrais le mener chez Pausanias. Il est étonnant. Et maintenant il soigne à forfait.",
+    "id": "p-0413",
+    "fr": "MADAME DURAND-FRESNEL : Tu devrais le mener chez Pausanias. Il est étonnant. Et maintenant il soigne à forfait."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "A combien te revient le kilo?",
+    "id": "p-0414",
+    "fr": "MAXIME : A combien te revient le kilo?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Qu'est-ce que tu dis?",
+    "id": "p-0415",
+    "fr": "MADAME DURAND-FRESNEL : Qu'est-ce que tu dis?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME, à qui Gisela verse du thé.",
+    "text": "Merci, merci, pas d'eau. Le thé est toujours de la lavasse chez ma sœur.",
+    "id": "p-0416",
+    "fr": "MAXIME, à qui Gisela verse du thé. : Merci, merci, pas d'eau. Le thé est toujours de la lavasse chez ma sœur."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, à Eustache.",
+    "text": "Avez-vous vu ce nouveau périodique... comment s'appelle-t-il déjà? Je compte de bons amis dans la rédaction. Mais quelle surprise de trouver à la première page la signature de ce Champmartin.",
+    "id": "p-0417",
+    "fr": "DURAND-FRESNEL, à Eustache. : Avez-vous vu ce nouveau périodique... comment s'appelle-t-il déjà? Je compte de bons amis dans la rédaction. Mais quelle surprise de trouver à la première page la signature de ce Champmartin."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Montmartin.",
+    "id": "p-0418",
+    "fr": "MAXIME : Montmartin."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Peu importe. C'est un catholique militant... Est-ce sa place, je vous le demande? Mon cher ami, il n'y a pas à se le dissimuler: les curés sont en train de reprendre du poil de la bête.",
+    "id": "p-0419",
+    "fr": "DURAND-FRESNEL : Peu importe. C'est un catholique militant... Est-ce sa place, je vous le demande? Mon cher ami, il n'y a pas à se le dissimuler: les curés sont en train de reprendre du poil de la bête."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA, bas, à Béatrice.",
+    "text": "Qu'est-ce que ça veut dire, cette expression?",
+    "id": "p-0420",
+    "fr": "GISELA, bas, à Béatrice. : Qu'est-ce que ça veut dire, cette expression?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Et c'est une chose qu'un vieux radical comme moi, un fervent de l'idée laïque, ne peut pas constater sans étonnement, et je dirai sans consternation. Quelquefois la nuit je me réveille, et j'évoque les grands aînés, ceux que j'appelle les pionniers: Henri Brisson, Émile Combes... Que diraient-ils s'ils étaient parmi nous? Quels conseils nous donneraient-ils? ils sont morts trop tôt.",
+    "id": "p-0421",
+    "fr": "DURAND-FRESNEL : Et c'est une chose qu'un vieux radical comme moi, un fervent de l'idée laïque, ne peut pas constater sans étonnement, et je dirai sans consternation. Quelquefois la nuit je me réveille, et j'évoque les grands aînés, ceux que j'appelle les pionniers: Henri Brisson, Émile Combes... Que diraient-ils s'ils étaient parmi nous? Quels conseils nous donneraient-ils? ils sont morts trop tôt."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Mais, dis donc, il serait centenaire, ton Brisson, ou quoi...",
+    "id": "p-0422",
+    "fr": "MAXIME : Mais, dis donc, il serait centenaire, ton Brisson, ou quoi..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "La vie humaine est trop courte.",
+    "id": "p-0423",
+    "fr": "DURAND-FRESNEL : La vie humaine est trop courte."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA, bas, à Béatrice.",
+    "text": "Je ne suis pas d'accord.",
+    "id": "p-0424",
+    "fr": "GISELA, bas, à Béatrice. : Je ne suis pas d'accord."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Un homme ne peut pas, comment dirai-je? accompagner son œuvre jusqu'au bout; elle lui échappe, et parfois elle tombe en miettes. C'est une des pensées les plus désolantes que je sache... Comment expliquez-vous, Eustache, ce succès relatif des manœuvres cléricales? Pour moi, je ne vous le cache pas, c'est encore une conséquence de cette terrible guerre.",
+    "id": "p-0425",
+    "fr": "DURAND-FRESNEL : Un homme ne peut pas, comment dirai-je? accompagner son œuvre jusqu'au bout; elle lui échappe, et parfois elle tombe en miettes. C'est une des pensées les plus désolantes que je sache... Comment expliquez-vous, Eustache, ce succès relatif des manœuvres cléricales? Pour moi, je ne vous le cache pas, c'est encore une conséquence de cette terrible guerre."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Ça ne m'intéresse pas. Il est probable que c'est lié à la crise. C'est comme les pèlerinages en temps de disette dans les pays arriérés.",
+    "id": "p-0426",
+    "fr": "EUSTACHE : Ça ne m'intéresse pas. Il est probable que c'est lié à la crise. C'est comme les pèlerinages en temps de disette dans les pays arriérés."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Mais nous ne sommes pas un pays arriéré, que diable! Si j'ose me servir de cette comparaison un peu usée, mais somme toute toujours exacte, c'est la France, et elle presque seule aujourd'hui avec l'Angleterre — mais je me méfie de ces puritains — qui tient encore en main le flambeau de la civilisation... Il y a-là quelque chose que je ne m'explique pas.",
+    "id": "p-0427",
+    "fr": "DURAND-FRESNEL : Mais nous ne sommes pas un pays arriéré, que diable! Si j'ose me servir de cette comparaison un peu usée, mais somme toute toujours exacte, c'est la France, et elle presque seule aujourd'hui avec l'Angleterre — mais je me méfie de ces puritains — qui tient encore en main le flambeau de la civilisation... Il y a-là quelque chose que je ne m'explique pas."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME, l'imitant.",
+    "text": "Quelque chose de dé-mo-ni-â-que...",
+    "id": "p-0428",
+    "fr": "MAXIME, l'imitant. : Quelque chose de dé-mo-ni-â-que..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Maxime! à la fin!",
+    "id": "p-0429",
+    "fr": "MADAME DURAND-FRESNEL : Maxime! à la fin!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Voyons, maman, ne jappe pas chaque fois...",
+    "id": "p-0430",
+    "fr": "MAXIME : Voyons, maman, ne jappe pas chaque fois..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Moi je jappe? Bichette... Je ne sais pas; il y a dans l'atmosphère de cette maison quelque chose qui attaque les nerfs.",
+    "id": "p-0431",
+    "fr": "MADAME DURAND-FRESNEL : Moi je jappe? Bichette... Je ne sais pas; il y a dans l'atmosphère de cette maison quelque chose qui attaque les nerfs."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Qu'est-ce que tu veux dire, maman?",
+    "id": "p-0432",
+    "fr": "BÉATRICE : Qu'est-ce que tu veux dire, maman?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Je ne sais pas, mon enfant, je constate simplement: quand je sors de chez vous, je ne suis pas dans mon assiette.",
+    "id": "p-0433",
+    "fr": "MADAME DURAND-FRESNEL : Je ne sais pas, mon enfant, je constate simplement: quand je sors de chez vous, je ne suis pas dans mon assiette."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA, ouvrant de grands yeux.",
+    "text": "Vous êtes souffrante?",
+    "id": "p-0434",
+    "fr": "GISELA, ouvrant de grands yeux. : Vous êtes souffrante?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VIII]",
+    "id": "p-0435",
+    "fr": "[SCÈNE VIII]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, WERNER.",
+    "id": "p-0436",
+    "fr": "LES MÊMES, WERNER."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "(Werner est entré silencieusement; il est pâle, il a les traits tirés; il n'a pas pris le temps de retirer son pardessus.)",
+    "id": "p-0437",
+    "fr": "(Werner est entré silencieusement; il est pâle, il a les traits tirés; il n'a pas pris le temps de retirer son pardessus.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA, l'apercevant.",
+    "text": "Werner!",
+    "id": "p-0438",
+    "fr": "GISELA, l'apercevant. : Werner!"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Comment! c'est vous, Werner? on ne vous a pas entendu entrer...",
+    "id": "p-0439",
+    "fr": "BÉATRICE : Comment! c'est vous, Werner? on ne vous a pas entendu entrer..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Et alors?",
+    "id": "p-0440",
+    "fr": "EUSTACHE : Et alors?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Si vous voulez bien me présenter...",
+    "id": "p-0441",
+    "fr": "WERNER : Si vous voulez bien me présenter..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Notre ami monsieur Schnee, mes parents, mon frère Maxime. (Werner salue d'une façon un peu raide, on voit que sa pensée est ailleurs.) Le voyage n'a pas été trop pénible? (Werner ne répond que par un haussement d'épaules convulsif.)",
+    "id": "p-0442",
+    "fr": "BÉATRICE : Notre ami monsieur Schnee, mes parents, mon frère Maxime. (Werner salue d'une façon un peu raide, on voit que sa pensée est ailleurs.) Le voyage n'a pas été trop pénible? (Werner ne répond que par un haussement d'épaules convulsif.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Ach! voyons, Werner, tu ne vas pas rester avec ton pardessus... il n'est pas déjà si beau. (Werner le retire, et le met sur le dossier d'une chaise.) Mais va le pendre dans l'entrée, voyons. (Werner sort.) Je ne sais pas ce qu'il a.",
+    "id": "p-0443",
+    "fr": "GISELA : Ach! voyons, Werner, tu ne vas pas rester avec ton pardessus... il n'est pas déjà si beau. (Werner le retire, et le met sur le dossier d'une chaise.) Mais va le pendre dans l'entrée, voyons. (Werner sort.) Je ne sais pas ce qu'il a."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Il a l'air tourmenté. J'ai peur que son pauvre ami...",
+    "id": "p-0444",
+    "fr": "BÉATRICE : Il a l'air tourmenté. J'ai peur que son pauvre ami..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Le Rudolf, il m'énerve... (Werner rentre. Un silence.)",
+    "id": "p-0445",
+    "fr": "GISELA : Le Rudolf, il m'énerve... (Werner rentre. Un silence.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Vous prendrez une tasse de thé, Werner?",
+    "id": "p-0446",
+    "fr": "BÉATRICE : Vous prendrez une tasse de thé, Werner?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Ce n'est pas nécessaire. (Elle le sert.)",
+    "id": "p-0447",
+    "fr": "WERNER : Ce n'est pas nécessaire. (Elle le sert.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Vous venez de Suisse, monsieur?",
+    "id": "p-0448",
+    "fr": "MADAME DURAND-FRESNEL : Vous venez de Suisse, monsieur?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Je vous demande pardon?",
+    "id": "p-0449",
+    "fr": "WERNER : Je vous demande pardon?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "C'est un beau pays; nous y avons fait quelques séjours qui nous laissent un bien bon souvenir.",
+    "id": "p-0450",
+    "fr": "MADAME DURAND-FRESNEL : C'est un beau pays; nous y avons fait quelques séjours qui nous laissent un bien bon souvenir."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL",
+    "text": "Nos Alpes françaises me suffisent : quelles richesses touristiques dans ce pays! quand saurons-nous les exploiter? (La phrase tombe.)",
+    "id": "p-0451",
+    "fr": "DURAND-FRESNEL : Nos Alpes françaises me suffisent : quelles richesses touristiques dans ce pays! quand saurons-nous les exploiter? (La phrase tombe.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL",
+    "text": "Il est certain que Chamonix, le Dauphiné, Pralognan-la-Vanoise...",
+    "id": "p-0452",
+    "fr": "MADAME DURAND-FRESNEL : Il est certain que Chamonix, le Dauphiné, Pralognan-la-Vanoise..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER, à Béatrice.",
+    "text": "Merci, c'est assez.",
+    "id": "p-0453",
+    "fr": "WERNER, à Béatrice. : Merci, c'est assez."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Quand est-tu arrivé?",
+    "id": "p-0454",
+    "fr": "GISELA : Quand est-tu arrivé?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "J'étais là déjà ce matin.",
+    "id": "p-0455",
+    "fr": "WERNER : J'étais là déjà ce matin."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Qu'est-ce que tu as fait tout le temps?",
+    "id": "p-0456",
+    "fr": "GISELA : Qu'est-ce que tu as fait tout le temps?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "J'ai déjeuné chez la mère de Rudolf.",
+    "id": "p-0457",
+    "fr": "WERNER : J'ai déjeuné chez la mère de Rudolf."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Ce n'était pas nécessaire.",
+    "id": "p-0458",
+    "fr": "GISELA : Ce n'était pas nécessaire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Je crois pourtant.",
+    "id": "p-0459",
+    "fr": "WERNER : Je crois pourtant."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Cette Mme Schönthal, elle est aussi assommante.",
+    "id": "p-0460",
+    "fr": "GISELA : Cette Mme Schönthal, elle est aussi assommante."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Elle est fixée à Paris?",
+    "id": "p-0461",
+    "fr": "EUSTACHE : Elle est fixée à Paris?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Elle habite dans une chambre rue d'Enghien, près de la place de la République, par là. On ne voit pas clair. Il faut allumer déjà dans la journée... Une petite chambre minuscule. Il y a seulement la place pour le lit, une chaise, une petite table avec une cuvette. Et dans la cour il y a, comment vous dites? eine Schmied.",
+    "id": "p-0462",
+    "fr": "WERNER : Elle habite dans une chambre rue d'Enghien, près de la place de la République, par là. On ne voit pas clair. Il faut allumer déjà dans la journée... Une petite chambre minuscule. Il y a seulement la place pour le lit, une chaise, une petite table avec une cuvette. Et dans la cour il y a, comment vous dites? eine Schmied."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Une forge.",
+    "id": "p-0463",
+    "fr": "EUSTACHE : Une forge."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Ou quelque chose. Toute la journée, on entend... pang... pang... pang...",
+    "id": "p-0464",
+    "fr": "WERNER : Ou quelque chose. Toute la journée, on entend... pang... pang... pang..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je pense qu'elle n'est pas souvent dans sa chambre?",
+    "id": "p-0465",
+    "fr": "BÉATRICE : Je pense qu'elle n'est pas souvent dans sa chambre?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Elle ne sort jamais, elle est presque impotente...",
+    "id": "p-0466",
+    "fr": "WERNER : Elle ne sort jamais, elle est presque impotente..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, à mi-voix.",
+    "text": "C'est horrible.",
+    "id": "p-0467",
+    "fr": "EUSTACHE, à mi-voix. : C'est horrible."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL, qui s'est levée, comme mue par un ressort.",
+    "text": "Il se fait tard... Il va falloir que nous regagnions notre huitième.",
+    "id": "p-0468",
+    "fr": "MADAME DURAND-FRESNEL, qui s'est levée, comme mue par un ressort. : Il se fait tard... Il va falloir que nous regagnions notre huitième."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER, étonné.",
+    "text": "Vous habitez au huitième étage?",
+    "id": "p-0469",
+    "fr": "WERNER, étonné. : Vous habitez au huitième étage?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Non, non, rassurez-vous. Mais ma mère pense toujours par arrondissement.",
+    "id": "p-0470",
+    "fr": "MAXIME : Non, non, rassurez-vous. Mais ma mère pense toujours par arrondissement."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, à Eustache.",
+    "text": "Sans rancune, mon ami. Nous avons échangé quelques pointes... Mais après tout c'est la rançon d'un bien singulièrement précieux et auquel nous ne sommes pas plus disposés à renoncer l'un que l'autre.",
+    "id": "p-0471",
+    "fr": "DURAND-FRESNEL, à Eustache. : Sans rancune, mon ami. Nous avons échangé quelques pointes... Mais après tout c'est la rançon d'un bien singulièrement précieux et auquel nous ne sommes pas plus disposés à renoncer l'un que l'autre."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME, emphatiquement.",
+    "text": "Et ce bien, Messieurs, Mesdames, s'appelle la liberté! (Il gonfle les joues et entame la bouche fermée on ne sait quel hymne révolutionnaire. Cet effet comique tombe dans le vide. Werner porte la main à la tête d'un air accablé.)",
+    "id": "p-0472",
+    "fr": "MAXIME, emphatiquement. : Et ce bien, Messieurs, Mesdames, s'appelle la liberté! (Il gonfle les joues et entame la bouche fermée on ne sait quel hymne révolutionnaire. Cet effet comique tombe dans le vide. Werner porte la main à la tête d'un air accablé.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE, à Werner.",
+    "text": "Vous avez l'air fatigué.",
+    "id": "p-0473",
+    "fr": "BÉATRICE, à Werner. : Vous avez l'air fatigué."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Ça ne fait rien. (Mme Durand-Fresnel est sortie; Béatrice la suit.)",
+    "id": "p-0474",
+    "fr": "WERNER : Ça ne fait rien. (Mme Durand-Fresnel est sortie; Béatrice la suit.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "DURAND-FRESNEL, à Eustache.",
+    "text": "S'il y a du nouveau du côté ministériel, je vous téléphone. Bourbillon peut revenir sur l'eau, vous comprenez. A mots couverts, bien entendu... Je dirai : l'Y fonctionne de nouveau aux heures normales; c'est l'autobus qui dessert l'Éducation nationale, vous comprenez.",
+    "id": "p-0475",
+    "fr": "DURAND-FRESNEL, à Eustache. : S'il y a du nouveau du côté ministériel, je vous téléphone. Bourbillon peut revenir sur l'eau, vous comprenez. A mots couverts, bien entendu... Je dirai : l'Y fonctionne de nouveau aux heures normales; c'est l'autobus qui dessert l'Éducation nationale, vous comprenez."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MAXIME",
+    "text": "Espèce de conspirateur... l'âme d'un carbonaro.",
+    "id": "p-0476",
+    "fr": "MAXIME : Espèce de conspirateur... l'âme d'un carbonaro."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MADAME DURAND-FRESNEL, du dehors, d'une voix glapissante.",
+    "text": "Gustave! Maxime! (Ils sortent.)",
+    "id": "p-0477",
+    "fr": "MADAME DURAND-FRESNEL, du dehors, d'une voix glapissante. : Gustave! Maxime! (Ils sortent.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE IX]",
+    "id": "p-0478",
+    "fr": "[SCÈNE IX]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA, à Werner, avec agacement.",
+    "text": "Mais qu'est-ce qu'il y a, à la fin?",
+    "id": "p-0479",
+    "fr": "GISELA, à Werner, avec agacement. : Mais qu'est-ce qu'il y a, à la fin?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Ah! laisse-moi...",
+    "id": "p-0480",
+    "fr": "WERNER : Ah! laisse-moi..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, avec une nuance d'irritation.",
+    "text": "Tu ne veux rien nous dire, Werner... Il va plus mal?",
+    "id": "p-0481",
+    "fr": "EUSTACHE, avec une nuance d'irritation. : Tu ne veux rien nous dire, Werner... Il va plus mal?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER, bas.",
+    "text": "Tout à fait mal. Probablement qu'à la fin de la semaine...",
+    "id": "p-0482",
+    "fr": "WERNER, bas. : Tout à fait mal. Probablement qu'à la fin de la semaine..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Tu aurais voulu rester près de lui?",
+    "id": "p-0483",
+    "fr": "EUSTACHE : Tu aurais voulu rester près de lui?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Il fallait que sa mère ira là-bas. Elle partira ce soir.",
+    "id": "p-0484",
+    "fr": "WERNER : Il fallait que sa mère ira là-bas. Elle partira ce soir."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Tu lui as donné de l'argent?",
+    "id": "p-0485",
+    "fr": "GISELA : Tu lui as donné de l'argent?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "C'est évident.",
+    "id": "p-0486",
+    "fr": "WERNER : C'est évident."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Et qu'est-ce qu'elle en fera? Est-ce qu'elle ira seulement? Ist doch ganz unvernünftig. Nous avons déjà si peu.",
+    "id": "p-0487",
+    "fr": "GISELA : Et qu'est-ce qu'elle en fera? Est-ce qu'elle ira seulement? Ist doch ganz unvernünftig. Nous avons déjà si peu."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Ça suffit.",
+    "id": "p-0488",
+    "fr": "WERNER : Ça suffit."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Ça ne suffira pas.",
+    "id": "p-0489",
+    "fr": "GISELA : Ça ne suffira pas."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Schluss damit. (Béatrice est rentrée.)",
+    "id": "p-0490",
+    "fr": "WERNER : Schluss damit. (Béatrice est rentrée.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Je sens que vous vous faites beaucoup de souci.",
+    "id": "p-0491",
+    "fr": "BÉATRICE : Je sens que vous vous faites beaucoup de souci."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Plus que du souci...",
+    "id": "p-0492",
+    "fr": "WERNER : Plus que du souci..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Peut-être que tu exagères.",
+    "id": "p-0493",
+    "fr": "EUSTACHE : Peut-être que tu exagères."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Naturellement. Le Rudolf, il a, comment vous dites, une résistance inouïe...",
+    "id": "p-0494",
+    "fr": "GISELA : Naturellement. Le Rudolf, il a, comment vous dites, une résistance inouïe..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "Tu ne l'as pas vu... C'est un fantôme... Il n'a pas souri, même quand je suis arrivé... Pas une fois... Et dans le temps il souriait toujours... Dans sa figure on ne voit plus que ses yeux... si grands, immenses... Il me regardait comme s'il me reprochait quelque chose.",
+    "id": "p-0495",
+    "fr": "WERNER : Tu ne l'as pas vu... C'est un fantôme... Il n'a pas souri, même quand je suis arrivé... Pas une fois... Et dans le temps il souriait toujours... Dans sa figure on ne voit plus que ses yeux... si grands, immenses... Il me regardait comme s'il me reprochait quelque chose."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Das find'ich aber fein ... Tu as tout sacrifié pour lui...",
+    "id": "p-0496",
+    "fr": "GISELA : Das find'ich aber fein ... Tu as tout sacrifié pour lui..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER, à Béatrice.",
+    "text": "J'aurais voulu rester. Mais il a dit qu'il fallait que je rentre et que j'explique à sa mère... Du reste, je retourne à Paris maintenant pour la mettre dans le train.",
+    "id": "p-0497",
+    "fr": "WERNER, à Béatrice. : J'aurais voulu rester. Mais il a dit qu'il fallait que je rentre et que j'explique à sa mère... Du reste, je retourne à Paris maintenant pour la mettre dans le train."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "GISELA",
+    "text": "Unsinn! elle n'a pas besoin de toi.",
+    "id": "p-0498",
+    "fr": "GISELA : Unsinn! elle n'a pas besoin de toi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Vous êtes fatigué, Werner. Est-ce qu'Eustache ou moi nous ne pourrions pas aller à la gare à votre place?",
+    "id": "p-0499",
+    "fr": "BÉATRICE : Vous êtes fatigué, Werner. Est-ce qu'Eustache ou moi nous ne pourrions pas aller à la gare à votre place?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER",
+    "text": "C'est peut-être la dernière chose que je peux faire pour lui... (A mi-voix.) Rudolf, c'était un homme.",
+    "id": "p-0500",
+    "fr": "WERNER : C'est peut-être la dernière chose que je peux faire pour lui... (A mi-voix.) Rudolf, c'était un homme."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE",
+    "text": "Comment?",
+    "id": "p-0501",
+    "fr": "EUSTACHE : Comment?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "WERNER, qui semble regarder au-delà d'Eustache.",
+    "text": "Je dis seulement : Rudolf, c'était un homme. Höheres gibt es überhaupt nicht.",
+    "id": "p-0502",
+    "fr": "WERNER, qui semble regarder au-delà d'Eustache. : Je dis seulement : Rudolf, c'était un homme. Höheres gibt es überhaupt nicht."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "BÉATRICE",
+    "text": "Werner, vous êtes malheureux. Mais je vous affirme que vous avez en nous des amis qui ne vous abandonneront jamais. Eustache me l'a dit souvent, il vous aime comme un frère, n'est-ce pas?",
+    "id": "p-0503",
+    "fr": "BÉATRICE : Werner, vous êtes malheureux. Mais je vous affirme que vous avez en nous des amis qui ne vous abandonneront jamais. Eustache me l'a dit souvent, il vous aime comme un frère, n'est-ce pas?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EUSTACHE, au bout d'une seconde.",
+    "text": "Oui, oui... d'ailleurs il le sait bien (Werner le regarde. Eustache baisse les yeux; le rideau tombe.)",
+    "id": "p-0504",
+    "fr": "EUSTACHE, au bout d'une seconde. : Oui, oui... d'ailleurs il le sait bien (Werner le regarde. Eustache baisse les yeux; le rideau tombe.)"
+  }
+]

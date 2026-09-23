@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "p-0001",
+    "en": "[ACT I]"
+  },
+  {
+    "id": "p-0002",
+    "en": "The stage represents a bright room opening through a bow window onto a suburban garden. It is a fairly spacious sort of living room, tastefully furnished, without any regard for the decorative fashions of the day. To the left, against the wall, an upright piano. Against the rear wall, a writing desk."
+  },
+  {
+    "id": "p-0003",
+    "en": "[SCENE I]"
+  },
+  {
+    "id": "p-0004",
+    "en": "BÉATRICE (to Mme Soreau) : A little more cherry brandy? (A movement from Eustache.)"
+  },
+  {
+    "id": "p-0005",
+    "en": "MADAME SOREAU : Ah, well, I won't say no. Once in a while won't hurt. At any rate, that won't do me any harm, will it, Eustache?"
+  },
+  {
+    "id": "p-0006",
+    "en": "EUSTACHE (dryly) : Let us hope so."
+  },
+  {
+    "id": "p-0007",
+    "en": "MADAME SOREAU : Mind you, this evening I shan't have any dinner. Or else just a little soup, and some compote. After such a good lunch as you gave me... Only Adrien and Titine won't be pleased; oh, I know them! But let them say what they like. It's all the same to me."
+  },
+  {
+    "id": "p-0008",
+    "en": "BÉATRICE : If by any chance you were on a diet, I'm so sorry..."
+  },
+  {
+    "id": "p-0009",
+    "en": "MADAME SOREAU : Me, a diet? Not in the least... I've always had a good stomach. (To Eustache.) Not like your poor father... though in the old days—I'm talking ten, fifteen years ago—he was a hearty eater, as they say. Especially jugged hare... Once a month I used to make him jugged hare; he would feast on it... (She wipes her eyes; to Gertrude, who is engrossed in reading the newspaper.) Did you read in the Parisien... apparently they're on the trail of the murderer."
+  },
+  {
+    "id": "p-0010",
+    "en": "GERTRUDE : What murderer?"
+  },
+  {
+    "id": "p-0011",
+    "en": "MADAME SOREAU (indignantly) : The Argenteuil crime."
+  },
+  {
+    "id": "p-0012",
+    "en": "GERTRUDE (very dryly) : I don't read the crime news."
+  },
+  {
+    "id": "p-0013",
+    "en": "MADAME SOREAU : Well now, you certainly aren't curious! I'm not like you. I like to know what's going on. The maid brings me the paper with my café au lait, around eight, quarter past eight. They take good care of me. The only thing is, that big courtyard is a bit gloomy. (To Eustache.) Your brother would gladly have given me the front bedroom, but it was Titine who didn't want to. Oh well, I understand that! You have to put yourself in her place. When all's said and done, I'd rather it be kept for my grandson. Though Titine doesn't seem in any great hurry to have a baby. (To Béatrice.) I say that, but I'm very fond of her all the same. Between the two of you, I really don't know which one I prefer. Maybe it's you that has the better temper. But Titine is very sweet. I say 'tu' to her now; Adrien wanted it that way."
+  },
+  {
+    "id": "p-0014",
+    "en": "BÉATRICE : But it goes without saying..."
+  },
+  {
+    "id": "p-0015",
+    "en": "MADAME SOREAU : What? Oh, no, no, no... with you I wouldn't dare, it's not the same. Titine, in fact, could be my own daughter."
+  },
+  {
+    "id": "p-0016",
+    "en": "EUSTACHE : Still..."
+  },
+  {
+    "id": "p-0017",
+    "en": "MADAME SOREAU (hurt) : Her parents were people like us."
+  },
+  {
+    "id": "p-0018",
+    "en": "EUSTACHE : But, Mother..."
+  },
+  {
+    "id": "p-0019",
+    "en": "MADAME SOREAU : Monsieur Jacquet ran a tavern in the Rue des Boulets."
+  },
+  {
+    "id": "p-0020",
+    "en": "EUSTACHE : I never meant to say..."
+  },
+  {
+    "id": "p-0021",
+    "en": "MADAME SOREAU : You see. Eustache, what time is it?"
+  },
+  {
+    "id": "p-0022",
+    "en": "EUSTACHE : Half past two."
+  },
+  {
+    "id": "p-0023",
+    "en": "MADAME SOREAU : The car ought to be here already... Are you sure it's not in front of the door, Eustache?"
+  },
+  {
+    "id": "p-0024",
+    "en": "EUSTACHE (impatiently) : We would have heard it."
+  },
+  {
+    "id": "p-0025",
+    "en": "MADAME SOREAU : I promised not to keep Anatole waiting... (To Béatrice.) You ought to have a car too. It's so pleasant... I don't say a big one, like Adrien's, but a little six-horsepower. I'm sure that if you asked your father to make you a present of one, he wouldn't say no."
+  },
+  {
+    "id": "p-0026",
+    "en": "EUSTACHE : It's out of the question."
+  },
+  {
+    "id": "p-0027",
+    "en": "MADAME SOREAU : Why is that, Eustache? Your wife would drive. On Sundays, it's pleasant to go for a drive in the country."
+  },
+  {
+    "id": "p-0028",
+    "en": "EUSTACHE : Sunday is the only day we can work."
+  },
+  {
+    "id": "p-0029",
+    "en": "MADAME SOREAU : What do you mean, work? You work all week, with your classes and all..."
+  },
+  {
+    "id": "p-0030",
+    "en": "EUSTACHE : That's my profession; I don't call that work."
+  },
+  {
+    "id": "p-0031",
+    "en": "MADAME SOREAU (to Béatrice) : Do you understand what he has in mind?"
+  },
+  {
+    "id": "p-0032",
+    "en": "BÉATRICE (smiling) : Yes, very well..."
+  },
+  {
+    "id": "p-0033",
+    "en": "MADAME SOREAU : It's strange... Still, one must have a bit of a good time. He looks peaky to me. And yet you're in the fresh air here. You don't go to bed too late, do you?"
+  },
+  {
+    "id": "p-0034",
+    "en": "EUSTACHE : Never before one in the morning."
+  },
+  {
+    "id": "p-0035",
+    "en": "MADAME SOREAU : Can you imagine! But whatever can you do all evening? (To Gertrude.) Do you understand that, Madame Heuzard?"
+  },
+  {
+    "id": "p-0036",
+    "en": "GERTRUDE : I never sleep more than five hours."
+  },
+  {
+    "id": "p-0037",
+    "en": "MADAME SOREAU : That's very bad for your health. (To Eustache.) Your poor father was always in bed by ten... That's why he always kept his fresh, healthy complexion... (To Béatrice.) You ought to stop him."
+  },
+  {
+    "id": "p-0038",
+    "en": "EUSTACHE : Béatrice is like me."
+  },
+  {
+    "id": "p-0039",
+    "en": "MADAME SOREAU (clasping her hands) : A young woman like her! What time is it, Eustache?"
+  },
+  {
+    "id": "p-0040",
+    "en": "EUSTACHE : Look, Mother, there's no need to ask me the time every five minutes."
+  },
+  {
+    "id": "p-0041",
+    "en": "MADAME SOREAU : It's on account of Anatole, you see. I wouldn't want him to wait... (Lowering her voice.) Apparently he used to be a prince, in the old days; it's sad, all the same."
+  },
+  {
+    "id": "p-0042",
+    "en": "GERTRUDE : Who is that?"
+  },
+  {
+    "id": "p-0043",
+    "en": "EUSTACHE : My brother's chauffeur."
+  },
+  {
+    "id": "p-0044",
+    "en": "GERTRUDE : Your brother has a chauffeur?"
+  },
+  {
+    "id": "p-0045",
+    "en": "MADAME SOREAU : Yes indeed, Madame Heuzard, he couldn't manage without one."
+  },
+  {
+    "id": "p-0046",
+    "en": "GERTRUDE (scornfully) : Congratulations."
+  },
+  {
+    "id": "p-0047",
+    "en": "MADAME SOREAU (with satisfaction) : He's driving me to Aunt Berthe's presently."
+  },
+  {
+    "id": "p-0048",
+    "en": "EUSTACHE : Who? Adrien?"
+  },
+  {
+    "id": "p-0049",
+    "en": "MADAME SOREAU : As if Adrien had time to waste going to see an old woman... I'll go in the car, Adrien proposed it himself. He always has good ideas. What will Aunt Berthe say when she sees the Hotchkiss..."
+  },
+  {
+    "id": "p-0050",
+    "en": "BÉATRICE : I thought she was blind."
+  },
+  {
+    "id": "p-0051",
+    "en": "MADAME SOREAU : That's just a manner of speaking. (A silence.)"
+  },
+  {
+    "id": "p-0052",
+    "en": "EUSTACHE : You can tell her we'll be coming to see her; won't we, Béatrice?"
+  },
+  {
+    "id": "p-0053",
+    "en": "MADAME SOREAU : It seems Sulpice has gone and lost his job again... Always his impossible ideas; he stirs up his fellow workers; the boss doesn't like that, naturally. Adrien says he's a real Bolshevik. It's sad, all the same. Poor Berthe has no luck. Her two sons—one who died of tuberculosis, the other turning Bolshevik."
+  },
+  {
+    "id": "p-0054",
+    "en": "EUSTACHE : Do you have any idea that I'm a Bolshevik too?"
+  },
+  {
+    "id": "p-0055",
+    "en": "MADAME SOREAU (indignantly) : Will you be quiet!... In the first place, you have a position, and a fine one at that. Your opinions are nobody's business."
+  },
+  {
+    "id": "p-0056",
+    "en": "EUSTACHE : Mother, do you realize what you're saying?"
+  },
+  {
+    "id": "p-0057",
+    "en": "MADAME SOREAU : I even wanted to ask you... if you couldn't give your cousin a bit of a talking-to... he'd listen to you..."
+  },
+  {
+    "id": "p-0058",
+    "en": "EUSTACHE (bitterly) : Adrien seems to me the obvious choice."
+  },
+  {
+    "id": "p-0059",
+    "en": "MADAME SOREAU : Adrien hasn't got the time. (A car horn is heard.) Ah! That's the car this time. (She gets up hurriedly.)"
+  },
+  {
+    "id": "p-0060",
+    "en": "EUSTACHE (exasperated) : Mother, don't run!"
+  },
+  {
+    "id": "p-0061",
+    "en": "BÉATRICE : I'll help you get ready."
+  },
+  {
+    "id": "p-0062",
+    "en": "MADAME SOREAU : Oh, I can manage quite well by myself! (She exits with Béatrice.)"
+  },
+  {
+    "id": "p-0063",
+    "en": "[SCENE II]"
+  },
+  {
+    "id": "p-0064",
+    "en": "GERTRUDE : What line is your brother in?"
+  },
+  {
+    "id": "p-0065",
+    "en": "EUSTACHE : Metallurgy."
+  },
+  {
+    "id": "p-0066",
+    "en": "GERTRUDE : Ah! I see... Do you see him often?"
+  },
+  {
+    "id": "p-0067",
+    "en": "EUSTACHE : As little as possible. (A silence.)"
+  },
+  {
+    "id": "p-0068",
+    "en": "GERTRUDE : All in all..."
+  },
+  {
+    "id": "p-0069",
+    "en": "EUSTACHE : Well?"
+  },
+  {
+    "id": "p-0070",
+    "en": "GERTRUDE : Both of you have brilliantly succeeded... Look at that, I'm speaking in verse. It must be the atmosphere."
+  },
+  {
+    "id": "p-0071",
+    "en": "EUSTACHE : I don't understand."
+  },
+  {
+    "id": "p-0072",
+    "en": "GERTRUDE : I'm not used to rubbing shoulders with the great of this world... A former chief of staff is very impressive, you know."
+  },
+  {
+    "id": "p-0073",
+    "en": "EUSTACHE : It lasted two months."
+  },
+  {
+    "id": "p-0074",
+    "en": "GERTRUDE : Bourbillon hasn't said his last word; he'll be back, and so will you. Won't you?"
+  },
+  {
+    "id": "p-0075",
+    "en": "EUSTACHE : It's possible."
+  },
+  {
+    "id": "p-0076",
+    "en": "GERTRUDE (sardonically) : One must certainly hope so."
+  },
+  {
+    "id": "p-0077",
+    "en": "EUSTACHE : You seem to take me for an arriviste, Gertrude."
+  },
+  {
+    "id": "p-0078",
+    "en": "GERTRUDE : What?"
+  },
+  {
+    "id": "p-0079",
+    "en": "EUSTACHE (in a low voice) : It's unfair."
+  },
+  {
+    "id": "p-0080",
+    "en": "GERTRUDE : It's not your fault if everything goes right for you."
+  },
+  {
+    "id": "p-0081",
+    "en": "EUSTACHE : Everything, except the essential."
+  },
+  {
+    "id": "p-0082",
+    "en": "GERTRUDE : I'd like to know what you call the essential, for instance."
+  },
+  {
+    "id": "p-0083",
+    "en": "MADAME SOREAU (re-entering) : Goodbye, Madame Heuzard. Eustache, aren't you coming to shake hands with Anatole?"
+  },
+  {
+    "id": "p-0084",
+    "en": "EUSTACHE : I'm in my slippers."
+  },
+  {
+    "id": "p-0085",
+    "en": "MADAME SOREAU (with excitement) : I forgot to tell you... Adrien has joined the Croix-de-Feu. The colonel shook hands with him the other Sunday. Adrien says: he's a great Frenchman... Come along! What does it matter if you're in your slippers?... It seems Anatole used to have estates in the old days... as big as an entire department!"
+  },
+  {
+    "id": "p-0086",
+    "en": "EUSTACHE : Exactly. He intimidates me."
+  },
+  {
+    "id": "p-0087",
+    "en": "MADAME SOREAU : You mustn't be too proud, you know, Eustache. Think of your father. (She exits, then immediately re-enters.) Don't forget to give my regards to the little German lady when she comes downstairs from her nap... I don't care much for the Boches, but she has a face I take to. All the same, you have to keep an eye on them, because they're sly, those people... Her husband, what's he like?"
+  },
+  {
+    "id": "p-0088",
+    "en": "BÉATRICE : Eustache is very fond of him, aren't you?"
+  },
+  {
+    "id": "p-0089",
+    "en": "EUSTACHE (dryly) : Why ask me? You know perfectly well."
+  },
+  {
+    "id": "p-0090",
+    "en": "MADAME SOREAU : Goodbye! (She exits; a moment later the sound of the car starting up is heard.)"
+  },
+  {
+    "id": "p-0091",
+    "en": "GERTRUDE : I didn't care for that little woman at all. And besides, what kind of habit is that, going off to sleep after lunch?"
+  },
+  {
+    "id": "p-0092",
+    "en": "EUSTACHE : A matter of habit. When I was a lecturer at Marburg I did the same. Why are you staring at me like that, Gertrude?"
+  },
+  {
+    "id": "p-0093",
+    "en": "GERTRUDE : I was wondering... How long has she been staying with you?"
+  },
+  {
+    "id": "p-0094",
+    "en": "EUSTACHE : For four days. I told you Werner went to Switzerland to see his friend Rudolf Schönthal, who is ill. We offered to let his wife stay with us during that time."
+  },
+  {
+    "id": "p-0095",
+    "en": "GERTRUDE (to Béatrice, who re-enters at this moment) : And you, what do you think of this little person?"
+  },
+  {
+    "id": "p-0096",
+    "en": "BÉATRICE : What person?"
+  },
+  {
+    "id": "p-0097",
+    "en": "EUSTACHE : Gisela."
+  },
+  {
+    "id": "p-0098",
+    "en": "BÉATRICE (simply) : Oh! But I don't know her."
+  },
+  {
+    "id": "p-0099",
+    "en": "GERTRUDE : You must have an impression."
+  },
+  {
+    "id": "p-0100",
+    "en": "BÉATRICE (hesitating) : No, I really can't say."
+  },
+  {
+    "id": "p-0101",
+    "en": "GERTRUDE : Well! If I were in your place, I'd be on my guard."
+  },
+  {
+    "id": "p-0102",
+    "en": "EUSTACHE : I would like to know why."
+  },
+  {
+    "id": "p-0103",
+    "en": "GERTRUDE : First of all, she talks too much."
+  },
+  {
+    "id": "p-0104",
+    "en": "BÉATRICE : I wonder if it isn't a form of shyness. (Gertrude laughs.) That happens to me, you know."
+  },
+  {
+    "id": "p-0105",
+    "en": "GERTRUDE : You're shy?"
+  },
+  {
+    "id": "p-0106",
+    "en": "BÉATRICE : Terribly. Why, it wasn't so long ago that you stopped intimidating me."
+  },
+  {
+    "id": "p-0107",
+    "en": "GERTRUDE : I'm impressed."
+  },
+  {
+    "id": "p-0108",
+    "en": "BÉATRICE : Almost all of Eustache's old comrades have that effect on me."
+  },
+  {
+    "id": "p-0109",
+    "en": "EUSTACHE : That makes no sense at all."
+  },
+  {
+    "id": "p-0110",
+    "en": "BÉATRICE : I can't help wondering what they think of me. It's not my fault. It's very unpleasant for me."
+  },
+  {
+    "id": "p-0111",
+    "en": "GERTRUDE : I would have thought quite the opposite. They're the ones who must be afraid of displeasing you."
+  },
+  {
+    "id": "p-0112",
+    "en": "BÉATRICE : Why?"
+  },
+  {
+    "id": "p-0113",
+    "en": "GERTRUDE : Because everything depends on you."
+  },
+  {
+    "id": "p-0114",
+    "en": "BÉATRICE : I don't understand."
+  },
+  {
+    "id": "p-0115",
+    "en": "GERTRUDE : If they displease you..."
+  },
+  {
+    "id": "p-0116",
+    "en": "BÉATRICE : Why should they displease me, since they are Eustache's friends?"
+  },
+  {
+    "id": "p-0117",
+    "en": "GERTRUDE : What a fine reason!"
+  },
+  {
+    "id": "p-0118",
+    "en": "BÉATRICE : And besides, it's very rare for me to take a dislike to people."
+  },
+  {
+    "id": "p-0119",
+    "en": "GERTRUDE (to Eustache) : Your wife is pure gold... Besides, one only has to see her, or even hear her. The first time we spoke, it was on the telephone..."
+  },
+  {
+    "id": "p-0120",
+    "en": "BÉATRICE : Really? That's possible."
+  },
+  {
+    "id": "p-0121",
+    "en": "GERTRUDE : I thought at once: with a voice like that..."
+  },
+  {
+    "id": "p-0122",
+    "en": "EUSTACHE : Nonsense!"
+  },
+  {
+    "id": "p-0123",
+    "en": "GERTRUDE : There's no mistaking it."
+  },
+  {
+    "id": "p-0124",
+    "en": "BÉATRICE : Enough about me, don't you think?"
+  },
+  {
+    "id": "p-0125",
+    "en": "GERTRUDE : And the husband, then, what does he look like? He's a singer, or what?"
+  },
+  {
+    "id": "p-0126",
+    "en": "BÉATRICE : Yes. Concerts, rather than the stage. Eustache says he looks like Novalis."
+  },
+  {
+    "id": "p-0127",
+    "en": "GERTRUDE : That still doesn't tell me much. Novalis, to someone like me, you know..."
+  },
+  {
+    "id": "p-0128",
+    "en": "BÉATRICE : Very blond, very romantic, as nice as can be."
+  },
+  {
+    "id": "p-0129",
+    "en": "EUSTACHE : Nice!"
+  },
+  {
+    "id": "p-0130",
+    "en": "BÉATRICE : Well?"
+  },
+  {
+    "id": "p-0131",
+    "en": "EUSTACHE : It's a word that exasperates me."
+  },
+  {
+    "id": "p-0132",
+    "en": "GERTRUDE : Did he leave Germany because he had no choice... or what?"
+  },
+  {
+    "id": "p-0133",
+    "en": "BÉATRICE : No, on the contrary, that is what is so fine."
+  },
+  {
+    "id": "p-0134",
+    "en": "EUSTACHE : He is a hundred percent Aryan, but his accompanist, this Schönthal, is Jewish, and what is more, a communist..."
+  },
+  {
+    "id": "p-0135",
+    "en": "GERTRUDE : Oh, really?"
+  },
+  {
+    "id": "p-0136",
+    "en": "EUSTACHE : He was imprisoned and terribly beaten up."
+  },
+  {
+    "id": "p-0137",
+    "en": "BÉATRICE : And as we understand it, it was Werner Schnee who managed to get him out."
+  },
+  {
+    "id": "p-0138",
+    "en": "EUSTACHE : Yes, but after all, we don't know that for certain..."
+  },
+  {
+    "id": "p-0139",
+    "en": "BÉATRICE : You were the one who..."
+  },
+  {
+    "id": "p-0140",
+    "en": "EUSTACHE : It's not a story to be gossiped about."
+  },
+  {
+    "id": "p-0141",
+    "en": "GERTRUDE : And he himself, this Schnee of yours, is he a communist?"
+  },
+  {
+    "id": "p-0142",
+    "en": "BÉATRICE : Not at all. He has never been involved in politics."
+  },
+  {
+    "id": "p-0143",
+    "en": "EUSTACHE : Never fear, he'll come to it."
+  },
+  {
+    "id": "p-0144",
+    "en": "BÉATRICE : That's not certain. He is an artist. He sings wonderfully. Above all, he strikes me as very, very childlike..."
+  },
+  {
+    "id": "p-0145",
+    "en": "GERTRUDE : I still don't understand why he left Germany."
+  },
+  {
+    "id": "p-0146",
+    "en": "EUSTACHE : Quite simply so as not to break solidarity with Rudolf Schönthal."
+  },
+  {
+    "id": "p-0147",
+    "en": "GERTRUDE : What a strange idea!"
+  },
+  {
+    "id": "p-0148",
+    "en": "BÉATRICE : I think it's very noble. Fidelity in friendship..."
+  },
+  {
+    "id": "p-0149",
+    "en": "GERTRUDE : If one can afford such a luxury..."
+  },
+  {
+    "id": "p-0150",
+    "en": "BÉATRICE : What do you mean?"
+  },
+  {
+    "id": "p-0151",
+    "en": "GERTRUDE : Does he have money, this gentleman?"
+  },
+  {
+    "id": "p-0152",
+    "en": "EUSTACHE : Very little. And he's the one paying for Rudolf's stay at Davos."
+  },
+  {
+    "id": "p-0153",
+    "en": "GERTRUDE : Well now... that's a friendship that goes far."
+  },
+  {
+    "id": "p-0154",
+    "en": "EUSTACHE : No further than mine would go for Werner..."
+  },
+  {
+    "id": "p-0155",
+    "en": "GERTRUDE : Consider yourself warned."
+  },
+  {
+    "id": "p-0156",
+    "en": "EUSTACHE : How does that concern Béatrice?"
+  },
+  {
+    "id": "p-0157",
+    "en": "GERTRUDE : And the little lady, Gisela, what does she have to say about this friendship?"
+  },
+  {
+    "id": "p-0158",
+    "en": "EUSTACHE : Gertrude, I might as well tell you right now that I detest these innuendos. Werner is more than a friend to me: he is a comrade. I shouldn't need to explain to you what that means."
+  },
+  {
+    "id": "p-0159",
+    "en": "GERTRUDE : You downed steins of beer and ate sauerkraut together in the beer halls of Marburg... You sang two-part songs by moonlight in the forest."
+  },
+  {
+    "id": "p-0160",
+    "en": "EUSTACHE : And so?"
+  },
+  {
+    "id": "p-0161",
+    "en": "GERTRUDE : That is not yet what makes people comrades... and you know it very well."
+  },
+  {
+    "id": "p-0162",
+    "en": "EUSTACHE : I tell you, he will come to it."
+  },
+  {
+    "id": "p-0163",
+    "en": "GERTRUDE : In any case, the little lady won't; that, I can guarantee you. (She has stood up.)"
+  },
+  {
+    "id": "p-0164",
+    "en": "EUSTACHE : You wrote to me that you would have something to ask of me?..."
+  },
+  {
+    "id": "p-0165",
+    "en": "GERTRUDE : Yes, but I've thought better of it. I prefer not to."
+  },
+  {
+    "id": "p-0166",
+    "en": "EUSTACHE : Why?"
+  },
+  {
+    "id": "p-0167",
+    "en": "GERTRUDE : I can see we are too far apart from each other... Oh, I suspected as much."
+  },
+  {
+    "id": "p-0168",
+    "en": "BÉATRICE (gently) : If Eustache can do you the slightest service, I know he would be very glad to."
+  },
+  {
+    "id": "p-0169",
+    "en": "GERTRUDE : I don't much like people doing me favors."
+  },
+  {
+    "id": "p-0170",
+    "en": "BÉATRICE (her voice strained) : I didn't mean to offend you."
+  },
+  {
+    "id": "p-0171",
+    "en": "EUSTACHE : It's about your reinstatement, of course?"
+  },
+  {
+    "id": "p-0172",
+    "en": "GERTRUDE : Yes."
+  },
+  {
+    "id": "p-0173",
+    "en": "EUSTACHE : Where do things stand?"
+  },
+  {
+    "id": "p-0174",
+    "en": "GERTRUDE : I was promised I'd have a post for the autumn term."
+  },
+  {
+    "id": "p-0175",
+    "en": "EUSTACHE : Promised by whom?"
+  },
+  {
+    "id": "p-0176",
+    "en": "GERTRUDE : My primary inspector. But I believe he's a hypocrite... And you know, if I have to stay a few more months with my dear brother and my dear sister-in-law, I believe I'll go raving mad."
+  },
+  {
+    "id": "p-0177",
+    "en": "EUSTACHE : But the union supports you?"
+  },
+  {
+    "id": "p-0178",
+    "en": "GERTRUDE : As much as they possibly can. But at the Rue de Grenelle, there's a wind of reaction blowing... and that's putting it mildly!"
+  },
+  {
+    "id": "p-0179",
+    "en": "EUSTACHE : What could I do?"
+  },
+  {
+    "id": "p-0180",
+    "en": "BÉATRICE : But Father is on very good terms with the Minister!..."
+  },
+  {
+    "id": "p-0181",
+    "en": "EUSTACHE : I can just see your father intervening on Gertrude's behalf! You don't seem to realize that he's a dyed-in-the-wool nationalist, and that she was dismissed..."
+  },
+  {
+    "id": "p-0182",
+    "en": "GERTRUDE : Suspended."
+  },
+  {
+    "id": "p-0183",
+    "en": "EUSTACHE : Under the pretext that she dragged the motherland through the mud."
+  },
+  {
+    "id": "p-0184",
+    "en": "BÉATRICE : But I thought that now the party line from Moscow..."
+  },
+  {
+    "id": "p-0185",
+    "en": "GERTRUDE : We take no orders, from Moscow or anywhere else... I assure you. Eustache, don't waste your powder on me. Don't go feeling obliged to give me a push... I can see quite well what you're telling yourself, believe me... the past, the Rue Sévéro, the rallies... It's better to write all that off, believe me... Let's simplify, simplify. To think I didn't even congratulate you on your ribbon... (To Béatrice.) He didn't hold it against me, did he?... But you wouldn't tell me—with a voice like that... Goodbye. Thank you for the guinea fowl and the mocha ice cream. I didn't say anything, but I appreciated it, you know. And for the 1922 Château Margaux."
+  },
+  {
+    "id": "p-0186",
+    "en": "BÉATRICE (in a toneless voice) : Eustache will walk you to the station."
+  },
+  {
+    "id": "p-0187",
+    "en": "GERTRUDE : As far as the garden gate. Not two yards further. (She exits quickly, followed by Eustache.)"
+  },
+  {
+    "id": "p-0188",
+    "en": "[SCENE III]"
+  },
+  {
+    "id": "p-0189",
+    "en": "BÉATRICE, then EUSTACHE : (Béatrice sits down, takes a book, tries to become absorbed in reading, fails, gets up, goes to the window, looks out, sighs, sits down again; Eustache re-enters at this moment.)"
+  },
+  {
+    "id": "p-0190",
+    "en": "BÉATRICE (to Eustache) : Will you be able to do something for her?"
+  },
+  {
+    "id": "p-0191",
+    "en": "EUSTACHE : I have no idea. In any case, there is no question of calling on your father's good offices."
+  },
+  {
+    "id": "p-0192",
+    "en": "BÉATRICE : Father is always so accommodating whenever I ask him for anything."
+  },
+  {
+    "id": "p-0193",
+    "en": "EUSTACHE : It is not a matter here of granting a favor, but of righting an injustice."
+  },
+  {
+    "id": "p-0194",
+    "en": "BÉATRICE : Yes."
+  },
+  {
+    "id": "p-0195",
+    "en": "EUSTACHE : You don't sound convinced."
+  },
+  {
+    "id": "p-0196",
+    "en": "BÉATRICE : I believe what you tell me. As for me, I don't know, you see..."
+  },
+  {
+    "id": "p-0197",
+    "en": "EUSTACHE : Besides, it would be much more candid to admit that you dislike Gertrude."
+  },
+  {
+    "id": "p-0198",
+    "en": "BÉATRICE : But in the first place... that's beside the point. I'm sure she has great merit."
+  },
+  {
+    "id": "p-0199",
+    "en": "EUSTACHE : You concede that?"
+  },
+  {
+    "id": "p-0200",
+    "en": "BÉATRICE : I try to be fair."
+  },
+  {
+    "id": "p-0201",
+    "en": "EUSTACHE : It would be better to be sincere."
+  },
+  {
+    "id": "p-0202",
+    "en": "BÉATRICE : You're strange, Eustache; it's as if you were dying to pick a quarrel with me. But I have no desire to."
+  },
+  {
+    "id": "p-0203",
+    "en": "EUSTACHE : No one could ever accuse you of being too combative."
+  },
+  {
+    "id": "p-0204",
+    "en": "BÉATRICE : You are enough for both of us, darling."
+  },
+  {
+    "id": "p-0205",
+    "en": "EUSTACHE : Is that a reproach?"
+  },
+  {
+    "id": "p-0206",
+    "en": "BÉATRICE : Not at all. All in all, I find it very admirable."
+  },
+  {
+    "id": "p-0207",
+    "en": "EUSTACHE : 'All in all'?"
+  },
+  {
+    "id": "p-0208",
+    "en": "BÉATRICE : I would only like it if, in front of my parents and Maxime, you made a little effort to restrain yourself... What is the use of hurting their feelings?"
+  },
+  {
+    "id": "p-0209",
+    "en": "EUSTACHE : That's true, they're coming here presently... Deep down, might one know why you didn't invite them to lunch?"
+  },
+  {
+    "id": "p-0210",
+    "en": "BÉATRICE (surprised) : But it seems to me there was never any question of that."
+  },
+  {
+    "id": "p-0211",
+    "en": "EUSTACHE : Why?"
+  },
+  {
+    "id": "p-0212",
+    "en": "BÉATRICE : For one thing, there would have been too many of us; just think, with Gisela, Gertrude..."
+  },
+  {
+    "id": "p-0213",
+    "en": "EUSTACHE : And with my mother."
+  },
+  {
+    "id": "p-0214",
+    "en": "BÉATRICE : Yes."
+  },
+  {
+    "id": "p-0215",
+    "en": "EUSTACHE : Wouldn't it be more honest to admit that you had no desire at all to have your parents lunch with her? It's not the first time I've noticed it. You don't deny it."
+  },
+  {
+    "id": "p-0216",
+    "en": "BÉATRICE : As you wish."
+  },
+  {
+    "id": "p-0217",
+    "en": "EUSTACHE : It's not a question of what I wish."
+  },
+  {
+    "id": "p-0218",
+    "en": "BÉATRICE : Oh, but it is, Eustache; it is only a question of you."
+  },
+  {
+    "id": "p-0219",
+    "en": "EUSTACHE : What does that mean?"
+  },
+  {
+    "id": "p-0220",
+    "en": "BÉATRICE : When your mother is here, you are so nervous... if only you could see yourself!"
+  },
+  {
+    "id": "p-0221",
+    "en": "EUSTACHE : Only because I can guess everything you're thinking."
+  },
+  {
+    "id": "p-0222",
+    "en": "BÉATRICE : I am not thinking anything at all. I am glad to see your mother happy. Poor woman! She had such a hard life. It's only right that now..."
+  },
+  {
+    "id": "p-0223",
+    "en": "EUSTACHE : She has never complained, so far as I know?"
+  },
+  {
+    "id": "p-0224",
+    "en": "BÉATRICE : No, but very often a word slips out, an allusion..."
+  },
+  {
+    "id": "p-0225",
+    "en": "EUSTACHE : Why did you offer her a second glass of liqueur?"
+  },
+  {
+    "id": "p-0226",
+    "en": "BÉATRICE : But I could see she wanted one, Eustache, please..."
+  },
+  {
+    "id": "p-0227",
+    "en": "EUSTACHE : It is certainly bad for her. When she left, the blood was rushing to her head... You think you're showing her consideration, I suppose; but as for me, you wound me..."
+  },
+  {
+    "id": "p-0228",
+    "en": "BÉATRICE : I really don't know what I'm supposed to do."
+  },
+  {
+    "id": "p-0229",
+    "en": "EUSTACHE : And I'll ask you as well not to heave those victim's sighs."
+  },
+  {
+    "id": "p-0230",
+    "en": "BÉATRICE : The truth is that Gertrude's visit..."
+  },
+  {
+    "id": "p-0231",
+    "en": "EUSTACHE : Well?"
+  },
+  {
+    "id": "p-0232",
+    "en": "BÉATRICE : No, nothing... Did you know her husband?"
+  },
+  {
+    "id": "p-0233",
+    "en": "EUSTACHE : Very little."
+  },
+  {
+    "id": "p-0234",
+    "en": "BÉATRICE : Was he a militant too?"
+  },
+  {
+    "id": "p-0235",
+    "en": "EUSTACHE : Otherwise she wouldn't have married him."
+  },
+  {
+    "id": "p-0236",
+    "en": "BÉATRICE : Naturally."
+  },
+  {
+    "id": "p-0237",
+    "en": "EUSTACHE : One can say what one likes against Gertrude, but she is someone who has known how to bring her actions into accord with her convictions."
+  },
+  {
+    "id": "p-0238",
+    "en": "BÉATRICE : Against whom are you saying that, Eustache?"
+  },
+  {
+    "id": "p-0239",
+    "en": "EUSTACHE : Against no one. What a strange question!... And fundamentally, it is perhaps the only truly important thing."
+  },
+  {
+    "id": "p-0240",
+    "en": "BÉATRICE : As much can be said of you, darling."
+  },
+  {
+    "id": "p-0241",
+    "en": "EUSTACHE : Thank you for that testimonial. Unfortunately, you are far too biased in my favor for your opinion to carry any weight."
+  },
+  {
+    "id": "p-0242",
+    "en": "BÉATRICE : I don't understand what you could possibly have to reproach yourself for."
+  },
+  {
+    "id": "p-0243",
+    "en": "EUSTACHE : It's not a question of that. But sometimes it is enough to look at one's own life through someone else's eyes..."
+  },
+  {
+    "id": "p-0244",
+    "en": "BÉATRICE : That someone else—I suppose that's Gertrude?"
+  },
+  {
+    "id": "p-0245",
+    "en": "EUSTACHE (vehemently) : Gertrude is my past, she is everything I wanted to be. (Béatrice laughs.) Why are you laughing?"
+  },
+  {
+    "id": "p-0246",
+    "en": "BÉATRICE : Surely you never had any desire to be like Gertrude."
+  },
+  {
+    "id": "p-0247",
+    "en": "EUSTACHE : It is as though I had just this moment measured the gulf between what I had the ambition to be and what I have become."
+  },
+  {
+    "id": "p-0248",
+    "en": "BÉATRICE : What ambition? I don't know what more you could want."
+  },
+  {
+    "id": "p-0249",
+    "en": "EUSTACHE : It's not a question of success, and still less of money. To hear you talk, one would really think I had only banked on outward success."
+  },
+  {
+    "id": "p-0250",
+    "en": "BÉATRICE : I said nothing of the kind..."
+  },
+  {
+    "id": "p-0251",
+    "en": "EUSTACHE : You might spare me constantly reminding me how lucky I've been."
+  },
+  {
+    "id": "p-0252",
+    "en": "BÉATRICE : I... remind you?... But in the first place, you only got what you deserved."
+  }
+]

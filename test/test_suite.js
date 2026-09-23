@@ -348,7 +348,7 @@ assert(romeNestPlusDansRome.paragraphs.length === 110, `${romeNestPlusDansRome.t
 assert(romeNestPlusDansRome.sections.length === 5, `${romeNestPlusDansRome.titleEn}: Defines all V Acts`);
 
 assert(leDard.unabridged === true, `${leDard.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(leDard.paragraphs.length === 105, `${leDard.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(leDard.paragraphs.length === 1177, `${leDard.titleEn}: Contains complete 1,177 verbatim dialogue rows`);
 assert(leDard.sections.length === 3, `${leDard.titleEn}: Defines all III Acts`);
 
 assert(journalMetaphysique.unabridged === true, `${journalMetaphysique.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -482,7 +482,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 10593, `Total unabridged rows across 42 masterworks equals 10,593 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 11665, `Total unabridged rows across 42 masterworks equals 11,665 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -888,27 +888,27 @@ window.selectSection('all');
 const rAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(rAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Rome n'est plus dans Rome`);
 
-// 9. Test Switch to Le Dard (Verbatim 105 dialogue rows across III Acts)
+// 9. Test Switch to Le Dard (Verbatim 1,177 dialogue rows across III Acts)
 window.switchWork('le-dard');
 const dardRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dardRows === 105, `Rendered full 105 verbatim dialogue rows for Le Dard (actual: ${dardRows})`);
+assert(dardRows === 504, `Smart default renders Act I (504 dialogue rows) for Le Dard (actual: ${dardRows})`);
 
 // Test Act Filtering for Le Dard
 window.selectSection('act-1');
 const dAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dAct1Rows === 35, `Le Dard Act I (Werner's Refuge) filtered to exactly 35 rows (actual: ${dAct1Rows})`);
+assert(dAct1Rows === 504, `Le Dard Act I (Werner's Refuge) filtered to exactly 504 rows (actual: ${dAct1Rows})`);
 
 window.selectSection('act-2');
 const dAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dAct2Rows === 35, `Le Dard Act II (Political Resentment) filtered to exactly 35 rows (actual: ${dAct2Rows})`);
+assert(dAct2Rows === 391, `Le Dard Act II (Political Resentment) filtered to exactly 391 rows (actual: ${dAct2Rows})`);
 
 window.selectSection('act-3');
 const dAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dAct3Rows === 35, `Le Dard Act III (Werner's Sacrifice) filtered to exactly 35 rows (actual: ${dAct3Rows})`);
+assert(dAct3Rows === 282, `Le Dard Act III (Werner's Sacrifice) filtered to exactly 282 rows (actual: ${dAct3Rows})`);
 
 window.selectSection('all');
 const dAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Dard`);
+assert(dAllRestored === 1177, `All 1,177 dialogue rows restored upon selecting "All Sections" for Le Dard`);
 
 // 10. Test Switch to Journal métaphysique (Unabridged 1001 entries across 4 Sections)
 window.switchWork('journal-metaphysique');
