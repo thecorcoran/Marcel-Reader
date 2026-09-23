@@ -340,7 +340,7 @@ assert(duRefus.paragraphs.length === 105, `${duRefus.titleEn}: Contains complete
 assert(duRefus.sections.length === 8, `${duRefus.titleEn}: Defines all VIII Essays`);
 
 assert(unHommeDeDieu.unabridged === true, `${unHommeDeDieu.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(unHommeDeDieu.paragraphs.length === 110, `${unHommeDeDieu.titleEn}: Contains complete 110 verbatim dialogue rows`);
+assert(unHommeDeDieu.paragraphs.length === 1390, `${unHommeDeDieu.titleEn}: Contains complete 1,390 verbatim dialogue rows`);
 assert(unHommeDeDieu.sections.length === 4, `${unHommeDeDieu.titleEn}: Defines all IV Acts`);
 
 assert(romeNestPlusDansRome.unabridged === true, `${romeNestPlusDansRome.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -482,7 +482,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 9293, `Total unabridged rows across 42 masterworks equals 9,293 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 10593, `Total unabridged rows across 42 masterworks equals 10,593 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -840,31 +840,31 @@ window.selectSection('all');
 const duRefusAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(duRefusAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Du refus à l'invocation`);
 
-// 7. Test Switch to Un Homme de Dieu (Verbatim 110 dialogue rows across IV Acts)
+// 7. Test Switch to Un Homme de Dieu (Verbatim 1,390 dialogue rows across IV Acts)
 window.switchWork('un-homme-de-dieu');
 const unHommeRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(unHommeRows === 110, `Rendered full 110 verbatim dialogue rows for Un Homme de Dieu (actual: ${unHommeRows})`);
+assert(unHommeRows === 409, `Smart default renders Act I (409 dialogue rows) for Un Homme de Dieu (actual: ${unHommeRows})`);
 
 // Test Act Filtering for Un Homme de Dieu
 window.selectSection('act-1');
 const uhAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(uhAct1Rows === 28, `Act I (The Rectory) filtered to exactly 28 rows (actual: ${uhAct1Rows})`);
+assert(uhAct1Rows === 409, `Act I (The Rectory) filtered to exactly 409 rows (actual: ${uhAct1Rows})`);
 
 window.selectSection('act-2');
 const uhAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(uhAct2Rows === 28, `Act II (Revelation of Secret) filtered to exactly 28 rows (actual: ${uhAct2Rows})`);
+assert(uhAct2Rows === 367, `Act II (Revelation of Secret) filtered to exactly 367 rows (actual: ${uhAct2Rows})`);
 
 window.selectSection('act-3');
 const uhAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(uhAct3Rows === 28, `Act III (Osmonde's Departure) filtered to exactly 28 rows (actual: ${uhAct3Rows})`);
+assert(uhAct3Rows === 305, `Act III (Osmonde's Departure) filtered to exactly 305 rows (actual: ${uhAct3Rows})`);
 
 window.selectSection('act-4');
 const uhAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(uhAct4Rows === 26, `Act IV (The Pastoral Agony) filtered to exactly 26 rows (actual: ${uhAct4Rows})`);
+assert(uhAct4Rows === 309, `Act IV (The Pastoral Agony) filtered to exactly 309 rows (actual: ${uhAct4Rows})`);
 
 window.selectSection('all');
 const uhAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(uhAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Un Homme de Dieu`);
+assert(uhAllRestored === 1390, `All 1,390 dialogue rows restored upon selecting "All Sections" for Un Homme de Dieu`);
 
 // 8. Test Switch to Rome n'est plus dans Rome (Verbatim 110 dialogue rows across V Acts)
 window.switchWork('rome-nest-plus-dans-rome');

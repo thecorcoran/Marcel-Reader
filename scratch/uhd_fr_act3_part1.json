@@ -1,0 +1,1066 @@
+[
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "[ACTE III]",
+    "id": "p-0777",
+    "fr": "[ACTE III]"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "Même décor.",
+    "id": "p-0778",
+    "fr": "Même décor."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "[SCÈNE I]",
+    "id": "p-0779",
+    "fr": "[SCÈNE I]"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE, FRANCIS",
+    "text": "(Francis est assis à la table et écrit une ordonnance.)",
+    "id": "p-0780",
+    "fr": "CLAUDE, FRANCIS : (Francis est assis à la table et écrit une ordonnance.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "En somme c'est du surmenage nerveux, et un remontant te fera du bien.",
+    "id": "p-0781",
+    "fr": "FRANCIS : En somme c'est du surmenage nerveux, et un remontant te fera du bien."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Tu vas pouvoir rassurer maman ; d'ailleurs je ne comprends pas qu'on se tourmente pour si peu.",
+    "id": "p-0782",
+    "fr": "CLAUDE : Tu vas pouvoir rassurer maman ; d'ailleurs je ne comprends pas qu'on se tourmente pour si peu."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Au fond, c'est à cause de la maladie dont est mort notre père, tu comprends ; mais il n'y a aucun rapport. (Il se lève.) Voilà. Alors deux fois par jour une cuillerée à bouche avant les principaux repas ; et maintenant, mon petit, il faut que je me sauve au plus vite.",
+    "id": "p-0783",
+    "fr": "FRANCIS : Au fond, c'est à cause de la maladie dont est mort notre père, tu comprends ; mais il n'y a aucun rapport. (Il se lève.) Voilà. Alors deux fois par jour une cuillerée à bouche avant les principaux repas ; et maintenant, mon petit, il faut que je me sauve au plus vite."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Écoute, je voudrais profiter de ce que nous sommes seuls. Mais il faut me promettre de me dire la vérité. N'est-ce pas ? j'y compte... Voilà : c'est à propos de ce qui s'est passé autrefois à Saint-Loup.",
+    "id": "p-0784",
+    "fr": "CLAUDE : Écoute, je voudrais profiter de ce que nous sommes seuls. Mais il faut me promettre de me dire la vérité. N'est-ce pas ? j'y compte... Voilà : c'est à propos de ce qui s'est passé autrefois à Saint-Loup."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Je me doutais bien qu'il y avait quelque chose qui te travaillait.",
+    "id": "p-0785",
+    "fr": "FRANCIS : Je me doutais bien qu'il y avait quelque chose qui te travaillait."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "C'est de moi qu'il s'agit. Je voudrais savoir si toi, par exemple ; tu m'as approuvé lorsque je lui ai pardonné ; est-ce que tu as ?...",
+    "id": "p-0786",
+    "fr": "CLAUDE : C'est de moi qu'il s'agit. Je voudrais savoir si toi, par exemple ; tu m'as approuvé lorsque je lui ai pardonné ; est-ce que tu as ?..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Tu comprends bien que je ne me suis jamais permis d'avoir une opinion là-dessus. En pareil cas, chacun agit selon ce que lui dicte son cœur ou sa conscience, ou enfin ce que tu voudras. Je t'avoue même que le sens de ta question m'échappe.",
+    "id": "p-0787",
+    "fr": "FRANCIS : Tu comprends bien que je ne me suis jamais permis d'avoir une opinion là-dessus. En pareil cas, chacun agit selon ce que lui dicte son cœur ou sa conscience, ou enfin ce que tu voudras. Je t'avoue même que le sens de ta question m'échappe."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "As-tu été... surpris ?",
+    "id": "p-0788",
+    "fr": "CLAUDE : As-tu été... surpris ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Mais non, pas du tout... Étant donné ton caractère, tes croyances, mon Dieu, même ta...",
+    "id": "p-0789",
+    "fr": "FRANCIS : Mais non, pas du tout... Étant donné ton caractère, tes croyances, mon Dieu, même ta..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE, d'un ton ambigu",
+    "text": "« Ma profession ?... »",
+    "id": "p-0790",
+    "fr": "CLAUDE, d'un ton ambigu : « Ma profession ?... »"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Dans la mesure où elle correspond à ta personnalité, oui, sans doute...",
+    "id": "p-0791",
+    "fr": "FRANCIS : Dans la mesure où elle correspond à ta personnalité, oui, sans doute..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Tu as trouvé ça tout naturel.",
+    "id": "p-0792",
+    "fr": "CLAUDE : Tu as trouvé ça tout naturel."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Mais en somme, où veux-tu en venir, mon petit ?",
+    "id": "p-0793",
+    "fr": "FRANCIS : Mais en somme, où veux-tu en venir, mon petit ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "C'est simplement cela que je voulais savoir.",
+    "id": "p-0794",
+    "fr": "CLAUDE : C'est simplement cela que je voulais savoir."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Je crois encore aujourd'hui que ce que tu as fait là était dans la ligne de ta vie. (Un silence.)",
+    "id": "p-0795",
+    "fr": "FRANCIS : Je crois encore aujourd'hui que ce que tu as fait là était dans la ligne de ta vie. (Un silence.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Merci, tu m'as très clairement répondu.",
+    "id": "p-0796",
+    "fr": "CLAUDE : Merci, tu m'as très clairement répondu."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS, lui prenant la tête dans les mains",
+    "text": "Enfin qu'est-ce que ça signifie ? Est-ce que par hasard ?... Oh ! tant pis pour mon malade, il attendra, je veux tirer ça au clair.",
+    "id": "p-0797",
+    "fr": "FRANCIS, lui prenant la tête dans les mains : Enfin qu'est-ce que ça signifie ? Est-ce que par hasard ?... Oh ! tant pis pour mon malade, il attendra, je veux tirer ça au clair."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Ça n'a aucun intérêt, je t'assure.",
+    "id": "p-0798",
+    "fr": "CLAUDE : Ça n'a aucun intérêt, je t'assure."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Toi, tu es en train de faire de la neurasthénie... Ah j'ai eu rudement tort de ne pas envoyer promener ce Michel Sandier, parce qu'enfin il n'y a pas de doute...",
+    "id": "p-0799",
+    "fr": "FRANCIS : Toi, tu es en train de faire de la neurasthénie... Ah j'ai eu rudement tort de ne pas envoyer promener ce Michel Sandier, parce qu'enfin il n'y a pas de doute..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "S'il y avait cette équivoque dans ma vie, il valait mieux qu'elle fut dissipée.",
+    "id": "p-0800",
+    "fr": "CLAUDE : S'il y avait cette équivoque dans ma vie, il valait mieux qu'elle fut dissipée."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Quelle équivoque ?",
+    "id": "p-0801",
+    "fr": "FRANCIS : Quelle équivoque ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Mais tu ne comprends donc pas ! On a vécu des années sur une certaine idée de soi-même, on a cru puiser de la force dans cette idée, et on s'aperçoit qu'on s'est peut-être indignement trompé.",
+    "id": "p-0802",
+    "fr": "CLAUDE : Mais tu ne comprends donc pas ! On a vécu des années sur une certaine idée de soi-même, on a cru puiser de la force dans cette idée, et on s'aperçoit qu'on s'est peut-être indignement trompé."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Qui parle de ça ?",
+    "id": "p-0803",
+    "fr": "FRANCIS : Qui parle de ça ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Peut-être. On n'en est même pas sûr... Alors on ne sait plus, on est perdu... Enfin mes pensées, mes paroles d'autrefois, tout cela devrait être transparent pour moi, je devrais m'y reconnaître comme dans ma propre maison... Eh bien, non, ça m'est impénétrable.",
+    "id": "p-0804",
+    "fr": "CLAUDE : Peut-être. On n'en est même pas sûr... Alors on ne sait plus, on est perdu... Enfin mes pensées, mes paroles d'autrefois, tout cela devrait être transparent pour moi, je devrais m'y reconnaître comme dans ma propre maison... Eh bien, non, ça m'est impénétrable."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "En ce moment, tu m'as l'air de couper des cheveux en quatre. Seulement, prends garde, ces petits jeux très protestants ne sont pas sans dangers.",
+    "id": "p-0805",
+    "fr": "FRANCIS : En ce moment, tu m'as l'air de couper des cheveux en quatre. Seulement, prends garde, ces petits jeux très protestants ne sont pas sans dangers."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Ces dangers-là, je ne les crains pas. Je vois tous les jours des gens qui me considèrent comme leur conscience.",
+    "id": "p-0806",
+    "fr": "CLAUDE : Ces dangers-là, je ne les crains pas. Je vois tous les jours des gens qui me considèrent comme leur conscience."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Tant pis pour eux.",
+    "id": "p-0807",
+    "fr": "FRANCIS : Tant pis pour eux."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Si je n'ai même pas le courage de lire en moi...",
+    "id": "p-0808",
+    "fr": "CLAUDE : Si je n'ai même pas le courage de lire en moi..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Ce n'est pas une question de courage. (Il s'est levé.) Allons, il faut décidément que je te quitte. Mais fais attention ; ça se paie, ces bêtises-là, et quelquefois très cher.",
+    "id": "p-0809",
+    "fr": "FRANCIS : Ce n'est pas une question de courage. (Il s'est levé.) Allons, il faut décidément que je te quitte. Mais fais attention ; ça se paie, ces bêtises-là, et quelquefois très cher."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Francis, parle-moi en homme, pas en spécialiste.",
+    "id": "p-0810",
+    "fr": "CLAUDE : Francis, parle-moi en homme, pas en spécialiste."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "[SCÈNE II]",
+    "id": "p-0811",
+    "fr": "[SCÈNE II]"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, EDMÉE",
+    "id": "p-0812",
+    "fr": "LES MÊMES, EDMÉE"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Tiens, je ne vous savais pas ici.",
+    "id": "p-0813",
+    "fr": "EDMÉE : Tiens, je ne vous savais pas ici."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "C'est maman qui m'avait demandé de passer ; la mine de Claude l'avait inquiétée, et vous savez comme elle se frappe facilement.",
+    "id": "p-0814",
+    "fr": "FRANCIS : C'est maman qui m'avait demandé de passer ; la mine de Claude l'avait inquiétée, et vous savez comme elle se frappe facilement."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Et alors ?",
+    "id": "p-0815",
+    "fr": "EDMÉE : Et alors ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Ce n'est rien, un peu de fatigue nerveuse. Mais la tension est normale, et le cœur n'a rien. (A mi-voix.) Eh bien, votre pensionnaire est arrivé ?",
+    "id": "p-0816",
+    "fr": "FRANCIS : Ce n'est rien, un peu de fatigue nerveuse. Mais la tension est normale, et le cœur n'a rien. (A mi-voix.) Eh bien, votre pensionnaire est arrivé ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Oui, oui, il est en train de chercher à caser son tub dans sa chambre.",
+    "id": "p-0817",
+    "fr": "EDMÉE : Oui, oui, il est en train de chercher à caser son tub dans sa chambre."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Ah ! ah !",
+    "id": "p-0818",
+    "fr": "FRANCIS : Ah ! ah !"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Oui, c'est sa grosse préoccupation du moment.",
+    "id": "p-0819",
+    "fr": "EDMÉE : Oui, c'est sa grosse préoccupation du moment."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRANCIS",
+    "text": "Au revoir, mon vieux... alors j'y compte, n'est-ce pas ! au revoir, Edmée. (Il sort.)",
+    "id": "p-0820",
+    "fr": "FRANCIS : Au revoir, mon vieux... alors j'y compte, n'est-ce pas ! au revoir, Edmée. (Il sort.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "[SCÈNE III]",
+    "id": "p-0821",
+    "fr": "[SCÈNE III]"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Ainsi tu te sens souffrant ?",
+    "id": "p-0822",
+    "fr": "EDMÉE : Ainsi tu te sens souffrant ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Mais pas du tout. Encore une fois, c'est maman qui s'est mis dans la tête...",
+    "id": "p-0823",
+    "fr": "CLAUDE : Mais pas du tout. Encore une fois, c'est maman qui s'est mis dans la tête..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE, le regardant",
+    "text": "Tu as mauvaise mine.",
+    "id": "p-0824",
+    "fr": "EDMÉE, le regardant : Tu as mauvaise mine."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Laisse donc.",
+    "id": "p-0825",
+    "fr": "CLAUDE : Laisse donc."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Ah ! c'est ma faute. Si tu savais comme je m'en veux...",
+    "id": "p-0826",
+    "fr": "EDMÉE : Ah ! c'est ma faute. Si tu savais comme je m'en veux..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Tu m'as découvert le fond de ta pensée, je n'ai pas le droit de te le reprocher.",
+    "id": "p-0827",
+    "fr": "CLAUDE : Tu m'as découvert le fond de ta pensée, je n'ai pas le droit de te le reprocher."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Le fond de ma pensée ! mais est-ce que je le connais ?...",
+    "id": "p-0828",
+    "fr": "EDMÉE : Le fond de ma pensée ! mais est-ce que je le connais ?..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Alors, avant-hier ?...",
+    "id": "p-0829",
+    "fr": "CLAUDE : Alors, avant-hier ?..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Mais si, j'étais sincère ; seulement je ne sais pas, rien ne tient, rien n'est solide. Là où il y avait un plancher, il y a un gouffre.",
+    "id": "p-0830",
+    "fr": "EDMÉE : Mais si, j'étais sincère ; seulement je ne sais pas, rien ne tient, rien n'est solide. Là où il y avait un plancher, il y a un gouffre."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "C'est bien ça, un gouffre.",
+    "id": "p-0831",
+    "fr": "CLAUDE : C'est bien ça, un gouffre."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Mais ce gouffre lui-même, il se comble.",
+    "id": "p-0832",
+    "fr": "EDMÉE : Mais ce gouffre lui-même, il se comble."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "C'est-à-dire qu'on s'en détourne.",
+    "id": "p-0833",
+    "fr": "CLAUDE : C'est-à-dire qu'on s'en détourne."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Je t'assure, la découverte qui vous semblait profonde, qui vous faisait mal à crier, ce n'est plus rien, on s'étonne d'y avoir cru. Vois-tu, j'ai beaucoup réfléchi depuis l'autre jour. Quand ces espèces d'éclairs s'allument brusquement, il n'y a qu'à fermer les yeux. Il faut se faire crédit à soi-même.",
+    "id": "p-0834",
+    "fr": "EDMÉE : Je t'assure, la découverte qui vous semblait profonde, qui vous faisait mal à crier, ce n'est plus rien, on s'étonne d'y avoir cru. Vois-tu, j'ai beaucoup réfléchi depuis l'autre jour. Quand ces espèces d'éclairs s'allument brusquement, il n'y a qu'à fermer les yeux. Il faut se faire crédit à soi-même."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "C'est bien, abuse-toi volontairement, nourris-toi d'illusions ; moi je ne peux pas.",
+    "id": "p-0835",
+    "fr": "CLAUDE : C'est bien, abuse-toi volontairement, nourris-toi d'illusions ; moi je ne peux pas."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE, frémissante",
+    "text": "Jusqu'à présent, est-ce moi qui ai mérité ce reproche ? Dis. (Un silence ; avec fermeté :) Tu n'as pas le droit de douter de toi ; tu es là pour nous donner de la force. C'est ton métier après tout... Je ne peux pas supporter que tu t'abandonnes. Enfin songe à ce que je traverse en ce moment... cet homme... si je ne trouve pas en toi un appui...",
+    "id": "p-0836",
+    "fr": "EDMÉE, frémissante : Jusqu'à présent, est-ce moi qui ai mérité ce reproche ? Dis. (Un silence ; avec fermeté :) Tu n'as pas le droit de douter de toi ; tu es là pour nous donner de la force. C'est ton métier après tout... Je ne peux pas supporter que tu t'abandonnes. Enfin songe à ce que je traverse en ce moment... cet homme... si je ne trouve pas en toi un appui..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE, profondément",
+    "text": "J'avais cru que ce pardon (mouvement d'Edmée) était un acte de charité, l'acte d'un chrétien. Si j'ai simplement fui devant le scandale ou la solitude... Et maintenant que tu m'as forcé à ouvrir les yeux, tu viens plaquer tes deux mains dessus pour que ce soit de nouveau la nuit. Mais que me veux-tu donc ? qu'est-ce que je t'ai fait ?",
+    "id": "p-0837",
+    "fr": "CLAUDE, profondément : J'avais cru que ce pardon (mouvement d'Edmée) était un acte de charité, l'acte d'un chrétien. Si j'ai simplement fui devant le scandale ou la solitude... Et maintenant que tu m'as forcé à ouvrir les yeux, tu viens plaquer tes deux mains dessus pour que ce soit de nouveau la nuit. Mais que me veux-tu donc ? qu'est-ce que je t'ai fait ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Je suis faible. Il faut que tu m'aides.",
+    "id": "p-0838",
+    "fr": "EDMÉE : Je suis faible. Il faut que tu m'aides."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Pas à n'importe quel prix. Pas au prix d'un mensonge. Je ne peux pas. Je ne veux pas. (Un long silence.)",
+    "id": "p-0839",
+    "fr": "CLAUDE : Pas à n'importe quel prix. Pas au prix d'un mensonge. Je ne peux pas. Je ne veux pas. (Un long silence.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE, d'un ton changé",
+    "text": "C'est bien. Au fond tu as raison. Il faut regarder les choses en face.",
+    "id": "p-0840",
+    "fr": "EDMÉE, d'un ton changé : C'est bien. Au fond tu as raison. Il faut regarder les choses en face."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Il n'y a pas moyen de faire autrement.",
+    "id": "p-0841",
+    "fr": "CLAUDE : Il n'y a pas moyen de faire autrement."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Seulement, ne crois-tu pas que bien des questions vont se poser à nous ? D'abord nous ne sommes plus seuls en cause.",
+    "id": "p-0842",
+    "fr": "EDMÉE : Seulement, ne crois-tu pas que bien des questions vont se poser à nous ? D'abord nous ne sommes plus seuls en cause."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "C'est d'Osmonde que tu parles ?",
+    "id": "p-0843",
+    "fr": "CLAUDE : C'est d'Osmonde que tu parles ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Pas seulement d'Osmonde... Cet homme qui va mourir, à quoi l'avons-nous sacrifié ?",
+    "id": "p-0844",
+    "fr": "EDMÉE : Pas seulement d'Osmonde... Cet homme qui va mourir, à quoi l'avons-nous sacrifié ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Assez.",
+    "id": "p-0845",
+    "fr": "CLAUDE : Assez."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Je réponds à ta place : à notre égoïsme, à notre lâcheté. (On la sent au bord des larmes, elle s'est détournée de Claude, ses épaules sont secouées d'un frisson.) Voilà donc le bilan, je ne m'épargne pas plus que toi.",
+    "id": "p-0846",
+    "fr": "EDMÉE : Je réponds à ta place : à notre égoïsme, à notre lâcheté. (On la sent au bord des larmes, elle s'est détournée de Claude, ses épaules sont secouées d'un frisson.) Voilà donc le bilan, je ne m'épargne pas plus que toi."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE, dans une sorte de sursaut",
+    "text": "Je vous ai tout de même sauvées toutes les deux.",
+    "id": "p-0847",
+    "fr": "CLAUDE, dans une sorte de sursaut : Je vous ai tout de même sauvées toutes les deux."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "De quoi ?",
+    "id": "p-0848",
+    "fr": "EDMÉE : De quoi ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Sans moi, que serais-tu devenue ? Il t'aurait trompée à ton tour.",
+    "id": "p-0849",
+    "fr": "CLAUDE : Sans moi, que serais-tu devenue ? Il t'aurait trompée à ton tour."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Admettons : quel était le prix d'une fidélité comme la tienne ?",
+    "id": "p-0850",
+    "fr": "EDMÉE : Admettons : quel était le prix d'une fidélité comme la tienne ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Il t'aurait fait souffrir.",
+    "id": "p-0851",
+    "fr": "CLAUDE : Il t'aurait fait souffrir."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Tu sais, quand la bonté n'est qu'une vertu professionnelle...",
+    "id": "p-0852",
+    "fr": "EDMÉE : Tu sais, quand la bonté n'est qu'une vertu professionnelle..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Et la petite... si elle a eu un foyer...",
+    "id": "p-0853",
+    "fr": "CLAUDE : Et la petite... si elle a eu un foyer..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Quel foyer réchauffant !... Oh ! je te comprends, va, en présence de cette banqueroute...",
+    "id": "p-0854",
+    "fr": "EDMÉE : Quel foyer réchauffant !... Oh ! je te comprends, va, en présence de cette banqueroute..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Il n'y a pas de banqueroute ; quelles qu'aient pu être mes faiblesses, je suis ce que j'ai cru être. Tu as beau chercher à m'anéantir...",
+    "id": "p-0855",
+    "fr": "CLAUDE : Il n'y a pas de banqueroute ; quelles qu'aient pu être mes faiblesses, je suis ce que j'ai cru être. Tu as beau chercher à m'anéantir..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Il y aurait peut-être un moyen de le prouver.",
+    "id": "p-0856",
+    "fr": "EDMÉE : Il y aurait peut-être un moyen de le prouver."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Quoi ?",
+    "id": "p-0857",
+    "fr": "CLAUDE : Quoi ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Que tu es bien celui que tu as cru être.",
+    "id": "p-0858",
+    "fr": "EDMÉE : Que tu es bien celui que tu as cru être."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Pourquoi y a-t-il tant de méchanceté dans tes yeux ? Qu'est-ce que je t'ai fait ?",
+    "id": "p-0859",
+    "fr": "CLAUDE : Pourquoi y a-t-il tant de méchanceté dans tes yeux ? Qu'est-ce que je t'ai fait ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Tu ne m'as rien fait... Tu étais toi, j'étais moi, nous nous sommes épousés, ça suffit. Et quant à ce que tu appelles ma méchanceté, tu sais, vingt ans de souffrance...",
+    "id": "p-0860",
+    "fr": "EDMÉE : Tu ne m'as rien fait... Tu étais toi, j'étais moi, nous nous sommes épousés, ça suffit. Et quant à ce que tu appelles ma méchanceté, tu sais, vingt ans de souffrance..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "De la souffrance ?",
+    "id": "p-0861",
+    "fr": "CLAUDE : De la souffrance ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Je ne savais plus moi-même comme je souffrais, je l'avais oublié. Je ne l'ai su que dans les tout premiers temps, bien avant d'avoir rencontré Michel, quand j'ai compris qu'au fond pour toi, l'amour...",
+    "id": "p-0862",
+    "fr": "EDMÉE : Je ne savais plus moi-même comme je souffrais, je l'avais oublié. Je ne l'ai su que dans les tout premiers temps, bien avant d'avoir rencontré Michel, quand j'ai compris qu'au fond pour toi, l'amour..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Je t'ai aimée même de cette façon-là.",
+    "id": "p-0863",
+    "fr": "CLAUDE : Je t'ai aimée même de cette façon-là."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Non, il y avait en toi une force intacte, tu l'as dépensée avec moi comme avec une fille, mais ce n'était pas de l'amour, ça, tu le sais bien. Et le reste, ton amour pour mon âme... La femme en moi, tu ne l'as pas satisfaite, tu ne l'as même pas soupçonnée.",
+    "id": "p-0864",
+    "fr": "EDMÉE : Non, il y avait en toi une force intacte, tu l'as dépensée avec moi comme avec une fille, mais ce n'était pas de l'amour, ça, tu le sais bien. Et le reste, ton amour pour mon âme... La femme en moi, tu ne l'as pas satisfaite, tu ne l'as même pas soupçonnée."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "La femme en toi ?",
+    "id": "p-0865",
+    "fr": "CLAUDE : La femme en toi ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Oui, tu ne peux pas comprendre. Oh ! ce n'est probablement pas ta faute. Tout ça, c'est la rançon de tes vertus. (Un silence.)",
+    "id": "p-0866",
+    "fr": "EDMÉE : Oui, tu ne peux pas comprendre. Oh ! ce n'est probablement pas ta faute. Tout ça, c'est la rançon de tes vertus. (Un silence.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "[SCÈNE IV]",
+    "id": "p-0867",
+    "fr": "[SCÈNE IV]"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, FRED",
+    "id": "p-0868",
+    "fr": "LES MÊMES, FRED"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRED, entr'ouvrant la porte doucement",
+    "text": "Pardon...",
+    "id": "p-0869",
+    "fr": "FRED, entr'ouvrant la porte doucement : Pardon..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Qu'est-ce que c'est ? à l'avenir il vaudra mieux frapper, voyez-vous.",
+    "id": "p-0870",
+    "fr": "EDMÉE : Qu'est-ce que c'est ? à l'avenir il vaudra mieux frapper, voyez-vous."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRED",
+    "text": "Décidément, il n'entre pas. (Coup d'œil interrogateur de Claude à sa femme.)",
+    "id": "p-0871",
+    "fr": "FRED : Décidément, il n'entre pas. (Coup d'œil interrogateur de Claude à sa femme.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Le tub ?",
+    "id": "p-0872",
+    "fr": "EDMÉE : Le tub ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRED",
+    "text": "Je ne sais pas ce qu'il faut faire, je viens vous demander conseil. J'ai eu pour huit francs d'excédent de bagages à cause de lui, alors c'est ennuyeux ; on pourrait peut-être le vendre ? (A Claude.) Monsieur, j'aurais aussi un conseil à vous demander. Est-ce que ça vaut vraiment la peine de suivre le cours de Bergson ? Il y en a qui disent que c'est épatant... Alors, comme papa m'écrit de profiter le plus possible de mon séjour... Seulement, ce qui m'embarrasse, c'est que justement à cette heure-là il y a un cours d'escrime chez le maître d'armes, là, à côté ; et comme maman me recommande de ne pas négliger les exercices physiques... Monsieur, qu'est-ce que vous croyez ?... est-ce que c'est aussi épatant que ça ?",
+    "id": "p-0873",
+    "fr": "FRED : Je ne sais pas ce qu'il faut faire, je viens vous demander conseil. J'ai eu pour huit francs d'excédent de bagages à cause de lui, alors c'est ennuyeux ; on pourrait peut-être le vendre ? (A Claude.) Monsieur, j'aurais aussi un conseil à vous demander. Est-ce que ça vaut vraiment la peine de suivre le cours de Bergson ? Il y en a qui disent que c'est épatant... Alors, comme papa m'écrit de profiter le plus possible de mon séjour... Seulement, ce qui m'embarrasse, c'est que justement à cette heure-là il y a un cours d'escrime chez le maître d'armes, là, à côté ; et comme maman me recommande de ne pas négliger les exercices physiques... Monsieur, qu'est-ce que vous croyez ?... est-ce que c'est aussi épatant que ça ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Bergson ou l'escrime ?",
+    "id": "p-0874",
+    "fr": "EDMÉE : Bergson ou l'escrime ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRED",
+    "text": "Bergson, Madame ; l'escrime, je sais ce que c'est...",
+    "id": "p-0875",
+    "fr": "FRED : Bergson, Madame ; l'escrime, je sais ce que c'est..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Il est difficile de vous répondre maintenant ; nous sommes occupés en ce moment ; tout à l'heure, n'est-ce pas ?",
+    "id": "p-0876",
+    "fr": "EDMÉE : Il est difficile de vous répondre maintenant ; nous sommes occupés en ce moment ; tout à l'heure, n'est-ce pas ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "FRED",
+    "text": "Je m'excuse. (Il sort.)",
+    "id": "p-0877",
+    "fr": "FRED : Je m'excuse. (Il sort.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "[SCÈNE V]",
+    "id": "p-0878",
+    "fr": "[SCÈNE V]"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Et dans trois ans ce garçon-là sera préposé aux âmes dans un petit coin du Jura.",
+    "id": "p-0879",
+    "fr": "EDMÉE : Et dans trois ans ce garçon-là sera préposé aux âmes dans un petit coin du Jura."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE, d'une voix étranglée",
+    "text": "Que voulais-tu dire tout à l'heure ? Qu'est-ce que c'est que cette preuve ?",
+    "id": "p-0880",
+    "fr": "CLAUDE, d'une voix étranglée : Que voulais-tu dire tout à l'heure ? Qu'est-ce que c'est que cette preuve ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Tu tiens à le savoir ?",
+    "id": "p-0881",
+    "fr": "EDMÉE : Tu tiens à le savoir ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Qu'est-ce que c'est ?",
+    "id": "p-0882",
+    "fr": "CLAUDE : Qu'est-ce que c'est ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Eh bien ! je l'ai revu.",
+    "id": "p-0883",
+    "fr": "EDMÉE : Eh bien ! je l'ai revu."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Tu as été chez lui ?",
+    "id": "p-0884",
+    "fr": "CLAUDE : Tu as été chez lui ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Nous avions rendez-vous à Lutétia, c'est là qu'il habite, nous sommes sortis ensemble ; mais il ne peut presque pas marcher, il est tout de suite fatigué ; nous nous sommes assis sur un banc.",
+    "id": "p-0885",
+    "fr": "EDMÉE : Nous avions rendez-vous à Lutétia, c'est là qu'il habite, nous sommes sortis ensemble ; mais il ne peut presque pas marcher, il est tout de suite fatigué ; nous nous sommes assis sur un banc."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Et alors ?",
+    "id": "p-0886",
+    "fr": "CLAUDE : Et alors ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Il ne m'a plus fait aucun reproche, et c'était encore pire que l'autre jour. Il m'a parlé de sa maladie. Et il m'a surtout questionnée sur Osmonde. Il demande quand il pourra la revoir.",
+    "id": "p-0887",
+    "fr": "EDMÉE : Il ne m'a plus fait aucun reproche, et c'était encore pire que l'autre jour. Il m'a parlé de sa maladie. Et il m'a surtout questionnée sur Osmonde. Il demande quand il pourra la revoir."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE, avec force",
+    "text": "Je ne veux pas qu'il la revoie.",
+    "id": "p-0888",
+    "fr": "CLAUDE, avec force : Je ne veux pas qu'il la revoie."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE, d'un ton ambigu",
+    "text": "A la bonne heure.",
+    "id": "p-0889",
+    "fr": "EDMÉE, d'un ton ambigu : A la bonne heure."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "D'abord sous quel prétexte ? déjà la petite a été intriguée l'autre soir ; il faudrait tout lui dire. C'est impossible. Elle n'y résisterait pas.",
+    "id": "p-0890",
+    "fr": "CLAUDE : D'abord sous quel prétexte ? déjà la petite a été intriguée l'autre soir ; il faudrait tout lui dire. C'est impossible. Elle n'y résisterait pas."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE, comme plus haut",
+    "text": "Tu la crois si fragile ?",
+    "id": "p-0891",
+    "fr": "EDMÉE, comme plus haut : Tu la crois si fragile ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Enfin, toi-même, Edmée, tu peux supporter l'idée que ta fille... te jugerait ?",
+    "id": "p-0892",
+    "fr": "CLAUDE : Enfin, toi-même, Edmée, tu peux supporter l'idée que ta fille... te jugerait ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Alors, c'est à cause de moi ? non, je t'en prie, je ne suis pas dupe de cette comédie.",
+    "id": "p-0893",
+    "fr": "EDMÉE : Alors, c'est à cause de moi ? non, je t'en prie, je ne suis pas dupe de cette comédie."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Je vois ce que tu penses.",
+    "id": "p-0894",
+    "fr": "CLAUDE : Je vois ce que tu penses."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "C'est possible",
+    "id": "p-0895",
+    "fr": "EDMÉE : C'est possible"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Mais c'est faux ; ce n'est pas par lâcheté, c'est parce que je me refuse à la bouleverser inutilement.",
+    "id": "p-0896",
+    "fr": "CLAUDE : Mais c'est faux ; ce n'est pas par lâcheté, c'est parce que je me refuse à la bouleverser inutilement."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Tout est là.",
+    "id": "p-0897",
+    "fr": "EDMÉE : Tout est là."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Inutilement, je le répète, elle ne peut rien, personne ne peut rien pour lui. Il est perdu. C'est un homme perdu.",
+    "id": "p-0898",
+    "fr": "CLAUDE : Inutilement, je le répète, elle ne peut rien, personne ne peut rien pour lui. Il est perdu. C'est un homme perdu."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Je ne sais pas pourquoi tu cries ainsi. Je t'avais demandé de répondre oui ou non... Je constate seulement que le jour où un vrai sacrifice t'aura été demandé...",
+    "id": "p-0899",
+    "fr": "EDMÉE : Je ne sais pas pourquoi tu cries ainsi. Je t'avais demandé de répondre oui ou non... Je constate seulement que le jour où un vrai sacrifice t'aura été demandé..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "C'est faux.",
+    "id": "p-0900",
+    "fr": "CLAUDE : C'est faux."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "J'ai dit un vrai sacrifice.",
+    "id": "p-0901",
+    "fr": "EDMÉE : J'ai dit un vrai sacrifice."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Ce n'est pas parce que c'est un sacrifice.",
+    "id": "p-0902",
+    "fr": "CLAUDE : Ce n'est pas parce que c'est un sacrifice."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Tu auras trouvé des raisons, excellentes du reste, de te refuser à le faire.",
+    "id": "p-0903",
+    "fr": "EDMÉE : Tu auras trouvé des raisons, excellentes du reste, de te refuser à le faire."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VI]",
+    "id": "p-0904",
+    "fr": "[SCÈNE VI]"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, OSMONDE",
+    "id": "p-0905",
+    "fr": "LES MÊMES, OSMONDE"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "(Osmonde entre vivement une lettre à la main.)",
+    "id": "p-0906",
+    "fr": "(Osmonde entre vivement une lettre à la main.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "Papa, c'est à ton insu, j'espère, que cette lettre a été envoyée.",
+    "id": "p-0907",
+    "fr": "OSMONDE : Papa, c'est à ton insu, j'espère, que cette lettre a été envoyée."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Quelle lettre ?",
+    "id": "p-0908",
+    "fr": "CLAUDE : Quelle lettre ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "Lis. (Elle passe la lettre à Claude.)",
+    "id": "p-0909",
+    "fr": "OSMONDE : Lis. (Elle passe la lettre à Claude.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Cet individu t'a communiqué ma lettre ? il est complet.",
+    "id": "p-0910",
+    "fr": "EDMÉE : Cet individu t'a communiqué ma lettre ? il est complet."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE, à son père",
+    "text": "Que dis-tu de ces insinuations ?",
+    "id": "p-0911",
+    "fr": "OSMONDE, à son père : Que dis-tu de ces insinuations ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Écoute, ma chérie, en admettant même que ta mère ait poussé la prudence un peu loin...",
+    "id": "p-0912",
+    "fr": "CLAUDE : Écoute, ma chérie, en admettant même que ta mère ait poussé la prudence un peu loin..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "Il n'y a pas de prudence qui tienne. Qu'est-ce que c'est que cette façon de me protéger comme un objet ?",
+    "id": "p-0913",
+    "fr": "OSMONDE : Il n'y a pas de prudence qui tienne. Qu'est-ce que c'est que cette façon de me protéger comme un objet ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Voyons, il n'y a rien là de blessant ; il est tout naturel qu'à ton âge on n'aperçoive pas certains dangers.",
+    "id": "p-0914",
+    "fr": "CLAUDE : Voyons, il n'y a rien là de blessant ; il est tout naturel qu'à ton âge on n'aperçoive pas certains dangers."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "Quels dangers ? je demande qu'on mette enfin les points sur les i.",
+    "id": "p-0915",
+    "fr": "OSMONDE : Quels dangers ? je demande qu'on mette enfin les points sur les i."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Le père de ces petites filles...",
+    "id": "p-0916",
+    "fr": "CLAUDE : Le père de ces petites filles..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "Vous craignez qu'il n'ait du plaisir à me voir ? Eh bien ! oui, naturellement, il ne me l'a pas caché. D'ailleurs, c'est un veuf.",
+    "id": "p-0917",
+    "fr": "OSMONDE : Vous craignez qu'il n'ait du plaisir à me voir ? Eh bien ! oui, naturellement, il ne me l'a pas caché. D'ailleurs, c'est un veuf."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Osmonde, sa femme vit.",
+    "id": "p-0918",
+    "fr": "CLAUDE : Osmonde, sa femme vit."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "C'est un veuf, et si l'on me pousse à bout...",
+    "id": "p-0919",
+    "fr": "OSMONDE : C'est un veuf, et si l'on me pousse à bout..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "C'est une menace ?",
+    "id": "p-0920",
+    "fr": "EDMÉE : C'est une menace ?"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE, à mi-voix à Edmée",
+    "text": "Laisse-moi un instant avec elle.",
+    "id": "p-0921",
+    "fr": "CLAUDE, à mi-voix à Edmée : Laisse-moi un instant avec elle."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "Papa, dis-lui qu'elle a commis une mauvaise action.",
+    "id": "p-0922",
+    "fr": "OSMONDE : Papa, dis-lui qu'elle a commis une mauvaise action."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "EDMÉE",
+    "text": "Je vois mal l'utilité de ces conversations, mais si ça peut te faire plaisir...",
+    "id": "p-0923",
+    "fr": "EDMÉE : Je vois mal l'utilité de ces conversations, mais si ça peut te faire plaisir..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "Maman a raison, ça ne sert à rien. (Claude s'est approché d'elle et a mis tendrement sa main sur son épaule ; Edmée la regarde avec un mauvais sourire et sort.)",
+    "id": "p-0924",
+    "fr": "OSMONDE : Maman a raison, ça ne sert à rien. (Claude s'est approché d'elle et a mis tendrement sa main sur son épaule ; Edmée la regarde avec un mauvais sourire et sort.)"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VII]",
+    "id": "p-0925",
+    "fr": "[SCÈNE VII]"
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Ma chérie, tu es sur une pente dangereuse.",
+    "id": "p-0926",
+    "fr": "CLAUDE : Ma chérie, tu es sur une pente dangereuse."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "OSMONDE",
+    "text": "Encore ce mot !...",
+    "id": "p-0927",
+    "fr": "OSMONDE : Encore ce mot !..."
+  },
+  {
+    "sec": "act-3",
+    "speaker": "CLAUDE",
+    "text": "Je viens de comprendre à présent ce que signifiaient tes réticences de l'autre jour.",
+    "id": "p-0928",
+    "fr": "CLAUDE : Je viens de comprendre à présent ce que signifiaient tes réticences de l'autre jour."
+  }
+]

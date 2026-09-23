@@ -1,0 +1,1290 @@
+[
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, regardant",
+    "text": "Elles sont excellentes, ces photos.",
+    "id": "p-0593",
+    "fr": "OSMONDE, regardant : Elles sont excellentes, ces photos."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "C'est un bon petit appareil.",
+    "id": "p-0594",
+    "fr": "MICHEL : C'est un bon petit appareil."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Regarde donc, papa ! (Claude regarde par-dessus son épaule.) Quelle lumière transparente ! et ces pins sur le ciel !",
+    "id": "p-0595",
+    "fr": "OSMONDE : Regarde donc, papa ! (Claude regarde par-dessus son épaule.) Quelle lumière transparente ! et ces pins sur le ciel !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Vous aimez les pins ?",
+    "id": "p-0596",
+    "fr": "MICHEL : Vous aimez les pins ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Si je les aime ! papa, tu te rappelles, près du lac Chiberta. Leur ligne, leur odeur, et puis, vous savez la flexion des branches quand il y a du vent...",
+    "id": "p-0597",
+    "fr": "OSMONDE : Si je les aime ! papa, tu te rappelles, près du lac Chiberta. Leur ligne, leur odeur, et puis, vous savez la flexion des branches quand il y a du vent..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL, d'une voix altérée",
+    "text": "J'aime aussi beaucoup tout cela.",
+    "id": "p-0598",
+    "fr": "MICHEL, d'une voix altérée : J'aime aussi beaucoup tout cela."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, brusquement",
+    "text": "Mon Dieu ! mon rendez-vous !",
+    "id": "p-0599",
+    "fr": "CLAUDE, brusquement : Mon Dieu ! mon rendez-vous !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "N'y va donc pas.",
+    "id": "p-0600",
+    "fr": "EDMÉE : N'y va donc pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Forstmeyer rentre exprès pour me voir.",
+    "id": "p-0601",
+    "fr": "CLAUDE : Forstmeyer rentre exprès pour me voir."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu n'en sais rien du tout.",
+    "id": "p-0602",
+    "fr": "EDMÉE : Tu n'en sais rien du tout."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Déjà l'autre fois, j'ai dû lui faire faux bond.",
+    "id": "p-0603",
+    "fr": "CLAUDE : Déjà l'autre fois, j'ai dû lui faire faux bond."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ce n'était pas ta faute.",
+    "id": "p-0604",
+    "fr": "EDMÉE : Ce n'était pas ta faute."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Non, c'est impossible... (Avec gêne, à Michel.) Si vous aviez quelque chose de particulier à me dire, peut-être pourrions-nous descendre ensemble ? (Michel ne répond pas.) Il est vrai que c'est à deux pas, nous n'aurions guère le temps... Je suis désolé. Si j'avais été prévenu plus tôt... (On le sent désemparé.)",
+    "id": "p-0605",
+    "fr": "CLAUDE : Non, c'est impossible... (Avec gêne, à Michel.) Si vous aviez quelque chose de particulier à me dire, peut-être pourrions-nous descendre ensemble ? (Michel ne répond pas.) Il est vrai que c'est à deux pas, nous n'aurions guère le temps... Je suis désolé. Si j'avais été prévenu plus tôt... (On le sent désemparé.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL, qui s'est levé",
+    "text": "Peut-être pourrons-nous convenir d'un autre rendez-vous.",
+    "id": "p-0606",
+    "fr": "MICHEL, qui s'est levé : Peut-être pourrons-nous convenir d'un autre rendez-vous."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mais si vous repartez demain ?",
+    "id": "p-0607",
+    "fr": "CLAUDE : Mais si vous repartez demain ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Ce n'est pas encore décidé.",
+    "id": "p-0608",
+    "fr": "MICHEL : Ce n'est pas encore décidé."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Alors... Vous arrangerez cela avec ma femme... Au revoir, et pardon de vous quitter ainsi... (Il sort.)",
+    "id": "p-0609",
+    "fr": "CLAUDE : Alors... Vous arrangerez cela avec ma femme... Au revoir, et pardon de vous quitter ainsi... (Il sort.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE IV]",
+    "id": "p-0610",
+    "fr": "[SCÈNE IV]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Je vois que Monsieur Lemoyne est excessivement occupé",
+    "id": "p-0611",
+    "fr": "MICHEL : Je vois que Monsieur Lemoyne est excessivement occupé"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Mon père est trop consciencieux. (Elle tend la main à Michel.) Bonsoir, Monsieur.",
+    "id": "p-0612",
+    "fr": "OSMONDE : Mon père est trop consciencieux. (Elle tend la main à Michel.) Bonsoir, Monsieur."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Au revoir, Mademoiselle, très heureux d'avoir renoué connaissance. (Osmonde sort, Michel la suit des yeux. Un silence.)",
+    "id": "p-0613",
+    "fr": "MICHEL : Au revoir, Mademoiselle, très heureux d'avoir renoué connaissance. (Osmonde sort, Michel la suit des yeux. Un silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, à mi-voix",
+    "text": "Pourquoi avez-vous fait cela ? (Geste vague de Michel.) S'il n'avait tenu qu'à moi, on ne vous aurait pas reçu.",
+    "id": "p-0614",
+    "fr": "EDMÉE, à mi-voix : Pourquoi avez-vous fait cela ? (Geste vague de Michel.) S'il n'avait tenu qu'à moi, on ne vous aurait pas reçu."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Ah !",
+    "id": "p-0615",
+    "fr": "MICHEL : Ah !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Maintenant, je vous en supplie, partez !",
+    "id": "p-0616",
+    "fr": "EDMÉE : Maintenant, je vous en supplie, partez !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Pourquoi ?",
+    "id": "p-0617",
+    "fr": "MICHEL : Pourquoi ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "D'abord à cause de la petite... et puis... je ne peux pas vous voir.",
+    "id": "p-0618",
+    "fr": "EDMÉE : D'abord à cause de la petite... et puis... je ne peux pas vous voir."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Est-ce que c'est parce que je n'ai pas assez changé, ou au contraire...? Naturellement, vous savez où j'en suis. Du reste, autrement, je suppose qu'il n'aurait pas toléré... Mais au point où en sont les choses, c'était presque une obligation professionnelle.",
+    "id": "p-0619",
+    "fr": "MICHEL : Est-ce que c'est parce que je n'ai pas assez changé, ou au contraire...? Naturellement, vous savez où j'en suis. Du reste, autrement, je suppose qu'il n'aurait pas toléré... Mais au point où en sont les choses, c'était presque une obligation professionnelle."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ah ! taisez-vous.",
+    "id": "p-0620",
+    "fr": "EDMÉE : Ah ! taisez-vous."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Très chic, décidément, votre mari, à tous les points de vue. Il représente bien... Il a le regard de l'emploi... Vous dites que vous ne pouvez pas me voir. Eh bien ! moi, c'est très curieux, ça ne me fait rien du tout de me retrouver près de vous, mais ce qui s'appelle rien. Tous ces littérateurs ont beau dire, allez, il y a des parties de nous-mêmes qui sont comme de la peau morte, on pourrait tailler dedans... ça ne saignerait pas. Du reste, j'ai fait dernièrement une expérience curieuse. En ouvrant le journal, je vois : « On annonce la mort de Madame Claude Lemoyne »... un homonyme. Eh bien, je ne puis pas dire... Allez, c'est si loin ; ce n'est pas à nous que c'est arrivé.",
+    "id": "p-0621",
+    "fr": "MICHEL : Très chic, décidément, votre mari, à tous les points de vue. Il représente bien... Il a le regard de l'emploi... Vous dites que vous ne pouvez pas me voir. Eh bien ! moi, c'est très curieux, ça ne me fait rien du tout de me retrouver près de vous, mais ce qui s'appelle rien. Tous ces littérateurs ont beau dire, allez, il y a des parties de nous-mêmes qui sont comme de la peau morte, on pourrait tailler dedans... ça ne saignerait pas. Du reste, j'ai fait dernièrement une expérience curieuse. En ouvrant le journal, je vois : « On annonce la mort de Madame Claude Lemoyne »... un homonyme. Eh bien, je ne puis pas dire... Allez, c'est si loin ; ce n'est pas à nous que c'est arrivé."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, les yeux fixes",
+    "text": "C'est commode.",
+    "id": "p-0622",
+    "fr": "EDMÉE, les yeux fixes : C'est commode."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Je présume que nous mourons tout entiers, mais nous vivons par morceaux.",
+    "id": "p-0623",
+    "fr": "MICHEL : Je présume que nous mourons tout entiers, mais nous vivons par morceaux."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, amèrement",
+    "text": "C'est peut-être vrai pour les hommes. Moi je suis la même.",
+    "id": "p-0624",
+    "fr": "EDMÉE, amèrement : C'est peut-être vrai pour les hommes. Moi je suis la même."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Vous croyez ?",
+    "id": "p-0625",
+    "fr": "MICHEL : Vous croyez ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "La même exactement.",
+    "id": "p-0626",
+    "fr": "EDMÉE : La même exactement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Et ça veut dire ?",
+    "id": "p-0627",
+    "fr": "MICHEL : Et ça veut dire ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Oh ! n'en concluez rien. Je suppose que je n'ai jamais aimé personne.",
+    "id": "p-0628",
+    "fr": "EDMÉE : Oh ! n'en concluez rien. Je suppose que je n'ai jamais aimé personne."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Il y a longtemps que je suis moi-même arrivé à cette conclusion ; vous n'avez jamais aimé personne, et c'est peut-être pour ça que...",
+    "id": "p-0629",
+    "fr": "MICHEL : Il y a longtemps que je suis moi-même arrivé à cette conclusion ; vous n'avez jamais aimé personne, et c'est peut-être pour ça que..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Que l'annonce de ma mort ne vous a pas seulement fait tressaillir. (Geste de Michel.)",
+    "id": "p-0630",
+    "fr": "EDMÉE : Que l'annonce de ma mort ne vous a pas seulement fait tressaillir. (Geste de Michel.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Ces temps-ci... enfin depuis que je suis tout à fait fixé sur ce qui m'attend... j'ai passé en revue bien des visages ; il y avait le vôtre.",
+    "id": "p-0631",
+    "fr": "MICHEL : Ces temps-ci... enfin depuis que je suis tout à fait fixé sur ce qui m'attend... j'ai passé en revue bien des visages ; il y avait le vôtre."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Parmi beaucoup d'autres.",
+    "id": "p-0632",
+    "fr": "EDMÉE : Parmi beaucoup d'autres."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Je n'ai pas compté... Un visage froid, crispé, sans pitié. Ce n'était pas non plus un visage courageux, les yeux regardaient par terre. Ils étaient mornes. Oh, je suppose qu'ils ont brillé quelquefois, mais je ne m'en souviens pas.",
+    "id": "p-0633",
+    "fr": "MICHEL : Je n'ai pas compté... Un visage froid, crispé, sans pitié. Ce n'était pas non plus un visage courageux, les yeux regardaient par terre. Ils étaient mornes. Oh, je suppose qu'ils ont brillé quelquefois, mais je ne m'en souviens pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Et comme il n'y a que le souvenir qui soit vrai...",
+    "id": "p-0634",
+    "fr": "EDMÉE : Et comme il n'y a que le souvenir qui soit vrai..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Justement. (Un silence.)",
+    "id": "p-0635",
+    "fr": "MICHEL : Justement. (Un silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Alors, moi, j'aurais dû avoir pitié de vous ? non, ça, c'est extraordinaire.",
+    "id": "p-0636",
+    "fr": "EDMÉE : Alors, moi, j'aurais dû avoir pitié de vous ? non, ça, c'est extraordinaire."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Mais comme ce n'est pas à nous que c'est arrivé, est-ce que vous ne croyez pas qu'il est inutile d'évoquer cette histoire ? Si vous saviez comme elle est dépouillée pour moi de toute parure. Je revois... mettons cette idylle... dans une lumière blafarde...",
+    "id": "p-0637",
+    "fr": "MICHEL : Mais comme ce n'est pas à nous que c'est arrivé, est-ce que vous ne croyez pas qu'il est inutile d'évoquer cette histoire ? Si vous saviez comme elle est dépouillée pour moi de toute parure. Je revois... mettons cette idylle... dans une lumière blafarde..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ce n'était pas celle de Saint-Loup.",
+    "id": "p-0638",
+    "fr": "EDMÉE : Ce n'était pas celle de Saint-Loup."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "C'est possible.",
+    "id": "p-0639",
+    "fr": "MICHEL : C'est possible."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Qu'après vingt ans il vous reste contre moi... cette hostilité ! Pourquoi riez-vous ?",
+    "id": "p-0640",
+    "fr": "EDMÉE : Qu'après vingt ans il vous reste contre moi... cette hostilité ! Pourquoi riez-vous ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Parce que c'est un mot qui convient tellement mal. Vous ne voulez pas me croire quand je vous dis que maintenant... Mais je vous en ai voulu, oh ! ça, mortellement.",
+    "id": "p-0641",
+    "fr": "MICHEL : Parce que c'est un mot qui convient tellement mal. Vous ne voulez pas me croire quand je vous dis que maintenant... Mais je vous en ai voulu, oh ! ça, mortellement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Vous m'aimiez donc ?",
+    "id": "p-0642",
+    "fr": "EDMÉE : Vous m'aimiez donc ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Un lambeau de moi vous a aimée, mais puisqu'il est mort...",
+    "id": "p-0643",
+    "fr": "MICHEL : Un lambeau de moi vous a aimée, mais puisqu'il est mort..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ce sont des mots.",
+    "id": "p-0644",
+    "fr": "EDMÉE : Ce sont des mots."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Si vous saviez comme ce qui vit encore en moi est peu de chose... il n'y a pas même de quoi pleurer sur le reste.",
+    "id": "p-0645",
+    "fr": "MICHEL : Si vous saviez comme ce qui vit encore en moi est peu de chose... il n'y a pas même de quoi pleurer sur le reste."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, d'une voix tremblante",
+    "text": "Je ne comprends pas ce que vous me reprochez. Mon Dieu ! après vingt ans, vous me torturez encore...",
+    "id": "p-0646",
+    "fr": "EDMÉE, d'une voix tremblante : Je ne comprends pas ce que vous me reprochez. Mon Dieu ! après vingt ans, vous me torturez encore..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Je vous torture ? Vous aviez raison tout à l'heure ; vous êtes restée la même... Je me rappelle cette façon que vous aviez de me reprocher les mots que vous veniez de m'arracher. D'ailleurs, les autres femmes, c'était pareil.",
+    "id": "p-0647",
+    "fr": "MICHEL : Je vous torture ? Vous aviez raison tout à l'heure ; vous êtes restée la même... Je me rappelle cette façon que vous aviez de me reprocher les mots que vous veniez de m'arracher. D'ailleurs, les autres femmes, c'était pareil."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Même dans ce temps-là, il y avait les autres femmes.",
+    "id": "p-0648",
+    "fr": "EDMÉE : Même dans ce temps-là, il y avait les autres femmes."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Il vous a plu de le croire, et je me ferais un scrupule de vous détromper.",
+    "id": "p-0649",
+    "fr": "MICHEL : Il vous a plu de le croire, et je me ferais un scrupule de vous détromper."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Je ne comprends pas.",
+    "id": "p-0650",
+    "fr": "EDMÉE : Je ne comprends pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Cette scène de jalousie que vous m'avez faite dans la petite gare où nous grelottions ; un soir au retour de Valence... (Il hoche la tête avec un sourire.)",
+    "id": "p-0651",
+    "fr": "MICHEL : Cette scène de jalousie que vous m'avez faite dans la petite gare où nous grelottions ; un soir au retour de Valence... (Il hoche la tête avec un sourire.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Vous voulez dire que je n'étais pas sincère ?",
+    "id": "p-0652",
+    "fr": "EDMÉE : Vous voulez dire que je n'étais pas sincère ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Toutes les femmes sont sincères ; toutes les femmes sont de mauvaise foi.",
+    "id": "p-0653",
+    "fr": "MICHEL : Toutes les femmes sont sincères ; toutes les femmes sont de mauvaise foi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "On sent une riche expérience.",
+    "id": "p-0654",
+    "fr": "EDMÉE : On sent une riche expérience."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "J'ai le regret de vous dire que depuis notre rupture, je ne vous suis pas resté fidèle.",
+    "id": "p-0655",
+    "fr": "MICHEL : J'ai le regret de vous dire que depuis notre rupture, je ne vous suis pas resté fidèle."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Du reste, vous ne m'avez pas caché vos intentions. Votre lettre...",
+    "id": "p-0656",
+    "fr": "EDMÉE : Du reste, vous ne m'avez pas caché vos intentions. Votre lettre..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Ma réponse. J'avais cru comprendre que vous me rendiez ma liberté.",
+    "id": "p-0657",
+    "fr": "MICHEL : Ma réponse. J'avais cru comprendre que vous me rendiez ma liberté."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Vous avez su en faire le plus large usage.",
+    "id": "p-0658",
+    "fr": "EDMÉE : Vous avez su en faire le plus large usage."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Le plus large.",
+    "id": "p-0659",
+    "fr": "MICHEL : Le plus large."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Comme je vous retrouve !",
+    "id": "p-0660",
+    "fr": "EDMÉE : Comme je vous retrouve !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "J'en ai usé si largement, de cette liberté que vous m'avez rendue... eh bien, que j'en meurs, voilà, c'est très simple. Et vous pouvez constater qu'il n'y a pas le moindre trémolo dans ma voix.",
+    "id": "p-0661",
+    "fr": "MICHEL : J'en ai usé si largement, de cette liberté que vous m'avez rendue... eh bien, que j'en meurs, voilà, c'est très simple. Et vous pouvez constater qu'il n'y a pas le moindre trémolo dans ma voix."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ma lettre pouvait vous meurtrir, elle ne contenait pas un mot qui dût vous ulcérer.",
+    "id": "p-0662",
+    "fr": "EDMÉE : Ma lettre pouvait vous meurtrir, elle ne contenait pas un mot qui dût vous ulcérer."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "La façon dont vous aviez été révéler notre liaison à votre mari, et ensuite ce lâche besoin de replâtrage...",
+    "id": "p-0663",
+    "fr": "MICHEL : La façon dont vous aviez été révéler notre liaison à votre mari, et ensuite ce lâche besoin de replâtrage..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Pourquoi lâche ? Il y avait un risque.",
+    "id": "p-0664",
+    "fr": "EDMÉE : Pourquoi lâche ? Il y avait un risque."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Il n'y en avait aucun, et vous le saviez ; que diable ? Je me rappelle ce que vous disiez de votre mari. Non, vous avez tout mis en balance, et vous avez estimé que le confort moral, la sécurité, la paix de l'âme, que sais-je...",
+    "id": "p-0665",
+    "fr": "MICHEL : Il n'y en avait aucun, et vous le saviez ; que diable ? Je me rappelle ce que vous disiez de votre mari. Non, vous avez tout mis en balance, et vous avez estimé que le confort moral, la sécurité, la paix de l'âme, que sais-je..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Je n'ai rien pesé. Brusquement cette vie de mensonge m'a fait horreur.",
+    "id": "p-0666",
+    "fr": "EDMÉE : Je n'ai rien pesé. Brusquement cette vie de mensonge m'a fait horreur."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Comme ça, tout d'un coup ?...",
+    "id": "p-0667",
+    "fr": "MICHEL : Comme ça, tout d'un coup ?..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "D'ailleurs si vous aviez voulu...",
+    "id": "p-0668",
+    "fr": "EDMÉE : D'ailleurs si vous aviez voulu..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Comment ?",
+    "id": "p-0669",
+    "fr": "MICHEL : Comment ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Si vous m'aviez proposé de m'emmener avec vous, j'y aurais consenti.",
+    "id": "p-0670",
+    "fr": "EDMÉE : Si vous m'aviez proposé de m'emmener avec vous, j'y aurais consenti."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Pourtant, je vous l'ai offert, et vous avez refusé.",
+    "id": "p-0671",
+    "fr": "MICHEL : Pourtant, je vous l'ai offert, et vous avez refusé."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Je vous sentais hésitant ; si vous aviez insisté...",
+    "id": "p-0672",
+    "fr": "EDMÉE : Je vous sentais hésitant ; si vous aviez insisté..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Est-ce que vous ne trouvez pas que c'est lamentable et même à peu près grotesque, cette discussion sur nos jeunes amours ? Moi, d'ici trois mois, je serai au Père- Lachaise... et vous ! eh bien, mon Dieu, vous pourriez déjà être grand'mère. Alors vraiment, je me demande...",
+    "id": "p-0673",
+    "fr": "MICHEL : Est-ce que vous ne trouvez pas que c'est lamentable et même à peu près grotesque, cette discussion sur nos jeunes amours ? Moi, d'ici trois mois, je serai au Père- Lachaise... et vous ! eh bien, mon Dieu, vous pourriez déjà être grand'mère. Alors vraiment, je me demande..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tout à l'heure, quand vous avez dit...",
+    "id": "p-0674",
+    "fr": "EDMÉE : Tout à l'heure, quand vous avez dit..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Quoi ?",
+    "id": "p-0675",
+    "fr": "MICHEL : Quoi ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Je ne veux pas répéter... cette phrase à propos de votre liberté... C'était comme si vous me rendiez responsable de ce qui vous arrive...",
+    "id": "p-0676",
+    "fr": "EDMÉE : Je ne veux pas répéter... cette phrase à propos de votre liberté... C'était comme si vous me rendiez responsable de ce qui vous arrive..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Quelle folie !",
+    "id": "p-0677",
+    "fr": "MICHEL : Quelle folie !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Si, si, vous avez dit cela d'un ton que je connais bien... Ce n'était pas sérieux ? dites-moi que ce n'était pas sérieux ? C'est comme si vous m'aviez injecté du poison... c'est épouvantable... Mais d'abord si vous aviez réellement tenu à moi, vous ne m'auriez pas fait cette offre une seule fois, dans un moment d'exaltation... vous m'en auriez reparlé.",
+    "id": "p-0678",
+    "fr": "EDMÉE : Si, si, vous avez dit cela d'un ton que je connais bien... Ce n'était pas sérieux ? dites-moi que ce n'était pas sérieux ? C'est comme si vous m'aviez injecté du poison... c'est épouvantable... Mais d'abord si vous aviez réellement tenu à moi, vous ne m'auriez pas fait cette offre une seule fois, dans un moment d'exaltation... vous m'en auriez reparlé."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL, la regardant fixement",
+    "text": "Êtes-vous sûre que ce n'est pas parce que vous saviez que je vous en reparlerais et parce que vous aviez peur...",
+    "id": "p-0679",
+    "fr": "MICHEL, la regardant fixement : Êtes-vous sûre que ce n'est pas parce que vous saviez que je vous en reparlerais et parce que vous aviez peur..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Eh bien ?",
+    "id": "p-0680",
+    "fr": "EDMÉE : Eh bien ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Que vous lui avez tout dit. C'était comme si vous vous hâtiez d'élever un mur entre nous.",
+    "id": "p-0681",
+    "fr": "MICHEL : Que vous lui avez tout dit. C'était comme si vous vous hâtiez d'élever un mur entre nous."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Je ne comprends pas.",
+    "id": "p-0682",
+    "fr": "EDMÉE : Je ne comprends pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Sa mansuétude, sa générosité, que vous escomptiez...",
+    "id": "p-0683",
+    "fr": "MICHEL : Sa mansuétude, sa générosité, que vous escomptiez..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Comment les aurais-je escomptées ?",
+    "id": "p-0684",
+    "fr": "EDMÉE : Comment les aurais-je escomptées ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "... que vous escomptiez, rendaient votre départ impossible. Vous parliez de risque : mais le seul vrai risque, vous avez été bien trop lâche pour le courir. Vous avez choisi le chemin le plus facile, celui de l'aveu. Vous ne protestez même pas. C'est que ça crève les yeux. Oh ! je vous répète que je ne vous en veux plus. Il y a bien trop longtemps que... Ah ! du reste, l'amour... (Il a un geste de dégoût.) Avant de m'en aller, il me faudrait quelque chose de moins usé, de moins gâché. (Il regarde le côté par où est sortie Osmonde, Edmée l'observe avec inquiétude.) Et puis...",
+    "id": "p-0685",
+    "fr": "MICHEL : ... que vous escomptiez, rendaient votre départ impossible. Vous parliez de risque : mais le seul vrai risque, vous avez été bien trop lâche pour le courir. Vous avez choisi le chemin le plus facile, celui de l'aveu. Vous ne protestez même pas. C'est que ça crève les yeux. Oh ! je vous répète que je ne vous en veux plus. Il y a bien trop longtemps que... Ah ! du reste, l'amour... (Il a un geste de dégoût.) Avant de m'en aller, il me faudrait quelque chose de moins usé, de moins gâché. (Il regarde le côté par où est sortie Osmonde, Edmée l'observe avec inquiétude.) Et puis..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Vous n'avez pas répondu à ma question, tout à l'heure... Quand je vais me retrouver seule avec cette idée-là, mais ce sera affreux.",
+    "id": "p-0686",
+    "fr": "EDMÉE : Vous n'avez pas répondu à ma question, tout à l'heure... Quand je vais me retrouver seule avec cette idée-là, mais ce sera affreux."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Quelle idée ?",
+    "id": "p-0687",
+    "fr": "MICHEL : Quelle idée ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, se cachant la tête dans ses mains",
+    "text": "L'idée que c'est un peu de ma faute.",
+    "id": "p-0688",
+    "fr": "EDMÉE, se cachant la tête dans ses mains : L'idée que c'est un peu de ma faute."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Je vois, vous tiendriez beaucoup à ce que je vous délivre un certificat. Eh bien ! je regrette beaucoup, mais je ne peux pas... D'abord vous avez par trop manqué d'imagination. Vous ne vous êtes pas doutée que je vous aimais. Oh ! il faut entendre ce mot-là sans trembler ; d'abord parce que c'est rudement loin, tout ça, hein ! et puis parce que ça ressemble un peu trop à une sale maladie. Mais enfin si vous aviez eu un peu plus de cran et un peu moins de vertu, eh bien ! à nous deux nous aurions peut-être pu avoir une vie, tandis que, dame ! après votre confession... vous, je suppose que vous vous êtes endormie... et moi j'ai roulé. Il suffit de me regarder. Ce sont des choses qui ne se racontent pas. (Il s'est levé.) Maintenant écoutez, j'ai vu à l'instant que vous aviez compris à demi-mot. Il faut me laisser voir cette petite de temps en temps. Oh ! faites-moi l'honneur de ne pas aller me prêter je ne sais quel sentimentalisme. Non, mais elle m'intrigue, c'est une idée qui me distrait, voilà. Et c'est difficile, au point où j'en suis, de trouver des idées qui occupent un peu l'esprit, enfin des idées qui ne soient pas...",
+    "id": "p-0689",
+    "fr": "MICHEL : Je vois, vous tiendriez beaucoup à ce que je vous délivre un certificat. Eh bien ! je regrette beaucoup, mais je ne peux pas... D'abord vous avez par trop manqué d'imagination. Vous ne vous êtes pas doutée que je vous aimais. Oh ! il faut entendre ce mot-là sans trembler ; d'abord parce que c'est rudement loin, tout ça, hein ! et puis parce que ça ressemble un peu trop à une sale maladie. Mais enfin si vous aviez eu un peu plus de cran et un peu moins de vertu, eh bien ! à nous deux nous aurions peut-être pu avoir une vie, tandis que, dame ! après votre confession... vous, je suppose que vous vous êtes endormie... et moi j'ai roulé. Il suffit de me regarder. Ce sont des choses qui ne se racontent pas. (Il s'est levé.) Maintenant écoutez, j'ai vu à l'instant que vous aviez compris à demi-mot. Il faut me laisser voir cette petite de temps en temps. Oh ! faites-moi l'honneur de ne pas aller me prêter je ne sais quel sentimentalisme. Non, mais elle m'intrigue, c'est une idée qui me distrait, voilà. Et c'est difficile, au point où j'en suis, de trouver des idées qui occupent un peu l'esprit, enfin des idées qui ne soient pas..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Vous savez bien que c'est impossible. Sous quel prétexte ? Comment lui expliquer ?",
+    "id": "p-0690",
+    "fr": "EDMÉE : Vous savez bien que c'est impossible. Sous quel prétexte ? Comment lui expliquer ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Oh ! vous lui direz n'importe quoi ; voulez-vous que je lui donne des leçons de piano ? Enfin, vous chercherez, et vous trouverez. Au revoir. C'est par ici, et à gauche, n'est-ce pas ? (Il sort, Edmée ne le reconduit pas.)",
+    "id": "p-0691",
+    "fr": "MICHEL : Oh ! vous lui direz n'importe quoi ; voulez-vous que je lui donne des leçons de piano ? Enfin, vous chercherez, et vous trouverez. Au revoir. C'est par ici, et à gauche, n'est-ce pas ? (Il sort, Edmée ne le reconduit pas.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE V]",
+    "id": "p-0692",
+    "fr": "[SCÈNE V]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, puis OSMONDE",
+    "text": "(Edmée est en proie à une grande agitation intérieure ; elle s'assied, prend un livre, le dépose sur la table, se lève et va à la porte du fond qu'elle entr'ouvre.)",
+    "id": "p-0693",
+    "fr": "EDMÉE, puis OSMONDE : (Edmée est en proie à une grande agitation intérieure ; elle s'assied, prend un livre, le dépose sur la table, se lève et va à la porte du fond qu'elle entr'ouvre.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, à Osmonde",
+    "text": "Je te croyais couchée. A qui écris-tu ? viens un moment, s'il te plaît. (Osmonde entre, elle est en peignoir.)",
+    "id": "p-0694",
+    "fr": "EDMÉE, à Osmonde : Je te croyais couchée. A qui écris-tu ? viens un moment, s'il te plaît. (Osmonde entre, elle est en peignoir.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Il me paraît inutile d'entamer une discussion.",
+    "id": "p-0695",
+    "fr": "OSMONDE : Il me paraît inutile d'entamer une discussion."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Telle n'est pas non plus mon intention. Tu es encore montée là-haut tout à l'heure à notre insu ?",
+    "id": "p-0696",
+    "fr": "EDMÉE : Telle n'est pas non plus mon intention. Tu es encore montée là-haut tout à l'heure à notre insu ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Je n'en ai pas fait mystère. Qui est ce monsieur qui sort d'ici ? pourquoi ne m'en avez-vous jamais parlé ?",
+    "id": "p-0697",
+    "fr": "OSMONDE : Je n'en ai pas fait mystère. Qui est ce monsieur qui sort d'ici ? pourquoi ne m'en avez-vous jamais parlé ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "C'est quelqu'un que nous avions complètement perdu de vue.",
+    "id": "p-0698",
+    "fr": "EDMÉE : C'est quelqu'un que nous avions complètement perdu de vue."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Mais quelle idée de venir chez les gens à une heure pareille !",
+    "id": "p-0699",
+    "fr": "OSMONDE : Mais quelle idée de venir chez les gens à une heure pareille !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Il est à croire que c'était le seul moment où il pût se rendre libre...",
+    "id": "p-0700",
+    "fr": "EDMÉE : Il est à croire que c'était le seul moment où il pût se rendre libre..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Bien extraordinaire. Papa était tout pâle.",
+    "id": "p-0701",
+    "fr": "OSMONDE : Bien extraordinaire. Papa était tout pâle."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Il est un peu souffrant ce soir.",
+    "id": "p-0702",
+    "fr": "EDMÉE : Il est un peu souffrant ce soir."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Alors comment l'as-tu laissé sortir ?",
+    "id": "p-0703",
+    "fr": "OSMONDE : Alors comment l'as-tu laissé sortir ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu sais bien que ton père n'en fait qu'à sa tête. Mais ce n'est pas de cela qu'il s'agit. Je désire régler une fois pour toutes la question Mégal.",
+    "id": "p-0704",
+    "fr": "EDMÉE : Tu sais bien que ton père n'en fait qu'à sa tête. Mais ce n'est pas de cela qu'il s'agit. Je désire régler une fois pour toutes la question Mégal."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Il n'y a pas de question Mégal.",
+    "id": "p-0705",
+    "fr": "OSMONDE : Il n'y a pas de question Mégal."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Oh ! mais n'ergotons pas, n'est-ce pas ? Je ne vois aucune objection à ce que ces petites viennent ici de temps à autre, mais je m'oppose à ce que tu montes là-haut.",
+    "id": "p-0706",
+    "fr": "EDMÉE : Oh ! mais n'ergotons pas, n'est-ce pas ? Je ne vois aucune objection à ce que ces petites viennent ici de temps à autre, mais je m'oppose à ce que tu montes là-haut."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "En somme tu te méfies de moi, tu ne comprends pas que si ce danger existait, tes soupçons ne feraient que l'aggraver.",
+    "id": "p-0707",
+    "fr": "OSMONDE : En somme tu te méfies de moi, tu ne comprends pas que si ce danger existait, tes soupçons ne feraient que l'aggraver."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Qui parle de danger ? Tu as une attitude que je considère comme inconvenante, voilà tout.",
+    "id": "p-0708",
+    "fr": "EDMÉE : Qui parle de danger ? Tu as une attitude que je considère comme inconvenante, voilà tout."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Et papa, qu'est-ce qu'il en pense ?",
+    "id": "p-0709",
+    "fr": "OSMONDE : Et papa, qu'est-ce qu'il en pense ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ton père ne se rend pas compte...",
+    "id": "p-0710",
+    "fr": "EDMÉE : Ton père ne se rend pas compte..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "C'est-à-dire qu'il n'a pas le même parti-pris que toi.",
+    "id": "p-0711",
+    "fr": "OSMONDE : C'est-à-dire qu'il n'a pas le même parti-pris que toi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Quel parti-pris, s'il te plaît ?",
+    "id": "p-0712",
+    "fr": "EDMÉE : Quel parti-pris, s'il te plaît ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Celui de me diminuer, de me blesser, de me... Encore tout à l'heure en présence de ce monsieur, tu m'as tournée en ridicule.",
+    "id": "p-0713",
+    "fr": "OSMONDE : Celui de me diminuer, de me blesser, de me... Encore tout à l'heure en présence de ce monsieur, tu m'as tournée en ridicule."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Quand on est aussi préoccupé de soi, on ne voit partout qu'offenses et mauvais procédés, c'est certain. Si tu consacrais aux autres le dixième de l'attention que tu accordes à ta précieuse personne...",
+    "id": "p-0714",
+    "fr": "EDMÉE : Quand on est aussi préoccupé de soi, on ne voit partout qu'offenses et mauvais procédés, c'est certain. Si tu consacrais aux autres le dixième de l'attention que tu accordes à ta précieuse personne..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Maman, je ne suis pas égoïste.",
+    "id": "p-0715",
+    "fr": "OSMONDE : Maman, je ne suis pas égoïste."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "C'est la première nouvelle.",
+    "id": "p-0716",
+    "fr": "EDMÉE : C'est la première nouvelle."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Je le suis moins que toi. Tu ne mets ton cœur dans rien de ce que tu fais. Et il n'y a que ça qui compte. Ce n'est pas le fait d'assister à des comités, de diriger un ouvroir ou de tricoter des chaussettes qui prouve qu'on est bon. Tu n'es pas bonne, tu n'es pas meilleure que moi. Il n'y a qu'à te regarder quand tu parles à un malade ; tu ne souris jamais. Toute la peine que tu te donnes c'est... c'est...",
+    "id": "p-0717",
+    "fr": "OSMONDE : Je le suis moins que toi. Tu ne mets ton cœur dans rien de ce que tu fais. Et il n'y a que ça qui compte. Ce n'est pas le fait d'assister à des comités, de diriger un ouvroir ou de tricoter des chaussettes qui prouve qu'on est bon. Tu n'es pas bonne, tu n'es pas meilleure que moi. Il n'y a qu'à te regarder quand tu parles à un malade ; tu ne souris jamais. Toute la peine que tu te donnes c'est... c'est..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Va toujours.",
+    "id": "p-0718",
+    "fr": "EDMÉE : Va toujours."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VI]",
+    "id": "p-0719",
+    "fr": "[SCÈNE VI]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, CLAUDE",
+    "id": "p-0720",
+    "fr": "LES MÊMES, CLAUDE"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, à Osmonde",
+    "text": "Tu es encore là ? Écoute, ma chérie, tu serais gentille de me préparer une tasse de thé ; je suis transi... On gelait chez Forstmeyer...",
+    "id": "p-0721",
+    "fr": "CLAUDE, à Osmonde : Tu es encore là ? Écoute, ma chérie, tu serais gentille de me préparer une tasse de thé ; je suis transi... On gelait chez Forstmeyer..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Et je suppose que vous n'êtes arrivés à rien.",
+    "id": "p-0722",
+    "fr": "EDMÉE : Et je suppose que vous n'êtes arrivés à rien."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "On a parlé.",
+    "id": "p-0723",
+    "fr": "CLAUDE : On a parlé."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "C'est bien ça... (A Osmonde.) Prends la lampe à esprit de vin, n'est-ce pas ? (Osmonde sort.)",
+    "id": "p-0724",
+    "fr": "EDMÉE : C'est bien ça... (A Osmonde.) Prends la lampe à esprit de vin, n'est-ce pas ? (Osmonde sort.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, à Edmée",
+    "text": "Il est encore resté longtemps après mon départ ?",
+    "id": "p-0725",
+    "fr": "CLAUDE, à Edmée : Il est encore resté longtemps après mon départ ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Quelques minutes. (Un silence.)",
+    "id": "p-0726",
+    "fr": "EDMÉE : Quelques minutes. (Un silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Et Osmonde était là tout le temps ?",
+    "id": "p-0727",
+    "fr": "CLAUDE : Et Osmonde était là tout le temps ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Non.",
+    "id": "p-0728",
+    "fr": "EDMÉE : Non."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Je crois que si j'avais prévu ce que ce serait...",
+    "id": "p-0729",
+    "fr": "CLAUDE : Je crois que si j'avais prévu ce que ce serait..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu vois, j'avais raison.",
+    "id": "p-0730",
+    "fr": "EDMÉE : Tu vois, j'avais raison."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Non, ç'aurait été une lâcheté. Mais quand il a parlé de Saint-Loup... et puis, je ne sais pas, cet air cynique, dégoûté de tout...",
+    "id": "p-0731",
+    "fr": "CLAUDE : Non, ç'aurait été une lâcheté. Mais quand il a parlé de Saint-Loup... et puis, je ne sais pas, cet air cynique, dégoûté de tout..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Il est très malade.",
+    "id": "p-0732",
+    "fr": "EDMÉE : Il est très malade."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Oui, j'étais obligé de me répéter tout le temps que c'est un malheureux.",
+    "id": "p-0733",
+    "fr": "CLAUDE : Oui, j'étais obligé de me répéter tout le temps que c'est un malheureux."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "C'est vrai ?",
+    "id": "p-0734",
+    "fr": "EDMÉE : C'est vrai ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Autrement je crois que je lui aurais dit de sortir. Sa façon de regarder la petite... tu as remarqué... c'est surtout ça que je ne pouvais pas supporter.",
+    "id": "p-0735",
+    "fr": "CLAUDE : Autrement je crois que je lui aurais dit de sortir. Sa façon de regarder la petite... tu as remarqué... c'est surtout ça que je ne pouvais pas supporter."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ah ! bien. Je vois.",
+    "id": "p-0736",
+    "fr": "EDMÉE : Ah ! bien. Je vois."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Quand il est entré et qu'il t'a donné la main, j'ai d'abord eu l'impression d'un spectre.",
+    "id": "p-0737",
+    "fr": "CLAUDE : Quand il est entré et qu'il t'a donné la main, j'ai d'abord eu l'impression d'un spectre."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Oui.",
+    "id": "p-0738",
+    "fr": "EDMÉE : Oui."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mais après, quand il a regardé la petite, sa figure s'est animée... c'était pire.",
+    "id": "p-0739",
+    "fr": "CLAUDE : Mais après, quand il a regardé la petite, sa figure s'est animée... c'était pire."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, allant à la porte",
+    "text": "Eh bien ! Osmonde !",
+    "id": "p-0740",
+    "fr": "EDMÉE, allant à la porte : Eh bien ! Osmonde !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, à la cantonade",
+    "text": "L'eau ne bout pas encore.",
+    "id": "p-0741",
+    "fr": "OSMONDE, à la cantonade : L'eau ne bout pas encore."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, à Claude",
+    "text": "On pourrait peut-être mettre un peu d'alcool dans ton thé, non ?",
+    "id": "p-0742",
+    "fr": "EDMÉE, à Claude : On pourrait peut-être mettre un peu d'alcool dans ton thé, non ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Ce n'est pas la peine.",
+    "id": "p-0743",
+    "fr": "CLAUDE : Ce n'est pas la peine."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, avec ironie",
+    "text": "Et j'oubliais que tu as signé le fameux engagement.",
+    "id": "p-0744",
+    "fr": "EDMÉE, avec ironie : Et j'oubliais que tu as signé le fameux engagement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu ne pourrais pas me raconter un peu ce qu'il t'a dit, enfin, si cela ne t'est pas pénible, naturellement.",
+    "id": "p-0745",
+    "fr": "CLAUDE : Tu ne pourrais pas me raconter un peu ce qu'il t'a dit, enfin, si cela ne t'est pas pénible, naturellement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, avec élan",
+    "text": "Sois donc exigeant, sois méfiant, sois mesquin ; je ne demande pas mieux.",
+    "id": "p-0746",
+    "fr": "EDMÉE, avec élan : Sois donc exigeant, sois méfiant, sois mesquin ; je ne demande pas mieux."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Qu'est-ce que tu veux dire ? (Osmonde entre avec une tasse de thé qu'elle pose sur le bureau.)",
+    "id": "p-0747",
+    "fr": "CLAUDE : Qu'est-ce que tu veux dire ? (Osmonde entre avec une tasse de thé qu'elle pose sur le bureau.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Je t'ai mis un morceau de sucre. Maintenant, je vais me coucher. Bonsoir, papa, j'espère que tu vas te réchauffer.",
+    "id": "p-0748",
+    "fr": "OSMONDE : Je t'ai mis un morceau de sucre. Maintenant, je vais me coucher. Bonsoir, papa, j'espère que tu vas te réchauffer."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Bonsoir, ma chérie.",
+    "id": "p-0749",
+    "fr": "CLAUDE : Bonsoir, ma chérie."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Au revoir. (Osmonde sort. Un silence. Claude boit son thé.)",
+    "id": "p-0750",
+    "fr": "EDMÉE : Au revoir. (Osmonde sort. Un silence. Claude boit son thé.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ça te fait du bien ?",
+    "id": "p-0751",
+    "fr": "EDMÉE : Ça te fait du bien ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Alors ?",
+    "id": "p-0752",
+    "fr": "CLAUDE : Alors ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Eh bien ! il s'est passé une chose... Claude, j'ai besoin de toi. Il faut que tu m'aides. Tu dois pouvoir m'aider. Il y a une idée affreuse qui est en train de s'installer en moi. Chasse-la... Nous avons parlé de ce qui s'est passé autrefois, il ne faut pas nous en vouloir. C'était si bizarre. Comme si c'était hier... comme si ces vingt ans n'avaient pas compté. Et pourtant, il est mourant, et moi je... Alors, j'ai découvert qu'il avait été beaucoup plus malheureux que je ne croyais. Pas seulement malheureux. Désespéré. Et ce serait à cause de ça qu'il a mené cette existence dont il meurt. Au moins il le croit. Naturellement il peut se tromper. Peut-être que de toutes façons... Alors si je pouvais au moins me dire que j'ai bien agi quand je t'ai tout avoué... Mais lui prétend... Oh ! ça ne peut pas être vrai, ce serait trop...",
+    "id": "p-0753",
+    "fr": "EDMÉE : Eh bien ! il s'est passé une chose... Claude, j'ai besoin de toi. Il faut que tu m'aides. Tu dois pouvoir m'aider. Il y a une idée affreuse qui est en train de s'installer en moi. Chasse-la... Nous avons parlé de ce qui s'est passé autrefois, il ne faut pas nous en vouloir. C'était si bizarre. Comme si c'était hier... comme si ces vingt ans n'avaient pas compté. Et pourtant, il est mourant, et moi je... Alors, j'ai découvert qu'il avait été beaucoup plus malheureux que je ne croyais. Pas seulement malheureux. Désespéré. Et ce serait à cause de ça qu'il a mené cette existence dont il meurt. Au moins il le croit. Naturellement il peut se tromper. Peut-être que de toutes façons... Alors si je pouvais au moins me dire que j'ai bien agi quand je t'ai tout avoué... Mais lui prétend... Oh ! ça ne peut pas être vrai, ce serait trop..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Qu'est-ce qui ne peut pas être vrai ?",
+    "id": "p-0754",
+    "fr": "CLAUDE : Qu'est-ce qui ne peut pas être vrai ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Il dit que j'avais peur de lui, que je n'étais pas assez brave pour accepter la vie avec lui et que c'est pour m'enchaîner, pour me barrer la route que je t'ai tout dit.",
+    "id": "p-0755",
+    "fr": "EDMÉE : Il dit que j'avais peur de lui, que je n'étais pas assez brave pour accepter la vie avec lui et que c'est pour m'enchaîner, pour me barrer la route que je t'ai tout dit."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Je ne comprends pas.",
+    "id": "p-0756",
+    "fr": "CLAUDE : Je ne comprends pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Mais si, parce qu'une fois que tu saurais tout, que tu m'aurais pardonné, il ne pourrait plus être question de te quitter. Tu comprends. Il dit que je n'avais rien à craindre de toi ; que j'allais à coup sûr. Et c'est vrai, je n'ai pas eu peur de toi. C'est ça qui est horrible. (Avec une amertume croissante.) Au fond, ce soir-là, je ne t'ai pas parlé comme à mon mari.",
+    "id": "p-0757",
+    "fr": "EDMÉE : Mais si, parce qu'une fois que tu saurais tout, que tu m'aurais pardonné, il ne pourrait plus être question de te quitter. Tu comprends. Il dit que je n'avais rien à craindre de toi ; que j'allais à coup sûr. Et c'est vrai, je n'ai pas eu peur de toi. C'est ça qui est horrible. (Avec une amertume croissante.) Au fond, ce soir-là, je ne t'ai pas parlé comme à mon mari."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Edmée !",
+    "id": "p-0758",
+    "fr": "CLAUDE : Edmée !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "C'est la cause de tout. Si tu avais été mon mari, si tu m'avais aimée comme on aime sa femme avec le meilleur et le pire de soi...",
+    "id": "p-0759",
+    "fr": "EDMÉE : C'est la cause de tout. Si tu avais été mon mari, si tu m'avais aimée comme on aime sa femme avec le meilleur et le pire de soi..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Le pire de soi ?",
+    "id": "p-0760",
+    "fr": "CLAUDE : Le pire de soi ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu sais bien que je ne t'aurais pas trahi.",
+    "id": "p-0761",
+    "fr": "EDMÉE : Tu sais bien que je ne t'aurais pas trahi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu n'es pas dans ton bon sens...",
+    "id": "p-0762",
+    "fr": "CLAUDE : Tu n'es pas dans ton bon sens..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ta voix sonne faux tout à coup.",
+    "id": "p-0763",
+    "fr": "EDMÉE : Ta voix sonne faux tout à coup."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "La confiance que tu m'as témoignée...",
+    "id": "p-0764",
+    "fr": "CLAUDE : La confiance que tu m'as témoignée..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "La confiance ! Plus on s'aime, plus on se méfie...",
+    "id": "p-0765",
+    "fr": "EDMÉE : La confiance ! Plus on s'aime, plus on se méfie..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Pour des cœurs comme les nôtres...",
+    "id": "p-0766",
+    "fr": "CLAUDE : Pour des cœurs comme les nôtres..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "D'abord, ce pardon qui ne t'a rien coûté, tu n'avais pas le droit de m'en accabler.",
+    "id": "p-0767",
+    "fr": "EDMÉE : D'abord, ce pardon qui ne t'a rien coûté, tu n'avais pas le droit de m'en accabler."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Je n'avais pas le droit de te protéger contre toi-même ?",
+    "id": "p-0768",
+    "fr": "CLAUDE : Je n'avais pas le droit de te protéger contre toi-même ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ce sont des mots. Tu étais juge et partie : oh, je ne veux pas dire que tu m'aimais. Ne proteste pas... mettons que tu m'aimais en Dieu... Non, mais d'abord, il n'y avait pas que moi.",
+    "id": "p-0769",
+    "fr": "EDMÉE : Ce sont des mots. Tu étais juge et partie : oh, je ne veux pas dire que tu m'aimais. Ne proteste pas... mettons que tu m'aimais en Dieu... Non, mais d'abord, il n'y avait pas que moi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Le reste ne comptait pas.",
+    "id": "p-0770",
+    "fr": "CLAUDE : Le reste ne comptait pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ton ascendant sur les âmes ? Allons, tu ne te rends pas justice en ce moment. Le scandale d'une rupture entre nous...",
+    "id": "p-0771",
+    "fr": "EDMÉE : Ton ascendant sur les âmes ? Allons, tu ne te rends pas justice en ce moment. Le scandale d'une rupture entre nous..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Ne serait retombé que sur toi.",
+    "id": "p-0772",
+    "fr": "CLAUDE : Ne serait retombé que sur toi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu ne le crois pas sérieusement... Et puis surtout... surtout... une occasion aussi merveilleuse de déployer tes dons évangéliques..",
+    "id": "p-0773",
+    "fr": "EDMÉE : Tu ne le crois pas sérieusement... Et puis surtout... surtout... une occasion aussi merveilleuse de déployer tes dons évangéliques.."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, il s'est dressé, blême",
+    "text": "Tais-toi.",
+    "id": "p-0774",
+    "fr": "CLAUDE, il s'est dressé, blême : Tais-toi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ah ! tu vois clair.",
+    "id": "p-0775",
+    "fr": "EDMÉE : Ah ! tu vois clair."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tais-toi : tu me détruis. (Page 110 blanche — Fin de l'Acte II)",
+    "id": "p-0776",
+    "fr": "CLAUDE : Tais-toi : tu me détruis. (Page 110 blanche — Fin de l'Acte II)"
+  }
+]

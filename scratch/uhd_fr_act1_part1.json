@@ -1,0 +1,1430 @@
+[
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "UN HOMME DE DIEU",
+    "id": "p-0001",
+    "fr": "UN HOMME DE DIEU"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[ACTE PREMIER]",
+    "id": "p-0002",
+    "fr": "[ACTE PREMIER]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "Le salon des Lemoyne. Ameublement froid et banal. Au mur, des « paraboles » de Burnand, et une reproduction de la Vierge de saint Sixte.",
+    "id": "p-0003",
+    "fr": "Le salon des Lemoyne. Ameublement froid et banal. Au mur, des « paraboles » de Burnand, et une reproduction de la Vierge de saint Sixte."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE I]",
+    "id": "p-0004",
+    "fr": "[SCÈNE I]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE, MÉGAL",
+    "text": "(Ils sont debout ; Mégal n'a pas quitté son pardessus.)",
+    "id": "p-0005",
+    "fr": "OSMONDE, MÉGAL : (Ils sont debout ; Mégal n'a pas quitté son pardessus.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Je vous demande pardon, Mademoiselle. Je vois que vous étiez encore à table. D'ailleurs, j'avais dit à la bonne de ne pas vous déranger.",
+    "id": "p-0006",
+    "fr": "MÉGAL : Je vous demande pardon, Mademoiselle. Je vois que vous étiez encore à table. D'ailleurs, j'avais dit à la bonne de ne pas vous déranger."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Asseyez-vous, je vous en prie. (Mégal s'assied.) Cela n'a aucune importance. Le dimanche nous déjeunons très tard. Il y a toujours des personnes qui ont à parler à mon père à la sortie du temple. Du reste, nous avions fini.",
+    "id": "p-0007",
+    "fr": "OSMONDE : Asseyez-vous, je vous en prie. (Mégal s'assied.) Cela n'a aucune importance. Le dimanche nous déjeunons très tard. Il y a toujours des personnes qui ont à parler à mon père à la sortie du temple. Du reste, nous avions fini."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Si j'ai bien compris, vous aviez été assez aimable pour offrir de sortir un moment avec les enfants cet après-midi... Je voulais m'assurer que vraiment je n'abuserais pas...",
+    "id": "p-0008",
+    "fr": "MÉGAL : Si j'ai bien compris, vous aviez été assez aimable pour offrir de sortir un moment avec les enfants cet après-midi... Je voulais m'assurer que vraiment je n'abuserais pas..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "En aucune façon. Par exception, j'ai mon après-midi libre.",
+    "id": "p-0009",
+    "fr": "OSMONDE : En aucune façon. Par exception, j'ai mon après-midi libre."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Je ne sais comment vous remercier... d'autant que je me demande ce que j'aurais fait de ces petites aujourd'hui. La bonne est sortie pour la journée, et je vais à Épinay.",
+    "id": "p-0010",
+    "fr": "MÉGAL : Je ne sais comment vous remercier... d'autant que je me demande ce que j'aurais fait de ces petites aujourd'hui. La bonne est sortie pour la journée, et je vais à Épinay."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Madame Mégal ?...",
+    "id": "p-0011",
+    "fr": "OSMONDE : Madame Mégal ?..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Il n'y a pas de changement. D'ailleurs une maladie comme celle-là... si on peut appeler cela une maladie.",
+    "id": "p-0012",
+    "fr": "MÉGAL : Il n'y a pas de changement. D'ailleurs une maladie comme celle-là... si on peut appeler cela une maladie."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Est-ce qu'elle souffre ?",
+    "id": "p-0013",
+    "fr": "OSMONDE : Est-ce qu'elle souffre ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "C'est impossible à dire. Elle se plaint continuellement, mais... les médecins m'assurent qu'il y a là-dedans une part énorme d'autosuggestion.",
+    "id": "p-0014",
+    "fr": "MÉGAL : C'est impossible à dire. Elle se plaint continuellement, mais... les médecins m'assurent qu'il y a là-dedans une part énorme d'autosuggestion."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Ah ?",
+    "id": "p-0015",
+    "fr": "OSMONDE : Ah ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Et ça, c'est même le seul trait qui me rappelle ce qu'elle était. Parce qu'autrement, ce n'est pas la même personne... (Plus bas.) On ne peut même plus dire que ce soit une personne.",
+    "id": "p-0016",
+    "fr": "MÉGAL : Et ça, c'est même le seul trait qui me rappelle ce qu'elle était. Parce qu'autrement, ce n'est pas la même personne... (Plus bas.) On ne peut même plus dire que ce soit une personne."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Je ne sais pas si Suzanne vous a dit qu'elle m'a très bien répondu ce matin à l'école du dimanche.",
+    "id": "p-0017",
+    "fr": "OSMONDE : Je ne sais pas si Suzanne vous a dit qu'elle m'a très bien répondu ce matin à l'école du dimanche."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Allons, tant mieux.",
+    "id": "p-0018",
+    "fr": "MÉGAL : Allons, tant mieux."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Du reste, je suis aussi très satisfaite d'Yvonne.",
+    "id": "p-0019",
+    "fr": "OSMONDE : Du reste, je suis aussi très satisfaite d'Yvonne."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Ce sont de bonnes petites... Et alors où allez-vous les emmener cet après-midi ?",
+    "id": "p-0020",
+    "fr": "MÉGAL : Ce sont de bonnes petites... Et alors où allez-vous les emmener cet après-midi ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Mais je ne sais pas au juste.",
+    "id": "p-0021",
+    "fr": "OSMONDE : Mais je ne sais pas au juste."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Si par hasard, je ne rentrais pas trop tard d'Épinay, nous pourrions faire comme il y a quinze jours...",
+    "id": "p-0022",
+    "fr": "MÉGAL : Si par hasard, je ne rentrais pas trop tard d'Épinay, nous pourrions faire comme il y a quinze jours..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE, évasive",
+    "text": "Nous verrons, nous nous fierons à l'inspiration.",
+    "id": "p-0023",
+    "fr": "OSMONDE, évasive : Nous verrons, nous nous fierons à l'inspiration."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL, l'examinant",
+    "text": "C'est joli, cette écharpe, ça vous va très bien. (Un silence.)",
+    "id": "p-0024",
+    "fr": "MÉGAL, l'examinant : C'est joli, cette écharpe, ça vous va très bien. (Un silence.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE II]",
+    "id": "p-0025",
+    "fr": "[SCÈNE II]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, EDMÉE, CLAUDE, Mme LEMOYNE",
+    "id": "p-0026",
+    "fr": "LES MÊMES, EDMÉE, CLAUDE, Mme LEMOYNE"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, à Mégal qui s'est levé",
+    "text": "Mais, Monsieur, je vous en prie... (A Mme Lemoyne.) Mère, je vous présente Monsieur Mégal qui habite au-dessus de chez nous. Monsieur Mégal est le père des petites filles que vous avez rencontrées hier, dans l'escalier.",
+    "id": "p-0027",
+    "fr": "EDMÉE, à Mégal qui s'est levé : Mais, Monsieur, je vous en prie... (A Mme Lemoyne.) Mère, je vous présente Monsieur Mégal qui habite au-dessus de chez nous. Monsieur Mégal est le père des petites filles que vous avez rencontrées hier, dans l'escalier."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Monsieur, je suis charmée...",
+    "id": "p-0028",
+    "fr": "Mme LEMOYNE : Monsieur, je suis charmée..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Vous prendrez bien une tasse de café ?",
+    "id": "p-0029",
+    "fr": "CLAUDE : Vous prendrez bien une tasse de café ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL, debout",
+    "text": "Je vous remercie, mais je suis obligé d'aller en banlieue. Je disais à Mademoiselle Osmonde combien je lui suis reconnaissant de tout ce qu'elle fait pour mes fillettes. Elle est encore venue l'autre soir leur faire réciter leurs leçons ; tout à l'heure, elle veut bien les emmener à la promenade...",
+    "id": "p-0030",
+    "fr": "MÉGAL, debout : Je vous remercie, mais je suis obligé d'aller en banlieue. Je disais à Mademoiselle Osmonde combien je lui suis reconnaissant de tout ce qu'elle fait pour mes fillettes. Elle est encore venue l'autre soir leur faire réciter leurs leçons ; tout à l'heure, elle veut bien les emmener à la promenade..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, sèchement",
+    "text": "Mais, Monsieur, du moment qu'elle en a le temps, rien ne peut être plus naturel.",
+    "id": "p-0031",
+    "fr": "EDMÉE, sèchement : Mais, Monsieur, du moment qu'elle en a le temps, rien ne peut être plus naturel."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "MÉGAL",
+    "text": "Je ne suis pas de cet avis. Ne vous dérangez pas, je vous en prie. Au revoir, cher Monsieur... Madame... Mademoiselle... (Il s'incline devant Mme Lemoyne et sort.)",
+    "id": "p-0032",
+    "fr": "MÉGAL : Je ne suis pas de cet avis. Ne vous dérangez pas, je vous en prie. Au revoir, cher Monsieur... Madame... Mademoiselle... (Il s'incline devant Mme Lemoyne et sort.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE III]",
+    "id": "p-0033",
+    "fr": "[SCÈNE III]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, moins MÉGAL",
+    "id": "p-0034",
+    "fr": "LES MÊMES, moins MÉGAL"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Ce Monsieur paraît tout à fait bien.",
+    "id": "p-0035",
+    "fr": "Mme LEMOYNE : Ce Monsieur paraît tout à fait bien."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Nous ne le connaissons pas du tout.",
+    "id": "p-0036",
+    "fr": "EDMÉE : Nous ne le connaissons pas du tout."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Le regard est franc... beaucoup de bonté dans la bouche...",
+    "id": "p-0037",
+    "fr": "Mme LEMOYNE : Le regard est franc... beaucoup de bonté dans la bouche..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Un peu de café, grand'mère ?",
+    "id": "p-0038",
+    "fr": "OSMONDE : Un peu de café, grand'mère ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Un fond de tasse seulement, chérie... Ton oncle Francis me gronderait. Voilà, assez, assez.",
+    "id": "p-0039",
+    "fr": "Mme LEMOYNE : Un fond de tasse seulement, chérie... Ton oncle Francis me gronderait. Voilà, assez, assez."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "En somme, pourquoi Francis n'est-il pas venu déjeuner avec toi ?",
+    "id": "p-0040",
+    "fr": "CLAUDE : En somme, pourquoi Francis n'est-il pas venu déjeuner avec toi ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Il avait un malade à voir aux environs de Paris. Du reste, il viendra me chercher (Baissant la voix.) Je crois qu'il a un mot à te dire.",
+    "id": "p-0041",
+    "fr": "Mme LEMOYNE : Il avait un malade à voir aux environs de Paris. Du reste, il viendra me chercher (Baissant la voix.) Je crois qu'il a un mot à te dire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Comment ?",
+    "id": "p-0042",
+    "fr": "EDMÉE : Comment ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Je dis qu'il doit venir me chercher.",
+    "id": "p-0043",
+    "fr": "Mme LEMOYNE : Je dis qu'il doit venir me chercher."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Vous savez que nous ne le voyons jamais. (A Claude.) Ton frère n'est pas venu plus de deux ou trois fois depuis les vacances.",
+    "id": "p-0044",
+    "fr": "EDMÉE : Vous savez que nous ne le voyons jamais. (A Claude.) Ton frère n'est pas venu plus de deux ou trois fois depuis les vacances."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Il faut dire aussi qu'il est tellement occupé... Je me rends bien compte depuis que je suis ici... L'hôpital, les visites, les rendez-vous, les communications à l'Académie... je me demande comment il y résiste. (A Claude.) Du reste, c'est comme toi, mon cher enfant ; oh ! ce n'est pas moi qui te reprocherai de faire tout ton devoir et plus que ton devoir, comme disait ton cher papa. Mais cette paroisse me paraît bien, bien lourde. Avec ça, prends-tu assez d'exercice ? Vous y veillez, n'est-ce pas, Edmée ?",
+    "id": "p-0045",
+    "fr": "Mme LEMOYNE : Il faut dire aussi qu'il est tellement occupé... Je me rends bien compte depuis que je suis ici... L'hôpital, les visites, les rendez-vous, les communications à l'Académie... je me demande comment il y résiste. (A Claude.) Du reste, c'est comme toi, mon cher enfant ; oh ! ce n'est pas moi qui te reprocherai de faire tout ton devoir et plus que ton devoir, comme disait ton cher papa. Mais cette paroisse me paraît bien, bien lourde. Avec ça, prends-tu assez d'exercice ? Vous y veillez, n'est-ce pas, Edmée ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Nous nous portons tous à merveille.",
+    "id": "p-0046",
+    "fr": "EDMÉE : Nous nous portons tous à merveille."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Cette vie de Paris est déjà si fatigante par elle-même... quand on compare à Lausanne. Votre café est délicieux, il faut me donner l'indication pour Francis.",
+    "id": "p-0047",
+    "fr": "Mme LEMOYNE : Cette vie de Paris est déjà si fatigante par elle-même... quand on compare à Lausanne. Votre café est délicieux, il faut me donner l'indication pour Francis."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Je regrette de ne pouvoir vous renseigner. Il doit venir de chez l'épicier d'en face. Vous m'excuserez, mère ? il faut que je trouve une lecture pour mon Union de jeunes filles. (Elle s'agenouille devant une bibliothèque basse.)",
+    "id": "p-0048",
+    "fr": "EDMÉE : Je regrette de ne pouvoir vous renseigner. Il doit venir de chez l'épicier d'en face. Vous m'excuserez, mère ? il faut que je trouve une lecture pour mon Union de jeunes filles. (Elle s'agenouille devant une bibliothèque basse.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Mais pour en revenir à ce monsieur, tu t'occupes régulièrement de ces deux mignonnes petites filles, Osmonde ? c'est si gentil de ta part !",
+    "id": "p-0049",
+    "fr": "Mme LEMOYNE : Mais pour en revenir à ce monsieur, tu t'occupes régulièrement de ces deux mignonnes petites filles, Osmonde ? c'est si gentil de ta part !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Je leur consacre un moment de temps en temps.",
+    "id": "p-0050",
+    "fr": "OSMONDE : Je leur consacre un moment de temps en temps."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Leur maman ?...",
+    "id": "p-0051",
+    "fr": "Mme LEMOYNE : Leur maman ?..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, qui feuillette un livre",
+    "text": "Leur mère est internée.",
+    "id": "p-0052",
+    "fr": "EDMÉE, qui feuillette un livre : Leur mère est internée."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Mais quelle horreur !",
+    "id": "p-0053",
+    "fr": "Mme LEMOYNE : Mais quelle horreur !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, à Osmonde",
+    "text": "Je m'étonne un peu que tu puisses disposer de ton après-midi. Noël tombe mercredi en quinze, et il me semble que tu as encore beaucoup à faire d'ici là.",
+    "id": "p-0054",
+    "fr": "EDMÉE, à Osmonde : Je m'étonne un peu que tu puisses disposer de ton après-midi. Noël tombe mercredi en quinze, et il me semble que tu as encore beaucoup à faire d'ici là."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Je suis en avance cette année, au contraire.",
+    "id": "p-0055",
+    "fr": "OSMONDE : Je suis en avance cette année, au contraire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Ton ouvrage pour ta marraine est à peine commencé.",
+    "id": "p-0056",
+    "fr": "EDMÉE : Ton ouvrage pour ta marraine est à peine commencé."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Je suis triste de penser que je ne verrai pas votre arbre de Noël. Mais Henri et Loulette comptent sur moi. Ce serait un horrible crève-cœur si je n'étais pas là-bas pour les fêtes. C'est si difficile de contenter tout le monde... Le malheur des familles trop unies.",
+    "id": "p-0057",
+    "fr": "Mme LEMOYNE : Je suis triste de penser que je ne verrai pas votre arbre de Noël. Mais Henri et Loulette comptent sur moi. Ce serait un horrible crève-cœur si je n'étais pas là-bas pour les fêtes. C'est si difficile de contenter tout le monde... Le malheur des familles trop unies."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, à Osmonde",
+    "text": "Tu te rappelles la Petite Orpheline du Prieuré ?",
+    "id": "p-0058",
+    "fr": "EDMÉE, à Osmonde : Tu te rappelles la Petite Orpheline du Prieuré ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Montre. (Edmée continue à feuilleter le livre.)",
+    "id": "p-0059",
+    "fr": "OSMONDE : Montre. (Edmée continue à feuilleter le livre.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Moi je me rappelle ; c'est tout à fait délicieux. Du reste tous ces livres adaptés de l'anglais sont ravissants.",
+    "id": "p-0060",
+    "fr": "Mme LEMOYNE : Moi je me rappelle ; c'est tout à fait délicieux. Du reste tous ces livres adaptés de l'anglais sont ravissants."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, déposant le livre",
+    "text": "Ça m'a l'air effroyablement sentimental, et ces petites filles ne sont déjà que trop disposées à larmoyer pour des niaiseries.",
+    "id": "p-0061",
+    "fr": "EDMÉE, déposant le livre : Ça m'a l'air effroyablement sentimental, et ces petites filles ne sont déjà que trop disposées à larmoyer pour des niaiseries."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "L'important c'est de les intéresser.",
+    "id": "p-0062",
+    "fr": "CLAUDE : L'important c'est de les intéresser."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Pas à n'importe quel prix.",
+    "id": "p-0063",
+    "fr": "EDMÉE : Pas à n'importe quel prix."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Un petit peu de romanesque ne nuit pas... Un tout petit peu. (A Osmonde.) Qu'en penses-tu, chérie ?",
+    "id": "p-0064",
+    "fr": "Mme LEMOYNE : Un petit peu de romanesque ne nuit pas... Un tout petit peu. (A Osmonde.) Qu'en penses-tu, chérie ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE, qui s'est levée",
+    "text": "Je n'ai pas d'avis.",
+    "id": "p-0065",
+    "fr": "OSMONDE, qui s'est levée : Je n'ai pas d'avis."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Tu n'oublies pas que Mademoiselle Gentil compte sur toi à cinq heures pour lui faire la lecture.",
+    "id": "p-0066",
+    "fr": "EDMÉE : Tu n'oublies pas que Mademoiselle Gentil compte sur toi à cinq heures pour lui faire la lecture."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE, énervée",
+    "text": "Sois tranquille.",
+    "id": "p-0067",
+    "fr": "OSMONDE, énervée : Sois tranquille."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "C'est très joli de se créer de nouvelles obligations...",
+    "id": "p-0068",
+    "fr": "EDMÉE : C'est très joli de se créer de nouvelles obligations..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE",
+    "text": "Au revoir, grand'mère. Qu'est-ce que tu fais cet après-midi, papa ?",
+    "id": "p-0069",
+    "fr": "OSMONDE : Au revoir, grand'mère. Qu'est-ce que tu fais cet après-midi, papa ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "J'ai une ou deux lettres à écrire. Et mon allocution pour demain à préparer.",
+    "id": "p-0070",
+    "fr": "CLAUDE : J'ai une ou deux lettres à écrire. Et mon allocution pour demain à préparer."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Le petit Simonin ?",
+    "id": "p-0071",
+    "fr": "EDMÉE : Le petit Simonin ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Je suis sûre que vous n'oubliez jamais rien, Edmée, c'est merveilleux !",
+    "id": "p-0072",
+    "fr": "Mme LEMOYNE : Je suis sûre que vous n'oubliez jamais rien, Edmée, c'est merveilleux !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "OSMONDE, avec âpreté",
+    "text": "Non, maman n'oublie jamais rien, maman est terrible. (Elle sort.)",
+    "id": "p-0073",
+    "fr": "OSMONDE, avec âpreté : Non, maman n'oublie jamais rien, maman est terrible. (Elle sort.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE IV]",
+    "id": "p-0074",
+    "fr": "[SCÈNE IV]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, moins OSMONDE",
+    "id": "p-0075",
+    "fr": "LES MÊMES, moins OSMONDE"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "La chère petite est un peu nerveuse.",
+    "id": "p-0076",
+    "fr": "Mme LEMOYNE : La chère petite est un peu nerveuse."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE, à sa femme",
+    "text": "Elle n'a peut-être pas assez le sentiment qu'on lui fait confiance.",
+    "id": "p-0077",
+    "fr": "CLAUDE, à sa femme : Elle n'a peut-être pas assez le sentiment qu'on lui fait confiance."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Moi je ne demanderais pas mieux. Mais avec ses allures tranquilles Osmonde est une impulsive, je m'en aperçois tous les jours.",
+    "id": "p-0078",
+    "fr": "EDMÉE : Moi je ne demanderais pas mieux. Mais avec ses allures tranquilles Osmonde est une impulsive, je m'en aperçois tous les jours."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Je me demande si en notant ainsi les défauts de quelqu'un on ne les exagère pas, pour ainsi dire. Tu ne crois pas, maman ?",
+    "id": "p-0079",
+    "fr": "CLAUDE : Je me demande si en notant ainsi les défauts de quelqu'un on ne les exagère pas, pour ainsi dire. Tu ne crois pas, maman ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Alors il faut fermer les yeux ?",
+    "id": "p-0080",
+    "fr": "EDMÉE : Alors il faut fermer les yeux ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Je ne dis pas ça, mais notre façon de traiter les autres...",
+    "id": "p-0081",
+    "fr": "CLAUDE : Je ne dis pas ça, mais notre façon de traiter les autres..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Je connais, mais on va loin avec cette théorie-là...",
+    "id": "p-0082",
+    "fr": "EDMÉE : Je connais, mais on va loin avec cette théorie-là..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Moi, en tous cas, je suis enchantée de ma petite fille... Vous savez qu'on organise maintenant des conférences à Lausanne pendant le semestre d'été, des excursions, des...",
+    "id": "p-0083",
+    "fr": "Mme LEMOYNE : Moi, en tous cas, je suis enchantée de ma petite fille... Vous savez qu'on organise maintenant des conférences à Lausanne pendant le semestre d'été, des excursions, des..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Toi, je te vois venir.",
+    "id": "p-0084",
+    "fr": "CLAUDE : Toi, je te vois venir."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Naturellement.",
+    "id": "p-0085",
+    "fr": "Mme LEMOYNE : Naturellement."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Mais je n'ai aucune envie de te prêter ma fille.",
+    "id": "p-0086",
+    "fr": "CLAUDE : Mais je n'ai aucune envie de te prêter ma fille."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "On en reparlera. (A Claude.) Alors, qu'est-ce que tu réponds à Monsieur Junod ? (A Mme Lemoyne.) Le pasteur de la Chaux de Fonds nous demande de lui indiquer une pension pour son fils qui vient préparer une licence. Vous savez, Fred.",
+    "id": "p-0087",
+    "fr": "EDMÉE : On en reparlera. (A Claude.) Alors, qu'est-ce que tu réponds à Monsieur Junod ? (A Mme Lemoyne.) Le pasteur de la Chaux de Fonds nous demande de lui indiquer une pension pour son fils qui vient préparer une licence. Vous savez, Fred."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Si tu crois que nous pouvons décemment lui offrir la petite chambre...",
+    "id": "p-0088",
+    "fr": "CLAUDE : Si tu crois que nous pouvons décemment lui offrir la petite chambre..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Un jeune homme doit pouvoir s'en accommoder, vous ne trouvez pas, mère ?",
+    "id": "p-0089",
+    "fr": "EDMÉE : Un jeune homme doit pouvoir s'en accommoder, vous ne trouvez pas, mère ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Mais moi, je m'en serais contentée si Francis ne m'avait pas forcée à descendre chez lui. Du reste je suis merveilleusement.",
+    "id": "p-0090",
+    "fr": "Mme LEMOYNE : Mais moi, je m'en serais contentée si Francis ne m'avait pas forcée à descendre chez lui. Du reste je suis merveilleusement."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Alors je vais lui écrire dans ce sens. (Il sort.)",
+    "id": "p-0091",
+    "fr": "CLAUDE : Alors je vais lui écrire dans ce sens. (Il sort.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE V]",
+    "id": "p-0092",
+    "fr": "[SCÈNE V]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Mais Fred est un très jeune homme : est-ce que vous ne craignez pas qu'Osmonde...",
+    "id": "p-0093",
+    "fr": "Mme LEMOYNE : Mais Fred est un très jeune homme : est-ce que vous ne craignez pas qu'Osmonde..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "C'est un dadais. Je ne pense pas qu'Osmonde ait beaucoup de goût pour ce genre. Non, ce n'est pas ce que je redouterais pour elle.",
+    "id": "p-0094",
+    "fr": "EDMÉE : C'est un dadais. Je ne pense pas qu'Osmonde ait beaucoup de goût pour ce genre. Non, ce n'est pas ce que je redouterais pour elle."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Est-ce que vous voulez dire que vous avez d'autres craintes ? paraît vous avoir bouleversée à l'époque. Non ? Un secret sans doute ? Qui ne lui appartenait pas... (Geste évasif de Mme Lemoyne.)",
+    "id": "p-0095",
+    "fr": "Mme LEMOYNE : Est-ce que vous voulez dire que vous avez d'autres craintes ? paraît vous avoir bouleversée à l'époque. Non ? Un secret sans doute ? Qui ne lui appartenait pas... (Geste évasif de Mme Lemoyne.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Seulement, bien entendu, si vous avez cette inquiétude...",
+    "id": "p-0096",
+    "fr": "Mme LEMOYNE : Seulement, bien entendu, si vous avez cette inquiétude..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, après lui avoir jeté un regard interrogateur",
+    "text": "Ah bon, vous parlez d'Osmonde à présent... je n'y étais pas. Inquiétude, c'est beaucoup dire. Je me méfie, voilà tout.",
+    "id": "p-0097",
+    "fr": "EDMÉE, après lui avoir jeté un regard interrogateur : Ah bon, vous parlez d'Osmonde à présent... je n'y étais pas. Inquiétude, c'est beaucoup dire. Je me méfie, voilà tout."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Il me semble pourtant qu'elle tient tellement de son père...",
+    "id": "p-0098",
+    "fr": "Mme LEMOYNE : Il me semble pourtant qu'elle tient tellement de son père..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Vous trouvez ?",
+    "id": "p-0099",
+    "fr": "EDMÉE : Vous trouvez ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Au moral en tous cas...",
+    "id": "p-0100",
+    "fr": "Mme LEMOYNE : Au moral en tous cas..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, d'un ton ambigu",
+    "text": "Oui, oui...",
+    "id": "p-0101",
+    "fr": "EDMÉE, d'un ton ambigu : Oui, oui..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Comme disait mon pauvre mari : « c'est le même son d'âme. »",
+    "id": "p-0102",
+    "fr": "Mme LEMOYNE : Comme disait mon pauvre mari : « c'est le même son d'âme. »"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Je n'ai pas encore eu le privilège d'entendre l'âme de ma fille.",
+    "id": "p-0103",
+    "fr": "EDMÉE : Je n'ai pas encore eu le privilège d'entendre l'âme de ma fille."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Mais Claude, s'il partageait vos inquiétudes, m'aurait sûrement...",
+    "id": "p-0104",
+    "fr": "Mme LEMOYNE : Mais Claude, s'il partageait vos inquiétudes, m'aurait sûrement..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Claude vous dit tout ?",
+    "id": "p-0105",
+    "fr": "EDMÉE : Claude vous dit tout ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Tout ce qu'il a le droit de me dire.",
+    "id": "p-0106",
+    "fr": "Mme LEMOYNE : Tout ce qu'il a le droit de me dire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Du reste, quand je vois le petit volume qu'il vous expédie chaque semaine...",
+    "id": "p-0107",
+    "fr": "EDMÉE : Du reste, quand je vois le petit volume qu'il vous expédie chaque semaine..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Je ne pourrai jamais dire assez tout le bien que m'a fait cette correspondance. J'ai relu récemment de vieilles lettres de Claude ; il y en a qui sont si belles, si poignantes que j'ai failli en recopier des passages pour vous.",
+    "id": "p-0108",
+    "fr": "Mme LEMOYNE : Je ne pourrai jamais dire assez tout le bien que m'a fait cette correspondance. J'ai relu récemment de vieilles lettres de Claude ; il y en a qui sont si belles, si poignantes que j'ai failli en recopier des passages pour vous."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "De quand datent ces lettres ?",
+    "id": "p-0109",
+    "fr": "EDMÉE : De quand datent ces lettres ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Des premières années de votre mariage.",
+    "id": "p-0110",
+    "fr": "Mme LEMOYNE : Des premières années de votre mariage."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Et vous dites qu'elles sont poignantes ?",
+    "id": "p-0111",
+    "fr": "EDMÉE : Et vous dites qu'elles sont poignantes ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Claude a passé à cette époque par une crise de conscience très douloureuse. Vous savez bien qu'il a même songé un moment à abandonner son ministère.",
+    "id": "p-0112",
+    "fr": "Mme LEMOYNE : Claude a passé à cette époque par une crise de conscience très douloureuse. Vous savez bien qu'il a même songé un moment à abandonner son ministère."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Comment ?",
+    "id": "p-0113",
+    "fr": "EDMÉE : Comment ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Vous n'allez pas me faire croire que vous ne vous êtes doutée de rien.",
+    "id": "p-0114",
+    "fr": "Mme LEMOYNE : Vous n'allez pas me faire croire que vous ne vous êtes doutée de rien."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "De rien. Les premiers temps de notre vie conjugale ont été... nous n'étions pas précisément intimes alors. Mais je vous demande encore une fois de me dire avec précision de quand datent ces lettres. Sont-elles antérieures... à dix-neuf cent trois, par exemple ?",
+    "id": "p-0115",
+    "fr": "EDMÉE : De rien. Les premiers temps de notre vie conjugale ont été... nous n'étions pas précisément intimes alors. Mais je vous demande encore une fois de me dire avec précision de quand datent ces lettres. Sont-elles antérieures... à dix-neuf cent trois, par exemple ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Elles sont toutes antérieures à dix-neuf cent trois. Pourquoi cette question ?",
+    "id": "p-0116",
+    "fr": "Mme LEMOYNE : Elles sont toutes antérieures à dix-neuf cent trois. Pourquoi cette question ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Mère, ce n'est pas la peine de faire semblant, je vous assure. Déjà, tout à l'heure, vous vous êtes... chut !",
+    "id": "p-0117",
+    "fr": "EDMÉE : Mère, ce n'est pas la peine de faire semblant, je vous assure. Déjà, tout à l'heure, vous vous êtes... chut !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VI]",
+    "id": "p-0118",
+    "fr": "[SCÈNE VI]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, CLAUDE",
+    "id": "p-0119",
+    "fr": "LES MÊMES, CLAUDE"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Te rappelles-tu l'adresse des Junod ? Je ne peux plus mettre la main sur sa lettre. Est-ce toujours rue Karl-Marx ?",
+    "id": "p-0120",
+    "fr": "CLAUDE : Te rappelles-tu l'adresse des Junod ? Je ne peux plus mettre la main sur sa lettre. Est-ce toujours rue Karl-Marx ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Il me semble qu'ils ont déménagé ; vous ne vous rappelez pas, mère ?",
+    "id": "p-0121",
+    "fr": "EDMÉE : Il me semble qu'ils ont déménagé ; vous ne vous rappelez pas, mère ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Je ne suis pas restée en relations avec eux. Ils sont devenus tout à fait bolchevistes, comme tout le monde à la Chaux de Fonds, du reste. Ton père, qui avait tant de bon sens, en était déjà effrayé.",
+    "id": "p-0122",
+    "fr": "Mme LEMOYNE : Je ne suis pas restée en relations avec eux. Ils sont devenus tout à fait bolchevistes, comme tout le monde à la Chaux de Fonds, du reste. Ton père, qui avait tant de bon sens, en était déjà effrayé."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "C'est étonnant que tu ne retrouves pas cette lettre ; je l'ai mise ce matin dans le casier des lettres non répondues.",
+    "id": "p-0123",
+    "fr": "EDMÉE : C'est étonnant que tu ne retrouves pas cette lettre ; je l'ai mise ce matin dans le casier des lettres non répondues."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Ah bon !...",
+    "id": "p-0124",
+    "fr": "CLAUDE : Ah bon !..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Enfin, Claude, je t'ai dit une fois pour toutes... ayez donc de l'ordre dans cette maison !",
+    "id": "p-0125",
+    "fr": "EDMÉE : Enfin, Claude, je t'ai dit une fois pour toutes... ayez donc de l'ordre dans cette maison !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "L'ordre à ce point-là, moi ça me rend fou. Allons je termine, et je reviens. (Il sort.)",
+    "id": "p-0126",
+    "fr": "CLAUDE : L'ordre à ce point-là, moi ça me rend fou. Allons je termine, et je reviens. (Il sort.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VII]",
+    "id": "p-0127",
+    "fr": "[SCÈNE VII]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Alors cette crise de conscience... Voyons, Claude n'est pas homme à avoir jamais connu certaines angoisses. Tout est si clair pour lui, si simple. Heureusement, mon Dieu ! qu'est-ce que je serais devenue autrement ?",
+    "id": "p-0128",
+    "fr": "EDMÉE : Alors cette crise de conscience... Voyons, Claude n'est pas homme à avoir jamais connu certaines angoisses. Tout est si clair pour lui, si simple. Heureusement, mon Dieu ! qu'est-ce que je serais devenue autrement ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Nous avons tous une grande dette envers lui, c'est certain.",
+    "id": "p-0129",
+    "fr": "Mme LEMOYNE : Nous avons tous une grande dette envers lui, c'est certain."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Oh ! mais ce n'est pas du tout de reconnaissance que je veux parler. On ne remercie pas quelqu'un d'être ce qu'il est. (Avec un accent profond.) Alors vous êtes sûre que c'est avant dix-neuf cent trois ?",
+    "id": "p-0130",
+    "fr": "EDMÉE : Oh ! mais ce n'est pas du tout de reconnaissance que je veux parler. On ne remercie pas quelqu'un d'être ce qu'il est. (Avec un accent profond.) Alors vous êtes sûre que c'est avant dix-neuf cent trois ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Après cette époque, au contraire, c'est comme si le calme se faisait ; on dirait qu'il voit une lumière qu'il n'avait pas encore aperçue.",
+    "id": "p-0131",
+    "fr": "Mme LEMOYNE : Après cette époque, au contraire, c'est comme si le calme se faisait ; on dirait qu'il voit une lumière qu'il n'avait pas encore aperçue."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Une lumière ?",
+    "id": "p-0132",
+    "fr": "EDMÉE : Une lumière ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Oui, celle qui ne se montre que lorsqu'il fait complètement nuit. (Un silence.) Pourquoi riez-vous ?",
+    "id": "p-0133",
+    "fr": "Mme LEMOYNE : Oui, celle qui ne se montre que lorsqu'il fait complètement nuit. (Un silence.) Pourquoi riez-vous ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE, sourdement",
+    "text": "Ah ! c'est beau, les promesses !",
+    "id": "p-0134",
+    "fr": "EDMÉE, sourdement : Ah ! c'est beau, les promesses !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Quelles promesses ?",
+    "id": "p-0135",
+    "fr": "Mme LEMOYNE : Quelles promesses ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Il m'avait promis que vous ne sauriez jamais rien.",
+    "id": "p-0136",
+    "fr": "EDMÉE : Il m'avait promis que vous ne sauriez jamais rien."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Mais enfin, Edmée...",
+    "id": "p-0137",
+    "fr": "Mme LEMOYNE : Mais enfin, Edmée..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Oh, ce n'est plus la peine de chercher à me tromper... Ce secret... notre secret... il l'a... le misérable !..",
+    "id": "p-0138",
+    "fr": "EDMÉE : Oh, ce n'est plus la peine de chercher à me tromper... Ce secret... notre secret... il l'a... le misérable !.."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Lui, un misérable ! vous osez l'insulter !",
+    "id": "p-0139",
+    "fr": "Mme LEMOYNE : Lui, un misérable ! vous osez l'insulter !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VIII]",
+    "id": "p-0140",
+    "fr": "[SCÈNE VIII]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, CLAUDE, une lettre à la main",
+    "id": "p-0141",
+    "fr": "LES MÊMES, CLAUDE, une lettre à la main"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Ma lettre est terminée. Si tu sors, tu pourras la mettre à la poste.",
+    "id": "p-0142",
+    "fr": "CLAUDE : Ma lettre est terminée. Si tu sors, tu pourras la mettre à la poste."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "C'est dimanche. Je crois qu'elle ne partira plus. D'ailleurs ce n'est pas à un jour près. Ou bien... Tu peux me la donner tout de même... Quelle heure est-il ? (Un mouvement désordonné trahit son bouleversement intérieur.)",
+    "id": "p-0143",
+    "fr": "EDMÉE : C'est dimanche. Je crois qu'elle ne partira plus. D'ailleurs ce n'est pas à un jour près. Ou bien... Tu peux me la donner tout de même... Quelle heure est-il ? (Un mouvement désordonné trahit son bouleversement intérieur.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Mais qu'est-ce que tu as, Edmée ?",
+    "id": "p-0144",
+    "fr": "CLAUDE : Mais qu'est-ce que tu as, Edmée ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Rien... rien du tout.",
+    "id": "p-0145",
+    "fr": "EDMÉE : Rien... rien du tout."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Maman...",
+    "id": "p-0146",
+    "fr": "CLAUDE : Maman..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Te retrouverai-je tout à l'heure ?",
+    "id": "p-0147",
+    "fr": "EDMÉE : Te retrouverai-je tout à l'heure ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Il paraît que Francis doit venir. Je l'attendrai.",
+    "id": "p-0148",
+    "fr": "CLAUDE : Il paraît que Francis doit venir. Je l'attendrai."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Oui, mais toi... toi... Je ne resterai pas longtemps. (Plus bas.) Je voudrais te retrouver seul, comprends-tu ? Là-bas je m'arrangerai, il y aura bien quelqu'un pour me remplacer.",
+    "id": "p-0149",
+    "fr": "EDMÉE : Oui, mais toi... toi... Je ne resterai pas longtemps. (Plus bas.) Je voudrais te retrouver seul, comprends-tu ? Là-bas je m'arrangerai, il y aura bien quelqu'un pour me remplacer."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Moi, Edmée, je serai partie quand vous rentrerez.",
+    "id": "p-0150",
+    "fr": "Mme LEMOYNE : Moi, Edmée, je serai partie quand vous rentrerez."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "EDMÉE",
+    "text": "Au revoir, mère. (Elle sort.)",
+    "id": "p-0151",
+    "fr": "EDMÉE : Au revoir, mère. (Elle sort.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE IX]",
+    "id": "p-0152",
+    "fr": "[SCÈNE IX]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Que se passe-t-il ?",
+    "id": "p-0153",
+    "fr": "CLAUDE : Que se passe-t-il ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Mon pauvre enfant, j'ai commis une imprudence. Je ne sais pas comment j'ai été entraînée... (Elle est au bord des larmes.) Au fond, l'étonnant est que ce ne soit pas arrivé beaucoup plus tôt. Edmée vient de découvrir que tu m'avais tout raconté. (Un silence.)",
+    "id": "p-0154",
+    "fr": "Mme LEMOYNE : Mon pauvre enfant, j'ai commis une imprudence. Je ne sais pas comment j'ai été entraînée... (Elle est au bord des larmes.) Au fond, l'étonnant est que ce ne soit pas arrivé beaucoup plus tôt. Edmée vient de découvrir que tu m'avais tout raconté. (Un silence.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE, fortement",
+    "text": "Tant mieux... Vois-tu, maman, ce mensonge vis-à-vis d'elle me pesait terriblement ; combien de fois ne me le suis-je pas reproché ! Si je n'avais pas eu je ne sais quelle vague appréhension, il y a des années que je lui aurais avoué...",
+    "id": "p-0155",
+    "fr": "CLAUDE, fortement : Tant mieux... Vois-tu, maman, ce mensonge vis-à-vis d'elle me pesait terriblement ; combien de fois ne me le suis-je pas reproché ! Si je n'avais pas eu je ne sais quelle vague appréhension, il y a des années que je lui aurais avoué..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Quel mot !",
+    "id": "p-0156",
+    "fr": "Mme LEMOYNE : Quel mot !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "J'avais pris l'engagement de ne rien te dire.",
+    "id": "p-0157",
+    "fr": "CLAUDE : J'avais pris l'engagement de ne rien te dire."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Parce qu'elle l'avait exigé. Mais de quel droit avait-elle émis cette prétention ?",
+    "id": "p-0158",
+    "fr": "Mme LEMOYNE : Parce qu'elle l'avait exigé. Mais de quel droit avait-elle émis cette prétention ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "N'importe ; j'avais promis.",
+    "id": "p-0159",
+    "fr": "CLAUDE : N'importe ; j'avais promis."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Enfin rappelle-toi : elle menaçait de partir, peut-être même de... Alors !... les promesses qu'on fait à un malade !...",
+    "id": "p-0160",
+    "fr": "Mme LEMOYNE : Enfin rappelle-toi : elle menaçait de partir, peut-être même de... Alors !... les promesses qu'on fait à un malade !..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "En tous les cas, depuis qu'Edmée est revenue à la santé, depuis que je l'ai guérie, j'aurais dû tout lui dire ; elle aurait compris. Toi-même, tu dis toujours qu'il faut avoir confiance. D'ailleurs quand j'ai fait cette promesse, je comptais la tenir. Et puis, un jour... je ne sais pourquoi... je ne me sentais pas plus seul que d'habitude : je t'ai tout écrit.",
+    "id": "p-0161",
+    "fr": "CLAUDE : En tous les cas, depuis qu'Edmée est revenue à la santé, depuis que je l'ai guérie, j'aurais dû tout lui dire ; elle aurait compris. Toi-même, tu dis toujours qu'il faut avoir confiance. D'ailleurs quand j'ai fait cette promesse, je comptais la tenir. Et puis, un jour... je ne sais pourquoi... je ne me sentais pas plus seul que d'habitude : je t'ai tout écrit."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Tu n'as pas à t'excuser",
+    "id": "p-0162",
+    "fr": "Mme LEMOYNE : Tu n'as pas à t'excuser"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Je l'ai traitée comme une enfant.",
+    "id": "p-0163",
+    "fr": "CLAUDE : Je l'ai traitée comme une enfant."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Et puis enfin, Claude, depuis le temps...",
+    "id": "p-0164",
+    "fr": "Mme LEMOYNE : Et puis enfin, Claude, depuis le temps..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Le regard qu'elle avait tout à l'heure quand elle est sortie, oh ! je l'ai bien reconnu... Maman, tout ce que j'avais durement conquis, je viens peut-être de le perdre.",
+    "id": "p-0165",
+    "fr": "CLAUDE : Le regard qu'elle avait tout à l'heure quand elle est sortie, oh ! je l'ai bien reconnu... Maman, tout ce que j'avais durement conquis, je viens peut-être de le perdre."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Par ma faute.",
+    "id": "p-0166",
+    "fr": "Mme LEMOYNE : Par ma faute."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Non. Je suis seul coupable. Tout à l'heure je lui demanderai de me pardonner.",
+    "id": "p-0167",
+    "fr": "CLAUDE : Non. Je suis seul coupable. Tout à l'heure je lui demanderai de me pardonner."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Tu t'humilierais de la sorte devant celle qui... moi d'abord je sais bien que je ne pourrai jamais lui pardonner.",
+    "id": "p-0168",
+    "fr": "Mme LEMOYNE : Tu t'humilierais de la sorte devant celle qui... moi d'abord je sais bien que je ne pourrai jamais lui pardonner."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Le pardon, maman, ça n'a de sens qu'entre elle et moi.",
+    "id": "p-0169",
+    "fr": "CLAUDE : Le pardon, maman, ça n'a de sens qu'entre elle et moi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Elle ne méritait pas quelqu'un comme toi.",
+    "id": "p-0170",
+    "fr": "Mme LEMOYNE : Elle ne méritait pas quelqu'un comme toi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Quand je songe à tout ce que ce pardon m'a apporté à moi... à cette paix intérieure... ce sentiment d'une force qui veut avec vous, mais non pas à votre place... C'est bien depuis ce jour-là que le monde s'est illuminé pour moi. Auparavant, je tâtonnais dans la nuit... L'épreuve, maman. Avant ces terribles mois ce mot-là me semblait creux. Mais quand on a vécu ce que j'ai vécu...",
+    "id": "p-0171",
+    "fr": "CLAUDE : Quand je songe à tout ce que ce pardon m'a apporté à moi... à cette paix intérieure... ce sentiment d'une force qui veut avec vous, mais non pas à votre place... C'est bien depuis ce jour-là que le monde s'est illuminé pour moi. Auparavant, je tâtonnais dans la nuit... L'épreuve, maman. Avant ces terribles mois ce mot-là me semblait creux. Mais quand on a vécu ce que j'ai vécu..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Elle s'en est si peu doutée !",
+    "id": "p-0172",
+    "fr": "Mme LEMOYNE : Elle s'en est si peu doutée !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Le meilleur de l'épreuve, c'était justement qu'elle ne comprît pas. J'étais tout seul... avec Lui. Et alors, peu à peu, quand j'ai senti qu'elle reprenait confiance... La façon dont il lui arrivait de me regarder quand elle croyait que je ne faisais pas attention ! Cet appel muet dans ses yeux ! C'était comme si j'aidais quelque chose à vivre... quelque chose de si fragile... quelque chose qui avait tant de chances de mourir. Les premiers temps, quand je rentrais le soir, mais je m'attendais toujours à apprendre qu'elle était partie pour le rejoindre ! Je suis sûr que pendant très longtemps elle y a encore songé... elle a cru qu'elle y songeait. Mais en réalité entre elle et lui il y avait une force. Et puis un jour j'ai eu brusquement la certitude que c'était fini — qu'elle n'y pensait plus — que nous avions gagné. Il ne faut pas pleurer, maman. Je n'aurais pas dû remuer tous ces souvenirs...",
+    "id": "p-0173",
+    "fr": "CLAUDE : Le meilleur de l'épreuve, c'était justement qu'elle ne comprît pas. J'étais tout seul... avec Lui. Et alors, peu à peu, quand j'ai senti qu'elle reprenait confiance... La façon dont il lui arrivait de me regarder quand elle croyait que je ne faisais pas attention ! Cet appel muet dans ses yeux ! C'était comme si j'aidais quelque chose à vivre... quelque chose de si fragile... quelque chose qui avait tant de chances de mourir. Les premiers temps, quand je rentrais le soir, mais je m'attendais toujours à apprendre qu'elle était partie pour le rejoindre ! Je suis sûr que pendant très longtemps elle y a encore songé... elle a cru qu'elle y songeait. Mais en réalité entre elle et lui il y avait une force. Et puis un jour j'ai eu brusquement la certitude que c'était fini — qu'elle n'y pensait plus — que nous avions gagné. Il ne faut pas pleurer, maman. Je n'aurais pas dû remuer tous ces souvenirs..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Elle va encore te faire du mal.",
+    "id": "p-0174",
+    "fr": "Mme LEMOYNE : Elle va encore te faire du mal."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "C'était bon autrefois, au temps où nous n'avions pas encore souffert. Mais à présent, nous ne pourrions plus. Chacun a porté aussi la croix de l'autre, chacun a saigné pour l'autre. Nous sommes comme enrichis — meilleurs, oui meilleurs...",
+    "id": "p-0175",
+    "fr": "CLAUDE : C'était bon autrefois, au temps où nous n'avions pas encore souffert. Mais à présent, nous ne pourrions plus. Chacun a porté aussi la croix de l'autre, chacun a saigné pour l'autre. Nous sommes comme enrichis — meilleurs, oui meilleurs..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Ah ! tu exprimes tout ça si bien ! (Elle s'essuie les yeux.)",
+    "id": "p-0176",
+    "fr": "Mme LEMOYNE : Ah ! tu exprimes tout ça si bien ! (Elle s'essuie les yeux.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "On vient de sonner deux coups. Ce doit être Francis ; tu m'excuses ? la bonne est sortie, il faut que j'ouvre moi-même. (Il sort.)",
+    "id": "p-0177",
+    "fr": "CLAUDE : On vient de sonner deux coups. Ce doit être Francis ; tu m'excuses ? la bonne est sortie, il faut que j'ouvre moi-même. (Il sort.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE, seule, à elle-même",
+    "text": "Trop bon, trop généreux. (Elle secoue la tête d'un air désolé.)",
+    "id": "p-0178",
+    "fr": "Mme LEMOYNE, seule, à elle-même : Trop bon, trop généreux. (Elle secoue la tête d'un air désolé.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "[SCÈNE X]",
+    "id": "p-0179",
+    "fr": "[SCÈNE X]"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, FRANCIS",
+    "id": "p-0180",
+    "fr": "LES MÊMES, FRANCIS"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Mon vieux, tu aurais dû venir déjeuner.",
+    "id": "p-0181",
+    "fr": "CLAUDE : Mon vieux, tu aurais dû venir déjeuner."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "J'avais un malade à voir à Jouy-en-Josas ; je ne suis rentré qu'à deux heures.",
+    "id": "p-0182",
+    "fr": "FRANCIS : J'avais un malade à voir à Jouy-en-Josas ; je ne suis rentré qu'à deux heures."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Quand as-tu déjeuné ?",
+    "id": "p-0183",
+    "fr": "Mme LEMOYNE : Quand as-tu déjeuné ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "Il y a une demi-heure, au bar automatique. (A Claude.) Alors ça va ? je viens de voir quelqu'un du consistoire qui m'a parlé de toi. Dis donc, mais ils m'ont l'air de te tenir en haute estime ! Il paraît que tu as galvanisé la paroisse, que les membres de ton église ne jurent que par toi.",
+    "id": "p-0184",
+    "fr": "FRANCIS : Il y a une demi-heure, au bar automatique. (A Claude.) Alors ça va ? je viens de voir quelqu'un du consistoire qui m'a parlé de toi. Dis donc, mais ils m'ont l'air de te tenir en haute estime ! Il paraît que tu as galvanisé la paroisse, que les membres de ton église ne jurent que par toi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Pourquoi ne viens-tu jamais l'entendre ?",
+    "id": "p-0185",
+    "fr": "Mme LEMOYNE : Pourquoi ne viens-tu jamais l'entendre ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "Qu'est-ce que tu veux ? ce n'est pas ma partie. (A Claude.) Maman t'avait prévenu que j'aurais un mot à te dire ?",
+    "id": "p-0186",
+    "fr": "FRANCIS : Qu'est-ce que tu veux ? ce n'est pas ma partie. (A Claude.) Maman t'avait prévenu que j'aurais un mot à te dire ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Oui, mais je ne sais pas du tout de quoi il s'agit.",
+    "id": "p-0187",
+    "fr": "CLAUDE : Oui, mais je ne sais pas du tout de quoi il s'agit."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "Écoute, maman, comme je te l'ai dit... naturellement tu peux rester ; mais tu sais que je vais être obligé d'aborder avec Claude un sujet assez pénible. Je ne voudrais pas te bouleverser inutilement.",
+    "id": "p-0188",
+    "fr": "FRANCIS : Écoute, maman, comme je te l'ai dit... naturellement tu peux rester ; mais tu sais que je vais être obligé d'aborder avec Claude un sujet assez pénible. Je ne voudrais pas te bouleverser inutilement."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Si je ne suis pas de trop, je préférerais...",
+    "id": "p-0189",
+    "fr": "Mme LEMOYNE : Si je ne suis pas de trop, je préférerais..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS,",
+    "text": "Il s'agit de... Michel Sandier.",
+    "id": "p-0190",
+    "fr": "FRANCIS, : Il s'agit de... Michel Sandier."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Ah ! (Mouvement de Mme Lemoyne.)",
+    "id": "p-0191",
+    "fr": "CLAUDE : Ah ! (Mouvement de Mme Lemoyne.)"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "Michel Sandier est venu récemment me consulter.",
+    "id": "p-0192",
+    "fr": "FRANCIS : Michel Sandier est venu récemment me consulter."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "C'est inouï.",
+    "id": "p-0193",
+    "fr": "Mme LEMOYNE : C'est inouï."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "Il n'y a rien là d'extraordinaire ; il sait, par les journaux médicaux, qu'il paraît lire assidûment, que mes recherches portent précisément sur l'affection très grave dont il est actuellement atteint.",
+    "id": "p-0194",
+    "fr": "FRANCIS : Il n'y a rien là d'extraordinaire ; il sait, par les journaux médicaux, qu'il paraît lire assidûment, que mes recherches portent précisément sur l'affection très grave dont il est actuellement atteint."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Alors, c'est une affection... ?",
+    "id": "p-0195",
+    "fr": "CLAUDE : Alors, c'est une affection... ?"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS, à mi-voix",
+    "text": "Oui. Incurable dans l'état actuel des choses. (Haut.) Il avait d'ailleurs une autre raison pour tenir à me voir, moi.",
+    "id": "p-0196",
+    "fr": "FRANCIS, à mi-voix : Oui. Incurable dans l'état actuel des choses. (Haut.) Il avait d'ailleurs une autre raison pour tenir à me voir, moi."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Ah !",
+    "id": "p-0197",
+    "fr": "Mme LEMOYNE : Ah !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "Maman, tu vois bien que Claude a du sang-froid.",
+    "id": "p-0198",
+    "fr": "FRANCIS : Maman, tu vois bien que Claude a du sang-froid."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Il en a trop. Moi, rien que le nom de ce misérable...",
+    "id": "p-0199",
+    "fr": "Mme LEMOYNE : Il en a trop. Moi, rien que le nom de ce misérable..."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "Michel Sandier n'a plus que peu de temps à vivre, et il se sait perdu. Je dois même dire qu'il envisage sa situation avec une lucidité et un calme qui m'ont frappé.",
+    "id": "p-0200",
+    "fr": "FRANCIS : Michel Sandier n'a plus que peu de temps à vivre, et il se sait perdu. Je dois même dire qu'il envisage sa situation avec une lucidité et un calme qui m'ont frappé."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "Mme LEMOYNE",
+    "text": "Probablement une espèce de pose.",
+    "id": "p-0201",
+    "fr": "Mme LEMOYNE : Probablement une espèce de pose."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Maman !",
+    "id": "p-0202",
+    "fr": "CLAUDE : Maman !"
+  },
+  {
+    "sec": "act-1",
+    "speaker": "FRANCIS",
+    "text": "Il a mené depuis des années une existence sur laquelle je ne lui ai pas demandé de s'appesantir, mais qui n'est naturellement pas étrangère à son état présent.",
+    "id": "p-0203",
+    "fr": "FRANCIS : Il a mené depuis des années une existence sur laquelle je ne lui ai pas demandé de s'appesantir, mais qui n'est naturellement pas étrangère à son état présent."
+  },
+  {
+    "sec": "act-1",
+    "speaker": "CLAUDE",
+    "text": "Et alors ?",
+    "id": "p-0204",
+    "fr": "CLAUDE : Et alors ?"
+  }
+]

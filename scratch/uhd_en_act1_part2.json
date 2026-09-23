@@ -1,0 +1,822 @@
+[
+  {
+    "id": "p-0205",
+    "en": "FRANCIS : He seems to have been brought to look back on himself, on the past... or at any rate..."
+  },
+  {
+    "id": "p-0206",
+    "en": "CLAUDE : Is it about Osmonde?"
+  },
+  {
+    "id": "p-0207",
+    "en": "FRANCIS : Yes."
+  },
+  {
+    "id": "p-0208",
+    "en": "MME LEMOYNE : Surely you don't mean?.."
+  },
+  {
+    "id": "p-0209",
+    "en": "FRANCIS : He went about it very cautiously, but I could see what he was getting at. He mentioned incidentally that he had known you in the past and that he had had occasion to hear you... in some church or other."
+  },
+  {
+    "id": "p-0210",
+    "en": "CLAUDE : Did he ask after Edmée?"
+  },
+  {
+    "id": "p-0211",
+    "en": "FRANCIS : He merely asked if \"my sister-in-law was well too.\" It was very difficult for him to go any further; to begin with, you see, he had no reason to suppose I knew about the past, and besides, in any case... I could see the poor wretch struggling with questions he couldn't bring out. You mustn't hold it against me if I gave him a helping hand."
+  },
+  {
+    "id": "p-0212",
+    "en": "MME LEMOYNE : But, Francis!..."
+  },
+  {
+    "id": "p-0213",
+    "en": "FRANCIS : I simply said to him: \"Why, yes, I believe I met you once at Saint-Loup de Talvas, when my brother was pastor there.\" Nothing more. It's curious, the power of a name. He turned completely pale. He was silent, looking down like this, and said to me: \"Yes, I had a house in Saint-Loup.\" As for me, I pretend to recall all of a sudden: \"Why, yes, of course, I remember: that big house above the village; do you still have it? — No, I sold it. — One had a fine view from up there.\" He goes silent again. We were standing, you understand. The examination was over, naturally. I take a step toward the door; he doesn't move. \"Is there something else you wish to ask me? — Yes,\" like a whisper. He takes my hands and looks anxiously into my eyes as if to discover what I know. I don't flinch. Then he says: \"Do you really have no idea what I have to ask you?\" What was I to answer? If you only knew how little desire I had to play hide-and-seek any longer with a dying man..."
+  },
+  {
+    "id": "p-0214",
+    "en": "MME LEMOYNE : I am sure he is not as ill as you make out."
+  },
+  {
+    "id": "p-0215",
+    "en": "FRANCIS : He has only a few months to live, and he knows it."
+  },
+  {
+    "id": "p-0216",
+    "en": "CLAUDE : And then?"
+  },
+  {
+    "id": "p-0217",
+    "en": "FRANCIS : Well, I told him he had nothing to teach me. Oh, Claude will do as he sees fit. He is entirely free. As for me, I believe I could not have acted otherwise."
+  },
+  {
+    "id": "p-0218",
+    "en": "CLAUDE (to Francis) : You were right."
+  },
+  {
+    "id": "p-0219",
+    "en": "MME LEMOYNE : You were supposed to know nothing; it is even a betrayal where I am concerned."
+  },
+  {
+    "id": "p-0220",
+    "en": "CLAUDE : What hypocrisy!"
+  },
+  {
+    "id": "p-0221",
+    "en": "FRANCIS : Let me finish. He is asking to see his daughter before he dies."
+  },
+  {
+    "id": "p-0222",
+    "en": "MME LEMOYNE : But what rights does he have over that child?"
+  },
+  {
+    "id": "p-0223",
+    "en": "FRANCIS : That is another question."
+  },
+  {
+    "id": "p-0224",
+    "en": "MME LEMOYNE : It is the only one! Besides, you had no right to take on this errand."
+  },
+  {
+    "id": "p-0225",
+    "en": "CLAUDE : Mother, you say far too often that one has the right, or that one has no right."
+  },
+  {
+    "id": "p-0226",
+    "en": "MME LEMOYNE (to Francis) : You know your brother; you know he is too good, too generous. I was saying so to him just a moment ago."
+  },
+  {
+    "id": "p-0227",
+    "en": "FRANCIS : Right now you are prejudging his decision."
+  },
+  {
+    "id": "p-0228",
+    "en": "MME LEMOYNE : Oh! I know my Claude."
+  },
+  {
+    "id": "p-0229",
+    "en": "FRANCIS : It is not for us to influence him."
+  },
+  {
+    "id": "p-0230",
+    "en": "MME LEMOYNE : No one will prevent me from giving my opinion."
+  },
+  {
+    "id": "p-0231",
+    "en": "FRANCIS : That makes no sense."
+  },
+  {
+    "id": "p-0232",
+    "en": "MME LEMOYNE : My formal opinion."
+  },
+  {
+    "id": "p-0233",
+    "en": "FRANCIS : No one can put themselves in his place."
+  },
+  {
+    "id": "p-0234",
+    "en": "MME LEMOYNE : His mother can. See his daughter? Surely he doesn't presume we are going to reveal to our little darling..."
+  },
+  {
+    "id": "p-0235",
+    "en": "CLAUDE : He can see Osmonde here, on a visit, like anyone else."
+  },
+  {
+    "id": "p-0236",
+    "en": "MME LEMOYNE : You cannot allow that man to enter your home. It would be scandalous... it would be immoral. Francis, tell him..."
+  },
+  {
+    "id": "p-0237",
+    "en": "FRANCIS : I haven't said a thing."
+  },
+  {
+    "id": "p-0238",
+    "en": "CLAUDE : Mother, I have forgiven."
+  },
+  {
+    "id": "p-0239",
+    "en": "MME LEMOYNE : Her, perhaps."
+  },
+  {
+    "id": "p-0240",
+    "en": "CLAUDE : Her, certainly."
+  },
+  {
+    "id": "p-0241",
+    "en": "MME LEMOYNE : Not him."
+  },
+  {
+    "id": "p-0242",
+    "en": "CLAUDE : That is to say, life had not yet forced me to ask myself."
+  },
+  {
+    "id": "p-0243",
+    "en": "MME LEMOYNE : If he didn't have the good fortune of being ill..."
+  },
+  {
+    "id": "p-0244",
+    "en": "FRANCIS : Oh! Mother."
+  },
+  {
+    "id": "p-0245",
+    "en": "MME LEMOYNE : And do you think he will be content with seeing Osmonde on a visit? God knows what claims he will make after that!"
+  },
+  {
+    "id": "p-0246",
+    "en": "CLAUDE : It is a trial placed before me: I must live it day by day."
+  },
+  {
+    "id": "p-0247",
+    "en": "FRANCIS : There I don't follow you, old fellow. Still, you mustn't let yourself be drawn into the machinery. You must keep your full freedom of action."
+  },
+  {
+    "id": "p-0248",
+    "en": "CLAUDE : Listen: it is intolerable for me to discuss this any longer... without Edmée."
+  },
+  {
+    "id": "p-0249",
+    "en": "FRANCIS : Yet it would be dreadfully reckless to let her know. Ah, think about it, my dear fellow! You risk upsetting her dangerously. It's a case where I believe you can and must decide alone."
+  },
+  {
+    "id": "p-0250",
+    "en": "CLAUDE : I am not of that opinion."
+  },
+  {
+    "id": "p-0251",
+    "en": "FRANCIS : Understand me well; I do not fear for a minute"
+  },
+  {
+    "id": "p-0252",
+    "en": "FRANCIS : that, brought face to face with this wretched man, she could feel the shadow of some kind of..."
+  },
+  {
+    "id": "p-0253",
+    "en": "CLAUDE : Francis!"
+  },
+  {
+    "id": "p-0254",
+    "en": "FRANCIS : But disgust, a kind of horror, well, naturally... and then think of the possible repercussions of such a shock on a fragile constitution. Forgive me, old chap, but after all you know perfectly well that your wife is not what one might call a balanced nature; and are you going to expose her lightheartedly to such a risk? There can be no question of her seeing him again; and even simply repeating to her what I told you, I think that's..."
+  },
+  {
+    "id": "p-0255",
+    "en": "CLAUDE (painfully) : Osmonde is their daughter... and besides... no, I cannot take this responsibility upon myself for her."
+  },
+  {
+    "id": "p-0256",
+    "en": "FRANCIS : Allow me, allow me; under some pretext or other, Michel comes to see you on a day when your wife is out."
+  },
+  {
+    "id": "p-0257",
+    "en": "MME LEMOYNE : I am going."
+  },
+  {
+    "id": "p-0258",
+    "en": "FRANCIS : Mother, come now... and when Osmonde is at home."
+  },
+  {
+    "id": "p-0259",
+    "en": "CLAUDE : And Osmonde will have to hide this visit from her mother?"
+  },
+  {
+    "id": "p-0260",
+    "en": "FRANCIS : There is a slight difficulty there, I grant you. Some way around it to be found..."
+  },
+  {
+    "id": "p-0261",
+    "en": "CLAUDE : I will not look for one."
+  },
+  {
+    "id": "p-0262",
+    "en": "FRANCIS : Yes; well, I don't..."
+  },
+  {
+    "id": "p-0263",
+    "en": "CLAUDE : Rather than lie again to Edmée, I would prefer to refuse outright."
+  },
+  {
+    "id": "p-0264",
+    "en": "FRANCIS : In that case, do refuse. That poor devil, after all..."
+  },
+  {
+    "id": "p-0265",
+    "en": "CLAUDE : It is our entire relationship that is at stake. If I have succeeded in creating trust and intimacy between us, you..."
+  },
+  {
+    "id": "p-0266",
+    "en": "FRANCIS : You risk throwing all that into question."
+  },
+  {
+    "id": "p-0267",
+    "en": "CLAUDE : How so?"
+  },
+  {
+    "id": "p-0268",
+    "en": "FRANCIS : I don't know, but I feel it."
+  },
+  {
+    "id": "p-0269",
+    "en": "MME LEMOYNE : After all, through all these years, did he ever care about Osmonde?"
+  },
+  {
+    "id": "p-0270",
+    "en": "FRANCIS : What would you have? He had compensations. Now, it's less pleasant; and then, one must take this as the obsession of a sick man."
+  },
+  {
+    "id": "p-0271",
+    "en": "CLAUDE (to Francis) : You hurt me earlier by speaking of Edmée as you did. Yet it seems to me she has proven her worth. Just look at her life! Is it possible to fulfill one's duties more completely, to lead an existence more full, more useful?..."
+  },
+  {
+    "id": "p-0272",
+    "en": "FRANCIS : Well, that is perhaps precisely what frightens me."
+  },
+  {
+    "id": "p-0273",
+    "en": "CLAUDE : What do you mean?"
+  },
+  {
+    "id": "p-0274",
+    "en": "FRANCIS : It is this exemplary life, yes, this austerity, this regularity that worry me. All that, I don't know, it's a kind of sleep. Sometimes it seems to me that your wife sleeps her life away. (They have not noticed that Edmée has entered; abruptly they discover that she is there.) Why, hello, Edmée! (A silence.)"
+  },
+  {
+    "id": "p-0275",
+    "en": "[SCENE XI]"
+  },
+  {
+    "id": "p-0276",
+    "en": "THE SAME, EDMÉE"
+  },
+  {
+    "id": "p-0277",
+    "en": "MME LEMOYNE (with forced eagerness) : Well, how was the Young Women's Union? How early you are home, Edmée!"
+  },
+  {
+    "id": "p-0278",
+    "en": "EDMÉE : I was not needed."
+  },
+  {
+    "id": "p-0279",
+    "en": "MME LEMOYNE : It is a pity you troubled yourself for nothing. Fortunately with the CD... those buses are so convenient... (A silence.) Is it raining just now?"
+  },
+  {
+    "id": "p-0280",
+    "en": "EDMÉE : I don't know, perhaps a few drops, I didn't"
+  },
+  {
+    "id": "p-0281",
+    "en": "EDMÉE : pay attention. You all seemed very animated when I came in."
+  },
+  {
+    "id": "p-0282",
+    "en": "MME LEMOYNE : Well, that is to say..."
+  },
+  {
+    "id": "p-0283",
+    "en": "CLAUDE : I'll tell you."
+  },
+  {
+    "id": "p-0284",
+    "en": "MME LEMOYNE : Yes, yes, he will tell you."
+  },
+  {
+    "id": "p-0285",
+    "en": "EDMÉE (to Francis) : I may send you one of these days a little girl who comes to my sewing circle and who looks to me very much as if she is developing tuberculosis."
+  },
+  {
+    "id": "p-0286",
+    "en": "FRANCIS (rising) : At your disposal. Coming, Mother?"
+  },
+  {
+    "id": "p-0287",
+    "en": "EDMÉE : Are you running off already?"
+  },
+  {
+    "id": "p-0288",
+    "en": "MME LEMOYNE : When shall we see each other again?"
+  },
+  {
+    "id": "p-0289",
+    "en": "FRANCIS : Come for dinner one of these days."
+  },
+  {
+    "id": "p-0290",
+    "en": "MME LEMOYNE : But aren't you afraid that Eugénie?... She doesn't seem in the best disposition at the moment; three extra places... (The rest is lost. Claude and Edmée see them out and return immediately.)"
+  },
+  {
+    "id": "p-0291",
+    "en": "[SCENE XII]"
+  },
+  {
+    "id": "p-0292",
+    "en": "CLAUDE : I am glad you came home early."
+  },
+  {
+    "id": "p-0293",
+    "en": "EDMÉE : Listen to me for a moment, Claude."
+  },
+  {
+    "id": "p-0294",
+    "en": "CLAUDE (looking at her) : Yes, I know."
+  },
+  {
+    "id": "p-0295",
+    "en": "EDMÉE : About your mother?"
+  },
+  {
+    "id": "p-0296",
+    "en": "CLAUDE : Yes."
+  },
+  {
+    "id": "p-0297",
+    "en": "EDMÉE : At first it upset me terribly. No, let me finish, my darling. (She has taken his hands.) And then I thought about it."
+  },
+  {
+    "id": "p-0298",
+    "en": "EDMÉE : I was probably wrong at the time to demand that promise. But the thought that anyone might know was dreadful to me."
+  },
+  {
+    "id": "p-0299",
+    "en": "CLAUDE : Yes, yes."
+  },
+  {
+    "id": "p-0300",
+    "en": "EDMÉE : Especially your mother. She sits in such judgment on you, with her airs of indulgence."
+  },
+  {
+    "id": "p-0301",
+    "en": "CLAUDE : Edmée!"
+  },
+  {
+    "id": "p-0302",
+    "en": "EDMÉE : Well, never mind. Let nothing more be said about it, that is all."
+  },
+  {
+    "id": "p-0303",
+    "en": "CLAUDE : My darling, that is so generous of you. I was afraid that you..."
+  },
+  {
+    "id": "p-0304",
+    "en": "EDMÉE : Don't speak of generosity, please... Naturally you were under no obligation to me; it was madness to believe otherwise."
+  },
+  {
+    "id": "p-0305",
+    "en": "CLAUDE : When I made that commitment, I assure you..."
+  },
+  {
+    "id": "p-0306",
+    "en": "EDMÉE : Yes, at that very moment. But let us not argue; I repeat, I understand, or at any rate..."
+  },
+  {
+    "id": "p-0307",
+    "en": "CLAUDE : Do you forgive me?"
+  },
+  {
+    "id": "p-0308",
+    "en": "EDMÉE : Don't mock me, Claude."
+  },
+  {
+    "id": "p-0309",
+    "en": "CLAUDE : I was saying only a moment ago to Mother..."
+  },
+  {
+    "id": "p-0310",
+    "en": "EDMÉE : Were the three of you talking about that when I came in? No, I'd rather you didn't answer me. So your brother too, naturally. (A silence, her hands clench.)"
+  },
+  {
+    "id": "p-0311",
+    "en": "CLAUDE : When you reproach me for having taken advantage of some so-called superiority..."
+  },
+  {
+    "id": "p-0312",
+    "en": "EDMÉE : I am not reproaching you for anything. The reality of a situation is what it is. (Emphasizing the word.) All the same, you \"forgave\" me."
+  },
+  {
+    "id": "p-0313",
+    "en": "CLAUDE : My darling, surely you know what that word means in my eyes; I have explained it to you."
+  },
+  {
+    "id": "p-0314",
+    "en": "EDMÉE : Yes, you have explained lots of things to me."
+  },
+  {
+    "id": "p-0315",
+    "en": "CLAUDE : What remorse you give me! Without that lie..."
+  },
+  {
+    "id": "p-0316",
+    "en": "EDMÉE : There is only one question I would like to ask you. Earlier, your mother alluded in front of me to a crisis of conscience that you were supposed to have gone through at one time... It is not to reproach you for not having taken me into your confidence then... No; it is only about the date."
+  },
+  {
+    "id": "p-0317",
+    "en": "CLAUDE : What?"
+  },
+  {
+    "id": "p-0318",
+    "en": "EDMÉE : At what period did you go through that anguish?"
+  },
+  {
+    "id": "p-0319",
+    "en": "CLAUDE : That cannot be dated like a physical illness."
+  },
+  {
+    "id": "p-0320",
+    "en": "EDMÉE : Why do you look embarrassed?"
+  },
+  {
+    "id": "p-0321",
+    "en": "CLAUDE : No, not at all. It must have been in nineteen-o-two."
+  },
+  {
+    "id": "p-0322",
+    "en": "EDMÉE : So at a time when you did not yet have any suspicion?"
+  },
+  {
+    "id": "p-0323",
+    "en": "CLAUDE : None."
+  },
+  {
+    "id": "p-0324",
+    "en": "EDMÉE : And it was afterwards that your anxieties cleared up?"
+  },
+  {
+    "id": "p-0325",
+    "en": "CLAUDE : But, you must understand, it wasn't a matter of a day or a month... It was rather like a slow transformation of myself, a kind of blossoming."
+  },
+  {
+    "id": "p-0326",
+    "en": "EDMÉE : Did I have nothing to do with it?"
+  },
+  {
+    "id": "p-0327",
+    "en": "CLAUDE : What do you mean?"
+  },
+  {
+    "id": "p-0328",
+    "en": "EDMÉE : I... what I did against you... my betrayal of you... Is it mere chance that it was after learning the truth that you regained... your faith in God?"
+  },
+  {
+    "id": "p-0329",
+    "en": "CLAUDE : It is impossible for me to answer you. Chance... no, it was surely not chance."
+  },
+  {
+    "id": "p-0330",
+    "en": "EDMÉE : That is all I wanted to know."
+  },
+  {
+    "id": "p-0331",
+    "en": "CLAUDE : I do not believe there is any chance in that realm. (Edmée does not answer; she has gone to fetch some needlework, over which she bends.) I would so like to make you understand what happened within me then."
+  },
+  {
+    "id": "p-0332",
+    "en": "EDMÉE : Perhaps it is too difficult."
+  },
+  {
+    "id": "p-0333",
+    "en": "CLAUDE : In the early days of our marriage..."
+  },
+  {
+    "id": "p-0334",
+    "en": "EDMÉE (looking up at him) : Do you really insist on going back over that?"
+  },
+  {
+    "id": "p-0335",
+    "en": "CLAUDE : It was as if I could never reach you; I felt I was always beside the mark. You're not listening to me."
+  },
+  {
+    "id": "p-0336",
+    "en": "EDMÉE : Yes, I am, yes, I am."
+  },
+  {
+    "id": "p-0337",
+    "en": "CLAUDE : That lack of contact between us was agonizing to me. It seemed to me that I lacked the essential gift. Along with that, you remember all the disappointments I had at Saint-Loup, with my catechumens; the story of little Genévrier."
+  },
+  {
+    "id": "p-0338",
+    "en": "EDMÉE (still bent over her needlework) : I fail to see the connection."
+  },
+  {
+    "id": "p-0339",
+    "en": "CLAUDE : But it is all bound together. Those doubts you speak of, at bottom they concerned my abilities—my vocation, if you like."
+  },
+  {
+    "id": "p-0340",
+    "en": "EDMÉE : Yes, I was... one of your failures."
+  },
+  {
+    "id": "p-0341",
+    "en": "CLAUDE : You know how unsure of myself I am."
+  },
+  {
+    "id": "p-0342",
+    "en": "EDMÉE : No, I don't know..."
+  },
+  {
+    "id": "p-0343",
+    "en": "CLAUDE : And then, step by step... When you no longer have faith in yourself, it is as though the ground were giving way beneath your feet. Nothing remains... Naturally, I didn't feel that all the time. It was rather like"
+  },
+  {
+    "id": "p-0344",
+    "en": "CLAUDE : bouts of discouragement that grew more and more frequent. Each one left me diminished inside, weakened, terrified of my weakness. Do you understand?"
+  },
+  {
+    "id": "p-0345",
+    "en": "EDMÉE : Vaguely."
+  },
+  {
+    "id": "p-0346",
+    "en": "CLAUDE : Then came this... (He makes a gesture.)"
+  },
+  {
+    "id": "p-0347",
+    "en": "EDMÉE : Trial."
+  },
+  {
+    "id": "p-0348",
+    "en": "CLAUDE : This time, it was truly absolute emptiness. I was completely alone. My wife, my child were lost to me at once. At first it seemed to me I could not survive it. It's true, you know. And then, little by little, it was as if a light began to appear."
+  },
+  {
+    "id": "p-0349",
+    "en": "EDMÉE : Inevitably!"
+  },
+  {
+    "id": "p-0350",
+    "en": "CLAUDE : What?"
+  },
+  {
+    "id": "p-0351",
+    "en": "EDMÉE : I merely observe that there are not two ways of saying such things."
+  },
+  {
+    "id": "p-0352",
+    "en": "CLAUDE : What was happening had a meaning. It was like a call sounded in the deepest part of myself. It had to be understood."
+  },
+  {
+    "id": "p-0353",
+    "en": "EDMÉE : God was speaking to you."
+  },
+  {
+    "id": "p-0354",
+    "en": "CLAUDE : For the first time I was brought face to face with myself; I was going to have to discover what I was dealing with, and perhaps it was the sense of my infinite weakness that saved me."
+  },
+  {
+    "id": "p-0355",
+    "en": "EDMÉE : At bottom, you alone were what mattered, of course."
+  },
+  {
+    "id": "p-0356",
+    "en": "CLAUDE : I prayed with a fervor I did not know I possessed."
+  },
+  {
+    "id": "p-0357",
+    "en": "EDMÉE : For whom were you praying?"
+  },
+  {
+    "id": "p-0358",
+    "en": "CLAUDE : For the two of us; that God might give me the strength to be of help to you; and little by little I felt as though my suffering were being transformed into a living, efficacious power."
+  },
+  {
+    "id": "p-0359",
+    "en": "EDMÉE : Yes... In short..."
+  },
+  {
+    "id": "p-0360",
+    "en": "CLAUDE : What is it?"
+  },
+  {
+    "id": "p-0361",
+    "en": "EDMÉE : Nothing. I find it all wonderful. (A silence.)"
+  },
+  {
+    "id": "p-0362",
+    "en": "[SCENE XIII]"
+  },
+  {
+    "id": "p-0363",
+    "en": "THE SAME, OSMONDE"
+  },
+  {
+    "id": "p-0364",
+    "en": "CLAUDE : Did you have a good walk?"
+  },
+  {
+    "id": "p-0365",
+    "en": "EDMÉE : Who let you in?"
+  },
+  {
+    "id": "p-0366",
+    "en": "OSMONDE : Félicie is back. It's raining, the little girls were tired, they had had enough."
+  },
+  {
+    "id": "p-0367",
+    "en": "EDMÉE : What are you going to do now?"
+  },
+  {
+    "id": "p-0368",
+    "en": "OSMONDE : I came to get a book to read to them for a while."
+  },
+  {
+    "id": "p-0369",
+    "en": "EDMÉE : Don't forget Mademoiselle Gentil at five o'clock... Osmonde!"
+  },
+  {
+    "id": "p-0370",
+    "en": "OSMONDE (nervously) : What is it, Mother?"
+  },
+  {
+    "id": "p-0371",
+    "en": "EDMÉE : Don't you think we might suggest to that gentleman that he hire a governess?"
+  },
+  {
+    "id": "p-0372",
+    "en": "OSMONDE : But, Mother..."
+  },
+  {
+    "id": "p-0373",
+    "en": "EDMÉE : You are displaying a readiness to oblige that is not in your character."
+  },
+  {
+    "id": "p-0374",
+    "en": "OSMONDE : Father, I make you the judge..."
+  },
+  {
+    "id": "p-0375",
+    "en": "EDMÉE : Those little girls are quite ordinary; you told me so yourself."
+  },
+  {
+    "id": "p-0376",
+    "en": "OSMONDE : They are very sweet."
+  },
+  {
+    "id": "p-0377",
+    "en": "EDMÉE : At any rate, I am resolved to write to Monsieur Mégal that your duties do not allow you to devote any more time to his children."
+  },
+  {
+    "id": "p-0378",
+    "en": "OSMONDE : That will be a lie."
+  },
+  {
+    "id": "p-0379",
+    "en": "EDMÉE : It will be strictly accurate."
+  },
+  {
+    "id": "p-0380",
+    "en": "OSMONDE : Father, I ask you to listen to me tonight for five minutes. Just five minutes. Won't you? (She goes out.)"
+  },
+  {
+    "id": "p-0381",
+    "en": "[SCENE XIV]"
+  },
+  {
+    "id": "p-0382",
+    "en": "CLAUDE : I don't follow at all."
+  },
+  {
+    "id": "p-0383",
+    "en": "EDMÉE : Yet one ought to see clearly. (A silence.)"
+  },
+  {
+    "id": "p-0384",
+    "en": "CLAUDE (in an unsteady voice) : I had something else to tell you. About what Francis came to tell me just now."
+  },
+  {
+    "id": "p-0385",
+    "en": "EDMÉE : Well?"
+  },
+  {
+    "id": "p-0386",
+    "en": "CLAUDE (as if to himself) : My God! Perhaps he was the one who was right... but I cannot."
+  },
+  {
+    "id": "p-0387",
+    "en": "EDMÉE : Is it so serious, then?"
+  },
+  {
+    "id": "p-0388",
+    "en": "CLAUDE : It is agonizing. (Edmée moves closer to him.)"
+  },
+  {
+    "id": "p-0389",
+    "en": "EDMÉE (gently) : What is it?"
+  },
+  {
+    "id": "p-0390",
+    "en": "CLAUDE : Ah! I need your tenderness."
+  },
+  {
+    "id": "p-0391",
+    "en": "EDMÉE (bitterly) : If only I were sure of that..."
+  },
+  {
+    "id": "p-0392",
+    "en": "CLAUDE : Well... he went to consult Francis; he is very ill."
+  },
+  {
+    "id": "p-0393",
+    "en": "EDMÉE : Whom are you speaking of? (Claude stares at her.) Ah..."
+  },
+  {
+    "id": "p-0394",
+    "en": "CLAUDE : Francis says his condition is extremely grave. It seems he is unrecognizable. And he asks to see the girl... once."
+  },
+  {
+    "id": "p-0395",
+    "en": "EDMÉE : We must refuse."
+  },
+  {
+    "id": "p-0396",
+    "en": "CLAUDE : I don't know."
+  },
+  {
+    "id": "p-0397",
+    "en": "EDMÉE (forcefully) : We must refuse."
+  },
+  {
+    "id": "p-0398",
+    "en": "CLAUDE : Why must we refuse?"
+  },
+  {
+    "id": "p-0399",
+    "en": "EDMÉE : I cannot explain it, but I am sure of it. It's not possible; surely you feel that."
+  },
+  {
+    "id": "p-0400",
+    "en": "CLAUDE : Listen, my darling, I have no right to hide the truth from you. Francis says he is doomed within a very short time. Understand me. You may be right, I don't know. But are you quite sure that this isn't a kind of cowardice?... (Edmée gives a shudder.) You wouldn't see him. He would come for a visit on a day when you were out."
+  },
+  {
+    "id": "p-0401",
+    "en": "EDMÉE : You have already arranged everything in your mind! But this is appalling. Who are you, then? You are not a man!"
+  },
+  {
+    "id": "p-0402",
+    "en": "CLAUDE : He is a dying man."
+  },
+  {
+    "id": "p-0403",
+    "en": "EDMÉE : So, for you the past is abolished, null and void. That he held me in his arms, that he pressed me to his heart..."
+  },
+  {
+    "id": "p-0404",
+    "en": "CLAUDE : Be silent."
+  },
+  {
+    "id": "p-0405",
+    "en": "EDMÉE : Oh! You can hear it all. You certainly don't lack cold blood where I am concerned."
+  },
+  {
+    "id": "p-0406",
+    "en": "CLAUDE : But that is monstrous, Edmée, what you are saying..."
+  },
+  {
+    "id": "p-0407",
+    "en": "EDMÉE : This cheap magnanimity fills me with horror."
+  },
+  {
+    "id": "p-0408",
+    "en": "CLAUDE : Cheap! But when I forgave you..."
+  },
+  {
+    "id": "p-0409",
+    "en": "EDMÉE : If you didn't forgive me because you loved me, what do you expect me to do with your forgiveness? (She bursts into tears.)"
+  }
+]

@@ -1,0 +1,1283 @@
+[
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[ACTE II]",
+    "id": "p-0410",
+    "fr": "[ACTE II]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "Le soir du même jour.",
+    "id": "p-0411",
+    "fr": "Le soir du même jour."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "Le cabinet de travail de Claude. Une longue pièce étroite avec de hautes bibliothèques pleines d'in-octavo brochés ; au milieu une table-bureau encombrée de papiers sur laquelle est placée une lampe à pétrole. Il est huit heures. Claude est assis et lit. On frappe à la porte.",
+    "id": "p-0412",
+    "fr": "Le cabinet de travail de Claude. Une longue pièce étroite avec de hautes bibliothèques pleines d'in-octavo brochés ; au milieu une table-bureau encombrée de papiers sur laquelle est placée une lampe à pétrole. Il est huit heures. Claude est assis et lit. On frappe à la porte."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE I]",
+    "id": "p-0413",
+    "fr": "[SCÈNE I]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Qu'est-ce que c'est ?",
+    "id": "p-0414",
+    "fr": "CLAUDE : Qu'est-ce que c'est ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, à la cantonade",
+    "text": "C'est moi, papa.",
+    "id": "p-0415",
+    "fr": "OSMONDE, à la cantonade : C'est moi, papa."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Entre, ma petite. (Osmonde entre à gauche) Eh bien ! voyons, qu'est-ce qu'il y a ? D'abord, est-ce que tu ne crois pas que ce n'est pas très gentil pour maman",
+    "id": "p-0416",
+    "fr": "CLAUDE : Entre, ma petite. (Osmonde entre à gauche) Eh bien ! voyons, qu'est-ce qu'il y a ? D'abord, est-ce que tu ne crois pas que ce n'est pas très gentil pour maman"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "de tenir à me parler à part ? (Mouvement d'Osmonde.) Si je lui demandais de venir aussi, hein ?",
+    "id": "p-0417",
+    "fr": "CLAUDE : de tenir à me parler à part ? (Mouvement d'Osmonde.) Si je lui demandais de venir aussi, hein ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Dans ce cas-là je m'en irai.",
+    "id": "p-0418",
+    "fr": "OSMONDE : Dans ce cas-là je m'en irai."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Osmonde !",
+    "id": "p-0419",
+    "fr": "CLAUDE : Osmonde !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "C'est justement à propos de maman... enfin de maman et de moi... Alors, tu comprends... Vois-tu, papa, je ne suis pas heureuse.",
+    "id": "p-0420",
+    "fr": "OSMONDE : C'est justement à propos de maman... enfin de maman et de moi... Alors, tu comprends... Vois-tu, papa, je ne suis pas heureuse."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Ma chérie !",
+    "id": "p-0421",
+    "fr": "CLAUDE : Ma chérie !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Oh ! mais pas heureuse du tout. L'autre jour à la réunion de prières tu disais que notre bonheur est en nous.",
+    "id": "p-0422",
+    "fr": "OSMONDE : Oh ! mais pas heureuse du tout. L'autre jour à la réunion de prières tu disais que notre bonheur est en nous."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu sais bien que c'est vrai.",
+    "id": "p-0423",
+    "fr": "CLAUDE : Tu sais bien que c'est vrai."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Pour moi en tous cas, ce n'est pas vrai... il me semble qu'il n'y a en moi que de quoi me faire souffrir. Ou s'il y a autre chose, c'est tellement caché, tellement... Oh ! maman sait bien que je ne suis pas heureuse, et je crois qu'elle m'en veut.",
+    "id": "p-0424",
+    "fr": "OSMONDE : Pour moi en tous cas, ce n'est pas vrai... il me semble qu'il n'y a en moi que de quoi me faire souffrir. Ou s'il y a autre chose, c'est tellement caché, tellement... Oh ! maman sait bien que je ne suis pas heureuse, et je crois qu'elle m'en veut."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mais enfin qu'est-ce qui te... y a-t-il une raison spéciale ?",
+    "id": "p-0425",
+    "fr": "CLAUDE : Mais enfin qu'est-ce qui te... y a-t-il une raison spéciale ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Il y aurait plutôt toutes les raisons. Je te demande pardon, je te fais de la peine en ce moment.",
+    "id": "p-0426",
+    "fr": "OSMONDE : Il y aurait plutôt toutes les raisons. Je te demande pardon, je te fais de la peine en ce moment."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Ma chérie, il faut tout me dire... et même pourquoi ne m'avoir pas parlé plus tôt ? est-ce que tu ne crois pas que c'est affreux pour moi ?..",
+    "id": "p-0427",
+    "fr": "CLAUDE : Ma chérie, il faut tout me dire... et même pourquoi ne m'avoir pas parlé plus tôt ? est-ce que tu ne crois pas que c'est affreux pour moi ?.."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Je t'en prie.",
+    "id": "p-0428",
+    "fr": "OSMONDE : Je t'en prie."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Enfin je devrais pourtant voir clair en toi... Si même les cœurs les plus proches sont impénétrables...",
+    "id": "p-0429",
+    "fr": "CLAUDE : Enfin je devrais pourtant voir clair en toi... Si même les cœurs les plus proches sont impénétrables..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Ce doit être justement parce que je suis trop près... Tu me demandes pourquoi je ne t'ai pas parlé plus tôt. Il m'est bien difficile de te répondre.",
+    "id": "p-0430",
+    "fr": "OSMONDE : Ce doit être justement parce que je suis trop près... Tu me demandes pourquoi je ne t'ai pas parlé plus tôt. Il m'est bien difficile de te répondre."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, amèrement",
+    "text": "Tu n'avais pas confiance en moi, probablement.",
+    "id": "p-0431",
+    "fr": "CLAUDE, amèrement : Tu n'avais pas confiance en moi, probablement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Oh ! si, papa, je n'ai confiance qu'en toi.",
+    "id": "p-0432",
+    "fr": "OSMONDE : Oh ! si, papa, je n'ai confiance qu'en toi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Et ta mère, Osmonde ?",
+    "id": "p-0433",
+    "fr": "CLAUDE : Et ta mère, Osmonde ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Maman, c'est quelqu'un qui ne vous aide jamais. D'abord elle juge tellement tout ce qu'on dit, tout ce qu'on fait ; et moi ça me paralyse, mais à un point... Et toi tu es si occupé, tu as tant de soucis, toutes ces misères à soulager. On dirait toujours qu'on te vole à quelqu'un. Et puis, évidemment, à côté de tout ce que tu vois...",
+    "id": "p-0434",
+    "fr": "OSMONDE : Maman, c'est quelqu'un qui ne vous aide jamais. D'abord elle juge tellement tout ce qu'on dit, tout ce qu'on fait ; et moi ça me paralyse, mais à un point... Et toi tu es si occupé, tu as tant de soucis, toutes ces misères à soulager. On dirait toujours qu'on te vole à quelqu'un. Et puis, évidemment, à côté de tout ce que tu vois..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu me dis que tu as toutes les raisons de ne pas être heureuse.",
+    "id": "p-0435",
+    "fr": "CLAUDE : Tu me dis que tu as toutes les raisons de ne pas être heureuse."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Ça veut dire que lorsque je regarde devant moi, je ne vois rien, la vie ne m'attire pas.",
+    "id": "p-0436",
+    "fr": "OSMONDE : Ça veut dire que lorsque je regarde devant moi, je ne vois rien, la vie ne m'attire pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Comment ?",
+    "id": "p-0437",
+    "fr": "CLAUDE : Comment ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Oui, pour toi, la vie, n'est-ce pas ? c'est un cadeau de Dieu, quelque chose de grand, de magnifique ; la Vie ! quand tu dis ce mot-là, ta voix tremble. Et moi, au contraire, ça me paraît dérisoire, insignifiant. Ma vie...",
+    "id": "p-0438",
+    "fr": "OSMONDE : Oui, pour toi, la vie, n'est-ce pas ? c'est un cadeau de Dieu, quelque chose de grand, de magnifique ; la Vie ! quand tu dis ce mot-là, ta voix tremble. Et moi, au contraire, ça me paraît dérisoire, insignifiant. Ma vie..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Pourtant tu as devant toi... (il a un geste.)",
+    "id": "p-0439",
+    "fr": "CLAUDE : Pourtant tu as devant toi... (il a un geste.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Le mariage... les enfants... c'est ça que tu veux dire ?",
+    "id": "p-0440",
+    "fr": "OSMONDE : Le mariage... les enfants... c'est ça que tu veux dire ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Oui. (Un silence.)",
+    "id": "p-0441",
+    "fr": "CLAUDE : Oui. (Un silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Regarde autour de nous. Henriette Bellanger, Jeanne Schild... elles sont mariées, elles ont des enfants... je ne trouve rien à envier dans ces vies-là. Pas seulement à envier. Rien d'intéressant.",
+    "id": "p-0442",
+    "fr": "OSMONDE : Regarde autour de nous. Henriette Bellanger, Jeanne Schild... elles sont mariées, elles ont des enfants... je ne trouve rien à envier dans ces vies-là. Pas seulement à envier. Rien d'intéressant."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu ne crois pas que c'est bien superficiel de juger comme tu le fais ?",
+    "id": "p-0443",
+    "fr": "CLAUDE : Tu ne crois pas que c'est bien superficiel de juger comme tu le fais ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Elles ont des existences étroites, difficiles...",
+    "id": "p-0444",
+    "fr": "OSMONDE : Elles ont des existences étroites, difficiles..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Alors c'est ça ?",
+    "id": "p-0445",
+    "fr": "CLAUDE : Alors c'est ça ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, nerveuse",
+    "text": "Mais laisse-moi donc t'expliquer... Admettons qu'elles soient heureuses, je n'en sais rien ; ça veut dire qu'elles ont des maris qui ne les trompent pas...",
+    "id": "p-0446",
+    "fr": "OSMONDE, nerveuse : Mais laisse-moi donc t'expliquer... Admettons qu'elles soient heureuses, je n'en sais rien ; ça veut dire qu'elles ont des maris qui ne les trompent pas..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Ma chérie !",
+    "id": "p-0447",
+    "fr": "CLAUDE : Ma chérie !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Des enfants qui poussent sans trop de peine, avec seulement trois ou quatre maladies en moyenne, chaque année. Non, moi ça ne me dit rien. Je ne vois pas à quoi riment ces existences-là. Si la mienne doit être taillée sur le même patron...",
+    "id": "p-0448",
+    "fr": "OSMONDE : Des enfants qui poussent sans trop de peine, avec seulement trois ou quatre maladies en moyenne, chaque année. Non, moi ça ne me dit rien. Je ne vois pas à quoi riment ces existences-là. Si la mienne doit être taillée sur le même patron..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mais il n'y a pas de patron. Chacune de ces vies a sa beauté secrète.",
+    "id": "p-0449",
+    "fr": "CLAUDE : Mais il n'y a pas de patron. Chacune de ces vies a sa beauté secrète."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Secrète, oui, tu peux le dire !",
+    "id": "p-0450",
+    "fr": "OSMONDE : Secrète, oui, tu peux le dire !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Son originalité intime, il faudrait la vivre pour pouvoir l'apprécier.",
+    "id": "p-0451",
+    "fr": "CLAUDE : Son originalité intime, il faudrait la vivre pour pouvoir l'apprécier."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Merci : la mienne me suffit... tout de même, si ce n'étaient que des exemplaires tirés par milliers, par millions, comme des journaux, comme des tracts... Oui, c'est ça, des tracts.",
+    "id": "p-0452",
+    "fr": "OSMONDE : Merci : la mienne me suffit... tout de même, si ce n'étaient que des exemplaires tirés par milliers, par millions, comme des journaux, comme des tracts... Oui, c'est ça, des tracts."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Est-ce qu'il n'y aurait pas un petit peu d'orgueil au fond de tout ça ?",
+    "id": "p-0453",
+    "fr": "CLAUDE : Est-ce qu'il n'y aurait pas un petit peu d'orgueil au fond de tout ça ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Tu sais, sans l'orgueil...",
+    "id": "p-0454",
+    "fr": "OSMONDE : Tu sais, sans l'orgueil..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Se conformer aux lois de la vie, les faire siennes, les vouloir à son tour...",
+    "id": "p-0455",
+    "fr": "CLAUDE : Se conformer aux lois de la vie, les faire siennes, les vouloir à son tour..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "C'est un mot. Qu'on veuille ou qu'on ne veuille pas...",
+    "id": "p-0456",
+    "fr": "OSMONDE : C'est un mot. Qu'on veuille ou qu'on ne veuille pas..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Ce n'est pas un mot, ma chérie, c'est une grande vérité. Recevoir pour donner.",
+    "id": "p-0457",
+    "fr": "CLAUDE : Ce n'est pas un mot, ma chérie, c'est une grande vérité. Recevoir pour donner."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Recevoir quoi ? donner quoi ? et puis justement si c'est pour transmettre à d'autres qui transmettront à leur tour, à quoi bon ce jeu ? cette course perpétuelle dans le brouillard ?",
+    "id": "p-0458",
+    "fr": "OSMONDE : Recevoir quoi ? donner quoi ? et puis justement si c'est pour transmettre à d'autres qui transmettront à leur tour, à quoi bon ce jeu ? cette course perpétuelle dans le brouillard ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, l'attirant à lui",
+    "text": "Alors, ce désarroi, au fond, ça signifie que tu...",
+    "id": "p-0459",
+    "fr": "CLAUDE, l'attirant à lui : Alors, ce désarroi, au fond, ça signifie que tu..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Quand on est comme moi il faudrait pouvoir trouver un appui dans la foi des autres... Jusqu'à présent, ta foi m'a soutenue, ta foi à toi... Mais quand on est trop angoissé, ça ne suffit pas. En ce moment...",
+    "id": "p-0460",
+    "fr": "OSMONDE : Quand on est comme moi il faudrait pouvoir trouver un appui dans la foi des autres... Jusqu'à présent, ta foi m'a soutenue, ta foi à toi... Mais quand on est trop angoissé, ça ne suffit pas. En ce moment..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Alors, tu as une tristesse ?",
+    "id": "p-0461",
+    "fr": "CLAUDE : Alors, tu as une tristesse ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Pas une tristesse.",
+    "id": "p-0462",
+    "fr": "OSMONDE : Pas une tristesse."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Une inquiétude ?",
+    "id": "p-0463",
+    "fr": "CLAUDE : Une inquiétude ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Plutôt.",
+    "id": "p-0464",
+    "fr": "OSMONDE : Plutôt."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu ne veux pas me la dire ? (Machinalement il a tiré sa montre.)",
+    "id": "p-0465",
+    "fr": "CLAUDE : Tu ne veux pas me la dire ? (Machinalement il a tiré sa montre.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Tu as regardé ta montre ?",
+    "id": "p-0466",
+    "fr": "OSMONDE : Tu as regardé ta montre ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu sais bien que je suis forcé de sortir tout à l'heure.",
+    "id": "p-0467",
+    "fr": "CLAUDE : Tu sais bien que je suis forcé de sortir tout à l'heure."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, amèrement",
+    "text": "Tu as trop d'obligations, papa... Sentir qu'on n'est qu'un numéro entre la fille-mère de la rue de l'Ouest et la paralytique de l'avenue du Maine... si tu crois que c'est ça qui facilite les confidences... Et puis, c'est peut-être aussi que tu en reçois trop de tout le monde... C'est presque ton métier. Ça me glace un peu.",
+    "id": "p-0468",
+    "fr": "OSMONDE, amèrement : Tu as trop d'obligations, papa... Sentir qu'on n'est qu'un numéro entre la fille-mère de la rue de l'Ouest et la paralytique de l'avenue du Maine... si tu crois que c'est ça qui facilite les confidences... Et puis, c'est peut-être aussi que tu en reçois trop de tout le monde... C'est presque ton métier. Ça me glace un peu."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mais, ma chérie, voyons, toi, tu sais bien que c'est tout spécial.",
+    "id": "p-0469",
+    "fr": "CLAUDE : Mais, ma chérie, voyons, toi, tu sais bien que c'est tout spécial."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Oui, enfin je suis hors série.",
+    "id": "p-0470",
+    "fr": "OSMONDE : Oui, enfin je suis hors série."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu parles comme ta mère.",
+    "id": "p-0471",
+    "fr": "CLAUDE : Tu parles comme ta mère."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Ah ! tu trouves ?",
+    "id": "p-0472",
+    "fr": "OSMONDE : Ah ! tu trouves ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Oui ; du reste, quand elle avait ton âge...",
+    "id": "p-0473",
+    "fr": "CLAUDE : Oui ; du reste, quand elle avait ton âge..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Eh bien ! ça ne va pas avoir l'air gentil du tout, mais je t'avoue que l'idée d'épouser même quelqu'un comme toi... quelqu'un qui aurait une âme comme la tienne... ça me ferait peur. Et alors épouser un médiocre, ce serait encore pire. La vie est effrayante.",
+    "id": "p-0474",
+    "fr": "OSMONDE : Eh bien ! ça ne va pas avoir l'air gentil du tout, mais je t'avoue que l'idée d'épouser même quelqu'un comme toi... quelqu'un qui aurait une âme comme la tienne... ça me ferait peur. Et alors épouser un médiocre, ce serait encore pire. La vie est effrayante."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mais cette inquiétude, ma chérie...",
+    "id": "p-0475",
+    "fr": "CLAUDE : Mais cette inquiétude, ma chérie..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Oh, je sais tout ce que tu vas me dire. Tu as fait un sermon là-dessus, le mois dernier.",
+    "id": "p-0476",
+    "fr": "OSMONDE : Oh, je sais tout ce que tu vas me dire. Tu as fait un sermon là-dessus, le mois dernier."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE II]",
+    "id": "p-0477",
+    "fr": "[SCÈNE II]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, EDMÉE",
+    "id": "p-0478",
+    "fr": "LES MÊMES, EDMÉE"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "On a sonné, Osmonde, et tu sais que Félicie est sortie.",
+    "id": "p-0479",
+    "fr": "EDMÉE : On a sonné, Osmonde, et tu sais que Félicie est sortie."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "A cette heure-ci ? qui est-ce que ça peut être ? (Elle sort.) (Un silence.)",
+    "id": "p-0480",
+    "fr": "OSMONDE : A cette heure-ci ? qui est-ce que ça peut être ? (Elle sort.) (Un silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu sors, ce soir ?",
+    "id": "p-0481",
+    "fr": "EDMÉE : Tu sors, ce soir ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Oui, mais il est trop tôt. Forstmeyer ne sera chez lui qu'à dix heures.",
+    "id": "p-0482",
+    "fr": "CLAUDE : Oui, mais il est trop tôt. Forstmeyer ne sera chez lui qu'à dix heures."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "L'idée de te faire venir à une heure pareille...",
+    "id": "p-0483",
+    "fr": "EDMÉE : L'idée de te faire venir à une heure pareille..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Il se ménage si peu lui-même...",
+    "id": "p-0484",
+    "fr": "CLAUDE : Il se ménage si peu lui-même..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Du reste, pour l'intérêt que présentera cette conversation...",
+    "id": "p-0485",
+    "fr": "EDMÉE : Du reste, pour l'intérêt que présentera cette conversation..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Il y a tout de même là une grande idée.",
+    "id": "p-0486",
+    "fr": "CLAUDE : Il y a tout de même là une grande idée."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Surtout de grands mots... Cette fusion des Églises... d'ailleurs, au fond, tu n'y crois pas plus que moi.",
+    "id": "p-0487",
+    "fr": "EDMÉE : Surtout de grands mots... Cette fusion des Églises... d'ailleurs, au fond, tu n'y crois pas plus que moi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Si nous n'y croyons pas, il est certain qu'elle ne se fera pas.",
+    "id": "p-0488",
+    "fr": "CLAUDE : Si nous n'y croyons pas, il est certain qu'elle ne se fera pas."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, rentrant",
+    "text": "C'est Eugénie qui apporte une lettre d'oncle Francis pour toi, papa.",
+    "id": "p-0489",
+    "fr": "OSMONDE, rentrant : C'est Eugénie qui apporte une lettre d'oncle Francis pour toi, papa."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tiens !",
+    "id": "p-0490",
+    "fr": "EDMÉE : Tiens !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Il y a une réponse ?",
+    "id": "p-0491",
+    "fr": "CLAUDE : Il y a une réponse ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Eugénie ne sait pas. Elle est furieuse qu'on lui donne une course à faire un dimanche. (Claude a ouvert la lettre ; Edmée lit par-dessus son épaule ; elle a un violent sursaut.) Qu'est-ce qu'il y a, maman ?",
+    "id": "p-0492",
+    "fr": "OSMONDE : Eugénie ne sait pas. Elle est furieuse qu'on lui donne une course à faire un dimanche. (Claude a ouvert la lettre ; Edmée lit par-dessus son épaule ; elle a un violent sursaut.) Qu'est-ce qu'il y a, maman ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ce n'est pas possible !",
+    "id": "p-0493",
+    "fr": "EDMÉE : Ce n'est pas possible !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Osmonde, veux-tu dire à Eugénie qu'il n'y a pas de réponse. (Osmonde sort.)",
+    "id": "p-0494",
+    "fr": "CLAUDE : Osmonde, veux-tu dire à Eugénie qu'il n'y a pas de réponse. (Osmonde sort.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "On ne peut pas courir ce risque. Fais dire au concierge que tu es sorti... ou que je suis souffrante... enfin ce que tu voudras ; mais s'il vient, qu'on ne le laisse pas monter",
+    "id": "p-0495",
+    "fr": "EDMÉE : On ne peut pas courir ce risque. Fais dire au concierge que tu es sorti... ou que je suis souffrante... enfin ce que tu voudras ; mais s'il vient, qu'on ne le laisse pas monter"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "C'est impossible. Qu'est-ce que ce serait que ce mensonge ?",
+    "id": "p-0496",
+    "fr": "CLAUDE : C'est impossible. Qu'est-ce que ce serait que ce mensonge ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu mens à ta femme, pas à ton concierge. Et puis, d'abord, puisque tu dois réellement sortir... Claude, c'est un malade.",
+    "id": "p-0497",
+    "fr": "EDMÉE : Tu mens à ta femme, pas à ton concierge. Et puis, d'abord, puisque tu dois réellement sortir... Claude, c'est un malade."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Justement.",
+    "id": "p-0498",
+    "fr": "CLAUDE : Justement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Enfin, tu vois bien, il est retourné tout à l'heure chez ton frère. C'est une obsession. C'est un fou ; je m'oppose à ce qu'il entre ici.",
+    "id": "p-0499",
+    "fr": "EDMÉE : Enfin, tu vois bien, il est retourné tout à l'heure chez ton frère. C'est une obsession. C'est un fou ; je m'oppose à ce qu'il entre ici."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Ma chérie, un peu de sang-froid.",
+    "id": "p-0500",
+    "fr": "CLAUDE : Ma chérie, un peu de sang-froid."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Encore ! Claude, nous marchons sur la tête. Mais si moi, je consentais à recevoir cet homme, ton devoir serait de t'y opposer. (A Osmonde qui rentre à ce moment.) Laisse-nous un instant, ma petite.",
+    "id": "p-0501",
+    "fr": "EDMÉE : Encore ! Claude, nous marchons sur la tête. Mais si moi, je consentais à recevoir cet homme, ton devoir serait de t'y opposer. (A Osmonde qui rentre à ce moment.) Laisse-nous un instant, ma petite."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Vous parliez de moi ?",
+    "id": "p-0502",
+    "fr": "OSMONDE : Vous parliez de moi ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Il n'est pas question de toi.",
+    "id": "p-0503",
+    "fr": "EDMÉE : Il n'est pas question de toi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Papa, tu ne répètes pas ce que je t'ai dit ?",
+    "id": "p-0504",
+    "fr": "OSMONDE : Papa, tu ne répètes pas ce que je t'ai dit ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Qu'est-ce que c'est encore que ces secrets ?",
+    "id": "p-0505",
+    "fr": "EDMÉE : Qu'est-ce que c'est encore que ces secrets ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, à Osmonde",
+    "text": "C'est à propos de cette lettre que je viens de recevoir.",
+    "id": "p-0506",
+    "fr": "CLAUDE, à Osmonde : C'est à propos de cette lettre que je viens de recevoir."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu n'as pas d'explications à donner.",
+    "id": "p-0507",
+    "fr": "EDMÉE : Tu n'as pas d'explications à donner."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Vous avez l'air bouleversés.",
+    "id": "p-0508",
+    "fr": "OSMONDE : Vous avez l'air bouleversés."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mais non, un peu... embarrassés ; ta mère et moi nous ne sommes pas tout à fait d'accord. (Osmonde les regarde avec méfiance et sort lentement.)",
+    "id": "p-0509",
+    "fr": "CLAUDE : Mais non, un peu... embarrassés ; ta mère et moi nous ne sommes pas tout à fait d'accord. (Osmonde les regarde avec méfiance et sort lentement.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu m'as entendu, je m'oppose à ce que cet homme entre ici.",
+    "id": "p-0510",
+    "fr": "EDMÉE : Tu m'as entendu, je m'oppose à ce que cet homme entre ici."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "J'attends que tu sois calme.",
+    "id": "p-0511",
+    "fr": "CLAUDE : J'attends que tu sois calme."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Toi quand je pense que je ne t'ai jamais vu en colère !... (Elle est en proie à une sorte de tremblement nerveux.) Si tu crois que je ne devine pas ce que tu penses en ce moment ! tu me méprises parce que je suis bouleversée.",
+    "id": "p-0512",
+    "fr": "EDMÉE : Toi quand je pense que je ne t'ai jamais vu en colère !... (Elle est en proie à une sorte de tremblement nerveux.) Si tu crois que je ne devine pas ce que tu penses en ce moment ! tu me méprises parce que je suis bouleversée."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, à voix basse",
+    "text": "Ma chérie, mais ta croix, je la porte avec toi.",
+    "id": "p-0513",
+    "fr": "CLAUDE, à voix basse : Ma chérie, mais ta croix, je la porte avec toi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Claude, tu es mon mari, tu n'es pas un prêtre.",
+    "id": "p-0514",
+    "fr": "EDMÉE : Claude, tu es mon mari, tu n'es pas un prêtre."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, de même",
+    "text": "Ce qui nous arrive là est voulu ; cela ne peut pas être... un accident. Edmée, cette épreuve...",
+    "id": "p-0515",
+    "fr": "CLAUDE, de même : Ce qui nous arrive là est voulu ; cela ne peut pas être... un accident. Edmée, cette épreuve..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Toujours cet horrible mot !",
+    "id": "p-0516",
+    "fr": "EDMÉE : Toujours cet horrible mot !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Nous devons la vivre en chrétiens.",
+    "id": "p-0517",
+    "fr": "CLAUDE : Nous devons la vivre en chrétiens."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu n'as pas de quoi la vivre en homme.",
+    "id": "p-0518",
+    "fr": "EDMÉE : Tu n'as pas de quoi la vivre en homme."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, à mi-voix",
+    "text": "Tu ne veux pas prier avec moi ?",
+    "id": "p-0519",
+    "fr": "CLAUDE, à mi-voix : Tu ne veux pas prier avec moi ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, sur un ton de supplication",
+    "text": "Fais dire que tu n'es pas là. Osmonde ! (Elle sort. Claude reste seul, il se concentre dans une méditation silencieuse, ses mains se joignent, un long silence.)",
+    "id": "p-0520",
+    "fr": "EDMÉE, sur un ton de supplication : Fais dire que tu n'es pas là. Osmonde ! (Elle sort. Claude reste seul, il se concentre dans une méditation silencieuse, ses mains se joignent, un long silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, rentrant",
+    "text": "Je ne sais pas où elle est, je descends. (Claude ne répond pas) Claude ! mais enfin pourquoi ?... est-ce pour lui ou pour nous ?",
+    "id": "p-0521",
+    "fr": "EDMÉE, rentrant : Je ne sais pas où elle est, je descends. (Claude ne répond pas) Claude ! mais enfin pourquoi ?... est-ce pour lui ou pour nous ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE, lentement",
+    "text": "Si nous reculons devant cette rencontre, cela prouvera... je ne sais pas... que le passé n'est pas mort, que nous ne l'avons pas surmonté. Ce serait lâche... ce ne serait pas digne de nous. Voyons, de quoi as-tu peur ?",
+    "id": "p-0522",
+    "fr": "CLAUDE, lentement : Si nous reculons devant cette rencontre, cela prouvera... je ne sais pas... que le passé n'est pas mort, que nous ne l'avons pas surmonté. Ce serait lâche... ce ne serait pas digne de nous. Voyons, de quoi as-tu peur ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "De tout.",
+    "id": "p-0523",
+    "fr": "EDMÉE : De tout."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Quelqu'un a dit : « La peur est le signe du devoir. »",
+    "id": "p-0524",
+    "fr": "CLAUDE : Quelqu'un a dit : « La peur est le signe du devoir. »"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu sais que c'est faux. Mon Dieu, tu raisonnes, tu fais des citations. Le devoir ! Qu'est-ce que le devoir a à faire là-dedans ? Ah ! écoute ! si c'était tout de même une comédie que tu te joues à toi-même, une espèce de pose !...",
+    "id": "p-0525",
+    "fr": "EDMÉE : Tu sais que c'est faux. Mon Dieu, tu raisonnes, tu fais des citations. Le devoir ! Qu'est-ce que le devoir a à faire là-dedans ? Ah ! écoute ! si c'était tout de même une comédie que tu te joues à toi-même, une espèce de pose !..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Une comédie...",
+    "id": "p-0526",
+    "fr": "CLAUDE : Une comédie..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Sans que tu t'en doutes.",
+    "id": "p-0527",
+    "fr": "EDMÉE : Sans que tu t'en doutes."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Voilà où nous en sommes ! (On entend la voix d'Osmonde à la cantonade : « Mais donnez-vous donc la peine d'entrer, Monsieur, mon père est là, je vais lui demander. »)",
+    "id": "p-0528",
+    "fr": "CLAUDE : Voilà où nous en sommes ! (On entend la voix d'Osmonde à la cantonade : « Mais donnez-vous donc la peine d'entrer, Monsieur, mon père est là, je vais lui demander. »)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, entrant",
+    "text": "Papa, c'est un monsieur qui voudrait te voir. (Claude pâlit.)",
+    "id": "p-0529",
+    "fr": "OSMONDE, entrant : Papa, c'est un monsieur qui voudrait te voir. (Claude pâlit.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, les yeux fixés sur Claude",
+    "text": "Le nom de ce Monsieur ?",
+    "id": "p-0530",
+    "fr": "EDMÉE, les yeux fixés sur Claude : Le nom de ce Monsieur ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Monsieur Sandier.",
+    "id": "p-0531",
+    "fr": "OSMONDE : Monsieur Sandier."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Où étais-tu à l'instant, s'il te plaît ?",
+    "id": "p-0532",
+    "fr": "EDMÉE : Où étais-tu à l'instant, s'il te plaît ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Je suis juste allée dire bonsoir aux petites d'en haut.",
+    "id": "p-0533",
+    "fr": "OSMONDE : Je suis juste allée dire bonsoir aux petites d'en haut."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ah ! bien !...",
+    "id": "p-0534",
+    "fr": "EDMÉE : Ah ! bien !..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Ce monsieur montait l'escalier quand je suis redescendue... J'avais pris la clef, il est entré avec moi.",
+    "id": "p-0535",
+    "fr": "OSMONDE : Ce monsieur montait l'escalier quand je suis redescendue... J'avais pris la clef, il est entré avec moi."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Alors, Claude, nous recevons ce monsieur ? (Geste vague de Claude.)",
+    "id": "p-0536",
+    "fr": "EDMÉE : Alors, Claude, nous recevons ce monsieur ? (Geste vague de Claude.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, à Claude",
+    "text": "Mais qu'est-ce que tu as ?",
+    "id": "p-0537",
+    "fr": "OSMONDE, à Claude : Mais qu'est-ce que tu as ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Ton père n'est pas tout à fait bien.",
+    "id": "p-0538",
+    "fr": "EDMÉE : Ton père n'est pas tout à fait bien."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE, allant à Claude, tendrement",
+    "text": "Qu'est-ce que c'est ?",
+    "id": "p-0539",
+    "fr": "OSMONDE, allant à Claude, tendrement : Qu'est-ce que c'est ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Une sorte de vertige.",
+    "id": "p-0540",
+    "fr": "CLAUDE : Une sorte de vertige."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Je vais dire à ce monsieur que tu ne peux pas le recevoir. (Un silence.)",
+    "id": "p-0541",
+    "fr": "OSMONDE : Je vais dire à ce monsieur que tu ne peux pas le recevoir. (Un silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Non, qu'il entre... C'est quelqu'un que nous avons connu autrefois, ton père et moi. (Osmonde sort, on l'entend dire : « Monsieur, si vous voulez bien entrer par ici... »)",
+    "id": "p-0542",
+    "fr": "EDMÉE : Non, qu'il entre... C'est quelqu'un que nous avons connu autrefois, ton père et moi. (Osmonde sort, on l'entend dire : « Monsieur, si vous voulez bien entrer par ici... »)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "[SCÈNE III]",
+    "id": "p-0543",
+    "fr": "[SCÈNE III]"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, MICHEL",
+    "id": "p-0544",
+    "fr": "LES MÊMES, MICHEL"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "STAGE",
+    "text": "(Michel Sandier est un homme de quarante-cinq à cinquante ans, de haute taille, mais voûté, son visage est profondément creusé par la maladie.)",
+    "id": "p-0545",
+    "fr": "(Michel Sandier est un homme de quarante-cinq à cinquante ans, de haute taille, mais voûté, son visage est profondément creusé par la maladie.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL, s'inclinant",
+    "text": "Madame... Monsieur... Je suis confus de me présenter à cette heure indue.",
+    "id": "p-0546",
+    "fr": "MICHEL, s'inclinant : Madame... Monsieur... Je suis confus de me présenter à cette heure indue."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mon frère m'avait prévenu que nous aurions peut-être le plaisir de vous voir ce soir... Inutile, n'est-ce pas, de vous présenter notre fille ? La présentation s'est faite toute seule.",
+    "id": "p-0547",
+    "fr": "CLAUDE : Mon frère m'avait prévenu que nous aurions peut-être le plaisir de vous voir ce soir... Inutile, n'est-ce pas, de vous présenter notre fille ? La présentation s'est faite toute seule."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL, se tournant vers Osmonde",
+    "text": "En effet, c'est Mademoiselle qui...",
+    "id": "p-0548",
+    "fr": "MICHEL, se tournant vers Osmonde : En effet, c'est Mademoiselle qui..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "J'ai cru comprendre que vous étiez seulement de passage à Paris ?",
+    "id": "p-0549",
+    "fr": "CLAUDE : J'ai cru comprendre que vous étiez seulement de passage à Paris ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Oui, il se peut que je reparte dès demain.",
+    "id": "p-0550",
+    "fr": "MICHEL : Oui, il se peut que je reparte dès demain."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE, avec effort",
+    "text": "Et vous êtes ici depuis ?...",
+    "id": "p-0551",
+    "fr": "EDMÉE, avec effort : Et vous êtes ici depuis ?..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Depuis une semaine... Mais je ne supporte pas Paris, je n'y respire pas. (Un silence.)",
+    "id": "p-0552",
+    "fr": "MICHEL : Depuis une semaine... Mais je ne supporte pas Paris, je n'y respire pas. (Un silence.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "J'ai eu moi-même autrefois beaucoup de peine à m'y habituer.",
+    "id": "p-0553",
+    "fr": "CLAUDE : J'ai eu moi-même autrefois beaucoup de peine à m'y habituer."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Pourtant vous n'êtes pas venu ici directement de l'Ardèche ?",
+    "id": "p-0554",
+    "fr": "MICHEL : Pourtant vous n'êtes pas venu ici directement de l'Ardèche ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Non, j'ai eu d'abord une paroisse dans le Nord, à Esquerchin, près de Lille.",
+    "id": "p-0555",
+    "fr": "CLAUDE : Non, j'ai eu d'abord une paroisse dans le Nord, à Esquerchin, près de Lille."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Ce doit être un enfer.",
+    "id": "p-0556",
+    "fr": "MICHEL : Ce doit être un enfer."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Mais non, ces années-là nous ont laissé de beaux souvenirs, n'est-ce pas, Edmée ?",
+    "id": "p-0557",
+    "fr": "CLAUDE : Mais non, ces années-là nous ont laissé de beaux souvenirs, n'est-ce pas, Edmée ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tout dépend...",
+    "id": "p-0558",
+    "fr": "EDMÉE : Tout dépend..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Je me doute que Monsieur Lemoyne ne parle pas de la nature.",
+    "id": "p-0559",
+    "fr": "MICHEL : Je me doute que Monsieur Lemoyne ne parle pas de la nature."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Quoique ces vastes espaces tristes ne soient pas sans grandeur.",
+    "id": "p-0560",
+    "fr": "CLAUDE : Quoique ces vastes espaces tristes ne soient pas sans grandeur."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Moi, quand je passe par là en chemin de fer, je baisse le store.",
+    "id": "p-0561",
+    "fr": "MICHEL : Moi, quand je passe par là en chemin de fer, je baisse le store."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "La population est très attachante.",
+    "id": "p-0562",
+    "fr": "CLAUDE : La population est très attachante."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Ah ?",
+    "id": "p-0563",
+    "fr": "MICHEL : Ah ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Nous avons été témoins, ma femme et moi, de bien des scènes touchantes. Les Pauvres Gens de Victor Hugo...",
+    "id": "p-0564",
+    "fr": "CLAUDE : Nous avons été témoins, ma femme et moi, de bien des scènes touchantes. Les Pauvres Gens de Victor Hugo..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Mademoiselle Osmonde, nous sommes de vieilles connaissances, sans que vous vous en doutiez. Je vous ai vue quand vous étiez toute petite, au temps où j'habitais à Saint-Loup de Talvas une grande maison un peu au-dessus du presbytère. Je venais souvent chez vos parents, et je vous revois telle que vous étiez à ce moment-là... J'ai repassé par Saint-Loup, il y a quelques mois.",
+    "id": "p-0565",
+    "fr": "MICHEL : Mademoiselle Osmonde, nous sommes de vieilles connaissances, sans que vous vous en doutiez. Je vous ai vue quand vous étiez toute petite, au temps où j'habitais à Saint-Loup de Talvas une grande maison un peu au-dessus du presbytère. Je venais souvent chez vos parents, et je vous revois telle que vous étiez à ce moment-là... J'ai repassé par Saint-Loup, il y a quelques mois."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Je suppose qu'il n'y a pas grand'chose de changé depuis notre temps.",
+    "id": "p-0566",
+    "fr": "CLAUDE : Je suppose qu'il n'y a pas grand'chose de changé depuis notre temps."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "On a construit une petite scierie qui gâte la vue. D'ici dix ans, il n'y aura plus un paysage intact.",
+    "id": "p-0567",
+    "fr": "MICHEL : On a construit une petite scierie qui gâte la vue. D'ici dix ans, il n'y aura plus un paysage intact."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Pourtant, une scierie...",
+    "id": "p-0568",
+    "fr": "CLAUDE : Pourtant, une scierie..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "On ne voit qu'elle.",
+    "id": "p-0569",
+    "fr": "MICHEL : On ne voit qu'elle."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Alors, c'est comme l'usine à gaz à Fonville-Saint-Vincent. Nous avions une petite villa sur la falaise, on avait une vue étendue, mais il y avait un gazomètre dans le fond.",
+    "id": "p-0570",
+    "fr": "OSMONDE : Alors, c'est comme l'usine à gaz à Fonville-Saint-Vincent. Nous avions une petite villa sur la falaise, on avait une vue étendue, mais il y avait un gazomètre dans le fond."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Moi, je n'ai jamais fait attention à ce gazomètre.",
+    "id": "p-0571",
+    "fr": "CLAUDE : Moi, je n'ai jamais fait attention à ce gazomètre."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Toi, tu as de la chance, papa ; tu ne vois jamais que ce qui te plaît.",
+    "id": "p-0572",
+    "fr": "OSMONDE : Toi, tu as de la chance, papa ; tu ne vois jamais que ce qui te plaît."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Attendez donc, Fonville-Saint-Vincent, mais j'y suis passé en auto l'année dernière. C'est entre Dieppe et le Tréport ?",
+    "id": "p-0573",
+    "fr": "MICHEL : Attendez donc, Fonville-Saint-Vincent, mais j'y suis passé en auto l'année dernière. C'est entre Dieppe et le Tréport ?"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Parfaitement.",
+    "id": "p-0574",
+    "fr": "OSMONDE : Parfaitement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Ça m'a paru affreux. Des cubes de nougat poussiéreux, entre deux talus de fortifications. (Osmonde rit.)",
+    "id": "p-0575",
+    "fr": "MICHEL : Ça m'a paru affreux. Des cubes de nougat poussiéreux, entre deux talus de fortifications. (Osmonde rit.)"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Tu t'y es pourtant plu, Osmonde.",
+    "id": "p-0576",
+    "fr": "CLAUDE : Tu t'y es pourtant plu, Osmonde."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Naturellement.",
+    "id": "p-0577",
+    "fr": "EDMÉE : Naturellement."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "Au fond, on ne peut jamais avoir d'opinion sur un endroit qu'à la longue, et quand je pense à Fonville, c'est sans enthousiasme, je t'assure !",
+    "id": "p-0578",
+    "fr": "OSMONDE : Au fond, on ne peut jamais avoir d'opinion sur un endroit qu'à la longue, et quand je pense à Fonville, c'est sans enthousiasme, je t'assure !"
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Ceci me paraît très juste ; il n'y a que le souvenir qui soit vrai, qui soit nous-mêmes.",
+    "id": "p-0579",
+    "fr": "MICHEL : Ceci me paraît très juste ; il n'y a que le souvenir qui soit vrai, qui soit nous-mêmes."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Nous avions là quelques relations très agréables ; et puis enfin la mer... la mer... Je suis tout étonné de ce que tu dis.",
+    "id": "p-0580",
+    "fr": "CLAUDE : Nous avions là quelques relations très agréables ; et puis enfin la mer... la mer... Je suis tout étonné de ce que tu dis."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Tu es bien bon de prendre ces boutades au sérieux.",
+    "id": "p-0581",
+    "fr": "EDMÉE : Tu es bien bon de prendre ces boutades au sérieux."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Tenez, en musique par exemple, c'est pareil. L'impression instantanée est presque toujours trompeuse.",
+    "id": "p-0582",
+    "fr": "MICHEL : Tenez, en musique par exemple, c'est pareil. L'impression instantanée est presque toujours trompeuse."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "CLAUDE",
+    "text": "Là, je me récuse.",
+    "id": "p-0583",
+    "fr": "CLAUDE : Là, je me récuse."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Est-ce que Mademoiselle Osmonde ?...",
+    "id": "p-0584",
+    "fr": "MICHEL : Est-ce que Mademoiselle Osmonde ?..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "OSMONDE",
+    "text": "J'aime beaucoup la musique, mais j'ai si rarement l'occasion d'en entendre.",
+    "id": "p-0585",
+    "fr": "OSMONDE : J'aime beaucoup la musique, mais j'ai si rarement l'occasion d'en entendre."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Et vous ne jouez d'aucun instrument ? Je crois me rappeler que Madame votre mère...",
+    "id": "p-0586",
+    "fr": "MICHEL : Et vous ne jouez d'aucun instrument ? Je crois me rappeler que Madame votre mère..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Il y a vingt ans que j'ai tout abandonné.",
+    "id": "p-0587",
+    "fr": "EDMÉE : Il y a vingt ans que j'ai tout abandonné."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Vous aviez, si je me souviens bien, un excellent Érard dont vous...",
+    "id": "p-0588",
+    "fr": "MICHEL : Vous aviez, si je me souviens bien, un excellent Érard dont vous..."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "Nous l'avons donné.",
+    "id": "p-0589",
+    "fr": "EDMÉE : Nous l'avons donné."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "Dans une vie comme la vôtre, si absorbée, si pleine, c'est une tentation, un piano.",
+    "id": "p-0590",
+    "fr": "MICHEL : Dans une vie comme la vôtre, si absorbée, si pleine, c'est une tentation, un piano."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "EDMÉE",
+    "text": "A Esquerchin, nous n'aurions même pas eu la place de le mettre.",
+    "id": "p-0591",
+    "fr": "EDMÉE : A Esquerchin, nous n'aurions même pas eu la place de le mettre."
+  },
+  {
+    "sec": "act-2",
+    "speaker": "MICHEL",
+    "text": "C'est dommage. (Un silence.) En repassant par Saint-Loup de Talvas, j'ai pris une ou deux photographies. (A Osmonde.) Cela vous intéressera peut-être, Mademoiselle ; vous devez avoir souvent entendu parler de ce petit coin. (Il passe à Osmonde deux ou trois petites photographies.)",
+    "id": "p-0592",
+    "fr": "MICHEL : C'est dommage. (Un silence.) En repassant par Saint-Loup de Talvas, j'ai pris une ou deux photographies. (A Osmonde.) Cela vous intéressera peut-être, Mademoiselle ; vous devez avoir souvent entendu parler de ce petit coin. (Il passe à Osmonde deux ou trois petites photographies.)"
+  }
+]

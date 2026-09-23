@@ -359,7 +359,7 @@
       "companionTitle": "Being and Having (1935)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 110 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 1,390 Rows, 24k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le presbytère et le retour du passé", "titleEn": "Act I: The Rectory and the Return of the Past" },
         { "id": "act-2", "titleFr": "Acte II : La révélation du secret et le doute pastoral", "titleEn": "Act II: The Revelation of the Secret and the Pastoral Doubt" },

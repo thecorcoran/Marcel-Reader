@@ -1,0 +1,1080 @@
+[
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[ACTE IV]",
+    "id": "p-1082",
+    "fr": "[ACTE IV]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "Même décor qu'au Premier Acte.",
+    "id": "p-1083",
+    "fr": "Même décor qu'au Premier Acte."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[SCÈNE I]",
+    "id": "p-1084",
+    "fr": "[SCÈNE I]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE, EDMÉE, puis FÉLICIE",
+    "text": "(Osmonde est assise et lit ; de temps en temps elle jette un regard sur sa mère qui est assise, elle aussi, en toilette de ville, l'air désemparé, et n'a pas même enlevé son chapeau.)",
+    "id": "p-1085",
+    "fr": "OSMONDE, EDMÉE, puis FÉLICIE : (Osmonde est assise et lit ; de temps en temps elle jette un regard sur sa mère qui est assise, elle aussi, en toilette de ville, l'air désemparé, et n'a pas même enlevé son chapeau.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Tu ressors ?",
+    "id": "p-1086",
+    "fr": "OSMONDE : Tu ressors ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Non",
+    "id": "p-1087",
+    "fr": "EDMÉE : Non"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Alors pourquoi n'enlèves-tu pas ton chapeau ? (Edmée ôte lentement son chapeau. Un silence.) Tu as l'intention de le garder longtemps sur tes genoux ? (On frappe à la porte.) Entrez. Qu'est-ce que vous voulez, Félicie ?",
+    "id": "p-1088",
+    "fr": "OSMONDE : Alors pourquoi n'enlèves-tu pas ton chapeau ? (Edmée ôte lentement son chapeau. Un silence.) Tu as l'intention de le garder longtemps sur tes genoux ? (On frappe à la porte.) Entrez. Qu'est-ce que vous voulez, Félicie ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FÉLICIE, entrant",
+    "text": "Madame n'a rien commandé pour le dîner.",
+    "id": "p-1089",
+    "fr": "FÉLICIE, entrant : Madame n'a rien commandé pour le dîner."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Faites ce que vous voudrez.",
+    "id": "p-1090",
+    "fr": "EDMÉE : Faites ce que vous voudrez."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FÉLICIE",
+    "text": "Oh ! mais moi je ne sais pas ; c'est à Madame de dire.",
+    "id": "p-1091",
+    "fr": "FÉLICIE : Oh ! mais moi je ne sais pas ; c'est à Madame de dire."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Eh bien, la même chose qu'hier.",
+    "id": "p-1092",
+    "fr": "EDMÉE : Eh bien, la même chose qu'hier."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FÉLICIE",
+    "text": "Et le pensionnaire qui est déjà venu me dire ce matin qu'il ne supportait pas les épinards !",
+    "id": "p-1093",
+    "fr": "FÉLICIE : Et le pensionnaire qui est déjà venu me dire ce matin qu'il ne supportait pas les épinards !"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Il ne faut pas dire « le pensionnaire », Félicie... Vous n'avez pas à recevoir d'observations de ce Monsieur ; s'il n'est pas content, c'est à Madame qu'il doit se plaindre. Comprenez-vous ?",
+    "id": "p-1094",
+    "fr": "OSMONDE : Il ne faut pas dire « le pensionnaire », Félicie... Vous n'avez pas à recevoir d'observations de ce Monsieur ; s'il n'est pas content, c'est à Madame qu'il doit se plaindre. Comprenez-vous ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FÉLICIE",
+    "text": "C'est ce que j'ai répondu. Il dit que Madame l'intimide, est-ce que je sais ?",
+    "id": "p-1095",
+    "fr": "FÉLICIE : C'est ce que j'ai répondu. Il dit que Madame l'intimide, est-ce que je sais ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Allez, Félicie.",
+    "id": "p-1096",
+    "fr": "OSMONDE : Allez, Félicie."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FÉLICIE",
+    "text": "Alors, c'est dit ? Je ferai la même chose qu'hier. Faudra pas se plaindre que c'est toujours pareil. (Elle sort.)",
+    "id": "p-1097",
+    "fr": "FÉLICIE : Alors, c'est dit ? Je ferai la même chose qu'hier. Faudra pas se plaindre que c'est toujours pareil. (Elle sort.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[SCÈNE II]",
+    "id": "p-1098",
+    "fr": "[SCÈNE II]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE, OSMONDE",
+    "text": "(Un silence.)",
+    "id": "p-1099",
+    "fr": "EDMÉE, OSMONDE : (Un silence.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE, sans lever la tête",
+    "text": "Est-ce qu'il est mort ?",
+    "id": "p-1100",
+    "fr": "OSMONDE, sans lever la tête : Est-ce qu'il est mort ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Qu'est-ce que tu dis ?",
+    "id": "p-1101",
+    "fr": "EDMÉE : Qu'est-ce que tu dis ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je demande s'il est mort.",
+    "id": "p-1102",
+    "fr": "OSMONDE : Je demande s'il est mort."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "De qui parles-tu ?",
+    "id": "p-1103",
+    "fr": "EDMÉE : De qui parles-tu ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Eh bien ! de lui... du Monsieur de l'autre jour.",
+    "id": "p-1104",
+    "fr": "OSMONDE : Eh bien ! de lui... du Monsieur de l'autre jour."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Osmonde !",
+    "id": "p-1105",
+    "fr": "EDMÉE : Osmonde !"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je ne sais pas, moi, tu comprends ; je n'ai pas l'habitude de te voir aussi... déprimée.",
+    "id": "p-1106",
+    "fr": "OSMONDE : Je ne sais pas, moi, tu comprends ; je n'ai pas l'habitude de te voir aussi... déprimée."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Alors ton père t'a appris...",
+    "id": "p-1107",
+    "fr": "EDMÉE : Alors ton père t'a appris..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Il faut croire.",
+    "id": "p-1108",
+    "fr": "OSMONDE : Il faut croire."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Pourquoi ne m'a-t-il pas dit qu'il t'avait parlé ? Quand cela s'est-il passé ?",
+    "id": "p-1109",
+    "fr": "EDMÉE : Pourquoi ne m'a-t-il pas dit qu'il t'avait parlé ? Quand cela s'est-il passé ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Il y a deux jours.",
+    "id": "p-1110",
+    "fr": "OSMONDE : Il y a deux jours."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Et toi, tu n'as même pas...",
+    "id": "p-1111",
+    "fr": "EDMÉE : Et toi, tu n'as même pas..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je ne sais vraiment pas ce qu'on dit en pareil cas, je suppose qu'il y a des formules, mais celles-là, tu ne me les as pas enseignées.",
+    "id": "p-1112",
+    "fr": "OSMONDE : Je ne sais vraiment pas ce qu'on dit en pareil cas, je suppose qu'il y a des formules, mais celles-là, tu ne me les as pas enseignées."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Tu n'as pas de cœur.",
+    "id": "p-1113",
+    "fr": "EDMÉE : Tu n'as pas de cœur."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Ce n'est pas nouveau.",
+    "id": "p-1114",
+    "fr": "OSMONDE : Ce n'est pas nouveau."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Généreux comme il est, je suis bien sûre que ton père...",
+    "id": "p-1115",
+    "fr": "EDMÉE : Généreux comme il est, je suis bien sûre que ton père..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Il s'est borné à m'instruire d'un fait qui se passe de commentaire.",
+    "id": "p-1116",
+    "fr": "OSMONDE : Il s'est borné à m'instruire d'un fait qui se passe de commentaire."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Ferme ton livre s'il te plaît.",
+    "id": "p-1117",
+    "fr": "EDMÉE : Ferme ton livre s'il te plaît."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Si ça te fait plaisir. (Elle ferme son livre, se retourne vers sa mère et la regarde, le coude appuyé à la table.)",
+    "id": "p-1118",
+    "fr": "OSMONDE : Si ça te fait plaisir. (Elle ferme son livre, se retourne vers sa mère et la regarde, le coude appuyé à la table.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Je n'ai pas à entrer dans les détails.",
+    "id": "p-1119",
+    "fr": "EDMÉE : Je n'ai pas à entrer dans les détails."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je te ferai d'ailleurs remarquer que je ne t'ai rien demandé.",
+    "id": "p-1120",
+    "fr": "OSMONDE : Je te ferai d'ailleurs remarquer que je ne t'ai rien demandé."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Mais ce que tu peux te dire, c'est que trois êtres ont mortellement souffert les uns par les autres, sans que ce soit peut-être la faute d'aucun d'eux, et que ce n'est pas fini. Tu entends ce que je dis ?",
+    "id": "p-1121",
+    "fr": "EDMÉE : Mais ce que tu peux te dire, c'est que trois êtres ont mortellement souffert les uns par les autres, sans que ce soit peut-être la faute d'aucun d'eux, et que ce n'est pas fini. Tu entends ce que je dis ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Naturellement, mais je ne vois pas en quoi tout ça me regarde.",
+    "id": "p-1122",
+    "fr": "OSMONDE : Naturellement, mais je ne vois pas en quoi tout ça me regarde."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Quelqu'un de jeune comme toi, quelqu'un qui a la vie devant soi...",
+    "id": "p-1123",
+    "fr": "EDMÉE : Quelqu'un de jeune comme toi, quelqu'un qui a la vie devant soi..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Oh !",
+    "id": "p-1124",
+    "fr": "OSMONDE : Oh !"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Devrait avoir le désir d'apporter un peu de réconfort à... ces malheureux.",
+    "id": "p-1125",
+    "fr": "EDMÉE : Devrait avoir le désir d'apporter un peu de réconfort à... ces malheureux."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je ne saisis pas.",
+    "id": "p-1126",
+    "fr": "OSMONDE : Je ne saisis pas."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Cette personne dont tu parlais...",
+    "id": "p-1127",
+    "fr": "EDMÉE : Cette personne dont tu parlais..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Le monsieur de l'autre jour ?",
+    "id": "p-1128",
+    "fr": "OSMONDE : Le monsieur de l'autre jour ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Elle n'a plus que très peu de temps à vivre.",
+    "id": "p-1129",
+    "fr": "EDMÉE : Elle n'a plus que très peu de temps à vivre."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE, froidement",
+    "text": "C'est très triste.",
+    "id": "p-1130",
+    "fr": "OSMONDE, froidement : C'est très triste."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Mais enfin tu sais qui c'est ? C'est ton...",
+    "id": "p-1131",
+    "fr": "EDMÉE : Mais enfin tu sais qui c'est ? C'est ton..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Et alors ?",
+    "id": "p-1132",
+    "fr": "OSMONDE : Et alors ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Il n'a auprès de lui qu'une garde salariée... (Ses épaules sont secouées par une espèce de sanglot convulsif.)",
+    "id": "p-1133",
+    "fr": "EDMÉE : Il n'a auprès de lui qu'une garde salariée... (Ses épaules sont secouées par une espèce de sanglot convulsif.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Écoute, maman je te rappelle que le petit Junod peut entrer d'un instant à l'autre ; s'il voit cette figure...",
+    "id": "p-1134",
+    "fr": "OSMONDE : Écoute, maman je te rappelle que le petit Junod peut entrer d'un instant à l'autre ; s'il voit cette figure..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Qu'est-ce que tu veux que ça me fasse ?",
+    "id": "p-1135",
+    "fr": "EDMÉE : Qu'est-ce que tu veux que ça me fasse ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Ah ! je croyais qu'en toutes circonstances il fallait « se tenir ».",
+    "id": "p-1136",
+    "fr": "OSMONDE : Ah ! je croyais qu'en toutes circonstances il fallait « se tenir »."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "A ton âge on ne se doute même pas de ce que peut être une certaine solitude ; quand on n'est plus jeune, quand on est malade et qu'il n'y a peut-être pas dans tout le passé un seul souvenir heureux auquel on puisse se reporter...",
+    "id": "p-1137",
+    "fr": "EDMÉE : A ton âge on ne se doute même pas de ce que peut être une certaine solitude ; quand on n'est plus jeune, quand on est malade et qu'il n'y a peut-être pas dans tout le passé un seul souvenir heureux auquel on puisse se reporter..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Ah ? ce monsieur n'a pas de souvenirs agréables ?",
+    "id": "p-1138",
+    "fr": "OSMONDE : Ah ? ce monsieur n'a pas de souvenirs agréables ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Ça lui ferait tant de bien si tu voulais aller lui tenir compagnie de temps en temps. Moi je ne peux rien pour lui, il dit même que je lui fais du mal. (Elle a peine à se contenir. On frappe à la porte.)",
+    "id": "p-1139",
+    "fr": "EDMÉE : Ça lui ferait tant de bien si tu voulais aller lui tenir compagnie de temps en temps. Moi je ne peux rien pour lui, il dit même que je lui fais du mal. (Elle a peine à se contenir. On frappe à la porte.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Qu'est-ce que c'est ?",
+    "id": "p-1140",
+    "fr": "OSMONDE : Qu'est-ce que c'est ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[SCÈNE III]",
+    "id": "p-1141",
+    "fr": "[SCÈNE III]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, FRED",
+    "id": "p-1142",
+    "fr": "LES MÊMES, FRED"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED",
+    "text": "Je vous demande pardon, Mademoiselle, je ne voudrais surtout pas déranger. Ça n'a vraiment aucune importance... c'était seulement pour dire... je ne sais pas si vous savez que j'ai eu de l'entérite quand j'étais enfant.",
+    "id": "p-1143",
+    "fr": "FRED : Je vous demande pardon, Mademoiselle, je ne voudrais surtout pas déranger. Ça n'a vraiment aucune importance... c'était seulement pour dire... je ne sais pas si vous savez que j'ai eu de l'entérite quand j'étais enfant."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Non, nous ne savions pas.",
+    "id": "p-1144",
+    "fr": "OSMONDE : Non, nous ne savions pas."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED",
+    "text": "Oui, naturellement ; et alors il m'en est resté... Enfin il y a certains légumes que je ne... alors, comme en passant devant la cuisine, j'ai cru sentir...",
+    "id": "p-1145",
+    "fr": "FRED : Oui, naturellement ; et alors il m'en est resté... Enfin il y a certains légumes que je ne... alors, comme en passant devant la cuisine, j'ai cru sentir..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "C'est bien, on vous fera un œuf.",
+    "id": "p-1146",
+    "fr": "OSMONDE : C'est bien, on vous fera un œuf."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED",
+    "text": "Merci, Mademoiselle. J'espère que ça ne dérangera pas trop ; je m'excuse, mais c'est ma mère qui m'a tellement recommandé... Du reste, dans la famille, nous avons tous les intestins délicats.",
+    "id": "p-1147",
+    "fr": "FRED : Merci, Mademoiselle. J'espère que ça ne dérangera pas trop ; je m'excuse, mais c'est ma mère qui m'a tellement recommandé... Du reste, dans la famille, nous avons tous les intestins délicats."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Oui, oui, au revoir. (Fred sort.)",
+    "id": "p-1148",
+    "fr": "OSMONDE : Oui, oui, au revoir. (Fred sort.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[SCÈNE IV]",
+    "id": "p-1149",
+    "fr": "[SCÈNE IV]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Maintenant je t'avoue que je suis très étonnée de ce que tu me demandes. A supposer même que je trouve une heure par ci, par là pour aller faire la lecture à ce monsieur, je ne vois pas très bien quels sujets de conversation nous pourrions avoir ; je m'en voudrais de réveiller des souvenirs pénibles, et puisqu'il n'en a pas d'autres...",
+    "id": "p-1150",
+    "fr": "OSMONDE : Maintenant je t'avoue que je suis très étonnée de ce que tu me demandes. A supposer même que je trouve une heure par ci, par là pour aller faire la lecture à ce monsieur, je ne vois pas très bien quels sujets de conversation nous pourrions avoir ; je m'en voudrais de réveiller des souvenirs pénibles, et puisqu'il n'en a pas d'autres..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Ce ton de persiflage est atroce. Tu es un monstre.",
+    "id": "p-1151",
+    "fr": "EDMÉE : Ce ton de persiflage est atroce. Tu es un monstre."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Tu ne m'as pas laissé finir ma phrase. Il serait élémentaire de demander à papa ce qu'il pense de ces visites.",
+    "id": "p-1152",
+    "fr": "OSMONDE : Tu ne m'as pas laissé finir ma phrase. Il serait élémentaire de demander à papa ce qu'il pense de ces visites."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Ton père est la bonté même.",
+    "id": "p-1153",
+    "fr": "EDMÉE : Ton père est la bonté même."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Il est encore excessivement ébranlé.",
+    "id": "p-1154",
+    "fr": "OSMONDE : Il est encore excessivement ébranlé."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Qu'est-ce que tu veux dire ?",
+    "id": "p-1155",
+    "fr": "EDMÉE : Qu'est-ce que tu veux dire ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "On ne fait pas impunément une pareille découverte.",
+    "id": "p-1156",
+    "fr": "OSMONDE : On ne fait pas impunément une pareille découverte."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Quelle découverte ? enfin qu'est-ce que tu t'imagines ? Il y a dix-neuf ans qu'il sait à quoi s'en tenir.",
+    "id": "p-1157",
+    "fr": "EDMÉE : Quelle découverte ? enfin qu'est-ce que tu t'imagines ? Il y a dix-neuf ans qu'il sait à quoi s'en tenir."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Ah ? (Un silence.)",
+    "id": "p-1158",
+    "fr": "OSMONDE : Ah ? (Un silence.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[SCÈNE V]",
+    "id": "p-1159",
+    "fr": "[SCÈNE V]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, FRED",
+    "id": "p-1160",
+    "fr": "LES MÊMES, FRED"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED, entr'ouvrant la porte",
+    "text": "Mademoiselle, je voulais simplement dire que si on a par hasard la bonté de me faire un œuf, il vaudra peut-être mieux qu'il ne soit pas à la coque, parce que j'ai cru remarquer qu'à Paris... Mais naturellement, ce sera comme vous voudrez. (Découvrant Edmée.) Oh ! est-ce que madame Lemoyne est souffrante ? je suis désolé...",
+    "id": "p-1161",
+    "fr": "FRED, entr'ouvrant la porte : Mademoiselle, je voulais simplement dire que si on a par hasard la bonté de me faire un œuf, il vaudra peut-être mieux qu'il ne soit pas à la coque, parce que j'ai cru remarquer qu'à Paris... Mais naturellement, ce sera comme vous voudrez. (Découvrant Edmée.) Oh ! est-ce que madame Lemoyne est souffrante ? je suis désolé..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Ma mère a une forte névralgie. Maman, il me semble que tu devrais aller t'étendre un instant.",
+    "id": "p-1162",
+    "fr": "OSMONDE : Ma mère a une forte névralgie. Maman, il me semble que tu devrais aller t'étendre un instant."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED",
+    "text": "Si j'osais... peut-être qu'un cachet soulagerait madame votre mère, j'ai une petite pharmacie de voyage assez bien garnie...",
+    "id": "p-1163",
+    "fr": "FRED : Si j'osais... peut-être qu'un cachet soulagerait madame votre mère, j'ai une petite pharmacie de voyage assez bien garnie..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "EDMÉE",
+    "text": "Merci, monsieur, vous êtes bien aimable. (Elle sort.)",
+    "id": "p-1164",
+    "fr": "EDMÉE : Merci, monsieur, vous êtes bien aimable. (Elle sort.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VI]",
+    "id": "p-1165",
+    "fr": "[SCÈNE VI]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED",
+    "text": "J'ai peur que ce ne soit moi qui fasse partir madame Lemoyne... J'ai dû vous paraître si ridicule avec mes épinards et mon œuf à la coque. Je suis sûr que vous allez croire que je ne m'intéresse qu'à la nourriture. Mais c'est tout le contraire ; maman pourra vous dire que je ne sais jamais ce que je mange. C'est vrai, je n'ai aucune exigence, du reste à la maison tout le monde me considère comme un intellectuel.",
+    "id": "p-1166",
+    "fr": "FRED : J'ai peur que ce ne soit moi qui fasse partir madame Lemoyne... J'ai dû vous paraître si ridicule avec mes épinards et mon œuf à la coque. Je suis sûr que vous allez croire que je ne m'intéresse qu'à la nourriture. Mais c'est tout le contraire ; maman pourra vous dire que je ne sais jamais ce que je mange. C'est vrai, je n'ai aucune exigence, du reste à la maison tout le monde me considère comme un intellectuel."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je vois.",
+    "id": "p-1167",
+    "fr": "OSMONDE : Je vois."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED",
+    "text": "Si j'attachais de l'importance à ces choses-là, je ne serais pas venu loger chez vos parents. Parce que des gens supérieurs comme eux mangent n'importe comment... Je tenais à vous expliquer, parce que je serais tout à fait désolé si vous deviez rester sur cette impression. C'est si important une première impression. C'est vrai que ce n'est pas la première fois que les circonstances nous rapprochent. Vous vous rappelez l'été que vous avez passé à Évilard à la pension des Soldanelles. J'étais à l'hôtel des Cyclamens avec mes cousins du Locle... Vous aviez un coup de raquette épatant. Nous avons même fait une fois un single, si vous vous rappelez. Et puis il y a eu une petite fête à la pension ; vous avez chanté une petite machine : c'était chic. Moi, du reste, la musique me fait un effet ! L'air m'est toujours resté ; s'il y avait un piano, je vous le jouerais.",
+    "id": "p-1168",
+    "fr": "FRED : Si j'attachais de l'importance à ces choses-là, je ne serais pas venu loger chez vos parents. Parce que des gens supérieurs comme eux mangent n'importe comment... Je tenais à vous expliquer, parce que je serais tout à fait désolé si vous deviez rester sur cette impression. C'est si important une première impression. C'est vrai que ce n'est pas la première fois que les circonstances nous rapprochent. Vous vous rappelez l'été que vous avez passé à Évilard à la pension des Soldanelles. J'étais à l'hôtel des Cyclamens avec mes cousins du Locle... Vous aviez un coup de raquette épatant. Nous avons même fait une fois un single, si vous vous rappelez. Et puis il y a eu une petite fête à la pension ; vous avez chanté une petite machine : c'était chic. Moi, du reste, la musique me fait un effet ! L'air m'est toujours resté ; s'il y avait un piano, je vous le jouerais."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Vous avez une excellente mémoire qui doit beaucoup vous aider dans vos études.",
+    "id": "p-1169",
+    "fr": "OSMONDE : Vous avez une excellente mémoire qui doit beaucoup vous aider dans vos études."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED",
+    "text": "Encore assez. Mais il y a des choses qui ne sont pas commodes. Aujourd'hui on vous demande tellement d'érudition et de philologie et des tas de bazars : on n'en sort plus. Je ne sais pas si vous êtes comme moi, mais je trouve que tout ça ne devrait pas être nécessaire. Ce qu'il faut, surtout, c'est avoir de la foi. Moi, je n'ai pas à me plaindre, je peux dire que j'ai énormément de foi, énormément.",
+    "id": "p-1170",
+    "fr": "FRED : Encore assez. Mais il y a des choses qui ne sont pas commodes. Aujourd'hui on vous demande tellement d'érudition et de philologie et des tas de bazars : on n'en sort plus. Je ne sais pas si vous êtes comme moi, mais je trouve que tout ça ne devrait pas être nécessaire. Ce qu'il faut, surtout, c'est avoir de la foi. Moi, je n'ai pas à me plaindre, je peux dire que j'ai énormément de foi, énormément."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Mes félicitations.",
+    "id": "p-1171",
+    "fr": "OSMONDE : Mes félicitations."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED",
+    "text": "Oh ! il n'y a pas de quoi. C'est ma nature.",
+    "id": "p-1172",
+    "fr": "FRED : Oh ! il n'y a pas de quoi. C'est ma nature."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VII]",
+    "id": "p-1173",
+    "fr": "[SCÈNE VII]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, CLAUDE",
+    "id": "p-1174",
+    "fr": "LES MÊMES, CLAUDE"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE, à Fred",
+    "text": "Bonjour, Fred.",
+    "id": "p-1175",
+    "fr": "CLAUDE, à Fred : Bonjour, Fred."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FRED, rougissant",
+    "text": "Bonjour, monsieur, je m'excuse de déranger, j'étais venu demander un renseignement à Mademoiselle Osmonde.",
+    "id": "p-1176",
+    "fr": "FRED, rougissant : Bonjour, monsieur, je m'excuse de déranger, j'étais venu demander un renseignement à Mademoiselle Osmonde."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Il n'y a pas de mal. (Fred sort.)",
+    "id": "p-1177",
+    "fr": "CLAUDE : Il n'y a pas de mal. (Fred sort.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Voilà : c'est probablement sur un numéro de ce genre que j'aurais eu le bonheur de tomber, si... Tu m'excuses, papa ? (Elle s'installe à la table et écrit.)",
+    "id": "p-1178",
+    "fr": "OSMONDE : Voilà : c'est probablement sur un numéro de ce genre que j'aurais eu le bonheur de tomber, si... Tu m'excuses, papa ? (Elle s'installe à la table et écrit.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "A qui écris-tu ?",
+    "id": "p-1179",
+    "fr": "CLAUDE : A qui écris-tu ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je te dirai ça dans une seconde... (Elle ferme la lettre et va à la porte.) Félicie !",
+    "id": "p-1180",
+    "fr": "OSMONDE : Je te dirai ça dans une seconde... (Elle ferme la lettre et va à la porte.) Félicie !"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FÉLICIE, à la cantonade",
+    "text": "Mademoiselle...",
+    "id": "p-1181",
+    "fr": "FÉLICIE, à la cantonade : Mademoiselle..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Portez ça immédiatement chez M. Mégal.",
+    "id": "p-1182",
+    "fr": "OSMONDE : Portez ça immédiatement chez M. Mégal."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FÉLICIE, entre et prend la lettre",
+    "text": "Bien, mademoiselle. (Elle sort.)",
+    "id": "p-1183",
+    "fr": "FÉLICIE, entre et prend la lettre : Bien, mademoiselle. (Elle sort.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Qu'est-ce que ça veut dire ?",
+    "id": "p-1184",
+    "fr": "CLAUDE : Qu'est-ce que ça veut dire ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Maintenant, dis-moi, papa, je viens de découvrir... pourquoi m'as-tu laissé croire que tu venais seulement d'apprendre la vérité ? Je ne comprends pas très bien, et je t'avoue que je ne trouve pas ça chic de ta part. Moi qui espérais que nous serions plus en confiance dorénavant...",
+    "id": "p-1185",
+    "fr": "OSMONDE : Maintenant, dis-moi, papa, je viens de découvrir... pourquoi m'as-tu laissé croire que tu venais seulement d'apprendre la vérité ? Je ne comprends pas très bien, et je t'avoue que je ne trouve pas ça chic de ta part. Moi qui espérais que nous serions plus en confiance dorénavant..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE, bas, sans la regarder",
+    "text": "C'est par lâcheté que je t'ai menti.",
+    "id": "p-1186",
+    "fr": "CLAUDE, bas, sans la regarder : C'est par lâcheté que je t'ai menti."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Comment ?",
+    "id": "p-1187",
+    "fr": "OSMONDE : Comment ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "L'idée que tu ferais certaines réflexions.",
+    "id": "p-1188",
+    "fr": "CLAUDE : L'idée que tu ferais certaines réflexions."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Quelles réflexions ? (Un silence. Osmonde l'examine.)",
+    "id": "p-1189",
+    "fr": "OSMONDE : Quelles réflexions ? (Un silence. Osmonde l'examine.)"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE, très bas",
+    "text": "Des réflexions humiliantes pour moi...",
+    "id": "p-1190",
+    "fr": "CLAUDE, très bas : Des réflexions humiliantes pour moi..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Alors j'avais compris.",
+    "id": "p-1191",
+    "fr": "OSMONDE : Alors j'avais compris."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Où est ta mère ?",
+    "id": "p-1192",
+    "fr": "CLAUDE : Où est ta mère ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Elle est sur son lit.",
+    "id": "p-1193",
+    "fr": "OSMONDE : Elle est sur son lit."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Elle est malade ? (Geste évasif d'Osmonde.) Qu'est-ce qu'elle a ?",
+    "id": "p-1194",
+    "fr": "CLAUDE : Elle est malade ? (Geste évasif d'Osmonde.) Qu'est-ce qu'elle a ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Elle m'a l'air assez démoralisée.",
+    "id": "p-1195",
+    "fr": "OSMONDE : Elle m'a l'air assez démoralisée."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Vous avez parlé de cela ?",
+    "id": "p-1196",
+    "fr": "CLAUDE : Vous avez parlé de cela ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Quelques mots.",
+    "id": "p-1197",
+    "fr": "OSMONDE : Quelques mots."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE, durement",
+    "text": "Je te l'avais pourtant défendu.",
+    "id": "p-1198",
+    "fr": "CLAUDE, durement : Je te l'avais pourtant défendu."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "C'est elle qui m'a entreprise au sujet de ce Monsieur. Elle me demande d'aller lui tenir compagnie de temps en temps.",
+    "id": "p-1199",
+    "fr": "OSMONDE : C'est elle qui m'a entreprise au sujet de ce Monsieur. Elle me demande d'aller lui tenir compagnie de temps en temps."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE, violent",
+    "text": "Tu n'iras pas.",
+    "id": "p-1200",
+    "fr": "CLAUDE, violent : Tu n'iras pas."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je n'ai pas l'intention d'y aller.",
+    "id": "p-1201",
+    "fr": "OSMONDE : Je n'ai pas l'intention d'y aller."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Je te l'interdis, c'est bien simple.",
+    "id": "p-1202",
+    "fr": "CLAUDE : Je te l'interdis, c'est bien simple."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Tu peux t'épargner cette peine.",
+    "id": "p-1203",
+    "fr": "OSMONDE : Tu peux t'épargner cette peine."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Et si par hasard il se permet de revenir...",
+    "id": "p-1204",
+    "fr": "CLAUDE : Et si par hasard il se permet de revenir..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "C'est peu vraisemblable.",
+    "id": "p-1205",
+    "fr": "OSMONDE : C'est peu vraisemblable."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Il ne manquerait plus que ça que tu ailles chez lui sans mon autorisation !",
+    "id": "p-1206",
+    "fr": "CLAUDE : Il ne manquerait plus que ça que tu ailles chez lui sans mon autorisation !"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Mais, papa, je ne sais pas ce qui te prend.",
+    "id": "p-1207",
+    "fr": "OSMONDE : Mais, papa, je ne sais pas ce qui te prend."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "C'est qu'après tout ce qui s'est passé tu pourrais croire, je ne sais pas, moi... mais c'est fini, je te le garantis.",
+    "id": "p-1208",
+    "fr": "CLAUDE : C'est qu'après tout ce qui s'est passé tu pourrais croire, je ne sais pas, moi... mais c'est fini, je te le garantis."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Qu'est-ce qui est fini ?",
+    "id": "p-1209",
+    "fr": "OSMONDE : Qu'est-ce qui est fini ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Je me suis assez humilié. Ah ! faire mal à quelqu'un !",
+    "id": "p-1210",
+    "fr": "CLAUDE : Je me suis assez humilié. Ah ! faire mal à quelqu'un !"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Tu ne pourrais pas.",
+    "id": "p-1211",
+    "fr": "OSMONDE : Tu ne pourrais pas."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Oh si, maintenant, je saurais... Jeter quelqu'un dehors... taper dessus.",
+    "id": "p-1212",
+    "fr": "CLAUDE : Oh si, maintenant, je saurais... Jeter quelqu'un dehors... taper dessus."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Ça ne te ferait aucun plaisir.",
+    "id": "p-1213",
+    "fr": "OSMONDE : Ça ne te ferait aucun plaisir."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE, d'une voix changée",
+    "text": "Voilà où j'en suis. Moi. C'est comme si j'avais bu de l'alcool... ah ! c'est effrayant. Depuis deux jours. Tous les sentiments que je n'avais jamais eus, tous les mots que je n'avais jamais dits... Si tu avais entendu tout à l'heure les phrases que je prononçais presque à haute voix. Dis-moi que ça va passer... Mais non, je ne suis même pas sûr d'avoir envie que ça passe.",
+    "id": "p-1214",
+    "fr": "CLAUDE, d'une voix changée : Voilà où j'en suis. Moi. C'est comme si j'avais bu de l'alcool... ah ! c'est effrayant. Depuis deux jours. Tous les sentiments que je n'avais jamais eus, tous les mots que je n'avais jamais dits... Si tu avais entendu tout à l'heure les phrases que je prononçais presque à haute voix. Dis-moi que ça va passer... Mais non, je ne suis même pas sûr d'avoir envie que ça passe."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Tu es hors de toi, c'est visible. Mais c'est un accès qui ne durera pas.",
+    "id": "p-1215",
+    "fr": "OSMONDE : Tu es hors de toi, c'est visible. Mais c'est un accès qui ne durera pas."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Oui.",
+    "id": "p-1216",
+    "fr": "CLAUDE : Oui."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "D'ailleurs, il y a des moments où tu es tout à fait calme, c'est seulement quand tu es seul...",
+    "id": "p-1217",
+    "fr": "OSMONDE : D'ailleurs, il y a des moments où tu es tout à fait calme, c'est seulement quand tu es seul..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Ce sont comme des bouffées qui montent je ne sais pas d'où.",
+    "id": "p-1218",
+    "fr": "CLAUDE : Ce sont comme des bouffées qui montent je ne sais pas d'où."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Tu vois bien, tu es de nouveau tout à fait tranquille.",
+    "id": "p-1219",
+    "fr": "OSMONDE : Tu vois bien, tu es de nouveau tout à fait tranquille."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Tu me parles comme à un malade.",
+    "id": "p-1220",
+    "fr": "CLAUDE : Tu me parles comme à un malade."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "FÉLICIE, au dehors",
+    "text": "C'est monsieur Mégal qui demande s'il peut parler à mademoiselle.",
+    "id": "p-1221",
+    "fr": "FÉLICIE, au dehors : C'est monsieur Mégal qui demande s'il peut parler à mademoiselle."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Comment ?",
+    "id": "p-1222",
+    "fr": "CLAUDE : Comment ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Faites entrer M. Mégal.",
+    "id": "p-1223",
+    "fr": "OSMONDE : Faites entrer M. Mégal."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "C'est toi qui lui as dit de venir ?",
+    "id": "p-1224",
+    "fr": "CLAUDE : C'est toi qui lui as dit de venir ?"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Oui.",
+    "id": "p-1225",
+    "fr": "OSMONDE : Oui."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "[SCÈNE VIII]",
+    "id": "p-1226",
+    "fr": "[SCÈNE VIII]"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "STAGE",
+    "text": "LES MÊMES, MÉGAL",
+    "id": "p-1227",
+    "fr": "LES MÊMES, MÉGAL"
+  },
+  {
+    "sec": "act-4",
+    "speaker": "MÉGAL, s'inclinant",
+    "text": "Monsieur. Mademoiselle...",
+    "id": "p-1228",
+    "fr": "MÉGAL, s'inclinant : Monsieur. Mademoiselle..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Je suis heureuse que mon père assiste à notre conversation. Vous m'avez dit que vous cherchiez quelqu'un qui pût s'occuper complètement d'Yvonne et de Suzanne. Eh bien ! je viens vous offrir de me consacrer à elles...",
+    "id": "p-1229",
+    "fr": "OSMONDE : Je suis heureuse que mon père assiste à notre conversation. Vous m'avez dit que vous cherchiez quelqu'un qui pût s'occuper complètement d'Yvonne et de Suzanne. Eh bien ! je viens vous offrir de me consacrer à elles..."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "MÉGAL",
+    "text": "Mademoiselle, je suis plus touché que je ne puis dire de votre proposition ; mais c'est impossible... d'abord vous n'avez pas le temps.",
+    "id": "p-1230",
+    "fr": "MÉGAL : Mademoiselle, je suis plus touché que je ne puis dire de votre proposition ; mais c'est impossible... d'abord vous n'avez pas le temps."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "CLAUDE",
+    "text": "Je ne comprends pas que tu aies dérangé M. Mégal pour une pareille absurdité.",
+    "id": "p-1231",
+    "fr": "CLAUDE : Je ne comprends pas que tu aies dérangé M. Mégal pour une pareille absurdité."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "J'ai tout mon temps libre, et j'ai besoin d'une tâche qui m'absorbe complètement. Le plus grand service que vous puissiez me rendre, c'est d'accepter la proposition que je vous fais.",
+    "id": "p-1232",
+    "fr": "OSMONDE : J'ai tout mon temps libre, et j'ai besoin d'une tâche qui m'absorbe complètement. Le plus grand service que vous puissiez me rendre, c'est d'accepter la proposition que je vous fais."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "MÉGAL",
+    "text": "Mais enfin, mademoiselle, je ne sais pas si vous avez réfléchi que je m'apprête à quitter Paris pour plusieurs mois.",
+    "id": "p-1233",
+    "fr": "MÉGAL : Mais enfin, mademoiselle, je ne sais pas si vous avez réfléchi que je m'apprête à quitter Paris pour plusieurs mois."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "OSMONDE",
+    "text": "Vous me l'avez dit.",
+    "id": "p-1234",
+    "fr": "OSMONDE : Vous me l'avez dit."
+  },
+  {
+    "sec": "act-4",
+    "speaker": "MÉGAL",
+    "text": "Vos parents...",
+    "id": "p-1235",
+    "fr": "MÉGAL : Vos parents..."
+  }
+]
