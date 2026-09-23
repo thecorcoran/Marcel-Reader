@@ -341,12 +341,12 @@
       "companionTitle": "On the Ontological Mystery (1933)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (110 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 1,050 Rows, 61k Words)",
       "sections": [
-        { "id": "act-1", "titleFr": "Acte I : Le salon parisien et le pressentiment du vide", "titleEn": "Act I: The Parisian Salon and the Premonition of the Void" },
+        { "id": "act-1", "titleFr": "Acte I : Le salon parisien et le pressentiment du monde cassé", "titleEn": "Act I: The Parisian Salon and the Premonition of the Broken World" },
         { "id": "act-2", "titleFr": "Acte II : L'ombre de Jacques Cartier et le refus du faux-semblant", "titleEn": "Act II: The Shadow of Jacques Cartier and the Rejection of Pretense" },
         { "id": "act-3", "titleFr": "Acte III : La crise conjugale et l'incompréhension des cœurs", "titleEn": "Act III: The Marital Crisis and the Incomprehension of Hearts" },
-        { "id": "act-4", "titleFr": "Acte IV : L'offrande, le sacrifice et la communion retrouvée", "titleEn": "Act IV: The Offering, the Sacrifice, and Communion Regained" }
+        { "id": "act-4", "titleFr": "Acte IV : L'offrande, la présence invisible et la communion retrouvée", "titleEn": "Act IV: The Offering, Invisible Presence, and Communion Regained" }
       ]
     },
     "un-homme-de-dieu": {

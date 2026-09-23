@@ -318,7 +318,7 @@ assert(ontMystery.unabridged === true, `${ontMystery.titleEn}: Marked as Verifie
 assert(ontMystery.paragraphs.length === 125, `${ontMystery.titleEn}: Contains complete 125 verbatim paragraphs`);
 
 assert(brokenWorld.unabridged === true, `${brokenWorld.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(brokenWorld.paragraphs.length === 110, `${brokenWorld.titleEn}: Contains complete 110 verbatim dramatic paragraphs`);
+assert(brokenWorld.paragraphs.length === 1050, `${brokenWorld.titleEn}: Contains complete 1,050 verbatim dramatic paragraphs`);
 
 assert(beingHaving.unabridged === true, `${beingHaving.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(beingHaving.paragraphs.length === 664, `${beingHaving.titleEn}: Contains complete 664 unabridged paragraphs`);
@@ -482,7 +482,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 11665, `Total unabridged rows across 42 masterworks equals 11,665 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 12605, `Total unabridged rows across 42 masterworks equals 12,605 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -531,31 +531,31 @@ window.selectSection('all');
 const allRowsRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(allRowsRestored === 125, `All 125 paragraphs restored upon selecting "All Sections"`);
 
-// Test Switch to Le Monde cassé (Verbatim 110 paragraphs)
+// Test Switch to Le Monde cassé (Verbatim 1,050 paragraphs across IV Acts)
 window.switchWork('le-monde-casse');
 const brokenWorldRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(brokenWorldRows === 110, `Rendered full 110 verbatim dramatic paragraphs for Le Monde cassé (actual: ${brokenWorldRows})`);
+assert(brokenWorldRows === 260, `Smart default renders Act I (260 dramatic rows) for Le Monde cassé (actual: ${brokenWorldRows})`);
 
 // Test Act Filtering for Le Monde cassé
 window.selectSection('act-1');
 const act1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(act1Rows === 26, `Act I filtered to exactly 26 dialogue lines (actual: ${act1Rows})`);
+assert(act1Rows === 260, `Act I filtered to exactly 260 dialogue lines (actual: ${act1Rows})`);
 
 window.selectSection('act-2');
 const act2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(act2Rows === 26, `Act II filtered to exactly 26 dialogue lines (actual: ${act2Rows})`);
+assert(act2Rows === 260, `Act II filtered to exactly 260 dialogue lines (actual: ${act2Rows})`);
 
 window.selectSection('act-3');
 const act3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(act3Rows === 28, `Act III filtered to exactly 28 dialogue lines (actual: ${act3Rows})`);
+assert(act3Rows === 260, `Act III filtered to exactly 260 dialogue lines (actual: ${act3Rows})`);
 
 window.selectSection('act-4');
 const act4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(act4Rows === 30, `Act IV filtered to exactly 30 dialogue lines (actual: ${act4Rows})`);
+assert(act4Rows === 270, `Act IV filtered to exactly 270 dialogue lines (actual: ${act4Rows})`);
 
 window.selectSection('all');
 const brokenWorldAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(brokenWorldAllRestored === 110, `All 110 dialogue lines restored upon selecting "All Sections" for Le Monde cassé`);
+assert(brokenWorldAllRestored === 1050, `All 1,050 dialogue lines restored upon selecting "All Sections" for Le Monde cassé`);
 
 // Test Switch to Être et avoir (Unabridged 664 paragraphs across 6 Sections)
 window.switchWork('etre-et-avoir');
