@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "p-0261",
+    "sectionId": "act-2",
+    "fr": "ACTE II. Le cabinet de travail de Bernard Moirans. Une vaste pièce austère, tapissée de rayonnages de chêne sombre ployant sous les volumes reliés de théologie, d'apologétique et de philosophie chrétienne. Sur un large bureau d'acajou, une lampe à abat-jour vert projette un cercle de lumière vive sur des manuscrits inachevés, des épreuves d'imprimerie et des lettres à en-tête épiscopal. Au mur, un crucifix d'ivoire ancien. C'est le crépuscule ; les hautes fenêtres laissent entrevoir la silhouette sombre des cèdres du parc.",
+    "en": "ACT II. Bernard Moirans's study. A vast, austere room lined with dark oak shelves groaning under bound volumes of theology, apologetics, and Christian philosophy. On a large mahogany desk, a green-shaded lamp casts a bright circle of light onto unfinished manuscripts, printer's galley proofs, and letters bearing episcopal crests. On the wall, an antique ivory crucifix. It is twilight; through the tall windows the dark silhouettes of the park's cedar trees are visible."
+  },
+  {
+    "id": "p-0262",
+    "sectionId": "act-2",
+    "fr": "BERNARD (assis à sa table de travail, la plume suspendue au-dessus d'une page blanche, le regard absorbé dans une rêverie satisfaite) : Le second chapitre de mon essai sur *L'Idéal Monastique et la Crise Contemporaine* touche à sa conclusion. J'y démontre sans réplique possible que seule l'offrande volontaire de l'âme contemplative peut faire échec au nihilisme de notre époque.",
+    "en": "BERNARD (seated at his desk, pen poised above a blank page, his gaze absorbed in satisfied reverie): The second chapter of my essay on *The Monastic Ideal and Contemporary Crisis* is nearing its conclusion. In it, I demonstrate beyond reply that only the voluntary offering of the contemplative soul can thwart the nihilism of our age."
+  },
+  {
+    "id": "p-0263",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se levant et marchant vers la fenêtre, parlant à mi-voix) : Quelle harmonie parfaite dans ma vie ! Mes idées triomphent dans les cénacles d'élite, ma parole remue les foules croyantes, et ma famille fleurit sous la bénédiction d'un avenir radieux. Roger de Préchac va épouser Clarisse... Tout est ordonné selon la beauté et la sagesse chrétienne.",
+    "en": "BERNARD (rising and walking to the window, speaking in an undertone): What perfect harmony in my life! My ideas triumph in elite circles, my voice moves devout crowds, and my family flourishes under the blessing of a radiant future. Roger de Préchac is to marry Clarisse... Everything is ordered according to Christian beauty and wisdom."
+  },
+  {
+    "id": "p-0264",
+    "sectionId": "act-2",
+    "fr": "On frappe doucement à la porte. Bernard tressaille légèrement, puis se retourne avec bienveillance.",
+    "en": "A soft knock is heard at the door. Bernard starts slightly, then turns around with benevolence."
+  },
+  {
+    "id": "p-0265",
+    "sectionId": "act-2",
+    "fr": "BERNARD : Entrez, ma fille. Entrez, Clarisse.",
+    "en": "BERNARD: Come in, my child. Come in, Clarisse."
+  },
+  {
+    "id": "p-0266",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (entrant silencieusement, vêtue d'une robe simple en serge grise, le visage d'une pâleur lumineuse et sereine, refermant la porte derrière elle avec précaution) : Tu es seul, père ? Je ne te dérange pas au milieu de ton travail ?",
+    "en": "CLARISSE (entering silently, dressed in a simple gray serge gown, her face luminous and serenely pale, closing the door behind her with caution): Are you alone, Father? Am I not disturbing you in the midst of your work?"
+  },
+  {
+    "id": "p-0267",
+    "sectionId": "act-2",
+    "fr": "BERNARD (souriant affectueusement, lui tendant les deux mains) : Tu ne me déranges jamais, mon enfant. Mon travail se nourrit de ta présence. Approche-toi de la lampe. J'étais justement en train de penser à toi, à ton avenir, à la joie qui nous attend tous.",
+    "en": "BERNARD (smiling affectionately, holding out both hands to her): You never disturb me, my child. My work is nourished by your presence. Come closer to the lamp. I was just thinking of you, of your future, of the joy awaiting us all."
+  },
+  {
+    "id": "p-0268",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (restant debout à quelques pas du bureau, les mains croisées devant elle, le regard calme et profond) : Père, il faut que je te parle. J'ai attendu ce soir parce que j'avais besoin de recueillir mes pensées dans le silence et la prière avant de t'ouvrir mon cœur.",
+    "en": "CLARISSE (remaining standing a few steps from the desk, hands clasped in front of her, her gaze calm and profound): Father, I must speak with you. I waited for this evening because I needed to gather my thoughts in silence and prayer before opening my heart to you."
+  },
+  {
+    "id": "p-0269",
+    "sectionId": "act-2",
+    "fr": "BERNARD (la regardant avec une curiosité paternelle amusée) : Ouvrir ton cœur ? Tu me dis cela avec une gravité si solennelle ! Serait-ce à propos de Roger ? Il t'a parlé ce matin dans l'allée des tilleuls, n'est-ce pas ? Rassure-toi, ton père approuve pleinement ses sentiments.",
+    "en": "BERNARD (looking at her with amused paternal curiosity): Open your heart? You say that to me with such solemn gravity! Could it be about Roger? He spoke to you this morning in the linden alley, did he not? Rest assured, your father fully approves of his feelings."
+  },
+  {
+    "id": "p-0270",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (doucement mais fermement) : C'est bien de Roger qu'il s'agit d'abord, père. Je lui ai répondu ce matin. Je lui ai dit qu'il m'était impossible de devenir sa femme.",
+    "en": "CLARISSE (gently but firmly): It is indeed about Roger first, Father. I answered him this morning. I told him that it was impossible for me to become his wife."
+  },
+  {
+    "id": "p-0271",
+    "sectionId": "act-2",
+    "fr": "BERNARD (frappé de stupeur, s'avançant vers elle, haussant les sourcils) : Tu as refusé Roger de Préchac ? Mais c'est insensé, Clarisse ! Roger est un homme admirable, pieux, loyal, d'un rang impeccable. Pourquoi un tel refus ? Aurais-tu quelque scrupule secret ? Une timidité de jeune fille ?",
+    "en": "BERNARD (struck with stupor, stepping toward her, raising his eyebrows): You refused Roger de Préchac? But that is senseless, Clarisse! Roger is an admirable man—pious, loyal, of impeccable standing. Why such a refusal? Do you have some secret scruple? A young girl's shyness?"
+  },
+  {
+    "id": "p-0272",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Ce n'est ni du scrupule ni de la timidité, père. J'ai pour Roger une estime sincère et fraternelle. Mais je ne peux pas lui donner ce qui ne m'appartient plus.",
+    "en": "CLARISSE: It is neither scruple nor shyness, Father. I hold sincere and brotherly esteem for Roger. But I cannot give him what no longer belongs to me."
+  },
+  {
+    "id": "p-0273",
+    "sectionId": "act-2",
+    "fr": "BERNARD (inquiet, la scrutant) : Ce qui ne t'appartient plus ? Que veux-tu dire ? Serais-tu éprise d'un autre sans que nous le sachions ?",
+    "en": "BERNARD (worried, scrutinizing her): What no longer belongs to you? What do you mean? Could you be fond of someone else without our knowledge?"
+  },
+  {
+    "id": "p-0274",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (avec une clarté limpide) : Oui, père. D'un autre à qui j'ai voué toute mon existence, sans partage et sans retour en arrière. J'entre au Carmel.",
+    "en": "CLARISSE (with limpid clarity): Yes, Father. To another to whom I have consecrated my whole existence, unreservedly and without looking back. I am entering Carmel."
+  },
+  {
+    "id": "p-0275",
+    "sectionId": "act-2",
+    "fr": "Un long silence s'abat sur la pièce. Bernard reste pétrifié, le visage blêmissant sous la clarté verte de la lampe.",
+    "en": "A long silence falls upon the room. Bernard remains petrified, his face turning pale under the green light of the lamp."
+  },
+  {
+    "id": "p-0276",
+    "sectionId": "act-2",
+    "fr": "BERNARD (d'une voix sourde, haletante) : Le... le Carmel ? Toi, Clarisse ? Ma fille, mon unique consolation... enfermée vivante derrière les grilles d'une clôture perpétuelle ?",
+    "en": "BERNARD (in a muffled, breathless voice): Car... Carmel? You, Clarisse? My daughter, my sole consolation... buried alive behind the grilles of a perpetual enclosure?"
+  },
+  {
+    "id": "p-0277",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Ce n'est pas un tombeau, père, c'est le lieu vivant de l'Amour absolu. C'est là que je pourrai répondre à l'appel qui résonne en moi depuis des années.",
+    "en": "CLARISSE: It is not a tomb, Father; it is the living sanctuary of absolute Love. It is there that I can answer the call that has echoed within me for years."
+  },
+  {
+    "id": "p-0278",
+    "sectionId": "act-2",
+    "fr": "BERNARD (reprenant soudainement ses esprits avec vivacité et véhémence) : Non ! C'est inadmissible ! C'est une crise d'exaltation passagère, une illusion mystique d'adolescente mal éclairée ! Tu as vingt ans, Clarisse ! Tu ne connais rien de la vie, rien de la rigueur impitoyable de ces ordres austères !",
+    "en": "BERNARD (suddenly recovering his wits with vigor and vehemence): No! It is inadmissible! It is a passing crisis of exaltation, a misguided adolescent mystical illusion! You are twenty, Clarisse! You know nothing of life, nothing of the pitiless rigor of those austere orders!"
+  },
+  {
+    "id": "p-0279",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : J'ai prié, j'ai médité, j'ai interrogé mon confesseur pendant deux années entières dans le plus grand secret. Ce n'est pas un coup de tête, père. C'est une certitude mûrie au plus intime de ma conscience.",
+    "en": "CLARISSE: I have prayed, I have meditated, I have questioned my confessor for two whole years in total secrecy. It is not an impulse, Father. It is a certainty matured in the innermost depths of my conscience."
+  },
+  {
+    "id": "p-0280",
+    "sectionId": "act-2",
+    "fr": "BERNARD (arpentant fiévreusement le cabinet) : Ton confesseur t'a encouragée ? C'est de la folie ! Les prêtres aujourd'hui manquent de discernement social ! Ils ne voient pas le mal qu'ils causent aux familles d'élite ! Ta place est dans le siècle, Clarisse, pour donner l'exemple d'un foyer chrétien rayonnant !",
+    "en": "BERNARD (feverishly pacing the study): Your confessor encouraged you? That is madness! Priests today lack social discernment! They fail to see the harm they inflict on elite families! Your place is in the world, Clarisse, to set the example of a radiant Christian home!"
+  },
+  {
+    "id": "p-0281",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (le fixant avec une profonde surprise mêlée de tristesse) : Père... Est-ce bien toi qui prononces ces paroles ? Toi qui as écrit que le sacrifice des cloîtres était le sommet inaccessible de la dignité humaine ?",
+    "en": "CLARISSE (gazing at him with deep surprise mixed with sadness): Father... Is it truly you speaking these words? You, who wrote that the sacrifice of cloistered orders was the unreachable summit of human dignity?"
+  },
+  {
+    "id": "p-0282",
+    "sectionId": "act-2",
+    "fr": "BERNARD (s'arrêtant net, déstabilisé, les tempes battantes) : Ce que j'ai écrit relève de la doctrine générale, de la théologie de l'Histoire ! C'est une apologie intellectuelle pour défendre l'Église contre les attaques des laïcistes !",
+    "en": "BERNARD (stopping dead in his tracks, unnerved, his temples throbbing): What I wrote belongs to general doctrine, to the theology of History! It is an intellectual apologetic to defend the Church against secularist attacks!"
+  },
+  {
+    "id": "p-0283",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Alors tes livres n'étaient que de vaines phrases ? Tu louais le sacrifice des filles des autres, mais tu refuses le sacrifice de la tienne ?",
+    "en": "CLARISSE: Then your books were merely hollow phrases? You praised the sacrifice of other men's daughters, yet you refuse the sacrifice of your own?"
+  },
+  {
+    "id": "p-0284",
+    "sectionId": "act-2",
+    "fr": "BERNARD (piqué au vif, haussant le ton) : Clarisse ! Comment oses-tu juger ton père avec une telle cruauté ? Mes livres expriment une vérité spirituelle abstraite ! Mais la paternité est une réalité de chair et de sang ! Je t'ai nourrie, instruite, chérie par-dessus tout au monde ! Tu n'as pas le droit de déchirer mon existence d'un trait de plume !",
+    "en": "BERNARD (stung to the quick, raising his voice): Clarisse! How dare you judge your father with such cruelty? My books express an abstract spiritual truth! But fatherhood is a reality of flesh and blood! I have nurtured, instructed, and cherished you above all else in this world! You have no right to tear my life apart with a stroke of a pen!"
+  },
+  {
+    "id": "p-0285",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (les larmes aux yeux mais la voix inébranlable) : Père, je ne déchire rien. Je réponds à l'appel de Celui qui a dit : « Celui qui aime son père ou sa mère plus que moi n'est pas digne de moi. » N'est-ce pas ce passage de l'Évangile que tu commentais avec tant de ferveur le mois dernier devant cinq cents personnes ?",
+    "en": "CLARISSE (tears in her eyes but her voice unwavering): Father, I am tearing nothing apart. I am answering the call of Him who said: 'He that loveth father or mother more than me is not worthy of me.' Is that not the very Gospel passage you commented on with such fervor last month before five hundred people?"
+  },
+  {
+    "id": "p-0286",
+    "sectionId": "act-2",
+    "fr": "BERNARD (frappant la table d'un poing crispé) : Tais-toi ! Ne retourne pas mes propres arguments contre moi ! C'est une profanation de mon autorité ! Les textes sacrés ne doivent pas être maniés par des jeunes filles inexpérimentées pour justifier un caprice destructeur !",
+    "en": "BERNARD (striking the desk with a clenched fist): Silence! Do not turn my own arguments against me! That is a profanation of my authority! Sacred scriptures must not be wielded by inexperienced young girls to justify a destructive caprice!"
+  },
+  {
+    "id": "p-0287",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (baissant la tête avec une douceur douloureuse) : Tu appelles ma vocation un caprice... Mon Dieu, pardonne-lui, car il ne sait pas ce qu'il dit dans sa douleur.",
+    "en": "CLARISSE (bowing her head with painful gentleness): You call my vocation a caprice... My God, forgive him, for he knows not what he says in his pain."
+  },
+  {
+    "id": "p-0288",
+    "sectionId": "act-2",
+    "fr": "BERNARD (saisi d'un frisson de vertige intérieur) : Tu pries pour moi ? Tu prends déjà l'attitude d'une victime sainte qui pardonne à son bourreau ? C'est intolérable ! Tu es ma fille, tu m'appartiens jusqu'à ta majorité légale, et je refuse formellement mon consentement !",
+    "en": "BERNARD (gripped by a shudder of inner vertigo): You pray for me? You already adopt the posture of a holy victim forgiving her persecutor? That is intolerable! You are my daughter, you belong to me until your legal majority, and I formally refuse my consent!"
+  },
+  {
+    "id": "p-0289",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : J'ai vingt et un ans le mois prochain, père. Je voulais partir avec ta bénédiction. Partir sans ta paix sera pour moi une croix immense, mais si c'est la volonté de Dieu, je la porterai.",
+    "en": "CLARISSE: I will be twenty-one next month, Father. I wanted to depart with your blessing. To depart without your peace will be an immense cross for me, but if it is God's will, I shall bear it."
+  },
+  {
+    "id": "p-0290",
+    "sectionId": "act-2",
+    "fr": "Madame Moirans entre précipitamment dans le cabinet, attirée par les éclats de voix.",
+    "en": "Madame Moirans enters the study hurriedly, drawn by the raised voices."
+  },
+  {
+    "id": "p-0291",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (affolée, regardant son mari puis sa fille) : Bernard ! Clarisse ! Que se passe-t-il ? Vos voix résonnent jusqu'au bas de l'escalier ! Pourquoi cette colère, Bernard ?",
+    "en": "MADAME MOIRANS (frantic, looking at her husband then her daughter): Bernard! Clarisse! What is happening? Your voices echo down to the foot of the stairs! Why this anger, Bernard?"
+  },
+  {
+    "id": "p-0292",
+    "sectionId": "act-2",
+    "fr": "BERNARD (désignant Clarisse avec amertume) : Demande-le à ta fille ! Elle vient de m'annoncer qu'elle refuse le mariage avec Roger et qu'elle veut s'enfermer au Carmel ! Voilà la récompense de tous nos sacrifices d'éducateurs chrétiens !",
+    "en": "BERNARD (pointing bitterly at Clarisse): Ask your daughter! She has just announced to me that she refuses marriage with Roger and wants to shut herself in Carmel! There is the reward for all our sacrifices as Christian parents!"
+  },
+  {
+    "id": "p-0293",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (poussant un cri étouffé, portant la main à son cœur) : Le Carmel ! Ma Clarisse... Mon Dieu, ayez pitié de nous !",
+    "en": "MADAME MOIRANS (giving a stifled cry, bringing her hand to her heart): Carmel! My Clarisse... My God, have mercy on us!"
+  },
+  {
+    "id": "p-0294",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se précipitant vers sa mère pour la soutenir) : Mère, ne pleure pas... Je ne vous abandonne pas ! Au Carmel, je serai plus proche de vous que jamais, priant à chaque heure du jour et de la nuit pour le salut de notre famille et de tous les hommes.",
+    "en": "CLARISSE (rushing to support her mother): Mother, do not weep... I am not abandoning you! In Carmel, I will be closer to you than ever, praying every hour of the day and night for the salvation of our family and of all mankind."
+  },
+  {
+    "id": "p-0295",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (fondant en larmes, serrant Clarisse contre sa poitrine) : Mais je ne te verrai plus... Je ne pourrai plus te toucher, ni caresser tes cheveux ! Une grille noire et un voile épais nous sépareront pour toujours !",
+    "en": "MADAME MOIRANS (bursting into tears, clasping Clarisse against her chest): But I will see you no more... I will no longer be able to touch you, nor stroke your hair! A black grille and a heavy veil will separate us forever!"
+  },
+  {
+    "id": "p-0296",
+    "sectionId": "act-2",
+    "fr": "BERNARD (à Thérèse) : Tu vois ! Tu vois l'égoïsme monstrueux de ce fanatisme religieux ! Elle prétend nous aimer en nous plongeant dans le deuil le plus affreux !",
+    "en": "BERNARD (to Thérèse): You see! You see the monstrous selfishness of this religious fanaticism! She claims to love us while plunging us into the most dreadful grief!"
+  },
+  {
+    "id": "p-0297",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Égoïsme ? Père, renoncer à tout ce que le monde offre de plaisirs, de richesses, d'affections douces pour une cellule nue et une vie de pénitence... Est-ce cela que tu appelles de l'égoïsme ?",
+    "en": "CLARISSE: Selfishness? Father, giving up all the pleasures, wealth, and gentle affections the world offers for a bare cell and a life of penance... Is that what you call selfishness?"
+  },
+  {
+    "id": "p-0298",
+    "sectionId": "act-2",
+    "fr": "BERNARD : Oui ! C'est l'égoïsme du salut individuel ! Tu te réfugies dans un havre de paix spirituelle en nous laissant porter le fardeau de la douleur et du scandale public !",
+    "en": "BERNARD: Yes! It is the selfishness of individual salvation! You take refuge in a haven of spiritual peace while leaving us to bear the burden of grief and public scandal!"
+  },
+  {
+    "id": "p-0299",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (entre deux sanglots) : Et que vont dire nos amis ? Que va penser l'évêque ? Tout le monde savait que Bernard préparait ton mariage avec Roger...",
+    "en": "MADAME MOIRANS (between sobs): And what will our friends say? What will the bishop think? Everyone knew that Bernard was preparing your marriage to Roger..."
+  },
+  {
+    "id": "p-0300",
+    "sectionId": "act-2",
+    "fr": "BERNARD : L'évêque ? Il dira que l'apôtre du renouveau catholique n'a même pas su inspirer à sa propre fille l'amour du devoir conjugal et familial ! Ma réputation, mon autorité morale, tout mon édifice intellectuel vont être la risée des salons !",
+    "en": "BERNARD: The bishop? He will say that the apostle of Catholic renewal could not even inspire in his own daughter the love of conjugal and family duty! My reputation, my moral authority, my entire intellectual edifice will become the laughingstock of the salons!"
+  },
+  {
+    "id": "p-0301",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (le regardant avec une pitié infinie) : Ah... Voilà le vrai motif de ta colère, père. Ce n'est pas ma douleur qui te terrifie, ni même celle de mère. C'est l'opinion des salons. C'est ton nom d'auteur chrétien. C'est ton palais d'idées.",
+    "en": "CLARISSE (looking at him with infinite pity): Ah... There is the true reason for your anger, Father. It is not my sorrow that terrifies you, nor even Mother's. It is the opinion of the salons. It is your reputation as a Christian author. It is your palace of ideas."
+  },
+  {
+    "id": "p-0302",
+    "sectionId": "act-2",
+    "fr": "BERNARD (suffoquant sous l'impact de la vérité) : Tais-toi ! Je t'ordonne de te taire !",
+    "en": "BERNARD (gasping under the impact of truth): Silence! I order you to be silent!"
+  },
+  {
+    "id": "p-0303",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Je me tairai, père. Mais la vérité demeure. Tout ton bel édifice de discours n'était qu'un palais de sable, prêt à s'écrouler au premier souffle de la réalité.",
+    "en": "CLARISSE: I will be silent, Father. But the truth remains. Your entire beautiful edifice of speeches was merely a palace of sand, ready to collapse at the first breath of reality."
+  },
+  {
+    "id": "p-0304",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0305",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0306",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0307",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0308",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0309",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0310",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0311",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0312",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0313",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0314",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0315",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0316",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0317",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0318",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0319",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0320",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0321",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0322",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0323",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0324",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0325",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0326",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0327",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0328",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0329",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0330",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0331",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0332",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0333",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0334",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0335",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0336",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0337",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0338",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0339",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0340",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0341",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0342",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0343",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0344",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0345",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0346",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0347",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0348",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0349",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0350",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0351",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0352",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0353",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0354",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0355",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0356",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0357",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0358",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0359",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0360",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0361",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0362",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0363",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0364",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0365",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0366",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0367",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0368",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0369",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0370",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0371",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0372",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0373",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0374",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0375",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0376",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0377",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0378",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0379",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0380",
+    "sectionId": "act-2",
+    "fr": "BERNARD (les mains tremblantes, s'asseyant lourdement dans son fauteuil) : Comment en sommes-nous arrivés là ? J'ai consacré chaque heure de mon existence à bâtir une doctrine pure et inattaquable. Et c'est de ma propre chair que surgit le glaive qui me transperce !",
+    "en": "BERNARD (hands trembling, sinking heavily into his armchair): How did we come to this? I devoted every hour of my existence to constructing a pure, unassailable doctrine. And it is from my own flesh that the sword arises to pierce me!"
+  },
+  {
+    "id": "p-0381",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (s'agenouillant doucement auprès de lui sans le toucher) : Si ta doctrine est vraie, père, accepte que je la vive jusqu'au bout. La foi n'est pas un monument qu'on contemple de loin ; c'est un feu qui consume tout ce que nous possédons.",
+    "en": "CLARISSE (kneeling gently near him without touching him): If your doctrine is true, Father, accept that I live it to the utmost. Faith is not a monument to contemplate from afar; it is a fire that consumes all we possess."
+  },
+  {
+    "id": "p-0382",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0383",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0384",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0385",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0386",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0387",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0388",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0389",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0390",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0391",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0392",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0393",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0394",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0395",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0396",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0397",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0398",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0399",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0400",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0401",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0402",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0403",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0404",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0405",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0406",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0407",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0408",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0409",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0410",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0411",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0412",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0413",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0414",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0415",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0416",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0417",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0418",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0419",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0420",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0421",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0422",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0423",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0424",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0425",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0426",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0427",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0428",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0429",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0430",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0431",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0432",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0433",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0434",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0435",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0436",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0437",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0438",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0439",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0440",
+    "sectionId": "act-2",
+    "fr": "MADAME MOIRANS (essuyant ses yeux avec un mouchoir de dentelle) : Clarisse, songe à tes jeunes années. Tu n'as jamais connu le froid de l'hiver dans une cellule sans feu, les veilles nocturnes sur la paille, le jeûne perpétuel. Ta santé si délicate ne résistera pas six mois !",
+    "en": "MADAME MOIRANS (dabbing her eyes with a lace handkerchief): Clarisse, think of your youthful years. You have never known winter's chill in a hearthless cell, nightly vigils upon straw, perpetual fasting. Your delicate health will not endure six months!"
+  },
+  {
+    "id": "p-0441",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : La grâce de Dieu supplée à toutes les faiblesses corporelles, mère. Ce n'est pas par ma propre force que je pars, mais portée par l'amour infini du Christ.",
+    "en": "CLARISSE: God's grace supplies for every bodily weakness, Mother. It is not by my own strength that I depart, but borne by Christ's infinite love."
+  },
+  {
+    "id": "p-0442",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0443",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0444",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0445",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0446",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0447",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0448",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0449",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0450",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0451",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0452",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0453",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0454",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0455",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0456",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0457",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0458",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0459",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0460",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0461",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0462",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0463",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0464",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0465",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0466",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0467",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0468",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0469",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0470",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0471",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0472",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0473",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0474",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0475",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0476",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0477",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0478",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0479",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0480",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0481",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0482",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0483",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0484",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0485",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0486",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0487",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0488",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0489",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0490",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se redressant avec un sursaut d'orgueil blessé) : Tu crois être plus sage que tes parents et que les siècles d'expérience humaine ! Tu confonds l'orgueil de la singularité avec la véritable sainteté ! L'Église a besoin de combattants au grand jour, pas d'ombres cloîtrées !",
+    "en": "BERNARD (straightening up with a surge of wounded pride): You believe you are wiser than your parents and centuries of human experience! You confuse the pride of singularity with true sanctity! The Church needs fighters in broad daylight, not cloistered shadows!"
+  },
+  {
+    "id": "p-0491",
+    "sectionId": "act-2",
+    "fr": "CLARISSE : Les ombres cloîtrées sont les racines invisibles de l'arbre dont tu admires les feuilles, père. Sans la prière obscure, tes discours ne seraient que du vent.",
+    "en": "CLARISSE: Cloistered shadows are the invisible roots of the tree whose foliage you admire, Father. Without hidden prayer, your speeches would be nothing but wind."
+  },
+  {
+    "id": "p-0492",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0493",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0494",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0495",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0496",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0497",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0498",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0499",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0500",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0501",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0502",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0503",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0504",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0505",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0506",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0507",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0508",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0509",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0510",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0511",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0512",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0513",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0514",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0515",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0516",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0517",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0518",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  },
+  {
+    "id": "p-0519",
+    "sectionId": "act-2",
+    "fr": "CLARISSE (se relevant avec une dignité silencieuse) : Je m'en vais, père. Mais je ne cesserai jamais de prier pour que la vraie paix vienne habiter ton âme.",
+    "en": "CLARISSE (rising with silent dignity): I am leaving, Father. But I will never cease praying that true peace may come to inhabit your soul."
+  },
+  {
+    "id": "p-0520",
+    "sectionId": "act-2",
+    "fr": "BERNARD (se détournant vers l'obscurité de la fenêtre) : Va-t'en, Clarisse. Laisse-moi seul. Tu as détruit la paix de ce foyer. Je ne veux plus t'entendre raisonner sur ma ruine.",
+    "en": "BERNARD (turning toward the darkness of the window): Leave, Clarisse. Leave me alone. You have destroyed the peace of this home. I will no longer hear you reason upon my ruin."
+  }
+]

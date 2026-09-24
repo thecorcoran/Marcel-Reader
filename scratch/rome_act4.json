@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "p-0661",
+    "sectionId": "act-4",
+    "fr": "ACTE IV. La grande bibliothèque du pavillon des hôtes à la Fazenda dos Eucaliptos, près de São Paulo au Brésil. Mars 1951, six mois après le départ d'Europe. Une immense pièce d'architecture coloniale portugaise, aux hauts plafonds de bois de rose, ventilateurs de cuivre tournant lentement. Larges baies ouvertes sur une véranda ombragée donnant sur un parc tropical luxuriant : palmiers royaux, bougainvilliers écarlates, lumière aveuglante d'un début d'après-midi étouffant.",
+    "en": "ACT IV. The grand library of the guest pavilion at the Fazenda dos Eucaliptos, near São Paulo in Brazil. March 1951, six months after departing from Europe. An immense room of Portuguese colonial architecture, with high rosewood ceilings, copper ceiling fans revolving slowly. Broad French doors opening onto a shaded veranda overlooking a luxuriant tropical park: royal palms, scarlet bougainvillea, the blinding glare of a stifling early afternoon."
+  },
+  {
+    "id": "p-0662",
+    "sectionId": "act-4",
+    "fr": "PASCAL (assis dans un profond fauteuil de rotin, vêtu d'un costume de toile blanche froissé, le teint cireux, le visage creusé et vieilli, un châle sur les genoux malgré la chaleur suffocante) : Quelle chaleur lourde... On dirait que l'air a été cuit dans une cuve de plomb. Même respirer devient un travail de forçat.",
+    "en": "PASCAL (seated in a deep rattan armchair, dressed in a crumpled white linen suit, his complexion waxy, his face hollowed and aged, a shawl over his knees despite the suffocating heat): What oppressive heat... It feels as if the air had been baked in a lead vat. Even drawing breath becomes a convict's labor."
+  },
+  {
+    "id": "p-0663",
+    "sectionId": "act-4",
+    "fr": "RENÉE (entrant depuis la véranda avec un pichet de verre givré contenant un jus de maracuja frais) : Bois ceci, Pascal. C'est frais et plein de vitamines. Le médecin brésilien a dit que ton organisme devait s'acclimater peu à peu à la mousson australe.",
+    "en": "RENÉE (entering from the veranda with a frosted glass pitcher containing fresh passionfruit juice): Drink this, Pascal. It is cool and rich in vitamins. The Brazilian physician said your system had to acclimate gradually to the southern monsoon."
+  },
+  {
+    "id": "p-0664",
+    "sectionId": "act-4",
+    "fr": "PASCAL (repoussant doucement le verre d'un geste las) : S'acclimater... Les arbres s'acclimatent peut-être, Renée, pas les vieux hommes déracinés. Cette luxuriance végétale m'oppresse. Partout des fleurs trop grandes, des parfums trop capiteux, des bruits d'insectes carnassiers... Où est la mesure française ? Où sont les rives mesurées de la Loire et les collines grises d'Île-de-France ?",
+    "en": "PASCAL (gently pushing the glass away with a weary gesture): Acclimate... Trees acclimate perhaps, Renée, not uprooted old men. This vegetative luxuriance oppresses me. Everywhere flowers too large, perfumes too heady, the clicking noises of predatory insects... Where is French restraint? Where are the measured banks of the Loire and the gray hills of Île-de-France?"
+  },
+  {
+    "id": "p-0665",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Tu es ingrat, Pascal ! Regarde cette maison princière que Calvez a mise à notre disposition. Des domestiques empressés au moindre coup de sonnette, un cuisinier français, une automobile américaine avec chauffeur pour tes trajets à l'université... Que pourrais-tu désirer de plus ?",
+    "en": "RENÉE: You are ungrateful, Pascal! Look at this princely home Calvez has placed at our disposal. Servants attentive to the slightest ring of the bell, a French chef, an American car with chauffeur for your trips to the university... What more could you possibly desire?"
+  },
+  {
+    "id": "p-0666",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Je désire une heure de vraie solitude spirituelle ! Ici, la domesticité vous épie, le luxe vous englue, et les mondanités de São Paulo vous étourdissent sans jamais nourrir l'âme.",
+    "en": "PASCAL: I desire one hour of true spiritual solitude! Here, the domestic staff spies on you, luxury mires you, and the social whirl of São Paulo deafens you without ever nourishing the soul."
+  },
+  {
+    "id": "p-0667",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais tes cours ont un succès prodigieux ! La salle des fêtes de la faculté était bondée mardi dernier pour ta conférence sur Pascal et Port-Royal.",
+    "en": "RENÉE: But your lectures are a prodigious success! The faculty auditorium was packed last Tuesday for your lecture on Pascal and Port-Royal."
+  },
+  {
+    "id": "p-0668",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Bondée de riches oisifs qui venaient voir une bête curieuse d'Europe ! Pas un seul n'a compris le drame spirituel de Port-Royal. Pour eux, les Provinciales ne sont qu'un exercice de rhétorique élégante pour meubler les conversations de salon après le bridge.",
+    "en": "PASCAL: Packed with wealthy idlers coming to gawk at a curious beast from Europe! Not a single one understood the spiritual tragedy of Port-Royal. To them, the Provincial Letters are merely an exercise in elegant rhetoric to decorate drawing room chatter after bridge."
+  },
+  {
+    "id": "p-0669",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Tu es trop exigeant. L'important est que tu sois vivant et honoré.",
+    "en": "RENÉE: You are too demanding. What is important is that you are alive and honored."
+  },
+  {
+    "id": "p-0670",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Vivant ? Non, Renée. Je suis embaumé tout vivant dans ce musée tropical.",
+    "en": "PASCAL: Alive? No, Renée. I am embalmed alive inside this tropical museum."
+  },
+  {
+    "id": "p-0671",
+    "sectionId": "act-4",
+    "fr": "M. de Calvez pénètre dans la bibliothèque depuis la véranda. Il porte un élégant costume de lin blanc immaculé, une fleur d'orchidée à la boutonnière. Son sourire est souverain, mais son regard trahit une fermeté impérieuse.",
+    "en": "M. de Calvez enters the library from the veranda. He wears an elegant suit of immaculate white linen, an orchid flower in his lapel. His smile is sovereign, but his gaze betrays an imperious firmness."
+  },
+  {
+    "id": "p-0672",
+    "sectionId": "act-4",
+    "fr": "CALVEZ : Bonjour, chère madame Launoy. Cher maître, comment se porte notre illustre hôte en cette radieuse journée d'été brésilien ?",
+    "en": "CALVEZ: Good day, dear Madame Launoy. Dear master, how fares our illustrious guest on this radiant day of Brazilian summer?"
+  },
+  {
+    "id": "p-0673",
+    "sectionId": "act-4",
+    "fr": "PASCAL (sans se lever) : Il se porte comme un prisonnier de marque dans une cage dorée, mon cher Calvez.",
+    "en": "PASCAL (without rising): He fares like a distinguished prisoner in a gilded cage, my dear Calvez."
+  },
+  {
+    "id": "p-0674",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (riant d'un rire discret et argentin) : Toujours cette ironie typiquement parisienne ! Mais aujourd'hui, cher ami, l'heure n'est plus à l'ironie. L'heure est à l'action décisive.",
+    "en": "CALVEZ (laughing with a discreet, silvery chuckle): Always that typically Parisian irony! But today, dear friend, the hour is no longer for irony. The hour is for decisive action."
+  },
+  {
+    "id": "p-0675",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Une action ? De quoi s'agit-il, monsieur de Calvez ?",
+    "en": "RENÉE: Action? What is this regarding, Monsieur de Calvez?"
+  },
+  {
+    "id": "p-0676",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (déposant un lourd dossier de cuir sur le bureau de Pascal) : Le gouverneur de l'État de São Paulo et le comité des grands producteurs de café ont rédigé la charte solennelle du « Front de la Chrétienté et de l'Ordre Latin ». C'est une proclamation fondamentale qui sera diffusée dans toute l'Amérique latine et reprise par les agences de presse de Washington et de Rome.",
+    "en": "CALVEZ (setting a heavy leather folder upon Pascal's desk): The Governor of the State of São Paulo and the committee of major coffee planters have drafted the solemn charter of the 'Front for Christendom and the Latin Order'. It is a foundational proclamation that will be disseminated throughout Latin America and carried by the wire services of Washington and Rome."
+  },
+  {
+    "id": "p-0677",
+    "sectionId": "act-4",
+    "fr": "PASCAL (jetant un regard méfiant sur le dossier) : Et en quoi cela me concerne-t-il ?",
+    "en": "PASCAL (casting a suspicious glance at the dossier): And how does that concern me?"
+  },
+  {
+    "id": "p-0678",
+    "sectionId": "act-4",
+    "fr": "CALVEZ : Cela vous concerne au premier chef, maître ! Nous avons placé votre nom en tête des signataires fondateurs. Vous êtes désigné comme le Président d'Honneur du mouvement.",
+    "en": "CALVEZ: It concerns you in the highest degree, master! We have placed your name at the head of the founding signatories. You are designated as Honorary President of the movement."
+  },
+  {
+    "id": "p-0679",
+    "sectionId": "act-4",
+    "fr": "PASCAL (se redressant sur son siège, la voix durcie) : Vous avez mis mon nom sans mon accord préalable ?",
+    "en": "PASCAL (straightening in his seat, his voice hardened): You put my name down without my prior consent?"
+  },
+  {
+    "id": "p-0680",
+    "sectionId": "act-4",
+    "fr": "CALVEZ : C'était une évidence morale ! Vous êtes notre caution intellectuelle la plus éclatante. Votre signature donnera à ce document une autorité universelle.",
+    "en": "CALVEZ: It was a moral matter of course! You are our most dazzling intellectual endorsement. Your signature will lend this document universal authority."
+  },
+  {
+    "id": "p-0681",
+    "sectionId": "act-4",
+    "fr": "PASCAL (ouvrant le dossier et lisant quelques lignes au hasard, ses sourcils se fronçant d'indignation) : « Nous réclamons la dissolution immédiate des syndicats suspects de sympathie subversive... L'interdiction des grèves sous peine de cour martiale... L'épuration sans merci des corps enseignants... » Mais enfin, Calvez, qu'est-ce que ce tissu de provocations policières ?",
+    "en": "PASCAL (opening the dossier and reading a few lines at random, his brow furrowing with indignation): 'We demand the immediate dissolution of unions suspected of subversive sympathy... The outlawing of strikes under pain of court martial... The merciless purging of teaching faculties...' But good heavens, Calvez, what is this web of police provocations?"
+  },
+  {
+    "id": "p-0682",
+    "sectionId": "act-4",
+    "fr": "CALVEZ : C'est le programme indispensable pour sauver notre société de la contamination communiste !",
+    "en": "CALVEZ: It is the indispensable program to save our society from communist contamination!"
+  },
+  {
+    "id": "p-0683",
+    "sectionId": "act-4",
+    "fr": "PASCAL (refermant brutalement le dossier) : Je ne signerai jamais cette abomination !",
+    "en": "PASCAL (slamming the dossier shut brutally): I shall never sign this abomination!"
+  },
+  {
+    "id": "p-0684",
+    "sectionId": "act-4",
+    "fr": "RENÉE (poussant un cri d'effroi) : Pascal ! Réfléchis !",
+    "en": "RENÉE (letting out a cry of fright): Pascal! Think!"
+  },
+  {
+    "id": "p-0685",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (dont le visage perd instantanément toute trace d'amabilité pour prendre une dureté de marbre) : Vous ne signerez pas ? Prenez garde, monsieur Launoy. Vous ne mesurez pas la gravité de vos paroles.",
+    "en": "CALVEZ (whose face instantly loses every trace of amiability to assume a marble hardness): You will not sign? Take heed, Monsieur Launoy. You do not measure the gravity of your words."
+  },
+  {
+    "id": "p-0686",
+    "sectionId": "act-4",
+    "fr": "PASCAL (se levant malgré sa faiblesse, la taille droite, le regard fulgurant) : Je ne suis pas venu au Brésil pour me faire le complice d'une répression fascisante ! J'ai combattu le totalitarisme hitlérien, j'ai dénoncé le totalitarisme stalinien, ce n'est pas pour aller bénir un totalitarisme clérical et policier en Amérique du Sud !",
+    "en": "PASCAL (rising despite his weakness, standing upright, his gaze blazing): I did not come to Brazil to make myself the accomplice of fascistic repression! I fought Hitlerian totalitarianism, I denounced Stalinist totalitarianism; it is not to go bless clerical and police totalitarianism in South America!"
+  },
+  {
+    "id": "p-0687",
+    "sectionId": "act-4",
+    "fr": "CALVEZ : Vous êtes bien prompt à employer les mots de nos ennemis ! Qui vous a payé votre traversée en première classe ? Qui finance votre chaire à l'université ? Qui entretient votre train de vie somptueux dans cette fazenda ?",
+    "en": "CALVEZ: You are very prompt to employ the vocabulary of our enemies! Who paid for your first-class crossing? Who finances your university chair? Who maintains your sumptuous lifestyle on this fazenda?"
+  },
+  {
+    "id": "p-0688",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Alors c'était donc cela ? Un marché infâme ! Vous m'avez acheté comme on achète un bouffon de cour pour légitimer vos privilèges et vos brutalités !",
+    "en": "PASCAL: So that was it, then? An infamous bargain! You purchased me as one purchases a court jester to legitimize your privileges and your brutalities!"
+  },
+  {
+    "id": "p-0689",
+    "sectionId": "act-4",
+    "fr": "CALVEZ : Nous vous avons invité pour défendre la civilisation chrétienne, pas pour faire de la coquetterie intellectuelle avec la subversion ! Si vous refusez de signer, votre contrat universitaire sera révoqué dès ce soir par le conseil de la fondation.",
+    "en": "CALVEZ: We invited you to defend Christian civilization, not to play intellectual footsie with subversion! If you refuse to sign, your university contract will be revoked this very evening by the foundation board."
+  },
+  {
+    "id": "p-0690",
+    "sectionId": "act-4",
+    "fr": "RENÉE (se jetant aux pieds de Calvez en pleurant) : Monsieur de Calvez, je vous en supplie ! Pascal est malade, la fièvre égare son jugement ! Il signera, je vous jure qu'il signera !",
+    "en": "RENÉE (throwing herself at Calvez's feet, weeping): Monsieur de Calvez, I implore you! Pascal is ill; fever is confounding his judgment! He will sign, I swear to you that he will sign!"
+  },
+  {
+    "id": "p-0691",
+    "sectionId": "act-4",
+    "fr": "PASCAL (saisissant Renée par le bras pour la relever avec indignation) : Relève-toi, Renée ! Ne t'avilis pas devant cet homme ! J'ai peut-être péché par faiblesse en quittant la France, mais je ne descendrai pas jusqu'à la pourriture morale !",
+    "en": "PASCAL (seizing Renée by the arm to lift her up with indignation): Rise, Renée! Do not debase yourself before this man! I may have sinned out of weakness in leaving France, but I will not sink into moral rot!"
+  },
+  {
+    "id": "p-0692",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (ramassant le dossier d'un geste sec) : Fort bien. Dès demain matin, mes intendants viendront faire l'inventaire de ce pavillon. Vous aurez quarante-huit heures pour libérer la fazenda. Bonsoir, monsieur Launoy.",
+    "en": "CALVEZ (picking up the dossier with a sharp gesture): Very well. Tomorrow morning my stewards will arrive to take inventory of this pavilion. You will have forty-eight hours to vacate the fazenda. Good evening, Monsieur Launoy."
+  },
+  {
+    "id": "p-0693",
+    "sectionId": "act-4",
+    "fr": "Calvez sort à grands pas par la véranda. La porte claque. Pascal reste debout un instant, chancelant, la main crispée sur son cœur qui s'emballe avec violence.",
+    "en": "Calvez strides out through the veranda. The door slams. Pascal remains standing a moment, swaying, his hand clutching his violently racing heart."
+  },
+  {
+    "id": "p-0694",
+    "sectionId": "act-4",
+    "fr": "PASCAL (d'une voix étranglée, s'effondrant sur le divan) : Renée... Marc-André avait raison... Nous avons vendu notre honneur... pour un plat de lentilles amères...",
+    "en": "PASCAL (in a strangled voice, collapsing onto the couch): Renée... Marc-André was right... We sold our honor... for a mess of bitter pottage..."
+  },
+  {
+    "id": "p-0695",
+    "sectionId": "act-4",
+    "fr": "RENÉE (se précipitant vers lui avec terreur) : Pascal ! Pascal ! Mon Dieu, aidez-moi ! Il étouffe !",
+    "en": "RENÉE (rushing to him in terror): Pascal! Pascal! My God, help me! He is suffocating!"
+  },
+  {
+    "id": "p-0696",
+    "sectionId": "act-4",
+    "fr": "Le rideau tombe rapidement sur la détresse de Renée appelant à l'aide dans le crépuscule tropical étouffant.",
+    "en": "The curtain falls swiftly upon Renée's distress calling for help in the stifling tropical dusk."
+  },
+  {
+    "id": "p-0697",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0698",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0699",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0700",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0701",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0702",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0703",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0704",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0705",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0706",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0707",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0708",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0709",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0710",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0711",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0712",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0713",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0714",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0715",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0716",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0717",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0718",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0719",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0720",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0721",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0722",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0723",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0724",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0725",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0726",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0727",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0728",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0729",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0730",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0731",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0732",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0733",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0734",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0735",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0736",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0737",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0738",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0739",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0740",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0741",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0742",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0743",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0744",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0745",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0746",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0747",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0748",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0749",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0750",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0751",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0752",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0753",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0754",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0755",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0756",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0757",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0758",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0759",
+    "sectionId": "act-4",
+    "fr": "PASCAL (fixant les rayons de livres coloniaux) : Dans ce luxe étouffant, la pensée ne peut plus respirer. Les livres ici ne sont que des objets de parade, des <span class='term' data-term='avoir-etre'>avoirs</span> qu'on exhibe pour masquer le vide de l'être.",
+    "en": "PASCAL (staring at the shelves of colonial books): Inside this stifling luxury, thought can no longer breathe. The books here are merely exhibition pieces, <span class='term' data-term='avoir-etre'>possessions</span> displayed to mask the emptiness of being."
+  },
+  {
+    "id": "p-0760",
+    "sectionId": "act-4",
+    "fr": "RENÉE : Mais ces avoirs nous protègent du froid et de la guerre, Pascal ! Ne sois pas aveugle à la sécurité qu'ils procurent.",
+    "en": "RENÉE: But those possessions protect us from the cold and from war, Pascal! Do not be blind to the security they provide."
+  },
+  {
+    "id": "p-0761",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0762",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0763",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0764",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0765",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0766",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0767",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0768",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0769",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0770",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0771",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0772",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0773",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0774",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0775",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0776",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0777",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0778",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0779",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0780",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0781",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0782",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0783",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0784",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0785",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0786",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0787",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0788",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0789",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0790",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0791",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0792",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0793",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0794",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0795",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0796",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0797",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0798",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0799",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0800",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0801",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0802",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0803",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0804",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0805",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0806",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0807",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0808",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0809",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0810",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0811",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0812",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0813",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0814",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0815",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0816",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0817",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0818",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0819",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0820",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0821",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0822",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0823",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0824",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0825",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0826",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0827",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0828",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0829",
+    "sectionId": "act-4",
+    "fr": "CALVEZ (d'un ton péremptoire) : L'Occident chrétien est en guerre totale contre les forces de dissolution. En temps de guerre, la neutralité philosophique est une trahison déguisée en scrupule.",
+    "en": "CALVEZ (in a peremptory tone): Christian Western civilization is in total war against the forces of dissolution. In time of war, philosophical neutrality is treason disguised as scruple."
+  },
+  {
+    "id": "p-0830",
+    "sectionId": "act-4",
+    "fr": "PASCAL : Si l'Occident chrétien emploie les méthodes de la tyrannie pour se défendre, il a déjà capitulé devant ce qu'il prétend combattre !",
+    "en": "PASCAL: If Christian Western civilization employs the methods of tyranny to defend itself, it has already surrendered before that which it claims to fight!"
+  },
+  {
+    "id": "p-0831",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0832",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0833",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0834",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0835",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0836",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0837",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0838",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0839",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0840",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0841",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0842",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0843",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0844",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0845",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0846",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0847",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0848",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0849",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0850",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0851",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0852",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0853",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0854",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0855",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0856",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0857",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0858",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0859",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0860",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0861",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0862",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0863",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0864",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0865",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0866",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0867",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0868",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0869",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0870",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0871",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0872",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0873",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0874",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0875",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0876",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0877",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0878",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  },
+  {
+    "id": "p-0879",
+    "sectionId": "act-4",
+    "fr": "PASCAL (luttant contre la douleur thoracique) : L'illusion est morte, Renée... « Rome n'est plus dans Rome »... Non, Rome était restée là-bas, parmi ceux qui souffrent et qui résistent dans la vérité !",
+    "en": "PASCAL (wrestling against the chest pain): The illusion is dead, Renée... 'Rome is no longer in Rome'... No, Rome had remained over there, amidst those who suffer and resist in truth!"
+  },
+  {
+    "id": "p-0880",
+    "sectionId": "act-4",
+    "fr": "RENÉE (en larmes, tenant sa tête contre sa poitrine) : Pardonne-moi, Pascal ! C'est moi qui t'ai poussé à partir ! Pardonne-moi !",
+    "en": "RENÉE (in tears, holding his head against her breast): Forgive me, Pascal! It was I who pushed you to leave! Forgive me!"
+  }
+]
