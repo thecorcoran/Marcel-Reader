@@ -428,7 +428,7 @@ assert(regardsClaudel.paragraphs.length === 105, `${regardsClaudel.titleEn}: Con
 assert(regardsClaudel.sections.length === 3, `${regardsClaudel.titleEn}: Defines all 3 Parts`);
 
 assert(lePalaisDeSable.unabridged === true, `${lePalaisDeSable.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(lePalaisDeSable.paragraphs.length === 110, `${lePalaisDeSable.titleEn}: Contains complete 110 verbatim dialogue rows`);
+assert(lePalaisDeSable.paragraphs.length === 1040, `${lePalaisDeSable.titleEn}: Contains complete 1,040 verbatim dialogue rows`);
 assert(lePalaisDeSable.sections.length === 4, `${lePalaisDeSable.titleEn}: Defines all IV Acts`);
 
 assert(laGrace.unabridged === true, `${laGrace.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -486,7 +486,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 14535, `Total unabridged rows across 42 masterworks equals 14,535 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 15465, `Total unabridged rows across 42 masterworks equals 15,465 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1293,30 +1293,30 @@ window.selectSection('all');
 const rscAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(rscAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Regards sur Claudel`);
 
-// 28. Test Switch to Le Palais de sable (Verbatim 110 dialogue rows across 4 Acts)
+// 28. Test Switch to Le Palais de sable (Verbatim 1,040 dialogue rows across 4 Acts)
 window.switchWork('le-palais-de-sable');
 const pdsRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsRows === 110, `Rendered full 110 verbatim dialogue rows for Le Palais de sable (actual: ${pdsRows})`);
+assert(pdsRows === 260, `Smart default renders Act I (260 dialogue rows) for Le Palais de sable (actual: ${pdsRows})`);
 
 window.selectSection('act-1');
 const pdsAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAct1Rows === 28, `Le Palais de sable Act I filtered to exactly 28 dialogue rows (actual: ${pdsAct1Rows})`);
+assert(pdsAct1Rows === 260, `Le Palais de sable Act I filtered to exactly 260 dialogue rows (actual: ${pdsAct1Rows})`);
 
 window.selectSection('act-2');
 const pdsAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAct2Rows === 28, `Le Palais de sable Act II filtered to exactly 28 dialogue rows (actual: ${pdsAct2Rows})`);
+assert(pdsAct2Rows === 260, `Le Palais de sable Act II filtered to exactly 260 dialogue rows (actual: ${pdsAct2Rows})`);
 
 window.selectSection('act-3');
 const pdsAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAct3Rows === 28, `Le Palais de sable Act III filtered to exactly 28 dialogue rows (actual: ${pdsAct3Rows})`);
+assert(pdsAct3Rows === 260, `Le Palais de sable Act III filtered to exactly 260 dialogue rows (actual: ${pdsAct3Rows})`);
 
 window.selectSection('act-4');
 const pdsAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAct4Rows === 26, `Le Palais de sable Act IV filtered to exactly 26 dialogue rows (actual: ${pdsAct4Rows})`);
+assert(pdsAct4Rows === 260, `Le Palais de sable Act IV filtered to exactly 260 dialogue rows (actual: ${pdsAct4Rows})`);
 
 window.selectSection('all');
 const pdsAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Le Palais de sable`);
+assert(pdsAllRestored === 1040, `All 1,040 dialogue rows restored upon selecting "All Sections" for Le Palais de sable`);
 
 // 29. Test Switch to La Grâce (Verbatim 100 dialogue rows across 3 Acts)
 window.switchWork('la-grace');
@@ -1821,18 +1821,18 @@ const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
 assert(meta.lastUpdated === '2026-09-24', 'Corpus metadata lastUpdated is 2026-09-24');
-assert(meta.version === 'Wave 12', 'Corpus metadata version is Wave 12');
+assert(meta.version === 'Wave 13', 'Corpus metadata version is Wave 13');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 16, 'Corpus metadata reports 16 unabridged flagship works');
-assert(meta.foundationalWorks === 26, 'Corpus metadata reports 26 foundational study editions');
-assert(meta.totalUnabridgedRows === 14535, 'Corpus metadata reports 14,535 unabridged rows');
+assert(meta.unabridgedWorks === 17, 'Corpus metadata reports 17 unabridged flagship works');
+assert(meta.foundationalWorks === 25, 'Corpus metadata reports 25 foundational study editions');
+assert(meta.totalUnabridgedRows === 15465, 'Corpus metadata reports 15,465 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
 assert(getEl('last-updated-date').textContent.includes('September 24, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 12', 'Hero last-updated-version populated with Wave 12');
+assert(getEl('last-updated-version').textContent === 'Wave 13', 'Hero last-updated-version populated with Wave 13');
 assert(getEl('footer-updated-date').textContent.includes('September 24, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 24, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 

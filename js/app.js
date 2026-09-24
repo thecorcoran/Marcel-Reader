@@ -882,7 +882,7 @@ function initLastUpdatedDisplay() {
   const meta = (window.MARCEL_CORPUS_METADATA) || (window.MARCEL_CORPUS && window.MARCEL_CORPUS.metadata) || {
     lastUpdated: "2026-09-24",
     lastUpdatedFormatted: "September 24, 2026",
-    version: "Wave 12"
+    version: "Wave 13"
   };
 
   const heroDate = document.getElementById("last-updated-date");
