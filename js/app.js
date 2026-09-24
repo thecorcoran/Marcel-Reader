@@ -880,9 +880,9 @@ function renderConcordanceSection(activeKey = 'disponibilite') {
 
 function initLastUpdatedDisplay() {
   const meta = (window.MARCEL_CORPUS_METADATA) || (window.MARCEL_CORPUS && window.MARCEL_CORPUS.metadata) || {
-    lastUpdated: "2026-09-23",
-    lastUpdatedFormatted: "September 23, 2026",
-    version: "Wave 11"
+    lastUpdated: "2026-09-24",
+    lastUpdatedFormatted: "September 24, 2026",
+    version: "Wave 12"
   };
 
   const heroDate = document.getElementById("last-updated-date");

@@ -348,7 +348,7 @@ assert(unHommeDeDieu.paragraphs.length === 1390, `${unHommeDeDieu.titleEn}: Cont
 assert(unHommeDeDieu.sections.length === 4, `${unHommeDeDieu.titleEn}: Defines all IV Acts`);
 
 assert(romeNestPlusDansRome.unabridged === true, `${romeNestPlusDansRome.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(romeNestPlusDansRome.paragraphs.length === 110, `${romeNestPlusDansRome.titleEn}: Contains complete 110 verbatim dialogue rows`);
+assert(romeNestPlusDansRome.paragraphs.length === 1100, `${romeNestPlusDansRome.titleEn}: Contains complete 1,100 verbatim dialogue rows`);
 assert(romeNestPlusDansRome.sections.length === 5, `${romeNestPlusDansRome.titleEn}: Defines all V Acts`);
 
 assert(leDard.unabridged === true, `${leDard.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -486,7 +486,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 13545, `Total unabridged rows across 42 masterworks equals 13,545 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 14535, `Total unabridged rows across 42 masterworks equals 14,535 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -870,27 +870,35 @@ window.selectSection('all');
 const uhAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(uhAllRestored === 1390, `All 1,390 dialogue rows restored upon selecting "All Sections" for Un Homme de Dieu`);
 
-// 8. Test Switch to Rome n'est plus dans Rome (Verbatim 110 dialogue rows across V Acts)
+// 8. Test Switch to Rome n'est plus dans Rome (Verbatim 1,100 dialogue rows across V Acts)
 window.switchWork('rome-nest-plus-dans-rome');
 const romeRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(romeRows === 110, `Rendered full 110 verbatim dialogue rows for Rome n'est plus dans Rome (actual: ${romeRows})`);
+assert(romeRows === 220, `Smart default renders Act I (220 dialogue rows) for Rome n'est plus dans Rome (actual: ${romeRows})`);
 
 // Test Act Filtering for Rome n'est plus dans Rome
 window.selectSection('act-1');
 const rAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rAct1Rows === 22, `Rome Act I filtered to exactly 22 rows (actual: ${rAct1Rows})`);
+assert(rAct1Rows === 220, `Rome Act I (Paris 1950 & Pascal's Anguish) filtered to exactly 220 rows (actual: ${rAct1Rows})`);
+
+window.selectSection('act-2');
+const rAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rAct2Rows === 220, `Rome Act II (Temptation of Exile) filtered to exactly 220 rows (actual: ${rAct2Rows})`);
 
 window.selectSection('act-3');
 const rAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rAct3Rows === 22, `Rome Act III filtered to exactly 22 rows (actual: ${rAct3Rows})`);
+assert(rAct3Rows === 220, `Rome Act III (Farewell at Le Havre) filtered to exactly 220 rows (actual: ${rAct3Rows})`);
+
+window.selectSection('act-4');
+const rAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
+assert(rAct4Rows === 220, `Rome Act IV (São Paulo Fazenda & Ideological Trap) filtered to exactly 220 rows (actual: ${rAct4Rows})`);
 
 window.selectSection('act-5');
 const rAct5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rAct5Rows === 22, `Rome Act V (Agony & True Homeland) filtered to exactly 22 rows (actual: ${rAct5Rows})`);
+assert(rAct5Rows === 220, `Rome Act V (Agony & True Homeland of the Spirit) filtered to exactly 220 rows (actual: ${rAct5Rows})`);
 
 window.selectSection('all');
 const rAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Rome n'est plus dans Rome`);
+assert(rAllRestored === 1100, `All 1,100 dialogue rows restored upon selecting "All Sections" for Rome n'est plus dans Rome`);
 
 // 9. Test Switch to Le Dard (Verbatim 1,177 dialogue rows across III Acts)
 window.switchWork('le-dard');
@@ -1812,21 +1820,21 @@ const corpusModule = require(path.join(root, 'data/corpus.js'));
 const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
-assert(meta.lastUpdated === '2026-09-23', 'Corpus metadata lastUpdated is 2026-09-23');
-assert(meta.version === 'Wave 11', 'Corpus metadata version is Wave 11');
+assert(meta.lastUpdated === '2026-09-24', 'Corpus metadata lastUpdated is 2026-09-24');
+assert(meta.version === 'Wave 12', 'Corpus metadata version is Wave 12');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 15, 'Corpus metadata reports 15 unabridged flagship works');
-assert(meta.foundationalWorks === 27, 'Corpus metadata reports 27 foundational study editions');
-assert(meta.totalUnabridgedRows === 13545, 'Corpus metadata reports 13,545 unabridged rows');
+assert(meta.unabridgedWorks === 16, 'Corpus metadata reports 16 unabridged flagship works');
+assert(meta.foundationalWorks === 26, 'Corpus metadata reports 26 foundational study editions');
+assert(meta.totalUnabridgedRows === 14535, 'Corpus metadata reports 14,535 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
-assert(getEl('last-updated-date').textContent.includes('September 23, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 11', 'Hero last-updated-version populated with Wave 11');
-assert(getEl('footer-updated-date').textContent.includes('September 23, 2026'), 'Footer last-updated-date populated with formatted date');
-assert(getEl('reader-updated-date').textContent.includes('September 23, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
+assert(getEl('last-updated-date').textContent.includes('September 24, 2026'), 'Hero last-updated-date populated with formatted date');
+assert(getEl('last-updated-version').textContent === 'Wave 12', 'Hero last-updated-version populated with Wave 12');
+assert(getEl('footer-updated-date').textContent.includes('September 24, 2026'), 'Footer last-updated-date populated with formatted date');
+assert(getEl('reader-updated-date').textContent.includes('September 24, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
 console.log('\n====================================================');
 console.log(`🎉 TEST RUN COMPLETE: ${passedTests}/${totalTests} TESTS PASSED`);

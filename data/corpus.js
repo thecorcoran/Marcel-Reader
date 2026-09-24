@@ -618,11 +618,11 @@
       "companionTitle": "The Mystery of Being (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (5 Acts, 110 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (5 Acts, 1,100 Rows, 55k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Paris 1950 — Le spectre de la guerre et l'angoisse de Pascal", "titleEn": "Act I: Paris 1950 — The Specter of War and Pascal's Anguish" },
         { "id": "act-2", "titleFr": "Acte II : La tentation de l'exil et le refuge brésilien", "titleEn": "Act II: The Temptation of Exile and the Brazilian Refuge" },
-        { "id": "act-3", "titleFr": "Acte III : L'adieu à la France et l'embarquement", "titleEn": "Act III: Farewell to France and the Embarkation" },
+        { "id": "act-3", "titleFr": "Acte III : L'adieu à la France et l'embarquement au Havre", "titleEn": "Act III: Farewell to France and the Embarkation at Le Havre" },
         { "id": "act-4", "titleFr": "Acte IV : La fazenda de São Paulo et le piège idéologique", "titleEn": "Act IV: The São Paulo Fazenda and the Ideological Trap" },
         { "id": "act-5", "titleFr": "Acte V : L'agonie de Pascal et la vraie patrie de l'esprit", "titleEn": "Act V: Pascal's Agony and the True Homeland of the Spirit" }
       ]
@@ -793,15 +793,15 @@
   };
 
   const CORPUS_METADATA = {
-    lastUpdated: "2026-09-23",
-    lastUpdatedFormatted: "September 23, 2026",
-    version: "Wave 11",
+    lastUpdated: "2026-09-24",
+    lastUpdatedFormatted: "September 24, 2026",
+    version: "Wave 12",
     totalWorks: 42,
-    unabridgedWorks: 15,
-    foundationalWorks: 27,
-    totalUnabridgedRows: 13545,
-    totalCorpusRows: 16365,
-    totalWordsEstimate: "1,550,000+"
+    unabridgedWorks: 16,
+    foundationalWorks: 26,
+    totalUnabridgedRows: 14535,
+    totalCorpusRows: 17355,
+    totalWordsEstimate: "1,620,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {
