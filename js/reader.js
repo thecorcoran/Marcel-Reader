@@ -32,7 +32,6 @@ let currentSectionId = "all";
 
 function selectSection(sectionId) {
   currentSectionId = sectionId;
-  window.currentSectionId = sectionId;
   if (currentActiveWork) {
     renderBlocks(currentActiveWork, sectionId);
     const container = document.getElementById("reader-blocks");
@@ -53,16 +52,15 @@ function renderSectionNav(work, targetSectionId) {
   }
 
   sectionNav.style.display = "flex";
-  if (targetSectionId !== null && targetSectionId !== undefined && targetSectionId !== "auto") {
+  if (targetSectionId !== null && targetSectionId !== undefined) {
     currentSectionId = targetSectionId;
-  } else if (targetSectionId === "auto" || !currentSectionId || !work.sections.some(s => s.id === currentSectionId)) {
+  } else if (!currentSectionId || !work.sections.some(s => s.id === currentSectionId)) {
     if (work.paragraphs && work.paragraphs.length > 200) {
       currentSectionId = work.sections[0].id;
     } else {
       currentSectionId = "all";
     }
   }
-  window.currentSectionId = currentSectionId;
 
   const allActive = currentSectionId === "all" ? "active" : "";
   let pillsHtml = `
@@ -130,6 +128,7 @@ function renderBlocks(work, targetSectionId = null) {
     : work.paragraphs;
 
   if (colHeader) colHeader.style.display = "";
+  container.innerHTML = displayParagraphs.map(p => renderParagraphPair(work.id, p)).join("");
   
   let html = displayParagraphs.map(p => renderParagraphPair(work.id, p)).join("");
 

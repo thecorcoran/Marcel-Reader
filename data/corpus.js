@@ -377,6 +377,7 @@
       "companionTitle": "Metaphysical Journal (1927)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 110 Rows)",
       "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 1,040 Rows, 50k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le salon de Marly et la gloire des discours chrétiens", "titleEn": "Act I: The Marly Salon and the Glory of Christian Discourse" },
@@ -795,8 +796,14 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-24",
     lastUpdatedFormatted: "September 24, 2026",
+    version: "Wave 12",
     version: "Wave 13",
     totalWorks: 42,
+    unabridgedWorks: 16,
+    foundationalWorks: 26,
+    totalUnabridgedRows: 14535,
+    totalCorpusRows: 17355,
+    totalWordsEstimate: "1,620,000+"
     unabridgedWorks: 17,
     foundationalWorks: 25,
     totalUnabridgedRows: 15465,
