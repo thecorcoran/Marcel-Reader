@@ -52,9 +52,9 @@ function renderSectionNav(work, targetSectionId) {
   }
 
   sectionNav.style.display = "flex";
-  if (targetSectionId !== null && targetSectionId !== undefined) {
+  if (targetSectionId !== null && targetSectionId !== undefined && targetSectionId !== "auto") {
     currentSectionId = targetSectionId;
-  } else if (!currentSectionId || !work.sections.some(s => s.id === currentSectionId)) {
+  } else if (!currentSectionId || currentSectionId === "auto" || !work.sections.some(s => s.id === currentSectionId)) {
     if (work.paragraphs && work.paragraphs.length > 200) {
       currentSectionId = work.sections[0].id;
     } else {

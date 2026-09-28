@@ -794,16 +794,10 @@
   };
 
   const CORPUS_METADATA = {
-    lastUpdated: "2026-09-24",
-    lastUpdatedFormatted: "September 24, 2026",
-    version: "Wave 12",
+    lastUpdated: "2026-09-28",
+    lastUpdatedFormatted: "September 28, 2026",
     version: "Wave 13",
     totalWorks: 42,
-    unabridgedWorks: 16,
-    foundationalWorks: 26,
-    totalUnabridgedRows: 14535,
-    totalCorpusRows: 17355,
-    totalWordsEstimate: "1,620,000+"
     unabridgedWorks: 17,
     foundationalWorks: 25,
     totalUnabridgedRows: 15465,

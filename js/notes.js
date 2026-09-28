@@ -39,39 +39,48 @@ function handleTextSelection(e) {
   }
 
   setTimeout(() => {
-    const selection = window.getSelection();
-    if (!selection || selection.isCollapsed || !selection.toString().trim()) {
-      selToolbar.style.display = "none";
+    try {
+      const selection = window.getSelection();
+      if (!selection || selection.rangeCount === 0 || selection.isCollapsed || !selection.toString().trim()) {
+        selToolbar.style.display = "none";
+        pendingSelectionData = null;
+        return;
+      }
+
+      const selectedText = selection.toString().trim();
+      if (selectedText.length < 2) {
+        selToolbar.style.display = "none";
+        return;
+      }
+
+      const anchorNode = selection.anchorNode;
+      const blockEl = anchorNode ? anchorNode.parentElement.closest(".block") : null;
+      if (!blockEl) {
+        selToolbar.style.display = "none";
+        return;
+      }
+
+      const range = selection.getRangeAt(0);
+      const rect = range.getBoundingClientRect();
+      if (!rect || (rect.width === 0 && rect.height === 0)) {
+        selToolbar.style.display = "none";
+        return;
+      }
+
+      pendingSelectionData = {
+        workId: blockEl.getAttribute("data-work-id"),
+        blockId: blockEl.getAttribute("data-block-id"),
+        lang: blockEl.getAttribute("data-lang"),
+        text: selectedText
+      };
+
+      selToolbar.style.top = `${rect.top + window.scrollY}px`;
+      selToolbar.style.left = `${rect.left + rect.width / 2 + window.scrollX}px`;
+      selToolbar.style.display = "flex";
+    } catch (err) {
+      if (selToolbar) selToolbar.style.display = "none";
       pendingSelectionData = null;
-      return;
     }
-
-    const selectedText = selection.toString().trim();
-    if (selectedText.length < 2) {
-      selToolbar.style.display = "none";
-      return;
-    }
-
-    const anchorNode = selection.anchorNode;
-    const blockEl = anchorNode ? anchorNode.parentElement.closest(".block") : null;
-    if (!blockEl) {
-      selToolbar.style.display = "none";
-      return;
-    }
-
-    const range = selection.getRangeAt(0);
-    const rect = range.getBoundingClientRect();
-
-    pendingSelectionData = {
-      workId: blockEl.getAttribute("data-work-id"),
-      blockId: blockEl.getAttribute("data-block-id"),
-      lang: blockEl.getAttribute("data-lang"),
-      text: selectedText
-    };
-
-    selToolbar.style.top = `${rect.top + window.scrollY}px`;
-    selToolbar.style.left = `${rect.left + rect.width / 2 + window.scrollX}px`;
-    selToolbar.style.display = "flex";
   }, 20);
 }
 
