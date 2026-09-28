@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel Reader — Service Worker (PWA Offline Engine)
  */
-const CACHE_NAME = 'marcel-reader-v19';
+const CACHE_NAME = 'marcel-reader-v18';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
@@ -61,6 +61,7 @@ const PRECACHE_ASSETS = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
+      .then((cache) => cache.addAll(PRECACHE_ASSETS))
       .then((cache) => {
         return Promise.all(
           PRECACHE_ASSETS.map((url) => {
