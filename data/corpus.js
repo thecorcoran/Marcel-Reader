@@ -769,7 +769,7 @@
       "companionTitle": "Theatre and Religion (1958)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 105 Paragraphs)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 510 Paragraphs, 110k Words)",
       "sections": [
         { "id": "part-1", "titleFr": "Première partie : Jean Giraudoux et le miroir poétique du destin", "titleEn": "Part I: Jean Giraudoux and the Poetic Mirror of Destiny" },
         { "id": "part-2", "titleFr": "Deuxième partie : Jean Anouilh et la révolte de la pureté blessée", "titleEn": "Part II: Jean Anouilh and the Revolt of Wounded Purity" },
@@ -786,7 +786,7 @@
       "companionTitle": "Theatre and Religion (1958)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 105 Paragraphs)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 450 Paragraphs, 100k Words)",
       "sections": [
         { "id": "part-1", "titleFr": "Première partie : L'Annonce faite à Marie et la fécondité du sacrifice", "titleEn": "Part I: The Tidings Brought to Mary and the Fecundity of Sacrifice" },
         { "id": "part-2", "titleFr": "Deuxième partie : La Trilogie des Coûfontaine et l'épreuve de l'histoire", "titleEn": "Part II: The Coûfontaine Trilogy and the Ordeal of History" },
@@ -798,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 23",
+    version: "Wave 24",
     totalWorks: 42,
-    unabridgedWorks: 40,
-    foundationalWorks: 2,
-    totalUnabridgedRows: 29190,
-    totalCorpusRows: 29190,
-    totalWordsEstimate: "2,950,000+"
+    unabridgedWorks: 42,
+    foundationalWorks: 0,
+    totalUnabridgedRows: 29940,
+    totalCorpusRows: 29940,
+    totalWordsEstimate: "3,000,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {

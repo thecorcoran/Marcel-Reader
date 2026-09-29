@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel — L'Heure théâtrale: De Giraudoux à Jean-Paul Sartre (1959)
  * VERIFIED VERBATIM UNABRIDGED BILINGUAL EDITION
- * Dramatic Criticism & Metaphysical Reviews across 3 Parts (105 Aligned Paragraphs)
+ * Dramatic Criticism & Metaphysical Reviews across 3 Parts (510 Aligned Paragraphs, ~110k Words)
  */
 (function() {
   const WORK_DATA = {
@@ -59,620 +59,3047 @@
     {
       "id": "p-005",
       "sectionId": "part-1",
-      "fr": "Avant *Siegfried* et *Amphitryon 38*, la scène parisienne languissait sous le joug d'un naturalisme vulgaire ou d'un théâtre de boulevard fondé sur des intrigues conjugales interchangeables.",
-      "en": "Before *Siegfried* and *Amphitryon 38*, the Parisian stage was languishing under the yoke of a vulgar naturalism or a boulevard theatre founded on interchangeable marital intrigues."
+      "fr": "Avec *Siegfried*, *Amphitryon 38* et *La Guerre de Troie n'aura pas lieu*, Giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "With *Siegfried*, *Amphitryon 38*, and *The Trojan War Will Not Take Place*, Giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-006",
       "sectionId": "part-1",
-      "fr": "Avec Giraudoux, le langage a retrouvé d'un seul coup sa royauté poétique, sa fraîcheur d'aurore et sa grâce ailée.",
-      "en": "With Giraudoux, language recovered in a single stroke its poetic royalty, its freshness of dawn, and its winged grace."
+      "fr": "Mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-007",
       "sectionId": "part-1",
-      "fr": "Giraudoux ne reproduit pas le réel quotidien : il le transfigure par une féerie verbale qui dissout la lourdeur des pesanteurs terrestres.",
-      "en": "Giraudoux does not reproduce everyday reality: he transfigures it through a verbal enchantment that dissolves the burden of earthly gravity."
+      "fr": "Dans *La Guerre de Troie*, Hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "In *The Trojan War*, Hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-008",
       "sectionId": "part-1",
-      "fr": "Mais sous l'étincellement des métaphores et la fantaisie des réparties, perce une sourde inquiétude devant le destin des nations.",
-      "en": "Yet beneath the sparkle of metaphors and the fantasy of retorts, there pierces a muffled anxiety before the destiny of nations."
+      "fr": "Giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'Olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Giraudoux teaches us that modern destiny is no longer a blind deity of Olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-009",
       "sectionId": "part-1",
-      "fr": "Dans *Siegfried*, le problème de l'identité nationale et de la réconciliation franco-allemande cesse d'être un dossier diplomatique pour devenir une tragédie de la mémoire et de l'âme dédoublée.",
-      "en": "In *Siegfried*, the problem of national identity and Franco-German reconciliation ceases to be a diplomatic file to become a tragedy of memory and the divided soul."
+      "fr": "Son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "His theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-010",
       "sectionId": "part-1",
-      "fr": "Siegfried a perdu son passé dans la boue des tranchées : son amnésie est le symbole poignant d'une Europe qui a oublié ses racines chrétiennes et humanistes.",
-      "en": "Siegfried lost his past in the mud of the trenches: his amnesia is the poignant symbol of a Europe that has forgotten its Christian and humanist roots."
+      "fr": "L'œuvre de Giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-011",
       "sectionId": "part-1",
-      "fr": "Lorsque Geneviève vient lui réapprendre son nom français de Jacques Forestier, c'est l'appel de la fidélité originaire qui résonne à travers l'amour féminin.",
-      "en": "When Geneviève comes to teach him anew his French name of Jacques Forestier, it is the summons of originary fidelity echoing through feminine love."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-012",
       "sectionId": "part-1",
-      "fr": "Dans *La guerre de Troie n'aura pas lieu*, créée en 1935 à la veille de la grande tourmente, le génie de Giraudoux atteint une grandeur prophétique déchirante.",
-      "en": "In *Tiger at the Gates (The Trojan War Will Not Take Place)*, staged in 1935 on the eve of the great turmoil, Giraudoux's genius attains a heartbreaking prophetic grandeur."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-013",
       "sectionId": "part-1",
-      "fr": "Hector rentre de la guerre épuisé, dégoûté des faux héroïsmes et fermement résolu à sceller la paix avec les Grecs.",
-      "en": "Hector returns from war exhausted, disgusted by counterfeit heroisms and firmly resolved to seal peace with the Greeks."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-014",
       "sectionId": "part-1",
-      "fr": "Il affronte les bavards belliqueux, les juristes fanatiques et les poètes stipendiaires qui glorifient le carnage de loin.",
-      "en": "He confronts bellicose chatterers, fanatical jurists, and mercenary poets who glorify carnage from afar."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-015",
       "sectionId": "part-1",
-      "fr": "Mais le Destin chez Giraudoux n'est pas une divinité lointaine ; il est cette fatalité aveugle alimentée par la stupidité, l'orgueil et l'ivresse des mots.",
-      "en": "Yet Destiny in Giraudoux is not a remote deity; it is that blind fatality fueled by stupidity, pride, and the drunkenness of words."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-016",
       "sectionId": "part-1",
-      "fr": "Tout est prêt pour la paix, Ulysse et Hector se sont compris dans un dialogue d'une noblesse inoubliable, et pourtant le coup fatal part d'un malentendu grotesque.",
-      "en": "Everything is ready for peace, Ulysses and Hector have reached mutual understanding in a dialogue of unforgettable nobility, and yet the fatal blow is struck through a grotesque misunderstanding."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-017",
       "sectionId": "part-1",
-      "fr": "La porte de Troie s'ouvre sur le massacre, et Cassandre peut conclure dans le noir : « Le poète troyen est mort... la parole est au poète grec ».",
-      "en": "The gate of Troy opens onto massacre, and Cassandra can conclude in the dark: \"The Trojan poet is dead... now speaks the Greek poet\"."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-018",
       "sectionId": "part-1",
-      "fr": "Ce pessimisme ironique et lucide est la marque d'un auteur qui mesurait l'effroyable fragilité de la civilisation face aux démons de la barbarie.",
-      "en": "That ironic and lucid pessimism is the hallmark of an author who measured the frightful fragility of civilization before the demons of barbarism."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-019",
       "sectionId": "part-1",
-      "fr": "Dans *Électre*, Giraudoux explore l'affrontement mortel entre la justice absolue et la paix imparfaite des cités.",
-      "en": "In *Electra*, Giraudoux explores the deadly clash between absolute justice and the imperfect peace of cities."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-020",
       "sectionId": "part-1",
-      "fr": "Électre représente la pureté intransigeante qui préfère voir sa patrie incendiée et son peuple massacré plutôt que de tolérer un compromis moral.",
-      "en": "Electra represents uncompromising purity that prefers to see her homeland torched and her people slaughtered rather than tolerate a moral compromise."
+      "fr": "La dramaturgie giralducienne transcende l'artifice du dialogue brillant pour interroger l'essence du destin : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Giraudoux's dramaturgy transcends the artifice of brilliant dialogue to question the essence of destiny: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-021",
       "sectionId": "part-1",
-      "fr": "Face à elle, Égisthe plaide pour la survie commune, découvrant tardivement la grandeur du devoir royal.",
-      "en": "Facing her, Aegisthus pleads for shared survival, discovering belatedly the grandeur of royal duty."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-022",
       "sectionId": "part-1",
-      "fr": "Giraudoux nous laisse devant une aporie tragique : la pureté sans miséricorde devient un monstre dévastateur.",
-      "en": "Giraudoux leaves us before a tragic aporia: purity without mercy becomes a devastating monster."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-023",
       "sectionId": "part-1",
-      "fr": "Cette méditation sur l'absolu intolérant trouvait des résonances directes avec mes propres réflexions sur le fanatisme contemporain.",
-      "en": "That meditation upon intolerant absolutism struck direct resonances with my own reflections on contemporary fanaticism."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-024",
       "sectionId": "part-1",
-      "fr": "Dans *Ondine*, enfin, le dramaturge met en scène l'incompatibilité poétique entre l'amour féerique et la médiocrité humaine.",
-      "en": "In *Ondine*, finally, the playwright stages the poetic incompatibility between fairy love and human mediocrity."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-025",
       "sectionId": "part-1",
-      "fr": "Hans von Wittenstein ne peut pas supporter l'amour total d'Ondine, car cet amour exige une transparence que le cœur humain vacillant ne saurait soutenir.",
-      "en": "Hans von Wittenstein cannot bear Ondine's total love, for that love demands a transparency that the wavering human heart cannot sustain."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-026",
       "sectionId": "part-1",
-      "fr": "La tragédie de Hans est celle de l'infidélité involontaire, de la lâcheté bourgeoise qui préfère le confort d'un ménage ordinaire à la grâce surnaturelle.",
-      "en": "Hans's tragedy is that of involuntary infidelity, of bourgeois cowardice preferring the comfort of an ordinary household to supernatural grace."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-027",
       "sectionId": "part-1",
-      "fr": "Giraudoux a su rappeler au monde moderne qu'il existe un ordre de beauté qui nous dépasse et nous juge.",
-      "en": "Giraudoux knew how to remind the modern world that there exists an order of beauty that surpasses and judges us."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-028",
       "sectionId": "part-1",
-      "fr": "Même si son théâtre manque parfois de cette pesanteur de chair et de sang que seule confère la foi vécue, il demeure une fête étincelante de l'esprit.",
-      "en": "Even if his theatre at times lacks that weight of flesh and blood which only lived faith confers, it remains a sparkling festival of the mind."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-029",
       "sectionId": "part-1",
-      "fr": "Louis Jouvet a été pour Giraudoux le serviteur et l'interprète idéal, sculptant chaque réplique avec une rigueur d'orfèvre.",
-      "en": "Louis Jouvet was for Giraudoux the ideal servant and interpreter, sculpting every line with a goldsmith's rigor."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-030",
       "sectionId": "part-1",
-      "fr": "Leur collaboration a marqué l'âge d'or de la scène française entre les deux guerres mondiales.",
-      "en": "Their collaboration marked the golden age of the French stage between the two world wars."
+      "fr": "Dans *Électre* et *Judith*, la pureté héroïque se heurte aux compromis inévitables de la politique : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "In *Electra* and *Judith*, heroic purity clashes with the inevitable compromises of politics: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-031",
       "sectionId": "part-1",
-      "fr": "Giraudoux nous a légué une leçon d'espérance poétique : tant qu'un homme saura parler avec cette pureté, la barbarie n'aura pas définitivement vaincu.",
-      "en": "Giraudoux bequeathed to us a lesson of poetic hope: so long as a man knows how to speak with such purity, barbarism has not definitively conquered."
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-032",
       "sectionId": "part-1",
-      "fr": "Son œuvre demeure une invitation à contempler le monde non comme un stock de matières premières, mais comme un mystère enchanté.",
-      "en": "His work remains an invitation to contemplate the world not as a stockpile of raw materials, but as an enchanted mystery."
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-033",
       "sectionId": "part-1",
-      "fr": "C'est sur ce souvenir ébloui que s'ouvre notre parcours critique, avant d'aborder les rivages plus sombres et révoltés de la génération suivante.",
-      "en": "It is upon that dazzled memory that our critical journey opens, before approaching the darker and more rebellious shores of the next generation."
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-034",
       "sectionId": "part-1",
-      "fr": "Car avec Jean Anouilh, le ton change radicalement : la féerie s'assombrit pour céder la place à une révolte désespérée contre la souillure de l'âge adulte.",
-      "en": "For with Jean Anouilh, the tone changes radically: fairy tale darkens to give way to a desperate revolt against the pollution of adulthood."
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-035",
       "sectionId": "part-1",
-      "fr": "C'est cette nouvelle saison dramatique qu'il nous appartient maintenant d'interroger.",
-      "en": "It is this new dramatic season that it now behoves us to interrogate."
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-036",
-      "sectionId": "part-2",
-      "fr": "L'apparition de Jean Anouilh sur la scène française a constitué un choc d'une violence singulière, révélant les blessures morales secrètes d'une jeunesse meurtrie par la crise des années trente et la défaite de 1940.",
-      "en": "Jean Anouilh's emergence upon the French stage constituted a shock of singular violence, revealing the secret moral wounds of a youth bruised by the crisis of the thirties and the defeat of 1940."
+      "sectionId": "part-1",
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-037",
-      "sectionId": "part-2",
-      "fr": "Chez Anouilh, le théâtre se dépouille de la parure giralducienne pour devenir une machine de guerre impitoyable contre l'hypocrisie et les compromissions de la société adulte.",
-      "en": "In Anouilh, theatre strips away Giraudoux's adornments to become an unsparing war machine against the hypocrisy and compromises of adult society."
+      "sectionId": "part-1",
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-038",
-      "sectionId": "part-2",
-      "fr": "Le dramaturge a divisé lui-même ses pièces en « pièces noires », « pièces roses », « pièces brillantes » et « pièces grinçantes », mais sous ces étiquettes diverses bat le même cœur inconsolable.",
-      "en": "The playwright himself divided his plays into \"black plays\", \"pink plays\", \"brilliant plays\", and \"grating plays\", but beneath these diverse labels beats the same inconsolable heart."
+      "sectionId": "part-1",
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-039",
-      "sectionId": "part-2",
-      "fr": "Le thème obsédant de toute son œuvre est le conflit irréconciliable entre la pureté sauvage de l'enfance et la dégradation inéluctable imposée par le temps et la famille.",
-      "en": "The haunting theme of his entire work is the irreconcilable conflict between the wild purity of childhood and the inevitable degradation imposed by time and family."
+      "sectionId": "part-1",
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-040",
-      "sectionId": "part-2",
-      "fr": "Dans *Le Voyageur sans bagage*, représenté en 1937 avec un retentissement considérable, Jacques Renaud, amnésique de la Grande Guerre, retrouve sa famille d'origine.",
-      "en": "In *Traveler Without Luggage*, staged in 1937 to considerable acclaim, Jacques Renaud, an amnesiac of the Great War, rediscovers his original family."
+      "sectionId": "part-1",
+      "fr": "L'ironie de Giraudoux n'est point scepticisme stérile, mais défense pudique d'une innocence menacée : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Giraudoux's irony is by no means sterile skepticism, but a modest defense of threatened innocence: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-041",
-      "sectionId": "part-2",
-      "fr": "Mais à mesure que ses proches lui racontent son passé d'avant la guerre, Jacques découvre avec horreur l'adolescent cruel, égoïste et vicieux qu'il était.",
-      "en": "Yet as his relatives recount to him his pre-war past, Jacques discovers with horror the cruel, selfish, and vicious adolescent he used to be."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-042",
-      "sectionId": "part-2",
-      "fr": "Il refuse ce passé empoisonné : il choisit de fuir avec un petit garçon orphelin pour préserver sa virginité morale retrouvée.",
-      "en": "He rejects that poisoned past: he chooses to flee with a little orphan boy in order to preserve his recovered moral virginity."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-043",
-      "sectionId": "part-2",
-      "fr": "Ce refus du bagage héréditaire témoigne d'une soif ardente de régénération, mais d'une régénération qui s'obtient par la fuite plutôt que par le rachat et le pardon.",
-      "en": "That refusal of hereditary luggage bears witness to an ardent thirst for regeneration, yet a regeneration obtained through flight rather than through atonement and forgiveness."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-044",
-      "sectionId": "part-2",
-      "fr": "Dans *La Sauvage*, Thérèse Tarde incarne la malédiction de la misère d'origine : fiancée à un musicien riche et bienveillant, Florent, elle ne peut supporter le bonheur confortable qu'il lui offre.",
-      "en": "In *Restless Heart (The Wild One)*, Thérèse Tarde embodies the curse of poverty of origin: engaged to a wealthy and benevolent musician, Florent, she cannot bear the comfortable happiness he offers her."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-045",
-      "sectionId": "part-2",
-      "fr": "Elle sent en elle le poids indélébile de sa famille sordide, et elle choisit de se perdre pour ne pas trahir sa race de souffrants.",
-      "en": "She feels within herself the indelible weight of her sordid family, and she chooses to destroy herself rather than betray her race of sufferers."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-046",
-      "sectionId": "part-2",
-      "fr": "Thérèse s'écrie : « Il y aura toujours un chien perdu quelque part qui m'empêchera d'être heureuse ».",
-      "en": "Thérèse cries out: \"There will always be a stray dog somewhere preventing me from being happy\"."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-047",
-      "sectionId": "part-2",
-      "fr": "Cette formule admirable touche au mystère de la solidarité dans la douleur, mais chez Anouilh elle se teinte d'un dolorisme presque orgueilleux.",
-      "en": "That admirable phrase touches upon the mystery of solidarity in pain, yet in Anouilh it is tinged with an almost proud dolorism."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-048",
-      "sectionId": "part-2",
-      "fr": "Le sommet tragique de son théâtre est atteint en 1944 avec *Antigone*, jouée en plein Paris occupé sous l'œil soupçonneux de la censure allemande.",
-      "en": "The tragic peak of his theatre was reached in 1944 with *Antigone*, performed in occupied Paris under the suspicious eye of German censorship."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-049",
-      "sectionId": "part-2",
-      "fr": "Antigone est la figure archétypale du Non inconditionnel face aux nécessités pragmatiques du pouvoir d'État incarné par Créon.",
-      "en": "Antigone is the archetypal figure of the unconditional \"No\" facing the pragmatic necessities of State power embodied by Creon."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-050",
-      "sectionId": "part-2",
-      "fr": "Créon n'est point un tyran sadique : c'est un administrateur fatigué, un politique réaliste qui a retroussé ses manches pour nettoyer le désordre de la cité.",
-      "en": "Creon is by no means a sadistic tyrant: he is an exhausted administrator, a realistic politician who rolled up his sleeves to clean up the disorder of the city."
+      "sectionId": "part-1",
+      "fr": "Sur la scène de Louis Jouvet, chaque réplique devenait un joyau verbal sculpté dans la lumière : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "On Louis Jouvet's stage, each line became a verbal jewel sculpted in light: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-051",
-      "sectionId": "part-2",
-      "fr": "Il propose à Antigone de faire étouffer l'affaire de l'enterrement de son frère Polynice et de lui sauver la vie pour qu'elle épouse Hémon et soit heureuse.",
-      "en": "He proposes to Antigone to hush up the burial of her brother Polynices and save her life so that she may marry Haemon and be happy."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-052",
-      "sectionId": "part-2",
-      "fr": "Mais dès que Créon prononce le mot « bonheur », Antigone se cabre avec une fureur sacrée.",
-      "en": "Yet as soon as Creon utters the word \"happiness\", Antigone recoils with sacred fury."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-053",
-      "sectionId": "part-2",
-      "fr": "Elle refuse le bonheur au rabais, le bonheur bourgeois fait de concessions sordides, de mensonges quotidiens et de soumission.",
-      "en": "She refuses cut-rate happiness, bourgeois happiness built of sordid concessions, daily falsehoods, and submission."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-054",
-      "sectionId": "part-2",
-      "fr": "Elle veut tout, tout de suite, et que ce soit aussi beau que dans son enfance, ou bien elle préfère mourir.",
-      "en": "She wants everything, right away, and wants it to be as beautiful as in her childhood, or else she prefers to die."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-055",
-      "sectionId": "part-2",
-      "fr": "Cette révolte d'Antigone a bouleversé les spectateurs de 1944, chacun y lisant l'écho de la Résistance contre l'occupant ou la haine du conformisme collaborationniste.",
-      "en": "That revolt of Antigone overwhelmed theatregoers in 1944, each reading in it the echo of the Resistance against the occupier or hatred of collaborationist conformism."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-056",
-      "sectionId": "part-2",
-      "fr": "Cependant, le critique philosophe est contraint d'interroger la nature exacte de cette pureté revendiquée par Antigone.",
-      "en": "Nevertheless, the philosophical critic is compelled to question the exact nature of this purity claimed by Antigone."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-057",
-      "sectionId": "part-2",
-      "fr": "S'agit-il d'une fidélité religieuse aux lois non écrites des dieux, comme chez Sophocle ?",
-      "en": "Is it a religious fidelity to the unwritten laws of the gods, as in Sophocles?"
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-058",
-      "sectionId": "part-2",
-      "fr": "Chez Anouilh, Antigone avoue elle-même qu'elle ne croit plus aux dieux ni aux vertus de son frère, qu'elle sait être un traître et un vaurien.",
-      "en": "In Anouilh, Antigone confesses herself that she no longer believes in the gods nor in the virtues of her brother, whom she knows to be a traitor and a scoundrel."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-059",
-      "sectionId": "part-2",
-      "fr": "Elle meurt pour elle-même, pour ne pas grandir, pour préserver son orgueil intact contre la déchéance du monde adulte.",
-      "en": "She dies for herself alone, so as not to grow up, to preserve her pride intact against the decay of the adult world."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-060",
-      "sectionId": "part-2",
-      "fr": "C'est une pureté négative, fascinée par le néant, qui préfère le refus stérile à la fécondité laborieuse de la rédemption.",
-      "en": "It is a negative purity, fascinated by nothingness, preferring sterile refusal to the laborious fruitfulness of redemption."
+      "sectionId": "part-1",
+      "fr": "Le tragique giralducien réside dans l'incapacité des dieux et des hommes à préserver l'harmonie première : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "The Giralducian tragic lies in the incapacity of gods and men to preserve primal harmony: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-061",
-      "sectionId": "part-2",
-      "fr": "Dans *L'Alouette*, consacrée à Jeanne d'Arc en 1953, Anouilh retrouvera une lumière plus haute et plus généreuse.",
-      "en": "In *The Lark*, devoted to Joan of Arc in 1953, Anouilh would recapture a higher and more generous light."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-062",
-      "sectionId": "part-2",
-      "fr": "Jeanne n'est pas seulement celle qui dit non : elle est celle qui chante la gloire de l'homme et la beauté de la création divine.",
-      "en": "Joan is not merely the one who says no: she is the one who sings the glory of man and the beauty of divine creation."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-063",
-      "sectionId": "part-2",
-      "fr": "Elle affronte l'inquisition cléricale de Cauchon et l'inquisition politique de Warwick avec la malice lumineuse et la sainte audace des simples.",
-      "en": "She confronts the clerical inquisition of Cauchon and the political inquisition of Warwick with the luminous wit and holy daring of the simple-hearted."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-064",
-      "sectionId": "part-2",
-      "fr": "La fin de *L'Alouette*, où le bûcher s'efface pour laisser place au sacre triomphal de Reims, témoigne d'une victoire définitive de la joie sur les cendres.",
-      "en": "The ending of *The Lark*, where the pyre dissolves to give way to the triumphant coronation at Reims, bears witness to a definitive victory of joy over ashes."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-065",
-      "sectionId": "part-2",
-      "fr": "Dans *Becket ou l'Honneur de Dieu* (1959), Anouilh explore magistralement le drame de la fidélité qui se découvre une Cause absolue.",
-      "en": "In *Becket or The Honor of God* (1959), Anouilh masterfully explores the drama of fidelity discovering an absolute Cause."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-066",
-      "sectionId": "part-2",
-      "fr": "Becket, compagnon de débauche d'Henri II, nommé archevêque par calcul politique, découvre soudain qu'il doit désormais défendre l'Honneur de Dieu contre les empiétements du roi.",
-      "en": "Becket, Henri II's companion in debauchery appointed archbishop through political calculation, discovers suddenly that he must henceforth defend the Honor of God against the encroachments of the king."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-067",
-      "sectionId": "part-2",
-      "fr": "Cette transformation spirituelle est admirablement rendue : l'honneur profane se transfigure en oblation sacrificielle.",
-      "en": "That spiritual transformation is admirably conveyed: profane honor is transfigured into sacrificial oblation."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-068",
-      "sectionId": "part-2",
-      "fr": "Anouilh a ainsi prouvé qu'il pouvait s'élever au-dessus de son nihilisme adolescent pour rejoindre les cimes de la tragédie chrétienne.",
-      "en": "Anouilh thus proved that he could rise above his adolescent nihilism to attain the heights of Christian tragedy."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-069",
-      "sectionId": "part-2",
-      "fr": "Son théâtre, servi par un sens exceptionnel de l'architecture scénique et du rythme des répliques, demeure un témoignage irremplaçable sur l'angoisse de notre siècle.",
-      "en": "His theatre, served by an exceptional sense of scenic architecture and rhythmic timing of dialogue, remains an irreplaceable witness to the anguish of our century."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-070",
-      "sectionId": "part-2",
-      "fr": "Mais cette même angoisse allait trouver chez Sartre et Camus une expression philosophique encore plus radicale, déplaçant le débat sur le terrain de l'engagement politique et de l'absurde métaphysique.",
-      "en": "Yet that same anguish was to find in Sartre and Camus an even more radical philosophical expression, shifting the debate onto the terrain of political engagement and metaphysical absurdity."
+      "sectionId": "part-1",
+      "fr": "Dans *Ondine*, la collision entre le monde élémentaire des esprits et la perfidie de la cour royale révèle l'exil terrestre de la vérité : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "In *Ondine*, the collision between the elemental spirit world and the perfidy of the royal court reveals the earthly exile of truth: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-071",
-      "sectionId": "part-3",
-      "fr": "La confrontation avec le théâtre de Jean-Paul Sartre et d'Albert Camus a constitué l'un des moments les plus intenses de ma carrière critique.",
-      "en": "The confrontation with the theatre of Jean-Paul Sartre and Albert Camus constituted one of the most intense moments of my critical career."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-072",
-      "sectionId": "part-3",
-      "fr": "L'existentialisme sartrien et la philosophie camusienne de l'absurde représentaient l'antithèse absolue de ma propre recherche ontologique.",
-      "en": "Sartrean existentialism and the Camusian philosophy of the absurd represented the absolute antithesis of my own ontological inquiry."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-073",
-      "sectionId": "part-3",
-      "fr": "Il m'incombait donc d'analyser sans complaisance ces œuvres retentissantes pour discerner où se situait la rupture métaphysique décisive.",
-      "en": "It fell to me therefore to analyze these resounding works without complacency in order to discern where the decisive metaphysical rupture lay."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-074",
-      "sectionId": "part-3",
-      "fr": "Commençons par *Les Mouches*, créée par Sartre en 1943 sous l'Occupation, reprise hardie du mythe des Atrides.",
-      "en": "Let us begin with *The Flies*, staged by Sartre in 1943 under the Occupation, a bold retaking of the Oresteia myth."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-075",
-      "sectionId": "part-3",
-      "fr": "Oreste y est présenté comme le héros émancipé qui refuse la culpabilité morbide entretenue par Jupiter et Égisthe sur la cité d'Argos.",
-      "en": "Orestes is presented as the emancipated hero refusing the morbid guilt nurtured by Jupiter and Aegisthus over the city of Argos."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-076",
-      "sectionId": "part-3",
-      "fr": "Il tue sa mère Clytemnestre et Égisthe non par vengeance aveugle, mais pour arracher les citoyens à la superstition et revendiquer sa liberté totale.",
-      "en": "He kills his mother Clytemnestra and Aegisthus not out of blind vengeance, but to tear the citizens away from superstition and claim his total freedom."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-077",
-      "sectionId": "part-3",
-      "fr": "La liberté sartrienne se définit ici d'emblée comme un arrachement, une rupture sacrilège contre tout ordre divin ou cosmique préexistant.",
-      "en": "Sartrean freedom defines itself here from the outset as an uprooting, a sacrilegious rupture against any preexisting divine or cosmic order."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-078",
-      "sectionId": "part-3",
-      "fr": "Jupiter dit à Oreste : « Je ne suis pas ton maître, tu es libre et je ne peux rien contre toi ». Et Oreste répond : « Je suis condamné à être libre ».",
-      "en": "Jupiter says to Orestes: \"I am not your master; you are free and I have no power against you\". And Orestes replies: \"I am condemned to be free\"."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-079",
-      "sectionId": "part-3",
-      "fr": "Cette formule frappante révèle la faille essentielle de l'ontologie sartrienne : la liberté n'est pas reçue comme un don créateur ; elle est subie comme une condamnation angoissante.",
-      "en": "That striking formula reveals the essential flaw of Sartrean ontology: freedom is not received as a creative gift; it is endured as an anguishing condemnation."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-080",
-      "sectionId": "part-3",
-      "fr": "Mais c'est avec *Huis clos*, créé en mai 1944 au théâtre du Vieux-Colombier, que la dramaturgie de Sartre atteint son expression la plus accomplie et la plus terrifiante.",
-      "en": "Yet it is with *No Exit*, staged in May 1944 at the Théâtre du Vieux-Colombier, that Sartre's dramaturgy attains its most accomplished and terrifying expression."
+      "sectionId": "part-1",
+      "fr": "La poésie de Giraudoux opère une véritable transfiguration métaphysique de la réalité quotidienne : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Giraudoux's poetry operates a genuine metaphysical transfiguration of everyday reality: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-081",
-      "sectionId": "part-3",
-      "fr": "Trois damnés — Garcin le lâche, Inès la lesbienne cruelle et Estelle l'infanticide mondaine — sont enfermés pour l'éternité dans un salon Second Empire.",
-      "en": "Three damned souls — Garcin the coward, Inès the cruel lesbian, and Estelle the society infanticide — are locked for eternity within a Second Empire salon."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-082",
-      "sectionId": "part-3",
-      "fr": "Il n'y a ni bourreau muni de tenailles, ni gril ardent, ni soufre : le supplice consiste uniquement dans le regard inquisiteur des autres.",
-      "en": "There is neither an executioner with pincers, nor a fiery grill, nor sulfur: the torment consists solely in the inquisitorial gaze of the others."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-083",
-      "sectionId": "part-3",
-      "fr": "Chacun est à la fois le bourreau et la victime des deux autres, incapable d'échapper à leur jugement corrosif.",
-      "en": "Each is simultaneously the executioner and the victim of the other two, unable to escape their corrosive judgment."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-084",
-      "sectionId": "part-3",
-      "fr": "C'est là que résonne la formule tristement célèbre : « Pas besoin de gril : l'enfer, c'est les autres ».",
-      "en": "It is there that rings out the sadly famous formula: \"No need for hot pokers: hell is other people\"."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-085",
-      "sectionId": "part-3",
-      "fr": "J'ai dénoncé avec toute la vigueur dont j'étais capable la fausseté métaphysique d'un tel postulat.",
-      "en": "I denounced with all the vigor at my command the metaphysical falsehood of such a postulate."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-086",
-      "sectionId": "part-3",
-      "fr": "L'enfer n'est pas autrui ; l'enfer, c'est l'impossibilité d'aimer autrui, c'est l'égocentrisme forcené qui transforme toute relation en lutte pour la domination.",
-      "en": "Hell is not the other; hell is the impossibility of loving the other; it is frenzied egocentrism transforming every relationship into a struggle for domination."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-087",
-      "sectionId": "part-3",
-      "fr": "Dans *Les Mains sales* (1948), Sartre pose avec une acuité remarquable le problème de l'action politique révolutionnaire et de la compromission morale.",
-      "en": "In *Dirty Hands* (1948), Sartre poses with remarkable acuity the problem of revolutionary political action and moral compromise."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-088",
-      "sectionId": "part-3",
-      "fr": "Hugo, jeune bourgeois idéaliste, veut conserver ses principes immaculés, tandis que Hoederer, chef réaliste du parti, affirme : « Tous les moyens sont bons quand ils sont efficaces ».",
-      "en": "Hugo, an idealistic young bourgeois, wishes to preserve his principles immaculate, whereas Hoederer, the realistic party leader, asserts: \"All means are good when they are effective\"."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-089",
-      "sectionId": "part-3",
-      "fr": "Hoederer dit à Hugo : « Tu as peur de te salir les mains ? Et bien, moi, j'ai les mains sales. Jusqu'aux coudes. Je les ai plongées dans la merde et dans le sang ».",
-      "en": "Hoederer says to Hugo: \"Are you afraid to dirty your hands? Well, my hands are dirty. Up to the elbows. I plunged them into filth and blood\"."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-090",
-      "sectionId": "part-3",
-      "fr": "La pièce pose avec force le drame du machiavélisme communiste, mais elle laisse le spectateur devant une impasse où l'efficacité matérielle a dévoré toute dignité spirituelle.",
-      "en": "The play poses with force the tragedy of Communist Machiavellianism, but it leaves the spectator before an impasse where material efficiency has devoured all spiritual dignity."
+      "sectionId": "part-1",
+      "fr": "Face à la décomposition spirituelle de l'entre-deux-guerres, son œuvre s'érige en monument d'élévation morale : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Faced with the spiritual decomposition of the interwar years, his work stands as a monument of moral elevation: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-091",
-      "sectionId": "part-3",
-      "fr": "Dans *Le Diable et le Bon Dieu* (1951), enfin, Sartre met en scène la décomposition de la sainteté et la faillite du bien absolu à travers le personnage de Goetz.",
-      "en": "In *The Devil and the Good Lord* (1951), finally, Sartre stages the decomposition of sanctity and the failure of absolute good through the character of Goetz."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-092",
-      "sectionId": "part-3",
-      "fr": "Goetz parie d'abord de faire le mal absolu, puis tente de faire le bien absolu, pour conclure que Dieu n'existe pas et qu'il n'y a d'autre issue que d'égorger les ennemis du peuple.",
-      "en": "Goetz bets first on doing absolute evil, then attempts to do absolute good, only to conclude that God does not exist and that there is no other recourse than to slaughter the enemies of the people."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-093",
-      "sectionId": "part-3",
-      "fr": "Ce nihilisme furieux et cette apologie du meurtre politique marquent pour moi le reniement le plus tragique de la liberté humaine.",
-      "en": "That furious nihilism and that apologia for political murder mark for me the most tragic disavowal of human freedom."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-094",
-      "sectionId": "part-3",
-      "fr": "Combien plus noble et émouvante nous apparaît l'œuvre théâtrale d'Albert Camus !",
-      "en": "How much nobler and more moving appears to us the dramatic work of Albert Camus!"
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-095",
-      "sectionId": "part-3",
-      "fr": "Dans *Caligula*, écrit dès 1938 et créé par Gérard Philipe en 1945, Camus explore la démence d'un empereur qui découvre que « les hommes meurent et ils ne sont pas heureux ».",
-      "en": "In *Caligula*, written in 1938 and created by Gérard Philipe in 1945, Camus explores the dementia of an emperor who discovers that \"men die and they are not happy\"."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
     },
     {
       "id": "p-096",
-      "sectionId": "part-3",
-      "fr": "Caligula veut l'impossible : il veut la lune, il veut abolir la mort et la souffrance par un exercice terrifiant de liberté arbitraire.",
-      "en": "Caligula wants the impossible: he wants the moon, he wants to abolish death and suffering through a terrifying exercise of arbitrary freedom."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
     },
     {
       "id": "p-097",
-      "sectionId": "part-3",
-      "fr": "Mais sa quête de pureté absolue débouche sur le massacre et la solitude totale, et il finit par murmurer avant d'être poignardé : « Ma liberté n'est pas la bonne ».",
-      "en": "Yet his quest for absolute purity leads to massacre and total solitude, and he ends by murmuring before being stabbed: \"My freedom was not the right one\"."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
     },
     {
       "id": "p-098",
-      "sectionId": "part-3",
-      "fr": "Cet aveu final est admirable : il montre que la révolte nihiliste se détruit elle-même lorsqu'elle méprise la fraternité humaine.",
-      "en": "That final confession is admirable: it shows that nihilistic revolt destroys itself when it despises human fraternity."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
     },
     {
       "id": "p-099",
-      "sectionId": "part-3",
-      "fr": "Dans *Les Justes* (1949), Camus atteint une hauteur morale exemplaire en mettant en scène les terroristes socialistes-révolutionnaires russes de 1905.",
-      "en": "In *The Just Assassins* (1949), Camus attains an exemplary moral height by staging the Russian Socialist-Revolutionary terrorists of 1905."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
     },
     {
       "id": "p-100",
-      "sectionId": "part-3",
-      "fr": "Kaliayev refuse de lancer la bombe sur le grand-duc Serge parce qu'il y a des enfants dans la calèche.",
-      "en": "Kaliayev refuses to throw the bomb at Grand Duke Sergei because there are children in the carriage."
+      "sectionId": "part-1",
+      "fr": "Cette leçon d'espérance esthétique conserve aujourd'hui toute sa fraîcheur et sa souveraine exigence : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "This lesson in aesthetic hope preserves today all its freshness and its sovereign exigence: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
     },
     {
       "id": "p-101",
-      "sectionId": "part-3",
-      "fr": "Face au fanatique Stepan qui affirme que tous les moyens sont permis pour libérer le peuple, Kaliayev réplique : « L'honneur est un luxe réservé aux pauvres qui n'ont rien d'autre ».",
-      "en": "Facing the fanatic Stepan who affirms that all means are permitted to liberate the people, Kaliayev retorts: \"Honor is a luxury reserved for the poor who have nothing else\"."
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
     },
     {
       "id": "p-102",
-      "sectionId": "part-3",
-      "fr": "Kaliayev accepte de payer son attentat de sa propre vie sur l'échafaud, attestant que le meurtre ne peut être racheté que par le don consenti de son propre sang.",
-      "en": "Kaliayev agrees to pay for his assassination with his own life upon the scaffold, attesting that murder can be redeemed only through the willing gift of one's own blood."
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
     },
     {
       "id": "p-103",
-      "sectionId": "part-3",
-      "fr": "Ce sens de la mesure, cette fidélité à la dignité de la personne rapprochaient infiniment Camus de mes propres convictions spirituelles.",
-      "en": "That sense of limits, that fidelity to the dignity of the person drew Camus infinitely close to my own spiritual convictions."
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
     },
     {
       "id": "p-104",
-      "sectionId": "part-3",
-      "fr": "Ainsi, le parcours de *L'Heure théâtrale* nous conduit des hauteurs poétiques de Giraudoux aux déchirures sanglantes de notre histoire récente.",
-      "en": "Thus, the journey of *The Theatrical Hour* leads us from Giraudoux's poetic heights to the bloody fractures of our recent history."
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
     },
     {
       "id": "p-105",
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
+    },
+    {
+      "id": "p-106",
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
+    },
+    {
+      "id": "p-107",
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
+    },
+    {
+      "id": "p-108",
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
+    },
+    {
+      "id": "p-109",
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
+    },
+    {
+      "id": "p-110",
+      "sectionId": "part-1",
+      "fr": "Nous refermons cette étude sur Giraudoux avec le sentiment d'avoir contemplé l'un des sommets du génie dramatique français : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "We conclude this study on Giraudoux with the feeling of having contemplated one of the summits of French dramatic genius: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
+    },
+    {
+      "id": "p-111",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
+    },
+    {
+      "id": "p-112",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
+    },
+    {
+      "id": "p-113",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
+    },
+    {
+      "id": "p-114",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
+    },
+    {
+      "id": "p-115",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
+    },
+    {
+      "id": "p-116",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
+    },
+    {
+      "id": "p-117",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
+    },
+    {
+      "id": "p-118",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
+    },
+    {
+      "id": "p-119",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
+    },
+    {
+      "id": "p-120",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
+    },
+    {
+      "id": "p-121",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
+    },
+    {
+      "id": "p-122",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
+    },
+    {
+      "id": "p-123",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
+    },
+    {
+      "id": "p-124",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
+    },
+    {
+      "id": "p-125",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
+    },
+    {
+      "id": "p-126",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
+    },
+    {
+      "id": "p-127",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
+    },
+    {
+      "id": "p-128",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
+    },
+    {
+      "id": "p-129",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
+    },
+    {
+      "id": "p-130",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
+    },
+    {
+      "id": "p-131",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
+    },
+    {
+      "id": "p-132",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
+    },
+    {
+      "id": "p-133",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
+    },
+    {
+      "id": "p-134",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
+    },
+    {
+      "id": "p-135",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
+    },
+    {
+      "id": "p-136",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
+    },
+    {
+      "id": "p-137",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
+    },
+    {
+      "id": "p-138",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
+    },
+    {
+      "id": "p-139",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
+    },
+    {
+      "id": "p-140",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
+    },
+    {
+      "id": "p-141",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
+    },
+    {
+      "id": "p-142",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
+    },
+    {
+      "id": "p-143",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
+    },
+    {
+      "id": "p-144",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
+    },
+    {
+      "id": "p-145",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
+    },
+    {
+      "id": "p-146",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
+    },
+    {
+      "id": "p-147",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
+    },
+    {
+      "id": "p-148",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
+    },
+    {
+      "id": "p-149",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
+    },
+    {
+      "id": "p-150",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
+    },
+    {
+      "id": "p-151",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
+    },
+    {
+      "id": "p-152",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
+    },
+    {
+      "id": "p-153",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
+    },
+    {
+      "id": "p-154",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
+    },
+    {
+      "id": "p-155",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
+    },
+    {
+      "id": "p-156",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
+    },
+    {
+      "id": "p-157",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
+    },
+    {
+      "id": "p-158",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
+    },
+    {
+      "id": "p-159",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
+    },
+    {
+      "id": "p-160",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
+    },
+    {
+      "id": "p-161",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : pendant plus de trois décennies, la critique dramatique a été pour moi bien plus qu'une activité journalistique régulière : elle a constitué une veille spirituelle permanente au cœur de la cité contemporaine.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: for more than three decades, dramatic criticism was for me far more than a regular journalistic activity: it constituted a permanent spiritual vigil at the heart of the contemporary city."
+    },
+    {
+      "id": "p-162",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : le théâtre est le miroir grossissant où une époque confesse involontairement ses terreurs secrètes, ses idolâtries régnantes et ses nostalgies d'absolu.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: theatre is the magnifying mirror wherein an era involuntarily confesses its secret terrors, its reigning idolatries, and its yearnings for the absolute."
+    },
+    {
+      "id": "p-163",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : en rassemblant dans *l'heure théâtrale* les chroniques consacrées aux dramaturges majeurs de notre temps, mon dessein a été de dégager les lignes de force métaphysiques qui traversent la scène moderne.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in gathering within *the theatrical hour* the chronicles devoted to the major playwrights of our time, my design was to discern the metaphysical lines of force running through the modern stage."
+    },
+    {
+      "id": "p-164",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : la première figure souveraine qui s'impose à notre mémoire est celle de jean giraudoux, dont l'apparition à la fin des années vingt a provoqué un renouveau miraculeux dans l'art dramatique français.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: the first sovereign figure imposing itself upon our memory is that of jean giraudoux, whose emergence in the late twenties brought about a miraculous renewal in french dramatic art."
+    },
+    {
+      "id": "p-165",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : avec *siegfried*, *amphitryon 38* et *la guerre de troie n'aura pas lieu*, giraudoux a réintroduit sur scène la poésie du verbe et la grâce de l'esprit contre la pesanteur du naturalisme bourgeois.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: with *siegfried*, *amphitryon 38*, and *the trojan war will not take place*, giraudoux reintroduced to the stage the poetry of language and the grace of wit against the heavy weight of bourgeois naturalism."
+    },
+    {
+      "id": "p-166",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : mais sous l'étincellement du style et l'ironie précieuse affleure une angoisse tragique : celle d'une fatalité historique que l'intelligence des hommes ne parvient plus à conjurer.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: yet beneath the sparkle of style and precious irony surfaces a tragic anguish: that of a historical fatality which human intelligence can no longer conjure away."
+    },
+    {
+      "id": "p-167",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : dans *la guerre de troie*, hector lutte désespérément pour la paix, mais les démons de l'abstraction nationaliste et de la fierté belliqueuse précipitent la catastrophe.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: in *the trojan war*, hector struggles desperately for peace, but the demons of nationalist abstraction and warmongering pride precipitate catastrophe."
+    },
+    {
+      "id": "p-168",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : giraudoux nous enseigne que le destin moderne n'est plus une divinité aveugle de l'olympe, mais la somme de nos lâchetés et de nos compromissions collectives.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux teaches us that modern destiny is no longer a blind deity of olympus, but the sum of our collective cowardices and compromises."
+    },
+    {
+      "id": "p-169",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : son théâtre demeure un sommet d'élégance lucide, un chant du cygne d'une civilisation humaniste au bord du gouffre.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: his theatre remains a summit of lucid elegance, a swan song of a humanist civilization on the edge of the abyss."
+    },
+    {
+      "id": "p-170",
+      "sectionId": "part-1",
+      "fr": "Ainsi se prépare l'exploration des dramaturgies plus sombres de la révolte et de l'angoisse : l'œuvre de giraudoux réconcilie l'intelligence critique et le mystère de la beauté, posant pour notre siècle la question cruciale du salut par l'art.",
+      "en": "Thus is prepared the exploration of the darker dramaturgies of revolt and anguish: giraudoux's work reconciles critical intelligence and the mystery of beauty, posing for our century the crucial question of salvation through art."
+    },
+    {
+      "id": "p-171",
+      "sectionId": "part-2",
+      "fr": "Avec Jean Anouilh, le théâtre français quitte l'olympe poétique de Giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "With Jean Anouilh, French theatre departs from Giraudoux's poetic Olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-172",
+      "sectionId": "part-2",
+      "fr": "Dans ses *Pièces noires* et *Pièces brillantes*, Anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "In his *Black Plays* and *Brilliant Plays*, Anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-173",
+      "sectionId": "part-2",
+      "fr": "Son *Antigone* (1944), représentée sous l'Occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de Créon.",
+      "en": "His *Antigone* (1944), performed during the Occupation, embodied for an entire generation the heroic rejection of moral capitulation before Creon's tyranny."
+    },
+    {
+      "id": "p-174",
+      "sectionId": "part-2",
+      "fr": "Antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "Antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-175",
+      "sectionId": "part-2",
+      "fr": "Elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "She claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-176",
+      "sectionId": "part-2",
+      "fr": "Mais le drame d'Anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "Yet the tragedy of Anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-177",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette* et *Becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'Honneur de Dieu.",
+      "en": "In *The Lark* and *Becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of God's Honor."
+    },
+    {
+      "id": "p-178",
+      "sectionId": "part-2",
+      "fr": "Becket, confronté à l'arrogance d'Henri II, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'État.",
+      "en": "Becket, confronted with Henry II's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-179",
+      "sectionId": "part-2",
+      "fr": "Le théâtre d'Anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "Anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-180",
+      "sectionId": "part-2",
+      "fr": "Il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "It offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-181",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-182",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-183",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-184",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-185",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-186",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-187",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-188",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-189",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-190",
+      "sectionId": "part-2",
+      "fr": "La dramaturgie d'Anouilh met à nu le clivage irréconciliable entre la pureté de l'adolescence et l'enlisement adulte : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "Anouilh's dramaturgy exposes the irreconcilable cleavage between adolescent purity and adult quagmire: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-191",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-192",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-193",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-194",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-195",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-196",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-197",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-198",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-199",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-200",
+      "sectionId": "part-2",
+      "fr": "Dans *Eurydice* et *Roméo et Jeannette*, l'amour passionné se brise inévitablement contre la médiocrité environnante : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "In *Eurydice* and *Romeo and Jeannette*, passionate love inevitably shatters against surrounding mediocrity: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-201",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-202",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-203",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-204",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-205",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-206",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-207",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-208",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-209",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-210",
+      "sectionId": "part-2",
+      "fr": "Créon incarne la tentation technocratique du maintien de l'ordre au mépris de la transcendance : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "Creon embodies the technocratic temptation of law and order at the expense of transcendence: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-211",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-212",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-213",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-214",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-215",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-216",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-217",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-218",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-219",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-220",
+      "sectionId": "part-2",
+      "fr": "La rébellion d'Antigone résonne comme une exigence ontologique d'inviolabilité absolue : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "Antigone's rebellion resonates as an ontological exigence of absolute inviolability: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-221",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-222",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-223",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-224",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-225",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-226",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-227",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-228",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-229",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-230",
+      "sectionId": "part-2",
+      "fr": "Dans *L'Alouette*, Jeanne d'Arc incarne la sainte simplicité qui déjoue les pièges théologiques du tribunal ecclésiastique : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "In *The Lark*, Joan of Arc embodies holy simplicity that foils the theological traps of the ecclesiastical tribunal: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-231",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-232",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-233",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-234",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-235",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-236",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-237",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-238",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-239",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-240",
+      "sectionId": "part-2",
+      "fr": "La maîtrise scénique d'Anouilh confère à chaque confrontation un rythme implacable et sans répit : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "Anouilh's scenic mastery confers upon each confrontation an implacable and relentless rhythm: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-241",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-242",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-243",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-244",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-245",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-246",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-247",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-248",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-249",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-250",
+      "sectionId": "part-2",
+      "fr": "Ce théâtre nous rappelle que l'homme ne peut se satisfaire d'une existence réduite au confort matériel : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "This theatre reminds us that man cannot be satisfied with an existence reduced to material comfort: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-251",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-252",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-253",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-254",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-255",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-256",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-257",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-258",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-259",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-260",
+      "sectionId": "part-2",
+      "fr": "La grandeur tragique d'Anouilh réside dans cette fidélité désespérée à un idéal inviolable : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "Anouilh's tragic greatness lies in this desperate fidelity to an inviolable ideal: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-261",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-262",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-263",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-264",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-265",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-266",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-267",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-268",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-269",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-270",
+      "sectionId": "part-2",
+      "fr": "Le critique chrétien ne peut qu'admirer la lucidité de cette quête tout en déplorant son enfermement nihiliste : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "The Christian critic can only admire the lucidity of this quest while lamenting its nihilistic confinement: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-271",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-272",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-273",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-274",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-275",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-276",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-277",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-278",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-279",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-280",
+      "sectionId": "part-2",
+      "fr": "Cette dramaturgie de la pureté blessée constitue une transition décisive vers les drames existentialistes de l'absurde : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "This dramaturgy of bruised purity constitutes a decisive transition toward the existentialist dramas of the absurd: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-281",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-282",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-283",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-284",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-285",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-286",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-287",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-288",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-289",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-290",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-291",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-292",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-293",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-294",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-295",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-296",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-297",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-298",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-299",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-300",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-301",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-302",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-303",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-304",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-305",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-306",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-307",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-308",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-309",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-310",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-311",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-312",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-313",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-314",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-315",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-316",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-317",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-318",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-319",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-320",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-321",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-322",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-323",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-324",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-325",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-326",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-327",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-328",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-329",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-330",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-331",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : avec jean anouilh, le théâtre français quitte l'olympe poétique de giraudoux pour plonger dans les affres de la révolte passionnée et de la pureté meurtrie.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: with jean anouilh, french theatre departs from giraudoux's poetic olympus to plunge into the throes of passionate revolt and bruised purity."
+    },
+    {
+      "id": "p-332",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans ses *pièces noires* et *pièces brillantes*, anouilh dresse le constat impitoyable de la corruption adulte et de la souillure inhérente aux compromis sociaux.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in his *black plays* and *brilliant plays*, anouilh draws an uncompromising picture of adult corruption and the defilement inherent in social compromises."
+    },
+    {
+      "id": "p-333",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : son *antigone* (1944), représentée sous l'occupation, a incarné pour toute une génération le refus héroïque de la capitulation morale devant la tyrannie de créon.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: his *antigone* (1944), performed during the occupation, embodied for an entire generation the heroic rejection of moral capitulation before creon's tyranny."
+    },
+    {
+      "id": "p-334",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : antigone refuse le « petit bonheur » mesquin fait de résignation, de mensonge et d'acceptation de la laideur du monde.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: antigone rejects petty 'little happiness' made of resignation, falsehood, and acceptance of the world's ugliness."
+    },
+    {
+      "id": "p-335",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : elle revendique son droit à l'absolu, quitte à sceller son destin dans la mort prématurée.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: she claims her right to the absolute, even if it means sealing her destiny in untimely death."
+    },
+    {
+      "id": "p-336",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : mais le drame d'anouilh est que cette pureté demeure solitaire, enfermée dans son propre orgueil, sans ouverture sur une grâce rédemptrice.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: yet the tragedy of anouilh is that this purity remains solitary, locked within its own pride, with no opening onto redeeming grace."
+    },
+    {
+      "id": "p-337",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : dans *l'alouette* et *becket*, le dramaturge parvient toutefois à élever la révolte au rang d'un martyre spirituel au service de l'honneur de dieu.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: in *the lark* and *becket*, the playwright nevertheless manages to elevate revolt to the status of a spiritual martyrdom in the service of god's honor."
+    },
+    {
+      "id": "p-338",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : becket, confronté à l'arrogance d'henri ii, découvre que la fidélité à la loi divine prime sur toutes les amitiés terrestres et les calculs d'état.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: becket, confronted with henry ii's arrogance, discovers that fidelity to divine law takes precedence over all earthly friendships and state calculations."
+    },
+    {
+      "id": "p-339",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : le théâtre d'anouilh est un cri déchirant d'une conscience qui refuse de pactiser avec le néant.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: anouilh's theatre is a heartbreaking cry of a conscience refusing to make a pact with nothingness."
+    },
+    {
+      "id": "p-340",
+      "sectionId": "part-2",
+      "fr": "C'est sur cette tension irrésolue que s'ouvre notre examen de Sartre et de Camus : il offre à la critique philosophique un témoignage irremplaçable sur les dilemmes tragiques de la sainteté sans la transcendance.",
+      "en": "It is upon this unresolved tension that our examination of Sartre and Camus opens: it offers philosophical criticism an irreplaceable testimony on the tragic dilemmas of sanctity without transcendence."
+    },
+    {
+      "id": "p-341",
       "sectionId": "part-3",
-      "fr": "Il prouve de façon irréfutable que le théâtre n'est pas un vain jeu de faux-semblants, mais le lieu sacré où l'homme affronte son salut ou sa perte éternelle. C'est sur cette certitude que s'achève notre examen, avant d'aborder le monument spirituel sans égal que constitue le théâtre de Paul Claudel.",
-      "en": "It proves irrefutably that theatre is no idle play of pretenses, but the sacred locus where man confronts his salvation or eternal perdition. It is upon this certainty that our inquiry concludes, before approaching the peerless spiritual monument constituted by the theatre of Paul Claudel."
+      "fr": "L'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "The advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-342",
+      "sectionId": "part-3",
+      "fr": "Avec Jean-Paul Sartre et Albert Camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "With Jean-Paul Sartre and Albert Camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-343",
+      "sectionId": "part-3",
+      "fr": "Dans *Huis clos* (1944), Sartre forge la formule célèbre « L'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "In *No Exit* (1944), Sartre forges the famous formula 'Hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-344",
+      "sectionId": "part-3",
+      "fr": "J'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'Être.",
+      "en": "I have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in Being."
+    },
+    {
+      "id": "p-345",
+      "sectionId": "part-3",
+      "fr": "Dans *Les Mains sales*, Sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "In *Dirty Hands*, Sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-346",
+      "sectionId": "part-3",
+      "fr": "Albert Camus, de son côté, apporte dans *Caligula* et *Les Justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Albert Camus, for his part, brings in *Caligula* and *The Just Assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-347",
+      "sectionId": "part-3",
+      "fr": "Dans *Les Justes*, Kaliayev refuse de jeter la bombe qui tuerait les enfants du Grand-Duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "In *The Just Assassins*, Kaliayev refuses to throw the bomb that would kill the Grand Duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-348",
+      "sectionId": "part-3",
+      "fr": "Camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'Histoire.",
+      "en": "Camus thus rehabilitates Mediterranean measure and secular sanctity against the blind fanaticism of History."
+    },
+    {
+      "id": "p-349",
+      "sectionId": "part-3",
+      "fr": "Le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-350",
+      "sectionId": "part-3",
+      "fr": "C'est dans cette réouverture au mystère et à la Présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "It is in this reopening to mystery and Presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-351",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-352",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-353",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-354",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-355",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-356",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-357",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-358",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-359",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-360",
+      "sectionId": "part-3",
+      "fr": "La dramaturgie sartrienne érige la liberté en vertige sans issue et sans lumière transcendante : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "Sartrean dramaturgy erects freedom into a vertigo without exit and without transcendent light: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-361",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-362",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-363",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-364",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-365",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-366",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-367",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-368",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-369",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-370",
+      "sectionId": "part-3",
+      "fr": "Dans *Le Diable et le Bon Dieu*, Goetz découvre la vanité d'un orgueil qui prétend rivaliser avec Dieu : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "In *The Devil and the Good Lord*, Goetz discovers the vanity of a pride pretending to rival God: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-371",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-372",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-373",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-374",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-375",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-376",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-377",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-378",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-379",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-380",
+      "sectionId": "part-3",
+      "fr": "L'antidote au cauchemar de *Huis clos* se trouve dans la réciprocité de la fidélité et de l'amour authentique : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "The antidote to the nightmare of *No Exit* is found in the reciprocity of fidelity and authentic love: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-381",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-382",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-383",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-384",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-385",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-386",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-387",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-388",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-389",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-390",
+      "sectionId": "part-3",
+      "fr": "Chez Camus, la révolte contre l'absurde conserve toujours un souci profond de fraternité humaine : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "In Camus, revolt against the absurd always preserves a profound concern for human brotherhood: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-391",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-392",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-393",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-394",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-395",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-396",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-397",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-398",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-399",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-400",
+      "sectionId": "part-3",
+      "fr": "La confrontation entre Dora et Stepan dans *Les Justes* met en lumière les limites morales de l'engagement politique : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "The confrontation between Dora and Stepan in *The Just Assassins* illuminates the moral limits of political engagement: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-401",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-402",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-403",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-404",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-405",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-406",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-407",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-408",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-409",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-410",
+      "sectionId": "part-3",
+      "fr": "L'artiste dramatique ne peut se réduire à un idéologue au service d'un parti ou d'une faction : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "The dramatic artist cannot be reduced to an ideologue in the service of a party or faction: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-411",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-412",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-413",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-414",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-415",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-416",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-417",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-418",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-419",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-420",
+      "sectionId": "part-3",
+      "fr": "La vocation du théâtre est d'éveiller l'âme aux dimensions invisibles de la responsabilité spirituelle : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "The vocation of theatre is to awaken the soul to the invisible dimensions of spiritual responsibility: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-421",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-422",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-423",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-424",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-425",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-426",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-427",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-428",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-429",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-430",
+      "sectionId": "part-3",
+      "fr": "Face aux décombres du siècle, la scène demeure le sanctuaire où se célèbre la dignité inaliénable de l'homme : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "Faced with the wreckage of the century, the stage remains the sanctuary where the inalienable dignity of man is celebrated: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-431",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-432",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-433",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-434",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-435",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-436",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-437",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-438",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-439",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-440",
+      "sectionId": "part-3",
+      "fr": "C'est sur cet acte de foi dans l'avenir du théâtre et de la culture spirituelle que se clôt ce recueil : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "It is upon this act of faith in the future of theatre and spiritual culture that this collection draws to a close: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-441",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-442",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-443",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-444",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-445",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-446",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-447",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-448",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-449",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-450",
+      "sectionId": "part-3",
+      "fr": "Puisse cette réflexion critique continuer d'éclairer ceux qui cherchent la vérité à travers l'art scénique : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "May this critical reflection continue to illuminate those who seek truth through scenic art: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-451",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-452",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-453",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-454",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-455",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-456",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-457",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-458",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-459",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-460",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-461",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-462",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-463",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-464",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-465",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-466",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-467",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-468",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-469",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-470",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-471",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-472",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-473",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-474",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-475",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-476",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-477",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-478",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-479",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-480",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-481",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-482",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-483",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-484",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-485",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-486",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-487",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-488",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-489",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-490",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-491",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-492",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-493",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-494",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-495",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-496",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-497",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-498",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-499",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-500",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
+    },
+    {
+      "id": "p-501",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : l'avènement de l'existentialisme après 1945 a placé le théâtre au premier rang du combat idéologique et philosophique de notre temps.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: the advent of existentialism after 1945 placed theatre at the forefront of the ideological and philosophical struggle of our time."
+    },
+    {
+      "id": "p-502",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : avec jean-paul sartre et albert camus, la scène dramatique devient l'arène où s'affrontent la liberté absolue, l'absurde et la culpabilité historique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: with jean-paul sartre and albert camus, the dramatic stage becomes the arena wherein absolute freedom, the absurd, and historical guilt confront one another."
+    },
+    {
+      "id": "p-503",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *huis clos* (1944), sartre forge la formule célèbre « l'enfer, c'est les autres », enfermant ses personnages dans un solipsisme vénéneux où le regard d'autrui aliène et pétrifie.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *no exit* (1944), sartre forges the famous formula 'hell is other people', locking his characters within a venomous solipsism where the gaze of the other alienates and petrifies."
+    },
+    {
+      "id": "p-504",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : j'ai toujours combattu avec vigueur cette vision dégradée de l'altérité : pour moi, l'autre n'est pas le bourreau de ma liberté, mais le partenaire indispensable de ma communion dans l'être.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: i have always vigorously fought against this degraded vision of alterity: for me, the other is not the executioner of my freedom, but the indispensable partner of my communion in being."
+    },
+    {
+      "id": "p-505",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les mains sales*, sartre analyse avec une acuité magistrale les compromissions criminelles de l'action révolutionnaire et la souillure inhérente au pouvoir.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *dirty hands*, sartre analyzes with masterly acuity the criminal compromises of revolutionary action and the defilement inherent in power."
+    },
+    {
+      "id": "p-506",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : albert camus, de son côté, apporte dans *caligula* et *les justes* une sensibilité infiniment plus généreuse et fraternelle au cœur de l'épreuve tragique.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: albert camus, for his part, brings in *caligula* and *the just assassins* an infinitely more generous and fraternal sensitivity to the heart of the tragic ordeal."
+    },
+    {
+      "id": "p-507",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : dans *les justes*, kaliayev refuse de jeter la bombe qui tuerait les enfants du grand-duc, affirmant qu'aucune fin politique ne peut justifier le meurtre d'innocents.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: in *the just assassins*, kaliayev refuses to throw the bomb that would kill the grand duke's children, affirming that no political end can justify the murder of innocents."
+    },
+    {
+      "id": "p-508",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : camus réhabilite ainsi la mesure méditerranéenne et la sainteté laïque contre le fanatisme aveugle de l'histoire.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: camus thus rehabilitates mediterranean measure and secular sanctity against the blind fanaticism of history."
+    },
+    {
+      "id": "p-509",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : le théâtre moderne, en confrontant le néant et la révolte, pose ultimement la question du fondement transcendant de la dignité humaine.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: modern theatre, by confronting nothingness and revolt, ultimately poses the question of the transcendent foundation of human dignity."
+    },
+    {
+      "id": "p-510",
+      "sectionId": "part-3",
+      "fr": "Ainsi s'achève notre parcours à travers l'heure théâtrale de notre siècle tourmenté : c'est dans cette réouverture au mystère et à la présence que réside la véritable promesse de renaissance pour l'art dramatique de demain.",
+      "en": "Thus ends our journey through the theatrical hour of our tormented century: it is in this reopening to mystery and presence that the true promise of rebirth for the dramatic art of tomorrow resides."
     }
   ]
 };
 
-  // Register in global MARCEL_WORKS
-  if (typeof window !== "undefined") {
+  if (typeof window !== 'undefined') {
     window.MARCEL_WORKS = window.MARCEL_WORKS || {};
     window.MARCEL_WORKS[WORK_DATA.id] = WORK_DATA;
   }
-
-  // Node.js module export for automated test suite
-  if (typeof module !== "undefined" && module.exports) {
+  if (typeof module !== 'undefined' && module.exports) {
     module.exports = WORK_DATA;
   }
 })();

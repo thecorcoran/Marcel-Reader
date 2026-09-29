@@ -119,7 +119,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v29'), 'Service Worker defines cache version v29');
+assert(swContent.includes('marcel-reader-v30'), 'Service Worker defines cache version v30');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -423,11 +423,11 @@ assert(autoEssay.paragraphs.length === 360, `${autoEssay.titleEn}: Contains comp
 assert(autoEssay.sections.length === 3, `${autoEssay.titleEn}: Defines all 3 Chronological Parts`);
 
 assert(lheureTheatrale.unabridged === true, `${lheureTheatrale.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(lheureTheatrale.paragraphs.length === 105, `${lheureTheatrale.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(lheureTheatrale.paragraphs.length === 510, `${lheureTheatrale.titleEn}: Contains complete 510 verbatim paragraphs`);
 assert(lheureTheatrale.sections.length === 3, `${lheureTheatrale.titleEn}: Defines all 3 Parts`);
 
 assert(regardsClaudel.unabridged === true, `${regardsClaudel.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(regardsClaudel.paragraphs.length === 105, `${regardsClaudel.titleEn}: Contains complete 105 verbatim paragraphs`);
+assert(regardsClaudel.paragraphs.length === 450, `${regardsClaudel.titleEn}: Contains complete 450 verbatim paragraphs`);
 assert(regardsClaudel.sections.length === 3, `${regardsClaudel.titleEn}: Defines all 3 Parts`);
 
 assert(lePalaisDeSable.unabridged === true, `${lePalaisDeSable.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -489,7 +489,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 29190, `Total unabridged rows across 42 masterworks equals 29,190 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 29940, `Total unabridged rows across 42 masterworks equals 29,940 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1262,47 +1262,47 @@ window.selectSection('all');
 const aeAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(aeAllRestored === 360, `All 360 paragraphs restored upon selecting "All Sections" for An Autobiographical Essay`);
 
-// 26. Test Switch to L'Heure théâtrale (Verbatim 105 paragraphs across 3 Parts)
+// 26. Test Switch to L'Heure théâtrale (Verbatim 510 paragraphs across 3 Parts)
 window.switchWork('lheure-theatrale');
 const lhtRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhtRows === 105, `Rendered full 105 verbatim paragraphs for L'Heure théâtrale (actual: ${lhtRows})`);
+assert(lhtRows === 170, `Smart default renders Part 1 (170 paragraphs) for L'Heure théâtrale (actual: ${lhtRows})`);
 
 window.selectSection('part-1');
 const lhtPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhtPart1Rows === 35, `L'Heure théâtrale Part I filtered to exactly 35 paragraphs (actual: ${lhtPart1Rows})`);
+assert(lhtPart1Rows === 170, `L'Heure théâtrale Part I filtered to exactly 170 paragraphs (actual: ${lhtPart1Rows})`);
 
 window.selectSection('part-2');
 const lhtPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhtPart2Rows === 35, `L'Heure théâtrale Part II filtered to exactly 35 paragraphs (actual: ${lhtPart2Rows})`);
+assert(lhtPart2Rows === 170, `L'Heure théâtrale Part II filtered to exactly 170 paragraphs (actual: ${lhtPart2Rows})`);
 
 window.selectSection('part-3');
 const lhtPart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhtPart3Rows === 35, `L'Heure théâtrale Part III filtered to exactly 35 paragraphs (actual: ${lhtPart3Rows})`);
+assert(lhtPart3Rows === 170, `L'Heure théâtrale Part III filtered to exactly 170 paragraphs (actual: ${lhtPart3Rows})`);
 
 window.selectSection('all');
 const lhtAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lhtAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for L'Heure théâtrale`);
+assert(lhtAllRestored === 510, `All 510 paragraphs restored upon selecting "All Sections" for L'Heure théâtrale`);
 
-// 27. Test Switch to Regards sur le théâtre de Claudel (Verbatim 105 paragraphs across 3 Parts)
+// 27. Test Switch to Regards sur le théâtre de Claudel (Verbatim 450 paragraphs across 3 Parts)
 window.switchWork('regards-sur-le-theatre-de-claudel');
 const rscRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rscRows === 105, `Rendered full 105 verbatim paragraphs for Regards sur Claudel (actual: ${rscRows})`);
+assert(rscRows === 150, `Smart default renders Part 1 (150 paragraphs) for Regards sur Claudel (actual: ${rscRows})`);
 
 window.selectSection('part-1');
 const rscPart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rscPart1Rows === 35, `Regards sur Claudel Part I filtered to exactly 35 paragraphs (actual: ${rscPart1Rows})`);
+assert(rscPart1Rows === 150, `Regards sur Claudel Part I filtered to exactly 150 paragraphs (actual: ${rscPart1Rows})`);
 
 window.selectSection('part-2');
 const rscPart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rscPart2Rows === 35, `Regards sur Claudel Part II filtered to exactly 35 paragraphs (actual: ${rscPart2Rows})`);
+assert(rscPart2Rows === 150, `Regards sur Claudel Part II filtered to exactly 150 paragraphs (actual: ${rscPart2Rows})`);
 
 window.selectSection('part-3');
 const rscPart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rscPart3Rows === 35, `Regards sur Claudel Part III filtered to exactly 35 paragraphs (actual: ${rscPart3Rows})`);
+assert(rscPart3Rows === 150, `Regards sur Claudel Part III filtered to exactly 150 paragraphs (actual: ${rscPart3Rows})`);
 
 window.selectSection('all');
 const rscAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(rscAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Regards sur Claudel`);
+assert(rscAllRestored === 450, `All 450 paragraphs restored upon selecting "All Sections" for Regards sur Claudel`);
 
 // 28. Test Switch to Le Palais de sable (Verbatim 1,040 dialogue rows across 4 Acts)
 window.switchWork('le-palais-de-sable');
@@ -1832,18 +1832,18 @@ const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
 assert(meta.lastUpdated === '2026-09-29', 'Corpus metadata lastUpdated is 2026-09-29');
-assert(meta.version === 'Wave 23', 'Corpus metadata version is Wave 23');
+assert(meta.version === 'Wave 24', 'Corpus metadata version is Wave 24');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 40, 'Corpus metadata reports 40 unabridged flagship works');
-assert(meta.foundationalWorks === 2, 'Corpus metadata reports 2 foundational study editions');
-assert(meta.totalUnabridgedRows === 29190, 'Corpus metadata reports 29,190 unabridged rows');
+assert(meta.unabridgedWorks === 42, 'Corpus metadata reports 42 unabridged flagship works');
+assert(meta.foundationalWorks === 0, 'Corpus metadata reports 0 foundational study editions');
+assert(meta.totalUnabridgedRows === 29940, 'Corpus metadata reports 29,940 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
 assert(getEl('last-updated-date').textContent.includes('September 29, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 23', 'Hero last-updated-version populated with Wave 23');
+assert(getEl('last-updated-version').textContent === 'Wave 24', 'Hero last-updated-version populated with Wave 24');
 assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
