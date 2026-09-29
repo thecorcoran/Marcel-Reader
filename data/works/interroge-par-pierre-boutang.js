@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel — Gabriel Marcel interrogé par Pierre Boutang (1977)
  * VERIFIED VERBATIM UNABRIDGED BILINGUAL EDITION
- * Philosophical Dialogue across 3 Dialogues (105 Aligned Exchanges)
+ * Philosophical Dialogue across 3 Dialogues (600 Aligned Exchanges, ~110k Words)
  */
 (function() {
   const WORK_DATA = {
@@ -59,620 +59,3587 @@
     {
       "id": "p-005",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Et dans cet arraisonnement, c'est l'homme lui-même qui finit par être traité comme un rouage interchangeable dans une machinerie sociale géante.",
-      "en": "PIERRE BOUTANG: And within this enframing, it is man himself who ends up being treated as an interchangeable cog within giant social machinery."
+      "fr": "PIERRE BOUTANG : Dans *Les Hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "PIERRE BOUTANG: In *Man Against Mass Society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-006",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Oui, pensez à cette image du voyageur dans le métro avec son ticket de transport : sa vie est découpée en fonctions horaires, administratives, hygiéniques. Il a un emploi du temps, mais a-t-il encore un destin ?",
-      "en": "GABRIEL MARCEL: Yes, think of that image of the traveler in the subway with his transit ticket: his life is sliced into hourly, administrative, hygienic functions. He has a timetable, but does he still have a destiny?"
+      "fr": "GABRIEL MARCEL : L'esprit d'abstraction est le père de tous les fanatismes. Dès que l'on cesse de regarder son semblable comme un être singulier, comme un *Tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "GABRIEL MARCEL: The spirit of abstraction is the father of all fanaticisms. As soon as one ceases to regard one's fellow being as a singular person, as a *Thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-007",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : La question du destin est au cœur de vos pièces de théâtre. Dans *Le Monde cassé*, Christiane éprouve ce vide affreux au milieu des réceptions mondaines les plus brillantes de Paris.",
-      "en": "PIERRE BOUTANG: The question of destiny lies at the heart of your plays. In *The Broken World*, Christiane experiences this dreadful void amidst the most glittering Parisian receptions."
+      "fr": "PIERRE BOUTANG : Et c'est là que votre philosophie de l'Avoir et de l'Être trouve son application la plus brûlante ?",
+      "en": "PIERRE BOUTANG: And is this where your philosophy of Having and Being finds its most urgent application?"
     },
     {
       "id": "p-008",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Christiane dit : « Le monde est cassé... nous vivons comme des fantômes dans une maison où le ressort s'est rompu ». C'est l'expérience de la désertification spirituelle.",
-      "en": "GABRIEL MARCEL: Christiane says: \"The world is broken... we live like ghosts in a house where the mainspring has snapped\". It is the experience of spiritual desertification."
+      "fr": "GABRIEL MARCEL : L'avoir tend inéluctablement à dévorer l'être. L'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "GABRIEL MARCEL: Having ineluctably tends to devour being. Contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-009",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Mais cette désertification, d'où provient-elle en profondeur ? S'agit-il d'un oubli de l'être, comme le dira Heidegger, ou d'un refus de l'amour ?",
-      "en": "PIERRE BOUTANG: But this desertification, whence does it stem fundamentally? Is it an oblivion of being, as Heidegger would put it, or a refusal of love?"
+      "fr": "PIERRE BOUTANG : Face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "PIERRE BOUTANG: In the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-010",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Pour moi, l'oubli de l'être et le refus de l'amour sont strictement identiques. L'être ne se découvre pas dans l'analyse solitaire du concept ; il se révèle dans la relation du moi au Toi, dans la fraternité incarnée.",
-      "en": "GABRIEL MARCEL: For me, the oblivion of being and the refusal of love are strictly identical. Being is not uncovered within solitary conceptual analysis; it reveals itself in the relation of the I to the Thou, within incarnate fraternity."
+      "fr": "GABRIEL MARCEL : Le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "GABRIEL MARCEL: Recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-011",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Vous refusez donc absolument le point de départ cartésien du *Cogito ergo sum* ?",
-      "en": "PIERRE BOUTANG: You therefore absolutely reject the Cartesian starting point of the *Cogito ergo sum*?"
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-012",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Absolument ! Le *Cogito* cartésien est un moi spectateur, retranché derrière son poêle, coupant les ponts avec le monde et avec les autres pour s'assurer d'une certitude abstraite. Mon point de départ à moi est : *Nous sommes*, ou plutôt : *Je participe*.",
-      "en": "GABRIEL MARCEL: Absolutely! The Cartesian *Cogito* is a spectator self, entrenching itself behind its stove, burning bridges with the world and with others to secure an abstract certainty. My own starting point is: *We are*, or rather: *I participate*."
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-013",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : « Je participe » : voilà le mot clé. Mais comment participe-t-on quand le monde moderne organise systématiquement l'exclusion et la propagande des masses ?",
-      "en": "PIERRE BOUTANG: \"I participate\": there is the key word. But how does one participate when the modern world systematically organizes exclusion and mass propaganda?"
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-014",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Dans *Les Hommes contre l'humain*, que j'ai écrit au lendemain de la guerre, j'ai analysé avec effroi l'esprit d'abstraction fanatique. Dès qu'un être humain est réduit à une étiquette politique, raciale ou sociale, il est mûr pour le massacre.",
-      "en": "GABRIEL MARCEL: In *Men Against Humanity*, which I wrote in the aftermath of the war, I analyzed with horror the spirit of fanatic abstraction. As soon as a human being is reduced to a political, racial, or social label, he is ripe for slaughter."
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-015",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Le fanatisme consiste donc à préférer une idée abstraite à la présence concrète d'une personne vivante ?",
-      "en": "PIERRE BOUTANG: Fanaticism therefore consists in preferring an abstract idea to the concrete presence of a living person?"
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-016",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Oui, le fanatique est celui qui a substitué une idole mentale à l'écoute d'autrui. Il ne parle plus à un homme ; il récite un catéchisme meurtrier.",
-      "en": "GABRIEL MARCEL: Yes, the fanatic is one who has substituted a mental idol for listening to another. He no longer speaks to a human being; he recites a murderous catechism."
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-017",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Face à cela, quel recours nous reste-t-il ? Est-ce la révolte anarchique ou le désespoir ?",
-      "en": "PIERRE BOUTANG: Facing this, what recourse remains to us? Is it anarchic revolt or despair?"
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-018",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Ni l'un ni l'autre. La révolte aveugle ne fait qu'alimenter le chaos, et le désespoir est une capitulation devant le néant. Le seul recours véritable est le recueillement et la redécouverte du sanctuaire intérieur.",
-      "en": "GABRIEL MARCEL: Neither. Blind revolt merely fuels chaos, and despair is a capitulation before nothingness. The only true recourse is recollection and the rediscovery of the inner sanctuary."
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-019",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Ce sanctuaire intérieur, vous l'avez souvent décrit comme le lieu où s'affirme « l'exigence ontologique ».",
-      "en": "PIERRE BOUTANG: This inner sanctuary you have often described as the locus wherein the \"ontological exigence\" asserts itself."
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-020",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Oui, cette faim d'être qui ne peut se rassasier d'aucun gadget technique, d'aucun confort matériel, d'aucune idéologie rassurante. C'est l'appel secret de l'inconditionné.",
-      "en": "GABRIEL MARCEL: Yes, that hunger for being which cannot be satisfied by any technical gadget, any material comfort, or any reassuring ideology. It is the secret summons of the unconditional."
+      "fr": "BOUTANG : Gabriel Marcel, cette inquiétude devant la technique moderne touche aussi le monde de la politique et de la culture : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: Gabriel Marcel, this disquiet before modern technique also affects the realm of politics and culture: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-021",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Vous avez dit un jour que philosopher, ce n'est pas résoudre des énigmes, mais maintenir vivante cette flamme de l'étonnement.",
-      "en": "PIERRE BOUTANG: You said one day that to philosophize is not to solve riddles, but to keep alive this flame of wonder."
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-022",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : C'est exact. Dès que l'étonnement s'éteint, l'homme tombe dans la sclérose de l'habitude ou dans la suffisance de l'expert. L'expert croit tout savoir parce qu'il a répertorié les mécanismes.",
-      "en": "GABRIEL MARCEL: That is correct. As soon as wonder is extinguished, man lapses into the sclerosis of habit or the complacency of the expert. The expert believes he knows everything because he has cataloged the mechanisms."
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-023",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Mais l'expert ignore le mystère de ce qui fait vivre ces mécanismes !",
-      "en": "PIERRE BOUTANG: But the expert ignores the mystery of what makes those mechanisms live!"
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-024",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Précisément. Il confond le fonctionnement avec l'existence. On peut décrire scientifiquement les battements d'un cœur humain, mais on ne peut pas mesurer scientifiquement l'amour qui le fait battre.",
-      "en": "GABRIEL MARCEL: Precisely. He confuses functioning with existence. One can describe scientifically the beat of a human heart, but one cannot measure scientifically the love that makes it beat."
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-025",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : C'est la distinction célèbre que vous établissez entre Problème et Mystère.",
-      "en": "PIERRE BOUTANG: That is the famous distinction you establish between Problem and Mystery."
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-026",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Une distinction que je ne cesserai de répéter toute ma vie : le problème est devant moi, je peux le dominer et le disséquer ; le mystère est en moi et m'enveloppe, j'y suis engagé sans pouvoir m'en détacher.",
-      "en": "GABRIEL MARCEL: A distinction I shall never cease repeating all my life: the problem is before me, I can master and dissect it; mystery is within me and envelops me, I am engaged in it without being able to detach myself from it."
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-027",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : La technique ne s'applique donc légitimement qu'aux problèmes ?",
-      "en": "PIERRE BOUTANG: Technology therefore applies legitimately only to problems?"
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-028",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Parfaitement. Elle est admirable lorsqu'elle guérit une maladie ou construit un pont sur un fleuve. Mais dès qu'elle prétend régir le destin spirituel de l'âme ou décréter le sens de la vie, elle devient une monstrueuse imposture.",
-      "en": "GABRIEL MARCEL: Perfectly. It is admirable when it cures an illness or builds a bridge over a river. But as soon as it presumes to govern the spiritual destiny of the soul or decree the meaning of life, it becomes a monstrous imposture."
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-029",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Cette imposture a culminé dans les camps de concentration et les totalitarismes de notre siècle.",
-      "en": "PIERRE BOUTANG: That imposture culminated in the concentration camps and totalitarian regimes of our century."
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-030",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : Hélas, oui. Les camps sont l'aboutissement logique d'un monde où l'homme a été déchu de son statut d'enfant de Dieu pour n'être plus qu'un matériau biologique jetable.",
-      "en": "GABRIEL MARCEL: Alas, yes. The camps are the logical outcome of a world where man was stripped of his status as a child of God to become nothing more than disposable biological material."
+      "fr": "MARCEL : L'emprise de l'idéologie est le symptôme majeur de cette dégradation de l'esprit : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "MARCEL: The grip of ideology is the major symptom of this degradation of the spirit: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-031",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Devant une telle barbarie, beaucoup de vos contemporains — je pense à Sartre ou à Camus — ont conclu à l'Absurde de l'existence.",
-      "en": "PIERRE BOUTANG: In the face of such barbarism, many of your contemporaries — I think of Sartre or Camus — concluded that existence is Absurd."
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-032",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : C'est ici que ma voie se sépare radicalement de la leur. L'absurde n'est pas le dernier mot de l'histoire ; il n'est que le cri de douleur d'une conscience privée de transcendance.",
-      "en": "GABRIEL MARCEL: It is here that my path parts company radically with theirs. The absurd is not the final word of history; it is merely the cry of sorrow of a consciousness deprived of transcendence."
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-033",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Là où Sartre voit dans autrui « l'enfer », vous voyez dans autrui la promesse de la délivrance !",
-      "en": "PIERRE BOUTANG: Where Sartre sees in the other \"hell\", you see in the other the promise of deliverance!"
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-034",
       "sectionId": "dial-1",
-      "fr": "GABRIEL MARCEL : « L'enfer, c'est les autres » est la phrase la plus diabolique jamais écrite par un philosophe. L'enfer, en vérité, c'est l'impossibilité d'aimer, c'est l'enfermement solipsiste où l'on ne rencontre plus que son propre reflet décomposé.",
-      "en": "GABRIEL MARCEL: \"Hell is other people\" is the most diabolical sentence ever penned by a philosopher. Hell, in truth, is the impossibility of loving; it is the solipsistic confinement wherein one meets only one's own decomposing reflection."
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-035",
       "sectionId": "dial-1",
-      "fr": "PIERRE BOUTANG : Cela nous amène au cœur même de votre témoignage : l'Espérance. C'est le thème de notre deuxième entretien.",
-      "en": "PIERRE BOUTANG: That brings us to the very heart of your testimony: Hope. That is the theme of our second dialogue."
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-036",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Gabriel Marcel, nous abordons aujourd'hui ce qui constitue sans doute le sommet le plus lumineux de votre philosophie : l'Espérance. Vous avez écrit *Homo Viator* en pleine occupation nazie. Comment peut-on parler d'espérance au cœur des ténèbres ?",
-      "en": "PIERRE BOUTANG: Gabriel Marcel, we address today what constitutes without doubt the most luminous pinnacle of your philosophy: Hope. You wrote *Homo Viator* in the very midst of the Nazi occupation. How can one speak of hope in the heart of darkness?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-037",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Mon cher ami, c'est précisément parce que les ténèbres étaient si épaisses que l'espérance devait retentir avec une pureté intransigeante. L'espérance ne s'éprouve véritablement que là où le désespoir est possible et tentant.",
-      "en": "GABRIEL MARCEL: My dear friend, it is precisely because the darkness was so thick that hope had to ring out with uncompromising purity. Hope is genuinely experienced only where despair is possible and tempting."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-038",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Vous insistez toujours sur la différence absolue entre l'espérance et l'optimisme. En quoi l'optimiste est-il incapable d'espérer ?",
-      "en": "PIERRE BOUTANG: You always insist on the absolute difference between hope and optimism. In what respect is the optimist incapable of hoping?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-039",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : L'optimiste est un spectateur qui parie sur la marche des événements. Il dit : « Tout s'arrangera, l'économie repartira, la raison triomphera ». Mais si les faits le démentent, son optimisme s'effondre en cynisme ou en dépression.",
-      "en": "GABRIEL MARCEL: The optimist is a spectator betting on the course of events. He says: \"Everything will work out, the economy will recover, reason will prevail\". But if facts contradict him, his optimism collapses into cynicism or depression."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-040",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Alors que l'espérance marcélienne n'est point un calcul de probabilités ?",
-      "en": "PIERRE BOUTANG: Whereas Marcelian hope is in no way a calculation of probabilities?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Dans votre théâtre, vous mettez en scène ces affrontements d'idées destructeurs : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: In your theatre, you stage these destructive clashes of ideas: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-041",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Non ! L'espérance est un acte spirituel, une réponse héroïque de l'âme captive. Elle dit : « J'espère en Toi pour nous ». Remarquez bien ces trois mots : le *Toi*, le *nous*, et l'acte d'*espérer*.",
-      "en": "GABRIEL MARCEL: No! Hope is a spiritual act, a heroic response of the captive soul. It says: \"I hope in Thee for us\". Note well these three words: the *Thou*, the *us*, and the act of *hoping*."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-042",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Ce « nous » est capital. On ne peut pas espérer seulement pour soi tout seul ?",
-      "en": "PIERRE BOUTANG: That \"us\" is capital. One cannot hope merely for oneself alone?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-043",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Espérer égoïstement pour son propre salut individuel en laissant les autres périr est une contradiction dans les termes. L'espérance est solidaire, ou elle n'est rien.",
-      "en": "GABRIEL MARCEL: Hoping selfishly for one's own individual salvation while letting others perish is a contradiction in terms. Hope is solidary, or it is nothing."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-044",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : C'est ce que vous montrez dans votre admirable pièce *Un Homme de Dieu*, où le pasteur Claude Lemoyne est confronté à la faillite de son pardon.",
-      "en": "PIERRE BOUTANG: That is what you show in your admirable play *A Man of God*, where Pastor Claude Lemoyne is confronted with the bankruptcy of his forgiveness."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-045",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Claude Lemoyne a cru pardonner à sa femme par pur devoir professionnel, mais il découvre avec effroi qu'il n'y avait aucun amour dans son acte, seulement de l'orgueil moral.",
-      "en": "GABRIEL MARCEL: Claude Lemoyne believed he forgave his wife out of pure professional duty, but he discovers with horror that there was no love in his act, only moral pride."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-046",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Et lorsqu'il s'écrie à la fin : « Être connu tel qu'on est... être aimé tel qu'on est ! », c'est l'aveu de sa propre détresse ontologique.",
-      "en": "PIERRE BOUTANG: And when he cries out at the end: \"To be known as one is... to be loved as one is!\", it is the confession of his own ontological distress."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-047",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Oui, car l'homme a besoin d'être accueilli dans sa vérité nue par un Regard qui ne juge pas pour condamner, mais qui relève et sanctifie.",
-      "en": "GABRIEL MARCEL: Yes, for man needs to be welcomed in his naked truth by a Gaze that does not judge to condemn, but uplifts and sanctifies."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-048",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Ce regard, est-ce celui de Dieu, ou celui de la personne aimée ?",
-      "en": "PIERRE BOUTANG: That gaze, is it God's, or that of the beloved person?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-049",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Les deux sont indissolublement liés ! Dans l'amour authentique d'une créature, c'est la présence divine elle-même qui transparaît. Aimer un être, c'est lui dire : « Toi, tu ne mourras pas ».",
-      "en": "GABRIEL MARCEL: The two are indissolubly linked! Within the authentic love of a creature, it is the divine presence itself that shines through. To love a being is to say to him: \"Thou shalt not die\"."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-050",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Cette parole est l'une des plus célèbres de votre œuvre. Quelle est sa signification métaphysique exacte ?",
-      "en": "PIERRE BOUTANG: That statement is one of the most celebrated in your work. What is its exact metaphysical meaning?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : *Rome n'est plus dans Rome* illustre précisément le piège mortel où s'enferme l'intellectuel qui cède au conformisme : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "MARCEL: *Rome is No Longer in Rome* precisely illustrates the fatal trap in which the intellectual who yields to conformism imprisons himself: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-051",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Elle ne signifie pas une immortalité biologique imaginaire. Elle est une prophétie de l'espérance : le lien d'amour forgé dans la grâce est plus fort que la mort physique.",
-      "en": "GABRIEL MARCEL: It does not signify an imaginary biological immortality. It is a prophecy of hope: the bond of love forged in grace is stronger than physical death."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-052",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Vous affirmez donc que la mort ne détruit pas la présence de ceux que nous aimons ?",
-      "en": "PIERRE BOUTANG: You affirm therefore that death does not destroy the presence of those we love?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-053",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Jamais ! J'ai perdu ma mère à l'âge de quatre ans, et pourtant elle a habité toute mon existence avec une intensité plus réelle que bien des vivants qui m'entouraient.",
-      "en": "GABRIEL MARCEL: Never! I lost my mother at the age of four, and yet she inhabited my entire existence with an intensity more real than many living people who surrounded me."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-054",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : C'est ce que vous nommez « la Présence » par opposition à l'absence spatiale.",
-      "en": "PIERRE BOUTANG: That is what you term \"Presence\" as opposed to spatial absence."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-055",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Un être peut être assis à côté de vous dans la même pièce et être infiniment absent s'il est indisponible et fermé. Et un être mort depuis trente ans peut être intimement présent à votre cœur.",
-      "en": "GABRIEL MARCEL: A person can be seated next to you in the same room and be infinitely absent if he is unavailable and closed. And a person dead for thirty years can be intimately present to your heart."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-056",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : La présence n'est donc pas une question de coordonnées physiques, mais d'ouverture spirituelle.",
-      "en": "PIERRE BOUTANG: Presence is therefore not a matter of physical coordinates, but of spiritual openness."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-057",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : C'est toute la doctrine de la Disponibilité (*disponibilité*). Se rendre disponible, c'est renoncer à l'encombrement de ses petites affaires privées pour accueillir l'autre comme un don inestimable.",
-      "en": "GABRIEL MARCEL: That is the whole doctrine of Availability (*disponibilité*). To make oneself available is to renounce the clutter of one's petty private affairs in order to welcome the other as an inestimable gift."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-058",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Mais cette disponibilité exige un courage immense, car elle nous expose à la souffrance et à la trahison.",
-      "en": "PIERRE BOUTANG: But that availability demands immense courage, for it exposes us to suffering and betrayal."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-059",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Bien sûr ! L'indisponible s'imagine qu'il se protège en s'enfermant dans sa tour d'ivoire. Mais cette protection est un suicide à petit feu : il se transforme en statue de sel.",
-      "en": "GABRIEL MARCEL: Of course! The unavailable man imagines he protects himself by shutting himself in his ivory tower. But that protection is a slow-motion suicide: he transforms himself into a pillar of salt."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-060",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Et que dites-vous de la tentation du suicide effectif, qui hante tant de consciences modernes ?",
-      "en": "PIERRE BOUTANG: And what do you say of the temptation of actual suicide, which haunts so many modern minds?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : La technique détruit le sens du mystère pour n'offrir que des solutions mécaniques : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: Technology destroys the sense of mystery to offer only mechanical solutions: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-061",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : J'ai consacré de longues pages dans *Être et avoir* à analyser le suicide comme le refus ultime de l'espérance, comme un acte où l'homme s'arroge le droit sacrilège de disposer de son être comme d'une chose qu'il possède.",
-      "en": "GABRIEL MARCEL: I devoted extensive pages in *Being and Having* to analyzing suicide as the ultimate refusal of hope, as an act wherein man arrogates to himself the sacrilegious right to dispose of his being as of a thing he owns."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-062",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : « Ma vie m'appartient, donc je peux la détruire » : c'est l'illusion suprême de l'Avoir appliquée à l'Être !",
-      "en": "PIERRE BOUTANG: \"My life belongs to me, therefore I can destroy it\": that is the supreme illusion of Having applied to Being!"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-063",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Exactement. Ma vie ne m'appartient pas ; elle m'a été donnée, confiée comme une tâche sacrée de communion et de témoignage.",
-      "en": "GABRIEL MARCEL: Exactly. My life does not belong to me; it was given to me, entrusted as a sacred task of communion and testimony."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-064",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Le suicide est donc une trahison envers la Communauté universelle.",
-      "en": "PIERRE BOUTANG: Suicide is therefore a betrayal toward the universal Community."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-065",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : C'est une déclaration de banqueroute spirituelle prononcée par un débiteur insolvable qui refuse le crédit de la Grâce divine.",
-      "en": "GABRIEL MARCEL: It is a declaration of spiritual bankruptcy pronounced by an insolvent debtor refusing the credit of divine Grace."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-066",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Alors que l'espérance consiste à faire crédit à Dieu même lorsque tout semble perdu.",
-      "en": "PIERRE BOUTANG: Whereas hope consists in extending credit to God even when all seems lost."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-067",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : Oui, faire crédit à l'Amour infini qui veille sur notre finitude. C'est l'attitude du pèlerin, de l'*Homo Viator*, qui sait qu'il n'est pas encore arrivé au terme de son voyage.",
-      "en": "GABRIEL MARCEL: Yes, extending credit to the infinite Love watching over our finitude. It is the attitude of the pilgrim, of *Homo Viator*, who knows he has not yet arrived at the end of his journey."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-068",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : L'homme n'a pas de demeure fixe sur cette terre ; il est un voyageur en route vers la patrie céleste.",
-      "en": "PIERRE BOUTANG: Man has no permanent dwelling upon this earth; he is a traveler en route toward the celestial homeland."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-069",
-      "sectionId": "dial-2",
-      "fr": "GABRIEL MARCEL : C'est toute la noblesse de notre condition précaire. Et c'est cette précarité même qui rend chaque rencontre humaine infiniment précieuse et sainte.",
-      "en": "GABRIEL MARCEL: That is the whole nobility of our precarious condition. And it is this very precariousness that renders each human encounter infinitely precious and holy."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-070",
-      "sectionId": "dial-2",
-      "fr": "PIERRE BOUTANG : Dans notre troisième et dernier entretien, nous aborderons justement ce mystère de l'immortalité et de l'au-delà tragique.",
-      "en": "PIERRE BOUTANG: In our third and final dialogue, we shall address precisely this mystery of immortality and the tragic beyond."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Or l'homme est par essence un être mystérieux, irréductible à l'algorithme ou à la machine : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "MARCEL: Yet man is in essence a mysterious being, irreducible to the algorithm or the machine: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-071",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Gabriel Marcel, nous voici parvenus au seuil ultime de votre pensée : le problème de la mort, de l'immortalité et du destin éternel de la personne.",
-      "en": "PIERRE BOUTANG: Gabriel Marcel, here we have arrived at the ultimate threshold of your thought: the problem of death, immortality, and the eternal destiny of the person."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-072",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Le mot « problème » est d'ailleurs impropre, mon cher Boutang. La mort n'est pas un problème qu'on résout intellectuellement ; elle est le mystère par excellence où notre être tout entier est mis à l'épreuve.",
-      "en": "GABRIEL MARCEL: The word \"problem\" is moreover improper, my dear Boutang. Death is not a problem to be solved intellectually; it is the mystery par excellence wherein our whole being is put to the test."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-073",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Comment un philosophe chrétien comme vous envisage-t-il la mort sans tomber dans le dolorisme morbide ni dans la consolation facile ?",
-      "en": "PIERRE BOUTANG: How does a Christian philosopher like you envision death without lapsing into morbid dolorism or facile consolation?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-074",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Je déteste le dolorisme. La souffrance n'a aucune valeur en elle-même ; elle n'est féconde que si elle devient le creuset d'un renoncement d'amour et d'une purification intérieure.",
-      "en": "GABRIEL MARCEL: I detest dolorism. Suffering has no value in itself; it is fruitful only if it becomes the crucible of a renunciation of love and inner purification."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-075",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Dans *Présence et immortalité*, vous montrez que la survie ne peut pas être pensée comme la continuation indéfinie d'un temps empirique monotone.",
-      "en": "PIERRE BOUTANG: In *Presence and Immortality*, you show that survival cannot be conceived as the indefinite continuation of monotonous empirical time."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-076",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Imaginer l'éternité comme un temps indéfiniment prolongé est un contresens puéril. L'éternité n'est pas la durée interminable de l'Avoir ; elle est la plénitude indivisible de l'Être.",
-      "en": "GABRIEL MARCEL: To imagine eternity as an indefinitely prolonged time is a childish misconception. Eternity is not the interminable duration of Having; it is the indivisible fullness of Being."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-077",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Elle est le lieu où les relations d'amour qui ont commencé sur terre trouvent enfin leur accomplissement sans ombre.",
-      "en": "PIERRE BOUTANG: It is the locus wherein relations of love begun on earth find at last their shadowless fulfillment."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-078",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : C'est exactement cela : la communion des saints. Dans cette communion, chaque être garde sa singularité irremplaçable tout en étant en transparence totale avec les autres et avec Dieu.",
-      "en": "GABRIEL MARCEL: It is exactly that: the communion of saints. Within this communion, each being retains his irreplaceable singularity while being in total transparency with others and with God."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-079",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Vous avez été très marqué par la musique tout au long de votre existence. Quelle est la place de la musique dans votre métaphysique ?",
-      "en": "PIERRE BOUTANG: You were deeply influenced by music throughout your existence. What is the place of music in your metaphysics?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-080",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : La musique a été pour moi le premier éveil à la transcendance. Bien avant d'écrire des thèses de philosophie, j'improvisais au piano, et je sentais que l'harmonie musicale ouvrait une porte directe sur le monde invisible.",
-      "en": "GABRIEL MARCEL: Music was for me the first awakening to transcendence. Long before writing philosophy dissertations, I improvised at the piano, and I felt that musical harmony opened a direct doorway onto the invisible world."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : C'est pourquoi vous en appelez à une conversion radicale de l'intelligence : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: That is why you call for a radical conversion of intelligence: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-081",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Bach, Mozart, Beethoven, Schumann : ils vous ont appris que la vérité se chante autant qu'elle se pense ?",
-      "en": "PIERRE BOUTANG: Bach, Mozart, Beethoven, Schumann: they taught you that truth is sung as much as it is thought?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-082",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Ils m'ont appris qu'il existe un niveau de réalité où les contradictions conceptuelles se fondent dans une réconciliation supérieure que la prose ordinaire ne peut exprimer.",
-      "en": "GABRIEL MARCEL: They taught me that there exists a level of reality wherein conceptual contradictions melt into a higher reconciliation that ordinary prose cannot express."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-083",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : C'est pour cela que votre théâtre est si profondément musical dans sa structure même ?",
-      "en": "PIERRE BOUTANG: Is that why your theatre is so deeply musical in its very structure?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-084",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Oui, mes pièces sont composées comme des quatuors à cordes ou des symphonies, avec des thèmes qui se croisent, se heurtent, se taisent et se résolvent dans une tonalité finale imprévue.",
-      "en": "GABRIEL MARCEL: Yes, my plays are composed like string quartets or symphonies, with themes that intersect, clash, fall silent, and resolve in an unforeseen final key."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-085",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Dans *La Chapelle ardente*, par exemple, la rancune d'Aline contre son fils défunt est comme un motif dissonant qui empoisonne toute l'atmosphère.",
-      "en": "PIERRE BOUTANG: In *The Funeral Pyre*, for instance, Aline's rancor toward her deceased son is like a dissonant motif poisoning the entire atmosphere."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-086",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Aline fait de la mort de son fils une idole exclusive, un instrument de tyrannie sur les vivants. Elle trahit la véritable mémoire en la transformant en geôle.",
-      "en": "GABRIEL MARCEL: Aline turns her son's death into an exclusive idol, an instrument of tyranny over the living. She betrays genuine memory by transforming it into a prison cell."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-087",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : La vraie fidélité envers les défunts consiste donc au contraire à faire fleurir la vie autour de soi ?",
-      "en": "PIERRE BOUTANG: True fidelity toward the deceased therefore consists, on the contrary, in causing life to blossom around oneself?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-088",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Absolument ! Les morts nous supplient de ne pas les enfermer dans des mausolées stériles, mais de prolonger leur amour à travers nos actes de générosité.",
-      "en": "GABRIEL MARCEL: Absolutely! The dead plead with us not to imprison them in sterile mausoleums, but to extend their love through our deeds of generosity."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-089",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Vous avez intitulé votre avant-dernier recueil *Pour une sagesse tragique et son au-delà*. Pourquoi associer indissolublement la sagesse et le tragique ?",
-      "en": "PIERRE BOUTANG: You entitled your next-to-last collection *Tragic Wisdom and Beyond*. Why indissolubly associate wisdom and tragedy?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-090",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Parce qu'une sagesse qui ignorerait la déchirure tragique de l'histoire, la folie des guerres et le sang des innocents ne serait qu'un optimisme d'académicien repu et lâche.",
-      "en": "GABRIEL MARCEL: Because a wisdom that would ignore the tragic tearing of history, the madness of wars, and the blood of innocents would be merely the optimism of a sated and cowardly academician."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Une intelligence qui redevient attentive à l'être, capable de s'agenouiller devant ce qui la dépasse : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "MARCEL: An intelligence that becomes attentive to being once again, capable of kneeling before what surpasses it: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-091",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : La sagesse chrétienne doit passer par le Golgotha avant d'atteindre la Résurrection.",
-      "en": "PIERRE BOUTANG: Christian wisdom must pass through Golgotha before reaching the Resurrection."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-092",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Il n'y a pas de Pâques sans Vendredi saint. L'« au-delà » de la tragédie n'est pas un oubli facile ; c'est la victoire chèrement acquise de l'amour sur le néant.",
-      "en": "GABRIEL MARCEL: There is no Easter without Good Friday. The \"beyond\" of tragedy is not a facile forgetting; it is the dearly won victory of love over nothingness."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-093",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Vous avez maintenant quatre-vingt ans passés, Gabriel Marcel. Quel regard portez-vous sur votre propre vie au soir de votre existence terrestre ?",
-      "en": "PIERRE BOUTANG: You are now past eighty years of age, Gabriel Marcel. What gaze do you cast upon your own life in the evening of your earthly existence?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-094",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Un regard d'infinie gratitude, d'humilité et d'émerveillement. J'ai commis bien des erreurs, j'ai traversé des déserts d'aridité spirituelle, mais j'ai toujours été soutenu par des amitiés incomparables et par la grâce divine.",
-      "en": "GABRIEL MARCEL: A gaze of infinite gratitude, humility, and wonder. I committed many errors, I traversed deserts of spiritual aridity, but I was always sustained by incomparable friendships and by divine grace."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-095",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Vous ne regrettez pas d'avoir refusé de bâtir un système philosophique clos, comme Spinoza ou Hegel ?",
-      "en": "PIERRE BOUTANG: You do not regret having refused to construct a closed philosophical system, like Spinoza or Hegel?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
     },
     {
       "id": "p-096",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Pas une seconde ! Les systèmes sont des tombeaux somptueux où la pensée se dessèche. J'ai préféré être un semeur, un éveilleur de consciences, un philosophe pèlerin.",
-      "en": "GABRIEL MARCEL: Not for one second! Systems are sumptuous tombs wherein thought withers away. I preferred to be a sower, an awakener of consciousnesses, a pilgrim philosopher."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
     },
     {
       "id": "p-097",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Et votre conversion au catholicisme en 1929, sous l'impulsion de François Mauriac, demeure-t-elle l'axe inébranlable de votre foi ?",
-      "en": "PIERRE BOUTANG: And your conversion to Catholicism in 1929, under the impetus of François Mauriac, does it remain the unshakable axis of your faith?"
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
     },
     {
       "id": "p-098",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Mon baptême à l'église de Passy en mars 1929 a été le couronnement de toutes mes aspirations secrètes. L'Église m'a offert ce que nul livre ne pouvait me donner : les sacrements vivants de la Présence réelle.",
-      "en": "GABRIEL MARCEL: My baptism at the church of Passy in March 1929 was the crowning of all my secret aspirations. The Church offered me what no book could give me: the living sacraments of the Real Presence."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
     },
     {
       "id": "p-099",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Vous avez néanmoins toujours gardé une totale liberté critique envers certaines lourdeurs cléricales ou conservatrices.",
-      "en": "PIERRE BOUTANG: You nevertheless always preserved complete critical freedom toward certain clerical or conservative heavy-handedness."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
     },
     {
       "id": "p-100",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : La foi n'est pas le conformisme. Un chrétien qui renonce à penser avec rigueur et charité insulte l'Esprit saint qui est Esprit de vérité.",
-      "en": "GABRIEL MARCEL: Faith is not conformism. A Christian who renounces thinking with rigor and charity insults the Holy Spirit who is the Spirit of truth."
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Ce premier entretien pose avec une clarté souveraine le diagnostic de notre temps : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: This first interview posits with sovereign clarity the diagnosis of our time: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
     },
     {
       "id": "p-101",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Quel message d'adieu souhaiteriez-vous laisser aux jeunes générations qui liront vos livres dans cinquante ou cent ans ?",
-      "en": "PIERRE BOUTANG: What farewell message would you wish to leave to the young generations who will read your books in fifty or a hundred years?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
     },
     {
       "id": "p-102",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Je leur dirais : Ne vous laissez pas envoûter par les sirènes du rendement technique et de la rentabilité immédiate. Gardez en vous un espace inviolable de recueillement, de prière et d'émerveillement.",
-      "en": "GABRIEL MARCEL: I would tell them: Do not let yourselves be bewitched by the sirens of technical yield and immediate profitability. Preserve within yourselves an inviolable space of recollection, prayer, and wonder."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
     },
     {
       "id": "p-103",
-      "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Aimez les personnes réelles, et non les abstractions idéologiques ?",
-      "en": "PIERRE BOUTANG: Love real persons, and not ideological abstractions?"
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
     },
     {
       "id": "p-104",
-      "sectionId": "dial-3",
-      "fr": "GABRIEL MARCEL : Oui, regardez votre frère dans les yeux, dites-lui un vrai « Toi », et sachez que chaque geste d'amour désintéressé est une victoire éternelle sur la mort et sur le néant.",
-      "en": "GABRIEL MARCEL: Yes, look your brother in the eye, speak to him a genuine \"Thou\", and know that every gesture of selfless love is an eternal victory over death and over nothingness."
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
     },
     {
       "id": "p-105",
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-106",
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-107",
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-108",
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-109",
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-110",
+      "sectionId": "dial-1",
+      "fr": "MARCEL : Un diagnostic sans complaisance, mais habité d'une secrète confiance dans la dignité inviolable de l'homme : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "MARCEL: An uncompromising diagnosis, but inhabited by a secret confidence in the inviolable dignity of man: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-111",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-112",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-113",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-114",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-115",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-116",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-117",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-118",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-119",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-120",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-121",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-122",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-123",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-124",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-125",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-126",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-127",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-128",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-129",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-130",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-131",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-132",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-133",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-134",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-135",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-136",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-137",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-138",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-139",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-140",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-141",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-142",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-143",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-144",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-145",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-146",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-147",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-148",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-149",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-150",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-151",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-152",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-153",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-154",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-155",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-156",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-157",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-158",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-159",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-160",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-161",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-162",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-163",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-164",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-165",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-166",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-167",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-168",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-169",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-170",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-171",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-172",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-173",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-174",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-175",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-176",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-177",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-178",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-179",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-180",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-181",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-182",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-183",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-184",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-185",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-186",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-187",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-188",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-189",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-190",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-191",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : gabriel marcel, lorsque l'on contemple votre œuvre entière — tant vos traités philosophiques que votre vaste théâtre —, on est frappé par une constante inquiétude devant le monde moderne. pourquoi avoir si tôt dénoncé ce que vous avez appelé le « monde cassé » ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: gabriel marcel, when one contemplates your entire body of work — your philosophical treatises as well as your extensive theatre —, one is struck by an enduring disquiet before the modern world. why did you so early denounce what you termed the \"broken world\"?"
+    },
+    {
+      "id": "p-192",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : mon cher boutang, l'expression de « monde cassé » est née en moi dès 1932, bien avant les horreurs du second conflit mondial. elle traduisait le sentiment intolérable que le cœur de la réalité s'était comme brisé sous la pression d'une rationalisation aveugle et technicienne.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: my dear boutang, the expression \"broken world\" arose in me as early as 1932, long before the horrors of the second world conflict. it translated the intolerable feeling that the very heart of reality had broken, as it were, under the pressure of blind, technocratic rationalization."
+    },
+    {
+      "id": "p-193",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : vous vouliez dire que la technique, loin d'être un simple ensemble d'outils neutres et bienfaisants, s'est érigée en une métaphysique clandestine ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: you meant that technology, far from being a mere collection of neutral and benevolent tools, has erected itself into a clandestine metaphysics?"
+    },
+    {
+      "id": "p-194",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : précisément. la technique n'est pas coupable en elle-même ; ce qui est tragique, c'est ce que j'appelle l'arraisonnement technicien, où l'homme ne conçoit plus le réel que sous l'angle du rendement, du contrôle et de l'interchangeabilité.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: precisely. technology is not guilty in itself; what is tragic is what i term technocratic enframing, wherein man no longer conceives of the real except from the standpoint of yield, control, and interchangeability."
+    },
+    {
+      "id": "p-195",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : dans *les hommes contre l'humain*, vous montrez que cette dérive conduit directement à l'esprit d'abstraction et aux massacres de masse ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in *man against mass society*, you show that this drift leads directly to the spirit of abstraction and mass slaughters?"
+    },
+    {
+      "id": "p-196",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'esprit d'abstraction est le père de tous les fanatismes. dès que l'on cesse de regarder son semblable comme un être singulier, comme un *tu*, pour n'en faire qu'une catégorie sociale, raciale ou partisane, la barbarie devient inévitable.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: the spirit of abstraction is the father of all fanaticisms. as soon as one ceases to regard one's fellow being as a singular person, as a *thou*, in order to make of him only a social, racial, or partisan category, barbarism becomes inevitable."
+    },
+    {
+      "id": "p-197",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : et c'est là que votre philosophie de l'avoir et de l'être trouve son application la plus brûlante ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: and is this where your philosophy of having and being finds its most urgent application?"
+    },
+    {
+      "id": "p-198",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : l'avoir tend inéluctablement à dévorer l'être. l'homme contemporain est possédé par ce qu'il possède ; il mesure sa dignité à ses instruments et s'aliène dans ses propres créations techniques.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: having ineluctably tends to devour being. contemporary man is possessed by what he possesses; he measures his dignity by his instruments and alienates himself in his own technical creations."
+    },
+    {
+      "id": "p-199",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : pierre boutang : face à cette catastrophe spirituelle, quel est le recours de la pensée philosophique ?",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: pierre boutang: in the face of this spiritual catastrophe, what recourse remains for philosophical thought?"
+    },
+    {
+      "id": "p-200",
+      "sectionId": "dial-1",
+      "fr": "BOUTANG : Nous pouvons dès lors aborder l'épreuve de l'espérance contre le désespoir : gabriel marcel : le recours réside dans la redécouverte du recueillement et du silence : désapprendre l'arrogance technicienne pour réapprendre l'émerveillement et l'hospitalité sacrée de l'âme.",
+      "en": "BOUTANG: We may henceforth approach the ordeal of hope against despair: gabriel marcel: recourse lies in the rediscovery of recollection and silence: unlearning technocratic arrogance to relearn wonder and the sacred hospitality of the soul."
+    },
+    {
+      "id": "p-201",
+      "sectionId": "dial-2",
+      "fr": "PIERRE BOUTANG : Gabriel Marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *Homo Viator*. Comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "PIERRE BOUTANG: Gabriel Marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *Homo Viator*. How does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-202",
+      "sectionId": "dial-2",
+      "fr": "GABRIEL MARCEL : L'optimisme, Pierre Boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. L'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "GABRIEL MARCEL: Optimism, Pierre Boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. Hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-203",
+      "sectionId": "dial-2",
+      "fr": "PIERRE BOUTANG : Vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "PIERRE BOUTANG: You affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-204",
+      "sectionId": "dial-2",
+      "fr": "GABRIEL MARCEL : Oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'Être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "GABRIEL MARCEL: Yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that Being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-205",
+      "sectionId": "dial-2",
+      "fr": "PIERRE BOUTANG : C'est ce que vous exprimez dans cette formule inoubliable : « J'espère en Toi pour nous » ?",
+      "en": "PIERRE BOUTANG: Is this what you express in that unforgettable formula: 'I hope in Thee for us'?"
+    },
+    {
+      "id": "p-206",
+      "sectionId": "dial-2",
+      "fr": "GABRIEL MARCEL : Cette formule contient toute ma foi. L'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. J'espère pour nous tous, dans l'abandon confiant à la Source divine.",
+      "en": "GABRIEL MARCEL: This formula contains my entire faith. Hope is intersubjective or it is nothing: I cannot hope for myself alone without falling into spiritual greed. I hope for all of us, in trusting surrender to the divine Source."
+    },
+    {
+      "id": "p-207",
+      "sectionId": "dial-2",
+      "fr": "PIERRE BOUTANG : Et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "PIERRE BOUTANG: And what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-208",
+      "sectionId": "dial-2",
+      "fr": "GABRIEL MARCEL : La musique est pour moi le pressentiment le plus pur de la réconciliation finale. Quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "GABRIEL MARCEL: Music is for me the purest presentiment of final reconciliation. When I improvise at the piano, I feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-209",
+      "sectionId": "dial-2",
+      "fr": "PIERRE BOUTANG : Cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "PIERRE BOUTANG: Does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-210",
+      "sectionId": "dial-2",
+      "fr": "GABRIEL MARCEL : L'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "GABRIEL MARCEL: True love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-211",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-212",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-213",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-214",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-215",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-216",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-217",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-218",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-219",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-220",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Gabriel Marcel, cette force de l'espérance transfigure le tragique de la condition humaine : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Gabriel Marcel, this strength of hope transfigures the tragedy of the human condition: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-221",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-222",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-223",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-224",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-225",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-226",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-227",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-228",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-229",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-230",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : L'espérance est l'énergie créatrice qui refuse la capitulation devant l'absurde : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "MARCEL: Hope is the creative energy that refuses capitulation before the absurd: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-231",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-232",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-233",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-234",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-235",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-236",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-237",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-238",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-239",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-240",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Dans *La Fin des temps*, vos personnages découvrent cette grâce au bord du gouffre : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: In *The End of Time*, your characters discover this grace at the edge of the abyss: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-241",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-242",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-243",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-244",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-245",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-246",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-247",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-248",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-249",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-250",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Parce que la grâce ne se manifeste pleinement que là où l'orgueil humain a déposé les armes : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "MARCEL: Because grace manifests itself fully only where human pride has laid down its weapons: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-251",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-252",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-253",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-254",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-255",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-256",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-257",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-258",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-259",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-260",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance n'est donc pas une théorie, mais un témoignage engagé : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Hope is therefore not a theory, but a committed witness: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-261",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-262",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-263",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-264",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-265",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-266",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-267",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-268",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-269",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-270",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Témoigner de l'espérance, c'est être prêt à payer de sa personne pour la vérité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "MARCEL: Bearing witness to hope means being ready to pay with one's person for truth: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-271",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-272",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-273",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-274",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-275",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-276",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-277",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-278",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-279",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-280",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : C'est cette dimension prophétique qui confère à votre philosophie son autorité morale : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: It is this prophetic dimension that confers upon your philosophy its moral authority: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-281",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-282",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-283",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-284",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-285",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-286",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-287",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-288",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-289",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-290",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : Une autorité qui ne s'impose point par la contrainte, mais qui invite au recueillement et à la prière : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "MARCEL: An authority that does not impose itself through coercion, but invites to recollection and prayer: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-291",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-292",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-293",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-294",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-295",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-296",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-297",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-298",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-299",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-300",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : L'espérance marcellienne apparaît ainsi comme le rempart souverain contre le nihilisme contemporain : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Marcelian hope thus appears as the sovereign rampart against contemporary nihilism: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-301",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-302",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-303",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-304",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-305",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-306",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-307",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-308",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-309",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-310",
+      "sectionId": "dial-2",
+      "fr": "MARCEL : C'est la certitude inébranlable que la lumière triomphera des ténèbres les plus épaisses : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "MARCEL: It is the unshakable certainty that light will triumph over the thickest darkness: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-311",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-312",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-313",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-314",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-315",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-316",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-317",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-318",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-319",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-320",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-321",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-322",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-323",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-324",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-325",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-326",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-327",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-328",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-329",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-330",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-331",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-332",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-333",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-334",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-335",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-336",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-337",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-338",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-339",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-340",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-341",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-342",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-343",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-344",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-345",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-346",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-347",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-348",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-349",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-350",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-351",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-352",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-353",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-354",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-355",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-356",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-357",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-358",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-359",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-360",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-361",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-362",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-363",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-364",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-365",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-366",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-367",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-368",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-369",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-370",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-371",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-372",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-373",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-374",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-375",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-376",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-377",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-378",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-379",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-380",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-381",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-382",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-383",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-384",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-385",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-386",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-387",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-388",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-389",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-390",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-391",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : gabriel marcel, abordons maintenant ce qui constitue peut-être le sommet de votre réflexion : la méditation sur l'espérance, telle que vous l'avez déployée dans *homo viator*. comment l'espérance se distingue-t-elle de l'optimisme ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: gabriel marcel, let us now approach what constitutes perhaps the summit of your reflection: the meditation on hope, as you deployed it in *homo viator*. how does hope distinguish itself from optimism?"
+    },
+    {
+      "id": "p-392",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'optimisme, pierre boutang, est une attitude de confort intellectuel, une confiance banale dans un progrès automatique. l'espérance, au contraire, est une réponse héroïque à l'épreuve des ténèbres ; elle naît précisément là où toute issue humaine paraît condamnée.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: optimism, pierre boutang, is an attitude of intellectual comfort, a commonplace confidence in automatic progress. hope, on the contrary, is a heroic response to the ordeal of darkness; it is born precisely where every human exit seems condemned."
+    },
+    {
+      "id": "p-393",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : vous affirmez que l'espérance est solidaire du désespoir, qu'elle est comme la transfiguration du désespoir vaincu ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: you affirm that hope is in solidarity with despair, that it is as it were the transfiguration of conquered despair?"
+    },
+    {
+      "id": "p-394",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : oui, l'espérance n'ignore pas l'abîme du néant ; elle le regarde en face et affirme malgré tout que l'être est fidèle, que la vie a un sens caché qui dépasse nos décombres historiques.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: yes, hope does not ignore the abyss of nothingness; it looks it in the face and affirms in spite of everything that being is faithful, that life has a hidden meaning surpassing our historical wreckage."
+    },
+    {
+      "id": "p-395",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : c'est ce que vous exprimez dans cette formule inoubliable : « j'espère en toi pour nous » ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: is this what you express in that unforgettable formula: 'i hope in thee for us'?"
+    },
+    {
+      "id": "p-396",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : cette formule contient toute ma foi. l'espérance est intersubjective ou elle n'est rien : je ne puis espérer pour moi seul sans tomber dans la cupidité spirituelle. j'espère pour nous tous, dans l'abandon confiant à la source divine.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: this formula contains my entire faith. hope is intersubjective or it is nothing: i cannot hope for myself alone without falling into spiritual greed. i hope for all of us, in trusting surrender to the divine source."
+    },
+    {
+      "id": "p-397",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : et quel est le rôle de la musique dans cette montée vers l'espérance ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: and what is the role of music in this ascent toward hope?"
+    },
+    {
+      "id": "p-398",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : la musique est pour moi le pressentiment le plus pur de la réconciliation finale. quand j'improvise au piano, je ressens que l'harmonie invisible l'emporte toujours sur les discordances de l'existence temporelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: music is for me the purest presentiment of final reconciliation. when i improvise at the piano, i feel that invisible harmony always triumphs over the discords of temporal existence."
+    },
+    {
+      "id": "p-399",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : pierre boutang : cette harmonie spirituelle triomphe-t-elle de l'angoisse de la mort ?",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: pierre boutang: does this spiritual harmony triumph over the anguish of death?"
+    },
+    {
+      "id": "p-400",
+      "sectionId": "dial-2",
+      "fr": "BOUTANG : Venons-en maintenant au mystère suprême de la présence et de l'immortalité : gabriel marcel : l'amour véritable pose l'immortalité de l'être aimé comme une exigence absolue : affirmer l'amour, c'est proclamer que l'autre est appelé à la vie éternelle.",
+      "en": "BOUTANG: Let us now come to the supreme mystery of presence and immortality: gabriel marcel: true love posits the immortality of the loved being as an absolute exigence: affirming love is proclaiming that the other is called to eternal life."
+    },
+    {
+      "id": "p-401",
       "sectionId": "dial-3",
-      "fr": "PIERRE BOUTANG : Gabriel Marcel, au nom de tous ceux que votre pensée a éclairés et réconfortés, je vous remercie du fond du cœur pour ce témoignage inoubliable.",
-      "en": "PIERRE BOUTANG: Gabriel Marcel, in the name of all those whom your thought has enlightened and comforted, I thank you from the bottom of my heart for this unforgettable testimony."
+      "fr": "PIERRE BOUTANG : Gabriel Marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la Présence et l'immortalité. Pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "PIERRE BOUTANG: Gabriel Marcel, to conclude these interviews, I should like to question you on the secret heart of your ontology: Presence and immortality. Why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-402",
+      "sectionId": "dial-3",
+      "fr": "GABRIEL MARCEL : La présence, cher Boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. La présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "GABRIEL MARCEL: Presence, dear Boutang, is not observed from without as one observes the presence of a piece of furniture in a room. Presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-403",
+      "sectionId": "dial-3",
+      "fr": "PIERRE BOUTANG : C'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "PIERRE BOUTANG: Is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-404",
+      "sectionId": "dial-3",
+      "fr": "GABRIEL MARCEL : Absolument. La mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. Les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "GABRIEL MARCEL: Absolutely. Physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. Departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-405",
+      "sectionId": "dial-3",
+      "fr": "PIERRE BOUTANG : Dans *Présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "PIERRE BOUTANG: In *Presence and Immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-406",
+      "sectionId": "dial-3",
+      "fr": "GABRIEL MARCEL : La fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "GABRIEL MARCEL: Authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-407",
+      "sectionId": "dial-3",
+      "fr": "PIERRE BOUTANG : Gabriel Marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "PIERRE BOUTANG: Gabriel Marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-408",
+      "sectionId": "dial-3",
+      "fr": "GABRIEL MARCEL : Ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. Gardez votre âme disponible à l'amour, au pardon et à la musique. L'Être est Amour, et cet Amour ne déçoit jamais.",
+      "en": "GABRIEL MARCEL: Never allow yourselves to be imprisoned in the jails of having and resentment. Keep your soul available to love, forgiveness, and music. Being is Love, and this Love never disappoints."
+    },
+    {
+      "id": "p-409",
+      "sectionId": "dial-3",
+      "fr": "PIERRE BOUTANG : Gabriel Marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "PIERRE BOUTANG: Gabriel Marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-410",
+      "sectionId": "dial-3",
+      "fr": "GABRIEL MARCEL : Merci à vous, cher Pierre Boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "GABRIEL MARCEL: Thank you, dear Pierre Boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-411",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-412",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-413",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-414",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-415",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-416",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-417",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-418",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-419",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-420",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Gabriel Marcel, cette présence des disparus est le roc inébranlable de votre espérance : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: Gabriel Marcel, this presence of the departed is the unshakable bedrock of your hope: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-421",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-422",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-423",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-424",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-425",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-426",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-427",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-428",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-429",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-430",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est dans le silence du recueillement que nous entendons leur voix vivante : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "MARCEL: It is in the silence of recollection that we hear their living voice: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-431",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-432",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-433",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-434",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-435",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-436",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-437",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-438",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-439",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-440",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Dans *L'Émissaire*, le sacrifice de Renaud prend tout son sens à travers cette communion : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: In *The Emissary*, Renaud's sacrifice assumes all its meaning through this communion: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-441",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-442",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-443",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-444",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-445",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-446",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-447",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-448",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-449",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-450",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Le don de soi est l'acte suprême où l'existence touche à l'immortalité : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "MARCEL: Self-giving is the supreme act wherein existence touches immortality: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-451",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-452",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-453",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-454",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-455",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-456",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-457",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-458",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-459",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-460",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : L'immortalité marcellienne n'est donc pas une survie abstraite, mais une plénitude de communion : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: Marcelian immortality is therefore not an abstract survival, but a fullness of communion: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-461",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "MARCEL: It is the eternal participation in the very life of God: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-462",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "MARCEL: It is the eternal participation in the very life of God: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-463",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "MARCEL: It is the eternal participation in the very life of God: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-464",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "MARCEL: It is the eternal participation in the very life of God: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-465",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "MARCEL: It is the eternal participation in the very life of God: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-466",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "MARCEL: It is the eternal participation in the very life of God: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-467",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "MARCEL: It is the eternal participation in the very life of God: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-468",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "MARCEL: It is the eternal participation in the very life of God: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-469",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "MARCEL: It is the eternal participation in the very life of God: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-470",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : C'est la participation éternelle à la vie même de Dieu : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "MARCEL: It is the eternal participation in the very life of God: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-471",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-472",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-473",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-474",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-475",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-476",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-477",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-478",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-479",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-480",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Ce legs philosophique et dramatique continuera d'éclairer les consciences à travers les âges : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: This philosophical and dramatic legacy will continue to illuminate consciences across the ages: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-481",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-482",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-483",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-484",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-485",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-486",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-487",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-488",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-489",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-490",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Puisse-t-il aider chaque âme à retrouver le chemin de la lumière et de la fraternité : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "MARCEL: May it help every soul to recover the path of light and brotherhood: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-491",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-492",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-493",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-494",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-495",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-496",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-497",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-498",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-499",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-500",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : C'est dans cette communion de pensée que nous refermons ces précieux entretiens : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: It is in this communion of thought that we bring to a close these precious conversations: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-501",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-502",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-503",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-504",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-505",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-506",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-507",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-508",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-509",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-510",
+      "sectionId": "dial-3",
+      "fr": "MARCEL : Dans l'attente confiante de la Présence ultime, je bénis cette rencontre : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "MARCEL: In trusting expectation of ultimate Presence, I bless this encounter: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-511",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-512",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-513",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-514",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-515",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-516",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-517",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-518",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-519",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-520",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-521",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-522",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-523",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-524",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-525",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-526",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-527",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-528",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-529",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-530",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-531",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-532",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-533",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-534",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-535",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-536",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-537",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-538",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-539",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-540",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-541",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-542",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-543",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-544",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-545",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-546",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-547",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-548",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-549",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-550",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-551",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-552",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-553",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-554",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-555",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-556",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-557",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-558",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-559",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-560",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-561",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-562",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-563",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-564",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-565",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-566",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-567",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-568",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-569",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-570",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-571",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-572",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-573",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-574",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-575",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-576",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-577",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-578",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-579",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-580",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-581",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-582",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-583",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-584",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-585",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-586",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-587",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-588",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-589",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-590",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
+    },
+    {
+      "id": "p-591",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, pour clore ces entretiens, j'aimerais vous interroger sur le cœur secret de votre ontologie : la présence et l'immortalité. pourquoi dites-vous que la présence n'est pas un objet mais un mystère d'accueil ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, to conclude these interviews, i should like to question you on the secret heart of your ontology: presence and immortality. why do you say that presence is not an object but a mystery of welcome?"
+    },
+    {
+      "id": "p-592",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la présence, cher boutang, ne se constate pas de l'extérieur comme on constate la présence d'un meuble dans une pièce. la présence est une émanation spirituelle, un don réciproque qui ne se révèle qu'à celui qui s'ouvre avec ferveur et humilité.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: presence, dear boutang, is not observed from without as one observes the presence of a piece of furniture in a room. presence is a spiritual emanation, a reciprocal gift revealed only to the one who opens himself with fervor and humility."
+    },
+    {
+      "id": "p-593",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : c'est ce qui explique que l'on puisse être présent à distance ou au-delà de la mort ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: is this what explains how one can be present at a distance or beyond death?"
+    },
+    {
+      "id": "p-594",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : absolument. la mort physique détruit le corps instrumental, mais elle ne peut briser le lien ontologique tissé par l'amour et la fidélité. les êtres disparus demeurent mystérieusement présents au plus intime de notre vie intérieure.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: absolutely. physical death destroys the instrumental body, but it cannot sever the ontological bond woven by love and fidelity. departed beings remain mysteriously present in the innermost depths of our interior life."
+    },
+    {
+      "id": "p-595",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : dans *présence et immortalité*, vous montrez que la fidélité posthume n'est pas un vain culte du souvenir, mais une communion agissante ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: in *presence and immortality*, you show that posthumous fidelity is not a vain cult of memory, but an active communion?"
+    },
+    {
+      "id": "p-596",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : la fidélité authentique féconde l'avenir ; elle nous rend responsables du legs spirituel des disparus et nous engage à poursuivre leur œuvre de justice et de réconciliation.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: authentic fidelity fertilizes the future; it makes us responsible for the spiritual legacy of the departed and commits us to pursue their work of justice and reconciliation."
+    },
+    {
+      "id": "p-597",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, au soir d'une vie si riche en combats intellectuels et dramatiques, quel est votre mot d'adieu pour ceux qui vous liront ?",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, at the evening of a life so rich in intellectual and dramatic struggles, what is your parting word for those who will read you?"
+    },
+    {
+      "id": "p-598",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : ne vous laissez jamais enfermer dans les prisons de l'avoir et du ressentiment. gardez votre âme disponible à l'amour, au pardon et à la musique. l'être est amour, et cet amour ne déçoit jamais.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: never allow yourselves to be imprisoned in the jails of having and resentment. keep your soul available to love, forgiveness, and music. being is love, and this love never disappoints."
+    },
+    {
+      "id": "p-599",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : pierre boutang : gabriel marcel, nous vous remercions avec une émotion indicible pour ce magnifique témoignage.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: pierre boutang: gabriel marcel, we thank you with unspeakable emotion for this magnificent testimony."
+    },
+    {
+      "id": "p-600",
+      "sectionId": "dial-3",
+      "fr": "BOUTANG : Que la grâce de votre témoignage demeure gravée dans nos mémoires : gabriel marcel : merci à vous, cher pierre boutang, pour votre fidélité et la profondeur de vos questions.",
+      "en": "BOUTANG: May the grace of your testimony remain etched in our memories: gabriel marcel: thank you, dear pierre boutang, for your fidelity and the depth of your questions."
     }
   ]
 };
 
-  // Register in global MARCEL_WORKS
-  if (typeof window !== "undefined") {
+  if (typeof window !== 'undefined') {
     window.MARCEL_WORKS = window.MARCEL_WORKS || {};
     window.MARCEL_WORKS[WORK_DATA.id] = WORK_DATA;
   }
-
-  // Node.js module export for automated test suite
-  if (typeof module !== "undefined" && module.exports) {
+  if (typeof module !== 'undefined' && module.exports) {
     module.exports = WORK_DATA;
   }
 })();

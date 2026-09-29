@@ -731,7 +731,7 @@
       "category": "Autobiography & Dialogues",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Dialogues, 105 Exchanges)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Dialogues, 600 Exchanges, 120k Words)",
       "sections": [
         { "id": "dial-1", "titleFr": "Premier entretien : De l'existence à l'incarnation", "titleEn": "First Dialogue: From Existence to Incarnation" },
         { "id": "dial-2", "titleFr": "Deuxième entretien : Mystère, réflexion seconde et fidélité", "titleEn": "Second Dialogue: Mystery, Secondary Reflection, and Fidelity" },
@@ -748,7 +748,7 @@
       "companionTitle": "Conversations Between Paul Ricœur and Gabriel Marcel (1968)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Dialogues, 105 Exchanges)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Dialogues, 600 Exchanges, 110k Words)",
       "sections": [
         { "id": "dial-1", "titleFr": "Premier entretien : L'inquiétude contemporaine et la technique triomphante", "titleEn": "First Dialogue: Contemporary Disquiet and Triumphant Technology" },
         { "id": "dial-2", "titleFr": "Deuxième entretien : L'espérance contre le désespoir et l'angoisse", "titleEn": "Second Dialogue: Hope Against Despair and Anguish" },
@@ -798,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 22",
+    version: "Wave 23",
     totalWorks: 42,
-    unabridgedWorks: 38,
-    foundationalWorks: 4,
-    totalUnabridgedRows: 28200,
-    totalCorpusRows: 28200,
-    totalWordsEstimate: "2,820,000+"
+    unabridgedWorks: 40,
+    foundationalWorks: 2,
+    totalUnabridgedRows: 29190,
+    totalCorpusRows: 29190,
+    totalWordsEstimate: "2,950,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {

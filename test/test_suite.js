@@ -119,7 +119,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v28'), 'Service Worker defines cache version v28');
+assert(swContent.includes('marcel-reader-v29'), 'Service Worker defines cache version v29');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -379,7 +379,7 @@ assert(presenceEtImmortalite.paragraphs.length === 400, `${presenceEtImmortalite
 assert(presenceEtImmortalite.sections.length === 3, `${presenceEtImmortalite.titleEn}: Defines 3 Major Sections`);
 
 assert(entretiensPaulRicoeur.unabridged === true, `${entretiensPaulRicoeur.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(entretiensPaulRicoeur.paragraphs.length === 105, `${entretiensPaulRicoeur.titleEn}: Contains complete 105 verbatim dialogue exchanges`);
+assert(entretiensPaulRicoeur.paragraphs.length === 600, `${entretiensPaulRicoeur.titleEn}: Contains complete 600 verbatim dialogue exchanges`);
 assert(entretiensPaulRicoeur.sections.length === 3, `${entretiensPaulRicoeur.titleEn}: Defines all 3 Thematic Dialogues`);
 
 assert(pourUneSagesseTragique.unabridged === true, `${pourUneSagesseTragique.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -415,7 +415,7 @@ assert(fragPhil.paragraphs.length === 300, `${fragPhil.titleEn}: Contains comple
 assert(fragPhil.sections.length === 3, `${fragPhil.titleEn}: Defines all 3 Chronological Sections`);
 
 assert(boutang.unabridged === true, `${boutang.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(boutang.paragraphs.length === 105, `${boutang.titleEn}: Contains complete 105 verbatim dialogue exchanges`);
+assert(boutang.paragraphs.length === 600, `${boutang.titleEn}: Contains complete 600 verbatim dialogue exchanges`);
 assert(boutang.sections.length === 3, `${boutang.titleEn}: Defines all 3 Dialogues`);
 
 assert(autoEssay.unabridged === true, `${autoEssay.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -489,7 +489,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 28200, `Total unabridged rows across 42 masterworks equals 28,200 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 29190, `Total unabridged rows across 42 masterworks equals 29,190 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1011,27 +1011,27 @@ window.selectSection('all');
 const piAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(piAllRestored === 400, `All 400 entries restored upon selecting "All Sections" for Présence et immortalité`);
 
-// 15. Test Switch to Entretiens Paul Ricœur - Gabriel Marcel (Verbatim 105 dialogue exchanges across 3 Dialogues)
+// 15. Test Switch to Entretiens Paul Ricœur - Gabriel Marcel (Verbatim 600 dialogue exchanges across 3 Dialogues)
 window.switchWork('entretiens-paul-ricoeur');
 const eprRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(eprRows === 105, `Rendered full 105 verbatim dialogue exchanges for Entretiens Paul Ricœur (actual: ${eprRows})`);
+assert(eprRows === 200, `Smart default renders Dialogue 1 (200 dialogue exchanges) for Entretiens Paul Ricœur (actual: ${eprRows})`);
 
 // Test Dialogue Filtering for Entretiens Paul Ricœur
 window.selectSection('dial-1');
 const dial1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dial1Rows === 35, `Entretiens Dialogue 1 filtered to exactly 35 exchanges (actual: ${dial1Rows})`);
+assert(dial1Rows === 200, `Entretiens Dialogue 1 filtered to exactly 200 exchanges (actual: ${dial1Rows})`);
 
 window.selectSection('dial-2');
 const dial2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dial2Rows === 35, `Entretiens Dialogue 2 filtered to exactly 35 exchanges (actual: ${dial2Rows})`);
+assert(dial2Rows === 200, `Entretiens Dialogue 2 filtered to exactly 200 exchanges (actual: ${dial2Rows})`);
 
 window.selectSection('dial-3');
 const dial3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(dial3Rows === 35, `Entretiens Dialogue 3 filtered to exactly 35 exchanges (actual: ${dial3Rows})`);
+assert(dial3Rows === 200, `Entretiens Dialogue 3 filtered to exactly 200 exchanges (actual: ${dial3Rows})`);
 
 window.selectSection('all');
 const eprAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(eprAllRestored === 105, `All 105 dialogue exchanges restored upon selecting "All Sections" for Entretiens Paul Ricœur`);
+assert(eprAllRestored === 600, `All 600 dialogue exchanges restored upon selecting "All Sections" for Entretiens Paul Ricœur`);
 
 // 16. Test Switch to Pour une sagesse tragique et son au-delà (Verbatim 450 paragraphs across 3 Sections)
 window.switchWork('pour-une-sagesse-tragique');
@@ -1220,26 +1220,26 @@ window.selectSection('all');
 const fpAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(fpAllRestored === 300, `All 300 paragraphs restored upon selecting "All Sections" for Fragments philosophiques`);
 
-// 24. Test Switch to Gabriel Marcel interrogé par Pierre Boutang (Verbatim 105 exchanges across 3 Dialogues)
+// 24. Test Switch to Gabriel Marcel interrogé par Pierre Boutang (Verbatim 600 exchanges across 3 Dialogues)
 window.switchWork('interroge-par-pierre-boutang');
 const pbRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pbRows === 105, `Rendered full 105 verbatim dialogue exchanges for Pierre Boutang Interview (actual: ${pbRows})`);
+assert(pbRows === 200, `Smart default renders Dialogue 1 (200 dialogue exchanges) for Pierre Boutang Interview (actual: ${pbRows})`);
 
 window.selectSection('dial-1');
 const pbDial1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pbDial1Rows === 35, `Boutang Dialogue 1 filtered to exactly 35 exchanges (actual: ${pbDial1Rows})`);
+assert(pbDial1Rows === 200, `Boutang Dialogue 1 filtered to exactly 200 exchanges (actual: ${pbDial1Rows})`);
 
 window.selectSection('dial-2');
 const pbDial2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pbDial2Rows === 35, `Boutang Dialogue 2 filtered to exactly 35 exchanges (actual: ${pbDial2Rows})`);
+assert(pbDial2Rows === 200, `Boutang Dialogue 2 filtered to exactly 200 exchanges (actual: ${pbDial2Rows})`);
 
 window.selectSection('dial-3');
 const pbDial3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pbDial3Rows === 35, `Boutang Dialogue 3 filtered to exactly 35 exchanges (actual: ${pbDial3Rows})`);
+assert(pbDial3Rows === 200, `Boutang Dialogue 3 filtered to exactly 200 exchanges (actual: ${pbDial3Rows})`);
 
 window.selectSection('all');
 const pbAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pbAllRestored === 105, `All 105 dialogue exchanges restored upon selecting "All Sections" for Pierre Boutang Interview`);
+assert(pbAllRestored === 600, `All 600 dialogue exchanges restored upon selecting "All Sections" for Pierre Boutang Interview`);
 
 // 25. Test Switch to An Autobiographical Essay (Verbatim 360 paragraphs across 3 Parts)
 window.switchWork('an-autobiographical-essay');
@@ -1832,18 +1832,18 @@ const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
 assert(meta.lastUpdated === '2026-09-29', 'Corpus metadata lastUpdated is 2026-09-29');
-assert(meta.version === 'Wave 22', 'Corpus metadata version is Wave 22');
+assert(meta.version === 'Wave 23', 'Corpus metadata version is Wave 23');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 38, 'Corpus metadata reports 38 unabridged flagship works');
-assert(meta.foundationalWorks === 4, 'Corpus metadata reports 4 foundational study editions');
-assert(meta.totalUnabridgedRows === 28200, 'Corpus metadata reports 28,200 unabridged rows');
+assert(meta.unabridgedWorks === 40, 'Corpus metadata reports 40 unabridged flagship works');
+assert(meta.foundationalWorks === 2, 'Corpus metadata reports 2 foundational study editions');
+assert(meta.totalUnabridgedRows === 29190, 'Corpus metadata reports 29,190 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
 assert(getEl('last-updated-date').textContent.includes('September 29, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 22', 'Hero last-updated-version populated with Wave 22');
+assert(getEl('last-updated-version').textContent === 'Wave 23', 'Hero last-updated-version populated with Wave 23');
 assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
