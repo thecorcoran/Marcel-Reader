@@ -432,7 +432,7 @@
       "companionTitle": "Presence and Immortality (1959)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 1,000 Dialogue Rows, 100k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le souvenir de Viviane et le sanctuaire du deuil", "titleEn": "Act I: The Memory of Viviane and the Sanctuary of Mourning" },
         { "id": "act-2", "titleFr": "Acte II : Le doute empoisonné et la tentation du soupçon", "titleEn": "Act II: Poisoned Doubt and the Temptation of Suspicion" },
@@ -467,7 +467,7 @@
       "companionTitle": "Presence and Immortality (1959)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (5 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (5 Acts, 1,200 Dialogue Rows, 120k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : L'adagio initial et la discorde des âmes", "titleEn": "Act I: The Initial Adagio and the Discord of Souls" },
         { "id": "act-2", "titleFr": "Acte II : La répétition orageuse et l'attrait mystérieux", "titleEn": "Act II: The Stormy Rehearsal and the Mysterious Pull" },
@@ -486,7 +486,7 @@
       "companionTitle": "The Broken World (1933)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 900 Dialogue Rows, 90k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : L'arrivée au domaine et la clarté du regard d'enfant", "titleEn": "Act I: Arrival at the Estate and the Clarity of Childlike Gaze" },
         { "id": "act-2", "titleFr": "Acte II : Le dévoilement des compromis familiaux", "titleEn": "Act II: The Unveiling of Family Compromises" },
@@ -798,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 19",
+    version: "Wave 20",
     totalWorks: 42,
-    unabridgedWorks: 30,
-    foundationalWorks: 12,
-    totalUnabridgedRows: 22685,
-    totalCorpusRows: 22685,
-    totalWordsEstimate: "2,250,000+"
+    unabridgedWorks: 33,
+    foundationalWorks: 9,
+    totalUnabridgedRows: 25470,
+    totalCorpusRows: 25470,
+    totalWordsEstimate: "2,550,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {

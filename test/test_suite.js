@@ -119,7 +119,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v25'), 'Service Worker defines cache version v25');
+assert(swContent.includes('marcel-reader-v26'), 'Service Worker defines cache version v26');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -443,15 +443,15 @@ assert(leCoeurDesAutres.paragraphs.length === 979, `${leCoeurDesAutres.titleEn}:
 assert(leCoeurDesAutres.sections.length === 3, `${leCoeurDesAutres.titleEn}: Defines all III Acts`);
 
 assert(liconoclaste.unabridged === true, `${liconoclaste.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(liconoclaste.paragraphs.length === 105, `${liconoclaste.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(liconoclaste.paragraphs.length === 1000, `${liconoclaste.titleEn}: Contains complete 1,000 verbatim dialogue rows`);
 assert(liconoclaste.sections.length === 4, `${liconoclaste.titleEn}: Defines all IV Acts`);
 
 assert(leQuatuor.unabridged === true, `${leQuatuor.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(leQuatuor.paragraphs.length === 105, `${leQuatuor.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(leQuatuor.paragraphs.length === 1200, `${leQuatuor.titleEn}: Contains complete 1,200 verbatim dialogue rows`);
 assert(leQuatuor.sections.length === 5, `${leQuatuor.titleEn}: Defines all V Acts`);
 
 assert(leRegardNeuf.unabridged === true, `${leRegardNeuf.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(leRegardNeuf.paragraphs.length === 105, `${leRegardNeuf.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(leRegardNeuf.paragraphs.length === 900, `${leRegardNeuf.titleEn}: Contains complete 900 verbatim dialogue rows`);
 assert(leRegardNeuf.sections.length === 3, `${leRegardNeuf.titleEn}: Defines all III Acts`);
 
 assert(laSoif.unabridged === true, `${laSoif.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -489,7 +489,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 22685, `Total unabridged rows across 42 masterworks equals 22,685 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 25470, `Total unabridged rows across 42 masterworks equals 25,470 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1367,80 +1367,80 @@ window.selectSection('all');
 const lcdaAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(lcdaAllRestored === 979, `All 979 dialogue rows restored upon selecting "All Sections" for Le Cœur des autres`);
 
-// 31. Test Switch to L'Iconoclaste (Verbatim 105 dialogue rows across 4 Acts)
+// 31. Test Switch to L'Iconoclaste (Verbatim 1,000 dialogue rows across 4 Acts)
 window.switchWork('liconoclaste');
 const licoRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(licoRows === 105, `Rendered full 105 verbatim dialogue rows for L'Iconoclaste (actual: ${licoRows})`);
+assert(licoRows === 250, `Smart default renders Act I (250 dialogue rows) for L'Iconoclaste (actual: ${licoRows})`);
 
 window.selectSection('act-1');
 const licoAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(licoAct1Rows === 27, `L'Iconoclaste Act I filtered to exactly 27 dialogue rows (actual: ${licoAct1Rows})`);
+assert(licoAct1Rows === 250, `L'Iconoclaste Act I filtered to exactly 250 dialogue rows (actual: ${licoAct1Rows})`);
 
 window.selectSection('act-2');
 const licoAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(licoAct2Rows === 26, `L'Iconoclaste Act II filtered to exactly 26 dialogue rows (actual: ${licoAct2Rows})`);
+assert(licoAct2Rows === 250, `L'Iconoclaste Act II filtered to exactly 250 dialogue rows (actual: ${licoAct2Rows})`);
 
 window.selectSection('act-3');
 const licoAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(licoAct3Rows === 26, `L'Iconoclaste Act III filtered to exactly 26 dialogue rows (actual: ${licoAct3Rows})`);
+assert(licoAct3Rows === 250, `L'Iconoclaste Act III filtered to exactly 250 dialogue rows (actual: ${licoAct3Rows})`);
 
 window.selectSection('act-4');
 const licoAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(licoAct4Rows === 26, `L'Iconoclaste Act IV filtered to exactly 26 dialogue rows (actual: ${licoAct4Rows})`);
+assert(licoAct4Rows === 250, `L'Iconoclaste Act IV filtered to exactly 250 dialogue rows (actual: ${licoAct4Rows})`);
 
 window.selectSection('all');
 const licoAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(licoAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for L'Iconoclaste`);
+assert(licoAllRestored === 1000, `All 1,000 dialogue rows restored upon selecting "All Sections" for L'Iconoclaste`);
 
-// 32. Test Switch to Le Quatuor en fa dièse (Verbatim 105 dialogue rows across 5 Acts)
+// 32. Test Switch to Le Quatuor en fa dièse (Verbatim 1,200 dialogue rows across 5 Acts)
 window.switchWork('le-quatuor-en-fa-diese');
 const lqfdRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lqfdRows === 105, `Rendered full 105 verbatim dialogue rows for Le Quatuor en fa dièse (actual: ${lqfdRows})`);
+assert(lqfdRows === 240, `Smart default renders Act I (240 dialogue rows) for Le Quatuor en fa dièse (actual: ${lqfdRows})`);
 
 window.selectSection('act-1');
 const lqfdAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lqfdAct1Rows === 21, `Le Quatuor en fa dièse Act I filtered to exactly 21 dialogue rows (actual: ${lqfdAct1Rows})`);
+assert(lqfdAct1Rows === 240, `Le Quatuor en fa dièse Act I filtered to exactly 240 dialogue rows (actual: ${lqfdAct1Rows})`);
 
 window.selectSection('act-2');
 const lqfdAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lqfdAct2Rows === 21, `Le Quatuor en fa dièse Act II filtered to exactly 21 dialogue rows (actual: ${lqfdAct2Rows})`);
+assert(lqfdAct2Rows === 240, `Le Quatuor en fa dièse Act II filtered to exactly 240 dialogue rows (actual: ${lqfdAct2Rows})`);
 
 window.selectSection('act-3');
 const lqfdAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lqfdAct3Rows === 21, `Le Quatuor en fa dièse Act III filtered to exactly 21 dialogue rows (actual: ${lqfdAct3Rows})`);
+assert(lqfdAct3Rows === 240, `Le Quatuor en fa dièse Act III filtered to exactly 240 dialogue rows (actual: ${lqfdAct3Rows})`);
 
 window.selectSection('act-4');
 const lqfdAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lqfdAct4Rows === 21, `Le Quatuor en fa dièse Act IV filtered to exactly 21 dialogue rows (actual: ${lqfdAct4Rows})`);
+assert(lqfdAct4Rows === 240, `Le Quatuor en fa dièse Act IV filtered to exactly 240 dialogue rows (actual: ${lqfdAct4Rows})`);
 
 window.selectSection('act-5');
 const lqfdAct5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lqfdAct5Rows === 21, `Le Quatuor en fa dièse Act V filtered to exactly 21 dialogue rows (actual: ${lqfdAct5Rows})`);
+assert(lqfdAct5Rows === 240, `Le Quatuor en fa dièse Act V filtered to exactly 240 dialogue rows (actual: ${lqfdAct5Rows})`);
 
 window.selectSection('all');
 const lqfdAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lqfdAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Quatuor en fa dièse`);
+assert(lqfdAllRestored === 1200, `All 1,200 dialogue rows restored upon selecting "All Sections" for Le Quatuor en fa dièse`);
 
-// 33. Test Switch to Le Regard neuf (Verbatim 105 dialogue rows across 3 Acts)
+// 33. Test Switch to Le Regard neuf (Verbatim 900 dialogue rows across 3 Acts)
 window.switchWork('le-regard-neuf');
 const lrnRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lrnRows === 105, `Rendered full 105 verbatim dialogue rows for Le Regard neuf (actual: ${lrnRows})`);
+assert(lrnRows === 300, `Smart default renders Act I (300 dialogue rows) for Le Regard neuf (actual: ${lrnRows})`);
 
 window.selectSection('act-1');
 const lrnAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lrnAct1Rows === 35, `Le Regard neuf Act I filtered to exactly 35 dialogue rows (actual: ${lrnAct1Rows})`);
+assert(lrnAct1Rows === 300, `Le Regard neuf Act I filtered to exactly 300 dialogue rows (actual: ${lrnAct1Rows})`);
 
 window.selectSection('act-2');
 const lrnAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lrnAct2Rows === 35, `Le Regard neuf Act II filtered to exactly 35 dialogue rows (actual: ${lrnAct2Rows})`);
+assert(lrnAct2Rows === 300, `Le Regard neuf Act II filtered to exactly 300 dialogue rows (actual: ${lrnAct2Rows})`);
 
 window.selectSection('act-3');
 const lrnAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lrnAct3Rows === 35, `Le Regard neuf Act III filtered to exactly 35 dialogue rows (actual: ${lrnAct3Rows})`);
+assert(lrnAct3Rows === 300, `Le Regard neuf Act III filtered to exactly 300 dialogue rows (actual: ${lrnAct3Rows})`);
 
 window.selectSection('all');
 const lrnAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lrnAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Le Regard neuf`);
+assert(lrnAllRestored === 900, `All 900 dialogue rows restored upon selecting "All Sections" for Le Regard neuf`);
 
 // 34. Test Switch to La Soif (Verbatim 960 dialogue rows across 3 Acts)
 window.switchWork('la-soif');
@@ -1832,18 +1832,18 @@ const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
 assert(meta.lastUpdated === '2026-09-29', 'Corpus metadata lastUpdated is 2026-09-29');
-assert(meta.version === 'Wave 19', 'Corpus metadata version is Wave 19');
+assert(meta.version === 'Wave 20', 'Corpus metadata version is Wave 20');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 30, 'Corpus metadata reports 30 unabridged flagship works');
-assert(meta.foundationalWorks === 12, 'Corpus metadata reports 12 foundational study editions');
-assert(meta.totalUnabridgedRows === 22685, 'Corpus metadata reports 22,685 unabridged rows');
+assert(meta.unabridgedWorks === 33, 'Corpus metadata reports 33 unabridged flagship works');
+assert(meta.foundationalWorks === 9, 'Corpus metadata reports 9 foundational study editions');
+assert(meta.totalUnabridgedRows === 25470, 'Corpus metadata reports 25,470 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
 assert(getEl('last-updated-date').textContent.includes('September 29, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 19', 'Hero last-updated-version populated with Wave 19');
+assert(getEl('last-updated-version').textContent === 'Wave 20', 'Hero last-updated-version populated with Wave 20');
 assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
