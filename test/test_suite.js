@@ -1847,6 +1847,60 @@ assert(getEl('last-updated-version').textContent === 'Wave 24', 'Hero last-updat
 assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
+// ----------------------------------------------------
+// Test Group 10: Archival Horizon & Grand Oeuvre Guide
+// ----------------------------------------------------
+console.log('\n10. Verifying Archival Horizon & Complete Oeuvre Register:');
+const archivalModule = require(path.join(root, 'data/archival_catalog.js'));
+const archivalData = archivalModule.MARCEL_ARCHIVAL_DATA || window.MARCEL_ARCHIVAL_DATA;
+
+assert(!!archivalData, 'MARCEL_ARCHIVAL_DATA is defined and exported');
+assert(archivalData.overview && archivalData.overview.canonicalCount === 42, 'Archival overview acknowledges 42 canonical volumes');
+assert(archivalData.sections.length === 4, 'Archival catalogue defines all 4 archival categories');
+
+const theatreSec = archivalData.sections.find(s => s.id === 'theatrical-chronicles');
+assert(!!theatreSec && theatreSec.majorPeriods.length === 4, 'Theatrical chronicles section defines 4 historical epochs (1911-1973)');
+
+const radioSec = archivalData.sections.find(s => s.id === 'broadcast-dialogues');
+assert(!!radioSec && radioSec.entries.length >= 5, 'Broadcast dialogues section catalogues radio/ORTF series');
+
+const reviewsSec = archivalData.sections.find(s => s.id === 'philosophical-reviews');
+assert(!!reviewsSec && reviewsSec.entries.length >= 4, 'Philosophical reviews section catalogues replies to critics and journal reviews');
+
+const musicSec = archivalData.sections.find(s => s.id === 'musicological-writings');
+assert(!!musicSec && musicSec.entries.length >= 2, 'Musicological writings section catalogues music and improvisation');
+
+// Ensure window globals populated for DOM rendering test
+window.MARCEL_ARCHIVAL_DATA = archivalData;
+if (!window.MARCEL_CORPUS) {
+  window.MARCEL_CORPUS = corpusModule;
+}
+
+// Test Archival Modal Opening & Tab Switching
+window.openArchivalModal('manifesto');
+assert(getEl('archival-modal-backdrop').style.display === 'flex', 'Archival modal backdrop is displayed as flex');
+assert(getEl('archival-modal-backdrop').classList.contains('open'), 'Archival modal backdrop has open class');
+assert(getEl('archival-modal-body').innerHTML.includes('The Digital Mission'), 'Archival body renders Digital Mission manifesto');
+
+window.switchArchivalTab('canonical');
+assert(getEl('archival-modal-body').innerHTML.includes('Open in Reader'), 'Canonical tab renders interactive links for all 42 masterworks');
+
+window.switchArchivalTab('theatre');
+assert(getEl('archival-modal-body').innerHTML.includes('The Complete Theatrical Chronicles'), 'Theatre tab renders 800+ chronicles history');
+
+window.switchArchivalTab('radio');
+assert(getEl('archival-modal-body').innerHTML.includes('Broadcast Dialogues'), 'Radio tab renders broadcast dialogues');
+
+window.switchArchivalTab('reviews');
+assert(getEl('archival-modal-body').innerHTML.includes('Replies to My Critics'), 'Reviews tab renders philosophical replies to critics');
+
+window.switchArchivalTab('music');
+assert(getEl('archival-modal-body').innerHTML.includes('Musicological Writings'), 'Music tab renders musicological writings');
+
+window.closeArchivalModal();
+assert(getEl('archival-modal-backdrop').style.display === 'none', 'Archival modal backdrop is hidden on close');
+assert(!getEl('archival-modal-backdrop').classList.contains('open'), 'Archival modal open class is removed on close');
+
 console.log('\n====================================================');
 console.log(`🎉 TEST RUN COMPLETE: ${passedTests}/${totalTests} TESTS PASSED`);
 console.log('====================================================\n');
@@ -1854,3 +1908,4 @@ console.log('====================================================\n');
 if (passedTests !== totalTests) {
   process.exit(1);
 }
+

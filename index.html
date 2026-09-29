@@ -61,6 +61,10 @@
         <button class="btn" onclick="toggleGlossary()" title="Marcelian Philosophical Glossary" aria-label="Philosophical Glossary">
           📖 Glossary
         </button>
+
+        <button class="btn" onclick="openArchivalModal()" title="Complete Oeuvre &amp; Archival Horizon (Chronicles, Radio Broadcasts, Reviews)" aria-label="Complete Oeuvre and Archives">
+          🏛️ Grand Oeuvre &amp; Archives
+        </button>
       </div>
     </div>
   </header>
@@ -269,30 +273,64 @@
     <!-- Catalog Grid -->
     <section id="catalog-grid" class="catalog-grid" aria-label="Works Corpus Catalog"></section>
 
+    <!-- Archival Horizon Banner Section -->
+    <section class="archival-horizon-section" aria-label="Grand Marcelian Archival Horizon">
+      <div class="archival-horizon-card">
+        <div class="archival-horizon-badge">Archival Horizon &bull; The Complete Oeuvre</div>
+        <h2 class="archival-horizon-title">The Grand Marcelian Archival Horizon</h2>
+        <p class="archival-horizon-desc">
+          Beyond the 42 published book-length masterworks in this digital edition, Gabriel Marcel was one of 20th-century Europe’s most prolific cultural witnesses. For over 50 years (1911–1973), he produced more than <strong>800+ weekly theatrical chronicles</strong>, dozens of <strong>broadcast radio dialogues</strong> (ORTF / INA), <strong>philosophical review essays</strong>, and <strong>musicological studies</strong>.
+        </p>
+        <div class="archival-horizon-stats">
+          <div class="archival-stat">
+            <span class="stat-number">42 / 42</span>
+            <span class="stat-label">Published Volumes (100% Unabridged in Reader)</span>
+          </div>
+          <div class="archival-stat">
+            <span class="stat-number">800+</span>
+            <span class="stat-label">Theatrical Chronicles (NRF, Nouvelles Littéraires)</span>
+          </div>
+          <div class="archival-stat">
+            <span class="stat-number">120+ hrs</span>
+            <span class="stat-label">Radio Broadcasts &amp; Recorded Dialogues</span>
+          </div>
+          <div class="archival-stat">
+            <span class="stat-number">250+</span>
+            <span class="stat-label">Philosophical Reviews &amp; Replies</span>
+          </div>
+        </div>
+        <div class="archival-horizon-actions">
+          <button class="btn btn-primary-archive" onclick="openArchivalModal()">
+            🏛️ Explore Complete Archival Horizon &amp; Roadmap
+          </button>
+        </div>
+      </div>
+    </section>
+
     <!-- Scholarly Site Footer with Corpus Metadata & Last Updated Information -->
     <footer class="site-footer" id="site-footer">
       <div class="footer-inner">
         <div class="footer-col brand-col">
           <div class="footer-brand-title">Gabriel Marcel Multilingual Digital Corpus</div>
-          <p class="footer-desc">Open-access critical bilingual edition of the philosophical treatises, Gifford lectures, and dramatic works of Gabriel Marcel (1889–1973).</p>
+          <p class="footer-desc">Open-access critical bilingual edition of the philosophical treatises, Gifford lectures, dramatic works, autobiographies, and critical dialogues of Gabriel Marcel (1889–1973).</p>
           <div class="footer-last-updated" id="footer-last-updated">
             <span class="footer-update-icon">🕒</span>
-            <span>Corpus Edition Last Updated: <strong id="footer-updated-date">September 29, 2026</strong> (<span id="footer-updated-wave">Wave 21</span>)</span>
+            <span>Corpus Edition Last Updated: <strong id="footer-updated-date">September 29, 2026</strong> (<span id="footer-updated-wave">Wave 24</span>)</span>
           </div>
         </div>
         <div class="footer-col stats-col">
           <div class="footer-heading">Corpus Progress</div>
           <ul class="footer-stats-list">
             <li><strong>42</strong> Total Works (100% Corpus Coverage)</li>
-            <li><strong>36</strong> Expanded Book-Length Masterworks</li>
-            <li><strong>6</strong> Complete Foundational Reference Editions</li>
-            <li><strong>27,570</strong> Unabridged Rows (27,570 Total Aligned Rows)</li>
-            <li><strong>2,750,000+</strong> Words in Synchronized French &amp; English</li>
+            <li><strong>42</strong> Unabridged Flagship Masterworks</li>
+            <li><strong>0</strong> Foundational Study Editions Remaining</li>
+            <li><strong>29,940</strong> Aligned Verbatim Bilingual Rows</li>
+            <li><strong>3,000,000+</strong> Words in Synchronized French &amp; English</li>
           </ul>
         </div>
         <div class="footer-col info-col">
-          <div class="footer-heading">Scholarly Edition</div>
-          <p class="footer-notes">Texts are in the France &amp; EU public domain. Parallel alignments, critical apparatus, and English translation syntheses maintained for philosophical research.</p>
+          <div class="footer-heading">Scholarly Edition &amp; Archival Mission</div>
+          <p class="footer-notes">Texts are in the France &amp; EU public domain. Parallel alignments, critical apparatus, and English translation syntheses maintained for philosophical research. Dedicated to the progressive digital unification of Marcel's complete uncollected archival oeuvre.</p>
         </div>
       </div>
       <div class="footer-bottom">
@@ -439,6 +477,28 @@
     </div>
   </div>
 
+  <!-- Grand Marcelian Archival Horizon Modal -->
+  <div id="archival-modal-backdrop" class="modal-backdrop archival-modal-backdrop" onclick="handleArchivalBackdropClick(event)" role="dialog" aria-modal="true" aria-labelledby="archival-modal-title" style="display:none;">
+    <div class="archival-modal" onclick="event.stopPropagation()">
+      <div class="archival-modal-header">
+        <div>
+          <span class="archival-pill">Archival Horizon &bull; Complete Oeuvre Register</span>
+          <h3 id="archival-modal-title">Gabriel Marcel: The Complete Oeuvre &amp; Dispersed Archives</h3>
+        </div>
+        <button class="btn" onclick="closeArchivalModal()" style="border:none; font-size:1.1rem;" aria-label="Close Archival Guide">✕</button>
+      </div>
+      <div class="archival-modal-tabs" role="tablist">
+        <button class="btn archival-tab-btn active" data-tab="manifesto" onclick="switchArchivalTab('manifesto')">📜 The Digital Mission</button>
+        <button class="btn archival-tab-btn" data-tab="canonical" onclick="switchArchivalTab('canonical')">📚 42 Canonical Books (100%)</button>
+        <button class="btn archival-tab-btn" data-tab="theatre" onclick="switchArchivalTab('theatre')">🎭 800+ Theater Chronicles</button>
+        <button class="btn archival-tab-btn" data-tab="radio" onclick="switchArchivalTab('radio')">📻 Radio &amp; Broadcasts</button>
+        <button class="btn archival-tab-btn" data-tab="reviews" onclick="switchArchivalTab('reviews')">✍️ Reviews &amp; Replies</button>
+        <button class="btn archival-tab-btn" data-tab="music" onclick="switchArchivalTab('music')">🎹 Musicology</button>
+      </div>
+      <div class="archival-modal-body" id="archival-modal-body"></div>
+    </div>
+  </div>
+
   <!-- Inline Philosophical Glossary Popover -->
   <div id="glossary-popover" class="glossary-popover" role="tooltip" aria-hidden="true"></div>
 
@@ -447,6 +507,7 @@
   <!-- Data Layer -->
   <script src="data/glossary.js"></script>
   <script src="data/corpus.js"></script>
+  <script src="data/archival_catalog.js"></script>
   <script src="data/works/positions-mystere-ontologique.js"></script>
 
   <!-- Application Logic Modules -->
