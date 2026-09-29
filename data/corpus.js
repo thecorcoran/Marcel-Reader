@@ -640,7 +640,7 @@
       "companionTitle": "Problematic Man (1955)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Acts, 1,000 Dialogue Rows, 100k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le foyer provincial et le poids du conformisme", "titleEn": "Act I: The Provincial Household and the Weight of Conformism" },
         { "id": "act-2", "titleFr": "Acte II : La détresse d'Agnès et le tribunal clérical", "titleEn": "Act II: Agnès's Distress and the Clerical Tribunal" },
@@ -658,7 +658,7 @@
       "companionTitle": "Men Against Humanity (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (5 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (5 Acts, 1,100 Dialogue Rows, 110k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le retour de Flavien et l'incompréhension des générations", "titleEn": "Act I: Flavien's Return and Generational Incomprehension" },
         { "id": "act-2", "titleFr": "Acte II : L'affrontement idéologique et l'utopie technocratique", "titleEn": "Act II: Ideological Confrontation and Technocratic Utopia" },
@@ -677,7 +677,7 @@
       "companionTitle": "Presence and Immortality (1959)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 900 Dialogue Rows, 90k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le salon parisien et le mirage de la célébrité", "titleEn": "Act I: The Parisian Salon and the Mirage of Celebrity" },
         { "id": "act-2", "titleFr": "Acte II : La confrontation esthétique et le masque de Florestan", "titleEn": "Act II: Aesthetic Confrontation and the Mask of Florestan" },
@@ -798,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 18",
+    version: "Wave 19",
     totalWorks: 42,
-    unabridgedWorks: 27,
-    foundationalWorks: 15,
-    totalUnabridgedRows: 20000,
-    totalCorpusRows: 20000,
-    totalWordsEstimate: "2,000,000+"
+    unabridgedWorks: 30,
+    foundationalWorks: 12,
+    totalUnabridgedRows: 22685,
+    totalCorpusRows: 22685,
+    totalWordsEstimate: "2,250,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {

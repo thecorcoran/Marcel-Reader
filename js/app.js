@@ -882,7 +882,7 @@ function initLastUpdatedDisplay() {
   const meta = (window.MARCEL_CORPUS_METADATA) || (window.MARCEL_CORPUS && window.MARCEL_CORPUS.metadata) || {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 18"
+    version: "Wave 19"
   };
 
   const heroDate = document.getElementById("last-updated-date");
@@ -1117,9 +1117,9 @@ function renderMainCatalog(filter = 'all', query = '') {
       else if (w.id === 'le-signe-de-la-croix') scaleInfo = '100 Dialogue Rows • II Dramatic Acts';
       else if (w.id === 'lemissaire') scaleInfo = '900 Dialogue Rows • III Dramatic Acts';
       else if (w.id === 'la-fin-des-temps') scaleInfo = '930 Dialogue Rows • III Dramatic Acts';
-      else if (w.id === 'croissez-et-multipliez') scaleInfo = '105 Dialogue Rows • IV Dramatic Acts';
-      else if (w.id === 'mon-temps-nest-pas-le-votre') scaleInfo = '105 Dialogue Rows • V Dramatic Acts';
-      else if (w.id === 'la-dimension-florestan') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'croissez-et-multipliez') scaleInfo = '1,000 Dialogue Rows • IV Dramatic Acts';
+      else if (w.id === 'mon-temps-nest-pas-le-votre') scaleInfo = '1,100 Dialogue Rows • V Dramatic Acts';
+      else if (w.id === 'la-dimension-florestan') scaleInfo = '900 Dialogue Rows • III Dramatic Acts';
       else scaleInfo = '100% Verbatim Bilingual Edition';
     } else {
       scaleInfo = 'Bilingual Digest & Terminology Index';

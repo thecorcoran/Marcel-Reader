@@ -4,6 +4,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const vm = require('vm');
 const { execSync } = require('child_process');
 
 const root = path.resolve(__dirname, '..');
@@ -89,7 +90,8 @@ coreFiles.concat(tier1WorkFiles).forEach((file) => {
   const fullPath = path.join(root, file);
   assert(fs.existsSync(fullPath), `File exists: ${file}`);
   try {
-    execSync(`node -c "${fullPath}"`, { stdio: 'pipe' });
+    const src = fs.readFileSync(fullPath, 'utf8');
+    new vm.Script(src, { filename: file });
     assert(true, `Syntax valid: ${file}`);
   } catch (e) {
     assert(false, `Syntax error in ${file}: ${e.message}`);
@@ -117,7 +119,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v24'), 'Service Worker defines cache version v24');
+assert(swContent.includes('marcel-reader-v25'), 'Service Worker defines cache version v25');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -473,21 +475,21 @@ assert(laFinDesTemps.paragraphs.length === 930, `${laFinDesTemps.titleEn}: Conta
 assert(laFinDesTemps.sections.length === 3, `${laFinDesTemps.titleEn}: Defines all III Acts`);
 
 assert(croissezEtMultipliez.unabridged === true, `${croissezEtMultipliez.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(croissezEtMultipliez.paragraphs.length === 105, `${croissezEtMultipliez.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(croissezEtMultipliez.paragraphs.length === 1000, `${croissezEtMultipliez.titleEn}: Contains complete 1,000 verbatim dialogue rows`);
 assert(croissezEtMultipliez.sections.length === 4, `${croissezEtMultipliez.titleEn}: Defines all IV Acts`);
 
 assert(monTemps.unabridged === true, `${monTemps.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(monTemps.paragraphs.length === 105, `${monTemps.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(monTemps.paragraphs.length === 1100, `${monTemps.titleEn}: Contains complete 1,100 verbatim dialogue rows`);
 assert(monTemps.sections.length === 5, `${monTemps.titleEn}: Defines all V Acts`);
 
 assert(laDimensionFlorestan.unabridged === true, `${laDimensionFlorestan.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(laDimensionFlorestan.paragraphs.length === 105, `${laDimensionFlorestan.titleEn}: Contains complete 105 verbatim dialogue rows`);
+assert(laDimensionFlorestan.paragraphs.length === 900, `${laDimensionFlorestan.titleEn}: Contains complete 900 verbatim dialogue rows`);
 assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.titleEn}: Defines all III Acts`);
 
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 20000, `Total unabridged rows across 42 masterworks equals 20,000 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 22685, `Total unabridged rows across 42 masterworks equals 22,685 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1537,80 +1539,80 @@ window.selectSection('all');
 const lfdtAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(lfdtAllRestored === 930, `All 930 dialogue rows restored upon selecting "All Sections" for La Fin des temps`);
 
-// 39. Test Switch to Croissez et multipliez (Verbatim 105 dialogue rows across 4 Acts)
+// 39. Test Switch to Croissez et multipliez (Verbatim 1,000 dialogue rows across 4 Acts)
 window.switchWork('croissez-et-multipliez');
 const cemRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(cemRows === 105, `Rendered full 105 verbatim dialogue rows for Croissez et multipliez (actual: ${cemRows})`);
+assert(cemRows === 250, `Smart default renders Act I (250 dialogue rows) for Croissez et multipliez (actual: ${cemRows})`);
 
 window.selectSection('act-1');
 const cemAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(cemAct1Rows === 27, `Croissez et multipliez Act I filtered to exactly 27 dialogue rows (actual: ${cemAct1Rows})`);
+assert(cemAct1Rows === 250, `Croissez et multipliez Act I filtered to exactly 250 dialogue rows (actual: ${cemAct1Rows})`);
 
 window.selectSection('act-2');
 const cemAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(cemAct2Rows === 26, `Croissez et multipliez Act II filtered to exactly 26 dialogue rows (actual: ${cemAct2Rows})`);
+assert(cemAct2Rows === 250, `Croissez et multipliez Act II filtered to exactly 250 dialogue rows (actual: ${cemAct2Rows})`);
 
 window.selectSection('act-3');
 const cemAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(cemAct3Rows === 26, `Croissez et multipliez Act III filtered to exactly 26 dialogue rows (actual: ${cemAct3Rows})`);
+assert(cemAct3Rows === 250, `Croissez et multipliez Act III filtered to exactly 250 dialogue rows (actual: ${cemAct3Rows})`);
 
 window.selectSection('act-4');
 const cemAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(cemAct4Rows === 26, `Croissez et multipliez Act IV filtered to exactly 26 dialogue rows (actual: ${cemAct4Rows})`);
+assert(cemAct4Rows === 250, `Croissez et multipliez Act IV filtered to exactly 250 dialogue rows (actual: ${cemAct4Rows})`);
 
 window.selectSection('all');
 const cemAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(cemAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Croissez et multipliez`);
+assert(cemAllRestored === 1000, `All 1,000 dialogue rows restored upon selecting "All Sections" for Croissez et multipliez`);
 
-// 40. Test Switch to Mon temps n'est pas le vôtre (Verbatim 105 dialogue rows across 5 Acts)
+// 40. Test Switch to Mon temps n'est pas le vôtre (Verbatim 1,100 dialogue rows across 5 Acts)
 window.switchWork('mon-temps-nest-pas-le-votre');
 const mtnpRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mtnpRows === 105, `Rendered full 105 verbatim dialogue rows for Mon temps n'est pas le vôtre (actual: ${mtnpRows})`);
+assert(mtnpRows === 220, `Smart default renders Act I (220 dialogue rows) for Mon temps n'est pas le vôtre (actual: ${mtnpRows})`);
 
 window.selectSection('act-1');
 const mtnpAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mtnpAct1Rows === 21, `Mon temps n'est pas le vôtre Act I filtered to exactly 21 dialogue rows (actual: ${mtnpAct1Rows})`);
+assert(mtnpAct1Rows === 220, `Mon temps n'est pas le vôtre Act I filtered to exactly 220 dialogue rows (actual: ${mtnpAct1Rows})`);
 
 window.selectSection('act-2');
 const mtnpAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mtnpAct2Rows === 21, `Mon temps n'est pas le vôtre Act II filtered to exactly 21 dialogue rows (actual: ${mtnpAct2Rows})`);
+assert(mtnpAct2Rows === 220, `Mon temps n'est pas le vôtre Act II filtered to exactly 220 dialogue rows (actual: ${mtnpAct2Rows})`);
 
 window.selectSection('act-3');
 const mtnpAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mtnpAct3Rows === 21, `Mon temps n'est pas le vôtre Act III filtered to exactly 21 dialogue rows (actual: ${mtnpAct3Rows})`);
+assert(mtnpAct3Rows === 220, `Mon temps n'est pas le vôtre Act III filtered to exactly 220 dialogue rows (actual: ${mtnpAct3Rows})`);
 
 window.selectSection('act-4');
 const mtnpAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mtnpAct4Rows === 21, `Mon temps n'est pas le vôtre Act IV filtered to exactly 21 dialogue rows (actual: ${mtnpAct4Rows})`);
+assert(mtnpAct4Rows === 220, `Mon temps n'est pas le vôtre Act IV filtered to exactly 220 dialogue rows (actual: ${mtnpAct4Rows})`);
 
 window.selectSection('act-5');
 const mtnpAct5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mtnpAct5Rows === 21, `Mon temps n'est pas le vôtre Act V filtered to exactly 21 dialogue rows (actual: ${mtnpAct5Rows})`);
+assert(mtnpAct5Rows === 220, `Mon temps n'est pas le vôtre Act V filtered to exactly 220 dialogue rows (actual: ${mtnpAct5Rows})`);
 
 window.selectSection('all');
 const mtnpAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mtnpAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for Mon temps n'est pas le vôtre`);
+assert(mtnpAllRestored === 1100, `All 1,100 dialogue rows restored upon selecting "All Sections" for Mon temps n'est pas le vôtre`);
 
-// 41. Test Switch to La Dimension Florestan (Verbatim 105 dialogue rows across 3 Acts)
+// 41. Test Switch to La Dimension Florestan (Verbatim 900 dialogue rows across 3 Acts)
 window.switchWork('la-dimension-florestan');
 const ldfRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldfRows === 105, `Rendered full 105 verbatim dialogue rows for La Dimension Florestan (actual: ${ldfRows})`);
+assert(ldfRows === 300, `Smart default renders Act I (300 dialogue rows) for La Dimension Florestan (actual: ${ldfRows})`);
 
 window.selectSection('act-1');
 const ldfAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldfAct1Rows === 35, `La Dimension Florestan Act I filtered to exactly 35 dialogue rows (actual: ${ldfAct1Rows})`);
+assert(ldfAct1Rows === 300, `La Dimension Florestan Act I filtered to exactly 300 dialogue rows (actual: ${ldfAct1Rows})`);
 
 window.selectSection('act-2');
 const ldfAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldfAct2Rows === 35, `La Dimension Florestan Act II filtered to exactly 35 dialogue rows (actual: ${ldfAct2Rows})`);
+assert(ldfAct2Rows === 300, `La Dimension Florestan Act II filtered to exactly 300 dialogue rows (actual: ${ldfAct2Rows})`);
 
 window.selectSection('act-3');
 const ldfAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldfAct3Rows === 35, `La Dimension Florestan Act III filtered to exactly 35 dialogue rows (actual: ${ldfAct3Rows})`);
+assert(ldfAct3Rows === 300, `La Dimension Florestan Act III filtered to exactly 300 dialogue rows (actual: ${ldfAct3Rows})`);
 
 window.selectSection('all');
 const ldfAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ldfAllRestored === 105, `All 105 dialogue rows restored upon selecting "All Sections" for La Dimension Florestan`);
+assert(ldfAllRestored === 900, `All 900 dialogue rows restored upon selecting "All Sections" for La Dimension Florestan`);
 
 
 
@@ -1830,18 +1832,18 @@ const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
 assert(meta.lastUpdated === '2026-09-29', 'Corpus metadata lastUpdated is 2026-09-29');
-assert(meta.version === 'Wave 18', 'Corpus metadata version is Wave 18');
+assert(meta.version === 'Wave 19', 'Corpus metadata version is Wave 19');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 27, 'Corpus metadata reports 27 unabridged flagship works');
-assert(meta.foundationalWorks === 15, 'Corpus metadata reports 15 foundational study editions');
-assert(meta.totalUnabridgedRows === 20000, 'Corpus metadata reports 20,000 unabridged rows');
+assert(meta.unabridgedWorks === 30, 'Corpus metadata reports 30 unabridged flagship works');
+assert(meta.foundationalWorks === 12, 'Corpus metadata reports 12 foundational study editions');
+assert(meta.totalUnabridgedRows === 22685, 'Corpus metadata reports 22,685 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
 assert(getEl('last-updated-date').textContent.includes('September 29, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 18', 'Hero last-updated-version populated with Wave 18');
+assert(getEl('last-updated-version').textContent === 'Wave 19', 'Hero last-updated-version populated with Wave 19');
 assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
