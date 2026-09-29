@@ -119,7 +119,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v26'), 'Service Worker defines cache version v26');
+assert(swContent.includes('marcel-reader-v27'), 'Service Worker defines cache version v27');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -435,7 +435,7 @@ assert(lePalaisDeSable.paragraphs.length === 1040, `${lePalaisDeSable.titleEn}: 
 assert(lePalaisDeSable.sections.length === 4, `${lePalaisDeSable.titleEn}: Defines all IV Acts`);
 
 assert(laGrace.unabridged === true, `${laGrace.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(laGrace.paragraphs.length === 100, `${laGrace.titleEn}: Contains complete 100 verbatim dialogue rows`);
+assert(laGrace.paragraphs.length === 900, `${laGrace.titleEn}: Contains complete 900 verbatim dialogue rows`);
 assert(laGrace.sections.length === 3, `${laGrace.titleEn}: Defines all III Acts`);
 
 assert(leCoeurDesAutres.unabridged === true, `${leCoeurDesAutres.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -459,11 +459,11 @@ assert(laSoif.paragraphs.length === 960, `${laSoif.titleEn}: Contains complete 9
 assert(laSoif.sections.length === 3, `${laSoif.titleEn}: Defines all III Acts`);
 
 assert(leFanal.unabridged === true, `${leFanal.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(leFanal.paragraphs.length === 100, `${leFanal.titleEn}: Contains complete 100 verbatim dialogue rows`);
+assert(leFanal.paragraphs.length === 700, `${leFanal.titleEn}: Contains complete 700 verbatim dialogue rows`);
 assert(leFanal.sections.length === 2, `${leFanal.titleEn}: Defines all II Acts`);
 
 assert(leSigneDeLaCroix.unabridged === true, `${leSigneDeLaCroix.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(leSigneDeLaCroix.paragraphs.length === 100, `${leSigneDeLaCroix.titleEn}: Contains complete 100 verbatim dialogue rows`);
+assert(leSigneDeLaCroix.paragraphs.length === 800, `${leSigneDeLaCroix.titleEn}: Contains complete 800 verbatim dialogue rows`);
 assert(leSigneDeLaCroix.sections.length === 2, `${leSigneDeLaCroix.titleEn}: Defines all II Acts`);
 
 assert(lemissaire.unabridged === true, `${lemissaire.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -489,7 +489,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 25470, `Total unabridged rows across 42 masterworks equals 25,470 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 27570, `Total unabridged rows across 42 masterworks equals 27,570 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1329,26 +1329,26 @@ window.selectSection('all');
 const pdsAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(pdsAllRestored === 1040, `All 1,040 dialogue rows restored upon selecting "All Sections" for Le Palais de sable`);
 
-// 29. Test Switch to La Grâce (Verbatim 100 dialogue rows across 3 Acts)
+// 29. Test Switch to La Grâce (Verbatim 900 dialogue rows across 3 Acts)
 window.switchWork('la-grace');
 const lagRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lagRows === 100, `Rendered full 100 verbatim dialogue rows for La Grâce (actual: ${lagRows})`);
+assert(lagRows === 300, `Smart default renders Act I (300 dialogue rows) for La Grâce (actual: ${lagRows})`);
 
 window.selectSection('act-1');
 const lagAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lagAct1Rows === 34, `La Grâce Act I filtered to exactly 34 dialogue rows (actual: ${lagAct1Rows})`);
+assert(lagAct1Rows === 300, `La Grâce Act I filtered to exactly 300 dialogue rows (actual: ${lagAct1Rows})`);
 
 window.selectSection('act-2');
 const lagAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lagAct2Rows === 33, `La Grâce Act II filtered to exactly 33 dialogue rows (actual: ${lagAct2Rows})`);
+assert(lagAct2Rows === 300, `La Grâce Act II filtered to exactly 300 dialogue rows (actual: ${lagAct2Rows})`);
 
 window.selectSection('act-3');
 const lagAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lagAct3Rows === 33, `La Grâce Act III filtered to exactly 33 dialogue rows (actual: ${lagAct3Rows})`);
+assert(lagAct3Rows === 300, `La Grâce Act III filtered to exactly 300 dialogue rows (actual: ${lagAct3Rows})`);
 
 window.selectSection('all');
 const lagAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lagAllRestored === 100, `All 100 dialogue rows restored upon selecting "All Sections" for La Grâce`);
+assert(lagAllRestored === 900, `All 900 dialogue rows restored upon selecting "All Sections" for La Grâce`);
 
 // 30. Test Switch to Le Cœur des autres (Unabridged 979 dialogue rows across 3 Acts)
 window.switchWork('le-coeur-des-autres');
@@ -1463,39 +1463,39 @@ window.selectSection('all');
 const lsAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(lsAllRestored === 960, `All 960 dialogue rows restored upon selecting "All Sections" for La Soif`);
 
-// 35. Test Switch to Le Fanal (Verbatim 100 dialogue rows across 2 Acts)
+// 35. Test Switch to Le Fanal (Verbatim 700 dialogue rows across 2 Acts)
 window.switchWork('le-fanal');
 const lfRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lfRows === 100, `Rendered full 100 verbatim dialogue rows for Le Fanal (actual: ${lfRows})`);
+assert(lfRows === 350, `Smart default renders Act I (350 dialogue rows) for Le Fanal (actual: ${lfRows})`);
 
 window.selectSection('act-1');
 const lfAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lfAct1Rows === 50, `Le Fanal Act I filtered to exactly 50 dialogue rows (actual: ${lfAct1Rows})`);
+assert(lfAct1Rows === 350, `Le Fanal Act I filtered to exactly 350 dialogue rows (actual: ${lfAct1Rows})`);
 
 window.selectSection('act-2');
 const lfAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lfAct2Rows === 50, `Le Fanal Act II filtered to exactly 50 dialogue rows (actual: ${lfAct2Rows})`);
+assert(lfAct2Rows === 350, `Le Fanal Act II filtered to exactly 350 dialogue rows (actual: ${lfAct2Rows})`);
 
 window.selectSection('all');
 const lfAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lfAllRestored === 100, `All 100 dialogue rows restored upon selecting "All Sections" for Le Fanal`);
+assert(lfAllRestored === 700, `All 700 dialogue rows restored upon selecting "All Sections" for Le Fanal`);
 
-// 36. Test Switch to Le Signe de la croix (Verbatim 100 dialogue rows across 2 Acts)
+// 36. Test Switch to Le Signe de la croix (Verbatim 800 dialogue rows across 2 Acts)
 window.switchWork('le-signe-de-la-croix');
 const lscRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lscRows === 100, `Rendered full 100 verbatim dialogue rows for Le Signe de la croix (actual: ${lscRows})`);
+assert(lscRows === 400, `Smart default renders Act I (400 dialogue rows) for Le Signe de la croix (actual: ${lscRows})`);
 
 window.selectSection('act-1');
 const lscAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lscAct1Rows === 50, `Le Signe de la croix Act I filtered to exactly 50 dialogue rows (actual: ${lscAct1Rows})`);
+assert(lscAct1Rows === 400, `Le Signe de la croix Act I filtered to exactly 400 dialogue rows (actual: ${lscAct1Rows})`);
 
 window.selectSection('act-2');
 const lscAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lscAct2Rows === 50, `Le Signe de la croix Act II filtered to exactly 50 dialogue rows (actual: ${lscAct2Rows})`);
+assert(lscAct2Rows === 400, `Le Signe de la croix Act II filtered to exactly 400 dialogue rows (actual: ${lscAct2Rows})`);
 
 window.selectSection('all');
 const lscAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(lscAllRestored === 100, `All 100 dialogue rows restored upon selecting "All Sections" for Le Signe de la croix`);
+assert(lscAllRestored === 800, `All 800 dialogue rows restored upon selecting "All Sections" for Le Signe de la croix`);
 
 // 37. Test Switch to L'Émissaire (Verbatim 900 dialogue rows across 3 Acts)
 window.switchWork('lemissaire');
@@ -1832,18 +1832,18 @@ const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
 assert(meta.lastUpdated === '2026-09-29', 'Corpus metadata lastUpdated is 2026-09-29');
-assert(meta.version === 'Wave 20', 'Corpus metadata version is Wave 20');
+assert(meta.version === 'Wave 21', 'Corpus metadata version is Wave 21');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 33, 'Corpus metadata reports 33 unabridged flagship works');
-assert(meta.foundationalWorks === 9, 'Corpus metadata reports 9 foundational study editions');
-assert(meta.totalUnabridgedRows === 25470, 'Corpus metadata reports 25,470 unabridged rows');
+assert(meta.unabridgedWorks === 36, 'Corpus metadata reports 36 unabridged flagship works');
+assert(meta.foundationalWorks === 6, 'Corpus metadata reports 6 foundational study editions');
+assert(meta.totalUnabridgedRows === 27570, 'Corpus metadata reports 27,570 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
 assert(getEl('last-updated-date').textContent.includes('September 29, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 20', 'Hero last-updated-version populated with Wave 20');
+assert(getEl('last-updated-version').textContent === 'Wave 21', 'Hero last-updated-version populated with Wave 21');
 assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 

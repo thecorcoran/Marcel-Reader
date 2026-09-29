@@ -398,7 +398,7 @@
       "companionTitle": "Metaphysical Journal (1927)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 100 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 900 Dialogue Rows, 90k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : La chambre du sanatorium et l'ombre du passé", "titleEn": "Act I: The Sanatorium Room and the Shadow of the Past" },
         { "id": "act-2", "titleFr": "Acte II : Le conflit des fiertés et l'aveu déchirant", "titleEn": "Act II: The Conflict of Prides and the Heartbreaking Confession" },
@@ -555,7 +555,7 @@
       "companionTitle": "Creative Fidelity (1940)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (2 Acts, 100 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (2 Acts, 700 Dialogue Rows, 70k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : La maison de campagne et l'ombre du deuil maternel", "titleEn": "Act I: The Country House and the Shadow of Maternal Mourning" },
         { "id": "act-2", "titleFr": "Acte II : La lumière du fanal et la fidélité transfigurée", "titleEn": "Act II: The Light of the Lantern and Transfigured Fidelity" }
@@ -571,7 +571,7 @@
       "companionTitle": "Homo Viator: Introduction to a Metaphysic of Hope (1944)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (2 Acts, 100 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (2 Acts, 800 Dialogue Rows, 80k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : La menace des rafles et le fardeau de la solidarité", "titleEn": "Act I: The Threat of Roundups and the Burden of Solidarity" },
         { "id": "act-2", "titleFr": "Acte II : L'épreuve de la croix et la fraternité inviolable", "titleEn": "Act II: The Ordeal of the Cross and Inviolable Brotherhood" }
@@ -798,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 20",
+    version: "Wave 21",
     totalWorks: 42,
-    unabridgedWorks: 33,
-    foundationalWorks: 9,
-    totalUnabridgedRows: 25470,
-    totalCorpusRows: 25470,
-    totalWordsEstimate: "2,550,000+"
+    unabridgedWorks: 36,
+    foundationalWorks: 6,
+    totalUnabridgedRows: 27570,
+    totalCorpusRows: 27570,
+    totalWordsEstimate: "2,750,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {
