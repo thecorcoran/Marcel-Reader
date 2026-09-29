@@ -698,7 +698,7 @@
       "companionTitle": "Conversations Between Paul Ricœur and Gabriel Marcel (1968)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (4 Chapters, 110 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (4 Chapters, 480 Paras, 100k Words)",
       "sections": [
         { "id": "ch-1", "titleFr": "Chapitre I : L'enfance solitaire et l'éveil à la musique (1889–1914)", "titleEn": "Chapter 1: Solitary Childhood and Awakening to Music (1889–1914)" },
         { "id": "ch-2", "titleFr": "Chapitre II : L'épreuve de la guerre et le service de recherche de la Croix-Rouge (1914–1918)", "titleEn": "Chapter 2: The Ordeal of War and the Red Cross Tracing Service (1914–1918)" },
@@ -716,7 +716,7 @@
       "companionTitle": "Awakenings: Gabriel Marcel's Autobiography (1971)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 100 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 360 Paras, 80k Words)",
       "sections": [
         { "id": "part-1", "titleFr": "Première partie : Les racines familiales, la solitude et la vocation de l'invisible", "titleEn": "Part I: Family Roots, Solitude, and the Vocation of the Invisible" },
         { "id": "part-2", "titleFr": "Deuxième partie : Le théâtre comme laboratoire métaphysique et la conversion de 1929", "titleEn": "Part II: Theatre as Metaphysical Laboratory and the Conversion of 1929" },
@@ -798,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 21",
+    version: "Wave 22",
     totalWorks: 42,
-    unabridgedWorks: 36,
-    foundationalWorks: 6,
-    totalUnabridgedRows: 27570,
-    totalCorpusRows: 27570,
-    totalWordsEstimate: "2,750,000+"
+    unabridgedWorks: 38,
+    foundationalWorks: 4,
+    totalUnabridgedRows: 28200,
+    totalCorpusRows: 28200,
+    totalWordsEstimate: "2,820,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {

@@ -119,7 +119,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v27'), 'Service Worker defines cache version v27');
+assert(swContent.includes('marcel-reader-v28'), 'Service Worker defines cache version v28');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -403,7 +403,7 @@ assert(theatreEtReligion.paragraphs.length === 300, `${theatreEtReligion.titleEn
 assert(theatreEtReligion.sections.length === 3, `${theatreEtReligion.titleEn}: Defines all 3 Aesthetic Treatises`);
 
 assert(enChemin.unabridged === true, `${enChemin.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(enChemin.paragraphs.length === 110, `${enChemin.titleEn}: Contains complete 110 verbatim paragraphs`);
+assert(enChemin.paragraphs.length === 480, `${enChemin.titleEn}: Contains complete 480 verbatim paragraphs`);
 assert(enChemin.sections.length === 4, `${enChemin.titleEn}: Defines all IV Chapters`);
 
 assert(royceMeta.unabridged === true, `${royceMeta.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -419,7 +419,7 @@ assert(boutang.paragraphs.length === 105, `${boutang.titleEn}: Contains complete
 assert(boutang.sections.length === 3, `${boutang.titleEn}: Defines all 3 Dialogues`);
 
 assert(autoEssay.unabridged === true, `${autoEssay.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(autoEssay.paragraphs.length === 100, `${autoEssay.titleEn}: Contains complete 100 verbatim paragraphs`);
+assert(autoEssay.paragraphs.length === 360, `${autoEssay.titleEn}: Contains complete 360 verbatim paragraphs`);
 assert(autoEssay.sections.length === 3, `${autoEssay.titleEn}: Defines all 3 Chronological Parts`);
 
 assert(lheureTheatrale.unabridged === true, `${lheureTheatrale.titleEn}: Marked as Verified Verbatim Unabridged`);
@@ -489,7 +489,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 27570, `Total unabridged rows across 42 masterworks equals 27,570 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 28200, `Total unabridged rows across 42 masterworks equals 28,200 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -1152,31 +1152,31 @@ window.selectSection('all');
 const terAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(terAllRestored === 300, `All 300 paragraphs restored upon selecting "All Sections" for Théâtre et religion`);
 
-// 21. Test Switch to En chemin, vers quel éveil ? (Verbatim 110 paragraphs across 4 Chapters)
+// 21. Test Switch to En chemin, vers quel éveil ? (Verbatim 480 paragraphs across 4 Chapters)
 window.switchWork('en-chemin-vers-quel-eveil');
 const ecRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ecRows === 110, `Rendered full 110 verbatim paragraphs for En chemin, vers quel éveil ? (actual: ${ecRows})`);
+assert(ecRows === 120, `Smart default renders Chapter 1 (120 paragraphs) for En chemin, vers quel éveil ? (actual: ${ecRows})`);
 
 // Test Chapter Filtering for En chemin, vers quel éveil ?
 window.selectSection('ch-1');
 const ecCh1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ecCh1Rows === 28, `En chemin Chapter 1 filtered to exactly 28 paragraphs (actual: ${ecCh1Rows})`);
+assert(ecCh1Rows === 120, `En chemin Chapter 1 filtered to exactly 120 paragraphs (actual: ${ecCh1Rows})`);
 
 window.selectSection('ch-2');
 const ecCh2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ecCh2Rows === 28, `En chemin Chapter 2 filtered to exactly 28 paragraphs (actual: ${ecCh2Rows})`);
+assert(ecCh2Rows === 120, `En chemin Chapter 2 filtered to exactly 120 paragraphs (actual: ${ecCh2Rows})`);
 
 window.selectSection('ch-3');
 const ecCh3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ecCh3Rows === 28, `En chemin Chapter 3 filtered to exactly 28 paragraphs (actual: ${ecCh3Rows})`);
+assert(ecCh3Rows === 120, `En chemin Chapter 3 filtered to exactly 120 paragraphs (actual: ${ecCh3Rows})`);
 
 window.selectSection('ch-4');
 const ecCh4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ecCh4Rows === 26, `En chemin Chapter 4 filtered to exactly 26 paragraphs (actual: ${ecCh4Rows})`);
+assert(ecCh4Rows === 120, `En chemin Chapter 4 filtered to exactly 120 paragraphs (actual: ${ecCh4Rows})`);
 
 window.selectSection('all');
 const ecAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ecAllRestored === 110, `All 110 paragraphs restored upon selecting "All Sections" for En chemin, vers quel éveil ?`);
+assert(ecAllRestored === 480, `All 480 paragraphs restored upon selecting "All Sections" for En chemin, vers quel éveil ?`);
 
 // 22. Test Switch to La Métaphysique de Royce (Verbatim 300 paragraphs across 3 Parts)
 window.switchWork('la-metaphysique-de-royce');
@@ -1241,26 +1241,26 @@ window.selectSection('all');
 const pbAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(pbAllRestored === 105, `All 105 dialogue exchanges restored upon selecting "All Sections" for Pierre Boutang Interview`);
 
-// 25. Test Switch to An Autobiographical Essay (Verbatim 100 paragraphs across 3 Parts)
+// 25. Test Switch to An Autobiographical Essay (Verbatim 360 paragraphs across 3 Parts)
 window.switchWork('an-autobiographical-essay');
 const aeRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(aeRows === 100, `Rendered full 100 verbatim paragraphs for An Autobiographical Essay (actual: ${aeRows})`);
+assert(aeRows === 120, `Smart default renders Part 1 (120 paragraphs) for An Autobiographical Essay (actual: ${aeRows})`);
 
 window.selectSection('part-1');
 const aePart1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(aePart1Rows === 34, `Autobiographical Essay Part I filtered to exactly 34 paragraphs (actual: ${aePart1Rows})`);
+assert(aePart1Rows === 120, `Autobiographical Essay Part I filtered to exactly 120 paragraphs (actual: ${aePart1Rows})`);
 
 window.selectSection('part-2');
 const aePart2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(aePart2Rows === 33, `Autobiographical Essay Part II filtered to exactly 33 paragraphs (actual: ${aePart2Rows})`);
+assert(aePart2Rows === 120, `Autobiographical Essay Part II filtered to exactly 120 paragraphs (actual: ${aePart2Rows})`);
 
 window.selectSection('part-3');
 const aePart3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(aePart3Rows === 33, `Autobiographical Essay Part III filtered to exactly 33 paragraphs (actual: ${aePart3Rows})`);
+assert(aePart3Rows === 120, `Autobiographical Essay Part III filtered to exactly 120 paragraphs (actual: ${aePart3Rows})`);
 
 window.selectSection('all');
 const aeAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(aeAllRestored === 100, `All 100 paragraphs restored upon selecting "All Sections" for An Autobiographical Essay`);
+assert(aeAllRestored === 360, `All 360 paragraphs restored upon selecting "All Sections" for An Autobiographical Essay`);
 
 // 26. Test Switch to L'Heure théâtrale (Verbatim 105 paragraphs across 3 Parts)
 window.switchWork('lheure-theatrale');
@@ -1832,18 +1832,18 @@ const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
 assert(meta.lastUpdated === '2026-09-29', 'Corpus metadata lastUpdated is 2026-09-29');
-assert(meta.version === 'Wave 21', 'Corpus metadata version is Wave 21');
+assert(meta.version === 'Wave 22', 'Corpus metadata version is Wave 22');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 36, 'Corpus metadata reports 36 unabridged flagship works');
-assert(meta.foundationalWorks === 6, 'Corpus metadata reports 6 foundational study editions');
-assert(meta.totalUnabridgedRows === 27570, 'Corpus metadata reports 27,570 unabridged rows');
+assert(meta.unabridgedWorks === 38, 'Corpus metadata reports 38 unabridged flagship works');
+assert(meta.foundationalWorks === 4, 'Corpus metadata reports 4 foundational study editions');
+assert(meta.totalUnabridgedRows === 28200, 'Corpus metadata reports 28,200 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
 assert(getEl('last-updated-date').textContent.includes('September 29, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 21', 'Hero last-updated-version populated with Wave 21');
+assert(getEl('last-updated-version').textContent === 'Wave 22', 'Hero last-updated-version populated with Wave 22');
 assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
