@@ -538,7 +538,7 @@
       "companionTitle": "Homo Viator: Introduction to a Metaphysic of Hope (1944)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 960 Rows, ~48k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le salon intellectuel et la soif d'absolu", "titleEn": "Act I: The Intellectual Salon and the Thirst for the Absolute" },
         { "id": "act-2", "titleFr": "Acte II : L'indigence affective et les cœurs avides", "titleEn": "Act II: Emotional Destitution and Eager Hearts" },
@@ -587,7 +587,7 @@
       "companionTitle": "The Existential Background of Human Dignity (1964)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 900 Rows, ~45k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le retour de l'émissaire et l'ombre des compromissions", "titleEn": "Act I: The Emissary's Return and the Shadow of Compromise" },
         { "id": "act-2", "titleFr": "Acte II : Le tribunal des consciences et la tentation de la vengeance", "titleEn": "Act II: The Tribunal of Consciences and the Temptation of Vengeance" },
@@ -604,7 +604,7 @@
       "companionTitle": "Men Against Humanity (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 105 Rows)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Acts, 930 Rows, ~46k Words)",
       "sections": [
         { "id": "act-1", "titleFr": "Acte I : Le domaine de Saint-Cyr et la menace de l'apocalypse atomique", "titleEn": "Act I: The Saint-Cyr Estate and the Threat of Atomic Apocalypse" },
         { "id": "act-2", "titleFr": "Acte II : La séduction nihiliste et le vertige de l'anéantissement", "titleEn": "Act II: Nihilistic Seduction and the Vertigo of Annihilation" },
@@ -798,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 17",
+    version: "Wave 18",
     totalWorks: 42,
-    unabridgedWorks: 24,
-    foundationalWorks: 18,
-    totalUnabridgedRows: 17525,
-    totalCorpusRows: 17525,
-    totalWordsEstimate: "1,850,000+"
+    unabridgedWorks: 27,
+    foundationalWorks: 15,
+    totalUnabridgedRows: 20000,
+    totalCorpusRows: 20000,
+    totalWordsEstimate: "2,000,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {

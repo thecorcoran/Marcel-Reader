@@ -882,7 +882,7 @@ function initLastUpdatedDisplay() {
   const meta = (window.MARCEL_CORPUS_METADATA) || (window.MARCEL_CORPUS && window.MARCEL_CORPUS.metadata) || {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 17"
+    version: "Wave 18"
   };
 
   const heroDate = document.getElementById("last-updated-date");
@@ -1112,11 +1112,11 @@ function renderMainCatalog(filter = 'all', query = '') {
       else if (w.id === 'liconoclaste') scaleInfo = '105 Dialogue Rows • IV Dramatic Acts';
       else if (w.id === 'le-quatuor-en-fa-diese') scaleInfo = '105 Dialogue Rows • V Dramatic Acts';
       else if (w.id === 'le-regard-neuf') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
-      else if (w.id === 'la-soif') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'la-soif') scaleInfo = '960 Dialogue Rows • III Dramatic Acts';
       else if (w.id === 'le-fanal') scaleInfo = '100 Dialogue Rows • II Dramatic Acts';
       else if (w.id === 'le-signe-de-la-croix') scaleInfo = '100 Dialogue Rows • II Dramatic Acts';
-      else if (w.id === 'lemissaire') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
-      else if (w.id === 'la-fin-des-temps') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'lemissaire') scaleInfo = '900 Dialogue Rows • III Dramatic Acts';
+      else if (w.id === 'la-fin-des-temps') scaleInfo = '930 Dialogue Rows • III Dramatic Acts';
       else if (w.id === 'croissez-et-multipliez') scaleInfo = '105 Dialogue Rows • IV Dramatic Acts';
       else if (w.id === 'mon-temps-nest-pas-le-votre') scaleInfo = '105 Dialogue Rows • V Dramatic Acts';
       else if (w.id === 'la-dimension-florestan') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
