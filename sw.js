@@ -1,7 +1,7 @@
 /**
  * Gabriel Marcel Reader — Service Worker (PWA Offline Engine)
  */
-const CACHE_NAME = 'marcel-reader-v22';
+const CACHE_NAME = 'marcel-reader-v23';
 const PRECACHE_ASSETS = [
   './',
   './index.html',

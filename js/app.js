@@ -882,7 +882,7 @@ function initLastUpdatedDisplay() {
   const meta = (window.MARCEL_CORPUS_METADATA) || (window.MARCEL_CORPUS && window.MARCEL_CORPUS.metadata) || {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 16"
+    version: "Wave 17"
   };
 
   const heroDate = document.getElementById("last-updated-date");
@@ -1098,10 +1098,10 @@ function renderMainCatalog(filter = 'all', query = '') {
       else if (w.id === 'la-chapelle-ardente') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
       else if (w.id === 'le-chemin-de-crete') scaleInfo = '110 Dialogue Rows • IV Dramatic Acts';
       else if (w.id === 'le-declin-de-la-sagesse') scaleInfo = '100 Aligned Paragraphs • 3 Parts';
-      else if (w.id === 'theatre-et-religion') scaleInfo = '100 Aligned Paragraphs • 3 Aesthetic Treatises';
+      else if (w.id === 'theatre-et-religion') scaleInfo = '300 Aligned Paragraphs • 3 Aesthetic Treatises';
       else if (w.id === 'en-chemin-vers-quel-eveil') scaleInfo = '110 Aligned Paragraphs • IV Chapters';
-      else if (w.id === 'la-metaphysique-de-royce') scaleInfo = '100 Aligned Paragraphs • 3 Parts';
-      else if (w.id === 'fragments-philosophiques') scaleInfo = '100 Aligned Paragraphs • 3 Sections';
+      else if (w.id === 'la-metaphysique-de-royce') scaleInfo = '300 Aligned Paragraphs • 3 Parts';
+      else if (w.id === 'fragments-philosophiques') scaleInfo = '300 Aligned Paragraphs • 3 Sections';
       else if (w.id === 'interroge-par-pierre-boutang') scaleInfo = '105 Dialogue Exchanges • 3 Dialogues';
       else if (w.id === 'an-autobiographical-essay') scaleInfo = '100 Aligned Paragraphs • 3 Parts';
       else if (w.id === 'lheure-theatrale') scaleInfo = '105 Aligned Paragraphs • 3 Parts';

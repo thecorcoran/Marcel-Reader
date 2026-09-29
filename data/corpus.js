@@ -146,7 +146,7 @@
       "companionTitle": "Metaphysical Journal (1927)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 100 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 300 Paras, ~60k Words)",
       "sections": [
         { "id": "part-1", "titleFr": "Première partie : L'idée de Dieu et la communauté d'interprétation", "titleEn": "Part I: The Idea of God and the Community of Interpretation" },
         { "id": "part-2", "titleFr": "Deuxième partie : Le problème de la vérité et l'expérience religieuse", "titleEn": "Part II: The Problem of Truth and Religious Experience" },
@@ -198,7 +198,7 @@
       "companionTitle": "The Broken World (1933)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 100 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 300 Paras, ~60k Words)",
       "sections": [
         { "id": "part-1", "titleFr": "Première partie : L'essence du drame et la situation spirituelle", "titleEn": "Part I: The Essence of Drama and the Spiritual Situation" },
         { "id": "part-2", "titleFr": "Deuxième partie : Théâtre, grâce et transcendance", "titleEn": "Part II: Theatre, Grace, and Transcendence" },
@@ -232,7 +232,7 @@
       "companionTitle": "Metaphysical Journal (1927)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (3 Sections, 100 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Sections, 300 Paras, ~60k Words)",
       "sections": [
         { "id": "sec-1", "titleFr": "Première section : Remarques sur l'objectivité et l'intuition (1909–1911)", "titleEn": "Section I: Remarks on Objectivity and Intuition (1909–1911)" },
         { "id": "sec-2", "titleFr": "Deuxième section : De l'affirmation dialectique à la participation vivante (1912–1913)", "titleEn": "Section II: From Dialectical Affirmation to Living Participation (1912–1913)" },
@@ -798,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 16",
+    version: "Wave 17",
     totalWorks: 42,
-    unabridgedWorks: 21,
-    foundationalWorks: 21,
-    totalUnabridgedRows: 16925,
-    totalCorpusRows: 16925,
-    totalWordsEstimate: "1,775,000+"
+    unabridgedWorks: 24,
+    foundationalWorks: 18,
+    totalUnabridgedRows: 17525,
+    totalCorpusRows: 17525,
+    totalWordsEstimate: "1,850,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {
