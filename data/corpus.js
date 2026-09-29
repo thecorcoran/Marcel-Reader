@@ -215,10 +215,11 @@
       "companionTitle": "Being and Having (1935)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (2 Parts, 110 Entries)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 400 Paras, ~80k Words)",
       "sections": [
         { "id": "sec-1", "titleFr": "Première partie : Journal métaphysique (1938–1943)", "titleEn": "Part I: Metaphysical Journal (1938–1943)" },
-        { "id": "sec-2", "titleFr": "Deuxième partie : Présence et immortalité : Méditations ontologiques", "titleEn": "Part II: Presence and Immortality: Ontological Meditations" }
+        { "id": "sec-2", "titleFr": "Deuxième partie : Présence et immortalité : Méditations ontologiques", "titleEn": "Part II: Presence and Immortality: Ontological Meditations" },
+        { "id": "sec-3", "titleFr": "Troisième partie : Essais complémentaires sur la communion et l'éternité", "titleEn": "Part III: Complementary Essays on Communion and Eternity" }
       ]
     },
     "fragments-philosophiques": {
@@ -248,10 +249,11 @@
       "companionTitle": "Conversations Between Paul Ricœur and Gabriel Marcel (1968)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (2 Parts, 105 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (3 Parts, 450 Paras, ~90k Words)",
       "sections": [
         { "id": "sec-1", "titleFr": "Première partie : Le tragique contemporain et l'exigence sacrale", "titleEn": "Part I: Contemporary Tragedy and the Sacral Exigence" },
-        { "id": "sec-2", "titleFr": "Deuxième partie : La transcendance, la grâce et le salut", "titleEn": "Part II: Transcendence, Grace, and Salvation" }
+        { "id": "sec-2", "titleFr": "Deuxième partie : La transcendance, la grâce et le salut", "titleEn": "Part II: Transcendence, Grace, and Salvation" },
+        { "id": "sec-3", "titleFr": "Troisième partie : Au-delà du tragique : L'espérance et la paix de l'être", "titleEn": "Part III: Beyond the Tragic: Hope and the Peace of Being" }
       ]
     },
 
@@ -796,13 +798,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 15",
+    version: "Wave 16",
     totalWorks: 42,
-    unabridgedWorks: 19,
-    foundationalWorks: 23,
-    totalUnabridgedRows: 16290,
-    totalCorpusRows: 16290,
-    totalWordsEstimate: "1,740,000+"
+    unabridgedWorks: 21,
+    foundationalWorks: 21,
+    totalUnabridgedRows: 16925,
+    totalCorpusRows: 16925,
+    totalWordsEstimate: "1,775,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {

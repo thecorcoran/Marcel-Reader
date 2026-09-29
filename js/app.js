@@ -882,7 +882,7 @@ function initLastUpdatedDisplay() {
   const meta = (window.MARCEL_CORPUS_METADATA) || (window.MARCEL_CORPUS && window.MARCEL_CORPUS.metadata) || {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 15"
+    version: "Wave 16"
   };
 
   const heroDate = document.getElementById("last-updated-date");
@@ -1092,9 +1092,9 @@ function renderMainCatalog(filter = 'all', query = '') {
       else if (w.id === 'les-hommes-contre-lhumain') scaleInfo = '105 Aligned Paragraphs • 2 Major Parts';
       else if (w.id === 'la-dignite-humaine') scaleInfo = '95 Aligned Paragraphs • 6 Harvard Lectures';
       else if (w.id === 'lhomme-problematique') scaleInfo = '105 Aligned Paragraphs • 2 Sections';
-      else if (w.id === 'presence-et-immortalite') scaleInfo = '110 Aligned Entries • 2 Parts';
+      else if (w.id === 'presence-et-immortalite') scaleInfo = '400 Aligned Entries • 3 Parts';
       else if (w.id === 'entretiens-paul-ricoeur') scaleInfo = '105 Dialogue Exchanges • 3 Dialogues';
-      else if (w.id === 'pour-une-sagesse-tragique') scaleInfo = '105 Aligned Paragraphs • 2 Major Parts';
+      else if (w.id === 'pour-une-sagesse-tragique') scaleInfo = '450 Aligned Paragraphs • 3 Major Parts';
       else if (w.id === 'la-chapelle-ardente') scaleInfo = '105 Dialogue Rows • III Dramatic Acts';
       else if (w.id === 'le-chemin-de-crete') scaleInfo = '110 Dialogue Rows • IV Dramatic Acts';
       else if (w.id === 'le-declin-de-la-sagesse') scaleInfo = '100 Aligned Paragraphs • 3 Parts';
