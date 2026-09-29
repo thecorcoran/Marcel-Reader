@@ -72,16 +72,16 @@
       "category": "Philosophical Treatises & Essays",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (8 Essays, 105 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (8 Chapters, 615 Paras, ~65k Words)",
       "sections": [
-        { "id": "ess-1", "titleFr": "Chapitre I : L'être en situation", "titleEn": "Chapter 1: Being in a Situation" },
+        { "id": "ess-1", "titleFr": "Chapitre I : L'être en situation (Situation fondamentale et incarnation)", "titleEn": "Chapter 1: Being in a Situation (Fundamental Situation and Incarnation)" },
         { "id": "ess-2", "titleFr": "Chapitre II : Phénoménologie de la fidélité créatrice", "titleEn": "Chapter 2: Phenomenology of Creative Fidelity" },
         { "id": "ess-3", "titleFr": "Chapitre III : Sur l'opinion et la foi", "titleEn": "Chapter 3: On Opinion and Faith" },
         { "id": "ess-4", "titleFr": "Chapitre IV : La prière et la présence", "titleEn": "Chapter 4: Prayer and Presence" },
         { "id": "ess-5", "titleFr": "Chapitre V : L'acte et la personne", "titleEn": "Chapter 5: The Act and the Person" },
-        { "id": "ess-6", "titleFr": "Chapitre VI : Aperçus sur l'espérance", "titleEn": "Chapter 6: Insights on Hope" },
-        { "id": "ess-7", "titleFr": "Chapitre VII : Valeur et immortalité", "titleEn": "Chapter 7: Value and Immortality" },
-        { "id": "ess-8", "titleFr": "Chapitre VIII : De l'inviolabilité de l'esprit", "titleEn": "Chapter 8: On the Inviolability of the Spirit" }
+        { "id": "ess-6", "titleFr": "Chapitre VI : Aperçus phénoménologiques sur l'intersubjectivité", "titleEn": "Chapter 6: Phenomenological Insights on Intersubjectivity" },
+        { "id": "ess-7", "titleFr": "Chapitre VII : De l'invocation à l'espérance", "titleEn": "Chapter 7: From Invocation to Hope" },
+        { "id": "ess-8", "titleFr": "Chapitre VIII : Méditation sur l'inviolabilité de l'être", "titleEn": "Chapter 8: Meditation on the Inviolability of Being" }
       ]
     },
     "homo-viator": {
@@ -794,15 +794,15 @@
   };
 
   const CORPUS_METADATA = {
-    lastUpdated: "2026-09-28",
-    lastUpdatedFormatted: "September 28, 2026",
-    version: "Wave 13",
+    lastUpdated: "2026-09-29",
+    lastUpdatedFormatted: "September 29, 2026",
+    version: "Wave 14",
     totalWorks: 42,
-    unabridgedWorks: 17,
-    foundationalWorks: 25,
-    totalUnabridgedRows: 15465,
-    totalCorpusRows: 18285,
-    totalWordsEstimate: "1,670,000+"
+    unabridgedWorks: 18,
+    foundationalWorks: 24,
+    totalUnabridgedRows: 15975,
+    totalCorpusRows: 15975,
+    totalWordsEstimate: "1,720,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {

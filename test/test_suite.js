@@ -117,7 +117,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v18'), 'Service Worker defines cache version v18');
+assert(swContent.includes('marcel-reader-v20'), 'Service Worker defines cache version v20');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -340,8 +340,8 @@ assert(homoViator.paragraphs.length === 556, `${homoViator.titleEn}: Contains co
 assert(homoViator.sections.length === 11, `${homoViator.titleEn}: Defines all 11 Sections / Chapters`);
 
 assert(duRefus.unabridged === true, `${duRefus.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(duRefus.paragraphs.length === 105, `${duRefus.titleEn}: Contains complete 105 verbatim paragraphs`);
-assert(duRefus.sections.length === 8, `${duRefus.titleEn}: Defines all VIII Essays`);
+assert(duRefus.paragraphs.length === 615, `${duRefus.titleEn}: Contains complete 615 verbatim paragraphs`);
+assert(duRefus.sections.length === 8, `${duRefus.titleEn}: Defines all VIII Chapters`);
 
 assert(unHommeDeDieu.unabridged === true, `${unHommeDeDieu.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(unHommeDeDieu.paragraphs.length === 1390, `${unHommeDeDieu.titleEn}: Contains complete 1,390 verbatim dialogue rows`);
@@ -428,7 +428,6 @@ assert(regardsClaudel.paragraphs.length === 105, `${regardsClaudel.titleEn}: Con
 assert(regardsClaudel.sections.length === 3, `${regardsClaudel.titleEn}: Defines all 3 Parts`);
 
 assert(lePalaisDeSable.unabridged === true, `${lePalaisDeSable.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(lePalaisDeSable.paragraphs.length === 110, `${lePalaisDeSable.titleEn}: Contains complete 110 verbatim dialogue rows`);
 assert(lePalaisDeSable.paragraphs.length === 1040, `${lePalaisDeSable.titleEn}: Contains complete 1,040 verbatim dialogue rows`);
 assert(lePalaisDeSable.sections.length === 4, `${lePalaisDeSable.titleEn}: Defines all IV Acts`);
 
@@ -487,8 +486,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 14535, `Total unabridged rows across 42 masterworks equals 14,535 (actual: ${totalUnabridgedRows})`);
-assert(totalUnabridgedRows === 15465, `Total unabridged rows across 42 masterworks equals 15,465 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 15975, `Total unabridged rows across 42 masterworks equals 15,975 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -825,27 +823,27 @@ window.selectSection('all');
 const hvAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(hvAllRestored === 556, `All 556 paragraphs restored upon selecting "All Sections" for Homo Viator`);
 
-// 6. Test Switch to Du refus à l'invocation / Creative Fidelity (Verbatim 105 paragraphs)
+// 6. Test Switch to Du refus à l'invocation / Creative Fidelity (Verbatim 615 paragraphs)
 window.switchWork('du-refus-a-linvocation');
 const duRefusRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(duRefusRows === 105, `Rendered full 105 verbatim paragraphs for Du refus à l'invocation (actual: ${duRefusRows})`);
+assert(duRefusRows === 75, `Smart default renders Chapter 1 (75 paragraphs) for Du refus à l'invocation (actual: ${duRefusRows})`);
 
-// Test Essay Filtering for Du refus à l'invocation
+// Test Chapter Filtering for Du refus à l'invocation
 window.selectSection('ess-1');
 const ess1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ess1Rows === 13, `Essay 1 (Being in a Situation) filtered to exactly 13 paragraphs (actual: ${ess1Rows})`);
+assert(ess1Rows === 75, `Chapter 1 (Being in a Situation) filtered to exactly 75 paragraphs (actual: ${ess1Rows})`);
 
 window.selectSection('ess-2');
 const ess2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ess2Rows === 13, `Essay 2 (Creative Fidelity) filtered to exactly 13 paragraphs (actual: ${ess2Rows})`);
+assert(ess2Rows === 80, `Chapter 2 (Creative Fidelity) filtered to exactly 80 paragraphs (actual: ${ess2Rows})`);
 
 window.selectSection('ess-8');
 const ess8Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(ess8Rows === 14, `Essay 8 (Inviolability of Spirit) filtered to exactly 14 paragraphs (actual: ${ess8Rows})`);
+assert(ess8Rows === 80, `Chapter 8 (Inviolability of Being) filtered to exactly 80 paragraphs (actual: ${ess8Rows})`);
 
 window.selectSection('all');
 const duRefusAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(duRefusAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Du refus à l'invocation`);
+assert(duRefusAllRestored === 615, `All 615 paragraphs restored upon selecting "All Sections" for Du refus à l'invocation`);
 
 // 7. Test Switch to Un Homme de Dieu (Verbatim 1,390 dialogue rows across IV Acts)
 window.switchWork('un-homme-de-dieu');
@@ -1296,36 +1294,29 @@ window.selectSection('all');
 const rscAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(rscAllRestored === 105, `All 105 paragraphs restored upon selecting "All Sections" for Regards sur Claudel`);
 
-// 28. Test Switch to Le Palais de sable (Verbatim 110 dialogue rows across 4 Acts)
 // 28. Test Switch to Le Palais de sable (Verbatim 1,040 dialogue rows across 4 Acts)
 window.switchWork('le-palais-de-sable');
 const pdsRows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsRows === 110, `Rendered full 110 verbatim dialogue rows for Le Palais de sable (actual: ${pdsRows})`);
 assert(pdsRows === 260, `Smart default renders Act I (260 dialogue rows) for Le Palais de sable (actual: ${pdsRows})`);
 
 window.selectSection('act-1');
 const pdsAct1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAct1Rows === 28, `Le Palais de sable Act I filtered to exactly 28 dialogue rows (actual: ${pdsAct1Rows})`);
 assert(pdsAct1Rows === 260, `Le Palais de sable Act I filtered to exactly 260 dialogue rows (actual: ${pdsAct1Rows})`);
 
 window.selectSection('act-2');
 const pdsAct2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAct2Rows === 28, `Le Palais de sable Act II filtered to exactly 28 dialogue rows (actual: ${pdsAct2Rows})`);
 assert(pdsAct2Rows === 260, `Le Palais de sable Act II filtered to exactly 260 dialogue rows (actual: ${pdsAct2Rows})`);
 
 window.selectSection('act-3');
 const pdsAct3Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAct3Rows === 28, `Le Palais de sable Act III filtered to exactly 28 dialogue rows (actual: ${pdsAct3Rows})`);
 assert(pdsAct3Rows === 260, `Le Palais de sable Act III filtered to exactly 260 dialogue rows (actual: ${pdsAct3Rows})`);
 
 window.selectSection('act-4');
 const pdsAct4Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAct4Rows === 26, `Le Palais de sable Act IV filtered to exactly 26 dialogue rows (actual: ${pdsAct4Rows})`);
 assert(pdsAct4Rows === 260, `Le Palais de sable Act IV filtered to exactly 260 dialogue rows (actual: ${pdsAct4Rows})`);
 
 window.selectSection('all');
 const pdsAllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(pdsAllRestored === 110, `All 110 dialogue rows restored upon selecting "All Sections" for Le Palais de sable`);
 assert(pdsAllRestored === 1040, `All 1,040 dialogue rows restored upon selecting "All Sections" for Le Palais de sable`);
 
 // 29. Test Switch to La Grâce (Verbatim 100 dialogue rows across 3 Acts)
@@ -1830,30 +1821,21 @@ const corpusModule = require(path.join(root, 'data/corpus.js'));
 const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
-assert(meta.lastUpdated === '2026-09-24', 'Corpus metadata lastUpdated is 2026-09-24');
-assert(meta.version === 'Wave 12', 'Corpus metadata version is Wave 12');
-assert(meta.lastUpdated === '2026-09-28', 'Corpus metadata lastUpdated is 2026-09-28');
-assert(meta.version === 'Wave 13', 'Corpus metadata version is Wave 13');
+assert(meta.lastUpdated === '2026-09-29', 'Corpus metadata lastUpdated is 2026-09-29');
+assert(meta.version === 'Wave 14', 'Corpus metadata version is Wave 14');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 16, 'Corpus metadata reports 16 unabridged flagship works');
-assert(meta.foundationalWorks === 26, 'Corpus metadata reports 26 foundational study editions');
-assert(meta.totalUnabridgedRows === 14535, 'Corpus metadata reports 14,535 unabridged rows');
-assert(meta.unabridgedWorks === 17, 'Corpus metadata reports 17 unabridged flagship works');
-assert(meta.foundationalWorks === 25, 'Corpus metadata reports 25 foundational study editions');
-assert(meta.totalUnabridgedRows === 15465, 'Corpus metadata reports 15,465 unabridged rows');
+assert(meta.unabridgedWorks === 18, 'Corpus metadata reports 18 unabridged flagship works');
+assert(meta.foundationalWorks === 24, 'Corpus metadata reports 24 foundational study editions');
+assert(meta.totalUnabridgedRows === 15975, 'Corpus metadata reports 15,975 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
-assert(getEl('last-updated-date').textContent.includes('September 24, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 12', 'Hero last-updated-version populated with Wave 12');
-assert(getEl('last-updated-date').textContent.includes('September 28, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 13', 'Hero last-updated-version populated with Wave 13');
-assert(getEl('footer-updated-date').textContent.includes('September 24, 2026'), 'Footer last-updated-date populated with formatted date');
-assert(getEl('reader-updated-date').textContent.includes('September 24, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
-assert(getEl('footer-updated-date').textContent.includes('September 28, 2026'), 'Footer last-updated-date populated with formatted date');
-assert(getEl('reader-updated-date').textContent.includes('September 28, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
+assert(getEl('last-updated-date').textContent.includes('September 29, 2026'), 'Hero last-updated-date populated with formatted date');
+assert(getEl('last-updated-version').textContent === 'Wave 14', 'Hero last-updated-version populated with Wave 14');
+assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
+assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 
 console.log('\n====================================================');
 console.log(`🎉 TEST RUN COMPLETE: ${passedTests}/${totalTests} TESTS PASSED`);
