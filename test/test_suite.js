@@ -117,7 +117,7 @@ try {
 
 const swPath = path.join(root, 'sw.js');
 const swContent = fs.readFileSync(swPath, 'utf8');
-assert(swContent.includes('marcel-reader-v20'), 'Service Worker defines cache version v20');
+assert(swContent.includes('marcel-reader-v21'), 'Service Worker defines cache version v21');
 assert(swContent.includes('positions-mystere-ontologique.js'), 'Service Worker precaches Tier 1 work files');
 assert(swContent.includes('homo-viator.js'), 'Service Worker precaches Homo Viator');
 assert(swContent.includes('du-refus-a-linvocation.js'), 'Service Worker precaches Du refus à l\'invocation');
@@ -333,7 +333,8 @@ assert(mysteryBeing1.paragraphs.length === 415, `${mysteryBeing1.titleEn}: Conta
 assert(mysteryBeing1.sections.length === 10, `${mysteryBeing1.titleEn}: Defines all 10 Lectures`);
 
 assert(mysteryBeing2.unabridged === true, `${mysteryBeing2.titleEn}: Marked as Verified Verbatim Unabridged`);
-assert(mysteryBeing2.paragraphs.length === 105, `${mysteryBeing2.titleEn}: Contains complete 105 verbatim lecture paragraphs`);
+assert(mysteryBeing2.paragraphs.length === 420, `${mysteryBeing2.titleEn}: Contains complete 420 unabridged lecture paragraphs`);
+assert(mysteryBeing2.sections.length === 10, `${mysteryBeing2.titleEn}: Defines all 10 Lectures`);
 
 assert(homoViator.unabridged === true, `${homoViator.titleEn}: Marked as Verified Verbatim Unabridged`);
 assert(homoViator.paragraphs.length === 556, `${homoViator.titleEn}: Contains complete 556 verbatim paragraphs`);
@@ -486,7 +487,7 @@ assert(laDimensionFlorestan.sections.length === 3, `${laDimensionFlorestan.title
 assert(unabridgedList.every(w => w.unabridged === true), 'All 42 Unabridged Works are 100% Verified Verbatim Unabridged');
 assert(unabridgedList.length === 42, 'unabridgedList contains exactly 42 masterworks');
 const totalUnabridgedRows = unabridgedList.reduce((acc, w) => acc + w.paragraphs.length, 0);
-assert(totalUnabridgedRows === 15975, `Total unabridged rows across 42 masterworks equals 15,975 (actual: ${totalUnabridgedRows})`);
+assert(totalUnabridgedRows === 16290, `Total unabridged rows across 42 masterworks equals 16,290 (actual: ${totalUnabridgedRows})`);
 
 unabridgedList.forEach(w => {
   assert(Array.isArray(w.sections) && w.sections.length > 0, `${w.titleEn}: Defines sections (${w.sections.length} sections)`);
@@ -618,32 +619,31 @@ window.selectSection('lec-10');
 const lec10Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
 assert(lec10Rows === 56, `Lecture 10 filtered to exactly 56 paragraphs (actual: ${lec10Rows})`);
 
-// Test Switch to The Mystery of Being, Vol. 2 (Verbatim 105 paragraphs)
+// Test Switch to The Mystery of Being, Vol. 2 (Verbatim 420 paragraphs across 10 Lectures)
 window.switchWork('mystere-de-letre-2');
-window.selectSection('all');
 const mystery2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mystery2Rows === 105, `Rendered full 105 verbatim lecture paragraphs for Mystery of Being Vol. 2 (actual: ${mystery2Rows})`);
+assert(mystery2Rows === 42, `Smart default renders Lecture 1 (42 paragraphs) for Mystery of Being Vol. 2 (actual: ${mystery2Rows})`);
 
 // Test Lecture Filtering for Mystery of Being Vol. 2
 window.selectSection('lec-1');
 const m2Lec1Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(m2Lec1Rows === 10, `Mystery Vol 2: Lecture 1 filtered to exactly 10 paragraphs (actual: ${m2Lec1Rows})`);
+assert(m2Lec1Rows === 42, `Mystery Vol 2: Lecture 1 filtered to exactly 42 paragraphs (actual: ${m2Lec1Rows})`);
 
 window.selectSection('lec-2');
 const m2Lec2Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(m2Lec2Rows === 11, `Mystery Vol 2: Lecture 2 filtered to exactly 11 paragraphs (actual: ${m2Lec2Rows})`);
+assert(m2Lec2Rows === 42, `Mystery Vol 2: Lecture 2 filtered to exactly 42 paragraphs (actual: ${m2Lec2Rows})`);
 
 window.selectSection('lec-5');
 const m2Lec5Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(m2Lec5Rows === 11, `Mystery Vol 2: Lecture 5 filtered to exactly 11 paragraphs (actual: ${m2Lec5Rows})`);
+assert(m2Lec5Rows === 42, `Mystery Vol 2: Lecture 5 filtered to exactly 42 paragraphs (actual: ${m2Lec5Rows})`);
 
 window.selectSection('lec-10');
 const m2Lec10Rows = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(m2Lec10Rows === 10, `Mystery Vol 2: Lecture 10 filtered to exactly 10 paragraphs (actual: ${m2Lec10Rows})`);
+assert(m2Lec10Rows === 42, `Mystery Vol 2: Lecture 10 filtered to exactly 42 paragraphs (actual: ${m2Lec10Rows})`);
 
 window.selectSection('all');
 const mystery2AllRestored = (getEl('reader-blocks').innerHTML.match(/class="paragraph-pair-row"/g) || []).length;
-assert(mystery2AllRestored === 105, `All 105 lecture paragraphs restored upon selecting "All Sections" for Mystery of Being Vol. 2`);
+assert(mystery2AllRestored === 420, `All 420 lecture paragraphs restored upon selecting "All Sections" for Mystery of Being Vol. 2`);
 
 // Reading Mode Switching
 window.setMode('en');
@@ -1822,18 +1822,18 @@ const meta = corpusModule.metadata || window.MARCEL_CORPUS_METADATA;
 
 assert(!!meta, 'Corpus metadata is defined and exported');
 assert(meta.lastUpdated === '2026-09-29', 'Corpus metadata lastUpdated is 2026-09-29');
-assert(meta.version === 'Wave 14', 'Corpus metadata version is Wave 14');
+assert(meta.version === 'Wave 15', 'Corpus metadata version is Wave 15');
 assert(meta.totalWorks === 42, 'Corpus metadata reports 42 total works');
-assert(meta.unabridgedWorks === 18, 'Corpus metadata reports 18 unabridged flagship works');
-assert(meta.foundationalWorks === 24, 'Corpus metadata reports 24 foundational study editions');
-assert(meta.totalUnabridgedRows === 15975, 'Corpus metadata reports 15,975 unabridged rows');
+assert(meta.unabridgedWorks === 19, 'Corpus metadata reports 19 unabridged flagship works');
+assert(meta.foundationalWorks === 23, 'Corpus metadata reports 23 foundational study editions');
+assert(meta.totalUnabridgedRows === 16290, 'Corpus metadata reports 16,290 unabridged rows');
 
 // Verify Last Updated DOM elements populated by app controller
 if (typeof window.initLastUpdatedDisplay === 'function') {
   window.initLastUpdatedDisplay();
 }
 assert(getEl('last-updated-date').textContent.includes('September 29, 2026'), 'Hero last-updated-date populated with formatted date');
-assert(getEl('last-updated-version').textContent === 'Wave 14', 'Hero last-updated-version populated with Wave 14');
+assert(getEl('last-updated-version').textContent === 'Wave 15', 'Hero last-updated-version populated with Wave 15');
 assert(getEl('footer-updated-date').textContent.includes('September 29, 2026'), 'Footer last-updated-date populated with formatted date');
 assert(getEl('reader-updated-date').textContent.includes('September 29, 2026'), 'Reader reader-updated-date populated with formatted date and wave');
 

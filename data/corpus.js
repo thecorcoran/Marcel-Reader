@@ -292,7 +292,7 @@
       "companionTitle": "The Mystery of Being, Vol. 1: Reflection and Mystery (1951)",
       "unabridged": true,
       "statusBadge": "Verified Verbatim Unabridged",
-      "unabridgedBadge": "Verified Verbatim Unabridged (10 Lectures, 105 Paras)",
+      "unabridgedBadge": "Verified Verbatim Unabridged (10 Lectures, 420 Paras, ~90k Words)",
       "sections": [
         { "id": "lec-1", "titleFr": "Conférence I : La question de l'être", "titleEn": "Lecture 1: The Question of Being" },
         { "id": "lec-2", "titleFr": "Conférence II : Existence et être", "titleEn": "Lecture 2: Existence and Being" },
@@ -796,13 +796,13 @@
   const CORPUS_METADATA = {
     lastUpdated: "2026-09-29",
     lastUpdatedFormatted: "September 29, 2026",
-    version: "Wave 14",
+    version: "Wave 15",
     totalWorks: 42,
-    unabridgedWorks: 18,
-    foundationalWorks: 24,
-    totalUnabridgedRows: 15975,
-    totalCorpusRows: 15975,
-    totalWordsEstimate: "1,720,000+"
+    unabridgedWorks: 19,
+    foundationalWorks: 23,
+    totalUnabridgedRows: 16290,
+    totalCorpusRows: 16290,
+    totalWordsEstimate: "1,740,000+"
   };
 
   Object.defineProperty(CORPUS_DATA, "metadata", {
